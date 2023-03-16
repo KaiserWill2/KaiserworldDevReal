@@ -1,0 +1,200 @@
+##### PCAENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+PCA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { PCA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "Destroyer DD-%d"					
+
+	unique = {											
+		"Yukon" "Columbia" "Red" "Snake" "Brazos" "Green" "Pecos" "White" "James" "Kuskokwim " "Cimarron" "Cumberland" "Yellowstone" "North Platte" "Ouachita" "Gila" "Sheyenne" "Tanana" "Smoky Hill" "Niobrara" "Sabine" "Trinity" "Wabash" "Tallapoosa" "Chattahoochee" "Cahaba" "Kuskokwim" "Koyukuk" "Noatak" "Porcupine" "Klamath" "Amargosa" "Pit" "Eel" "Trinity" "Cimmaron" "South Platte" "Housatonic" "Quinebaug" "Farmington" "Quinnipiac" "Pawcatuck" "Shepaug" "Choptank" "Pocomoke" "Nanticoke" "Marshyhope" "Suwannee" "Ochlockonee" "Conecuh" "Pea" "Choctawhatchee" "Withlacoochee" "Savannah" "Ogeechee" "Coosa" "Kolekole" "Hanalei" "Waimea" "Anahulu" "Kaukonahua" "Kootenai" "Owyhee" "Wabash" "Kaskaskia" "Tippecanoe" "Patoka" "Kankakee" "Big Sioux" "Cedar" "Chariton" "Wapsipinicon" "Neosho" "Tug" "Levisa" "Calcasieu" "Susquehanna" "Youghiogheny" "Monocacy" "Merrimack" "Deerfield" "Muskegon" "Kalamazoo" "Shiawassee" "Menominee" "Roseau" "Otter Tail" "Chickasawhay" "Tombigbee" "Hatchie" "Yalobusha" "Chariton" "Meramec" "Osage" "Gasconade" "Bighorn" "Kootenay" "Powder" "Musselshell" "Elkhorn" "Humboldt" "Carson" "Pemigewasset" "Ammonoosuc" "Magalloway" "Lamprey" "Contoocook" "Androscoggin" "Raritan" "Wallkill" "Passaic" "Musconetcong" "Hackensack" "Raquette" "Mohawk" "Allegheny" "Oswegatchie" "Catawba" "Neuse" "Pee Dee" "Roanoke" "Yadkin" "Tar" "Pembina" "Maple" "Scioto" "Maumee" "Sandusky" "Tuscarawas" "Raccoon Creek" "Auglaize" "Mahoning" "Verdigris" "Washita" "Malheur" "Willamette" "Monongahela" "Schuylkill" "Genesee" "Moosup" "Wood" "Woonasquatucket" "Ponaganset" "Pawtuxet" "Saluda" "Broad" "Congaree" "Santee" "Moreau" "Cheyenne" "Winooski" "Missisquoi" "Lamoille" "Rappahannock" "Appomattox" "Similkameen" "Guyandotte" "Greenbrier" "Wolf" "Fox" "Pecatonica" "Bear" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+PCA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { PCA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "Light Cruiser CL-%d"
+
+	unique = {
+		"North Carolina" "Washington" "South Dakota" "Indiana" "Massachusetts" "Alabama" "Iowa" "New Jersey" "Missouri" "Wisconsin" "Montana" "Ohio" "Illinois" "Kentucky"   
+		"Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" "New Mexico" "Mississippi" "Idaho" "Tennessee" "California" "Colorado" "Maryland" "West Virginia" 
+		# From Wiki (never completed)
+		"Minnesota" "North Dakota" "Oregon" "Connecticut" "Vermont" "New Hampshire" "Florida" "Utah" "Delaware" "Michigan" "Kansas" "Rhode Island" "Nebraska" "Virginia"
+		# Older/Other state names
+		"Maine" "Louisiana" "South Carolina" "Wyoming" "Georgia" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+PCA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { PCA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+		"North Carolina" "Washington" "South Dakota" "Indiana" "Massachusetts" "Alabama" "Iowa" "New Jersey" "Missouri" "Wisconsin" "Montana" "Ohio" "Illinois" "Kentucky"   
+		"Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" "New Mexico" "Mississippi" "Idaho" "Tennessee" "California" "Colorado" "Maryland" "West Virginia" 
+		# From Wiki (never completed)
+		"Minnesota" "North Dakota" "Oregon" "Connecticut" "Vermont" "New Hampshire" "Florida" "Utah" "Delaware" "Michigan" "Kansas" "Rhode Island" "Nebraska" "Virginia"
+		# Older/Other state names
+		"Maine" "Louisiana" "South Carolina" "Wyoming" "Georgia" 
+	}
+}
+
+### BATTLESHIP NAMES ###
+PCA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { PCA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "Battleship BB-%d"		
+
+	unique = {
+		"Wilhelm Pieck" "Georgy Zhukov" "Mátyás Rákosi" "Salvador Allende" "Hugo Chavez" "Karl Marx" "Frederick Engels" "Maurice Thorez" "Dolores Ibárruri" "Gus Hall" "Palmiro Togliatti" "Angela Davis" "Kim Jong IL" "Walter Ulbricht" "János Kádár" "Fidel Castro" "Antonio Gramsci" "Enver Hoxha" "Jack Reed" "Joshep Stalin" "Wojciech Jaruzelski" "Nicolae Ceaușescu" "Vladimir Lenin" "Klement Gottwald" "Georgy Malenkov" "Dmitry Yazov" "Béla Kun" "Georgy Romanov" "Enrico Berlinguer" "Kim Il-sung" "Georgy Dimitrov" "Santiago Carrillo" "Dmitry Ustinov" "Thomas Sankara" "Mengistu Haile Mariam" "Ho Chi Minh" "Sanzō Nosaka" "Che Guevara" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+PCA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { PCA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "Carrier CV-%d"	
+
+	unique = {
+		"Wilhelm Pieck" "Georgy Zhukov" "Mátyás Rákosi" "Salvador Allende" "Hugo Chavez" "Karl Marx" "Frederick Engels" "Maurice Thorez" "Dolores Ibárruri" "Gus Hall" "Palmiro Togliatti" "Angela Davis" "Kim Jong IL" "Walter Ulbricht" "János Kádár" "Fidel Castro" "Antonio Gramsci" "Enver Hoxha" "Jack Reed" "Joshep Stalin" "Wojciech Jaruzelski" "Nicolae Ceaușescu" "Vladimir Lenin" "Klement Gottwald" "Georgy Malenkov" "Dmitry Yazov" "Béla Kun" "Georgy Romanov" "Enrico Berlinguer" "Kim Il-sung" "Georgy Dimitrov" "Santiago Carrillo" "Dmitry Ustinov" "Thomas Sankara" "Mengistu Haile Mariam" "Ho Chi Minh" "Sanzō Nosaka" "Che Guevara" 
+	}
+}
+
+### SUBMARINES ###
+
+PCA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { PCA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "Submarine SS-%d"
+	
+	unique = {
+		"Washington" "New York City" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" "Kansas City" "Milwaukee" "New Orleans" "Cincinnati" "Miami" "Indianapolis" "Seattle" "Dallas" "Atlanta" "Buffalo" "Minneapolis" "Denver" "Omaha" "San Diego" "Nashville" "Oklahoma City" "Louisville" "Phoenix" "Portland" "Rochester" "Albany" "Albuquerque" "Alexandria" "Amsterdam" "Annapolis" "Anniston" "Asheville" "Astoria" "Augusta" "Baton Rouge" "Biloxi" "Birmingham" "Boise" "Bremerton" "Bridgeport" "Brooklyn" "Cambridge" "Cheyenne" "Charleston" "Charlotte" "Chattanooga" "Chester" "Columbia" "Columbus" "Concord" "Corpus Christi" "Dayton" "Des Moines" "Duluth" "Fall River" "Fargo" "Flint" "Frederick" "Fresno" "Galena" "Galveston" "Gary" "Greenville" "Groton" "Hampton" "Hartford" "Helena" "Honolulu" "Houston" "Huntington" "Huron" "Jacksonville" "Jefferson City" "Juneau" "Key West" "La Jolla" "Lancaster" "Long Beach" "Little Rock" "Macon" "Manchester" "Marblehead" "Marion" "Memphis" "Missoula" "Mobile" "Mohican" "Montgomery" "Montpelier" "New Haven" "Newark" "Newport News" "Norfolk" "Northampton" "Oakland" "Olympia" "Oregon City" "Pasadena" "Pensacola" "Portsmouth" "Providence" "Pueblo" "Quincy" "Quinnebaug" "Raleigh" "Reno" "Richmond" "Roanoke" "St. Paul" "Salem" "Salt Lake City" "San Juan" "Santa Fe" "Saratoga" "Savannah" "Swatara"	"Scranton" "Spokane" "Springfield" "Tacoma" "Tahoe" "Tallahassee" "Toledo" "Topeka" "Trenton" "Tucson" "Tulsa" "Tuscaloosa" "Vallejo" "Vicksburg" "Wichita" "Wilkes-Barre" "Wilmington" "Worcester" "Yosemite" "Youngstown" "Morganton" "Mandan" "Elizabethton" "Jackson" "Crystal City" "Huntsville" "Harpers Ferry" "Charles Town" "Summersville"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+#PCA_BC_HISTORICAL = {
+#	name = NAME_THEME_HISTORICAL_BC
+#
+#	for_countries = { PCA }
+#
+#	type = ship
+#	ship_types = { ship_hull_heavy battle_cruiser }
+#	
+#	
+#	fallback_name = "Battlecruiser BC-%d"	
+#
+#	unique = {
+#		"Azopardo" "Sarandí" "Espora" "Rivadavia" "Moreno" 
+#	}
+#}
+PCA_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { PCA }
+
+	type = ship
+	
+								
+
+	unique = {
+		"Albacore" "Amberjack" "Angler" "Apogon" "Aspro" "Archerfish" "Atule" "Barracuda" "Bass" "Bonita" "Barb" "Blackfish" "Bluefish" "Bonefish" "Bashaw" "Bluegill" "Bream" "Balao" "Billfish" "Bowfin" "Batfish" "Burrfish" 
+		"Barbel" "Barbero" "Baya" "Becuna" "Bang" "Bergall" "Besugo" "Blackfin" "Blenny" "Blower" "Blueback" "Boarfish" "Brill" "Bugara" "Bullhead" "Bumper" "Cachalot" "Cuttlefish" "Cavalla" "Cobia" "Croaker" "Cod" "Cero" 
+		"Corvina" "Cabrilla" "Capelin" "Cisco" "Crevalle" "Caiman" "Charr" "Chub" "Cabezon" "Capitaine" "Carbonero" "Carp" "Catfish" "Chivo" "Chopper" "Clamagore" "Cobbler" "Cochino" "Corporal" "Cubera" "Cusk" "Conger" "Comber" 
+		"Dolphin" "Darter" "Drum" "Devilfish" "Dragonet" "Dentuda" "Diodon" "Dogfish" "Dugong" "Escolar" "Entemedor" "Eel" "Espada" "Flying Fish" "Finback" "Flasher" "Flier" "Flounder" 
+		"Gar" "Grampus" "Grayback" "Grayling" "Gato" "Greenling" "Grouper" "Growler" "Grunion" "Guardfish" "Gabilan" "Gunnel" "Gurnard" "Greenfish" "Garlopa" "Garrupa" "Goldring" "Golet" "Guavina" "Guitarro" 
+		"Haddock" "Halibut" "Herring""Haddo" "Hake" "Harder" "Hoe" "Hackleback" "Halfbeak" "Hammerhead" "Hardhead" "Hawkbill" "Icefish" "Irex" "Jack" "Jawfish" "Jallao" "Kete" "Kraken" "Kingfish" 
+		"Lapon" "Lancetfish" "Ling" "Lionfish" "Lagarto" "Lamprey" "Lizardfish" "Loggerhead" "Manta" "Moray" "Mingo" "Muskallunge" "Mackerel" "Marlin" "Macabi" "Mapiro" "Menhaden" "Mero" "Medregal" 
+		"Narwhal" "Nautilus" "Needlefish" "Nerka" "Ono" "Odax" "Porpoise" "Pike" "Perch" "Pickerel" "Pompano" "Paddle" "Pargo" "Peto" "Pogy" "Pompon" "Puffer" "Piper" "Rasher" "Picuda" "Pampanito" "Parche" "Pilotfish" "Pintado" 
+		"Pipefish" "Piranha" "Plaice" "Pomfret" "Pomodon" "Queenfish" "Quillback" "Raton" "Ray" "Redfin" "Robalo" "Rock" "Runner" "Roncador" "Razorback" "Redfish" "Ronquil" "Requin" "Remora" 
+		"Shark" "Salmon" "Seal" "Skipjack" "Snapper" "Stingray" "Sturgeon" "Sargo" "Saury" "Spearfish" "Sculpin" "Sailfish" "Swordfish" "Seadragon" "Sealion" "Searaven" "Seawolf" "Shad" "Silversides" "Sawfish" "Scamp" "Scorpion" 
+		"Snook" "Steelhead" "Sunfish" "Sabalo" "Sablefish" "Seahorse" "Skate" "Sand Lance" "Sterlet" "Scabbardfish" "Segundo" "Sea Cat" "Sea Devil" "Sea Dog" "Sea Fox" "Spikefish" "Sea Owl" "Sea Poacher" "Sea Robin" "Sennet" 
+		"Spadefish" "Spot" "Springer" "Stickleback" "Sea Leopard" "Sirago" "Sarda" "Spinax" "Sea Panther" "Springeren" "Tarpon" "Tambor" "Tautog" "Thresher" "Trout" "Tuna" "Tunny" "Tinosa" "Tullibee" "Tang" "Tilefish" "Threadfin" 
+		"Trepang" "Tiru" "Tench" "Thornback" "Tigrone" "Tirante" "Trutta" "Toro" "Torsk" "Trumpetfish" "Tusk" "Turbot" "Tiburon" "Ulua" "Vendace" "Wahoo" "Whale" "Walrus" "Whitefish" "Whiting" "Wolffish" 
+	}
+}
+
+PCA_SS_FOSTER = {
+	name = NAME_THEME_ANTI_AMERICANIST_SS
+
+	for_countries = { PCA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "Submarine SS-%d"
+	
+	unique = {
+		"Georgy Malenkov City" "Wa’aach " "Foster City" "Chemeketa" "Multnomah City" "Luxemburg" "Chavez" "Kalapuya" "Bedacht" "Cosoy" "Grigory Romanov City" "Yowlumne" "Winston City" "Honeckerville" "Dennis" "Molotov Falls" "Gerson" "Gus Hall City" "Timpanogas" "Ammalapáshkuua" "Liebknecht" "Allen" "Tomah" "Goldsville" "Fishman" "Abtville" "Molotov" "Greentown" "Tikas Springs" "Goldwater" "Merriman City" "Nygard" "Hall" "Katterfeld" "Blanquiville" "Floryville" "Cuarón" "Jack Hall City" "Kurnakov" "Oliver" "Foster" "Mels City" "Marx" "Ruthenberg" "Che Guevara City" "Thälmannburg" "Codovilla City" "Irving" "Togliattiville" "Claudeville" "Gelders" "Kunville" "Dimitrovburg" "Marxville" "Engelsville" "Salaria" "Konarville" "Amisville" "Gustáv Husák City" "Fordville" "Berlinguerville" "Vieira" "Pieck-Grotewohl" "Kahloburg" "Pollittville" "Grossmanville" "Marighella" "Mattson" "Prestopolis" "Albert Inkpin City" "Rochetville" "Fidel Castro City" "Kim Il-Sung City" "Toussaint" "Romanovburg" "Engels City" "Fraina City" "Uphamville" "Lenin City" "Malenkovburg" "Reeveburg" "Tesla" "Weinstone City" "Harrisonburg" "Bimbaville" "Bittelman" "Jakiraburg" "Bernardsville" "Amterville" "Dunnburg" "Robertville" "Perlo City" "Krafsurburg" "Wagenknecht" "Angelo Herndon City" "Kosyginburg" "Zhukovburg" "Garlandville" "Gusville" "Sankara City" "Jaruzelskipolis" "Kaw-Goosh-Kaw-Nick" "Epstein City" "Stalin City" "Marx City"
+	}
+}
+PCA_CL_FOSTER = {
+	name = NAME_THEME_ANTI_AMERICANIST_CL
+
+	for_countries = { PCA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "Light Cruiser CL-%d"
+
+	unique = {
+	"Guevara" "North Guevara" "Haywodd" "Yazov" "Calderwood" "Reed" "Molotov" "Hoxha" "Maurer" "Ceausescu" "Western Ceausescu" "Tikas" "Kalinin" "Shabazz" "Luxemburg" "East Luxemburg" "De Leon" "Hall" "Peters" "Anneke" "North Webb" "Prestes" "Weinstone" "Rosenberg" "Cleaver" "Newton" "Evers" "Honecker" "Ulbright" "Sankara" "Stalin" "Castro" "Minh" "Kim" "Davis" "Bellamy" "Hampton" "Webb" "Ruthenberg" "Blizzard" "North Davis" "Marx" "Reeve" "Lemilch" "Lenin" "Marchais" "Berlinguer" "Liebknecht" "Flynn" "Engels" "Romanov" "Mitchell" "Malenkov" 
+	}
+}
+PCA_CA_FOSTER = {
+	name = NAME_THEME_ANTI_AMERICANIST_CA
+
+	for_countries = { PCA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+	"Guevara" "Haywodd" "Yazov" "Calderwood" "Reed" "Molotov" "Western Hoxha" "Hoxha"  "Maurer" "Ceausescu" "Tikas" "Kalinin" "Shabazz" "Luxemburg" "East Luxemburg" "De Leon" "Hall" "Peters" "Anneke" "North Webb" "Prestes" "Weinstone" "East De Leon" "Rosenberg" "Cleaver" "Newton" "Evers" "Honecker" "Ulbright" "Sankara" "Stalin" "Castro" "Minh" "Kim" "Davis" "Bellamy" "Hampton" "Webb" "Ruthenberg" "Blizzard" "North Davis" "Marx" "Reeve" "Lemilch" "Lenin" "Marchais" "Berlinguer" "Liebknecht" "Flynn" "Engels" "Romanov" "Mitchell" "Malenkov" "Northern Malenkov" "Southern Malenkov"
+	}
+}

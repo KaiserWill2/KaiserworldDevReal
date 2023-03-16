@@ -1,0 +1,305 @@
+characters={
+	SUD_muhammad_mukhtar_alkhatib={
+		name="Muhammad Mukhtar Al-Khatib"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Muhammad_Mukhtar_Al_Khatib.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_ali_kushayb={
+		name="Ali Kushayb"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Ali_Kushayb.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_omar_albashir={
+		name="Omar al-Bashir"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Omar_Al_Bashir.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_sadiq_almahdi={
+		name="Sadiq Al-Mahdi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Sadiq_Al_Mahdi.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_musa_hilal={
+		name="Musa Hilal"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Musa_Hilal.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_bolshevik
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_hassan_alturabi={
+		name="Hassan Al-Turabi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Hassan_Al_Turabi.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_hatim_alsir={
+		name="Hatim Al-Sir"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Hatim_al-Sir.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_adil_abdel_aati={
+		name="Adil Abdel Aati"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Adil_Abdel_Aati.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_ibrahim_nageeb={
+		name="Ibrahim Nageeb"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Ibrahim_Nageeb.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_malik_agar={
+		name="Malik Agar"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Malik_Agar.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_fatima_abdel_mahmoud={
+		name="Fatima Abdel Mahmoud"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUD/Portrait_SUD_Fatima_Abdel_Mahmoud.dds"
+			}
+		}
+		country_leader={
+			ideology=nasserism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUD_jamal_aldin_omar={
+		name="Jamal Aldin Omar"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SUD/portrait_Jamal_Aldin_Omar.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SUD_salah_gosh={
+		name="Salah Gosh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SUD/Portrait_Salah_Gosh.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless harsh_leader politically_connected }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SUD_mustafa_osman_obeid_salim={
+		name="Mustafa Osman Obeid Salim"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SUD/portrait_Mustafa_Osman_Obeid_Salim.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SUD_abdel_fattah_alburhan={
+		name="Abdel Fattah al-Burhan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SUD/portrait_Abdel_Fattah_al_Burhan.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=4
+			attack_skill=2
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SUD_ismat_abdelrahman={
+		name="Ismat Abdel-Rahman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SUD/portrait_Ismat_Abdel_Rahman.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SUD_ahmed_awad_ibn_auf={
+		name="Ahmed Awad Ibn Auf"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SUD/portrait_Ahmed_Awad_Ibn_Auf.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SUD_mohamed_hamdan_dagalo={
+		name="Mohamed Hamdan Dagalo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SUD/portrait_Mohamed_Hamdan_Dagalo.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader urban_assault_specialist }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SUD_musa_mohamed_ahmed={
+		name="Musa Mohamed Ahmed"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SUD/portrait_Musa_Mohamed_Ahmed.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,345 @@
+characters={
+	CHD_hassan_saleh_algaddam={
+		name="Hassan Saleh Al-Gaddam"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Hassan_Saleh_Al_Gaddam.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_acheikh_ibn_oumar={
+		name="Acheikh Ibn-Oumar"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Acheikh_Ibn_Oumar.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_abubakar_ibn_umar_garba={
+		name="Abubakar Ibn Umar Garba"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Abubakar_Ibn_Umar_Garba.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_idriss_déby={
+		name="Idriss Déby"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Idriss_Deby.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_mahamat_djarma_khatir={
+		name="Mahamat Djarma Khatir"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Mahamat_Djarma_Khatir.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_kingadé_ogouzeimi_de_tapol={
+		name="Kingadé Ogouzeimi de Tapol"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Kingadé_Ogouzeimi_de_Tapol.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_ngarlejy_yorongar={
+		name="Ngarlejy Yorongar"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Ngarlejy_Yorongar.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_saleh_kebzabo={
+		name="Saleh Kebzabo"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Saleh_Kebzabo.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_bourkou_louise_kabo={
+		name="Bourkou Louise Kabo"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Bourkou_Louise_Kabo.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_hissène_habré={
+		name="Hissène Habré"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Hissene_Habre.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_fidèle_moungar={
+		name="Fidèle Moungar"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Portrait_CHD_Fidele_Moungar.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_brahim_daoud_yaya={
+		name="Brahim Daoud Yaya"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Brahim_Daoud_Yaya.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CHD_abakar_abdelkarim_daoud={
+		name="Abakar Abdelkarim Daoud"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Abakar_Abdelkarim_Daoud.dds"
+			}
+		}
+		field_marshal={
+			traits={ desert_fox }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHD_abdelkerim_idriss_déby={
+		name="Abdelkerim Idriss Déby"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Abdelkerim_Idriss_Déby.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CHD_mahamat_idriss_déby={
+		name="Mahamat Idriss Déby"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Mahamat_Idriss_Déby.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHD_taher_erda_tairo={
+		name="Taher Erda Tairo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Taher_Erda_Tairo.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CHD_daoud_soumain={
+		name="Daoud Soumain"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Daoud_Soumain.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHD_azem_bermendoa_agouna={
+		name="Azem Bermendoa Agouna"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Azem_Bermendoa_Agouna.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHD_brahim_mahamat_seid={
+		name="Brahim Mahamat Seid"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Brahim_Mahamat_Seid.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_expert }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHD_abdoulaye_touffa={
+		name="Abdoulaye Touffa"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Abdoulaye_Touffa.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CHD_oumar_bikimo={
+		name="Oumar Bikimo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CHD/Portrait_Oumar_Bikimo.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

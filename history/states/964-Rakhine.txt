@@ -1,0 +1,29 @@
+
+state={
+	id=964
+	name="STATE_964"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = MYA
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			12090 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1014 1142 3651 12090 
+	}
+	manpower=3188807
+	buildings_max_level_factor=1.000
+	state_category=town
+}

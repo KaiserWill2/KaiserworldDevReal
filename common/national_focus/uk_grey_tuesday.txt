@@ -1,0 +1,742 @@
+focus_tree = {
+	id = british_grey_tuesday
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+
+focus = {
+	id = ENG_Grey_Tuesday
+	icon = grey_tuesday_icon
+	x = 24
+	y = 0
+	cost = 10
+	set_country_flag = keeping_things_stable
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	completion_reward = {
+		add_political_power = -50
+		country_event = {
+			id = England.53
+		}
+
+	}
+}
+
+focus = {
+	id = ENG_The_Day_Of_Mourning
+	icon = day_of_mourning
+	x = 24
+	y = 1
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Grey_Tuesday  }
+	completion_reward = {
+		add_stability = -0.2
+		country_event = {
+			id = England.54
+		}
+	}
+}
+
+
+focus = {
+	id = ENG_Lowering_The_Flag
+	icon = lowering_the_flag_icon
+	x = 22
+	y = 2
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_The_Day_Of_Mourning  }
+	completion_reward = {
+		country_event = {
+			id = England.55
+		}
+	}
+
+}
+focus = {
+	id = ENG_A_Funeral_Fit_For_A_King
+	icon = a_funeral_fit_for_a_king
+	x = 26
+	y = 2
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_The_Day_Of_Mourning  }
+	completion_reward = {
+		country_event = {
+			id = England.56
+		}
+	}
+
+}
+
+focus = {
+	id = ENG_Choosing_The_Replacement
+	icon = choosing_a_replacement_icon
+	x = 24
+	y = 3
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	set_country_flag =  choosing_the_replacement_flag	
+	prerequisite = { focus =  ENG_A_Funeral_Fit_For_A_King  }
+	prerequisite = { focus =  ENG_Lowering_The_Flag  }
+	completion_reward = {
+		activate_targeted_decision = { target = ENG decision = ENG_Stablise_The_Nation }
+			
+	}
+}
+
+
+focus = {
+	id = ENG_Johnson_The_Reformist
+	icon = johnson_the_reformist_icon
+	x = 13
+	y = 4
+	cost = 2
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	available = {
+		has_country_flag = A_Leader_Has_Been_Chosen
+		}
+	mutually_exclusive = {
+		focus = ENG_Hudson_The_Successor
+	}
+	mutually_exclusive = {
+		focus = ENG_McDonnell_The_Workers_Friend
+	}	
+	mutually_exclusive = {
+		focus = ENG_Kennedy_The_Irong_Right_Hand
+	}
+	prerequisite = { focus =  ENG_Choosing_The_Replacement  }
+	completion_reward = {
+		add_political_power = 100
+		country_event = {
+			id = England.58
+		}
+	}
+
+}
+focus = {
+	id = ENG_The_Peoples_Government
+	icon = focus_peoples_government
+	x = 13
+	y = 5
+	cost = 2
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Johnson_The_Reformist  }
+	completion_reward = {
+		add_stability = 0.10
+		country_event = {
+			id = England.61
+		}
+	}
+}
+focus = {
+	id = ENG_Shutting_Down_The_Camps
+	icon = shutting_down_the_camps_icon
+	x = 13
+	y = 6
+	cost = 2
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_The_Peoples_Government  }
+	completion_reward = {
+		country_event = {
+			id = England.63
+		}
+	}
+}
+focus = {
+	id = ENG_A_New_Equal_Nation
+	icon = an_equal_nation_icon
+	x = 13
+	y = 7
+	cost = 2
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Shutting_Down_The_Camps  }
+	completion_reward = {
+		add_political_power = 40
+	}
+}
+focus = {
+	id = ENG_Opening_The_Markets
+	icon = open_the_markets_icon
+	x = 10
+	y = 6
+	cost = 2
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_The_Peoples_Government  }
+	completion_reward = {
+		add_timed_idea = {
+			idea = opening_the_union_market
+			days = 90
+	}
+
+	}
+}
+focus = {
+	id = ENG_Open_Ourselves_To_New_Ideas
+	icon = open_ourselves_to_new_ideas_icon
+	x = 11
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Opening_The_Markets  }
+	completion_reward = {
+		add_political_power  = 10
+	}
+
+}
+focus = {
+	id = ENG_Reform_The_Military
+	icon = reform_the_military_icon
+	x = 16
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_The_Peoples_Government  }
+	completion_reward = {
+		add_stability = 0.10
+		add_timed_idea = {
+			idea = reform_the_military
+			days = 90
+	}
+}
+}
+focus = {
+	id = ENG_End_National_Service
+	icon = end_national_service_icon
+	x = 15
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Reform_The_Military  }
+	completion_reward = {
+		add_stability = 0.10
+	}
+}
+focus = {
+	id = ENG_Brittania_Reformed
+	icon = brittania_reformed_icon
+	x = 13
+	y = 8
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_A_New_Equal_Nation  }
+	prerequisite = { focus =  ENG_Open_Ourselves_To_New_Ideas  }
+	prerequisite = { focus =  ENG_End_National_Service  }
+	completion_reward = {
+		country_event = {
+			id = England.64
+		}
+	}
+}
+focus = {
+	id = ENG_Hudson_The_Successor
+	icon = hudson_the_successor_icon
+	x = 20
+	y = 4
+	cost = 3
+	available = {
+		has_country_flag = A_Leader_Has_Been_Chosen
+
+		}
+	mutually_exclusive = {
+		focus = ENG_Johnson_The_Reformist
+	}
+	mutually_exclusive = {
+		focus = ENG_McDonnell_The_Workers_Friend
+	}	mutually_exclusive = {
+		focus = ENG_Kennedy_The_Irong_Right_Hand
+	}
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Choosing_The_Replacement  }
+	completion_reward = {
+		add_political_power = 40
+		country_event = {
+			id = England.60
+		}
+	}
+
+}
+focus = {
+	id = ENG_Restore_Order
+	icon = restore_order_icon
+	x = 20
+	y = 5
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Hudson_The_Successor  }
+	completion_reward = {
+	add_stability = -0.30
+	}
+}
+focus = {
+	id = ENG_Purging_The_Disloyal
+	icon = purging_the_disloyal_icon
+	x = 18
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Restore_Order  }
+	completion_reward = {
+		manpower = -20000
+		add_political_power = 30
+	}
+}
+focus = {
+	id = ENG_Enforce_To_The_Status_Quo
+	icon = keep_that_status_quo_icon
+	x = 18
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Purging_The_Disloyal  }
+	completion_reward = {
+	add_stability = 0.10
+	}
+}
+focus = {
+	id = ENG_Modernise_Totalism
+	icon = modernise_totalism_icon
+	x = 20
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Restore_Order  }
+	completion_reward = {
+	add_timed_idea = {
+		idea = modern_totalism
+		days = 90
+	}
+}
+}
+
+focus = {
+	id = ENG_Strengthen_Relations_With_Other_Totalists
+	icon = strengthen_relations_with_other_countries
+	x = 20
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Modernise_Totalism  }
+	completion_reward = {
+	add_timed_idea = {
+		idea = Better_Relations
+		days = 150
+	}
+}
+}
+
+focus = {
+	id = ENG_Ensure_Congress_Loyalty
+	icon = ensure_congress_loyalty_icon
+	x = 22
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Restore_Order  }
+	completion_reward = {
+		country_event = {
+			id = England.65
+		}
+	}
+
+}
+focus = {
+	id = ENG_Shuffling_Generals
+	icon = shuffling_generals_icon
+	x = 22
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Ensure_Congress_Loyalty  }
+	completion_reward = {
+		add_command_power = 50
+	}
+}
+focus = {
+	id = ENG_Britannia_Shrugged
+	icon = britannia_shrugged_icon
+	x = 20
+	y = 8
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Enforce_To_The_Status_Quo  }
+	prerequisite = { focus =  ENG_Shuffling_Generals  }
+	prerequisite = { focus =  ENG_Strengthen_Relations_With_Other_Totalists  }
+	completion_reward = {
+		country_event = {
+			id = England.66
+		}
+	}
+}
+focus = {
+	id = ENG_McDonnell_The_Workers_Friend
+	icon = mcdonnell_the_workers_friend_icon
+	x = 27
+	y = 4
+	cost = 3
+	available = {
+		has_country_flag = A_Leader_Has_Been_Chosen
+
+		}
+	mutually_exclusive = {
+		focus = ENG_Hudson_The_Successor
+	}
+	mutually_exclusive = {
+		focus = ENG_Johnson_The_Reformist
+	}	
+	mutually_exclusive = {
+		focus = ENG_Kennedy_The_Irong_Right_Hand
+	}
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Choosing_The_Replacement  }
+	completion_reward = {
+		country_event = {
+			id = England.59
+		}
+	}
+
+}
+focus = {
+	id = ENG_For_The_Worker_By_The_Worker
+	icon = for_worker_by_worker_icon
+	x = 27
+	y = 5
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_McDonnell_The_Workers_Friend }
+	completion_reward = {
+	add_stability = 0.25
+	}
+}
+focus = {
+	id = ENG_The_Peoples_Health_Network
+	icon = peoples_health_network_icon
+	x = 25
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_For_The_Worker_By_The_Worker  }
+	completion_reward = {
+		add_ideas = Peoples_Health_Network
+}
+}
+focus = {
+	id = ENG_Open_Relations_With_Scotland_And_Wales
+	icon = open_relations_with_scotland_and_Wales
+	x = 25
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_The_Peoples_Health_Network  }
+	completion_reward = {
+		country_event = {
+			id = England.67
+		}
+	}
+}
+focus = {
+	id = ENG_The_New_Educators
+	icon = the_new_educators_icon
+	x = 27
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_For_The_Worker_By_The_Worker  }
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+
+focus = {
+	id = ENG_Shuffle_The_Congress
+	icon = shuffle_the_congress_icon
+	x = 27
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_The_New_Educators  }
+	completion_reward = {
+	add_command_power = 100
+	}
+}
+
+focus = {
+	id = ENG_Modernise_Work_Places
+	icon = modernise_work_places_icon
+	x = 29
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_For_The_Worker_By_The_Worker  }
+	completion_reward = {
+		add_timed_idea = {
+			idea = Modern_Work_Places
+			days = 100
+	}
+	}
+}
+focus = {
+	id = ENG_Increase_The_Workers_Role
+	icon = increase_the_workers_role_icon
+	x = 29
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Modernise_Work_Places  }
+	completion_reward = {
+		add_stability = 0.2
+		add_political_power = 20
+	}
+
+}
+focus = {
+	id = ENG_McDonnell_Government
+	icon = Mcdonnell_gov_icon
+	x = 27
+	y = 8
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Increase_The_Workers_Role  }
+	prerequisite = { focus =  ENG_Shuffle_The_Congress  }
+	prerequisite = { focus =  ENG_Open_Relations_With_Scotland_And_Wales  }
+	completion_reward = {
+	country_event = {
+			id = England.68
+		}
+	}
+}
+focus = {
+	id = ENG_Kennedy_The_Irong_Right_Hand
+	icon = kennedy_the_iron_right_fist_icon
+	x = 33
+	y = 4
+	cost = 3
+
+	available = {
+	has_country_flag = A_Leader_Has_Been_Chosen
+	}
+	
+	mutually_exclusive = {
+		focus = ENG_Hudson_The_Successor
+	}
+	mutually_exclusive = {
+		focus = ENG_McDonnell_The_Workers_Friend
+	}	
+	mutually_exclusive = {
+		focus = ENG_Johnson_The_Reformist
+	}
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Choosing_The_Replacement  }
+	completion_reward = {
+		country_event = {
+			id = England.69
+		}
+	}
+}
+
+focus = {
+	id = ENG_Free_The_Military
+	icon = free_the_military_icon
+	x = 33
+	y = 5
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Kennedy_The_Irong_Right_Hand  }
+	completion_reward = {
+		add_timed_idea = {
+			idea = Free_The_Military
+			days = 50
+	}
+	}
+
+}
+
+focus = {
+	id = ENG_Expanding_The_Camps
+	icon = expanding_the_camps_kennedy_icon
+	x = 33
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Free_The_Military  }
+	completion_reward = {
+		add_timed_idea = {
+			idea = expanding_the_camps
+			days = 90
+	}
+	}
+}
+
+focus = {
+	id = ENG_Wales_Will_Be_Ours
+	icon = wales_will_be_ours_icon
+	x = 31
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Free_The_Military  }
+	completion_reward = {
+		add_manpower = 10000
+	}
+}
+focus = {
+	id = ENG_Bring_Me_The_Dragons_Head2
+	icon = bring_the_dragons_head2_icon
+	x = 31
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Wales_Will_Be_Ours  }
+	completion_reward = {
+		country_event = {
+			id = England.70
+		}
+	}
+
+}
+focus = {
+	id = ENG_Purging_The_Unfit
+	icon = purge_the_unfit_kennedy_icon
+	x = 35
+	y = 6
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Free_The_Military  }
+	completion_reward = {
+		add_political_power = 50
+		add_stability = -0.30
+	}
+}
+
+focus = {
+	id = ENG_A_New_Cult_Of_Personality
+	icon = Icon_New_Cult_of_Personality_KW
+	x = 33
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Expanding_The_Camps  }
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+focus = {
+	id = ENG_Blair_Was_Afraid
+	icon = Icon_Blair_Was_Scared_KW
+	x = 35
+	y = 7
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Purging_The_Unfit  }
+	completion_reward = {
+		add_command_power = 50
+	}
+
+}
+
+focus = {
+	id = ENG_Kennedys_Government
+	icon = kennedy_gov_icon
+	x = 33
+	y = 8
+	cost = 3
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  ENG_Bring_Me_The_Dragons_Head2  }
+	prerequisite = { focus =  ENG_Blair_Was_Afraid  }
+	prerequisite = { focus =  ENG_A_New_Cult_Of_Personality  }
+	completion_reward = {
+		country_event = {
+			id = England.71
+		}
+	}
+
+}
+
+}

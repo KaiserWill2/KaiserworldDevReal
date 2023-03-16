@@ -1,0 +1,907 @@
+characters={
+	GRL_matt_savino={
+		name="Matt Savino"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Matt_Savino.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_mike_vanderboegh={
+		name="Mike Vanderboegh"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Mike_Vanderboegh.dds"
+			}
+		}
+		country_leader={
+			ideology=militia_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=american_nationalist
+			expire="1.1.1.1"
+		}
+	}
+	GRL_royal_council_of_the_great_lakes={
+		name="Royal Council of the Great Lakes"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Superian_Royal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_david_wynn_miller={
+		name="David Wynn Miller"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_David_Wynn_Miller.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_betsy_devos={
+		name="Betsy DeVos"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Betsy_DeVos.dds"
+			}
+		}
+		country_leader={
+			ideology=american_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_scott_boman={
+		name="Scott Boman"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Scott_Boman.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_martha_laning={
+		name="Martha Laning"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Martha_Laning.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_jennifer_shilling={
+		name="Jennifer Shilling"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Jennifer_Shilling.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_melissa_hortman={
+		name="Melissa Hortman"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Melissa_Hortman.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MELISSA_HORTMAN_DESC"
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_peta_lindsay={
+		name="Peta Lindsay"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Peta_Lindsay.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_kshama_sawant={
+		name="Kshama Sawant"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Kshama_Sawant.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRL_libertarian_national_committee={
+		name="Libertarian National Committee"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Superian_Royal_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	GRL_jesse_ventura={
+		name="Jesse Ventura"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Jesse_Ventura.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_populist
+		}
+	}
+	GRL_steve_king={
+		name="Steve King"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Steve_King.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = dominionist
+		}
+	}
+	GRL_michael_badnarik={
+		name="Michael Badnarik"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Michael_Badnarik.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	GRL_justin_amash={
+		name="Justin Amash"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Justin_Amash.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	GRL_fred_upton={
+		name="Fred Upton"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Fred_Upton.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	GRL_chuck_grassley={
+		name="Chuck Grassley"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Chuck_Grassley.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	GRL_paul_ryan={
+		name="Paul Ryan"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Paul_Ryan.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_nationalist
+		}
+	}
+	GRL_norm_coleman={
+		name="Norm Coleman"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Norm_Coleman.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fiscal_conservative
+		}
+	}
+	GRL_amy_klobuchar={
+		name="Amy Klobuchar"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Amy_Klobuchar.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	GRL_russ_feingold={
+		name="Russ Feingold"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Russ_Feingold.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	GRL_mark_dayton={
+		name="Mark Dayton"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Mark_Dayton.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	GRL_gwen_moore={
+		name="Gwen Moore"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Gwen_Moore.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	GRL_david_clarke={
+		name="David Clarke"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_David_Clarke.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_nationalist
+		}
+	}
+	GRL_rod_blum={
+		name="Rod Blum"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Rod_Blum.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_nationalist
+		}
+	}
+	GRL_david_brian_stone={
+		name="David Brian Stone"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_David_Brian_Stone.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = clerical_fascist
+		}
+	}
+	GRL_steve_fletcher={
+		name="Steve Fletcher"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Steve_Fletcher.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	GRL_betsy_hodges={
+		name="Betsy Hodges"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Betsy_Hodges.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	GRL_jacob_frey={
+		name="Jacob Frey"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Jacob_Frey.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	GRL_al_franken={
+		name="Al Franken"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Al_Franken.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	GRL_angela_nicole_walker={
+		name="Angela Nicole Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Angela_Nicole_Walker.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = revolutionary_socialist_ideology
+		}
+	}
+	GRL_michele_bachmann={
+		name="Michele Bachmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Michele_Bachmann.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_nationalist
+		}
+	}
+	GRL_howie_hawkins={
+		name="Howie Hawkins"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Howie_Hawkins.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_confederalist
+		}
+	}
+	GRL_jack_bergman={
+		name="Jack Bergman"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Jack_Bergman.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	GRL_scott_walker={
+		name="Scott Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Scott_Walker.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	GRL_ron_johnson={
+		name="Ron Johnson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Ron_Johnson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_nationalist
+		}
+	}
+	GRL_matt_birk={
+		name="Matt Birk"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Matt_Birk.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = dominionist
+		}
+	}
+	GRL_mike_lindell={
+		name="Mike Lindell"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Mike_Lindell.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = dominionist
+		}
+	}
+	GRL_ben_carson={
+		name="Ben Carson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Ben_Carson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_nationalist
+		}
+	}
+	GRL_eric_holcomb={
+		name="Eric Holcomb"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Eric_Holcomb.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	GRL_walter_mondale={
+		name="Walter Mondale"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Walter_Mondale.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	GRL_nina_turner={
+		name="Nina Turner"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Nina_Turner.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	GRL_jim_mcgovern={
+		name="Jim McGovern"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Jim_McGovern.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	GRL_adam_kinzinger={
+		name="Adam Kinzinger"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Adam_Kinzinger.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	GRL_greg_pence={
+		name="Greg Pence"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRL/Portrait_GRL_Greg_Pence.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = christian_democracy
+		}
+	}
+	GRL_joseph_votel={
+		name="Joseph Votel"
+		portraits={	
+			army={
+				small="gfx/interface/ideas/advisors/greatlakes/laker_joseph_votel.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Joseph_Votel.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = GRL_joseph_votel
+			allowed = {
+				original_tag = GRL
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GRL_donald_e._jackson_jr={
+		name="Donald E. Jackson Jr"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Donald_E_Jackson_Jr.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GRL_john_troxell={
+		name="John Troxell"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_John_Troxell.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_leader combined_arms_expert paratrooper }
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GRL_paul_nakasone={
+		name="Paul Nakasone"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/greatlakes/laker_paul_nakasone.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Paul_Nakasone.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = GRL_paul_nakasone
+			allowed = {
+				original_tag = GRL
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+		}
+		field_marshal={
+			traits={ trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GRL_robert_l._van_antwerp_jr.={
+		name="Robert L. Van Antwerp Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Robert_L_Van_Antwerp_Jr.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GRL_thomas_d._waldhauser={
+		name="Thomas D. Waldhauser"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/greatlakes/laker_thomas_waldhauser.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Thomas_D_Waldhauser.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GRL_thomas_d._waldhauser
+			allowed = {
+				original_tag = GRL
+			}
+			traits = {
+				army_commando_2
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	GRL_tracy_a._thompson={
+		name="Tracy A. Thompson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Tracy_A_Thompson.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer urban_assault_specialist }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	GRL_jon_a._jensen={
+		name="Jon A. Jensen"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/greatlakes/laker_jon_jensen.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Jon_A_Jensen.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GRL_jon_a._jensen
+			allowed = {
+				original_tag = GRL
+			}
+			traits = {
+				army_infantry_3
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer infantry_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GRL_paul_rogers={
+	name="Paul Rogers"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/greatlakes/laker_paul_rogers.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GRL_paul_rogers
+			allowed = {
+				original_tag = GRL
+			}
+			traits = {
+				army_concealment_1
+			}
+		}
+	}
+	GRL_joane_matthews={
+	name="Joane Matthews"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/greatlakes/laker_joane_matthews.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GRL_joane_matthews
+			allowed = {
+				original_tag = GRL
+			}
+			traits = {
+				close_air_support_proponent
+			}
+		}
+	}
+	GRL_charles_l._munns={
+		name="Charles L. Munns"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/greatlakes/laker_charles_munns.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Charles_Munns.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = GRL_charles_l._munns
+			allowed = {
+				original_tag = GRL
+			}
+			traits = {
+				navy_anti_submarine_3
+			}
+		}
+		navy_leader = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	GRL_donald_gabrielson={
+		name="Donald Gabrielson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/greatlakes/laker_donald_gabrielson.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Donald_Gabrielson.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = GRL_donald_gabrielson
+			allowed = {
+				original_tag = GRL
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+		}
+		navy_leader={
+			traits={ seawolf superior_tactician }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GRL_jonathan_greenert={
+		name="Jonathan Greenert"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GRL/Portrait_Jonathan_Greenert.dds"
+			}
+		}
+		navy_leader={
+			traits={ fly_swatter green_water_expert cruiser_captain }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GRL_paul_knapp={
+	name="Paul Knapp"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/greatlakes/laker_paul_knapp.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = GRL_paul_knapp
+			allowed = {
+				original_tag = GRL
+			}
+			traits = {
+				air_air_superiority_2
+			}
+		}
+	}
+}

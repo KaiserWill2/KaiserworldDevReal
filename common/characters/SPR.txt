@@ -1,0 +1,146 @@
+characters={
+	SPR_juan_carlos_i={
+		name="Juan Carlos I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Juan_Carlos_First.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_JUAN_CARLOS_DESC"
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_jose_luis_centella={
+		name="José Luis Centella"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Jose_Luis_Centella.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_antonio_perez_bencomo={
+		name="Antonio Pérez Bencomo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Antonio_Perez_Bencomo.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_manuel_canduela_serrano={
+		name="Manuel Canduela Serrano"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Manuel_Canduela_Serrano.dds"
+			}
+		}
+		country_leader={
+			ideology=neofrancoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_luis_pio_moa_rodriguez={
+		name="Luis Pío Moa Rodríguez"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Luis_Pio_Moa_Rodriguez.dds"
+			}
+		}
+		country_leader={
+			ideology=national_syndicalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_santiago_abascal={
+		name="Santiago Abascal"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Santiago_Abascal.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_mariano_rajoy={
+		name="Mariano Rajoy"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Mariano_Rajoy.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_albert_rivera={
+		name="Albert Rivera"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Albert_Rivera.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_cristina_narbona={
+		name="Cristina Narbona"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Cristina_Narbona.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_pablo_iglesias={
+		name="Pablo Iglesias Turrión"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Pablo_Iglesias.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SPR_alberto_garzon={
+		name="Alberto Garzón"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_SPR_Alberto_Garzon.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

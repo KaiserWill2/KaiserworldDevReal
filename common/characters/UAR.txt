@@ -1,0 +1,865 @@
+characters = {
+	uar_sedki_sobhy = {
+		name = "Sedki Sobhy"
+		advisor = {
+			slot = army_chief
+			idea_token = uar_sedki_sobhy
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+		}
+		portraits = {
+			army = {
+				small = "GFX_idea_uar_sedki_sobhy"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Sedki_Sobhy.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				organisational_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	uar_mohamed_hussein_tantawi = {
+		name = "Mohamed Hussein Tantawi"
+		advisor = {
+			slot = army_chief
+			idea_token = uar_mohamed_hussein_tantawi
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+		}
+		portraits = {
+			army = {
+				small = "GFX_idea_uar_mohamed_hussein_tantawi"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Mohamed_Hussein_Tantawi.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	uar_mohab_mamish = {
+		name = "Mohab Mamish"
+		advisor = {
+			slot = navy_chief
+			idea_token = uar_mohab_mamish
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				navy_anti_submarine_2
+			}
+		}
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			navy = {
+				small = "GFX_idea_uar_mohab_mamish"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portrait_Mohab_Mamish.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				ironside
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	uar_mamdouh_shahin = {
+		name = "Mamdouh Shahin"
+		advisor = {
+			slot = high_command
+			idea_token = uar_mamdouh_shahin
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				army_artillery_1
+			}
+		}
+		portraits = {
+			army = {
+				small = "GFX_idea_uar_mamdouh_shahin"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portrait_Mamdouh_Shahin.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	UAR_essam_sharaf = {
+		name = "Essam Sharaf"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Essam_Sharaf.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ESSAM_SHARAF_DESC"
+			ideology = nasserism
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_salah_adli = {
+		name = "Salah Adli"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Salah_Adli.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxist
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_ibrahim_albadri = {
+		name = "Ibrahim al-Badri"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Abu_Bakr_Al_Baghdadi.dds"
+			}
+		}
+		country_leader = {
+			ideology = jihadist
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_abdel_fattah_elsisi = {
+		name = "Abdel Fattah el-Sisi"
+		advisor = {
+			slot = army_chief
+			idea_token = uar_abdel_fattah_el_sisi
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+		}
+		portraits = {
+			army = {
+				small = "GFX_idea_uar_abdel_fattah_el_sisi"
+			}
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Abdel_Fattah_El_Sisi.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_fuad_ii = {
+		name = "Fuad II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Faud_Second.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchist
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_hamdeen_sabahi = {
+		name = "Hamdeen Sabahi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Hamdeen_Sabahi.dds"
+			}
+		}
+		country_leader = {
+			ideology = arab_socialist
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_bashar_alassad = {
+		name = "Bashar al-Assad"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Bashar_Al_Assad.dds"
+			}
+		}
+		country_leader = {
+			ideology = baathist
+			expire = "1.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = arab_socialist
+		}
+	}
+	UAR_ahmed_shafik = {
+		name = "Ahmed Shafik"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Ahmed_Shafik.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_riad_seif = {
+		name = "Riad Seif"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Riad_Seif.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_mohamed_elbaradei = {
+		name = "Mohamed Elbaradei"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Mohamed_Elbaradei.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_farid_ghadry = {
+		name = "Farid Ghadry"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Farid_Ghadry.dds"
+			}
+		}
+		country_leader = {
+			ideology = new_democrat_ideology
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	UAR_hassan_alnouri = {
+		name = "Hassan al-Nouri"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Hassan_Al_Nouri.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = arab_socialist
+		}
+	}
+	UAR_hesham_qandil = {
+		name = "Hesham Qandil"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Hesham_Qandil.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = arab_socialist
+		}
+	}
+	UAR_imad_khamis = {
+		name = "Imad Khamis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Imad_Khamis.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+	}
+	UAR_ahmed_eltayeb = {
+		name = "Ahmed el-Tayeb"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Ahmed_El_Tayeb.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = islamic_socialism
+		}
+	}
+	UAR_arab_trade_syndicates_assembly = {
+		name = "Arab Trade Syndicates Assembly"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Arab_Trade_Syndicates_Assembly.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = syndicalism
+		}
+	}
+	uar_mahmoud_hegazy = {
+		name = "Mahmoud Hegazy"
+		advisor = {
+			slot = army_chief
+			idea_token = uar_mahmoud_hegazy
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+		}
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UAR/Portrait_UAR_Mahmoud_Hegazy.dds"
+			}
+			army = {
+				small = "GFX_idea_uar_mahmoud_hegazy"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Mahmoud_Hegazy.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+		field_marshal = {
+			traits = {
+				fast_planner
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_abdel_fattah_alsisi = {
+		name = "Abdel Fattah al-Sisi"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Abdel_Fattah_al-Sisi.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				inspirational_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	UAR_mohamed_samir = {
+		name = "Mohamed Samir"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Mohammed_Samir.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_sami_hafez_anan = {
+		name = "Sami Hafez Anan"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portrait_Sami_Hafez_Anan.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	UAR_ahmed_wasifi = {
+		name = "Ahmed Wasifi"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Ahmed_Wasfi.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_sami_diab = {
+		name = "Sami Diab"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Sami_Diab.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_hatem_saber = {
+		name = "Hatem Saber"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Hatem_Saber.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_hassan_alroueini = {
+		name = "Hassan al-Roueini"
+		advisor = {
+			slot = high_command
+			idea_token = uar_hassan_al_roueini
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				army_logistics_2
+			}
+		}
+		portraits = {
+			army = {
+				small = "GFX_idea_uar_hassan_al_roueini"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Hassan_al-Roueini.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	UAR_medhat_el_nahas = {
+		name = "Medhat El Nahas"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Medhat_El_Nahas.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_mohamed_abdellah = {
+		name = "Mohamed Abdellah"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Mohamed_Abdellah.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_mohamed_zaki = {
+		name = "Mohamed Zaki"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Mohamed_Zaki.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	UAR_mohamed_moustafa_kamal_ibrahim_fahmy = {
+		name = "Mohamed Moustafa Kamal Ibrahim Fahmy"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Mohamed_Moustafa_Kamal_Ibrahim_Fahmy.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	UAR_shefir_fahmy_saad = {
+		name = "Shefir Fahmy Saad"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Sherif_Fahmy_Saad.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_taher_abdallah = {
+		name = "Taher Abdallah"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Taher_Abdallah.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_majed_mohammed = {
+		name = "Majed Mohammed"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Majed_Mohammed.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_tawhid_tawfiq = {
+		name = "Tawhid Tawfiq"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Tawhid_Tawfiq.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_majed_abdelsayed = {
+		name = "Majed Abdelsayed"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Majed_Abdelsayed.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_osama_elgendi = {
+		name = "Osama El-Gendi"
+		advisor = {
+			slot = navy_chief
+			idea_token = uar_osama_el_gendi
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+		}
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			navy = {
+				small = "GFX_idea_uar_osama_el_gendi"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Osama_El-Gendi.dds"
+			}
+		}
+		navy_leader = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_ahmed_khaled_hassan_said_ahmed = {
+		name = "Ahmed Khaled Hassan Said Ahmed"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Ahmed_Khaled_Hassan_Said_Ahmed.dds"
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_mohamed_abdel_aziz_el_sayed = {
+		name = "Mohamed Abdel Aziz El Sayed"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Mohamed_Abdel_Aziz_El_Sayed.dds"
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_osama_mounir_rabie = {
+		name = "Osama Mounir Rabie"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army = {
+				large = "gfx/leaders/UAR/Portriat_Osama_Mounir_Rabie.dds"
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	UAR_uar_abdul_meniem_al_toras = {
+		advisor = {
+			slot = air_chief
+			idea_token = uar_abdul_meniem_al_toras
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				air_close_air_support_2
+			}
+		}
+		name = "uar_abdul_meniem_al_toras"
+		portraits = {
+			army = {
+				small = "GFX_idea_uar_abdul_meniem_al_toras"
+			}
+		}
+	}
+	UAR_uar_ragaa_rabie_youssef = {
+		advisor = {
+			slot = high_command
+			idea_token = uar_ragaa_rabie_youssef
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				air_air_combat_training_2
+			}
+		}
+		name = "uar_ragaa_rabie_youssef"
+		portraits = {
+			army = {
+				small = "GFX_idea_uar_ragaa_rabie_youssef"
+			}
+		}
+	}
+	UAR_uar_younes_hamed = {
+		advisor = {
+			slot = air_chief
+			idea_token = uar_younes_hamed
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				air_chief_all_weather_2
+			}
+		}
+		name = "uar_younes_hamed"
+		portraits = {
+			army = {
+				small = "GFX_idea_uar_younes_hamed"
+			}
+		}
+	}
+	UAR_uar_ahmed_khaled_hassan_saeed = {
+		advisor = {
+			slot = high_command
+			idea_token = uar_ahmed_khaled_hassan_saeed
+			allowed = {
+				original_tag = UAR
+			}
+			traits = {
+				navy_fleet_logistics_1
+			}
+		}
+		name = "uar_ahmed_khaled_hassan_saeed"
+		portraits = {
+			army = {
+				small = "GFX_idea_uar_ahmed_khaled_hassan_saeed"
+			}
+		}
+	}
+}

@@ -1,0 +1,1961 @@
+characters={
+	ENG_david_owen={
+		name="David Owen"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_David_Owen.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_DAVID_OWEN_DESC"
+			ideology=owenist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_robert_griffiths={
+		name="Robert Griffiths"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Robert_Griffiths.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_paul_golding={
+		name="Paul Golding"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Paul_Golding.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_nick_griffin={
+		name="Nick Griffin"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Nick_Griffin.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_elizabeth_ii={
+		name="Elizabeth II"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Elizabeth_Second.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_patrick_harrington={
+		name="Patrick Harrington"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Patrick_Harrington.dds"
+			}
+		}
+		country_leader={
+			ideology=national_syndicalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_owen_paterson={
+		name="Owen Paterson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Owen_Paterson.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_nick_clegg={
+		name="Nick Clegg"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Nick_Clegg.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_tony_benn={
+		name="Tony Benn"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Tony_Benn.dds"
+			}
+		}
+		country_leader={
+			ideology=labourist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_george_galloway={
+		name="George Galloway"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_George_Galloway.dds"
+			}
+		}
+		country_leader={
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ENG_jeremy_corbyn={
+		name="Jeremy Corbyn"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Jeremy_Corbyn.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = orthodox_leninist
+		}
+	}
+	ENG_shirley_williams={
+		name="Shirley Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Shirley_Williams.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = owenist
+		}
+	}
+	ENG_theresa_brasier={
+		name="Theresa Brasier"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Theresa_May.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = national_socialist
+		}
+	}
+	ENG_charles_iii={
+		name="Charles III"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Charles_Third.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	ENG_william_v={
+		name="William V"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_William_Fifth.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	ENG_george_osborne={
+		name="George Osborne"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_George_Osborne.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fiscal_conservative
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive_conservative
+		}
+	}
+	ENG_iain_duncan_smith={
+		name="Iain Duncan Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Iain_Duncan_Smith.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = reactionary
+		}
+	}
+	ENG_nigel_farage={
+		name="Nigel Farage"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Nigel_Farage.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = reactionary
+		}
+	}
+	ENG_liam_fox={
+		name="Liam Fox"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Liam_Fox.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = reactionary
+		}
+	}
+	ENG_david_davis={
+		name="David Davis"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_David_Davis.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fiscal_conservative
+		}
+	}
+	ENG_boris_johnson={
+		name="Boris Johnson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Boris_Johnson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fiscal_conservative
+		}
+	}
+	ENG_justine_greening={
+		name="Justine Greening"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Justine_Greening.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive_conservative
+		}
+	}
+	ENG_andrew_mitchell={
+		name="Andrew Mitchell"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Andrew_Mitchell.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = reactionary
+		}
+	}
+	ENG_carol_thatcher={
+		name="Carol Thatcher"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Carol_Thatcher.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fiscal_conservative
+		}
+	}
+	ENG_tony_blair={
+		name="Tony Blair"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Tony_Blair.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	ENG_jo_cox={
+		name="Jo Cox"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Jo_Cox.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labourist
+		}
+	}
+	ENG_edward_miliband={
+		name="Edward Miliband"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Edward_Miliband.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labourist
+		}
+	}
+	ENG_tom_watson={
+		name="Tom Watson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Tom_Watson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	ENG_chuka_umunna={
+		name="Chuka Umunna"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Chuka_Umunna.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	ENG_hilary_benn={
+		name="Hilary Benn"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Hilary_Benn.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	ENG_harriet_harman={
+		name="Harriet Harman"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Harriet_Harman.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = new_democrat_ideology
+		}
+	}
+	ENG_diane_abbott={
+		name="Diane Abbott"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Diane_Abbott.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	ENG_ken_loach={
+		name="Ken Loach"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Ken_Loach.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = eco_socialist
+		}
+	}
+	ENG_andrew_i={
+		name="Edward IX"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Andrew_First.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	ENG_edward_ix={
+		name="Edward IX"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Edward_Nineth.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	ENG_navnit_dholakia={
+		name="Navnit Dholakia"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Navnit_Dholakia.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_populist
+		}
+	}
+	ENG_sarah_teather={
+		name="Sarah Teather"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Sarah_Teather.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ENG_tim_farron={
+		name="Tim Farron"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Tim_Farron.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = christian_democrat
+		}
+	}
+	ENG_sarah_olney={
+		name="Sarah Olney"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Sarah_Olney.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ENG_jo_swinson={
+		name="Jo Swinson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Jo_Swinson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ENG_luciana_berger={
+		name="Luciana Berger"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Luciana_Berger.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ENG_ed_davey={
+		name="Ed Davey"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Ed_Davey.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	ENG_layla_moran={
+		name="Layla_Moran"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Layla_Moran.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ENG_charles_kennedy={
+		name="Charles Kennedy"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Charles_Kennedy.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	ENG_chris_huhne={
+		name="Chris Huhne"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Chris_Huhne.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	ENG_norman_lamb={
+		name="Norman Lamb"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Norman_Lamb.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = owenist
+		}
+	}
+	ENG_vince_cable={
+		name="Vince Cable"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Vince_Cable.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	ENG_julia_goldsworthy={
+		name="Julia Goldsworthy"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Julia_Goldsworthy.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = owenist
+		}
+	}
+	ENG_chris_leslie={
+		name="Chris Leslie"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Chris_Leslie.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = owenist
+		}
+	}
+	ENG_jess_phillips={
+		name="Jess Phillips"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Jess_Phillips.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	ENG_angela_smith={
+		name="Angela Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Angela_Smith.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	ENG_margaret_hodge={
+		name="Margaret Hodge"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Margaret_Hodge.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = owenist
+		}
+	}
+	ENG_len_mccluskey={
+		name="Len McCluskey"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Len_McCluskey.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = syndicalism
+		}
+	}
+	ENG_lindsey_german={
+		name="Lindsey German"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Lindsey_German.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_john_mcdonnell={
+		name="John McDonnell"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_John_McDonnell.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_ken_livingstone={
+		name="Ken Livingstone"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Ken_Livingstone.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_salma_yaqoob={
+		name="Salma Yaqoob"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Salma_Yaqoob.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_tim_roache={
+		name="Tim Roache"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Tim_Roache.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_frances_ogrady={
+		name="Frances O'Grady"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Frances_Ogrady.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = syndicalism
+		}
+	}
+	ENG_paul_nowak={
+		name="Paul Nowak"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Paul_Nowak.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_murad_qureshi={
+		name="Murad Qureshi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Murad_Qureshi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = syndicalism
+		}
+	}
+	ENG_alex_callinicos={
+		name="Alexander Callinicos"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Alex_Callinicos.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_rebecca_long_bailey={
+		name="Rebecca Long-Bailey"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Rebecca_Longbailey.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = revolutionary_socialist_ideology
+		}
+	}
+	ENG_hannah_sell={
+		name="Hannah Sell"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Hannah_Sell.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_derek_hatton={
+		name="Derek Hatton"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Derrek_Hatton.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_seumas_milne={
+		name="Seumas Milne"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Seumas_Milne.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = maoist
+		}
+	}
+	ENG_zane_carpenter={
+		name="Zane Carpenter"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Zane_Carpenter.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = stalinist
+		}
+	}
+	ENG_brendan_barber={
+		name="Brendan Barber"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Brendan_Barber.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = syndicalism
+		}
+	}
+	ENG_dave_prentis={
+		name="Dave Prentis"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Dave_Prentis.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = syndicalism
+		}
+	}
+	ENG_john_rees={
+		name="John Rees"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_John_Rees.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_chris_nineham={
+		name="Chris Nineham"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Chris_Nineham.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = trotskyist
+		}
+	}
+	ENG_christine_blower={
+		name="Christine Blower"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Christine_Blower.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = syndicalism
+		}
+	}
+	ENG_zarah_sultana={
+		name="Zarah Sultana"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Zarah_Sultana.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = revolutionary_socialist_ideology
+		}
+	}
+	ENG_richard_barnbrook={
+		name="Richard Barnbrook"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Richard_Barnbrook.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = ultranationalist
+		}
+	}
+	ENG_robert_west={
+		name="Robert West"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Robert_West.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = dominionist
+		}
+	}
+	ENG_regency_council={
+		name="Regency Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Regency_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = regency_monarchist
+		}
+	}
+	ENG_sir_stuart_peach={
+		name="Sir Stuart Peach"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Stuart_Peach.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard defensive_doctrine }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_sir_nicolas_carter={
+		name="Sir Nicolas Carter"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Nicholas_Carter.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=4
+			attack_skill=1
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_patrick_sanders={
+		name="Patrick Sanders"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Patrick_Sanders.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_sir_richard_shirreff={
+		name="Sir Richard Shirreff"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Richard_Shirreff.dds"
+			}
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_sir_christopher_deverell={
+		name="Sir Christopher Deverell"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Chris_Deverell.dds"
+			}
+		}
+		field_marshal={
+			traits={ logistics_wizard }
+			skill=4
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	ENG_glenn_haughton={
+		name="Glenn Haughton"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Glenn_Haughton.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_paul_anthony_edward_nanson={
+		name="Paul Anthony Edward Nanson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Edward_Nanson.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	ENG_andrew_hughes={
+		name="Andrew Hughes"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Andrew_Hughes.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_philip_napier={
+		name="Philip Napier"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Philip_Napier.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_mike_elviss={
+		name="Mike Elviss"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Mike_Elviss.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_tom_beckett={
+		name="Tom Beckett"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Tom_Beckett.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_richard_william_dennis={
+		name="Richard William Dennis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Richard_Dennis.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_bob_bruce={
+		name="Bob Bruce"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Bob_Bruce.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_colin_weir={
+		name="Colin Weir"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Colin_Weir.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger }
+			skill=1
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_ralph_wooddisse={
+		name="Ralph Wooddisse"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Ralph_Wooddisse.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=2
+			attack_skill=5
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_charlie_herbert={
+		name="Charlie Herbert"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Charlie_Herbert.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_richard_felton={
+		name="Richard Felton"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Richard_Felton.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_tyrone_urch={
+		name="Tyrone Urch"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Tyrone_Urch.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	ENG_alastair_aitken={
+		name="Alastair Aitken"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Alastair_Aitken.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_david_neal={
+		name="David Neal"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_David_Neal.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_benjamin_bathurst={
+		name="Benjamin Bathurst"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Ben_Bathurst.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=2
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_mike_walliker={
+		name="Mike Walliker"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Mike_Walliker.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_susan_ridge={
+		name="Susan Ridge"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Susan_Ridge.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_sharon_nesmith={
+		name="Sharon Nesmith"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Sharon_Nesmith.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_james_illingworth={
+		name="James Illingworth"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_James_Illingworth.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_russell_la_forte={
+		name="Russell La Forte"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Russ_La_Forte.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_james_robert_chiswell={
+		name="James Robert Chiswell"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_James_Chiswell.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=7
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_oliver_stokes={
+		name="Oliver Stokes"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Oliver_Stokes.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=5
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_andy_hadfield={
+		name="Andy Hadfield"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Andy_Hadfield.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_david_middleton={
+		name="David Middleton"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_David_Middleton.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_sir_stephen_hillier={
+		name="Sir Stephen Hillier"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Stephen_Hillier.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_robert_magowan={
+		name="Robert Magowan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Rob_Magowan.dds"
+			}
+		}
+		corps_commander={
+			traits={ naval_invader }
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_matt_pierson={
+		name="Matt Pierson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Matt_Pierson.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando naval_invader }
+			skill=1
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ENG_richard_cantrill={
+		name="Richard Cantrill"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Richard_Cantrill.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando naval_invader }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	ENG_graeme_jock_fraser={
+		name="Graeme -Jock- Fraser"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Graeme_Fraser.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=7
+			legacy_id=-1
+		}
+	}
+	ENG_tony_turner={
+		name="Tony Turner"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Tony_Turner.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando naval_invader }
+			skill=1
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_paul_lynch={
+		name="Paul Lynch"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Paul_Lynch.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer commando }
+			skill=1
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_graeme_armour={
+		name="Graeme Armour"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Graeme_Armour.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando naval_invader }
+			skill=1
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_ed_davis={
+		name="Ed Davis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Ed_Davis.dds"
+			}
+		}
+		corps_commander={
+			traits={ naval_invader }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ENG_duncan_potts={
+		name="Duncan Potts"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Duncan_Potts.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_alasdair_walker={
+		name="Alasdair Walker"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Alasdair_Walker.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_sir_philip_jones={
+		name="Sir Philip Jones"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Philip_Jones.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_ben_key={
+		name="Ben Key"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Ben_Key.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_jonathan_woodcock={
+		name="Jonathan Woodcock"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Jonathan_Woodcock.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_tom_karsten={
+		name="Tom Karsten"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Tom_Karsten.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_paul_bennett={
+		name="Paul Bennett"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Paul_Bennett.dds"
+			}
+		}
+		navy_leader={
+			traits={ fly_swatter }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_robert_tarrant={
+		name="Robert Tarrant"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Robert_Tarrant.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_alex_burton={
+		name="Alex Burton"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Alex_Burton.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_john_weale={
+		name="John Weale"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_John_Weale.dds"
+			}
+		}
+		navy_leader={
+			traits={ air_controller }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_simon_williams={
+		name="Simon Williams"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Simon_Williams.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ENG_john_clink={
+		name="John Clink"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_John_Clink.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,19 @@
+idea_categories = {
+	country = {
+		type = national_spirit
+		
+		cost = 0
+		removal_cost = -1
+
+		ledger = hidden
+	}
+	
+	hidden_ideas = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+
+		ledger = hidden
+	}
+}

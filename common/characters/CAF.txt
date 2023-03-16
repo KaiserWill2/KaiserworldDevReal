@@ -1,0 +1,146 @@
+characters={
+	CAF_bokassa_ii={
+		name="Bokassa II"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Bokassa_Second.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BOKASSA_II_DESC"
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_levy_yakete={
+		name="Levy Yakete"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Levy_Yakete.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_louis_papéniah={
+		name="Louis Papéniah"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Louis_Papeniah.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_sidiki_abbas={
+		name="Sidiki Abbas"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Sidiki_Abbas.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_noureddine_adam={
+		name="Noureddine Adam"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Noureddine_Adam.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_anicetgeorges_dologuélé={
+		name="Anicet-Georges Dologuélé"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Anicet-Georges_Dologuele.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_jeanpaul_ngoupandé={
+		name="Jean-Paul Ngoupandé"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Jean-Paul_Ngoupande.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_alexandre_ferdinand_nguendet={
+		name="Alexandre-Ferdinand Nguendet"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Alexandre_Ferdinand_Nguende.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_angefélix_patassé={
+		name="Ange-Félix Patassé"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Ange-Felix_Patasse.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_françois_gueret={
+		name="François Gueret"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Francois_Gueret.dds"
+			}
+		}
+		country_leader={
+			ideology=left_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_damane_zakaria={
+		name="Damane Zakaria"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Portrait_CAF_Damane_Zakaria.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

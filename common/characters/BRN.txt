@@ -1,0 +1,146 @@
+characters={
+	BRN_aliakbar_gunsalan={
+		name="Aliakbar Gunsalan"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Aliakbar_Gunsalan.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_joseph_pairin_kitingan={
+		name="Joseph Pairin Kitingan"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Joseph_Pairin_Kitingan.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_jason_desmond_anthony_brooke={
+		name="Anthony Brooke II"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Jason_Desmond_Anthony_Brooke.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_musa_aman={
+		name="Musa Aman"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Musa_Aman.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_anifah_aman={
+		name="Anifah Aman"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Anifah_Aman.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_wong_soon_koh={
+		name="Wong Soon Koh"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Wong_Soon_Koh.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_liew_vui_keong={
+		name="Liew Vui Keong"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Liew_Vui_Keong.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_wong_ho_leng={
+		name="Wong Ho Leng"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Wong_Ho_Leng.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_larry_sng={
+		name="Larry Sng"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Larry_Sng.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_peter_chin_fah_kui={
+		name="Peter Chin Fah Kui"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Peter_Chin_Fah_Kui.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRN_bong_kee_chok={
+		name="Bong Kee Chok"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRN/Portrait_BRN_Bong_Kee_Chok.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+}

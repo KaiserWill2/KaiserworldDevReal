@@ -1,0 +1,30 @@
+﻿units= {
+
+	####### NAVAL UNITS #######
+	##### ROTFLOTTE #####
+	### Sjøforsvaret ###
+
+	fleet = {
+		name = "Sjøforsvaret"			
+		naval_base = 6115 # Oslo
+		task_force = {
+			name = "Fregattskvadron"
+			location =  6115 # Oslo
+			ship = { name = "Fridtjof Nansen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NOR version_name = "Fridtjof Nansen class" } } }
+			ship = { name = "Roald Amundsen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NOR version_name = "Fridtjof Nansen class" } } }
+			ship = { name = "Otto Sverdrup" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NOR version_name = "Fridtjof Nansen class" } } }
+			ship = { name = "Helge Ingstad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NOR version_name = "Fridtjof Nansen class" } } }
+			ship = { name = "Thor Heyerdahl" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NOR version_name = "Fridtjof Nansen class" } } }
+			}
+		task_force = {
+		name = "Ubåtvåpenet"
+		location = 6115 # Oslo
+			ship = { name = "Ula" definition = submarine equipment = { submarine_2 = { amount = 1 owner = NOR version_name = "Ula Class" } } }
+			ship = { name = "Utsira" definition = submarine equipment = { submarine_2 = { amount = 1 owner = NOR version_name = "Ula Class" } } }
+			ship = { name = "Utstein" definition = submarine equipment = { submarine_2 = { amount = 1 owner = NOR version_name = "Ula Class" } } }
+			ship = { name = "Utvær" definition = submarine equipment = { submarine_2 = { amount = 1 owner = NOR version_name = "Ula Class" } } }
+			ship = { name = "Uthaug" definition = submarine equipment = { submarine_2 = { amount = 1 owner = NOR version_name = "Ula Class" } } }
+			ship = { name = "Uredd" definition = submarine equipment = { submarine_2 = { amount = 1 owner = NOR version_name = "Ula Class" } } }
+		}
+	}
+}

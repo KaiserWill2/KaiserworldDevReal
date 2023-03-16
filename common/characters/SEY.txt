@@ -1,0 +1,145 @@
+characters={
+	SEY_neall_ellis={
+		name="Neall Ellis"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_Neal_Ellis.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_clifford_roseline={
+		name="Clifford Roseline"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_Clifford_Roseline.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_nicholas_i={
+		name="Nicholas I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_Nicholas_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_ogilvy_berlouis={
+		name="Ogilvy Berlouis"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_Ogilvy_Berlouis.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_james_mancham={
+		name="James Mancham"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_James_Mancham.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_wavel_ramkalawan={
+		name="Wavel Ramkalawan"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_Wavel_Ramkalawan.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_patrick_pillay={
+		name="Patrick Pillay"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_Patrick_Pillay.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_alexia_amesbury={
+		name="Alexia Amesbury"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_Alexia_Amesbury.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_jeanfrançois_ferrari={
+		name="Jean-François Ferrari"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_Jean_François_Ferrari.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_antoine_robinson={
+		name="Antoine Robinson"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_Antoine_Robinson.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEY_francealbert_rené={
+		name="France-Albert René"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEY/Portrait_SEY_France_Albert_René.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

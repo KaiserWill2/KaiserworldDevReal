@@ -1,0 +1,239 @@
+characters={
+	CYP_andros_kyprianou={
+		name="Andros Kyprianou"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Andros_Kyprianou.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_ilias_kasidiaris={
+		name="Ilias Kasidiaris"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Ilias_Kasidiaris.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_eleni_theocharous={
+		name="Eleni Theocharous"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Eleni_Theocharous.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_yiannakis_omirou={
+		name="Yiannakis Omirou"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Yiannakis_Omirou.dds"
+			}
+		}
+		country_leader={
+			ideology=baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_chrysostomos_ii={
+		name="Chrysostomos II"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Chrysostomos_Second.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_averof_neofitou={
+		name="Averof Neofitou"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Averof_Neofitou.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_nikopoulos_papadopoulos={
+		name="Nikolas Papadopoulos"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Nikopoulos_Papadopoulos.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_giorgos_perdikis={
+		name="Giorgos Perdikis"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Giorgos_Perdikis.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_marinos_sizopoulos={
+		name="Marinos Sizopoulos"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Marinos_Sizopoulos.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_giorgos_lilikas={
+		name="Giorgos Lilikas"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Giorgos_Lilikas.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_antonis_ntavanelou={
+		name="Antonis Ntavanelou"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Portrait_CYP_Antonis_Ntavanelou.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_geórgios_basiakoúlis={
+		name="Geórgios Basiakoúlis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CYP/Portrait_Georgios_Basiakoulis.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard offensive_doctrine fast_planner }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CYP_ilías_leontáris={
+		name="Ilías Leontáris"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CYP/Portrait_Ilias_Leontaris.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CYP_dimítrios_agorákis={
+		name="Dimítrios Agorákis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CYP/Portrait_Dimitrios_Agorakis.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CYP_andréas_markídis={
+		name="Andréas Markídis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CYP/Portrait_Andreas_Markidis.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CYP_peter_smith={
+		name="Peter Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_bolshevik
+			traits={ ideological_crusader quartermaster_general }
+			expire="2030.1.1.12"
+			id=-1
+		}
+	}
+}

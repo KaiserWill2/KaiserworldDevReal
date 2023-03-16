@@ -1,0 +1,146 @@
+characters={
+	VNT_Pietrangelo_Petteno={
+		name="Pietrangelo Petteno"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Pietrangelo_Petteno.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VNT_Luca_Zaia={
+		name="Luca Zaia"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Luca_Zaia.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VNT_Flavio_Tosi={
+		name="Flavio Tosi"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Flavio_Tosi.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VNT_Caroline_I={
+		name="Caroline I"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Caroline_I.dds"
+			}
+		}
+		country_leader={
+			ideology=bonapartist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VNT_Giobbe_Covatta={
+		name="Giobbe Covatta"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Giobbe_Covatta.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VNT_Giancarlo_Galan={
+		name="Giancarlo Galan"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Giancarlo_Galan.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+    VNT_Fabrizio_Comencini={
+		name="Fabrizio Comencini"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Fabrizio_Comencini.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+    VNT_Enrico_Zanetti={
+		name="Enrico Zanetti"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Enrico_Zanetti.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}	
+    VNT_Alessandra_Moretti={
+		name="Alessandra Moretti"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Alessandra_Moretti.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+    VNT_Antonio_Guadagnini={
+		name="Antonio Guadagnini"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Antonio_Guadagnini.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}	
+    VNT_Nichi_Vendola={
+		name="Nichi Vendola"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNT/Portrait_VNT_Nichi_Vendola.dds"
+			}
+		}
+		country_leader={
+			ideology=luxemburgism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}		
+}
+

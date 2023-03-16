@@ -1,0 +1,132 @@
+characters={
+	SAO_manuel_pinto_da_costa={
+		name="Manuel Pinto da Costa"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Manuel_Pinto_da_Costa.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAO_arlecio_costa={
+		name="Arlecio Costa"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Arlecio_Costa.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAO_fernando_pereira={
+		name="Fernando Pereira"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Fernando_Pereira.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAO_henrique_first_of_braganza={
+		name="Henrique I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Henrique_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAO_aurélio_martins={
+		name="Aurélio Martins"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Aurélio_Martins.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAO_leonel_mário_dalva={
+		name="Leonel Mário d'Alva"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Leonel_Mário_d'Alva.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAO_carlos_filomeno_agostinho_das_neves={
+		name="Carlos Filomeno Agostinho das Neves"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Carlos_Filomeno_das_Neves.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAO_tomé_vera_cruz={
+		name="Tomé Vera Cruz"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Tomé_Vera_Cruz.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAO_elsa_garrido={
+		name="Elsa Garrido"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Elsa_Garrido.dds"
+			}
+		}
+		country_leader={
+			ideology=ecopolitician
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAO_patrice_trovoada={
+		name="Patrice Trovoada"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Patrice_Trovoada.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_communism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

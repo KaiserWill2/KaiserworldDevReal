@@ -1,0 +1,29 @@
+state={
+	id=866
+	name="STATE_866"
+	resources={
+		aluminium=3
+		chromium=5
+		rubber = 1
+	}
+
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		victory_points = { 8019 1 }
+		victory_points = { 10734 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	
+	provinces={
+		8019 10734 
+	}
+	manpower=14929548
+	buildings_max_level_factor=1.000
+	
+	state_category = pastoral
+}

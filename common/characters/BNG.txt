@@ -1,0 +1,145 @@
+characters={
+	BNG_motiur_rahman_nizami={
+		name="Motiur Rahman Nizami"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Motiur_Rahman_Nizami.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_hussein_muhammad_ershad={
+		name="Hussein Muhammad Ershad"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Hussain_Muhammad_Ershad.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_devasish_roy={
+		name="Devasish Roy"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Devasish_Roy.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_rashed_khan_menon={
+		name="Rashed Khan Menon"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Rashed_Khan_Menon.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_khaleda_zia={
+		name="Khaleda Zia"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Khaleda_Zia.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_kamal_hossein={
+		name="Kamal Hossein"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Kamal_Hossain.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_oli_ahmad={
+		name="Oli Ahmad"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Oli_Ahmad.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_sheikh_hasina={
+		name="Sheikh Hasina"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Sheikh_Hasina.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_fazle_hossain_badsha={
+		name="Fazle Hossain Badsha"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Fazle_Hossain_Badsha.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_hasanul_haq_inu={
+		name="Hasanul Haq Inu"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Hasanul_Haq_Inu.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_mujahidul_islam_selim={
+		name="Mujahidul Islam Selim"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Portrait_BNG_Mujahidul_Islam_Selim.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=350
+	name="STATE_350"
+	manpower = 5098239
+	
+	state_category = rural
+
+	history={
+		owner = KUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+		}
+		victory_points = {
+			4512 6 
+		}
+		victory_points = {
+			9823 5 
+		}
+		victory_points = {
+			7620 4 
+		}
+		victory_points = {
+			9912 4 
+		}
+		victory_points = {
+			12416 1
+		}
+		victory_points = {
+			11759 1
+		}
+		add_core_of = TUR
+		add_core_of = KUR
+	}
+
+	provinces={
+		4512 7620 9823 9912 11739 11759 11871 12387 12416 
+	}
+}

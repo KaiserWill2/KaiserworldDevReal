@@ -1,0 +1,239 @@
+characters={
+	GUY_david_granger={
+		name="David Granger"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_David_Granger.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_peter_ramsaroop={
+		name="Peter Ramsaroop"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_Peter_Ramsaroop.dds"
+			}
+		}
+		country_leader={
+			ideology=corporate
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_helen_first={
+		name="Helen I"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_Helen_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_vishnu_bandhu={
+		name="Vishnu Bandhu"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_Vishnu_Bandhu.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_christiane_taubira={
+		name="Christiane Taubira"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_Christiane_Taubira.dds"
+			}
+		}
+		country_leader={
+			ideology=socialist_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_manzoor_nadir={
+		name="Manzoor Nadir"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_Manzoor_Nadir.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_joey_jagan={
+		name="Joey Jagan"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_Joey_Jagan.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_raphael_trotman={
+		name="Raphael Trotman"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_Raphael_Trotman.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_ralph_ramkarran={
+		name="Ralph Ramkarran"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_Ralph_Ramkarran.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_david_hinds={
+		name="David Hinds"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_David_Hinds.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_donald_ramotar={
+		name="Donald Ramotar"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUY/Portrait_GUY_Donald_Ramotar.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUY_patrick_west={
+		name="Patrick West"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GUY/Portrait_Patrick_West.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine organisational_leader }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GUY_nazrul_hussain={
+		name="Nazrul Hussain"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GUY/Portrait_Nazrul_Hussain.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GUY_mark_phillips={
+		name="Mark Phillips"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GUY/Portrait_Mark_Philips.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GUY_gary_best={
+		name="Gary Best"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GUY/Portrait_Gary_Best.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GUY_marcus_taylor={
+		name="Marcus Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=dynastic_monarchist
+			traits={ smooth_talking_charmer ideological_crusader }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+}

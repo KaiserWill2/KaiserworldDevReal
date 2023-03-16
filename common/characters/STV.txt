@@ -1,0 +1,145 @@
+characters={
+	STV_anesia_baptiste={
+		name="Anesia Baptiste"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Anesia_Baptiste.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_keith_g._miller={
+		name="Keith G. Miller"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Keith_G_Miller.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_frederick_ballantyne={
+		name="Frederick Ballantyne"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Frederick_Ballantyne.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_camillo_gonsalves={
+		name="Camillo Gonsalves"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Camillo_Gonsalves.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_arnhim_eustace={
+		name="Arnhim Eustace"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Arnhim_Eustace.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_mark_j.n_doyle={
+		name="Mark J.N Doyle"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Mark_J_N_Doyle.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_derek_richardsjones={
+		name="Derek Richards-Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Derek_Richards_Jones.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_rochelle_forde={
+		name="Rochelle Forde"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Rochelle_Forde.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_louis_straker={
+		name="Louis Straker"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Louis_Straker.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_ivan_oneal={
+		name="Ivan O'Neal"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Ivan_O_Neal.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_ralph_gonsalves={
+		name="Ralph Gonsalves"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Portrait_STV_Ralph_Gonsalves.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

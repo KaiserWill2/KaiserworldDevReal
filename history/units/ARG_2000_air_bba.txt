@@ -1,0 +1,15 @@
+air_wings = {
+	278 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		small_plane_airframe_1 = { owner = "ARG" amount = 100 version_name = "Fighter I" }					
+		medium_plane_airframe_1 = { owner = "ARG" amount = 100 version_name = "Tactical Bomber I" }	
+	}
+	"ARA 25 de Mayo"  = {
+		cv_small_plane_airframe_1 =  { owner = "ARG" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "ARG" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "ARG" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ARG" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ARG" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "ARG" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+}

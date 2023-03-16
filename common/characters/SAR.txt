@@ -1,0 +1,145 @@
+Characters={	
+	SAR_Oliviero_Diliberto={
+		name="Oliviero Diliberto"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Oliviero_Diliberto.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Nanni_Campus={
+		name="Nanni Campus"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Nanni_Campus.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Giorgio_Ladu={
+		name="Giorgio Ladu"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Giorgio_Ladu.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Emanuele_Filibert_First={
+		name="Emanuele Filibert I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Emanuele_Filiberto_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Bruno_Bellomonte={
+		name="Bruno Bellomonte"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Bruno_Bellomonte.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Christian_Solinas={
+		name="Christian Solinas"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Christian_Solinas.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Mario_Floris={
+		name="Mario Floris"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Mario_Floris.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Renato_Soru={
+		name="Renato Soru"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Renato_Soru.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Gavino_Sale={
+		name="Gavino Sale"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Gavino_Sale.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Massimo_Zedda={
+		name="Massimo Zedda"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Massimo_Zedda.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAR_Bustianu_Cumpostu={
+		name="Bustianu Cumpostu"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_SAR_Bustianu_Cumpostu.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

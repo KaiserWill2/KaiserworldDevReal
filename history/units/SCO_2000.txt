@@ -1,0 +1,97 @@
+division_template = {
+	name = "Mechanized Regiment"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "SNLA Militant Section"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "1st Scottish Mechanized Regiment"
+		division_template = "Mechanized Regiment"
+		location = 3273
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1st Glasgow National Liberation Brigade"
+		division_template = "SNLA Militant Section"
+		location = 3273
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "2nd Glasgow National Liberation Brigade"
+		division_template = "SNLA Militant Section"
+		location = 3273
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1st Aberdeen National Liberation Brigade"
+		division_template = "SNLA Militant Section"
+		location = 11136
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1st Dundee National Liberation Brigade"
+		division_template = "SNLA Militant Section"
+		location = 3150
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1st Edinburgh National Liberation Brigade"
+		division_template = "SNLA Militant Section"
+		location = 9392
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "2nd Edinburgh National Liberation Brigade"
+		division_template = "SNLA Militant Section"
+		location = 9392
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "1st Inverness National Liberation Brigade"
+		division_template = "SNLA Militant Section"
+		location = 6046
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+}

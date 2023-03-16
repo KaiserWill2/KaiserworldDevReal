@@ -1,0 +1,145 @@
+characters={
+	WAF_omar_ould_hamaha={
+		name="Omar Ould Hamaha"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Omar_Ould_Hamaha.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_ibrahim_baré_maïnassara={
+		name="Ibrahim Baré Maïnassara"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Ibrahim_Bare_Maïnassara.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_mamadou_moustapha={
+		name="Mamadou Moustapha"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Sarkin_Mamadou_Moustapha.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_bah_ndaw={
+		name="Bah Ndaw"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Bah_Ndaw.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_hamid_algabid={
+		name="Hamid Algabid"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Hamid_Algabid.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_amadou_toumani_touré={
+		name="Amadou Toumani Touré"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Amadou_Toumani_Touré.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_younoussi_touré={
+		name="Younoussi Touré"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Younoussi_Touré.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_bognessan_arsène_yé={
+		name="Bognessan Arsène Yé"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Bognessan_Arsène_Yé.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_dioncounda_traoré={
+		name="Dioncounda Traoré"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Dioncounda_Traoré.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_biram_dah_abeid={
+		name="Biram Dah Abeid"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Biram_Dah_Abeid.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAF_oumar_mariko={
+		name="Oumar Mariko"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAF/Portrait_WAF_Oumar_Mariko.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

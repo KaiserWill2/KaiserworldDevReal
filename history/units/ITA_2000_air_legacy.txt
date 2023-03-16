@@ -1,0 +1,17 @@
+air_wings = {
+	2 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		fighter_equipment_0 = { owner = "ITA" amount = 100 }			
+		tac_bomber_equipment_0 = { owner = "ITA" amount = 100 }	
+	}
+	"Giuseppe Garibaldi"  = {
+		cv_fighter_equipment_0 =  { owner = "ITA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ITA" amount = 10 }
+	}
+	"Cavour"  = {
+		cv_fighter_equipment_0 =  { owner = "ITA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "ITA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ITA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ITA" amount = 10 }
+	}
+}

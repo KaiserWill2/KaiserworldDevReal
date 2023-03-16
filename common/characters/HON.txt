@@ -1,0 +1,145 @@
+characters={
+	HON_Billy_Joya={
+		name="Billy Joya"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Billy_Joya.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Porfirio_Lobo_Sosa={
+		name="Porfirio Lobo Sosa"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Porfirio_Lobo_Sosa.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Luis_First={
+		name="Luis I"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Luis_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Romeo_Vásquez_Velásquez={
+		name="Romeo Vásquez Velásquez"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Romeo_Vásquez_Velásquez.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Salvador_Nasralla={
+		name="Salvador Nasralla"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Salvador_Nasralla.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Felicito_Ávila={
+		name="Felicito Ávila"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Felicito_Ávila.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Roberto_Micheletti={
+		name="Roberto Micheletti"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Roberto_Micheletti.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Bernard_Martínez_Valerio={
+		name="Bernard Martínez Valerio"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Bernard_Martínez_Valerio.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Silvia_Ayala={
+		name="Silvia Ayala"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Silvia_Ayala.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Xiomara_Castro={
+		name="Xiomara Castro"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Xiomara_Castro.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_Matías_Funes={
+		name="Matías Funes"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Portrait_HON_Matías_Funes.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

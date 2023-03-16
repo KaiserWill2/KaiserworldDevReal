@@ -1,0 +1,146 @@
+characters={
+	VIC_andrew_irving={
+		name="Andrew Irving"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Andrew_Irving.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_debbie_robinson={
+		name="Debbie Robinson"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Debbie_Robinson.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_peter_ryan={
+		name="Peter Ryan"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Peter_Ryan.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_alex_chernov={
+		name="Alex Chernov"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Alex_Chernov.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_craig_isherwood={
+		name="Craig Isherwood"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Craig_Isherwood.dds"
+			}
+		}
+		country_leader={
+			ideology=larouche
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_denis_napthine={
+		name="Denis Napthine"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Denis_Napthine.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_john_madigan={
+		name="John Madigan"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_John_Madigan.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_lyn_allison={
+		name="Lyn Allison"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Lyn_Allison.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_daniel_andrews={
+		name="Daniel Andrews"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Daniel_Andrews.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_greg_barber={
+		name="Greg Barber"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Greg_Barber.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIC_ven_thanh_rudd={
+		name="Van Thanh Rudd"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIC/Portrait_VIC_Van_Thanh_Rudd.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+}

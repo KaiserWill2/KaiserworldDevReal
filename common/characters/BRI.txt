@@ -1,0 +1,146 @@
+characters={
+	BRI_ronan_le_gall={
+		name="Ronan Le Gall"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Ronan_Le_Gall.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_jean-paul_felix={
+		name="Jean-Paul Félix"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Jean-Paul_Felix.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_francois_i={
+		name="François I"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Francois_I.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_gael_roblin={
+		name="Gaël Roblin"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Gael_Roblin.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_francois_goulard={
+		name="François Goulard"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Francois_Goulard.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_alain_cadec={
+		name="Alain Cadec"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Alain_Cadec.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_valerie_hayer={
+		name="Valérie Hayer"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Valerie_Hayer.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_mathieu_guihard={
+		name="Mathieu Guihard"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Mathieu_Guihard.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_andre_lavanant={
+		name="André Lavanant"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Andre_Lavanant.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_eric_bainvel={
+		name="Éric Bainvel"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Eric_Bainvel.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRI_lydie_massard={
+		name="Lydie Massard"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRI/Portrait_BRI_Lydie_Massard.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+}

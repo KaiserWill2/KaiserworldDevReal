@@ -1,0 +1,146 @@
+characters={
+	SAF_blade_nzimande={
+		name="Blade Nzimande"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Blade_Nzimande.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_eugene_terreblanche={
+		name="Eugene Terre'Blanche"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Eugene_Terre_Blanche.dds"
+			}
+		}
+		country_leader={
+			ideology=afrikaner_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_constand_viljoen={
+		name="Constand Viljoen"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Constand_Viljoen.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_mangosuthu_buthelezi={
+		name="Mangosuthu Buthelezi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Mangosuthu_Buthelezi.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_julius_malema={
+		name="Julius Malema"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Julius_Malema.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_f._w._de_klerk={
+		name="F. W. de Klerk"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Frederik_Willem_De_Klerk.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FREDERIK_WILLEM_DE_KLERK_DESC"
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_pieter_mulder={
+		name="Pieter Mulder"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Pieter_Mulder.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_helen_zille={
+		name="Helen Zille"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Helen_Zille.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_cyril_ramaphosa={
+		name="Cyril Ramaphosa"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Cyril_Ramaphosa.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_sydney_mufamadi={
+		name="Sydney Mufamadi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Sydney_Mufamadi.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAF_winnie_madikizela={
+		name="Winnie Madikizela"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Winnie_Madikizela.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

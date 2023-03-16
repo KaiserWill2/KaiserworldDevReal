@@ -1,0 +1,202 @@
+﻿capital = 977
+
+oob = "generic_2000"
+
+set_research_slots = 2
+set_convoys = 500
+set_stability = 0.3
+set_war_support = 0.2
+
+set_country_flag = was_in_british_empire
+set_country_flag = muslim_nation
+
+add_ideas = {
+	yar_sic_yahya_mohamed_abdullah_saleh
+	yar_fom_abdul_qadir_bajamal
+	yar_ind_huda_al_baan
+	yar_nsm_abdo_al_janadi
+	yar_inm_tareq_saleh
+}
+
+set_technology = {
+	support_weapons = 1
+	infantry_weapons = 1
+	motorised_infantry = 1 
+	tech_support = 1 
+	tech_field_hospital = 1 
+	tech_engineers = 1 
+	gw_artillery = 1 
+	tech_mountaineers = 1
+	early_fighter = 1 
+	early_bomber = 1 
+	early_submarine = 1
+    transport = 1 
+	paratroopers = 1 
+	interwar_antiair = 1
+	interwar_antitank = 1
+	basic_train = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		armor_tech_1 = 1
+		engine_tech_1 = 1
+	}
+}
+    if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		
+		
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+set_popularities = {
+    fascist = 1
+	nationalist = 47
+	monarchist = 3
+	national_bolshevik = 2
+	national_conservative = 10
+	centrist = 2
+	liberal = 0
+	new_democrat = 1
+	moderate_socialist = 0
+	revolutionary_socialist = 31
+	communist = 3
+}
+
+add_ideas = {
+    YAR_republican_army 
+}
+
+set_politics = {
+	ruling_party = nationalist
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = YAR_ali_salem_al_beidh
+recruit_character = YAR_abdul_majeed_alzindani
+recruit_character = YAR_ahmed_saleh
+recruit_character = YAR_ageel_bin_muhammad_al_badr
+recruit_character = YAR_abdel_wahab_mahmoud_abdel_hamid
+recruit_character = YAR_mohammed_qahtan
+recruit_character = YAR_khaled_bahah
+recruit_character = YAR_tawakkol_karman
+recruit_character = YAR_najeeb_qahtan_alshaabi
+recruit_character = YAR_haidar_abu_bakr_alattas
+recruit_character = YAR_abdulmalik_almekhlafi
+recruit_character = YAR_abdul_malik_al_houthi
+recruit_character = YAR_yahya_mohamed_abdullah_saleh
+recruit_character = YAR_mohamed_al_atifi
+recruit_character = YAR_mohammed_nasser_ahmed
+recruit_character = YAR_bahri_nasser_hassan
+recruit_character = YAR_khalid_al_qamali
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "Cold War Light Tank"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Cold War Heavy Tank" 
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_medium_howitzer
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = secondary_turret_small_cannon
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 4
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Cold War Medium Tank" 
+		type = medium_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_medium_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 5
+		}
+	}
+}

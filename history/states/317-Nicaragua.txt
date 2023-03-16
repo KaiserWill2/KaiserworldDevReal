@@ -1,0 +1,38 @@
+state={
+	id=317
+	name="STATE_317"
+	resources={
+
+		chromium=1
+
+	}
+
+	state_category = town
+
+	history={
+		owner = CEA
+		add_core_of = NIC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			13792 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CEA
+		victory_points = {
+			13793 10
+		}
+
+	}
+
+	provinces={
+		13139 13794 13797 13793 13178 13796 13792 13795 
+	}
+	manpower=4310924
+	buildings_max_level_factor=1.000
+}

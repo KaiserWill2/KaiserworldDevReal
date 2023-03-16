@@ -1,0 +1,77 @@
+ideas = {
+
+	country = {
+	
+		prussian_militarism = {
+			picture = wehrmacht
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.05
+				conscription = 0.02
+				army_org_factor = 0.1
+				planning_speed = 0.2
+				fascism_drift = 0.01
+				neutrality_drift = 0.01
+			}
+		}
+		prussian_militarism_authoritarian = {
+			picture = wehrmacht
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.05
+				conscription = 0.02
+				army_org_factor = 0.1
+				planning_speed = 0.2
+				neutrality_drift = 0.03
+			}
+		}
+		prussian_militarism_democratic = {
+			picture = wehrmacht
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.05
+				conscription = 0.02
+				army_org_factor = 0.1
+				planning_speed = 0.2
+			}
+		}
+		prussian_militarism_radical = {
+			picture = wehrmacht
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.05
+				conscription = 0.02
+				army_org_factor = 0.1
+				planning_speed = 0.2
+				fascism_drift = 0.01
+				communism_drift = 0.01
+			}
+		}
+		
+	}
+	
+}

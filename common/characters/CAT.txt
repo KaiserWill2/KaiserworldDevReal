@@ -1,0 +1,145 @@
+characters={
+	CAT_pedro_garrido={
+		name="Pedro Garrido Roca"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Pedro_Garrido.dds"
+			}
+		}
+		country_leader={
+			ideology=francoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_alicia_sanchez_camacho={
+		name="Alicia Sánchez-Camacho"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Alicia_Sanchez_Camacho.dds"
+			}
+		}
+		country_leader={
+			ideology=neofrancoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_enrique_v={
+		name="Enrique V"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Enrique_V.dds"
+			}
+		}
+		country_leader={
+			ideology=carlist_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_juan_puigcercos={
+		name="Juan Puigcercós"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Juan_Puigcercos.dds"
+			}
+		}
+		country_leader={
+			ideology=socialist_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_carlos_carrizosa_torres={
+		name="Carlos Carrizosa Torres"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Carlos_Carrizosa_Torres.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_ramon_espadalar={
+		name="Ramon Espadalar"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Ramon_Espadalar.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_artus_mas={
+		name="Artur Mas"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Artus_Mas.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_jose_montilla={
+		name="José Montilla"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Jose_Montilla.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_isidre_molas={
+		name="Isidre Molas"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Isidre_Molas.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_carles_riera={
+		name="Carles Riera"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Carles_Riera.dds"
+			}
+		}
+		country_leader={
+			ideology=anarcho_syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAT_carles_puigdemont={
+		name="Carles Puigdemont"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAT/Portrait_CAT_Carles_Puigdemont.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}	
+	}
+}

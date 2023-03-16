@@ -1,0 +1,145 @@
+characters={
+	GUJ_bhairavi_desai={
+		name="Bhairavi Desai"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Bhairavi_Desai.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_babu_bajrangi={
+		name="Babu Bajrangi"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Babu_Bajrangi.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_gordhan_zadafia={
+		name="Gordhan Zadafia"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Gordhan_Zadafia.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_pragmulji_third={
+		name="Pragmulji III"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Pragmulji_Third.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_narmada_akka={
+		name="Narmada Akka"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Narmada_Akka.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_anandiben_patel={
+		name="Anandiben Patel"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Anandiben_Patel.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_mallika_sarabhai={
+		name="Mallika Sarabhai"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Mallika_Sarabhai.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_kandhal_jadeja={
+		name="Kandhal Jadeja"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Kandhal_Jadeja.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_shaktisinh_gohil={
+		name="Shaktisinh Gohil"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Shaktisinh_Gohil.dds"
+			}
+		}
+		country_leader={
+			ideology=nehruvian_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_manjula_pradeep={
+		name="Manjula Pradeep"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Manjula_Pradeep.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUJ_ela_bhatt={
+		name="Ela Bhatt"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUJ/Portrait_GUJ_Ela_Bhatt.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

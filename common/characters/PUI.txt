@@ -1,0 +1,180 @@
+characters={
+	PUI_sitaram_yechury={
+		name="Sitaram Yechury"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Sitaram_Yechury.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_bal_thackeray={
+		name="Bal Thackeray"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Bal_Thackeray.dds"
+			}
+		}
+		country_leader={
+			ideology=shiv_sena
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_mohan_bhagwat={
+		name="Mohan Bhagwat"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Mohan_Bhagwat.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_udayanraje_bhosale={
+		name="Udayanraje Bhosale"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Udayanraje_Bhosale.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_ashok_gosh={
+		name="Ashok Gosh"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Ashok_Gosh.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_narendra_modi={
+		name="Narendra Modi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Narendra_Modi.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_deve_gowda={
+		name="H.D.Deve Gowda"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Deve_Gowda.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_rajiv_ghandi={
+		name="Rajiv Ghandi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Rajiv_Ghandi.dds"
+			}
+		}
+		country_leader={
+			ideology=nehruvian_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_mulayam_singh_yadav={
+		name="Mulayam Singh Yadav"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Mulayam_Singh_Yadav.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_harcharanjit_singh_panag={
+		name="Harcharanjit Singh Panag"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Harcharanjit_Singh_Panag.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUI_arvind_kejriwal={
+		name="Arvind Kejriwal"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Arvind_Kejriwal.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = revolutionary_socialist_ideology
+		}
+	}
+	PUI_federal_panchayat_commission={
+		name="Federal Panchayat Commission"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Federal_Panchayat_Commission.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = revolutionary_socialist_ideology
+		}
+	}
+	PUI_bijay_kumar_singh={
+		name="Vijay Kumar Singh"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Vijay_Kumar_Singh.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = revolutionary_socialist_ideology
+		}
+	}
+	PUI_gulkirat_kaur_panag={
+		name="Gulkirat Kaur Panag"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUI/Portrait_PUI_Gulkirat_Kaur_Panag.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = revolutionary_socialist_ideology
+		}
+	}
+}

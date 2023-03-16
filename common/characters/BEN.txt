@@ -1,0 +1,145 @@
+characters={
+	BEN_mathieu_kérékou={
+		name="Mathieu Kérékou"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Mathieu_Kerekou.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_temitope_balogun_joshua={
+		name="Temitope Balogun Joshua"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Temitope_Balogun_Joshua.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_nicéphore_soglo={
+		name="Nicéphore Soglo"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Nicéphore_Soglo.dds"
+			}
+		}
+		country_leader={
+			ideology=national_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_agoli_agbo_dedjalagni={
+		name="Agoli Agbo Dedjalagni"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Agoli_Agbo_Dedjalagni.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_martin_azonhiho={
+		name="Martin Azonhiho"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Martin_Azonhiho.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_abdoulaye_bio_tchané={
+		name="Abdoulaye Bio Tchané"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Abdoulaye_Bio_Tchané.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_thomas_boni_yayi={
+		name="Thomas Boni Yayi"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Thomas_Boni_Yayi.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_lionel_zinsou={
+		name="Lionel Zinsou"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Lionel_Zinsou.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_bruno_amoussou={
+		name="Bruno Amoussou"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Bruno_Amoussou.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_adrien_houngbédji={
+		name="Adrien Houngbédji"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Adrien_Houngbédji.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BEN_daniel_tawéma={
+		name="Daniel Tawéma"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEN/Portrait_BEN_Daniel_Tawéma.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

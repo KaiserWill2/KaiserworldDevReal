@@ -1,0 +1,145 @@
+characters={
+	GBS_batista_tagme_na_waie={
+		name="Batista Tagme Na Waie"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Batista_Tagme_Na_Waie.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_mamadu_ture_kuruma={
+		name="Mamadu Ture Kuruma"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Mamadu_Ture_Kuruma.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_ebrahim_i={
+		name="Ebrahim I"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Ebrahim_Sanyang.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_carlos_correia={
+		name="Carlos Correia"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Carlos_Correia.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_manuel_serifo_nhamadjo={
+		name="Manuel Serifo Nhamadjo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Manuel_Serifo_Nhamadjo.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_silvestre_alves={
+		name="Silvestre Alves"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Silvestre_Alves.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_mamadú_iaia_djaló={
+		name="Mamadú Iaia Djaló"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Mamadú_Iaia_Djaló.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_kumba_ialá={
+		name="Kumba Ialá"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Kumba_Ialá.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_braima_camará={
+		name="Braima Camará"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Braima_Camará.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_aregado_mantenque_té={
+		name="Aregado Mantenque Té"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Aregado_Mantenque_Té.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_joão_bernardo_vieira={
+		name="João Bernardo Vieira"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Portrait_GBS_Joao_Bernardo_Vieira.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,145 @@
+characters={
+	ZAM_tilyenji_kaunda={
+		name="Tilyenji Kaunda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Tilyenji_Kaunda.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_steven_lungu={
+		name="Steven Lungu"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Steven_Lungu.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_lubosi_ii={
+		name="Lubosi II"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Lubosi_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_godfrey_miyanda={
+		name="Godfrey Miyanda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Godfrey_Miyanda.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_clement_wainyae_sinyinda={
+		name="Clement Wainyae Sinyinda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Clement_Wainyae_Sinyinda.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_elias_chipimo={
+		name="Elias Chipimo"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Elias_Chipimo.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_charles_milupi={
+		name="Charles Milupi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Charles_Milupi.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_hakainde_hichilema={
+		name="Hakainde Hichilema"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Hakainde_Hichilema.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_frederick_chiluba={
+		name="Frederick Chiluba"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Frederick_Chiluba.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_edgar_lungu={
+		name="Edgar Lungu"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Edgar_Lungu.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_michael_sata={
+		name="Michael Sata"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Portrait_ZAM_Michael_Sata.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

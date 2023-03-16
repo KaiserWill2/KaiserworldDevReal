@@ -1,0 +1,146 @@
+characters={
+	CMB_heng_samrin={
+		name="Heng Samrin"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Heng_Samrin.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HENG_SAMRIN_DESC"
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_norodom_ranariddh={
+		name="Norodom Ranariddh"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Norodom_Ranariddh.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_kong_korm={
+		name="Kong Korm"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Kong_Korm.dds"
+			}
+		}
+		country_leader={
+			ideology=neoconservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_norodom_sihanouk={
+		name="Norodom Sihanouk"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Norodom_Sihanouk.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_nuon_chea={
+		name="Nuon Chea"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Nuon_Chea.dds"
+			}
+		}
+		country_leader={
+			ideology=khmer_rouge
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_kem_sokha={
+		name="Kem Sokha"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Kem_Sokha.dds"
+			}
+		}
+		country_leader={
+			ideology=buddhist_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_sam_rainsy={
+		name="Sam Rainsy"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Sam_Rainsy.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_tea_banh={
+		name="Tea Banh"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Tea_Banh.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_kem_ley={
+		name="Kem Ley"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Kem_Ley.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_hun_sen={
+		name="Hun Sen"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Hun_Sen.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_hor_namhong={
+		name="Hor Namhong"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Portrait_CMB_Hor_Namhong.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

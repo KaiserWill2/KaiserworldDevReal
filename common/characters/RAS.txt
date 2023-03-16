@@ -1,0 +1,145 @@
+characters={
+	RAS_sedki_sobhy_sayyid_ahmad={
+		name="Sedki Sobhy Sayyid Ahmad"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Sedki_Sobhy_Sayyid_Ahmad.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_hazem_salah_abu_ismail={
+		name="Hazem Salah Abu Ismail"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Hazem_Salah_Abu_Ismail.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_fuad_ii={
+		name="Fuad II"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Faud_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_khaled_fawzy={
+		name="Khaled Fawzy"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Khaled_Fawzy.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_hatem_saber={
+		name="Hatem Saber"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Hatem_Saber.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_sami_hafez_anan={
+		name="Sami Hafez Anan"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Sami_Hafez_Anan.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_mohab_mamish={
+		name="Mohab Mamish"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Mohab_Mamish.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_mamdouh_shahin={
+		name="Mamdouh Shahin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Mamdouh_Shahin.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_hamdeen_sabahi={
+		name="Hamdeen Sabahi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Hamdeen_Sabahi.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_essam_sharaf={
+		name="Essam Sharaf"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Essam_Sharaf.dds"
+			}
+		}
+		country_leader={
+			ideology=nasserism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAS_mohamed_samir={
+		name="Mohamed Samir"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAS/Portrait_RAS_Mohamed_Samir.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

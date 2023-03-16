@@ -1,0 +1,145 @@
+characters={
+	MIC_Peter_Gumataotao={
+		name="Peter Gumataotao"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Peter_Gumataotao.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_Eddie_Baza_Calvo={
+		name="Eddie Baza Calvo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Eddie_Baza_Calvo.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_Tsunekazu_Takeda={
+		name="Tsunekazu Takeda"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Tsunekazu_Takeda.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_Eiken_Elam_Saimon={
+		name="Eiken Elam Saimon"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Eiken_Elam_Saimon.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_Joseph_Urusemal={
+		name="Joseph Urusemal"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Joseph_Urusemal.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_Wesley_Simina={
+		name="Wesley Simina"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Wesley_Simina.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_Manny_Mori={
+		name="Manny Mori"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Manny_Mori.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_Lou_Leon_Guerrero={
+		name="Lou Leon Guerrero"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Lou_Leon_Guerrero.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_Christina_Stinnett={
+		name="Christina Stinnett"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Christina_Stinnett.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_Yoslyn_Sigrah={
+		name="Yoslyn Sigrah"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_Yoslyn_Sigrah.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MIC_David_Panuelo={
+		name="David Panuelo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/Portrait_MIC_David_Panuelo.dds"
+			}
+		}
+		country_leader={
+			ideology=neoauthoritarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

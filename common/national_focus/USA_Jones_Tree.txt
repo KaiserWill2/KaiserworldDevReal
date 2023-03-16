@@ -1,0 +1,1032 @@
+focus_tree = {
+	id = usa_Jones_Tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_The_Era_Of_Jones
+		icon = unknown
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_For_The_Emperor
+		icon = unkown
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Era_Of_Jones  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Harshen_Border_Restrictions
+		icon = unkown
+		x = 8
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_For_The_Emperor  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Increase_The_Military_Budget
+		icon = unkown
+		x = 8
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Harshen_Border_Restrictions  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Reform_The_Ministry_Of_Colonies
+		icon = unkown
+		x = 8
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Increase_The_Military_Budget  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Bribing_Parliament
+		icon = unkown
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_For_The_Emperor  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_A_Meeting_With_The_Emperor
+		icon = unkown
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bribing_Parliament  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Sideline_Political_Opponents
+		icon = unkown
+		x = 10
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_Meeting_With_The_Emperor  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_The_War_On_Delta_Green
+		icon = unkown
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sideline_Political_Opponents  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Team_Up_With_The_CIA
+		icon = unkown
+		x = 8
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_War_On_Delta_Green  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Scour_New_England
+		icon = unkown
+		x = 8
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Team_Up_With_The_CIA  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Inter_Goverment_Warfare
+		icon = unkown
+		x = 12
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_War_On_Delta_Green  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Arrest_Delta_Green_Collaborators
+		icon = unkown
+		x = 12
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Inter_Goverment_Warfare  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Base_01_Destroyed
+		icon = unkown
+		x = 10
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Arrest_Delta_Green_Collaborators  }
+		prerequisite = { focus =  USA_Scour_New_England  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Reveal_What_Was_Inside
+		icon = unkown
+		x = 8
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_The_Public_Can_Never_Know
+		}
+		prerequisite = { focus =  USA_Base_01_Destroyed  }
+	
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_The_Public_Can_Never_Know
+		icon = unkown
+		x = 12
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Reveal_What_Was_Inside
+		}
+		prerequisite = { focus =  USA_Base_01_Destroyed  }
+	
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+
+
+	focus = {
+		id = USA_the_1938_Project
+		icon = unkown
+		x = 12
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_For_The_Emperor  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Redfine_The_American_Identity
+		icon = unkown
+		x = 12
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_the_1938_Project  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Vilify_The_Commonwealth_Party
+		icon = unkown
+		x = 12
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Redfine_The_American_Identity  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Expanding_The_Empire
+		icon = unkown
+		x = 25
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_The_Mexican_Protectorate
+		icon = unkown
+		x = 20
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_Expanding_The_Empire  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Integration_Into_The_Empire
+		icon = unkown
+		x = 18
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_The_Mexican_Protectorate  }
+		mutually_exclusive = {
+			focus = USA_Lessen_Their_Autonomy
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Begin_Integrating_Military_Forces
+		icon = unkown
+		x = 18
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Integration_Into_The_Empire  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Reorganize_Local_Governments
+		icon = unkown
+		x = 18
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Begin_Integrating_Military_Forces  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Merging_Infrastructure
+		icon = unkown
+		x = 18
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Reorganize_Local_Governments  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Welcome_The_Mexican_Royal_Family
+		icon = unkown
+		x = 16
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Merging_Infrastructure  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Bienvenidos_A_Mexico
+		icon = unkown
+		x = 20
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Merging_Infrastructure  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_The_Empire_Expands
+		icon = unkown
+		x = 18
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_Bienvenidos_A_Mexico  }
+		prerequisite = { focus =  USA_Welcome_The_Mexican_Royal_Family  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+
+	focus = {
+		id = USA_Lessen_Their_Autonomy
+		icon = unkown
+		x = 22
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_The_Mexican_Protectorate  }
+		mutually_exclusive = {
+			focus = USA_Integration_Into_The_Empire
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Create_A_Joint_Military_Command_Structure
+		icon = unkown
+		x = 22
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Lessen_Their_Autonomy  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Ensure_Free_Travel
+		icon = unkown
+		x = 22
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Create_A_Joint_Military_Command_Structure  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_The_False_Americans
+		icon = unkown
+		x = 26
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_Expanding_The_Empire  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_No_Quarter_For_These_Traitors
+		icon = unkown
+		x = 26
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_The_False_Americans  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Speak_To_The_UN
+		icon = unkown
+		x = 26
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_No_Quarter_For_These_Traitors  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Reign_Hell_Upon_New_Washington
+		icon = unkown
+		x = 26
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Speak_To_The_UN  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Bring_Home_The_Last_Hoover
+		icon = unkown
+		x = 26
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Reign_Hell_Upon_New_Washington  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Set_Up_New_Colonies
+		icon = unkown
+		x = 26
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Bring_Home_The_Last_Hoover  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_Northern_Neighbor_Policy
+		icon = unkown
+		x = 33
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_Expanding_The_Empire  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Propose_A_Royal_Marriage
+		icon = unkown
+		x = 31
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_The_Northern_Neighbor_Policy  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_They_Denied
+		icon = unkown
+		x = 33
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Propose_A_Royal_Marriage  }
+		mutually_exclusive = {
+			focus = USA_They_Accepted
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_They_Accepted
+		icon = unkown
+		x = 29
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Propose_A_Royal_Marriage  }
+		mutually_exclusive = {
+			focus = USA_They_Denied
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Propose_A_Union_Of_Nations
+		icon = unkown
+		x = 29
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_They_Accepted  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Welcome_The_Windsors_To_Their_New_Home
+		icon = unkown
+		x = 29
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Propose_A_Union_Of_Nations  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_The_North_American_Empire
+		icon = unkown
+		x = 29
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Welcome_The_Windsors_To_Their_New_Home  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Continue_The_War_On_Terror_In_Canada
+		icon = unkown
+		x = 37
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_The_Northern_Neighbor_Policy  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Fund_Justin_Truedeau
+		icon = unkown
+		x = 37
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Continue_The_War_On_Terror_In_Canada  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Safeguard_The_Windsor_Family
+		icon = unkown
+		x = 37
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Fund_Justin_Truedeau  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Take_Over_Military_Responsibility
+		icon = unkown
+		x = 37
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Safeguard_The_Windsor_Family  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_Hunt_For_Trudeau
+		icon = unkown
+		x = 37
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Take_Over_Military_Responsibility  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Take_Advantage_Of_Canadian_Chaos
+		icon = unkown
+		x = 37
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_The_Hunt_For_Trudeau  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Install_Government_Leaders
+		icon = unkown
+		x = 35
+		y = 8
+		cost = 5
+		prerequisite = { focus =  USA_Take_Advantage_Of_Canadian_Chaos  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Broadcast_American_Propaganda
+		icon = unkown
+		x = 35
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Install_Government_Leaders  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Begin_Recrienting_Infrastructure
+		icon = unkown
+		x = 39
+		y = 8
+		cost = 5
+		prerequisite = { focus =  USA_Take_Advantage_Of_Canadian_Chaos  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Sideline_The_Windsors
+		icon = unkown
+		x = 39
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Begin_Recrienting_Infrastructure  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Begin_Americanizing_Canada
+		icon = unkown
+		x = 37
+		y = 10
+		cost = 5
+		prerequisite = { focus =  USA_Sideline_The_Windsors  }
+		prerequisite = { focus =  USA_Broadcast_American_Propaganda  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

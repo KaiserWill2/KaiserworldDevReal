@@ -1,0 +1,445 @@
+characters={
+	JAM_antony_bertram_anderson={
+		name="Antony Bertram Anderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Antony_Bertram_Anderson.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_andrew_holness={
+		name="Andrew Holness"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Andrew_Holness.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_patrick_allen={
+		name="Patrick Allen"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Patrick_Allen.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_leon_burrell={
+		name="Leon Burrell"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Leon_Burrell.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_peter_townsend={
+		name="Peter Townsend"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Peter_Townsend.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_joseph_patterson={
+		name="Joseph Patterson"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Joseph_Patterson.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_carolyn_gomes={
+		name="Carolyn Gomes"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Carolyn_Gomes.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_portia_simpsonmiller={
+		name="Portia Simpson-Miller"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Portia_Simpson_Miller.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_percival_james_patterson={
+		name="Percival James Patterson"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Percival_James_Patterson.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_wayne_jones={
+		name="Wayne Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Wayne_Jones.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_trevor_munroe={
+		name="Trevor Munroe"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/Portrait_JAM_Trevor_Munroe.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_rocky_r._meade={
+		name="Rocky R. Meade"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Meade.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_anthony_bertram_anderson={
+		name="Anthony Bertram Anderson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Anderson.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_david_a._cummings={
+		name="David A. Cummings"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Cummings.dds"
+			}
+		}
+		field_marshal={
+			traits={ fast_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_jamie_stuart_archibald_ogilvie={
+		name="Jamie Stuart Archibald Ogilvie"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Ogilvie.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_daniel_g._pryce={
+		name="Daniel G. Pryce"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Pryce.dds"
+			}
+		}
+		field_marshal={
+			traits={ defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_rohan_omar_hibbert={
+		name="Rohan Omar Hibbert"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Hibbert.dds"
+			}
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_dionne_n._smalling={
+		name="Dionne N. Smalling"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Smalling.dds"
+			}
+		}
+		field_marshal={
+			traits={ logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_maurice_a._matthews={
+		name="Maurice A. Matthews"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Matthews.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_kirk_patrick_johnson={
+		name="Kirk Patrick Johnson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Kirk_Johnson.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_rohan_f._johnson={
+		name="Rohan F. Johnson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Rohan_Johnson.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_david_p._chin_fong={
+		name="David P. Chin Fong"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Chin_Fong.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_roderick_a._williams={
+		name="Roderick A. Williams"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Williams.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_martin_e._rickman={
+		name="Martin E. Rickman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Rickman.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_winston_william_walcott={
+		name="Winston William Walcott"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Walcott.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	JAM_antonette_s._wemyssgorman={
+		name="Antonette S. Wemyss-Gorman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JAM/Portrait_Wemyss_Gorman.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=1051
+	name="STATE_1051"
+	manpower = 307096
+
+	state_category = town
+
+	history={
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 7912 1 }
+
+	}
+
+	provinces={
+		7912
+	}
+}

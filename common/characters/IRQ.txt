@@ -1,0 +1,457 @@
+characters={
+	IRQ_hamid_majid_mousa={
+		name="Hamid Majid Mousa"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Hamid_Majid_Mousa.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_abu_muslim_alturkmani={
+		name="Abu Muslim al-Turkmani"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Abu_Muslim_Al_Turkmani.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_saddam_hussein={
+		name="Saddam Hussein"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Saddam_Hussein.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SADDAM_HUSSEIN_DESC"
+			ideology=saddamist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_zeid_bin_raad={
+		name="Zeid bin Ra'ad"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Zeid_Bin_Ra_Ad.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_izzat_ibrahim_aldouri={
+		name="Izzat Ibrahim al-Douri"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Izzat_Ibrahim_Al_Douri.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_saleh_almutlaq={
+		name="Saleh al-Mutlaq"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Saleh_Al_Mutlaq.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_ahmed_chalabi={
+		name="Ahmed Chalabi"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Ahmed_Chalabi.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_adnan_pachachi={
+		name="Adnan Pachachi"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Adnan_Pachachi.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_ayad_allawi={
+		name="Ayad Allawi"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Ayad_Allawi.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_naseer_alchaderchi={
+		name="Naseer al-Chaderchi"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Naseer_Al_Chaderchi.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_zakia_alzaydi={
+		name="Zakia al-Zaydi"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_IRQ_Zakia_Al_Zaydi.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IRQ_abdul_ghani_alasadi={
+		name="Abdul Ghani al-Asadi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Abdul_Ghani_al_Asadi.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	IRQ_raad_alhamdani={
+		name="Ra'ad al-Hamdani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ra_ad_al_Hamdani.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected commando }
+			skill=3
+			attack_skill=1
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	IRQ_hussein_kamel_almajid={
+		name="Hussein Kamel al-Majid"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Hussein_Kamel_al_Majid.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer commando }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	IRQ_hussein_rashid_altikriti={
+		name="Hussein Rashid al-Tikriti"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Hussein_Rashid_al_Tikriti.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer war_hero }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	IRQ_ali_alghurairi={
+		name="Ali Al-Ghurairi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ali_Al_Ghurairi.dds"
+			}
+		}
+		corps_commander={
+			traits={ organizer skilled_staffer }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	IRQ_ali_hassan_almajid={
+		name="Ali Hassan al-Majid"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ali_Hassan_al_Majid.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected war_hero trickster }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	IRQ_ali_ghaidan_majid={
+		name="Ali Ghaidan Majid"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ali_Ghaidan_Majid.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	IRQ_raed_shaker_jawdat={
+		name="Raed Shaker Jawdat"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Raed_Shaker_Jawdat.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	IRQ_saber_abdel_aziz_aldouri={
+		name="Saber Abdel Aziz al-Douri"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Saber_Abdel_Aziz_al_Douri.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer panzer_leader panzer_expert }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	IRQ_abid_hamid_mahmud={
+		name="Abid Hamid Mahmud"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Abid_Hamid_Mahmud.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	IRQ_najim_abdullah_aljubouri={
+		name="Najim Abdullah al-Jubouri"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Najim_Abdullah_al_Jubouri.dds"
+			}
+		}
+		corps_commander={
+			traits={ paratrooper }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_mubdar_hatim_aldulaimi={
+		name="Mubdar Hatim al-Dulaimi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Mubdar_Hatim_al_Dulaimi.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	IRQ_ali_hussain_ali={
+		name="Ali Hussain Ali"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ali_Hussain_Ali.dds"
+			}
+		}
+		navy_leader={
+			traits={ green_water_expert }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_ahmed_jasim={
+		name="Ahmed Jasim"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ahmed_Jasim.dds"
+			}
+		}
+		navy_leader={
+			traits={ fly_swatter }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_faris_salman={
+		name="Faris Salman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Faris_Salman.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_ahmed_saleh={
+		name="Ahmed Saleh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/YAR/Portrait_YEM_Ahmed_Saleh.dds"
+			}
+		}
+	}
+}

@@ -1,0 +1,275 @@
+add_namespace = Ireland
+
+
+
+
+country_event = {
+	id = Ireland.1
+	title = Ireland.1.t
+	desc = Ireland.1.d
+	picture = irishg_republic_starting_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.1.o1
+
+	}
+}
+
+
+country_event = {
+	id = Ireland.2
+	title = Ireland.2.t
+	desc = Ireland.2.d
+	picture = business_confience_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.2.o1
+
+	}
+}
+
+
+country_event = {
+	id = Ireland.3
+	title = Ireland.3.t
+	desc = Ireland.3.d
+	picture = ireland_trade_expanding_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.3.o1
+
+	}
+}
+
+
+country_event = {
+	id = Ireland.4
+	title = Ireland.4.t
+	desc = Ireland.4.d
+	picture = ireland_austerity_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.4.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.5
+	title = Ireland.5.t
+	desc = Ireland.5.d
+	picture = irish_privatisation_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.5.o1
+
+	}
+}
+
+
+country_event = {
+	id = Ireland.6
+	title = Ireland.6.t
+	desc = Ireland.6.d
+	picture = meeting_the_celts_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.6.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.7
+	title = Ireland.7.t
+	desc = Ireland.7.d
+	picture = celtic_currency_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.7.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.8
+	title = Ireland.8.t
+	desc = Ireland.8.d
+	picture = dail_meeting_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.8.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.9
+	title = Ireland.9.t
+	desc = Ireland.9.d
+	picture = attempting_To_pass_bill_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.9.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.10
+	title = Ireland.10.t
+	desc = Ireland.10.d
+	picture = the_vote_in_ireland_Event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.10.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.11
+	title = Ireland.11.t
+	desc = Ireland.11.d
+	picture = the_four_way_coalition_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.11.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.12
+	title = Ireland.12.t
+	desc = Ireland.12.d
+	picture = in_comes_the_military
+	is_triggered_only = yes
+	option = {
+		name = Ireland.12.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.13
+	title = Ireland.13.t
+	desc = Ireland.13.d
+	picture = bertie_speaks_to_republic_Event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.13.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.14
+	title = Ireland.14.t
+	desc = Ireland.14.d
+	picture = IRSP_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.14.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.15
+	title = Ireland.15.t
+	desc = Ireland.15.d
+	picture = IRSM_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.15.o1
+
+	}
+}
+
+
+country_event = {
+	id = Ireland.16
+	title = Ireland.16.t
+	desc = Ireland.16.d
+	picture = derry_riots_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.16.o1
+
+	}
+}
+
+country_event = {
+	id = Ireland.17
+	title = Ireland.17.t
+	desc = Ireland.17.d
+	picture = derry_riots_event
+	is_triggered_only = yes
+	option = {
+		ULS = {
+			set_cosmetic_tag = northern_ireland_totalist
+			transfer_state = 119
+			}
+		name = Ireland.17.o1
+		ULS = {
+		create_country_leader = {
+			name = "Billy Hutchinson"
+			picture = "Billy_Hutchinson.dds"
+			ideology = syndicalism
+		}
+		set_politics = {
+			ruling_party = revolutionary_socialist 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology =  revolutionary_socialist
+			popularity = 0.50
+		}
+	}
+	}
+	option = {
+		ULS = {
+			set_cosmetic_tag = northern_ireland_totalist
+			transfer_state = 119
+			}
+		name = Ireland.17.o2
+		ULS = {
+		create_country_leader = {
+			name = "Brian Ervine"
+			picture = "Brian_Ervine.dds"
+			ideology = democratic_socialist
+		}
+		set_politics = {
+			ruling_party = moderate_socialist 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology =  moderate_socialist
+			popularity = 0.50
+		}
+	}
+	}
+}
+
+
+country_event = {
+	id = Ireland.18
+	title = Ireland.18.t
+	desc = Ireland.18.d
+	picture = arresting_protesters_event
+	is_triggered_only = yes
+	option = {
+		name = Ireland.18.o1
+
+	}
+}
+
+
+
+
+
+
+
+
+

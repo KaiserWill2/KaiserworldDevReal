@@ -1,0 +1,145 @@
+characters={
+	JHA_kamal_kishore_bhagat={
+		name="Kamal Kishore Bhagat"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Kamal_Kishore_Bhagat.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_sudesh_mahto={
+		name="Sudesh Mahto"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Sudesh_Mahto.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_bikram_pratap_singh_deo={
+		name="Bikram Pratap Singh Deo"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Bikram_Pratap_Singh_Deo.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_sushil_roy={
+		name="Sushil Roy"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Sushil_Roy.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_arjun_munda={
+		name="Arjun Munda"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Arjun_Munda.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_shibu_soren={
+		name="Shibu Soren"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Shibu_Soren.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_kushwaha_shivpujan_mehta={
+		name="Kushwaha Shivpujan Mehta"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Kushwaha_Shivpujan_Mehta.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_dhiraj_prasad_sahu={
+		name="Dhiraj Prasad Sahu"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Dhiraj_Prasad_Sahu.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_babulal_marandi={
+		name="Babulal Marandi"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Babulal_Marandi.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_a._k._roy={
+		name="A. K. Roy"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_A_K_Roy.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JHA_bhubneshwar_prasad_mehta={
+		name="Bhubneshwar Prasad Mehta"
+		portraits={
+			civilian={
+				large="gfx/leaders/JHA/Portrait_JHA_Bhubneshwar_Prasad_Mehta.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

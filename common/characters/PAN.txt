@@ -1,0 +1,145 @@
+characters={
+	PAN_ruben_dario_sousa_batista={
+		name="Ruben Dario Sousa Batista"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Ruben_Dario_Sousa_Batista.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_manuel_noriega={
+		name="Manuel Noriega"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Manuel_Noriega.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_tito_santana={
+		name="Tito Santana"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Tito_Santana.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_juan_carlos_varela={
+		name="Juan Carlos Varela"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Juan_Carlos_Varela.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_federico_britton={
+		name="Federico Britton"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Federico_Britton.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_milton_henriquez={
+		name="Milton Henriquez"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Milton_Henriquez.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_ricardo_martinelli={
+		name="Ricardo Martinelli"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Ricardo_Martinelli.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_sergio_gonzalez_ruiz={
+		name="Sergio Gonzalez Ruiz"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Sergio_Gonzalez_Ruiz.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_juan_carlos_navarro={
+		name="Juan Carlos Navarro"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Juan_Carlos_Navarro.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_guillermo_puga={
+		name="Guillermo Puga"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Guillermo_Puga.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_herasto_reyes={
+		name="Herasto Reyes"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Portrait_PAN_Herasto_Reyes.dds"
+			}
+		}
+		country_leader={
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

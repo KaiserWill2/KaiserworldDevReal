@@ -1,0 +1,145 @@
+characters={
+	GEN_Andrea_Orlando={
+		name="Andrea Orlando"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Andrea_Orlando.dds"
+			}
+		}
+		country_leader={
+			ideology=meliorist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Genoa_Council_Fascist={ #original
+		name="National Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Genoa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Genoa_Council_Nationalist={
+		name="Security Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Genoa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Genoa_Council_Conservative={
+		name="Genoan Regional Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Genoa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Genoa_Council_Centrist={
+		name="Genoan Regional Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Genoa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Genoa_Council_Liberal={
+		name="Genoan Regional Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Genoa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Genoa_Council_Democrat={
+		name="Genoan Regional Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Genoa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Genoa_Council_Nbolshevik={
+		name="National Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Genoa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Genoa_Council_Monarchist={
+		name="Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Genoa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Genoa_Council_Moderate={
+		name="Genoan Regional Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Genoa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEN_Marco_Ferrando={
+		name="Marco Ferrando"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEN/Portrait_GEN_Marco_Ferrando.dds"
+			}
+		}
+		country_leader={
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

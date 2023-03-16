@@ -1,0 +1,395 @@
+characters={
+	ETH_hailemariam_desalegn={
+		name="Hailemariam Desalegn"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Hailemariam_Desalegn.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HAILEMARIAM_DESALEGN_DESC"
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_lidetu_ayalew={
+		name="Lidetu Ayalew"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Lidetu_Ayalew.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_mohamouda_ahmed_gaas={
+		name="Mohamouda Ahmed Gaas"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Mohamouda_Ahmed_Gaas.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_haile_selassie_ii={
+		name="Haile Selassie II"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Haile_Selassie_Second.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_tadesse_werede_tesfay={
+		name="Tadesse Werede Tesfay"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Tadesse_Werede_Tesfay.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer politically_connected trickster }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ETH_berhanu_bayeh={
+		name="Berhanu Bayeh"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Berhanu_Bayeh.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_chane_kebede={
+		name="Chane Kebede"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Chane_Kebede.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_merera_gudina={
+		name="Merera Gudina"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Merera_Gudina.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_beyene_petros={
+		name="Beyene Petros"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Beyene_Petros.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_meles_zenawi={
+		name="Meles Zenawi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Meles_Zenawi.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_demeke_mekonnen={
+		name="Demeke Mekonnen"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Demeke_Mekonnen.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_sahle_work_zewde={
+		name="Sahle-Work Zewde"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Sahle_Work_Zewde.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_tsadakan_gebretensae={
+		name="Tsadakan Gebretensae"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Tsadakan_Gebretensae.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = leninist
+		}
+	}
+	ETH_seare_mekonnen={
+		name="Se'are Mekonnen"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Se_are_Mekonnen.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ETH_samora_yunis={
+		name="Samora Yunis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Samora_Yunis.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected skilled_staffer expert_delegator }
+			skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ETH_birhanu_jula_gelalcha={
+		name="Birhanu Jula Gelalcha"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Birhanu_Jula_Gelalcha.dds"
+			}
+		}
+		corps_commander={
+			traits={ organizer commando }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ETH_tigabu_yilma_wondimhunegn={
+		name="Tigabu Yilma Wondimhunegn"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Tigabu_Yilma_Wondimhunegn.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ETH_hassen_ebrahim_mussa={
+		name="Hassen Ebrahim Mussa"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Hassen_Ebrahim_Mussa.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ETH_gebre_adhana_woldezgu={
+		name="Gebre Adhana Woldezgu"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Gebre_Adhana_Woldezgu.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer urban_assault_specialist }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ETH_tekle_kiflay={
+		name="Tekle Kiflay"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Teklai_Kifle.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ETH_hayelom_araya={
+		name="Hayelom Araya"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Hayelom_Araya.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist trait_reckless }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ETH_tesfay_gidey_hailemichael={
+		name="Tesfay Gidey Hailemichael"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Tesfay_Gidey_Hailemichael.dds"
+			}
+		}
+		corps_commander={
+			traits={ organizer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ETH_haile_tilahun_gebremariam={
+		name="Haile Tilahun Gebremariam"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Haile_Tilahun_Gebremariam.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ETH_hummed_ahmed_karikare={
+		name="Hummed Ahmed Karikare"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ETH/Portrait_Hummed_Ahmed_Karikare.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

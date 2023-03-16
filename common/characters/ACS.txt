@@ -1,0 +1,300 @@
+characters={
+	ACS_mustafa_zaidi={
+		name="Mustafa Zaidi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ACS/Portrait_ACS_Mustafa_Zaidi.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected organizer }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ACS_khuwaildi_alhamidi={
+		name="Khuwaildi al-Hamidi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ACS/Portrait_Khuwaildi_al_Hamidi.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected inspirational_leader }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ACS_hussein_darbouk={
+		name="Hussein Darbouk"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ACS/Portrait_Hussein_Darbouk.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ACS_ahmed_almismari={
+		name="Ahmed Al-Mismari"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ACS/Portrait_Ahmed_Al_Mismari.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ACS_abu_muad={
+		name="Abu Muad"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ACS/Portrait_Abu_Muad.dds"
+			}
+		}
+		corps_commander={
+			traits={ international_volunteer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ACS_jordan_matson={
+		name="Jordan Matson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ACS/Portrait_Jordan_Matson.dds"
+			}
+		}
+		corps_commander={
+			traits={ international_volunteer commando }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ACS_abu_albaraa={
+		name="Abu al-Baraa"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ACS/Portrait_Abu_al_Baraa.dds"
+			}
+		}
+		corps_commander={
+			traits={ international_volunteer trait_reckless }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ACS_ulaş_bayraktaroğlu={
+		name="Ulaş Bayraktaroğlu"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ACS/Portrait_Ulaş_Bayraktaroğlu.dds"
+			}
+		}
+		corps_commander={
+			traits={ international_volunteer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ACS_salim_ibn_hisham={
+		name="Salim ibn Hisham"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ ideological_crusader quartermaster_general }
+			expire="2029.1.1.12"
+			id=-1
+		}
+	}
+	ACS_uthman_ibn_ali={
+		name="Uthman ibn Ali"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ACS_abd_allah_alhijazi={
+		name="Abd Allah al-Hijazi"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=dynastic_monarchist
+			traits={ captain_of_industry ideological_crusader }
+			expire="2030.1.1.12"
+			id=-1
+		}
+	}
+	ACS_abd_alrahman_ibn_ahmad={
+		name="Abd al-Rahman ibn Ahmad"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=larouche
+			traits={ armaments_organizer }
+			expire="2022.1.1.12"
+			id=-1
+		}
+	}
+	ACS_fuad_ibn_halil={
+		name="Fuad ibn Halil"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			traits={ smooth_talking_charmer fortification_engineer }
+			expire="2030.1.1.12"
+			id=-1
+		}
+	}
+	ACS_ishaq_ibn_abd_alqadir={
+		name="Ishaq ibn Abd al-Qadir"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="2022.1.1.12"
+			id=-1
+		}
+	}
+	ACS_kamil_ibn_uthman={
+		name="Kamil ibn Uthman"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	ACS_sad_aldin_ibn_abd_allah={
+		name="Sa'd al-Din ibn Abd Allah"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			traits={ captain_of_industry smooth_talking_charmer }
+			expire="2023.1.1.12"
+			id=-1
+		}
+	}
+	ACS_umar_ibn_uthman={
+		name="Umar ibn Uthman"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=austro_marxist
+			traits={ armaments_organizer }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	ACS_zafir_alhijazi={
+		name="Zafir al-Hijazi"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2023.1.1.12"
+			id=-1
+		}
+	}
+}

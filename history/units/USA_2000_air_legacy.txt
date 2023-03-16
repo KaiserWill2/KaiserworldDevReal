@@ -1,0 +1,31 @@
+air_wings = {
+	362 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		fighter_equipment_0 = { owner = "USA" amount = 100 }			
+		tac_bomber_equipment_0 = { owner = "USA" amount = 100 }	
+	}
+	"USS Dwight D. Eisenhower"  = {
+		cv_fighter_equipment_0 =  { owner = "USA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "USA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "USA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+	}
+	"USS Nimitz"  = {
+		cv_fighter_equipment_0 =  { owner = "USA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "USA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "USA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+	}
+	"USS Enterprise"  = {
+		cv_fighter_equipment_0 =  { owner = "USA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "USA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "USA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+	}
+}

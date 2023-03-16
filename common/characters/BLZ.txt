@@ -1,0 +1,145 @@
+characters={
+	BLZ_floyd_neal={
+		name="Floyd Neal"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Floyd_Neal.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_steven_ortega={
+		name="Steven Ortega"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Steven_Ortega.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_francis_fonseca={
+		name="Francis Fonseca"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Francis_Fonseca.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_national_workers_council={
+		name="National Workers' Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_National_Workers_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_dean_barrow={
+		name="Dean Barrow"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Dean_Barrow.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_ralph_fonseca={
+		name="Ralph Fonseca"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Ralph_Fonseca.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_patrick_rogers={
+		name="Patrick Rogers"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Patrick_Rogers.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_nancy_marin={
+		name="Nancy Marin"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Nancy_Marin.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_luis_blas_mendez={
+		name="Luis Blas Mendez"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Luis_Blas_Mendez.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_said_musa={
+		name="Said Musa"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Said_Musa.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_communism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_colville_young={
+		name="Colville Young"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Portrait_BLZ_Colville_Young.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,306 @@
+History_Of_The_War = {
+
+ENG_A_History_of_the_Second_Weltkrieg = {
+
+	icon = generic_scorched_earth
+
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = SCO
+			original_tag = WAL
+			original_tag = IRE
+			original_tag = USA
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = GER
+		}
+	}
+
+	available = {
+		always = yes
+	}
+
+	cost = 0
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+
+	complete_effect = {
+		country_event = { id = decision_event.6 }
+	}
+}
+
+ENG_A_History_of_the_Second_Weltkrieg2 = {
+
+	icon = generic_scorched_earth
+
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = SCO
+			original_tag = WAL
+			original_tag = IRE
+			original_tag = USA
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = GER
+		}
+	}
+
+	available = {
+		always = yes
+	}
+
+	cost = 0
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+
+	complete_effect = {
+		country_event = { id = decision_event.7 }
+	}
+}
+
+}
+
+
+thirties = {
+
+
+
+
+}
+
+forties = {
+
+
+
+
+}
+
+fifties = {
+	
+	ENG_The_Dumfries_War = {
+
+		icon = decision_generic_tank
+
+		allowed = {
+			OR = {
+			    original_tag = ENG
+				original_tag = SCO
+				original_tag = WAL
+			}
+		}
+
+		available = {
+			always = yes
+		}
+	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = decision_event.1 }
+		}
+	}
+
+
+
+
+
+	
+	ENG_The_Peoples_Palace = {
+
+		icon = decision_generic_construction
+	
+		allowed = {
+			OR = {
+				original_tag = ENG
+			}
+		}
+
+
+		available = {
+			always = yes
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}     
+		complete_effect = {
+	country_event = { id = decision_event.4 }
+		}       
+   }
+		
+	
+   ENG_The_Death_Of_Lawrence = {
+
+	icon = decision_generic_army_support
+
+	allowed = {
+		OR = {
+			original_tag = ENG
+		}
+	}
+
+	available = {
+		always = yes
+	}
+
+	cost = 0
+	fire_only_once = yes
+	ai_will_do = {
+		factor = 0
+	}
+
+	complete_effect = {
+		country_event = { id = decision_event.8 }
+	}
+}
+
+
+
+
+
+}
+
+sixties = {
+	
+	
+}
+
+seventies = {
+	
+	
+}
+
+eighties = {
+	
+	
+}
+
+nineties = {
+
+	ENG_Welcome_To_The_Union = {
+	
+		icon = generic_nationalism
+	
+		allowed = {
+			OR = {
+				original_tag = ENG
+			}
+		}
+	
+		available = {
+			always = yes
+	}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+	
+		complete_effect = {
+			country_event = { id = decision_event.3 }
+		}
+	}
+		
+}
+
+noughts = {
+	ENG_Take_Wales = {
+	
+		icon = decision_generic_ignite_civil_war
+		is_good = no
+		visible = {
+			has_completed_focus = ENG_The_Dragons_Head
+		}
+	   
+	   Available = {
+		has_country_flag = taking_wales
+		}
+			activation = {
+				has_country_flag = taking_wales
+		}
+	
+		selectable_mission = yes
+		days_mission_timeout = 30
+
+		fire_only_once = yes
+
+
+		timeout_effect = {    
+			set_country_flag =  Failure_To_Take_Wales  
+				
+   }
+		complete_effect = {
+	
+
+		}
+	}
+	
+}
+
+
+Keeping_The_Nation_Stable = {
+	
+	
+}
+
+	
+Stablising_The_Nation = {
+
+	ENG_Stablise_The_Nation = {
+
+		icon = decision_generic_ignite_civil_war
+		is_good = no
+
+	   
+	   Available = {
+		has_stability > 0.55
+		has_political_power > 110
+		}
+			activation = {
+				has_country_flag = choosing_the_replacement_flag
+		}
+	
+		selectable_mission = yes
+		days_mission_timeout = 100
+
+		fire_only_once = yes
+
+
+		timeout_effect = {    
+			country_event = { id = decision_event.5 }                  
+			load_focus_tree = {
+				tree = 5th_nov_coup
+				keep_completed = yes
+			}             
+   }
+		complete_effect = {
+			country_event = {
+				id = england.57
+			}
+			set_country_flag =  A_Leader_Has_Been_Chosen
+		add_political_power = 100
+		}
+	}
+
+
+} 
+
+
+
+
+
+
+
+
+

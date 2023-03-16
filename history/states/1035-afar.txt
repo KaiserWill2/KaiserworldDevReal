@@ -1,0 +1,20 @@
+state={
+	id=1035
+	name="STATE_1035"
+	manpower = 1390273
+	
+	state_category = pastoral
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 5041 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		5041 13851 13852
+	}
+}

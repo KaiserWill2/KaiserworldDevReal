@@ -1,0 +1,145 @@
+characters={
+	NEP_raj_kumar_rauniyar={
+		name="Raj Kumar Rauniyar"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_Raj_Kumar_Rauniyar.dds"
+			}
+		}
+		country_leader={
+			ideology=shiv_sena
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_kamal_thapa={
+		name="Kamal Thapa"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_Kamal_Thapa.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_birendra_bir_bikram_shah={
+		name="Birendra Bir Bikram Shah"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_Birendra_Bir_Bikram_Shah.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_pushpa_kamal_dahal={
+		name="Pushpa Kamal Dahal"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_Pushpa_Kamal_Dahal.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_ek_nath_dhakal={
+		name="Ek Nath Dhakal"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_Ek_Nath_Dhakal.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_ujwal_thapa={
+		name="Ujwal Thapa"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_Ujwal_Thapa.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_surya_bahadur_thapa={
+		name="Surya Bahadur Thapa"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_Surya_Bahadur_Thapa.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_sher_bahadur_deuba={
+		name="Sher Bahadur Deuba"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_Sher_Bahadur_Deuba.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_upendra_yadav={
+		name="Upendra Yadav"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_Upendra_Yadav.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_c_p_mainali={
+		name="C. P. Mainali"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_C_P_Mainali.dds"
+			}
+		}
+		country_leader={
+			ideology=left_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEP_k_p_sharma_oli={
+		name="K. P. Sharma Oli"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_NEP_K_P_Sharma_Oli.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

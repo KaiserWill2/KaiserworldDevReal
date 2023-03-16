@@ -1,0 +1,66 @@
+leader_traits = {
+
+	anti_autocrat = {
+		random = no
+		
+		neutrality_drift = -0.01
+		neutrality_acceptance = -10
+		
+		ai_will_do = { factor = 0 }
+	}
+	anti_communist = {
+		random = no
+		
+		communism_drift = -0.01
+		communism_acceptance = -10
+		
+		ai_will_do = { factor = 0 }
+	}
+	anti_democrat = {
+		random = no
+		
+		democratic_drift = -0.01
+		democratic_acceptance = -10
+		
+		ai_will_do = { factor = 0 }
+	}
+	anti_fascist = {
+		random = no
+		
+		fascism_drift = -0.01
+		fascism_acceptance = -10
+		
+		ai_will_do = { factor = 0 }
+	}
+	political_centrist = {
+		random = no
+		
+		neutrality_drift = 0.01
+		neutrality_acceptance = 5
+		democratic_drift = 0.01
+		democratic_acceptance = 5
+		
+		ai_will_do = { factor = 0 }
+	}
+	political_left_winger = {
+		random = no
+		
+		communism_drift = 0.01
+		communism_acceptance = 5
+		democratic_drift = 0.01
+		democratic_acceptance = 5
+		
+		ai_will_do = { factor = 0 }
+	}
+	political_right_winger = {
+		random = no
+		
+		neutrality_drift = 0.01
+		neutrality_acceptance = 5
+		fascism_drift = 0.01
+		fascism_acceptance = 5
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+}

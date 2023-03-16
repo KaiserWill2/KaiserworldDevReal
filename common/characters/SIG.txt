@@ -1,0 +1,159 @@
+characters={
+	SIG_ng_chee_meng={
+		name="Ng Chee Meng"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Ng_Chee_Meng.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_perry_lim={
+		name="Perry Lim"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Perry_Lim.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_muhammad_shawal_bin_tengku_abdul_aziz={
+		name="Muhammad Shawal bin Tengku Abdul Aziz"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Muhammad_Shawal_bin_Tengku_Abdul_Aziz.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_pritam_singh={
+		name="Pritam Singh"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Pritam_Singh.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_abu_mohamed={
+		name="Abu Mohamed"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Abu_Mohamed.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_lee_hsien_loong={
+		name="Lee Hsien Loong"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Lee_Hsien_Loong.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_chiam_see_tong={
+		name="Chiam See Tong"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Chiam_See_Tong.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_low_thia_khiang={
+		name="Low Thia Khiang"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Low_Thia_Khiang.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_seow_khee_leng={
+		name="Seow Khee Leng"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Seow_Khee_Leng.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_chia_ti_lik={
+		name="Chia Ti Lik"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Chia_Ti_Lik.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_chia_thye_poh={
+		name="Chia Thye Poh"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/Portrait_SIG_Chia_Thye_Poh.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SIG_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ ideological_crusader }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+}

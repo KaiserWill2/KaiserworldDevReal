@@ -1,0 +1,23 @@
+state={
+	id=1039
+	name="STATE_1039" # al-anbar
+	manpower = 1950016
+	
+	state_category = pastoral
+
+	history={
+		owner = UAR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = UAR
+		victory_points = { 12839 2 }
+		victory_points = { 1631 1 }
+		victory_points = { 12413 1 }
+	}
+
+
+	provinces={
+		12839 4951 12413 1631
+	}
+}

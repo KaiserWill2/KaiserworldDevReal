@@ -1,0 +1,39 @@
+leader_traits = {
+	
+	authoritarian_ideologue = {
+		random = no
+		
+		sprite = 13
+		neutrality_drift = 0.1
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	communist_revolutionary = {
+		random = no
+		
+		sprite = 13
+		communism_drift = 0.1
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	democratic_reformer = {
+		random = no
+		
+		sprite = 13
+		democratic_drift = 0.1
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	fascist_demagogue = {
+		random = no
+		
+		sprite = 13
+		fascism_drift = 0.1
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+}

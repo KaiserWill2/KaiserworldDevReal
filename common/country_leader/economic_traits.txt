@@ -1,0 +1,19 @@
+leader_traits = {
+
+	business_ties = {
+		random = no
+		
+		consumer_goods_factor = -0.02
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	industrial_lobbyist = {
+		random = no
+		
+		production_speed_industrial_complex_factor = 0.1
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+}

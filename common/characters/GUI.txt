@@ -1,0 +1,145 @@
+characters={
+	GUI_moussa_dadis_camara={
+		name="Moussa Dadis Camara"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Moussa_Dadis_Camara.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_sékouba_konaté={
+		name="Sékouba Konaté"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Sékouba_Konaté.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_royal_council={
+		name="Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Royal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_mohamed_touré={
+		name="Mohamed Touré"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Mohamed_Touré.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_aboubacar_somparé={
+		name="Aboubacar Somparé"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Aboubacar_Somparé.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_jeanmarie_doré={
+		name="Jean-Marie Doré"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Jean_Marie_Doré.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_sidya_touré={
+		name="Sidya Touré"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Sidya_Touré.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_nanfadima_magassouba={
+		name="Nanfadima Magassouba"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Nanfadima_Magassouba.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_alpha_condé={
+		name="Alpha Condé"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Alpha_Conde.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_jeanne_martin_cissé={
+		name="Jeanne Martin Cissé"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Jeanne_Martin_Cissé.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUI_binta_diallo={
+		name="Binta Diallo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUI/Portrait_GUI_Binta_Diallo.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

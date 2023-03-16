@@ -1,0 +1,145 @@
+characters={
+	GHA_daniel_obinim={
+		name="Daniel Obinim"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Daniel_Obinim.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_joseph_narh_adinkra={
+		name="Joseph Narh Adinkra"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Joseph_Narh_Adinkra.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_otumfuo_nana_osei_tutu_ii={
+		name="Otumfuo Nana Osei Tutu II"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Osei_Tutu_Second.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_akua_donkor={
+		name="Akua Donkor"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Akua_Donkor.dds"
+			}
+		}
+		country_leader={
+			ideology=third_international_theory
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_charles_werekobrobby={
+		name="Charles Wereko-Brobby"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Charles_Wereko_Brobby.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_nana_akufoaddo={
+		name="Nana Akufo-Addo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Nana_Akufo_Addo.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_paa_kwesi_nduom={
+		name="Paa Kwesi Nduom"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Paa_Kwesi_Nduom.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_asiedu_nketia={
+		name="Asiedu Nketia"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Asiedu_Nketia.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_owuraku_amofah={
+		name="Owuraku Amofah"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Owuraku_Amofah.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_abu_sakara={
+		name="Abu Sakara"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_Abu_Sakara.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_john_mahama={
+		name="John Mahama"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Portrait_GHA_John_Mahama.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,1623 @@
+ideas = {
+	country = {
+		PDY_peoples_war = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_peoples_war" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { has_war = yes }
+			
+			picture = guerrilla_south
+			
+			modifier = {
+				conscription = 0.01
+            }
+		}
+
+        PDY_worker_militias = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_worker_militias" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { has_war = yes }
+			
+			picture = worker_brigades
+			
+			modifier = {
+				army_org = 3
+			    army_morale_factor = 0.10
+            }
+		}
+
+        PDY_push_liberty = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_push_liberty" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { has_war = yes }
+			
+			picture = the_fight_for_liberation
+			
+			modifier = {
+				offence = 0.10
+                defence = 0.05
+            }
+		}
+
+		PDY_constitution = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_constitution" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = a_socialist_constitution
+			
+			modifier = {
+				national_bolshevik_drift = -0.01
+                fascist_drift = -0.01
+				monarchist_drift = -0.01
+				national_conservative_drift = -0.01
+				centrist_drift = -0.01
+				liberal_drift = -0.01
+				moderate_socialist_drift = 0.01
+				communist_drift = 0.01
+            }
+		}
+		PDY_constitution_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_constitution" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = a_socialist_constitution
+			
+			modifier = {
+				national_bolshevik_drift = -0.01
+                fascist_drift = -0.01
+				monarchist_drift = -0.01
+				national_conservative_drift = -0.01
+				centrist_drift = -0.01
+				liberal_drift = -0.01
+				moderate_socialist_drift = -0.01
+				communist_drift = 0.01
+            }
+		}
+
+		PDY_army = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_army" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = individuality_in_work
+			
+			modifier = {
+				conscription_factor = 0.05
+                army_org = 5
+				army_defence_factor = 0.05
+            }
+		}
+
+		PDY_marxism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_marxism" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = the_marxist_model
+			
+			modifier = {
+				political_power_gain = 0.05
+                communist_drift = 0.03
+				army_morale_factor = 0.03
+				drift_defence_factor = 0.25
+				encryption_factor = 0.01
+				decryption_factor = 0.01
+            }
+		}
+		
+		PDY_nationalization = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_nationalization" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = industrial_nationalisation
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+                production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.10
+				industry_repair_factor = 0.10
+            }
+		}
+
+		PDY_ysp_control = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_ysp_control" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = total_ysp_control
+			
+			modifier = {
+				communist_drift = 0.02
+                moderate_socialist_drift = 0.01
+				political_power_gain = 0.01
+				stability_factor = 0.05
+				production_speed_arms_factory_factor = 0.10
+				encryption_factor = 0.01
+            }
+		}
+
+		PDY_freedom = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_freedom" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = democratic_constitution
+			
+			modifier = {
+				political_power_gain = -0.03
+                research_speed_factor = -0.05 
+				army_morale_factor = 0.035
+				encryption_factor = -0.01
+            }
+		}
+
+		PDY_economic_ventures = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_economic_ventures" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = significant_nationalisation
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+                industrial_capacity_factory = 0.075
+				production_speed_arms_factory_factor = -0.10
+            }
+		}
+
+		PDY_equal_nation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_equal_nation" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = promoting_equality
+			
+			modifier = {
+				stability_factor = 0.10
+                research_speed_factor = 0.03
+				training_time_factor = -0.10
+				production_factory_max_efficiency_factor = 0.025
+            }
+		}
+
+		PDY_welfare = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_welfare" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { 
+				OR = {
+					NOT = { has_completed_focus = PDY_sword } 
+					has_completed_focus = PDY_keep
+				}
+			}
+			
+			picture = welfare_state
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+                production_factory_max_efficiency_factor  = 0.075
+				production_factory_efficiency_gain_factor = 0.05
+				industrial_capacity_factory = 0.03
+            }
+		}
+
+		PDY_literacy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_literacy" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = young_minds_program
+			
+			modifier = {
+                research_speed_factor = 0.05
+			}
+		}
+
+		PDY_unions = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_unions" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = ita_strong_trade_unions
+			
+			modifier = {
+                industrial_capacity_factory = 0.15
+				political_power_factor = 0.10
+				industrial_capacity_dockyard = 0.075
+				local_resources_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.05
+            }
+		}
+
+		PDY_universal_healthcare = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_universal_healthcare" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { 
+				OR = {
+					NOT = { has_completed_focus = PDY_sword } 
+					has_completed_focus = PDY_keep
+				}
+			}
+			
+			picture = universal_healthcare
+			
+			modifier = {
+                consumer_goods_factor = 0.02
+				monthly_population = 0.075
+				conscription = 0.05
+				global_building_slots_factor = 0.10
+            }
+		}
+
+		PDY_secular = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_secular" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = YEM_Secularism
+			
+			modifier = {
+                stability_factor = -0.05
+				war_support_factor = 0.05
+				national_conservative_drift = -0.01
+				fascist_drift = -0.01
+				research_speed_factor = -0.02
+				political_power_gain = 0.05
+				decryption_factor = 0.01
+            }
+		}
+
+		PDY_recruitment = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_recruitment" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = defence_of_the_people
+			
+			modifier = {
+                conscription_factor = 0.05
+				conscription = 0.01
+            }
+		}
+
+		PDY_proud_army = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_proud_army" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = rallying_the_people
+			
+			modifier = {
+                army_org = 5
+				army_attack_factor = 0.05
+				max_planning = 0.10
+            }
+		}
+
+		PDY_proud_republic = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_proud_republic" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { NOT = { has_completed_focus = PDY_sword } }
+			
+			picture = better_future
+			
+			modifier = {
+                production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+            }
+		}
+
+		PDY_plan_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_plan_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = 4_year_plan
+			
+			modifier = {
+                production_speed_infrastructure_factor = 0.10
+				production_speed_industrial_complex_factor = 0.15
+            }
+		}
+
+		PDY_water_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_water_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = irrigation_projects
+			
+			modifier = {
+                production_speed_infrastructure_factor = 0.10
+            }
+		}
+
+		PDY_farming_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_farming_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = farming
+			
+			modifier = {
+                conscription_factor = 0.05
+				monthly_population = 0.20
+            }
+		}
+
+		PDY_electricity_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_electricity_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = electrification
+			
+			modifier = {
+                production_factory_start_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.025
+            }
+		}
+
+		PDY_manufacturing_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_manufacturing_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = rapid_development
+			
+			modifier = {
+                industrial_capacity_factory = 0.10
+				line_change_production_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.03
+            }
+		}
+
+		PDY_workers_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_workers_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = strong_unions
+			
+			modifier = {
+                industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.10
+            }
+		}
+
+		PDY_hub_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_hub_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = increased_output
+			
+			modifier = {
+                industrial_capacity_factory = 0.10
+				trade_opinion_factor = 0.15
+            }
+		}
+
+		PDY_resources_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_resources_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = revived_resources
+			
+			modifier = {
+                local_resources_factor = 0.10
+				fuel_gain_factor = 0.05
+            }
+		}
+
+		PDY_sufficiency_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sufficiency_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = nasserite_labor_syndicates
+			
+			modifier = {
+                trade_opinion_factor = -0.20
+				local_resources_factor = 0.15
+				monthly_population = 0.10
+				industrial_capacity_factory = 0.05
+            }
+		}
+
+		PDY_sapc_leader = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_leader" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_leader
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+            }
+		}
+
+		PDY_sapc_leader_two = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_leader_two" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_leader
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+				production_factory_start_efficiency_factor = 0.045
+            }
+		}
+
+		PDY_sapc_leader_three = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_leader_three" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_leader
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+				army_org = 4
+				army_morale_factor = 0.04
+            }
+		}
+
+		PDY_sapc_leader_four = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_leader_four" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_leader
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+				army_org = 4
+				army_morale_factor = 0.04
+				production_factory_start_efficiency_factor = 0.045
+            }
+		}
+
+		PDY_sapc_member = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_member" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_member
+			
+			modifier = {
+				industrial_capacity_factory = 0.035
+				consumer_goods_factor = -0.03
+            }
+		}
+
+		PDY_sapc_member_two = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_member_two" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_member
+			
+			modifier = {
+				industrial_capacity_factory = 0.035
+				consumer_goods_factor = -0.03
+				production_factory_start_efficiency_factor = 0.035
+            }
+		}
+
+		PDY_sapc_member_three = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_member_three" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_member
+			
+			modifier = {
+				industrial_capacity_factory = 0.035
+				consumer_goods_factor = -0.03
+				army_org = 3
+				army_morale_factor = 0.03
+            }
+		}
+
+		PDY_sapc_member_four = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_member_four" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_member
+			
+			modifier = {
+				industrial_capacity_factory = 0.035
+				consumer_goods_factor = -0.03
+				army_org = 3
+				army_morale_factor = 0.03
+				production_factory_start_efficiency_factor = 0.035
+            }
+		}
+
+		PDY_sapc_observer = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_observer" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_observer
+			
+			modifier = {
+				industrial_capacity_factory = 0.01
+				consumer_goods_factor = -0.01
+            }
+		}
+
+		PDY_sapc_observer_two = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_observer_two" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_observer
+			
+			modifier = {
+				industrial_capacity_factory = 0.01
+				consumer_goods_factor = -0.01
+				production_factory_start_efficiency_factor = 0.035
+            }
+		}
+
+		PDY_sapc_observer_three = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_observer_three" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_observer
+			
+			modifier = {
+				industrial_capacity_factory = 0.01
+				consumer_goods_factor = -0.01
+				army_org = 3
+				army_morale_factor = 0.03
+            }
+		}
+
+		PDY_sapc_observer_four = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_sapc_observer_four" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sapc_observer
+			
+			modifier = {
+				industrial_capacity_factory = 0.01
+				consumer_goods_factor = -0.01
+				army_org = 3
+				army_morale_factor = 0.03
+				production_factory_start_efficiency_factor = 0.035
+            }
+		}
+
+		
+		PDY_atheism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_atheism" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = arabian_atheism
+			
+			modifier = {
+				political_power_gain = -0.01
+				foreign_subversive_activites = 0.25
+				drift_defence_factor = 0.25
+				research_speed_factor = -0.05
+				communist_drift = 0.02
+            }
+		}
+
+		PDY_secularism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_secularism" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = arabian_secularism
+			
+			modifier = {
+				political_power_gain = 0.05
+				global_building_slots_factor = 0.10
+				drift_defence_factor = -0.10
+				research_speed_factor = -0.03
+				communist_drift = 0.01
+				revolutionary_socialist_drift = 0.01
+				moderate_socialist_drift = 0.02
+            }
+		}
+
+		PDY_choice = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_choice" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = arabian_religious_self_determination
+			
+			modifier = {
+				political_power_gain = -0.01
+				global_building_slots_factor = 0.15
+				drift_defence_factor = -0.25
+				production_speed_buildings_factor = 0.10
+				communist_drift = 0.01
+				revolutionary_socialist_drift = 0.01
+				moderate_socialist_drift = 0.02
+            }
+		}
+
+		PDY_centralization = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_centralization" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = centralised_economy_ar
+			
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = 0.05
+				production_speed_buildings_factor = 0.10
+				global_building_slots_factor = 0.10
+				industrial_capacity_factory = 0.05
+				encryption_factor = 0.01
+            }
+		}
+
+		PDY_equal_union = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_equal_union" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = power_to_the_people
+			
+			modifier = {
+				stability_factor = 0.10
+				political_power_gain = -0.05
+				line_change_production_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				consumer_goods_factor = -0.01
+				decryption_factor = 0.01
+            }
+		}
+
+		PDY_route_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_route_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = central_planning_egypt
+			
+			modifier = {
+				trade_opinion_factor = 0.15
+            }
+		}
+
+		PDY_intel_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_intel_idea" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = stasi_training
+			
+			modifier = {
+				decryption = 0.01
+				encryption = 0.01
+				subversive_activites_upkeep = -0.30
+            }
+		}
+
+		PDY_advisors = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_advisors" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = loyal_military
+			
+			modifier = {
+				army_org = 3
+				planning_speed = 0.10
+				experience_gain_army = 0.01
+            }
+		}
+
+		PDY_enlight = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_enlight" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = restored_democratic_foundations
+			
+			modifier = {
+				communist_drift = 0.03
+				research_speed_factor = 0.05
+            }
+		}
+
+		PDY_commisars = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_commisars" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = glory_of_the_state
+			
+			modifier = {
+				army_morale_factor = 0.05
+				land_reinforce_rate = 0.2 
+				planning_speed = -0.10
+            }
+		}
+
+		PDY_equal_army = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_equal_army" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = social_unity
+			
+			modifier = {
+				conscription_factor = 0.15
+				stability_factor = -0.10
+            }
+		}
+
+		PDY_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_economy" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = automated_economy
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_start_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+            }
+		}
+
+		PDY_economy2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_economy2" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = automated_economy
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_start_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+            }
+		}
+
+		PDY_economy3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_economy2" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = automated_economy
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_start_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				compliance_gain = 0.35 
+				intelligence_agency_defense = 1
+            }
+		}
+
+		PDY_economy4 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_economy2" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = automated_economy
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_start_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				compliance_gain = 0.35 
+				intelligence_agency_defense = 1
+				encryption_factor = 0.2
+            }
+		}
+
+		PDY_faith = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_faith" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = loyalty_to_the_faithful
+			
+			modifier = {
+				communist_drift = 0.02
+				political_power_factor = -0.05
+            }
+		}
+
+		PDY_infiltration = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_infiltration" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = infiltrated_government
+			
+			modifier = {
+				intelligence_agency_defense = -1
+				encryption_factor = -0.05
+            }
+		}
+
+		PDY_research = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_research" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = combined_science_pool
+			
+			modifier = {
+				research_speed_factor = 0.05
+            }
+		}
+
+		PDY_spymaster = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_spymaster" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = arabian_spymaster
+			
+			modifier = {
+				operative_slot = 1
+				encryption_factor = 0.01
+            }
+		}
+
+		PDY_commisars2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_commisars2" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = glory_of_the_state
+			
+			modifier = {
+				army_morale_factor = 0.05
+				army_org = 0.1
+				land_reinforce_rate = 0.2 
+				planning_speed = 0.15
+            }
+		}
+		PDY_southern_focus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PDY_economy2" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = guerrilla_south
+			
+			targeted_modifier = {
+				tag = JAS
+				attack_bonus_against = 0.05
+            }
+		}
+		PDY_no_more_revolts = {
+			allowed = {
+				always = no
+			}
+
+			picture = fight_two_fronts
+
+			modifier = {
+				stability_weekly = 0.01
+			}
+		}
+		PDY_eyes_and_ears_everywhere = {
+			allowed = {
+				always = no
+			}
+
+			picture = new_order
+
+			modifier = {
+				recon_factor = 0.1
+				decryption_factor = 0.2
+				encryption_factor = 0.2
+			}
+		}
+		PDY_ideological_supremacy = {
+			allowed = {
+				always = no
+			}
+
+			picture = stasi_icon
+
+			modifier = {
+				drift_defence_factor = 0.25
+			}
+		}
+		PDY_panopticon = {
+			allowed = {
+				always = no
+			}
+
+			picture = stasi_icon
+
+			modifier = {
+				stability_factor = 0.05
+				root_out_resistance_effectiveness_factor = 0.15
+				resistance_damage_to_garrison = -0.15
+			}
+		}
+		
+		PDY_intelligence_agency_with_a_state = {
+			allowed = {
+				always = no
+			}
+
+			picture = stasi_icon
+
+			modifier = {
+				operative_slot = 2
+				intel_from_operatives_factor = 0.3
+			}
+		}
+		
+		PDY_cuban_healthcare = {
+			allowed = {
+				always = no
+			}
+
+			picture = socialist_healthcare
+
+			modifier = {
+				monthly_population = 0.02
+			}
+		}
+		
+		PDY_centroamerican_fruit = {
+			allowed = {
+				always = no
+			}
+
+			picture = cash-crop_agriculture
+
+			modifier = {
+				monthly_population = 0.02
+				consumer_goods_factor = -0.01
+			}
+		}
+		
+		PDY_american_investments = {
+			allowed = {
+				always = no
+			}
+
+			picture = new_order
+
+			modifier = {
+				production_speed_buildings_factor = 0.035
+				industrial_capacity_factory = 0.035
+				production_factory_start_efficiency_factor = 0.0035
+			}
+		}
+	}
+	
+	second_in_command = {
+		pdry_sic_yasin_said_numan = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = communist
+				} 
+			}
+			
+			traits = { autocratic_charmer }			
+		}
+	
+	    pdry_sic_mohammed_qubaty = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = communist
+				} 
+			}
+			
+			traits = { silent_workhorse }			
+		}
+		
+		pdry_sic_jaafar_mohammed_saad = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = communist
+				} 
+			}
+			
+			traits = { silent_workhorse }			
+		}
+	}
+	
+	foreign_minister = {
+	    pdry_fom_abd_al_rahman_ali_al_jifri = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = communist
+				} 
+			}
+			
+			traits = { iron_fisted_brute }			
+		}
+		
+		pdry_fom_majed_abdul_latif_al_humaidi = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = new_democrat
+				} 
+			}
+			
+			traits = { great_compromiser }			
+		}
+	}
+		
+	industry_minister = {
+	    pdry_ind_jarallah_omar_al_kuhali = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = communist
+					has_government = moderate_socialist
+				} 
+			}
+			
+			traits = { extreme_regulator }			
+		}
+		
+		pdry_ind_abdullatif_al_sayed = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = communist
+				} 
+			}
+			
+			traits = { corrupt_kleptocrat }			
+		}
+	}
+		
+	national_security_minister = {
+	    pdry_nsm_ahmed_hamid_lamlas = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = communist
+				} 
+			}
+			
+			traits = { prince_of_terror }			
+		}
+		
+		pdry_nsm_abdul_wahed_al_jamra = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+				} 
+			}
+			
+			traits = { compassionate_gentleman }			
+		}
+	}
+		
+	intelligence_minister = {
+	    pdry_inm_aidarus_al_zoubaidi = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = communist
+				} 
+			}
+			
+			traits = { intelligence_director }			
+		}
+		
+		pdry_inm_mohammed_mansour_al_ghadra = {
+		
+		    allowed = {
+			    original_tag = PDY
+			}
+			
+			available = {
+			    OR = {
+					has_government = communist
+				} 
+			}
+			
+			traits = { novice_mastermind }			
+		}
+	}
+	tank_manufacturer = { 
+	
+		designer = yes
+		
+		makalla_national_defense = {
+
+			picture = makalla_national_defense
+			
+			allowed = {
+			    original_tag = PDY
+			}
+		
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+	naval_manufacturer = { 
+	
+		designer = yes
+	
+		socotra_national_defense = {
+			
+			picture = socotra_national_defense
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+	aircraft_manufacturer = { 
+	
+		designer = yes
+	
+		ataq_national_defense = {
+			
+			picture = ataq_national_defense
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		dawan_national_defense = {
+			
+			picture = dawan_national_defense
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		shir_national_defense = {
+			
+			picture = shir_national_defense
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		shir_national_defense_naval = {
+			
+			picture = shir_national_defense
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+	}
+	industrial_concern = {
+		Hadhramout_university = {
+			
+			picture = Hadhramout_university
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		yemen_lng = {
+			
+			picture = yemen_lng
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = refinery_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				synth_resources = 0.10
+			}
+			
+			traits = { refinery_concern }
+		}
+		
+		National_Development_Industry = {
+			
+			picture = National_Development_Industry
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+	}
+	materiel_manufacturer = {
+	
+		designer = yes
+	
+		ghaydah_national_defense = {
+			
+			picture = ghaydah_national_defense
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		heckler_and_koch = {
+			
+			picture = heckler_and_koch
+
+			allowed = {
+			    OR = {
+					original_tag = PDY
+					original_tag = YAR
+				}
+				NOT = {
+					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		rheinmetall_berlin = {
+			
+			picture = rheinmetall_berlin
+
+			allowed = {
+			    original_tag = PDY
+				NOT = {
+					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+}
+
+
+
+
+
+
+

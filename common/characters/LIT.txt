@@ -1,0 +1,315 @@
+characters = {
+	LIT_mindaugas_murza = {
+		name = "Mindaugas Murza"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Mindaugas_Murza.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	LIT_rolandas_paksas = {
+		name = "Rolandas Paksas"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Rolandas_Paksas.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	LIT_ladislas_poniatowski = {
+		name = "Ladislas Poniatowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Ladislas_Poniatowski.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	LIT_zilvinas_razminas = {
+		name = "Zilvinas Razminas"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Zilvinas_Razminas.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	LIT_andrius_kubilius = {
+		name = "Andrius Kubilius"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Andrius_Kubilius.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	LIT_ramunas_karbauskis = {
+		name = "Ramūnas Karbauskis"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Ramūnas_Karbauskis.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	LIT_arturas_paulauskas = {
+		name = "Artūras Paulauskas"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Artūras_Paulauskas.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	LIT_vytenis_andriukaitis = {
+		name = "Vytenis Andriukaitis"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Vytenis_Andriukiatis.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	LIT_algirdas_butkevicius = {
+		name = "Algirdas Butkevičius"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Algirdas_Butkevicius.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	LIT_gediminas_kirkilas = {
+		name = "Gediminas Kirkilas"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Gediminas_Kirkilas.dds"
+			}
+		}
+		country_leader={
+			ideology=orthodox_leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	LIT_mykolas_burokevicius = {
+		name = "Mykolas Burokevičius"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_LIT_Mykolas_Burokevičius.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIT_arvydas_pocius={
+		name="Arvydas Pocius"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LIT/Portrait_Arvydas_Pocius.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LIT_almantas_leika={
+		name="Almantas Leika"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LIT/Portrait_Almantas_Leika.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LIT_gintautas_zenkevičius={
+		name="Gintautas Zenkevičius"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LIT/Portrait_Gintautas_Zenkevičius.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LIT_vilmantas_tamošaitis={
+		name="Vilmantas Tamošaitis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LIT/Portrait_Vilmantas_Tamošaitis.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	LIT_vitalijus_vaikšnoras={
+		name="Vitalijus Vaikšnoras"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LIT/Portrait_Vitalijus_Vaikšnoras.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIT_vytautas_jonas_zukas={
+		name="Vytautas Jonas Žukas"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LIT/Portrait_Vytautas_Jonas_Žukas.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIT_edvardas_mažeikis={
+		name="Edvardas Mažeikis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LIT/Portrait_Edvardas_Mažeikis.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIT_kęstutis_macijauskas={
+		name="Kęstutis Macijauskas"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LIT/Portrait_Kęstutis_Macijauskas.dds"
+			}
+		}
+		navy_leader={
+	        traits = { }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 1
+	        coordination_skill = 2
+	        maneuvering_skill = 2
+			legacy_id=-1
+		}
+	}
+}

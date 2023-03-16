@@ -1,0 +1,162 @@
+##### USAENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+USA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "USS "
+	fallback_name = "Destroyer DD-%d"					
+
+	unique = {											
+		"Andrews" "Blakely" "Ghormley" "Robinson" "Anderson Jr." "McDonald" "Moorer" "Ward" "Johnson" "Galantin" "Zumwalt Jr." "Duncan" "Bringle" "Holloway III" "Rickover" "Leary" "Reichmuth" "Bristol Jr." "Willson" "Fletcher" "Carpender" "Edwards Jr." "Hayward" "Turner" "Long" "Whittle Jr." "Small" "Hays" "Trost" "Richardson" "Stark" "Kimmel" "Kalbfus" "Laning" "Brumby" "Sellers" "Leigh" "Taylor" "Swift" "Gortney" "Ferguson III" "Winnefeld Jr." "Riley" "Sides" "Beakley" "Davis Jr." "Dennison" "Hillenkoetter" "Will" 
+		"John C Butler" "O'Flaherty" "Raymond" "Richard W Suesens" "Abercrombie" "Oberrender" "Robert Brazier" "Edwin A Howard" "Jesse Rutherford" "Key" "Gentry" "Traw" "Maurice J Manuel" "Naifeh" "Doyle C Barnes" "Kenneth M Willett" 
+		"Jaccard" "	Lloyd E Acree" "George E Davis" "Mack" "Johnnie Hutchins" "Walton" "Rolf" "Pratt" "Rombach" "McGinty" "Alvin C Cockrell" "French" "Cecil J Doyle" "Thaddeus Parker" "John L Williamson" "Presley" "Williams" 
+		"Richard S Bull" "Richard M Rowell" "Eversole" "Dennis" "Edmonds" "Straus" "La Prade" "Jack Miller" "Stafford" "Walter C Wann" "Samuel B Roberts" "Le Ray Wilson" "Lawrence C Taylor" "Melvin R Nawman" "Oliver Mitchell" 
+		"Tabberer" "Robert F Keller" "Leland E Thomas" "Chester T O'Brien" "Douglas A Munro" "Dufilho" "Haas" "Corbesier" "Conklin" "McCoy Reynolds" "William Seiverling" "Ulvert M Moore" "Kendall C Campbell" "Goss" "Grady" 
+		"Charles E Brannon" "Albert T Harris" "Cross" "Hanna" "Joseph E Connolly" "Gilligan" "Formoe" "Heyliger" "Edward H Allen" "Tweedy" "Howard F Clark" "Silverstein" "Lewis" "Bivin" "Rizzi" "Osberg" "Vandivier"
+		"Buckley" "Charles Lawrence" "Daniel T Griffin" "Donnell" "Fogg" "Foss" "Gantner" "	George W Ingram" "Ira Jeffery" "Lee Fox" "Amesbury" "Bates" "Blessman" "Joseph E Campbell" "Reuben James" "Sims" "Hopping" 
+		"Reeves" "Fechteler" "Chase" "Laning" "Loy" "Barber" "Lovelace" "Manning" "Neuendorf" "James E Craig" "Eichenberger" "Thomason" "Jordan" "Newman" "Liddle" "Kephart" "Cofer" "Lloyd" "Otter" "Joseph C Hubbard" 
+		"Hayter" "William T Powell" "Scott" "Burke" "Enright" "Coolbaugh" "Darby" "	J Douglas Blackwood" "Francis M Robinson" "Solar" "Fowler" "Spangenberg" "Ahrens" "Barr" "Alexander J Luke" "Robert I Paine" 
+		"Foreman" "Whitehurst" "England" "Witter" "Bowers" "Willmarth" "Gendreau" "Fieberling" "William C Cole" "Paul G Baker" "Damon M Cummings" "Vammen" "Jenks" "Durik" "Wiseman" "Weber" "Schmitt" "Frament" "Harmon" 
+		"Greenwood" "Loeser" "Gillette" "Underhill" "Henry R Kenyon" "Bull" "Bunch" "Rich" "Spangler" "George" "Raby" "Marsh" "Currier" "Osmus" "Earl V Johnson" "Holton" "Cronin" "Frybarger" "Tatum" "Borum" "Maloy" 
+		"Haines" "Runels" "Hollis" "Gunason" "Major" "Weeden" "Varian" "Scroggins" "Jack W Wilke" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+USA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "USS"
+	fallback_name = "Light Cruiser CL-%d"
+
+	unique = {
+		"Belleau Wood" "Cantigny" "Fismes" "Saint-Mihiel" "Tardenois" "Graignes" "Gela" "Salerno" "Anzio" "Nancy" "Aachen" "Paderborn" "Heilbronn" "Parker" "Nuremberg" "Driniumor River" "Midway" "Iwo Jima" "Okinawa" "Bessang Pass" "Leyte Gulf" "Peleliu" "Guam" "Eniwetok" "Makin" "Guadalcanal" "Milne Bay" "Hürtgen Forest" "Carentan" "Monte Cassino" "Boonville" "Hoke's Run" "Fredericktown" "Dranesville" "Fort Henry" "New Bern" "Glorieta Pass" "Corinth" "Saint Charles" "Kirksville" "Wood Lake" "Springfield" "Dover" "Fort Bisland" "Port Gibson" "Vicksburg" "Hoover's Gap" "Helena" "Salineville" "Bayou Fourche" "Auburn" "Collierville" "Lookout Mountain" "Mossy Creek" "Meridian" "Elkin's Ferry" "Pleasant Hill" "Mansura" "Marietta" "Atlanta" "Moorefield" "Memphis"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+USA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "USS "
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+		"Belleau Wood" "Cantigny" "Fismes" "Saint-Mihiel" "Tardenois" "Graignes" "Gela" "Salerno" "Anzio" "Nancy" "Aachen" "Paderborn" "Heilbronn" "Parker" "Nuremberg" "Driniumor River" "Midway" "Iwo Jima" "Okinawa" "Bessang Pass" "Leyte Gulf" "Peleliu" "Guam" "Eniwetok" "Makin" "Guadalcanal" "Milne Bay" "Hürtgen Forest" "Carentan" "Monte Cassino" "Boonville" "Hoke's Run" "Fredericktown" "Dranesville" "Fort Henry" "New Bern" "Glorieta Pass" "Corinth" "Saint Charles" "Kirksville" "Wood Lake" "Springfield" "Dover" "Fort Bisland" "Port Gibson" "Vicksburg" "Hoover's Gap" "Helena" "Salineville" "Bayou Fourche" "Auburn" "Collierville" "Lookout Mountain" "Mossy Creek" "Meridian" "Elkin's Ferry" "Pleasant Hill" "Mansura" "Marietta" "Atlanta" "Moorefield" "Memphis"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+USA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "USS "
+	fallback_name = "Battleship BB-%d"		
+
+	unique = {
+		"North Carolina" "Washington" "South Dakota" "Indiana" "Massachusetts" "Alabama" "Iowa" "New Jersey" "Missouri" "Wisconsin" "Montana" "Ohio" "Illinois" "Kentucky"   
+		"Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" "New Mexico" "Mississippi" "Idaho" "Tennessee" "California" "Colorado" "Maryland" "West Virginia" 
+		# From Wiki (never completed)
+		"Minnesota" "North Dakota" "Oregon" "Connecticut" "Vermont" "New Hampshire" "Florida" "Utah" "Delaware" "Michigan" "Kansas" "Rhode Island" "Nebraska" "Virginia"
+		# Older/Other state names
+		"Maine" "Louisiana" "South Carolina" "Wyoming" "Georgia" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+#USA_BC_HISTORICAL = {
+#	name = NAME_THEME_HISTORICAL_BC
+#
+#	for_countries = { USA }
+#
+#	type = ship
+#	ship_types = { ship_hull_heavy battle_cruiser }
+#	
+#	prefix = "USS "
+#	fallback_name = "Battlecruiser BC-%d"	
+#
+#	unique = {
+#		"Azopardo" "Sarandí" "Espora" "Rivadavia" "Moreno" 
+#	}
+#}
+
+### AIRCRAFT CARRIER NAMES ###
+USA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "USS "
+	fallback_name = "Carrier CV-%d"	
+
+	unique = {
+		"George Washington" "Abraham Lincoln" "Thomas Jefferson" "James Madison" "James Monroe" "John Adams" "Benjamin Franklin" "Ulysses S Grant" "Andrew Jackson" "Patrick Henry" "Woodrow Wilson" "John Marshall" "James K. Polk" "Henry Clay" "Theodore Roosevelt" "Franklin D Roosevelt" "Dwight D Eisenhower" "Rutherford B. Hayes" "William Howard Taft" "Richard Nixon" "Woodrow Wilson" "Martin Van Buren" "James A. Garfield" "Benjamin Harrison"
+	}
+}
+
+### SUBMARINES ###
+USA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "USS "
+	fallback_name = "Submarine SS-%d"
+	
+	unique = {
+		"Washington" "New York City" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" "Kansas City" "Milwaukee" "New Orleans" "Cincinnati" "Miami" "Indianapolis" "Seattle" "Dallas" "Atlanta" "Buffalo" "Minneapolis" "Denver" "Omaha" "San Diego" "Nashville" "Oklahoma City" "Louisville" "Phoenix" "Portland" "Rochester" "Albany" "Albuquerque" "Alexandria" "Amsterdam" "Annapolis" "Anniston" "Asheville" "Astoria" "Augusta" "Baton Rouge" "Biloxi" "Birmingham" "Boise" "Bremerton" "Bridgeport" "Brooklyn" "Cambridge" "Cheyenne" "Charleston" "Charlotte" "Chattanooga" "Chester" "Columbia" "Columbus" "Concord" "Corpus Christi" "Dayton" "Des Moines" "Duluth" "Fall River" "Fargo" "Flint" "Frederick" "Fresno" "Galena" "Galveston" "Gary" "Greenville" "Groton" "Hampton" "Hartford" "Helena" "Honolulu" "Houston" "Huntington" "Huron" "Jacksonville" "Jefferson City" "Juneau" "Key West" "La Jolla" "Lancaster" "Long Beach" "Little Rock" "Macon" "Manchester" "Marblehead" "Marion" "Memphis" "Missoula" "Mobile" "Mohican" "Montgomery" "Montpelier" "New Haven" "Newark" "Newport News" "Norfolk" "Northampton" "Oakland" "Olympia" "Oregon City" "Pasadena" "Pensacola" "Portsmouth" "Providence" "Pueblo" "Quincy" "Quinnebaug" "Raleigh" "Reno" "Richmond" "Roanoke" "St. Paul" "Salem" "Salt Lake City" "San Juan" "Santa Fe" "Saratoga" "Savannah" "Swatara"	"Scranton" "Spokane" "Springfield" "Tacoma" "Tahoe" "Tallahassee" "Toledo" "Topeka" "Trenton" "Tucson" "Tulsa" "Tuscaloosa" "Vallejo" "Vicksburg" "Wichita" "Wilkes-Barre" "Wilmington" "Worcester" "Yosemite" "Youngstown" "Morganton" "Mandan" "Elizabethton" "Jackson" "Crystal City" "Huntsville" "Harpers Ferry" "Charles Town" "Summersville"
+	}
+}
+
+USA_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { USA }
+
+	type = ship
+	
+	prefix = "USS "							
+
+	unique = {
+		"Albacore" "Amberjack" "Angler" "Apogon" "Aspro" "Archerfish" "Atule" "Barracuda" "Bass" "Bonita" "Barb" "Blackfish" "Bluefish" "Bonefish" "Bashaw" "Bluegill" "Bream" "Balao" "Billfish" "Bowfin" "Batfish" "Burrfish" 
+		"Barbel" "Barbero" "Baya" "Becuna" "Bang" "Bergall" "Besugo" "Blackfin" "Blenny" "Blower" "Blueback" "Boarfish" "Brill" "Bugara" "Bullhead" "Bumper" "Cachalot" "Cuttlefish" "Cavalla" "Cobia" "Croaker" "Cod" "Cero" 
+		"Corvina" "Cabrilla" "Capelin" "Cisco" "Crevalle" "Caiman" "Charr" "Chub" "Cabezon" "Capitaine" "Carbonero" "Carp" "Catfish" "Chivo" "Chopper" "Clamagore" "Cobbler" "Cochino" "Corporal" "Cubera" "Cusk" "Conger" "Comber" 
+		"Dolphin" "Darter" "Drum" "Devilfish" "Dragonet" "Dentuda" "Diodon" "Dogfish" "Dugong" "Escolar" "Entemedor" "Eel" "Espada" "Flying Fish" "Finback" "Flasher" "Flier" "Flounder" 
+		"Gar" "Grampus" "Grayback" "Grayling" "Gato" "Greenling" "Grouper" "Growler" "Grunion" "Guardfish" "Gabilan" "Gunnel" "Gurnard" "Greenfish" "Garlopa" "Garrupa" "Goldring" "Golet" "Guavina" "Guitarro" 
+		"Haddock" "Halibut" "Herring""Haddo" "Hake" "Harder" "Hoe" "Hackleback" "Halfbeak" "Hammerhead" "Hardhead" "Hawkbill" "Icefish" "Irex" "Jack" "Jawfish" "Jallao" "Kete" "Kraken" "Kingfish" 
+		"Lapon" "Lancetfish" "Ling" "Lionfish" "Lagarto" "Lamprey" "Lizardfish" "Loggerhead" "Manta" "Moray" "Mingo" "Muskallunge" "Mackerel" "Marlin" "Macabi" "Mapiro" "Menhaden" "Mero" "Medregal" 
+		"Narwhal" "Nautilus" "Needlefish" "Nerka" "Ono" "Odax" "Porpoise" "Pike" "Perch" "Pickerel" "Pompano" "Paddle" "Pargo" "Peto" "Pogy" "Pompon" "Puffer" "Piper" "Rasher" "Picuda" "Pampanito" "Parche" "Pilotfish" "Pintado" 
+		"Pipefish" "Piranha" "Plaice" "Pomfret" "Pomodon" "Queenfish" "Quillback" "Raton" "Ray" "Redfin" "Robalo" "Rock" "Runner" "Roncador" "Razorback" "Redfish" "Ronquil" "Requin" "Remora" 
+		"Shark" "Salmon" "Seal" "Skipjack" "Snapper" "Stingray" "Sturgeon" "Sargo" "Saury" "Spearfish" "Sculpin" "Sailfish" "Swordfish" "Seadragon" "Sealion" "Searaven" "Seawolf" "Shad" "Silversides" "Sawfish" "Scamp" "Scorpion" 
+		"Snook" "Steelhead" "Sunfish" "Sabalo" "Sablefish" "Seahorse" "Skate" "Sand Lance" "Sterlet" "Scabbardfish" "Segundo" "Sea Cat" "Sea Devil" "Sea Dog" "Sea Fox" "Spikefish" "Sea Owl" "Sea Poacher" "Sea Robin" "Sennet" 
+		"Spadefish" "Spot" "Springer" "Stickleback" "Sea Leopard" "Sirago" "Sarda" "Spinax" "Sea Panther" "Springeren" "Tarpon" "Tambor" "Tautog" "Thresher" "Trout" "Tuna" "Tunny" "Tinosa" "Tullibee" "Tang" "Tilefish" "Threadfin" 
+		"Trepang" "Tiru" "Tench" "Thornback" "Tigrone" "Tirante" "Trutta" "Toro" "Torsk" "Trumpetfish" "Tusk" "Turbot" "Tiburon" "Ulua" "Vendace" "Wahoo" "Whale" "Walrus" "Whitefish" "Whiting" "Wolffish" 
+	}
+}

@@ -1,0 +1,66 @@
+air_wings = {
+	219 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		small_plane_airframe_1 = { owner = "SOV" amount = 100 version_name = "Fighter I" }					
+		medium_plane_airframe_1 = { owner = "SOV" amount = 100 version_name = "Tactical Bomber I" }	
+	}
+		"Kiev"  = {
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+		"Leningrad"  = {
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+		"Valery Sablin"  = {
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+		"Nikolai Kuznetsov"  = {
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+		"Tblisi"  = {
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+		"Minsk"  = {
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+		"Ulyanovsk"  = {
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+		"Oryol"  = {
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "SOV" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "SOV" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+	
+}

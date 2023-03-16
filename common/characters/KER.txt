@@ -1,0 +1,145 @@
+characters={
+	KER_t.p._abdulla_koya_madani_={
+		name="T.P. Abdulla Koya Madani "
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_T_P_Abdulla_Koya_Madani.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_p._gopalan_kutty_master={
+		name="P. Gopalan Kutty Master"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_P_Gopalan_Kutty_Master.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_uthradom_thirunal_marthanda_varma={
+		name="Uthradom Thirunal Marthanda Varma"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_Uthradom_Thirunal_Marthanda_Varma.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_g._devarajan={
+		name="G. Devarajan"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_G_Devarajan.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_v._muraleedharan={
+		name="V. Muraleedharan"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_V_Muraleedharan.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_kadannappalli_ramachandran={
+		name="Kadannappalli Ramachandran"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_Kadannappalli_Ramachandran.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_a._k._saseendran={
+		name="A. K. Saseendran"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_A_K_Saseendran.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_oommen_chandy={
+		name="Oommen Chandy"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_Oommen_Chandy.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_jose_k._mani={
+		name="Jose K. Mani"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_Jose_K_Mani.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_shibu_baby_john={
+		name="Shibu Baby John"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_Shibu_Baby_John.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KER_pinarayi_vijayan={
+		name="Pinarayi Vijayan"
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/Portrait_KER_Pinarayi_Vijayan.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

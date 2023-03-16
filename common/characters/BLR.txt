@@ -1,0 +1,305 @@
+characters={
+	BLR_alexander_lukashenko={
+		name="Alexander Lukashenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Alexander_Lukashenko.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_sergei_gaidukevich={
+		name="Sergei Gaidukevich"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Sergei_Gaidukevich.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_bolshevik
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_anatoly_lebedko={
+		name="Anatol Labiedźka"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Anatoly_Lebedko.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_irina_veshtard={
+		name="Irina Veshtard"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Irina_Veshtard.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_nikolai_ulakhovich={
+		name="Nikolai Ulakhovich"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Nikolai_Ulakhovich.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_zmitser_dashkevich={
+		name="Źmicier Daškievič"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Zmitser_Dashkevich.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_sergey_kalyakin={
+		name="Sergey Kalyakin"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Sergey_Kalyakin.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_alexander_radkov={
+		name="Alexander Radkov"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Alexander_Radkov.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_zianon_pazniak={
+		name="Zianon Pazniak"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Zianon_Pazniak.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_uladzimir_nyaklyayew={
+		name="Uladzimir Nyaklyayew"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Uladzimir_Nyaklyayew.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_jan_first={
+		name="Jan I"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Portrait_BLR_Jan_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_andrei_ravkov={
+		name="Andrei Ravkov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BLR/Portrait_Andrei_Ravkov.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	BLR_yuri_zhadobin={
+		name="Yuri Zhadobin"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BLR/Portrait_Yuri_Zhadobin.dds"
+			}
+		}
+		field_marshal={
+			traits={ armor_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	BLR_viktor_khrenin={
+		name="Viktor Khrenin"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BLR/Portrait_Viktor_Khrenin.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	BLR_oleg_belokonev={
+		name="Oleg Belokonev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BLR/Portrait_Oleg_Belokonev.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	BLR_stanislav_zas={
+		name="Stanislav Zas"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BLR/Portrait_Stanislav_Zas.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	BLR_sergei_potapenko={
+		name="Sergei Potapenko"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BLR/Portrait_Sergei_Potapenko.dds"
+			}
+		}
+		corps_commander={
+			traits = { armor_officer }
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	BLR_alexander_volfovich={
+		name="Alexander Volfovich"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BLR/Portrait_Alexander_Volfovich.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	BLR_vladimir_uskhopchik={
+		name="Vladimir Uskhopchik"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BLR/Portrait_Vladimir_Uskhopchik.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

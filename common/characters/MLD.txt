@@ -1,0 +1,145 @@
+characters={
+	MLD_hussain_rasheed_ahmed={
+		name="Hussain Rasheed Ahmed"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Hussain_Rasheed_Ahmed.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_qasim_ibrahim={
+		name="Qasim Ibrahim"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Qasim_Ibrahim.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_muhammad_nooraddeen={
+		name="Muhammad Nooraddeen"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Muhammad_Nooraddeen.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_abdullah_luthufi={
+		name="Abdullah Luthufi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Abdullah_Luthufi.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_colonel_mohamed_nasheed={
+		name="Mohamed Nasheed"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Colonel_Mohamed_Nasheed.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_mohamed_nasheed={
+		name="Mohamed Nasheed"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Mohamed_Nasheed.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_hassan_saeed={
+		name="Hassan Saeed"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Hassan_Saeed.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_ahmed_shiham={
+		name="Ahmed Shiham"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Ahmed_Shiham.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_mohammed_waheed_hassan={
+		name="Mohammed Waheed Hassan"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Mohammed_Waheed_Hassan.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_maumoon_abdul_gayoom={
+		name="Maumoon Abdul Gayoom"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Maumoon_Abdul_Gayoom.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLD_ahmed_moosa={
+		name="Ahmed Moosa"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLD/Portrait_MLD_Ahmed_Moosa.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

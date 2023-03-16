@@ -1,0 +1,157 @@
+##### NEAENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+NEA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { NEA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "ACS "
+	fallback_name = "Destroyer DD-%d"					
+
+	unique = {											
+		"Cherokee" "Navajo" "Sioux" "Chippewa" "Apache" "Blackfeet" "Pueblo" "Eskimo" "Tlingit-Haida" "Denaʼina" "Aleut" "Bringle" "Tuscarora" "Onondaga" "Huron" "Erie" "Wyandot" "Chignik" "Chuloonawick" "Curyung" "Haida" "Tsimshian" "Tlingit" "Eyak" "Holikachuk" "Koyukon" "Yup'ik" "Cup'ik" "Chugach Sugpiaq" "Basawunena" "Bidai" "Blackfoot" "Biloxi" "Blewmouths" "Caddo" "Cajuenche" "Canarsee" "Swift" "Caparaz" "Catawba" "Cathlacomatup" "Cathlacumup" "Cathlanahquiah" "Chakankni" "Chatot" "Chaushila" "Chelamela" "Chemehuevi" 
+		"Chickasaw" "Chine" "Chowanoc" "Clatsop" "Cocopa" "Coree" "Creek" "Cupeño" "Dakota" "Deadose" "Diegueño" "Dotame" "Doustioni" "Duwamish" "Esopus" "Eno" 
+		"Esselen" "Eufaula" "Eyeish" "Fremont" "Guacata" "Guale" "Guasas" "Hackensack" "Hainai" "Hanis" "Hare" "Hasinai" "Hathawekela" "Havasupai" "Hilibi" "Hopi" "Houma" 
+		"Huchnom" "Hualupai" "Humptulips" "Hupa" "Ibitoupa" "Icafui" "Inupiat" "Ishak" "Isleta" "Ispokogi" "Jemez" "Jeags" "Juaneño" "Jumano" "Kadohadacho" 
+		"Kahnawake" "Kainai" "Kalispel" "Kaw" "Karankawa" "Keresan" "Karok" "Kaska" "Kaskaskia" "Kaskinampo" "Kalapula" "Kato" "Kawaiisu" "Kawchodinne" "Kawia" 
+		"Kealedji" "Kennebec" "Kewa" "Keyauwee" "Kichai" "Kichtawank" "Kickapoo" "Kiowa" "Kitanemuk" "Kitsai" "Klamath" "Klickitat" "Kohuana" "Kolomi" "Konomihu" "Koroa" "Kosotshe"
+		"Koyeti" "Koyukon" "Kumeyaay" "Kutchin" "Kutenai" "Kuitsh" "Kusan" "Ktunaxa" "Kwaiailk" "Kwalhioqua" "Kwakiutl" "Laguna" "Lakmiut" "Lakota" "Lassik" "Latgawa" "Lemhi" "Lillooet" "Lochapoka" 
+		"Lohim" "Loucheux" "Luckamiute" "Luiseno" "Lumbee" "Lummi" "Lutuamian" "Macapiras" "Machapunga" "Mahican" "Maidu" "Makah" "Maliseet" "Manahoac" "Mandan" "Manhattan" "Manissean" "Manso" "Marameg" "Maricopa" "Mariposan" 
+		"Mascouten" "Mashongnovi" "Maskegon" "Mashpee" "Matchoctic" "Matinecoc" "Mattabesic" "Mattole" "Meherrin" "Meits" "Menominee" "Methow" "Metoac" "Mical" "Michigamea" "Michilimackinac" 
+		"Mikasuki" "Miluk" "Mishikhwutmetunne" "Miwok" "Moapa" "Mocogo" "Moctobi" "Modoc" "Mohawk" "Mohegan" "Mohican" "Molala" "Monacan" "Mono" "Montauk" "Moratoc" "Muckleshoot" "Mucogo" "Mugulasha"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+NEA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { NEA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "ACS "
+	fallback_name = "Light Cruiser CL-%d"
+
+	unique = {
+		"North Carolina" "Washington" "South Dakota" "Indiana" "Massachusetts" "Alabama" "Iowa" "New Jersey" "Missouri" "Wisconsin" "Montana" "Ohio" "Illinois" "Kentucky"   
+		"Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" "New Mexico" "Mississippi" "Idaho" "Tennessee" "California" "Colorado" "Maryland" "West Virginia" "Minnesota" "North Dakota" "Oregon" "Connecticut" "Vermont" "New Hampshire" "Florida" "Utah" "Delaware" "Michigan" "Kansas" "Rhode Island" "Nebraska" "Virginia" "Maine" "Louisiana" "South Carolina" "Wyoming" "Georgia" "Alaska" "Hawaii"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+NEA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { NEA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "ACS "
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+		"North Carolina" "Washington" "South Dakota" "Indiana" "Massachusetts" "Alabama" "Iowa" "New Jersey" "Missouri" "Wisconsin" "Montana" "Ohio" "Illinois" "Kentucky"   
+		"Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" "New Mexico" "Mississippi" "Idaho" "Tennessee" "California" "Colorado" "Maryland" "West Virginia" "Minnesota" "North Dakota" "Oregon" "Connecticut" "Vermont" "New Hampshire" "Florida" "Utah" "Delaware" "Michigan" "Kansas" "Rhode Island" "Nebraska" "Virginia" "Maine" "Louisiana" "South Carolina" "Wyoming" "Georgia" "Alaska" "Hawaii"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+NEA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { NEA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "ACS " 
+	fallback_name = "Battleship BB-%d"		
+
+	unique = {
+		"Michael Harrington" " Louis C. Delescluze" "Jarosław Dąbrowski" "Jack Reed" "Pierre-Joseph Proudhon" "Louis Auguste Blanqui" "Stepan Petrichenko" "Preben Wilhjelm" "Karl Liebknecht" "Rosa Luxembourg" "Ho Chi Minh" "Eugen Leviné" "Emil Eichhorn" "Clara Zetkin" "Julian Marchlewski" "Eugene V. Debs" "Eugène Varlin" "Louis Charles Delescluze" "Buenaventura Durruti" "Oliver Law" "Karl Marx" "Robert Merriman" "Dave Doran" "Milton Wolff" "Louise Michel" "Félix Pyat" "Maria Spiridonova" "Dmitry Popov" "Mikhail Muravyov" "Yakov Blumkin" "Boris Kamkov" "Boris Donskoy" "Emma Goldman" "Nestor Makhno" " Maria Nikiforova" "Lev Chernyi"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+#NEA_BC_HISTORICAL = { # if you are reading this post it on the discord pd:UCR gang
+#	name = NAME_THEME_HISTORICAL_BC
+#
+#	for_countries = { NEA }
+#
+#	type = ship
+#	ship_types = { ship_hull_heavy battle_cruiser }
+#	
+#	prefix = "ACS"
+#	fallback_name = "Battlecruiser BC-%d"	
+#
+#	unique = {
+#		"Azopardo" "Sarandí" "Espora" "Rivadavia" "Moreno" 
+#	}
+#}
+
+### AIRCRAFT CARRIER NAMES ###
+NEA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { NEA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "ACS "
+	fallback_name = "Carrier CV-%d"	
+
+	unique = {
+		"Superior" "Huron" "Table Rock" "Michigan" "Guntersville" "Erie" "Ontario" "Salt Lake" "Oahe" "Okeechobee" "Pontchartrain" "Sakakawea" "Champlain" "Becharof" "Moosehead" "Selawik" "Eufaula" "Livingston" "Francis Case" "Yellowstone" "Fort Peck" "Teshekpuk" "Mead" "Tahoe" "Winnebago" "Winnibigoshish" "Koocanusa" "Vermilion" "Watts Bar" "Chickamauga"
+	}
+}
+
+### SUBMARINES ###
+NEA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { NEA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "ACS " 
+	fallback_name = "Submarine SS-%d"
+	
+	unique = {
+		"Washington" "New York City" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" "Kansas City" "Milwaukee" "New Orleans" "Cincinnati" "Miami" "Indianapolis" "Seattle" "Dallas" "Atlanta" "Buffalo" "Minneapolis" "Denver" "Omaha" "San Diego" "Nashville" "Oklahoma City" "Louisville" "Phoenix" "Portland" "Rochester" "Albany" "Albuquerque" "Alexandria" "Amsterdam" "Annapolis" "Anniston" "Asheville" "Astoria" "Augusta" "Baton Rouge" "Biloxi" "Birmingham" "Boise" "Bremerton" "Bridgeport" "Brooklyn" "Cambridge" "Cheyenne" "Charleston" "Charlotte" "Chattanooga" "Chester" "Columbia" "Columbus" "Concord" "Corpus Christi" "Dayton" "Des Moines" "Duluth" "Fall River" "Fargo" "Flint" "Frederick" "Fresno" "Galena" "Galveston" "Gary" "Greenville" "Groton" "Hampton" "Hartford" "Helena" "Honolulu" "Houston" "Huntington" "Huron" "Jacksonville" "Jefferson City" "Juneau" "Key West" "La Jolla" "Lancaster" "Long Beach" "Little Rock" "Macon" "Manchester" "Marblehead" "Marion" "Memphis" "Missoula" "Mobile" "Mohican" "Montgomery" "Montpelier" "New Haven" "Newark" "Newport News" "Norfolk" "Northampton" "Oakland" "Olympia" "Oregon City" "Pasadena" "Pensacola" "Portsmouth" "Providence" "Pueblo" "Quincy" "Quinnebaug" "Raleigh" "Reno" "Richmond" "Roanoke" "St. Paul" "Salem" "Salt Lake City" "San Juan" "Santa Fe" "Saratoga" "Savannah" "Swatara"	"Scranton" "Spokane" "Springfield" "Tacoma" "Tahoe" "Tallahassee" "Toledo" "Topeka" "Trenton" "Tucson" "Tulsa" "Tuscaloosa" "Vallejo" "Vicksburg" "Wichita" "Wilkes-Barre" "Wilmington" "Worcester" "Yosemite" "Youngstown" "Morganton" "Mandan" "Elizabethton" "Jackson" "Crystal City" "Huntsville" "Harpers Ferry" "Charles Town" "Summersville"
+	}
+}
+
+NEA_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { NEA }
+
+	type = ship
+	
+	prefix = "ACS "							
+
+	unique = {
+		"Albacore" "Amberjack" "Angler" "Apogon" "Aspro" "Archerfish" "Atule" "Barracuda" "Bass" "Bonita" "Barb" "Blackfish" "Bluefish" "Bonefish" "Bashaw" "Bluegill" "Bream" "Balao" "Billfish" "Bowfin" "Batfish" "Burrfish" 
+		"Barbel" "Barbero" "Baya" "Becuna" "Bang" "Bergall" "Besugo" "Blackfin" "Blenny" "Blower" "Blueback" "Boarfish" "Brill" "Bugara" "Bullhead" "Bumper" "Cachalot" "Cuttlefish" "Cavalla" "Cobia" "Croaker" "Cod" "Cero" 
+		"Corvina" "Cabrilla" "Capelin" "Cisco" "Crevalle" "Caiman" "Charr" "Chub" "Cabezon" "Capitaine" "Carbonero" "Carp" "Catfish" "Chivo" "Chopper" "Clamagore" "Cobbler" "Cochino" "Corporal" "Cubera" "Cusk" "Conger" "Comber" 
+		"Dolphin" "Darter" "Drum" "Devilfish" "Dragonet" "Dentuda" "Diodon" "Dogfish" "Dugong" "Escolar" "Entemedor" "Eel" "Espada" "Flying Fish" "Finback" "Flasher" "Flier" "Flounder" 
+		"Gar" "Grampus" "Grayback" "Grayling" "Gato" "Greenling" "Grouper" "Growler" "Grunion" "Guardfish" "Gabilan" "Gunnel" "Gurnard" "Greenfish" "Garlopa" "Garrupa" "Goldring" "Golet" "Guavina" "Guitarro" 
+		"Haddock" "Halibut" "Herring""Haddo" "Hake" "Harder" "Hoe" "Hackleback" "Halfbeak" "Hammerhead" "Hardhead" "Hawkbill" "Icefish" "Irex" "Jack" "Jawfish" "Jallao" "Kete" "Kraken" "Kingfish" 
+		"Lapon" "Lancetfish" "Ling" "Lionfish" "Lagarto" "Lamprey" "Lizardfish" "Loggerhead" "Manta" "Moray" "Mingo" "Muskallunge" "Mackerel" "Marlin" "Macabi" "Mapiro" "Menhaden" "Mero" "Medregal" 
+		"Narwhal" "Nautilus" "Needlefish" "Nerka" "Ono" "Odax" "Porpoise" "Pike" "Perch" "Pickerel" "Pompano" "Paddle" "Pargo" "Peto" "Pogy" "Pompon" "Puffer" "Piper" "Rasher" "Picuda" "Pampanito" "Parche" "Pilotfish" "Pintado" 
+		"Pipefish" "Piranha" "Plaice" "Pomfret" "Pomodon" "Queenfish" "Quillback" "Raton" "Ray" "Redfin" "Robalo" "Rock" "Runner" "Roncador" "Razorback" "Redfish" "Ronquil" "Requin" "Remora" 
+		"Shark" "Salmon" "Seal" "Skipjack" "Snapper" "Stingray" "Sturgeon" "Sargo" "Saury" "Spearfish" "Sculpin" "Sailfish" "Swordfish" "Seadragon" "Sealion" "Searaven" "Seawolf" "Shad" "Silversides" "Sawfish" "Scamp" "Scorpion" 
+		"Snook" "Steelhead" "Sunfish" "Sabalo" "Sablefish" "Seahorse" "Skate" "Sand Lance" "Sterlet" "Scabbardfish" "Segundo" "Sea Cat" "Sea Devil" "Sea Dog" "Sea Fox" "Spikefish" "Sea Owl" "Sea Poacher" "Sea Robin" "Sennet" 
+		"Spadefish" "Spot" "Springer" "Stickleback" "Sea Leopard" "Sirago" "Sarda" "Spinax" "Sea Panther" "Springeren" "Tarpon" "Tambor" "Tautog" "Thresher" "Trout" "Tuna" "Tunny" "Tinosa" "Tullibee" "Tang" "Tilefish" "Threadfin" 
+		"Trepang" "Tiru" "Tench" "Thornback" "Tigrone" "Tirante" "Trutta" "Toro" "Torsk" "Trumpetfish" "Tusk" "Turbot" "Tiburon" "Ulua" "Vendace" "Wahoo" "Whale" "Walrus" "Whitefish" "Whiting" "Wolffish" 
+	}
+}

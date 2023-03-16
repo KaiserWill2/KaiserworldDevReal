@@ -1,0 +1,27 @@
+
+state={
+	id=978
+	name="STATE_978"
+	manpower = 3564400
+	
+	state_category = rural
+	
+	resources={
+		oil=1
+	}
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YEM
+		victory_points = { 13649 2 } #'Amran
+		victory_points = { 13642 1 } #Manakhah
+		victory_points = { 13645 2 } #Dhamar
+		victory_points = { 13651 1 } #Khamir
+	}
+
+	provinces={
+		13640 13641 13642 13644 13645 13646 13647 13648 13649 13650 13651 13652
+	}
+}

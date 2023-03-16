@@ -1,0 +1,145 @@
+characters={
+	BOT_tebogo_masire={
+		name="Tebogo Masire"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Tebogo_Masire.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_shawn_nthaile={
+		name="Shawn Nthaile"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Shawn_Nthaile.dds"
+			}
+		}
+		country_leader={
+			ideology=dominionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_mosadi_seboko={
+		name="Mosadi Seboko"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Mosadi_Seboko.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_modise_mokwadi_fly={
+		name="Modise Mokwadi Fly"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Modise_Mokwadi_Fly.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_ian_khama={
+		name="Ian Khama"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Ian_Khama.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_biggie_butale={
+		name="Biggie Butale"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Biggie_Butale.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_sydney_pilane={
+		name="Sydney Pilane"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Sidney_Pilane.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_dumelang_saleshando={
+		name="Dumelang Saleshando"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Dumelang_Saleshando.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_duma_boko={
+		name="Duma Boko"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Duma_Boko.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_motlatsi_molapisi={
+		name="Motlatsi Molapisi"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Motlatsi_Molapisi.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_themba_joina={
+		name="Themba Joina"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Portrait_BOT_Themba_Joina.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

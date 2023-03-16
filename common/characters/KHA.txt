@@ -1,0 +1,145 @@
+characters={
+	KHA_Mangat_Ram_Pasla={ #VIVA LA UCR
+		name="Mangat Ram Pasla"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Mangat_Ram_Pasla.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_Sukhdev_Singh_Babbar={
+		name="Sukhdev Singh Babbar"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Sukhdev_Singh_Babbar.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_Beant_Singh_Sandhalwalia={
+		name="Beant Singh Sandhalwalia"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Beant_Singh_Sandhalwalia.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_Simranjit_Singh_Mann={
+		name="Simranjit Singh Mann"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Simranjit_Singh_Mann.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_Gurmit_Singh_Aulakh={
+		name="Gurmit Singh Aulakh"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Gurmit_Singh_Aulakh.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_Parkash_Singh_Badal={
+		name="Parkash Singh Badal"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Parkash_Singh_Badal.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_Surjit_Singh_Barnala={
+		name="Surjit Singh Barnala"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Surjit_Singh_Barnala.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_H._S._Phoolka={
+		name="KHA_H. S. Phoolka"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_H._S._Phoolka.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_Amarinder_Singh={
+		name="Amarinder Singh"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Amarinder_Singh.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_Sucha_Singh_Chhotepur={
+		name="Sucha Singh Chhotepur"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Sucha_Singh_Chhotepur.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KHA_Jagjit_Singh_Anand={
+		name="Jagjit Singh Anand"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHA/Portrait_KHA_Jagjit_Singh_Anand.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

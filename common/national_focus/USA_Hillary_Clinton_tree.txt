@@ -1,0 +1,1172 @@
+focus_tree = {
+	id = USA_Hillary_Clinton_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_A_New_Day_For_Woman
+		icon = a_new_day_for_woman_icon
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = {	
+				id = USA.12
+				}
+		}
+	
+	}
+	focus = {
+		id = USA_A_New_Day_For_America
+		icon = A_New_Day_for_America_icon
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Day_For_Woman  }
+		completion_reward = {
+			add_political_power = 10
+		}
+	
+	}
+
+	focus = {
+		id = USA_Expanding_The_Welfare_State
+		icon = expanding_the_welfare_state_icon
+		x = 7
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Day_For_America  }
+		completion_reward = {
+			add_ideas = Expanding_welfare_idea
+		}
+	
+	}
+
+	focus = {
+		id = USA_Securing_Access_To_Food
+		icon = securing_access_to_food_icon
+		x = 7
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expanding_The_Welfare_State  }
+		completion_reward = {
+			country_event = {	
+				id = USA.146
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Expand_Healthcare_Programs
+		icon = expand_healthcarE_programs_icon
+		x = 7
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Securing_Access_To_Food  }
+		completion_reward = {
+			country_event = {	
+				id = USA.147
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Enshrine_LGBTQ_Rights_Into_Law
+		icon = enshrine_LGBT_rights_into_law_icon
+		x = 10
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Day_For_America  }
+		completion_reward = {
+			country_event = {	
+				id = USA.145
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Roll_Back_Oil_Drilling
+		icon = roll_back_oil_drilling_icon
+		x = 10
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Enshrine_LGBTQ_Rights_Into_Law  }
+		completion_reward = {
+			add_stability = -0.10
+			create_import = {
+				resource = oil
+				amount = 100
+				exporter = CAN
+			}
+			create_import = {
+				resource = oil
+				amount = 100
+				exporter = ALA
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Cancel_All_Current_Pipelines
+		icon = cancel_all_current_pipelines_icon
+		x = 10
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Roll_Back_Oil_Drilling  }
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Eliminate_The_Pink_Tax
+		icon = eliminate_the_pink_tax_icon
+		x = 13
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Day_For_America  }
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Expand_Title_IX_Protections
+		icon = expand_title_XI_protections_icon
+		x = 13
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Eliminate_The_Pink_Tax  }
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Fight_Traditional_Gender_Idenitites
+		icon = fight_traditional_gender_idenities_icon
+		x = 13
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_Title_IX_Protections  }
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.05
+		}
+	
+	}
+
+	
+	focus = {
+		id = USA_Bridge_The_Gap_Between_Parties
+		icon = bridge_gap_between_parties_icon
+		x = 10
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fight_Traditional_Gender_Idenitites  }
+		prerequisite = { focus =  USA_Expand_Healthcare_Programs  }
+		prerequisite = { focus =  USA_Cancel_All_Current_Pipelines  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.148
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Defer_Student_Loans
+		icon = defer_student_loans_icon
+		x = 7
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bridge_The_Gap_Between_Parties  }
+
+		completion_reward = {
+			add_stability = 0.025
+			add_political_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_Disability_Rights
+		icon = disabilities_rights_icon
+		x = 7
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Defer_Student_Loans  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.150
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Workers_Rights_Are_A_Priority
+		icon = workers_rights_are_a_priority_icon
+		x = 7
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Disability_Rights  }
+
+		completion_reward = {
+			add_stability = 0.15
+			add_political_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_Continue_Fighting_Climate_Change
+		icon = continue_fighting_climate_change_icon
+		x = 10
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bridge_The_Gap_Between_Parties  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.149
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Reform_The_Justice_System
+		icon = reform_the_justice_system_icon
+		x = 10
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Continue_Fighting_Climate_Change  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.151
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Tackle_The_Mental_Health_Crisis
+		icon = tackle_the_mental_health_crisis_icon
+		x = 10
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reform_The_Justice_System  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.152
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Increase_Wealth_Tax
+		icon = Increase_wealth_tax_icon
+		x = 13
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bridge_The_Gap_Between_Parties  }
+
+		completion_reward = {
+			add_stability = -0.025
+			
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Introduce_Federal_Housing
+		icon = introduce_federal_housing_icon
+		x = 13
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Increase_Wealth_Tax  }
+
+		completion_reward = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+			}
+
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Expand_NSA_Powers
+		icon = expand_NSA_Powers_icon
+		x = 13
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Introduce_Federal_Housing  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.153
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Renew_The_American_Dream
+		icon = renew_the_american_Dream_icon
+		x = 10
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_NSA_Powers  }
+		prerequisite = { focus =  USA_Tackle_The_Mental_Health_Crisis  }
+		prerequisite = { focus =  USA_Workers_Rights_Are_A_Priority  }
+
+		completion_reward = {
+			add_political_power = 50
+			set_country_flag = USA_The_American_Dream
+			mark_focus_tree_layout_dirty = yes
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_A_New_Light_On_Top_Of_The_Hill
+		icon = a_new_light_on_top_of_hill_icon
+		x = 30
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		trigger = {
+			has_country_flag = USA_The_American_Dream
+		}
+		allow_branch = {
+		has_country_flag = USA_The_American_Dream
+		USA_The_American_Dream = yes
+		}
+		completion_reward = {
+			add_stability = 0.10
+			add_political_power = 10
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Life_Liberty_Decolonization
+		icon = life_liberty_decolonization_icon
+		x = 26
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Light_On_Top_Of_The_Hill  }
+
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_Self_Determination_For_All
+		icon = self_determination_for_all_icon
+		x = 26
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Life_Liberty_Decolonization  }
+
+		completion_reward = {
+			
+			add_popularity = {
+				ideology = monarchist
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.05
+			}
+
+		}
+	
+	}
+
+	focus = {
+		id = USA_Call_For_Sweeping_Decolonization
+		icon = call_for_sweeping_decolonization_icon
+		x = 26
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Self_Determination_For_All  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.105
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Compensate_Colonial_Losses
+		icon = compensate_colonial_losses_icon
+		x = 24
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Call_For_Sweeping_Decolonization  }
+
+		completion_reward = {
+			GER = {
+				create_import = {
+					resource = steel
+					amount = 100
+					exporter = USA
+				}
+			}
+			GER = {
+				create_import = {
+					resource = oil
+					amount = 100
+					exporter = USA
+				}
+			}
+			CAN = {
+				create_import = {
+					resource = steel
+					amount = 100
+					exporter = USA
+				}
+			}
+			CAN = {
+				create_import = {
+					resource = oil
+					amount = 100
+					exporter = USA
+				}
+			}
+			
+		}
+	
+	}
+
+	focus = {
+		id = USA_Prevent_The_Further_Spread_Of_African_Syndicalism
+		icon = prevent_spread_of_syndicalism_icon
+		x = 24
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Compensate_Colonial_Losses  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.156
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Call_For_International_Investment
+		icon = call_for_international_investment_icon
+		x = 24
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Prevent_The_Further_Spread_Of_African_Syndicalism  }
+
+		completion_reward = {
+			CAF = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+			}
+		}
+		CAF = {
+			create_import = {
+				resource = steel
+				amount = 100
+				exporter = USA
+			}
+		}
+		CAF = {
+			create_import = {
+				resource = oil
+				amount = 100
+				exporter = USA
+			}
+		}
+
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Ensure_Access_To_Healthcare
+		icon = ensure_access_to_healthcare_icon
+		x = 24
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Call_For_International_Investment  }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	
+	}
+
+	focus = {
+		id = USA_Promote_African_Democracy
+		icon = promote_african_democracy_icon
+		x = 28
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Call_For_Sweeping_Decolonization  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.154
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Fund_African_Infrastructure
+		icon = fund_african_infrastucture_icon
+		x = 28
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_African_Democracy  }
+
+		completion_reward = {
+			add_stability = 0.25
+			add_political_power = 20
+			country_event = {	
+				id = USA.1565
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Repatriate_African_Exiles
+		icon = repatriate_african_exiles_icon
+		x = 28
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fund_African_Infrastructure  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Ensure_Ethic_Representation
+		icon = ensure_ethic_representation_icon
+		x = 28
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Repatriate_African_Exiles  }
+
+		completion_reward = {
+			add_political_power = 10
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_Safe_World_Is_A_Free_World
+		icon = a_safe_world_a_Free_world_icon
+		x = 26
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Ensure_Ethic_Representation  }
+		prerequisite = { focus =  USA_Ensure_Access_To_Healthcare  }
+
+		completion_reward = {
+			add_command_power = 20
+			add_manpower = 5000
+			army_experience = 20
+		
+		}
+	
+	}
+
+	focus = {
+		id = USA_Expand_Democracy_To_The_World
+		icon = expand_democracy_around_the_world_icon
+		x = 35
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Light_On_Top_Of_The_Hill  }
+
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_New_Faction
+		icon = a_new_faction_icon
+		x = 35
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_Democracy_To_The_World  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.106
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Promote_Democratic_Reforms
+		icon = Icon_Promote_Democratic_Reforms_KW
+		x = 35
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Faction  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.107
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Fund_The_Adenauer_Movement
+		icon = Icon_Fund_the_Adenauer_Movement_KW
+		x = 33
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_Democratic_Reforms  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.108
+				}
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Put_Diplomatic_Pressure_On_Germany
+		icon = Icon_Put_Diplomatic_Pressure_on_Germany_KW
+		x = 33
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fund_The_Adenauer_Movement  }
+
+		completion_reward = {
+			add_political_power = 20
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Demand_German_Repatriation
+		icon = Icon_Demand_German_Repatriation_KW
+		x = 33
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_Diplomatic_Pressure_On_Germany  }
+
+		completion_reward = {
+			add_relation_modifier = {
+				target = GER
+				modifier = declaration_of_hostility
+			}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Supply_The_Marquises
+		icon = Icon_Supply_the_Marquises_KW
+		x = 37
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_Democratic_Reforms  }
+
+		completion_reward = {
+			add_popularity = {
+				ideology = national_conservative
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = centrist
+				popularity = 0.10
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Put_Dipmomatic_Pressure_On_France
+		icon = Icon_Put_Diplomatic_Pressure_on_France_KW
+		x = 37
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Supply_The_Marquises  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.109
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Demand_French_Repatriation
+		icon = Icon_Demand_French_Repatriation_KW
+		x = 37
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_Dipmomatic_Pressure_On_France  }
+
+		completion_reward = {
+			add_relation_modifier = {
+				target = FRA
+				modifier = declaration_of_friendship
+			}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Focus_On_Asia
+		icon = Icon_Focus_on_Asia_KW
+		x = 35
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Demand_French_Repatriation  }
+		prerequisite = { focus =  USA_Demand_German_Repatriation  }
+
+		completion_reward = {
+		add_stability = 0.05
+		add_political_power = 20
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Contacting_The_Descendant_Of_Ghandi
+		icon = Icon_Contacting_the_Descendant_of_Ghandi_KW
+		x = 33
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Focus_On_Asia  }
+
+		completion_reward = {
+			
+			add_relation_modifier = {
+				target = RAJ
+				modifier = recent_actions_negative
+			}
+
+		}
+	
+	}
+
+	focus = {
+		id = USA_Bolster_His_Political_Influence ##Tushar Gandhi
+		icon = Icon_Bolster_His_Political_Influence_KW
+		x = 33
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Contacting_The_Descendant_Of_Ghandi  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.157
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Put_Pressure_On_The_Indian_Regime
+		icon = Icon_Put_Pressure_on_the_Indian_Regime_KW
+		x = 33
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bolster_His_Political_Influence  }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	
+	}
+
+	focus = {
+		id = USA_Push_For_Indian_Elections
+		icon = Icon_Push_for_Indian_Elections_KW
+		x = 31
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_Pressure_On_The_Indian_Regime  }
+		mutually_exclusive = {
+			focus = USA_Train_Indian_Exiles
+		}
+		completion_reward = {
+			country_event = {	
+				id = USA.112 
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Rig_The_Elections
+		icon = Icon_Rig_the_Elections_KW
+		x = 31
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Push_For_Indian_Elections  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.113
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Train_Indian_Exiles
+		icon = Icon_Train_Indian_Exile_KW
+		x = 35
+		y = 11
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_Push_For_Indian_Elections
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_Pressure_On_The_Indian_Regime  }
+		
+		completion_reward = {
+			country_event = {	
+				id = USA.114
+				}
+		
+		}
+	
+	}
+
+	focus = {
+		id = USA_Aid_In_The_Indian_Revolt
+		icon = Icon_Aid_in_the_Indian_Revolt_KW
+		x = 35
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Train_Indian_Exiles  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.115
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Find_The_Decadent_Kim ##Also check his son kim han sol
+		icon = Icon_Find_the_Decadent_Kim_KW
+		x = 38
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Focus_On_Asia  }
+
+		completion_reward = {
+			PRC = {
+				add_stability =  -0.25
+			}
+			add_political_power = 20
+			add_command_power = 10
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Propagandize_Him
+		icon = Icon_Propagandize_Him_KW
+		x = 38
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Find_The_Decadent_Kim  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.158
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Instigate_A_Revolt
+		icon = Icon_Instigate_a_Revolt_KW
+		x = 38
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Propagandize_Him  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.110
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Drone_Strike_The_Last_Airbase
+		icon = Icon_Drone_Strike_the_Last_Air_Base_KW
+		x = 38
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Instigate_A_Revolt  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.111
+				}
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+}

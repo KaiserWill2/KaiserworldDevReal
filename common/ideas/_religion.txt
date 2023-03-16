@@ -1,0 +1,35 @@
+ideas = {
+
+	hidden_ideas = {
+	
+		state_religion_sunni = {
+			picture = sunni_islam
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+			}
+		}
+	
+		state_religion_shia = {
+			picture = shia_islam
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+			}
+		}
+		
+	}
+	
+}

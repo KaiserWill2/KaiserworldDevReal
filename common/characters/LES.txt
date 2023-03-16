@@ -1,0 +1,145 @@
+characters={
+	LES_Phatoli_Lekanyane={
+		name="Phatoli Lekanyane"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Phatoli_Lekanyane.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Tlali_Kamoli={
+		name="Tlali Kamoli"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Tlali_Kamoli.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Letsie_III={
+		name="Letsie III"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Letsie_III.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Maaparankoe_Mahao={
+		name="Maaparankoe Mahao"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Maaparankoe_Mahao.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Justin_Lekhanya={
+		name="Justin Lekhanya"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Justin_Lekhanya.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Selibe_Mochoboroane={
+		name="Selibe Mochoboroane"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Selibe_Mochoboroane.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Tom_Thabane={
+		name="Tom Thabane"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Tom_Thabane.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Pakalitha_Mosisili={
+		name="Pakalitha Mosisili"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Pakalitha_Mosisili.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Mothetjoa_Metsing={
+		name="Mothetjoa Metsing"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Mothetjoa_Metsing.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Thulo_Mahlakeng={
+		name="Thulo Mahlakeng"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Thulo_Mahlakeng.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_Mokhafisi_Kena={
+		name="Mokhafisi Kena"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Portrait_LES_Mokhafisi_Kena.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

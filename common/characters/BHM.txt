@@ -1,0 +1,145 @@
+characters={
+	BHM_john_mccartney={
+		name="John McCartney"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_John_McCartney.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_kevin_king={
+		name="Kevin King"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Kevin_King.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_sharell_ali_mcintosh={
+		name="Sharell Ali McIntosh"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Sharell_Ali_McIntosh.dds"
+			}
+		}
+		country_leader={
+			ideology=dominionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_arthur_dion_hanna={
+		name="Arthur Dion Hanna"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Arthur_Dion_Hanna.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_philip_blyden={
+		name="Philip Blyden"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Philip_Blyden.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_hubert_ingraham={
+		name="Hubert Ingraham"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Hubert_Ingraham.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_branville_mccartney={
+		name="Branville McCartney"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Branville_McCartney.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_perry_christie={
+		name="Perry Christie"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Perry_Christie.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_andre_rollins={
+		name="Andre Rollins"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Andre_Rollins.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_cassius_stewart={
+		name="Cassius Stewart"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Cassius_Stewart.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_obie_ferguson_junior={
+		name="Obie Ferguson Junior"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Portrait_BHM_Obie_Ferguson.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

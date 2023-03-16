@@ -1,0 +1,223 @@
+characters={
+	DJI_ahmed_abdi_godane={
+		name="Ahmed Abdi Godane"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Ahmed_Godane.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_zakaria_cheikh_ibrahim={
+		name="Zakaria Cheikh Ibrahim"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Zakaria_Cheikh_Ibrahim.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_hanfere_alimirah={
+		name="Hanfere Alimirah"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Hanfere_Alimirah.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_abdourahman_aden_cher={
+		name="Abdourahman Aden Cher"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Abdourahman_Aden_Cher.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_daher_ahmed_farah={
+		name="Daher Ahmed Farah"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Daher_Ahmed_Farah.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_omar_elmi_khaireh={
+		name="Omar Elmi Khaireh"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Omar_Elmi_Khaireh.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_aden_robleh_awaleh={
+		name="Aden Robleh Awaleh"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Aden_Awaleh.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_ali_mohammed_daoud={
+		name="Ali Mohammed Daoud"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Ali_Mohammed_Daoud.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_ibrahim_chehem_daoud={
+		name="Ibrahim Chehem Daoud"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Ibrahim_Daoud.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_ismaïl_omar_guelleh={
+		name="Ismaïl Omar Guelleh"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Ismaïl_Omar_Guelleh.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_mohammed_ibrahim_moussa={
+		name="Mohammed Ibrahim Moussa"
+		portraits={
+			civilian={
+				large="gfx/leaders/DJI/Portrait_DJI_Mohammed_Moussa.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DJI_arayta_houmed_ebile={
+		name="Arayta Houmed Ebile"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/DJI/Portrait_Arayta_Houmed_Ebile.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DJI_osman_noor_soubagleh={
+		name="Osman Noor Soubagleh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/DJI/Portrait_Osman_Noor_Soubagleh.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	DJI_wais_o._bogoreh={
+		name="Wais O. Bogoreh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/DJI/Portrait_Wais_O._Bogoreh.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

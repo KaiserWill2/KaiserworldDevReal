@@ -1,0 +1,30 @@
+
+state={
+	id=271
+	name="STATE_271"
+	resources={
+		rubber=12.000
+		steel=19
+	}
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 1
+
+		}
+		victory_points = { 4954 2 }
+		add_core_of = ETH
+
+	}
+
+	provinces={
+		2040 5097 13137 4954 13850
+	}
+	manpower=17221976	
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

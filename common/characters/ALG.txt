@@ -1,0 +1,266 @@
+characters={
+	ALG_bouguerra_soltani={
+		name="Bouguerra Soltani"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Bouguerra_Soltani.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_abdelaziz_bouteflika={
+		name="Abdelaziz Bouteflika"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Abdelaziz_Bouteflika.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_khaldoon_alhassani={
+		name="Khaldoon al-Hassani"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Khaldoon_Al_Hassani.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_ahmed_choutri={
+		name="Ahmed Choutri"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Ahmed_Choutri.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_ahmed_ouyahia={
+		name="Ahmed Ouyahia"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Ahmed_Ouyahia.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_redha_malek={
+		name="Redha Malek"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Redha_Malek.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_ali_fawzi_rebaine={
+		name="Ali Fawzi Rebaine"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Ali_Fawzi_Rebaine.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_amara_benyounès={
+		name="Amara Benyounès"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Amara_Benyounes.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_hocine_aït_ahmed={
+		name="Hocine Aït Ahmed"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Hocine_Ait_Ahmed.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_louisa_hanoune={
+		name="Louisa Hanoune"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Louisa_Hanoune.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_LOUISA_HANOUNE_DESC"
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_messaoud_belmadani={
+		name="Messaoud Belmadani"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Messaoud_Belmadani.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ALG_saïd_chengriha={
+		name="Saïd Chengriha"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ALG/Portrait_Saïd_Chengriha.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ALG_ahmed_gaid_salah={
+		name="Ahmed Gaid Salah"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ALG/Portrait_Ahmed_Gaid_Salah.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ALG_fatima_zohra_ardjoune={
+		name="Fatima Zohra Ardjoune"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ALG/Portrait_Fatima_Zohra_Ardjoune.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ALG_ahmed_boustila={
+		name="Ahmed Boustila"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ALG/Portrait_Ahmed_Boustila.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ALG_fatima_boudouani={
+		name="Fatima Boudouani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ALG/Portrait_Fatima_Boudouani.dds"
+			}
+		}
+		corps_commander={
+			traits={ paratrooper }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ALG_mohammed_alarabi_hawalli={
+		name="Mohammed Al-Arabi Hawalli"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ALG/Portrait_Mohammed_Al_Arabi_Hawalli.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

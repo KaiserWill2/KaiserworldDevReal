@@ -1,0 +1,305 @@
+characters={
+	MOR_abdallah_el_harif={
+		name="Abdallah El Harif"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Abdallah_El_Harif.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_abdelbari_zamzami={
+		name="Abdel-Bari Zamzami"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Abdel_Bari_Zamzami.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_abdelilah_benkirane={
+		name="Abdelilah Benkirane"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Abdelilah_Benkirane.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_mohammed_vi={
+		name="Mohammed VI"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Mohammed_Sixth.dds"
+			}
+		}
+		country_leader={
+			ideology=semi_constitutional_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_brahim_ghali={
+		name="Brahim Ghali"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Brahim_Ghali.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_hamid_chabat={
+		name="Hamid Chabat"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Hamid_Chabat.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_salaheddine_mezouar={
+		name="Salaheddine Mezouar"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Salaheddine_Mezouar.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_mohand_laenser={
+		name="Mohand Laenser"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Mohand_Laenser.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_driss_lachgar={
+		name="Driss Lachgar"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Driss_Lachgar.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_nabil_benabdallah={
+		name="Nabil Benabdallah"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Nabil_Benabdallah.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_nabila_mounib={
+		name="Nabila Mounib"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOR/Portrait_MOR_Nabila_Mounib.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOR_bouchaib_arroub={
+		name="Bouchaib Arroub"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOR/Portrait_Bouchaib_Arroub.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MOR_abdelfattah_louarak={
+		name="Abdelfattah Louarak"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOR/Portrait_Abdelfattah_Louarak.dds"
+			}
+		}
+		field_marshal={
+			traits={ commando desert_fox }
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MOR_abdelaziz_bennani={
+		name="Abdelaziz Bennani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOR/Portrait_Abdelaziz_Bennani.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	MOR_housni_benslimane={
+		name="Housni Benslimane"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOR/Portrait_Housni_Benslimane.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MOR_hamidou_laanigri={
+		name="Hamidou Laanigri"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOR/Portrait_Hamidou_Laanigri.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MOR_ahmed_boutaleb={
+		name="Ahmed Boutaleb"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOR/Portrait_Ahmed_Boutaleb.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MOR_mimoun_mansouri={
+		name="Mimoun Mansouri"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOR/Portrait_Mimoun_Mansouri.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer infantry_expert }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	MOR_mostapha_el_alami={
+		name="Mostapha El Alami"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOR/Portrait_Mostapha_El_Alami.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner fly_swatter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,680 @@
+focus_tree = {
+	id = wal_wales_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = WAL
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1550 }
+	focus = {
+		id = WAL_Cynnydd_y_Ddraig
+		icon = rise_of_the_dragon_icon
+		cost = 5
+		x = 25
+		y = 0
+		completion_reward = {
+			add_ideas = idea_The_Dragon_Rises
+			country_event = {
+				id = wales.1
+			}
+		}
+	}
+	focus = {
+		id = WAL_Addressing_Wales
+		icon = addressing_wales_icon
+		cost = 5
+		x = 25
+		y = 1
+		prerequisite = { focus = WAL_Cynnydd_y_Ddraig  }
+		completion_reward = {
+			add_political_power = 40
+			country_event = {
+				id = wales.2
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_Welsh_Freedom
+		icon = welsh_freedom_icon
+		cost = 5
+		x = 25
+		y = 2
+		prerequisite = { focus = WAL_Addressing_Wales  }
+		completion_reward = {
+			add_stability = 0.03
+		}
+
+	}
+	focus = {
+		id = WAL_Expand_The_Industry
+		icon = expand_the_industry_icon
+		cost = 5
+		x = 18
+		y = 3
+		prerequisite = { focus = WAL_Welsh_Freedom  }
+		completion_reward = {
+			country_event = {
+				id = wales.3
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_Expand_Mining_Operations
+		icon = expand_mining_operations_icon
+		cost = 5
+		x = 15
+		y = 4
+		prerequisite = { focus = WAL_Expand_The_Industry  }
+		completion_reward = {
+			add_ideas = idea_expanding_coal_operations
+		}
+
+	}
+	focus = {
+		id = WAL_The_Coal_Shortage
+		icon = The_coal_shortage_icon
+		cost = 5
+		x = 13
+		y = 5
+		available ={
+			has_completed_focus = WAL_The_Planned_Strikes
+			}
+		prerequisite = { focus = WAL_Expand_Mining_Operations  }
+		completion_reward = {
+			add_stability = -0.05
+		}
+
+	}
+	focus = {
+		id = WAL_We_Need_Scottish_Power
+		icon = we_need_scottish_power_icon
+		cost = 5
+		x = 11
+		y = 6
+		prerequisite = { focus = WAL_The_Coal_Shortage  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_No_More_trade_With_Ireland
+		icon = stop_irish_trade_icon
+		cost = 5
+		x = 13
+		y = 6
+		prerequisite = { focus = WAL_The_Coal_Shortage  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_The_New_Bill
+		icon = wal_the_new_bill_icon
+		cost = 5
+		x = 16
+		y = 5
+		prerequisite = { focus = WAL_Expand_Mining_Operations  }
+		prerequisite = { focus = WAL_Rebuild_The_Steel_Industry  }
+		prerequisite = { focus = WAL_The_Five_Year_Automation_Plan  }
+		completion_reward = {
+			country_event = {
+				id = wales.4
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_Remove_Safety_Laws
+		icon = remove_safety_law_icon
+		cost = 5
+		x = 15
+		y = 6
+		prerequisite = { focus = WAL_The_New_Bill  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Rebuild_The_Steel_Industry
+		icon = rebuild_steel_industry_icon
+		cost = 5
+		x = 18
+		y = 4
+		prerequisite = { focus = WAL_Expand_The_Industry  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_The_Planned_Strikes
+		icon = the_planned_strikes_icon
+		cost = 5
+		x = 18
+		y = 5
+		available ={
+		has_completed_focus = WAL_Remove_Safety_Laws
+		}
+		prerequisite = { focus = WAL_Rebuild_The_Steel_Industry  }
+		completion_reward = {
+			country_event = {
+				id = wales.5
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_Speak_With_The_Unions
+		icon = speak_with_the_unions_icon
+		cost = 5
+		x = 19
+		y = 6
+		prerequisite = { focus = WAL_The_Planned_Strikes  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Ban_The_Strike
+		icon = ban_the_strikeS_icon
+		cost = 5
+		x = 19
+		y = 7
+		prerequisite = { focus = WAL_Speak_With_The_Unions  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_The_Five_Year_Automation_Plan
+		icon = 5_year_automation_plan_icon
+		cost = 5
+		x = 21
+		y = 4
+		prerequisite = { focus = WAL_Expand_The_Industry  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Defend_Our_Nationalism
+		icon = defend_our_nationalism_icon
+		cost = 5
+		x = 25
+		y = 3
+		prerequisite = { focus = WAL_Welsh_Freedom  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_The_Welsh_Workers_Rights
+		icon = the_welsh_workers_rights
+		cost = 5
+		x = 25
+		y = 4
+		prerequisite = { focus = WAL_Defend_Our_Nationalism  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Take_Over_The_Factories
+		icon = take_over_the_factories_icon
+		cost = 5
+		x = 25
+		y = 5
+		prerequisite = { focus = WAL_The_Welsh_Workers_Rights  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Welsh_Education
+		icon = welsh_education_icon
+		cost = 5
+		x = 23
+		y = 4
+		prerequisite = { focus = WAL_Defend_Our_Nationalism  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Blind_The_Young
+		icon = blind_the_young_icon
+		cost = 5
+		x = 23
+		y = 5
+		prerequisite = { focus = WAL_Welsh_Education  }
+		completion_reward = {
+			country_event = {
+				id = wales.8
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_Train_The_Teens
+		icon = train_the_teens_icon
+		cost = 5
+		x = 24
+		y = 6
+		prerequisite = { focus = WAL_Blind_The_Young  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_The_Future_Lives_On
+		icon = the_future_lives_on_icon
+		cost = 5
+		x = 24
+		y = 7
+		prerequisite = { focus = WAL_Train_The_Teens  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_New_Nationalism
+		icon = new_nationalism_icon
+		cost = 5
+		x = 27
+		y = 4
+		prerequisite = { focus = WAL_Defend_Our_Nationalism  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Reformed_Welfare
+		icon = reformed_welfare_icon
+		cost = 5
+		x = 27
+		y = 5
+		prerequisite = { focus = WAL_New_Nationalism  }
+		completion_reward = {
+			country_event = {
+				id = wales.7
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_New_Tax
+		icon = new_tax_icon
+		cost = 5
+		x = 26
+		y = 6
+		prerequisite = { focus = WAL_Reformed_Welfare  }
+		completion_reward = {
+		
+		}
+
+	}
+	focus = {
+		id = WAL_No_To_The_Left
+		icon = no_to_The_left_icon
+		cost = 5
+		x = 26
+		y = 7
+		prerequisite = { focus = WAL_New_Tax  }
+		completion_reward = {
+			country_event = {
+				id = wales.9
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_Awaken_The_Dragon
+		icon = awaken_the_dragon_icon
+		cost = 5
+		x = 31
+		y = 3
+		prerequisite = { focus = WAL_Welsh_Freedom  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_The_Welsh_Military_Fund
+		icon = welsh_military_funding_icon
+		cost = 5
+		x = 29
+		y = 4
+		prerequisite = { focus = WAL_Awaken_The_Dragon  }
+		completion_reward = {
+			country_event = {
+				id = wales.10
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_The_Welsh_Militias
+		icon = the_welsh_militias_icon
+		cost = 5
+		x = 31
+		y = 4
+		prerequisite = { focus = WAL_Awaken_The_Dragon  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Protect_The_Wall
+		icon = protect_the_wall_icon
+		cost = 5
+		x = 33
+		y = 4
+		prerequisite = { focus = WAL_Awaken_The_Dragon  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Wales_Is_Alive
+		icon = wales_is_alive_and_well_icon
+		cost = 5
+		x = 31
+		y = 5
+		prerequisite = { focus = WAL_The_Welsh_Military_Fund  }
+		prerequisite = { focus = WAL_The_Welsh_Militias  }
+		prerequisite = { focus = WAL_Protect_The_Wall  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Ban_Trade_With_USBR
+		icon = ban_trade_with_usbr_icon
+		cost = 5
+		x = 31
+		y = 6
+		prerequisite = { focus = WAL_Wales_Is_Alive  }
+		completion_reward = {
+			country_event = {
+				id = wales.11
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_The_New_Scottish_Route
+		icon = new_scottish_route_cion
+		cost = 5
+		x = 29
+		y = 7
+		prerequisite = { focus = WAL_Ban_Trade_With_USBR  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Reject_The_Blair_Project
+		icon = reject_the_blair_project_icon
+		cost = 5
+		x = 33
+		y = 7
+		prerequisite = { focus = WAL_Ban_Trade_With_USBR  }
+		completion_reward = {
+			country_event = {
+				id = wales.12
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_Ban_English_Refugees
+		icon = ban_english_refugees_icon
+		cost = 5
+		x = 31
+		y = 8
+		prerequisite = { focus = WAL_Reject_The_Blair_Project  }
+		prerequisite = { focus = WAL_The_New_Scottish_Route  }
+		completion_reward = {
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+	focus = {
+		id = WAL_Celtic_Congress
+		icon = the_celtic_congress_icon
+		cost = 5
+		x = 40
+		y = 0
+
+		available ={
+		has_completed_focus = WAL_Ban_English_Refugees
+		has_completed_focus = WAL_No_To_The_Left
+		has_completed_focus = WAL_The_Future_Lives_On
+		has_completed_focus = WAL_The_Future_Lives_On
+		has_completed_focus = WAL_Ban_The_Strike
+		has_completed_focus = WAL_Remove_Safety_Laws
+		has_completed_focus = WAL_No_More_trade_With_Ireland
+		has_completed_focus = WAL_We_Need_Scottish_Power	
+		}
+		completion_reward = {
+			country_event = {
+				id = wales.13
+			}
+		}
+	}
+	focus = {
+		id = WAL_Meeting_With_Scottish_Royalty
+		icon = meeting_with_scottish_royalty_icon
+		cost = 5
+		x = 38
+		y = 1
+		prerequisite = { focus = WAL_Celtic_Congress  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_Meeting_With_The_Irish
+		icon = meeting__with_the_irish_icon
+		cost = 5
+		x = 42
+		y = 1
+		prerequisite = { focus = WAL_Celtic_Congress  }
+		completion_reward = {
+
+		}
+
+	}
+	focus = {
+		id = WAL_The_Power_Struggle
+		icon = the_power_struggle_icon
+		cost = 5
+		x = 40
+		y = 2
+		prerequisite = { focus = WAL_Meeting_With_The_Irish  }
+		prerequisite = { focus = WAL_Meeting_With_Scottish_Royalty  }
+		completion_reward = {
+			country_event = {
+				id = wales.14
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_The_Vote_Of_No_Confidence
+		icon = vote_of_no_confidence_icon
+		cost = 5
+		x = 40
+		y = 3
+		prerequisite = { focus = WAL_The_Power_Struggle  }
+		completion_reward = {
+	
+		}
+
+	}
+	focus = {
+		id = WAL_The_People_Want_To_Vote
+		icon = the_people_want_to_vote_icon
+		cost = 5
+		x = 38
+		y = 4
+		prerequisite = { focus = WAL_The_Vote_Of_No_Confidence  }
+		completion_reward = {
+			country_event = {
+				id = wales.15
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_The_Party_Takes_Charge
+		icon = the_party_takes_charge_icon
+		cost = 5
+		x = 42
+		y = 4
+		prerequisite = { focus = WAL_The_Vote_Of_No_Confidence  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = WAL_Chamber_Election
+		icon = chamber_elections_icon
+		cost = 5
+		x = 40
+		y = 5
+		prerequisite = { focus = WAL_The_People_Want_To_Vote  }
+		prerequisite = { focus = WAL_The_Party_Takes_Charge  }
+		completion_reward = {
+			country_event = {
+				id = wales.16
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_Welsh_National
+		icon = nationals_elected_icon
+		cost = 5
+		x = 38
+		y = 6
+		mutually_exclusive = {
+			focus = WAL_Coalition_Government
+		}
+		prerequisite = { focus = WAL_Chamber_Election  }
+		completion_reward = {
+
+			set_cosmetic_tag = WAL_fascist_new
+
+			create_country_leader = {
+				name = "Owain Williams"
+				picture = "Owain_Williams_wal.dds"
+				ideology = fascist_ideology
+			}
+			set_politics = {
+				ruling_party = fascist 
+				elections_allowed = no
+			}
+		}
+
+	}
+
+	focus = {
+		id = WAL_Ban_The_English_Language
+		icon = ban_english_language_icon
+		cost = 5
+		x = 38
+		y = 7
+		prerequisite = { focus = WAL_Welsh_National  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = WAL_Coalition_Government
+		icon = coalition_government_icon
+		cost = 5
+		x = 42
+		y = 6
+		mutually_exclusive = {
+			focus = WAL_Welsh_National
+		}
+		prerequisite = { focus = WAL_Chamber_Election  }
+		completion_reward = {
+			add_popularity = {
+				ideology = liberal 
+				popularity = 0.50
+			}
+			set_politics = {
+				ruling_party = liberal
+				elections_allowed = no
+			}
+		}
+
+	}
+	focus = {
+		id = WAL_Emergency_Talks
+		icon = emergency_talks_icon
+		cost = 5
+		x = 42
+		y = 7
+		prerequisite = { focus = WAL_Coalition_Government  }
+		completion_reward = {
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}

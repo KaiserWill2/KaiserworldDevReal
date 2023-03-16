@@ -1,0 +1,146 @@
+characters={
+	NSW_lee_rhiannon={
+		name="Lee Rhiannon"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_Lee_Rhiannon.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_ralph_cerminera={
+		name="Ralph Cerminera"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_Ralph_Cerminera.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_david_oldfield={
+		name="David Oldfield"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_David_Oldfield.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_marie_bashir={
+		name="Marie Bashir"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_Marie_Bashir.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_mark_latham={
+		name="Mark Latham"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_Mark_Latham.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_barry_o_farrell={
+		name="Barry O’Farrell"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_Barry_O_Farrell.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_david_leyonhjelm={
+		name="David Leyonhjelm"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_David_Leyonhjelm.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_aden_ridgeway={
+		name="Aden Ridgeway"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_Aden_Ridgeway.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_kristina_keneally={
+		name="Kristina Keneally"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_Kristina_Keneally.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_david_shoebridge={
+		name="David Shoebridge"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_David_Shoebridge.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NSW_sally_mcmanus={
+		name="Sally McManus"
+		portraits={
+			civilian={
+				large="gfx/leaders/NSW/Portrait_NSW_Sally_McManus.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+}

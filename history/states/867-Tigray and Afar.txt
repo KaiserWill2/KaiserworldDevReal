@@ -1,0 +1,28 @@
+state={
+	id=867
+	name="STATE_867"
+	resources={
+		rubber=8
+	}
+
+	history = {
+		owner = ETH
+		victory_points = { 2072 2 }
+		victory_points = { 1984 2 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			1984 = { bunker = 1 }
+			2072 = { bunker = 1 }
+		}
+		add_core_of = ETH
+	}
+	
+	provinces={
+		1984 2072 7944 
+	}
+	manpower=4316988
+	buildings_max_level_factor=1.000
+	
+	state_category = town
+}

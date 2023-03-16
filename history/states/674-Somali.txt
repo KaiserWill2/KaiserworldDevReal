@@ -1,0 +1,32 @@
+state={
+	id=674
+	name="STATE_674"
+	resources={
+		rubber=1
+		steel=3
+		tungsten=1
+	}
+
+	history = {
+		owner = ETH
+        add_core_of = ETH
+        add_claim_by = SOM
+		victory_points = { 4995 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			7980 1.0 
+		}
+	}
+	
+	provinces={
+		4995 12757 12812 7980 13854 13855 13856
+	}
+	manpower=7445219
+	buildings_max_level_factor=1.000
+	
+	state_category = pastoral
+}

@@ -1,0 +1,310 @@
+focus_tree = {
+	id = uk_Miliatry_Junta_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = ENG
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1550 }
+	focus = {
+		id = ENG_The_Military_And_Their_Iron_Fist
+		icon = Icon_The_Military_and_their_Iron_Fist_KW
+		cost = 5
+		x = 10
+		y = 0
+		completion_reward = {
+			country_event = {
+				id = England.243
+			}
+
+		}
+	}
+
+	focus = {
+		id = ENG_Entrenching_Our_Position
+		icon = Icon_Entrenching_our_Position_KW
+		cost = 5
+		x = 10
+		y = 1
+		prerequisite = { focus = ENG_The_Military_And_Their_Iron_Fist  }
+		completion_reward = {
+			country_event = {
+				id = England.244
+			}
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Promising_Full_Neutrality
+		icon = Icon_Promising_Complete_Neutrality_KW
+		cost = 5
+		x = 10
+		y = 2
+		prerequisite = { focus = ENG_Entrenching_Our_Position  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Sowing_Distrust_With_All_Sides
+		icon = Icon_Sowing_Distrust_WIth_All_Sides_KW
+		cost = 5
+		x = 10
+		y = 3
+		prerequisite = { focus = ENG_Promising_Full_Neutrality  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_We_Will_Not_Be_Tried
+		icon = Icon_We_Will_not_Be_Tried_KW
+		cost = 5
+		x = 7
+		y = 2
+		prerequisite = { focus = ENG_Entrenching_Our_Position  }
+		completion_reward = {
+
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_For_The_Crimes_Of_Others
+		icon = Icon_For_the_Crimes_of_Others_KW
+		cost = 5
+		x = 7
+		y = 3
+		prerequisite = { focus = ENG_Entrenching_Our_Position  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Detente_With_Wales
+		icon = Icon_Detente_with_Wales_KW
+		cost = 5
+		x = 13
+		y = 2
+		prerequisite = { focus = ENG_Entrenching_Our_Position  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Forgetting_Syndicalism
+		icon = Icon_Forgetting_Syndicalism_KW
+		cost = 5
+		x = 13
+		y = 3
+		prerequisite = { focus = ENG_Detente_With_Wales  }
+		completion_reward = {
+
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Work_With_Johnson
+		icon = Icon_Work_with_Johnson_KW
+		cost = 5
+		x = 8
+		y = 4
+		prerequisite = { focus = ENG_For_The_Crimes_Of_Others  }
+		prerequisite = { focus = ENG_Sowing_Distrust_With_All_Sides  }
+
+		completion_reward = {
+			country_event = {
+				id = England.245
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Talks_About_Defending_states
+		icon = Icon_Talk_About_Defending_States_KW
+		cost = 5
+		x = 7
+		y = 5
+		prerequisite = { focus = ENG_Work_With_Johnson  }
+
+		completion_reward = {
+			country_event = {
+				id = England.248
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_A_strong_Military_pact
+		icon = Icon_A_Strong_Military_Pact_KW
+		cost = 5
+		x = 9
+		y = 5
+		prerequisite = { focus = ENG_Work_With_Johnson  }
+
+		completion_reward = {
+			ENG = {
+			Create_faction = "United English Coalition"
+			Add_to_faction = EAG
+			}
+			
+		}
+
+	}
+
+	focus = {
+		id = ENG_Kennedy_Is_The_TRue_Enemy
+		icon = Icon_Kennedy_is_the_True_Ennemy_KW
+		cost = 5
+		x = 8
+		y = 6
+		prerequisite = { focus = ENG_A_strong_Military_pact  }
+		prerequisite = { focus = ENG_Talks_About_Defending_states  }
+
+		completion_reward = {
+			country_event = {
+				id = England.249
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Sit_Down_And_Talk
+		icon = Icon_Sit_Down_and_Talk_KW
+		cost = 5
+		x = 8
+		y = 7
+		prerequisite = { focus = ENG_Kennedy_Is_The_TRue_Enemy  }
+
+		completion_reward = {
+			country_event = {
+				id = England.250
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Prepare_For_The_Red_Menace
+		icon = Icon_Prepare_for_the_Red_Menace_KW
+		cost = 5
+		x = 8
+		y = 8
+		prerequisite = { focus = ENG_Sit_Down_And_Talk  }
+
+		completion_reward = {
+			country_event = {
+				id = England.251
+			}
+		}
+
+	}
+
+
+
+	focus = {
+		id = ENG_Meeting_McDonnell
+		icon = Icon_Meeting_McDonnell_KW
+		cost = 5
+		x = 12
+		y = 4
+		prerequisite = { focus = ENG_Forgetting_Syndicalism  }
+		prerequisite = { focus = ENG_Sowing_Distrust_With_All_Sides  }
+
+		completion_reward = {
+			country_event = {
+				id = England.255
+			}
+		}
+
+	}
+
+
+
+	focus = {
+		id = ENG_Invest_In_Social_Sectors
+		icon = Icon_Invest_in_Social_Sectors_KW
+		cost = 5
+		x = 11
+		y = 5
+		prerequisite = { focus = ENG_Meeting_McDonnell  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Building_A_Strong_Economy
+		icon = Icon_Building_a_Strong_Economy_KW
+		cost = 5
+		x = 13
+		y = 5
+		prerequisite = { focus = ENG_Meeting_McDonnell  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_The_Socialists_And_Junta_Can_Work
+		icon = Icon_The_Socialists_and_the_Junta_Can_Work_KW
+		cost = 5
+		x = 12
+		y = 6
+		prerequisite = { focus = ENG_Building_A_Strong_Economy  }
+		prerequisite = { focus = ENG_Invest_In_Social_Sectors  }
+
+		completion_reward = {
+			country_event = {
+				id = England.256
+			}
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

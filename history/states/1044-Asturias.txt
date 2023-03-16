@@ -1,0 +1,30 @@
+state={
+	id=1044
+	name="STATE_1044" # Asturias
+	manpower = 1077000
+	
+	state_category = city
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			6749 = {
+				naval_base = 2
+			}
+			11707 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SPR
+		
+		victory_points = {
+			11707 2 
+		}
+	}
+
+	provinces={
+		9719 11707 6749 3729 3744
+	}
+}

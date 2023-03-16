@@ -1,0 +1,122 @@
+ideas = {
+
+	country = {
+	
+		Fierce_Algerian_Resistance = {
+			picture = Fierce_Algerian_Resistance_idea
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		Severe_international_sanctions = {
+			picture = severe_international_sanctions_idea
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		
+	}
+	
+	social_faction = {
+	
+		franco_liberals = {
+			picture = canadian_democracy
+			
+			allowed = {}
+			visible = {
+				OR = {
+					original_tag = FRA
+					original_tag = CAN
+					original_tag = LOU
+					original_tag = HAI
+				}
+			}
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.03
+				democratic_acceptance = 5
+			}
+		}
+	
+	}
+	
+	tank_manufacturer = {
+	
+		peugeot = {
+			picture = peugeot
+		
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {}
+			available = { has_completed_focus = FRA_expand_peugeot }
+			
+			research_bonus = { armor = 0.25 }
+			traits = { fast_tank_manufacturer }
+			modifier = {}
+			
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+	aircraft_manufacturer = {
+	
+		amiot_airplane_company = {
+			picture = amiot
+		
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {}
+			available = { has_completed_focus = FRA_expand_amiot }
+			
+			research_bonus = { air_equipment = 0.25 }
+			traits = { light_aircraft_manufacturer }
+			modifier = {}
+			
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+	materiel_manufacturer = {
+	
+		levasseur_rifle_company = {
+			picture = levasseur
+		
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {}
+			available = { has_completed_focus = FRA_expand_levasseur }
+			
+			research_bonus = { infantry_weapons = 0.25 }
+			traits = { infantry_equipment_manufacturer }
+			modifier = {}
+			
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+}

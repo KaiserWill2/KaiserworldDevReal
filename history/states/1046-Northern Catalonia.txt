@@ -1,0 +1,23 @@
+state={
+	id=1046
+	name="STATE_1046" # Northern Catalonia
+	manpower = 398019
+	
+	state_category = rural
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = FRA
+		
+		victory_points = {
+			9853 1
+		}
+	}
+
+	provinces={
+		9853 13846
+	}
+}

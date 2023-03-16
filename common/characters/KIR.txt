@@ -1,0 +1,154 @@
+characters={
+	KIR_ieremia_tabai={
+		name="Ieremia Tabai"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIR/Portrait_KIR_Ieremia_Tabai.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KIR_alex_taylor={
+		name="Alex Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=synarchist
+			traits={ armaments_organizer }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	KIR_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ war_industrialist }
+			expire="2028.1.1.12"
+			id=-1
+		}
+	}
+	KIR_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=duginism
+			traits={ ideological_crusader }
+			expire="2025.1.1.12"
+			id=-1
+		}
+	}
+	KIR_alex_wilson={
+		name="Alex Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			traits={ armaments_organizer quartermaster_general }
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	KIR_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			traits={ captain_of_industry }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	KIR_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			traits={ ideological_crusader }
+			expire="2030.1.1.12"
+			id=-1
+		}
+	}
+	KIR_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=ecopolitician
+			traits={ quartermaster_general }
+			expire="2027.1.1.12"
+			id=-1
+		}
+	}
+	KIR_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=peoples_socialist_democracy
+			traits={ war_industrialist }
+			expire="2023.1.1.12"
+			id=-1
+		}
+	}
+	KIR_peter_smith={
+		name="Peter Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=left_maoist
+			traits={ fortification_engineer }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	KIR_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+}

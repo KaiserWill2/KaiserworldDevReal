@@ -1,0 +1,145 @@
+characters={
+	MLW_gwanda_chakuamba={
+		name="Gwanda Chakuamba"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Gwanda_Chakuamba .dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_john_tembo={
+		name="John Tembo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_John_Tembo.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_Kalonga_Gawa_Undi_Tenth={
+		name="Kalonga Gawa Undi X"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Kalonga_Gawa_Undi_Tenth.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_bingu_wa_mutharika={
+		name="Bingu wa Mutharika"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Bingu_wa_Mutharika.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_joyce_banda={
+		name="Joyce Banda"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Joyce_Banda.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_chimunthu_banda={
+		name="Chimunthu Banda"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Chimunthu_Banda.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_atupele_muluzi={
+		name="Atupele Muluzi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Atupele_Muluzi.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_enoch_chihana={
+		name="Enoch Chihana"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Enoch_Chihana.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_michael_kaiyatsa={
+		name="Michael Kaiyatsa"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Michael_Kaiyatsa.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_robert_mkwezalamba={
+		name="Robert Mkwezalamba"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Robert_Mkwezalamba.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_catherine_chipembere={
+		name="Catherine Chipembere"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Portrait_MLW_Catherine_Chipembere.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

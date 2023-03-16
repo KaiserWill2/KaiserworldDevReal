@@ -1,0 +1,194 @@
+﻿capital = 299
+
+OOB = "FLK_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+add_ideas = {
+   	UN_Member_idea
+	Falkland_oil_boom
+      Empire_Protect_Agreement
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_secondary_battery = 1
+		basic_fire_control_system = 1
+	}
+	add_ideas = MTG_naval_treaty_adherent
+	set_global_flag = MTG_second_london_conference
+	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
+}
+
+set_convoys = 75
+add_political_power = 80
+set_stability = 0.7
+set_war_support = 0.3
+
+add_ideas = {
+		FLK_tensions
+		intense_iso
+		disarmed_nation
+}
+
+if = { 
+	limit = { NOT = { has_dlc = "Together for Victory" } }
+	set_cosmetic_tag = FLK_ALY
+}
+if = {
+	limit = { has_dlc = "Together for Victory" }
+	set_cosmetic_tag = FLK_UK
+}
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = centrist
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+        fascist = 3
+		nationalist = 11
+		monarchist = 9
+		national_bolshevik = 0
+		national_conservative = 18
+		centrist = 23
+		liberal = 18
+		new_democrat = 14
+		moderate_socialist = 2
+		revolutionary_socialist = 2 
+		communist = 0
+}
+
+
+create_country_leader = {
+	name = "Nigel Haywood"
+	desc = ""
+	picture = "Nigel_Haywood.dds"
+	expire = "1965.1.1"
+	ideology = centrist_ideology
+	traits = {
+		flk_governor
+		flk_protector
+	}
+}
+
+
+create_corps_commander = {
+ 	name = "Robert Sheppard"
+ 	portrait_path = "gfx/leaders/FLK/sheppard.tga"
+ 	traits = { commando }
+ 	skill = 3
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+ 	name = "Victor Marchesi"
+ 	portrait_path = "gfx/leaders/FLK/marchesi.tga"
+ 	traits = { blockade_runner superior_tactician }
+	skill = 3
+ 	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}

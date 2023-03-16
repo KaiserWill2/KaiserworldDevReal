@@ -1,0 +1,145 @@
+characters={
+	PJB_sukhdev_singh_babbar={
+		name="Sukhdev Singh Babbar"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Sukhdev_Singh_Babbar.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_simranjit_singh_mann={
+		name="Simranjit Singh Mann"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Simranjit_Singh_Mann.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_beant_singh_sandhalwalia={
+		name="Beant Singh Sandhalwalia"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Beant_Singh_Sandhalwalia.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_gurmit_singh_aulakh={
+		name="Gurmit Singh Aulakh"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Gurmit_Singh_Aulakh.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_parkash_singh_badal={
+		name="Parkash Singh Badal"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Parkash_Singh_Badal.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_surjit_singh_barnala={
+		name="Surjit Singh Barnala"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Surjit_Singh_Barnala.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_h._s._phoolka={
+		name="H. S. Phoolka"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Harvinder_Singh_Phoolka.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_amarinder_singh={
+		name="Amarinder Singh"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Amarinder_Singh.dds"
+			}
+		}
+		country_leader={
+			ideology=nehruvian_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_sucha_singh_chhotepur={
+		name="Sucha Singh Chhotepur"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Sucha_Singh_Chhotepur.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_jagjit_singh_anand={
+		name="Jagjit Singh Anand"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Jagjit_Singh_Anand.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PJB_mangat_ram_pasla={
+		name="Mangat Ram Pasla"
+		portraits={
+			civilian={
+				large="gfx/leaders/PJB/GFX_PJB_Mangat_Ram_Pasla.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

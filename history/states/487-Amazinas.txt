@@ -1,0 +1,28 @@
+
+state={
+	id=487
+	name="STATE_487"
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+
+		}
+		add_core_of = BOL
+		victory_points = { 
+			10924 10
+		}
+
+	}
+
+	provinces={
+		2160 10924 12902 12916 12973 
+	}
+	manpower=2702429
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

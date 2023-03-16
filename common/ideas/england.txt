@@ -1,0 +1,2748 @@
+ideas = {
+
+		country = {	
+			
+			National_Health_Service = {
+				allowed = {
+					always = no
+				}
+				
+				picture = syndi_NHS_logo
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					monthly_population = 0.05
+	
+	
+				}
+		}
+		
+
+			Peoples_Defence_Academy_idea = {
+				allowed = {
+					always = no
+				}
+				
+				picture = losing_the_midlands_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					consumer_goods_factor = -0.35
+					production_speed_industrial_complex_factor = 0.3
+					production_speed_arms_factory_factor = 0.3
+					max_fuel_factor = -0.25
+	
+	
+				}
+		}
+			
+			
+			Peoples_Defence_Academy_idea = {
+				allowed = {
+					always = no
+				}
+				
+				picture = peoples_defence_acdemy_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					army_org_Factor = 0.2
+					max_planning = 0.15
+					planning_speed = 0.15
+	
+	
+				}
+		}
+			
+			investing_new_technologies = {
+				allowed = {
+					always = no
+				}
+				
+				picture = new_military_research_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					army_speed_factor = 0.5
+					mobilization_speed = 0.5
+					unit_limit_bonus = 2
+					experience_gain_army_unit_factor = 0.01
+					army_attack_factor = 0.05
+					army_defence_factor = 0.05
+	
+	
+				}
+		}
+			
+			welsh_to_Work_camp = {
+				allowed = {
+					always = no
+				}
+				
+				picture = welsh_work_camp_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					production_factory_max_efficiency_factor = 0.04
+					production_factory_efficiency_gain_factor = 0.04
+					production_speed_industrial_complex_factor = 0.2
+					consumer_goods_factor = 0.05
+	
+				}
+		}
+
+			Affordable_housing = {
+				allowed = {
+					always = no
+				}
+				
+				picture = affordable_housing_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					monthly_population = 0.05
+					stability_factor = 0.03
+					political_power_gain = 0.06
+	
+				}
+		}
+			
+			Welfare_To_Heal_The_Nation = {
+				allowed = {
+					always = no
+				}
+				
+				picture = welfare_to_heal_nation_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+				production_factory_efficiency_gain_factor = 0.2
+				production_factory_start_efficiency_factor = 0.4
+				industrial_capacity_factory = 0.2
+	
+	
+				}
+		}
+			
+			Rebuilding_the_economy = {
+				allowed = {
+					always = no
+				}
+				
+				picture = recoverying_economy_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+				production_factory_max_efficiency_factor = -0.5
+				industrial_capacity_factory = -0.4
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = 0.15
+	
+				}
+		}
+
+			Limited_Private_Businesses = {
+				allowed = {
+					always = no
+				}
+				
+				picture = limited_private_business_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+				stability_factor = 0.10
+				production_speed_buildings_factor = -0.15
+				consumer_goods_factor = 0.40
+	
+				}
+		}
+
+			President_Burnham = {
+				allowed = {
+					always = no
+				}
+				
+				picture = president_burnham
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					stability_factor = 0.02
+	
+				}
+		}
+
+			
+			
+			President_Diana = {
+				allowed = {
+					always = no
+				}
+				
+				picture = president_diana
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					stability_factor = 0.02
+	
+				}
+		}
+
+			
+			The_USBR_Armed_Forces = {
+				allowed = {
+					always = no
+				}
+				
+				picture = usbr_armed_forces_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+				experience_gain_army_factor = 0.05
+				conscription = 0.01
+	
+				}
+		}
+			
+			silencing_The_media = {
+				allowed = {
+					always = no
+				}
+				
+				picture = expanding_the_camps_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+				consumer_goods_factor = 0.02
+				political_power_factor = 0.03
+				industrial_capacity_factory = 0.02
+				}
+		}
+			
+			
+			army_expanding_the_camps = {
+				allowed = {
+					always = no
+				}
+				
+				picture = expanding_the_camps_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+				consumer_goods_factor = 0.02
+				political_power_factor = 0.03
+				industrial_capacity_factory = 0.02
+				}
+		}
+			
+			
+			The_First_Rocket = {
+				allowed = {
+					always = no
+				}
+				
+				picture = the_first_rocket_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+				research_bonus = {
+		
+					rocketry = -0.30
+				}
+	
+
+				modifier = {
+
+						}
+			}
+			
+			
+			Harvest_Scottish_Welsh_Land = {
+				allowed = {
+					always = no
+				}
+				
+				picture = harvest_scottish_and_welsh_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					production_factory_max_efficiency_factor = 0.025
+					production_speed_industrial_complex_factor = 0.05
+					line_change_production_efficiency_factor = 0.025
+				}
+			}
+			
+			Duel_Industries = {
+				allowed = {
+					always = no
+				}
+				
+				picture = duel_english_welsh_industries_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					research_speed_factor = -0.04
+					line_change_production_efficiency_factor = 0.06
+					production_factory_efficiency_gain_factor = 0.06
+				}
+			}
+			
+			Rebuild_Scottish_Industry = {
+				allowed = {
+					always = no
+				}
+				
+				picture = building_scottish_industry
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					consumer_goods_factor = 0.35
+					production_speed_industrial_complex_factor = -0.3
+					production_speed_arms_factory_factor = -0.3
+					max_fuel_factor = -0.25
+					fuel_gain_factor = -0.4
+				}
+			}
+			
+			
+			Economic_support_idea = {
+				allowed = {
+					always = no
+				}
+				
+				picture = economic_support_eng
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+				research_bonus = {
+					industry = -0.20
+				}
+	
+
+				modifier = {
+					consumer_goods_factor = 0.01
+					production_speed_infrastructure_factor = -0.15
+					monthly_population = 0.03
+				}
+			}
+			
+
+			Military_exercises_together = {
+				allowed = {
+					always = no
+				}
+				
+				picture = Military_exercises_together_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					stability_factor = 0.3
+					army_speed_factor = -0.5
+					mobilization_speed = -0.5
+					unit_limit_bonus = 2
+					industrial_capacity_factory = -0.01
+					industrial_capacity_dockyard = -0.01
+				}
+			}
+			
+			
+			Military_exercises_together = {
+				allowed = {
+					always = no
+				}
+				
+				picture = Military_exercises_together_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					stability_factor = 0.3
+					army_speed_factor = -0.5
+					mobilization_speed = -0.5
+					unit_limit_bonus = 2
+					industrial_capacity_factory = -0.01
+					industrial_capacity_dockyard = -0.01
+				}
+			}
+			
+			The_United_Army = {
+				allowed = {
+					always = no
+				}
+				
+				picture = the_third_internationale_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					political_power_gain = 0.02
+					conscription_factor = 0.04
+					max_planning = 0.4
+					planning_speed = 0.5
+				}
+			}
+			
+			the_third_Internationale = {
+				allowed = {
+					always = no
+				}
+				
+				picture = the_third_internationale_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					training_time_factor = 0.02
+					local_resources_factor = -0.04
+					army_org_factor = 0.01
+					army_morale_factor = 0.03
+					foreign_subversive_activites = 0.10
+					drift_defence_factor = 0.20
+					political_power_factor = 0.10
+				}
+			}
+								
+			A_New_Economy = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+				consumer_goods_factor = 0.04
+				line_change_production_efficiency_factor = 0.10
+				political_power_factor = 0.05
+				industrial_capacity_factory = -0.05
+
+				}
+			}
+						
+			Competitive_Education = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					mobilization_speed = 0.5
+					stability_factor = 0.3
+					army_speed_factor = 0.05
+				}
+			}
+
+
+			Traditional_English_Roles = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					political_power_factor = 0.10
+					monthly_population = 0.20
+
+				}
+			}
+
+
+			New_TV_Station = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				research_bonus = {
+					electronics = 0.20
+				}
+	
+
+				modifier = {
+					production_speed_infrastructure_factor = 0.15
+					stability_factor = 0.02
+					intel_network_gain = 1
+
+				}
+			}
+
+
+			Creating_Propaganda = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					political_power_factor = 0.03
+					stability_factor = 0.04
+
+				}
+			}
+
+
+			Moving_From_Old_Ruling_Style = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					political_power_factor = 0.03
+					
+
+				}
+			}
+
+			Rebuild_Old_Christian_Nation = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					monthly_population = 0.10	
+					consumer_goods_factor = 0.01
+					political_power_factor = 0.03
+				}
+			}
+			
+			A_New_Tradition = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					stability_factor = 0.03
+					political_power_factor = 0.02
+					stability_weekly  = 0.003
+				}
+			}
+			
+			Church_Education = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				political_power_factor = 0.10
+				monthly_population = 0.30
+				research_speed_factor = 0.08	
+
+				}
+			}
+
+			
+			Increase_Mass_Production = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				industrial_capacity_factory = 0.04
+				industrial_capacity_dockyard = 0.03
+				production_speed_infrastructure_factor = 0.10
+			
+				}
+			}
+
+			
+			The_Commonwealth_Army = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+
+				research_bonus = {
+					electronics = -0.20
+				}	
+
+
+				modifier = {
+					acclimatization_hot_climate_gain_factor = 0.1
+					acclimatization_cold_climate_gain_factor = 0.1
+					training_time_factor = 0.1
+					naval_detection = 0.15
+					spotting_chance = 0.1
+					air_ace_generation_chance_factor = 0.3
+					experience_gain_air_factor = 0.1
+					air_range_factor = 0.4
+
+				}
+			}
+			
+			New_Military_Research = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+
+				research_bonus = {
+					electronics = -0.20
+				}	
+
+
+				modifier = {
+				army_speed_factor = 0.5
+				mobilization_speed = 0.5
+				unit_limit_bonus = 2
+				experience_gain_army_unit_factor = 0.01
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+
+				}
+			}
+			
+			Oversea_Training = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+
+				research_bonus = {
+					electronics = 0.20
+				}	
+
+
+				modifier = {
+					drift_defence_factor = 1.50
+					foreign_subversive_activites = 0.90
+					decryption = 2
+					encryption = 2
+					planning_speed = 0.20
+
+				}
+			}
+			
+					
+			new_training_opportunities = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+
+				research_bonus = {
+					electronics = 0.20
+				}	
+
+
+				modifier = {
+				industrial_capacity_factory = 0.03
+				consumer_goods_factor = 0.04
+				stability_factor = 0.02
+			
+
+				}
+			}
+			
+					
+			Reformed_education = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				opinion_gain_monthly_same_ideology = 2
+				stability_factor = 0.08
+				monthly_population = 0.30
+
+				}
+			}
+			
+			The_New_Budget = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				local_resources_factor = 0.04
+				trade_opinion_factor = 0.10
+				consumer_goods_factor = 0.04
+				stability_weekly = 0.002
+				political_power_factor = 0.03
+
+
+				}
+			}
+			
+
+			London_stock_market = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				production_speed_buildings_factor = 0.02
+				political_power_factor = 0.02
+				research_speed_factor = 0.02
+				local_resources_factor = 0.02
+
+
+				}
+			}
+			
+			more_trade_routes = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					economy_cost_factor = 0.35				
+					trade_laws_cost_factor = 0.15
+					trade_opinion_factor = 0.25
+			
+				}
+			}
+
+			local_manufacturing = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				industrial_capacity_factory = 0.01
+				industrial_capacity_dockyard = 0.01
+				production_speed_infrastructure_factor = 0.10
+			
+				}
+			}
+
+
+			ENG_private_land_on_cheap = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					consumer_goods_factor = 0.02
+					industrial_capacity_factory = 0.03
+			
+				}
+			}
+
+
+			Duel_Military_coop = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					training_time_army_factor = 0.09
+					conscription = 0.01
+					experience_gain_army_factor = 0.10
+					military_leader_cost_factor = 0.10
+			
+				}
+			}
+
+			
+			Economic_Projects = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					consumer_goods_factor = 0.15
+					production_speed_industrial_complex_factor = 0.04
+					production_speed_arms_factory_factor = 0.04
+					conversion_cost_civ_to_mil_factor= 0.02
+					conversion_cost_mil_to_civ_factor = 0.04
+			
+				}
+			}
+
+			idea_memories_of_Michael_foot = {
+				allowed = {
+					always = no
+				}
+				
+				picture = memories_of_Michael_foot
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+	
+				}
+			}
+	
+			
+
+			idea_war_ready = {
+				allowed = {
+					always = no
+				}
+				
+				picture = war_ready
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+	
+				}
+			}
+
+			idea_north_sea_oil = {
+				allowed = {
+					always = no
+				}
+				
+				picture = north_sea_oil
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					production_oil_factor = 0.05
+				}
+			}
+
+			idea_the_failed_economy = {
+				allowed = {
+					always = no
+				}
+				
+				picture = the_failed_economy
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+	
+				}
+			}
+
+			idea_New_Hadrians_Wall = {
+				allowed = {
+					always = no
+				}
+				
+				picture = hadrians_wall_idea
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+	
+				}
+			}
+
+
+			legacy_of_foot = {
+				allowed = {
+					always = no
+				}
+				
+				picture = the_legacy_of_foot
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					mobilization_speed = 0.5
+					conscription_factor = 0.1
+					war_support_factor = 0.15
+					economy_cost_factor = 0.55				
+					trade_laws_cost_factor = 0.55
+					MONTHLY_POPULATION = 0.1
+					army_morale_factor = 0.1
+					non_core_manpower = -0.05
+					trade_opinion_factor = -0.35
+					production_factory_start_efficiency_factor = -0.05
+					political_power_factor = -0.10
+				}
+			}
+	
+			blairs_iron_fist = {
+				allowed = {
+					always = no
+				}
+				
+				picture = blairs_iron_fist
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					production_speed_arms_factory_factor = 0.1
+					industrial_capacity_factory = 0.05
+					political_power_gain = 0.05
+				}
+			}
+	
+			fixing_the_budget = {
+				allowed = {
+					always = no
+				}
+				picture = fix_the_budget
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					consumer_goods_factor = 0.35
+					production_speed_industrial_complex_factor = -0.4
+					production_speed_arms_factory_factor = -0.4
+					conversion_cost_civ_to_mil_factor= 0.4
+					conversion_cost_mil_to_civ_factor = 0.4
+					generate_wargoal_tension = 1.00
+					join_faction_tension = 0.20
+					send_volunteers_tension = 0.20
+					guarantee_tension = 0.5
+				}
+			}
+	
+			scotland_and_wales = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					stability_factor = -0.25
+					industrial_capacity_factory = 0.1
+					production_factory_max_efficiency_factor = 0.1
+					war_support_factor = 0.25
+				}
+			}
+	
+			arming_the_nation = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					army_attack_factor = -0.33
+					army_defence_factor = -0.33
+					attrition = 0.2 
+					mobilization_speed = -0.2
+					training_time_army_factor = 0.9
+					conscription = 0.01
+					experience_gain_army_factor = -1.0
+					military_leader_cost_factor = 1.0
+				}
+			}
+	
+			weapon_research = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					production_speed_arms_factory_factor = 0.1
+				
+				}
+			}
+	
+	
+	
+			watching_our_people = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					root_out_resistance_effectiveness_factor = 0.5
+					resistance_target = -0.5
+					resistance_growth = -0.3
+				
+				}
+			}
+	
+			giving_out_the_punishments = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					production_speed_buildings_factor = 0.15
+					consumer_goods_factor = -0.05
+					resistance_damage_to_garrison = 0.05
+					stability_factor = -0.10
+				
+				}
+			}
+	
+			Blairs_personality = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					political_power_gain = 0.20
+					stability_factor = 0.10
+					war_support_factor = 0.10
+				
+				}
+			}
+	
+			The_new_weapons = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					war_support_factor = 0.05
+					drift_defence_factor = 0.2
+					army_attack_factor = 0.2
+					army_morale_factor = 0.2
+					army_defence_factor = 0.1
+					army_speed_factor = 0.1
+				
+				}
+			}
+	
+			taxing_the_people = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					consumer_goods_factor = -0.12
+					stability_weekly = -0.002
+					industrial_capacity_factory = 0.08
+					min_export = -0.05 
+					production_speed_buildings_factor = -0.05
+				
+				}
+			}
+	
+			eng_new_infrastructure = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					consumer_goods_factor = -0.05
+					production_speed_arms_factory_factor = 0.10
+					production_factory_efficiency_gain_factor = 0.10
+					industrial_capacity_factory = 0.20
+					industrial_capacity_dockyard = 0.20
+				
+				}
+			}
+	
+	
+			imprison_the_family = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					stability_weekly = -0.002
+	
+				
+				}
+			}
+	
+			ENG_forcing_labour = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					stability_factor = 0.10
+					non_core_manpower = 0.02
+					production_factory_start_efficiency_factor = 0.1
+					production_factory_max_efficiency_factor = -0.05
+	
+				
+				}
+			}
+	
+			open_the_camps = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					production_speed_buildings_factor = 0.10
+					resistance_damage_to_garrison = 0.15
+	
+				
+				}
+			}
+			
+			Cornwall_extermination_Camp = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					production_speed_buildings_factor = 0.20
+					resistance_damage_to_garrison = 0.25
+	
+				
+				}
+			}
+			
+			Oath_Of_Allegiance = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					MONTHLY_POPULATION = 0.1
+					war_support_factor = 0.25
+					research_speed_factor = 0.15
+					poverty_monthly_rate = 0.08
+					academic_base_monthly_rate = -2
+					industrial_expertise_monthly_rate = -2
+	
+				
+				}
+			}
+					
+			idea_target_wales = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					army_speed_factor = -0.05
+					supply_consumption_factor = 0.15
+					army_morale_factor = -0.05
+						conscription_factor = -0.1
+	
+				
+				}
+			}
+			
+			opening_the_union_market = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					consumer_goods_factor = 0.1
+					industrial_capacity_factory = 0.25
+					research_speed_factor = 0.03
+					trade_opinion_factor = 0.5
+	
+				
+				}
+			}
+			
+			reform_the_military = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					army_morale_factor = 0.035
+					army_org_factor = 0.2
+					training_time_army_factor = -0.1	
+					conscription = 0.03
+				
+				}
+			}
+	
+			modern_totalism = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					political_power_gain = 0.05
+					communist_drift = 0.02
+					decryption_power = 10
+				}
+			}
+	
+			Better_Relations = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					political_power_gain = 0.1
+					foreign_subversive_activites = -0.25
+					trade_opinion_factor = 0.5
+				}
+			}
+	
+			Peoples_Health_Network = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					MONTHLY_POPULATION = 0.01
+					consumer_goods_factor = 0.02
+					industrial_capacity_factory = 0.05
+				}
+			}
+	
+			Modern_Work_Places = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					local_resources_factor = 0.03
+					consumer_goods_factor = -0.05
+					production_speed_bunker_factor = 0.1
+				}
+			}
+	
+			expanding_the_camps = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					production_speed_infrastructure_factor = 0.2
+					trade_opinion_factor = -0.3
+					industrial_capacity_factory = 0.1
+					conscription = -0.04
+					fascist_drift = 0.035
+					political_power_gain = 0.5
+				}
+			}
+			
+	
+			Free_The_Military = {
+				allowed = {
+					always = no
+				}
+				
+				
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					army_morale_factor = -0.03
+					research_speed_factor = 0.02
+					conscription = -0.04
+					political_power_gain = 0.5
+				}
+			}
+	
+				
+				Removal_Of_Blair= {
+					allowed = {
+						always = no
+					}
+					
+					removal_cost = -1
+		
+	
+					
+					modifier = {
+						political_power_gain = 0.20
+						stability_factor = 0.10
+						war_support_factor = 0.10
+						
+					}
+				}
+			
+				Remove_The_Peoples_Palace = {
+					allowed = {
+						always = no
+					}
+					
+					removal_cost = -1
+		
+					modifier = {
+						root_out_resistance_effectiveness_factor = 0.5
+						resistance_target = -0.5
+						resistance_growth = -0.3
+						
+					}
+				}
+				
+				Prepare_For_Wales = {
+					allowed = {
+						always = no
+					}
+					
+					removal_cost = -1
+		
+					modifier = {
+						political_power_gain = 0.2
+						army_morale_factor = 0.025
+						conscription = 0.01
+						
+					}
+				}
+				
+				
+			Mass_Arrests = {
+					allowed = {
+						always = no
+					}
+					
+					removal_cost = -1
+		
+					modifier = {
+					root_out_resistance_effectiveness_factor = 0.5
+					resistance_target = -0.5
+					resistance_growth = -0.3
+						
+					}
+				}
+	
+			Taking_The_Food = {
+					allowed = {
+						always = no
+					}
+					
+					removal_cost = -1
+		
+					modifier = {
+					local_resources_factor = 0.2
+					consumer_goods_factor = 0.05
+	
+						
+					}
+			}
+		}
+
+
+
+# TECHNOLOGY
+tank_manufacturer = { 
+	
+	designer = yes
+	
+	union_motors = {
+		
+		allowed = {
+			original_tag = ENG
+			NOT = {
+				has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
+			}
+		}
+		
+		cost = 150
+		removal_cost = 10
+		
+		research_bonus = {
+			armor = 0.10
+		}
+		
+		traits = { tank_manufacturer }
+	}
+}
+
+naval_manufacturer = { 
+
+	designer = yes
+
+	vickers_shipbulding_and_engineering = {
+		
+		picture = generic_naval_manufacturer_1
+
+		allowed = {
+			original_tag = ENG
+			NOT = {
+				has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
+			}
+		}
+		
+		cost = 150
+		removal_cost = 10
+		
+		research_bonus = {
+			naval_equipment = 0.10
+		}
+		
+		traits = { naval_manufacturer }
+	}
+}
+
+aircraft_manufacturer = { 
+
+	designer = yes
+
+	
+	rolls_royce = {
+
+		picture = generic_air_manufacturer_2
+		
+		allowed = {
+			original_tag = ENG
+			NOT = {
+				has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
+			}
+		}
+		
+		cost = 150
+		removal_cost = 10
+		
+		research_bonus = {
+			air_equipment = 0.10
+		}
+		
+		traits = { heavy_aircraft_manufacturer }
+	}
+
+}
+
+industrial_concern = {
+
+	rio_tinto = {
+		
+		picture = generic_industrial_concern_1
+
+		allowed = {
+			original_tag = ENG
+			NOT = {
+				has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+			}
+		}
+		
+		cost = 150
+		removal_cost = 10
+		
+		research_bonus = {
+			industry = 0.10
+		}
+		
+		traits = { industrial_concern }
+	}
+
+	marconi_electronic_systems = {
+		
+		picture = generic_electronics_concern_1
+
+		allowed = {
+			original_tag = ENG
+			NOT = {
+				has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+			}
+		}
+		
+		cost = 150
+		removal_cost = 10
+		
+		research_bonus = {
+			electronics = 0.10
+		}
+		
+		traits = { electronics_concern }
+	}
+}
+
+materiel_manufacturer = {
+
+	designer = yes
+
+	land_rover = {
+		
+		picture = generic_motorized_equipment_manufacturer_3
+
+		allowed = {
+			original_tag = ENG
+			NOT = {
+				has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
+			}
+		}
+		
+		cost = 150
+		removal_cost = 10
+		
+		research_bonus = {
+			motorized_equipment = 0.10
+		}
+		
+		traits = { motorized_equipment_manufacturer }
+	}
+	
+	royal_ordnance = {
+		
+		picture = generic_infantry_equipment_manufacturer_2
+
+		allowed = {
+			original_tag = ENG
+			NOT = {
+				has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
+			}
+		}
+		
+		cost = 150
+		removal_cost = 10
+		
+		research_bonus = {
+			infantry_weapons = 0.10
+		}
+		
+		traits = { infantry_equipment_manufacturer }
+	}
+	
+	thales_air_defence = {
+		
+		picture = generic_artillery_manufacturer_2
+
+		allowed = {
+			original_tag = ENG
+			NOT = {
+				has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
+			}
+		}
+		
+		cost = 150
+		removal_cost = 10
+		
+		research_bonus = {
+			artillery = 0.10
+		}
+		
+		traits = { artillery_manufacturer }
+	}
+}
+
+
+	second_in_command = {
+		britain_liz_trust = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				} 
+			}
+			
+			traits = { power_hungry_demagogue }			
+		}
+		
+
+		
+		britain_philip_hammond = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = nationalist
+				} 
+			}
+			
+			traits = { flamboyant_tough_guy }			
+		}
+		
+		britain_David_cameron = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = monarchist
+				} 
+			}
+			
+			traits = { autocratic_charmer }			
+		}
+		
+		britain_nick_clegg = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = national_conservative
+				}
+
+			}
+			
+			traits = { power_hungry_demagogue }
+		}
+		
+
+		
+		britain_ed_balls = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = centrist
+				} 
+			}
+			
+			traits = { power_hungry_demagogue }			
+		}
+		
+		britain_michael_gove = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = liberal
+				}
+
+	
+			}
+			
+			traits = { insignificant_layman }			
+		}
+
+		
+		britain_christopher_eccleston = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+				}
+
+			}
+			
+			traits = { naive_optimist }			
+		}
+		
+		
+
+		
+		britain_Charles_Kennedy = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+
+
+			available = {
+			    OR = {
+					has_government = communist
+				}
+			}
+			NOT = {
+				has_country_leader = {
+					name = "Charles Kennedy"
+					ruling_only = yes
+				}
+			}
+			
+			traits = { power_hungry_demagogue }			
+		}
+		
+		britain_Boris_Johnson = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = revolutionary_socialist
+					has_government = communist
+				}
+			}
+			
+			traits = { silent_workhorse }			
+		}
+		
+	}
+	
+	foreign_minister = {
+	
+		britain_russel_brand = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				} 
+			}
+			
+			traits = { international_schemer }			
+		}
+		
+		
+		britain_katie_hopkins = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = nationalist
+				} 
+			}
+			
+			traits = { iron_fisted_brute }			
+		}
+		
+		britain_owen_jones = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = monarchist
+				} 
+			}
+			
+			traits = { ideological_crusader }			
+		}
+		
+		britain_alan_sugar = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = national_conservative
+				} 
+			}
+			
+			traits = { apologetic_clerk }			
+		}
+		
+		britain_tim_farron = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = centrist
+				} 
+			}
+			
+			traits = { ideological_crusader }			
+		}
+		
+		britain_david_lammy = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = liberal
+				} 
+			}
+			
+			traits = { apologetic_clerk }			
+		}
+		
+		Britain_Angela_Rayner = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+				} 
+			}
+			
+			traits = { great_compromiser }			
+		}
+
+		
+		britain_John_Prescott = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = revolutionary_socialist
+				}
+
+			}
+			
+			traits = { apologetic_clerk }			
+		}
+		
+		britain_Theresa_May = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = revolutionary_socialist
+					has_government = communist
+				} 
+			}
+			
+			traits = { apologetic_clerk }			
+		}
+		
+		britain_kenneth_clarke = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = revolutionary_socialist
+					has_government = communist
+
+				} 
+			}
+			
+			traits = { great_compromiser }			
+		}
+		
+		britain_Jeremy_Corbyn = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = revolutionary_socialist
+
+				} 
+			}
+			
+			traits = { ideological_crusader }			
+		}
+		
+		britain_fom_dermot_hudson = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = communist
+				} 
+			}
+			NOT = {
+				has_country_leader = {
+					name = "Dermot Hudson"
+					ruling_only = yes
+				}
+			}
+			
+			traits = { biased_intellectual }			
+		}
+	}
+	
+	industry_minister = {
+		
+		Britain_Kate_Hoey = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				} 
+			}
+			
+			traits = { corrupt_kleptocrat }			
+		}
+	
+		Britain_Patrick_Stewart = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = nationalist
+				} 
+			}
+			
+			traits = { corrupt_kleptocrat }			
+		}
+		
+		Britain_Rupert_Murdoch = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = monarchist
+				} 
+			}
+			
+			traits = { administrative_genius }			
+		}
+		
+		Britain_rebecca_long_bailey = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = national_conservative
+				} 
+			}
+			
+			traits = { extreme_regulator }			
+		}
+		
+		britain_Bill_Nighy = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = centrist
+				} 
+			}
+			
+			traits = { libertarian_capitalist }			
+		}
+		
+		Britain_Margaret_Beckett = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = liberal
+				} 
+			}
+			
+			traits = { administrative_genius }			
+		}
+		
+		britain_john_hurt = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+				} 
+			}
+			
+			traits = { extreme_regulator }			
+		}
+		
+
+		
+		britain_Chris_Whitty = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = revolutionary_socialist
+				} 
+			}
+			
+			traits = { former_scientist }			
+		}
+		
+		britain_Jacob_Rees_Mogg = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = communist
+				} 
+			}
+			
+			traits = { resource_industrialist }			
+		}
+		
+		britain_ind_ella_rule = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = revolutionary_socialist
+					has_government = communist
+				} 
+			}
+			
+			traits = { extreme_regulator }			
+		}
+	}
+	
+	national_security_minister = {
+	
+		britain_rory_stewart = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				} 
+			}
+			
+			traits = { isolationist }			
+		}
+		
+		britain_ben_kingsley = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				} 
+			}
+			
+			traits = { efficient_sociopath }			
+		}
+		
+		britain_Amber_Rudd = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = nationalist
+				} 
+			}
+			
+			traits = { prince_of_terror }			
+		}
+		
+		britain_michael_caine = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = monarchist
+				} 
+			}
+			
+			traits = { compassionate_gentleman }			
+		}
+		
+		Britain_Nadine_Dorries = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = national_conservative
+				} 
+			}
+			
+			traits = { silent_lawyer }			
+		}
+		
+		britain_ian_duncan_smith = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = centrist
+				} 
+			}
+			
+			traits = { compassionate_gentleman }			
+		}
+		
+		britain_john_bercow = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = liberal
+				} 
+			}
+			
+			traits = { compassionate_gentleman }			
+		}
+		
+		britain_rowan_atkinson = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+				} 
+			}
+			
+			traits = { compassionate_gentleman }			
+		}
+		
+		
+		britain_Jeremy_Hunt = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = revolutionary_socialist
+					has_government = communist
+				} 
+			}
+			
+			traits = { silent_lawyer }			
+		}
+		
+		britain_Owen_Paterson = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = revolutionary_socialist
+					has_government = communist
+				} 
+			}
+			
+			traits = { efficient_sociopath }			
+		}
+		
+		britain_Piers_Corbyn = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = revolutionary_socialist
+					has_government = communist
+				} 
+			}
+			
+			traits = { prince_of_terror }			
+		}
+	}
+	
+	intelligence_minister = {
+	
+		britain_george_osborne = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				}
+			}
+			
+			traits = { novice_mastermind }			
+		}
+		
+		Britain_Esther_Mcvey = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = nationalist
+				}
+			}
+			
+			traits = { novice_mastermind }			
+		}
+		
+		britain_Simon_Pegg = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+					has_government = monarchist
+					has_government = national_conservative
+					has_government = centrist
+					has_government = liberal
+					has_government = new_democrat
+					has_government = moderate_socialist
+				}
+			}
+			
+			traits = { intelligence_director }			
+		}
+		
+		britain_Matt_Hancock = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = revolutionary_socialist
+					has_government = communist				}
+			}
+			
+			traits = { novice_mastermind }			
+		}
+		
+		britain_Jonathan_Ashworth = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = moderate_socialist
+					has_government = revolutionary_socialist
+					has_government = communist
+				}
+			}
+			
+			traits = { politician_with_connections }			
+		}
+	}
+
+		
+
+
+}

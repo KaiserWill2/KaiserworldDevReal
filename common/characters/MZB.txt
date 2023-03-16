@@ -1,0 +1,146 @@
+characters={
+	MZB_joaquim_chissano={
+		name="Joaquim Chissano"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Joaquim_Chissano.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOAQUIM_CHISSANO_DESC"
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_abdul_rahmin_faizal={
+		name="Abdul Rahmin Faizal"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Abdul_Rahmin_Faizal.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_afonso_dhlakama={
+		name="Afonso Dhlakama"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Afonso_Dhlakama.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_Eric_Mpisane_Nxumalo={
+		name="Eric Mpisane Nxumalo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Eric_Mpisane_Nxumalo.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_basilio_muhate={
+		name="Basilio Muhate"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Basilio_Muhate.dds"
+			}
+		}
+		country_leader={
+			ideology=young_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_yaqub_sibindy={
+		name="Yaqub Sibindy"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Yaqub_Sibindy.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_daviz_simango={
+		name="Daviz Simango"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Daviz_Simango.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_raul_domingos={
+		name="Raul Domingos"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Raul_Domingos.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_josé_samo_gudo={
+		name="José Samo Gudo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_José_Samo_Gudo.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_alice_mabota={
+		name="Alice Mabota"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Alice_Mabota.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_marcelino_dos_santos={
+		name="Marcelino dos Santos"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Portrait_MZB_Marcelino_dos_Santos.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

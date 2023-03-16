@@ -1,0 +1,145 @@
+characters={
+	SEN_serigne_sidi_moukhtar_mbacké={
+		name="Serigne Sidi Moukhtar Mbacké"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Serigne_Sidi_Moukhtar_Mbacké.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_abdoulaye_wade={
+		name="Abdoulaye Wade"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Abdoulaye_Wade.dds"
+			}
+		}
+		country_leader={
+			ideology=national_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_council_of_nobles={
+		name="Council of Nobles"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Council_of_Nobles.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_mbayejacques_diop={
+		name="Mbaye-Jacques Diop"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Mbaye_Jacques_Diop.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_modou_kara_mbacké={
+		name="Modou Kara Mbacké"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Modou_Kara_Mbacké.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_jean_paul_dias_mendes={
+		name="Jean Paul Dias Mendes"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Jean_Paul_Dias_Mendes.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_macky_sall={
+		name="Macky Sall"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Macky_Sall.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_moustapha_niasse={
+		name="Moustapha Niasse"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Moustapha_Niasse.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_abdou_diouf={
+		name="Abdou Diouf"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Abdou_Diouf.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_amath_dansokho={
+		name="Amath Dansokho"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Amath_Dansokho.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SEN_landing_savané={
+		name="Landing Savané"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEN/Portrait_SEN_Landing_Savané.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

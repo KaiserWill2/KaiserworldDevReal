@@ -1,0 +1,153 @@
+bookmarks = {
+	bookmark = {
+		name = "2010_NAME"
+		desc = "2010_DESC"
+		date = 2010.1.1.1
+		picture = "GFX_select_date_2010"
+		default_country = "USA"
+		default = yes
+		
+		"USA"={
+			history = "USA_DESC"
+			ideology = moderate_socialist
+			ideas = {
+				UN_Member_idea
+				idea_usa_norton_the_fourth
+				idea_usa_house
+				idea_usa_senate
+				idea_usa_us_supreme_court
+				idea_usa_norton_ii_legacy
+				idea_usa_legacy_of_second_acw
+				idea_usa_berniecare
+
+			}
+			focuses = {
+				USA_Make_America_Great_Again
+				USA_Bernies_Time_To_Shine
+				USA_The_Situation_In_Alaska
+				
+			}
+		}
+		"WAL"={
+			history = "WAL_DESC"
+			ideology = fascist
+			ideas = {
+				idea_Standing_Against_England
+			}
+			focuses = {
+				WAL_Addressing_Wales
+				WAL_Ban_Trade_With_USBR
+				WAL_Awaken_The_Dragon
+			}
+		}
+		"SCO"={
+			history = "SCO_DESC"
+			ideology = monarchist
+			ideas = {
+				idea_Francis_Of_Scotland
+				idea_Scottish_Resources
+				idea_Standing_Against_England
+				UN_Member_idea
+
+			}
+			focuses = {
+				SCO_The_Kingdom_Of_Scotland
+				SCO_The_Bernie_Direction
+				SCO_Defending_Scotland
+			}
+		}
+		"ENG"={
+			ideology = communist
+			history = "ENG_DESC"
+			ideas = {
+				idea_memories_of_Michael_foot
+				idea_war_ready
+				idea_north_sea_oil
+				idea_the_failed_economy
+				idea_New_Hadrians_Wall
+			}
+			focuses = {
+				ENG_legacy_of_foot
+				ENG_Johnson_The_Reformist
+				ENG_the_annual_congress_of_england
+			}
+		}
+		"IRE"={
+			history = "IRELAND_DESC"
+			ideology = national_conservative
+			ideas = {
+				idea_Standing_Against_England
+			}
+			focuses = {
+				IRE_Stabilise_Ireland
+				IRE_The_Dragon_And_The_Clover
+				IRE_Establish_A_Celtic_Economic_Zone
+			}
+		}
+		"GER"={
+			history = "GER_DESC"
+			ideology = monarchist
+			ideas = {
+			EuroPaktMember_idea
+			Reichspakt_idea
+			UN_Member_idea
+
+			}
+			focuses = {
+			
+			}
+		}
+		"SOV"={
+			history = "SOV_DESC"
+			ideology = revolutionary_socialist
+			ideas = {
+				
+			}
+			focuses = {
+		
+			}
+		}
+
+		"---"={
+			history = "OTHER_1936_DESC"
+		}
+		
+		"CAN"={
+			minor = yes
+			history = "CAN_1936_DESC"
+			ideology = monarchist
+			ideas = {
+				UN_Member_idea
+			}
+			focuses = {}
+		}
+		"ITA"={
+			minor = yes
+			history = "ITA_1936_DESC"
+			ideology = monarchist
+			ideas = {
+				UN_Member_idea
+			}
+			focuses = {
+				
+			}
+		}
+		"FRA"={
+			minor = yes
+			history = "FRA_DESC"
+			ideology = monarchist
+			ideas = {
+				UN_Member_idea
+			}
+			focuses = {
+				
+			}
+		}
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

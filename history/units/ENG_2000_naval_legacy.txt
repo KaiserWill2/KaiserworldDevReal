@@ -1,0 +1,47 @@
+﻿
+units= {
+	####### NAVAL UNITS #######
+	##### ROYAL NAVY #####
+	##### Windsor Group (CO: ) #####
+	### Bottom Text ###
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 11374
+		task_force = {
+			name = "Surface Fleet"
+			location = 11374
+			ship = {
+				name = "HMS Illustrious" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG version_name = "Invincible Class" } }
+			}	
+			ship = { name = "HMS Daring" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Sheffield" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Birmingham" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Newcastle" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Coventry" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Glasgow" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Cardiff" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Exeter" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Southampton" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Liverpool" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Nottingham" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Manchester" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS York" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+			ship = { name = "HMS Gloucester" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG version_name = "Type 42" } } }
+		}
+	}
+	# Tudor Group #
+	# Cardiff #
+	fleet = {
+		name = "Submarine Fleet"
+		naval_base = 377 # Cardiff
+		task_force = {
+			name = "Cardiff Base"
+			location = 377 # Cardiff
+			ship = { name = "HMS Vanguard" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ENG version_name = "Vanguard Class" } } }
+			ship = { name = "HMS Victorious" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ENG version_name = "Vanguard Class" } } }
+			ship = { name = "HMS Vigilant" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ENG version_name = "Vanguard Class" } } }
+			ship = { name = "HMS Vengeance" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ENG version_name = "Vanguard Class" } } }
+		}
+	}
+}
+			

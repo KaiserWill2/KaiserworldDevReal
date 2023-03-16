@@ -1,0 +1,146 @@
+characters={
+	TUV_Afaese_Manoa={
+		name="Afaese Manoa"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Afaese_Manoa.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Luka_Falefou={
+		name="Luka Falefou"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Luka_Falefou.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Iakoba_Italeli={
+		name="Iakoba Italeli"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Iakoba_Italeli.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Parliament_of_Tuvalu={
+		name="National Proletarian Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Parliament_of_Tuvalu.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Enele_Sopoaga={
+		name="Enele Sopoaga"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Enele_Sopoaga.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_conservative
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Willy_Telavi={
+		name="Willy Telavi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Willy_Telavi.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Moira_Simmons_Avafoa={
+		name="Moira Simmons Avafoa"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Moira_Simmons_Avafoa.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Maatia_Toafa={
+		name="Maatia Toafa"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Maatia_Toafa.dds"
+			}
+		}
+		country_leader={
+			ideology=labour_revisionist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Kamuta_Latasi={
+		name="Kamuta Latasi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Kamuta_Latasi.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Tusaga_Iosefa={
+		name="Tusaga Iosefa"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Tusaga_Iosefa.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_Apisai_Ielemia={
+		name="Apisai Ielemia"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Portrait_TUV_Apisai_Ielemia.dds"
+			}
+		}
+		country_leader={
+			ideology=neoauthoritarian
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	
+}

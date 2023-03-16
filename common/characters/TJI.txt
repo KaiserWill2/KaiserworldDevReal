@@ -1,0 +1,265 @@
+characters={
+	TJI_gulmurod_khalimov={
+		name="Gulmurod Khalimov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Gulmurod_Khalimov.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_kokhir_rasulzoda={
+		name="Kokhir Rasulzoda"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Kokhir_Rasulzoda.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_tajik_regency_council={
+		name="Tajik Regency Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Tajik_Regency_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_emomali_rahmon={
+		name="Emomali Rahmon"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Emomali_Rahmon.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_muhiddin_kabiri={
+		name="Muhiddin Kabiri"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Muhiddin_Kabiri.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_amir_qaroqulov={
+		name="Amir Qaroqulov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Amir_Qaroqulov.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_umarali_quvvatov={
+		name="Umarali Quvvatov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Umarali_Quvvatov.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_rahmatullo_zoirov={
+		name="Rahmatullo Zoirov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Rahmatullo_Zoirov.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_abdulmajid_dostiev={
+		name="Abdulmajid Dostiev"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Abdulmajid_Dostiev.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_abduhalim_ghafforov={
+		name="Abduhalim Ghafforov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Abduhalim_Ghafforov.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_shodi_shabdolov={
+		name="Shodi Shabdolov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TJI/Portrait_TJI_Shodi_Shabdolov.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TJI_sherali_khayrulloyev={
+		name="Sherali Khayrulloyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TJI/Portrait_Sherali_Khayrulloyev.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	TJI_sherali_mirzo={
+		name="Sherali Mirzo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TJI/Portrait_Sherali_Mirzo.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	TJI_saimumin_yatimov={
+		name="Saimumin Yatimov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TJI/Portrait_Saimumin_Yatimov.dds"
+			}
+		}
+		corps_commander={
+			traits = { career_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	TJI_abduhalim_nazarzoda={
+		name="Abduhalim Nazarzoda"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TJI/Portrait_Abduhalim_Nazarzoda.dds"
+			}
+		}
+		corps_commander={
+			traits = { trait_reckless }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	TJI_zarif_sharifzoda={
+		name="Zarif Sharifzoda"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TJI/Portrait_Zarif_Sharifzoda.dds"
+			}
+		}
+		corps_commander={
+			traits = { trait_reckless }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	TJI_latif_fayziyev={
+		name="Latif Fayziyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TJI/Portrait_Latif_Fayziyev.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+}

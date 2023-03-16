@@ -1,0 +1,604 @@
+ideas = {
+
+	social_faction = {
+	
+		agricultural_barons = {
+			picture = agrarian_reform
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.01
+				neutrality_acceptance = 5
+				communism_drift = -0.01
+				political_power_factor = 0.1
+				monthly_population = 0.05
+				industrial_capacity_factory = -0.05
+				war_support_factor = -0.05
+			}
+		}
+	
+		air_force_officers = {
+			picture = air_force
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				air_doctrine = 0.25
+			}
+			modifier = {
+				democratic_drift = 0.01
+				experience_gain_air = 0.02
+				experience_gain_air_factor = 0.1
+				max_command_power = 5
+				command_power_gain_mult = 0.1
+				production_speed_air_base_factor = 0.15
+			}
+		}
+	
+		anti_government_militias = {
+			picture = army_corruption2
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				fascism_drift = -0.01
+				command_power_gain_mult = 0.05
+				conscription_factor = -0.05
+				political_power_factor = -0.05
+				stability_factor = -0.1
+			}
+		}
+	
+		aristocratic_elites = {
+			picture = upper_class
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.01
+				communism_drift = -0.01
+				stability_factor = 0.05
+				industrial_capacity_factory = -0.05
+				political_power_factor = -0.1
+			}
+		}
+	
+		army_officers = {
+			picture = army_war_college
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				land_doctrine = 0.25
+			}
+			modifier = {
+				neutrality_drift = 0.01
+				experience_gain_army = 0.02
+				experience_gain_army_factor = 0.1
+				max_command_power = 5
+				command_power_gain_mult = 0.1
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+	
+		automotive_industry = {
+			picture = motorized_infantry
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				motorized_equipment = 0.1
+				armor = 0.05
+			}
+			equipment_bonus = {
+				motorized = {
+					build_cost_ic = -0.1
+				}
+				mechanized = {
+					build_cost_ic = -0.1
+				}
+			}
+			modifier = {
+				experience_gain_army_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+	
+		big_banks = {
+			picture = hyper_inflation2
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+				stability_factor = -0.025
+				political_power_factor = -0.2
+			}
+		}
+	
+		buddhist_clergy = {
+			picture = shintoism
+			
+			allowed = {}
+			visible = { always = no }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				research_speed_factor = -0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+	
+		catholic_clergy = {
+			picture = catholicism
+			
+			allowed = {}
+			visible = { always = no }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				research_speed_factor = -0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+	
+		colonial_elites = {
+			picture = balkan_conflicts
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.01
+				industrial_capacity_factory = 0.05
+				production_speed_infrastructure_factor = 0.1
+				political_power_factor = 0.05
+				stability_factor = -0.05
+				conscription_factor = -0.025
+				consumer_goods_factor = 0.02
+			}
+		}
+	
+		colonial_peoples = {
+			picture = pawn_takes_queen
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = -0.01
+				fascism_drift = -0.01
+				conscription_factor = 0.15
+				political_power_factor = -0.1
+				stability_factor = 0.05
+			}
+		}
+	
+		crown_loyalists = {
+			picture = monarchism
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.05
+				neutrality_acceptance = 5
+			}
+		}
+	
+		drug_cartels = {
+			picture = opium_trade
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.05
+				political_power_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+	
+		foreign_investors = {
+			picture = foreign_capital
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				fascism_drift = -0.01
+				industrial_capacity_factory = 0.05
+				trade_opinion_factor = 0.2
+				political_power_factor = -0.1
+				stability_factor = 0.05
+			}
+		}
+	
+		labor_unions = {
+			picture = production
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.02
+				democratic_drift = 0.02
+				industrial_capacity_factory = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.02
+			}
+		}
+	
+		leftist_intellectuals = {
+			picture = brainpower
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.02
+				communism_drift = 0.02
+				research_speed_factor = 0.05
+				consumer_goods_factor = 0.01
+			}
+		}
+	
+		liberal_reformers = {
+			picture = democracy
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.05
+				democratic_acceptance = 5
+			}
+		}
+	
+		liberal_monarchists = {
+			picture = hungarian_royal_democracy
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.02
+				neutrality_drift = 0.02
+				stability_factor = 0.05
+			}
+		}
+		
+		middle_class_businesses = {
+			picture = consumer_goods
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.02
+				communism_drift = -0.01
+				fascism_drift = -0.01
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = -0.1
+			}
+		}
+		
+		military_industrialists = {
+			picture = tanks2
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.01
+				neutrality_drift = 0.01
+				justify_war_goal_time = -0.1
+				join_faction_tension = -0.05
+				send_volunteers_tension = -0.05
+				industrial_capacity_factory = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = -0.25
+			}
+		}
+		
+		mining_companies = {
+			picture = resource_production
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = 0.1
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.03
+			}
+		}
+	
+		navy_officers = {
+			picture = naval_treaty
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				naval_doctrine = 0.25
+			}
+			modifier = {
+				neutrality_drift = 0.01
+				experience_gain_navy = 0.02
+				experience_gain_navy_factor = 0.1
+				max_command_power = 5
+				command_power_gain_mult = 0.1
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+	
+		orthodox_clergy = {
+			picture = orthodoxy2
+			
+			allowed = {}
+			visible = { always = no }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				research_speed_factor = -0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+	
+		protestant_clergy = {
+			picture = protestantism
+			
+			allowed = {}
+			visible = { always = no }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				research_speed_factor = -0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+	
+		radical_socialists = {
+			picture = communism4
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.05
+				communism_acceptance = 5
+			}
+		}
+	
+		railroad_companies = {
+			picture = infrastructure
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				production_speed_infrastructure_factor = 0.25
+			}
+		}
+		
+		robber_barons = {
+			picture = mefo_bills_payment
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.01
+				local_resources_factor = 0.2
+				stability_factor = -0.05
+				research_speed_factor = -0.05
+			}
+		}
+	
+		shia_clergy = {
+			picture = shia_islam
+			
+			allowed = {}
+			visible = { has_idea = state_religion_shia }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				research_speed_factor = -0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+	
+		suffragettes = {
+			picture = spy2
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.02
+				democratic_acceptance = 5
+				industrial_capacity_factory = 0.05
+				stability_factor = 0.05
+				political_power_factor = -0.1
+			}
+		}
+	
+		sunni_clergy = {
+			picture = sunni_islam
+			
+			allowed = {}
+			visible = { has_idea = state_religion_sunni }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				research_speed_factor = -0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+	
+		ultra_nationalists = {
+			picture = volunteers
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.05
+				fascism_acceptance = 5
+			}
+		}
+		
+	}
+	
+}

@@ -1,0 +1,205 @@
+characters={
+	RUB_sitaram_yechury={
+		name="Sitaram Yechury"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Sitaram_Yechury.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_raj_thackeray={
+		name="Raj Thackeray"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Raj_Thackeray.dds"
+			}
+		}
+		country_leader={
+			ideology=shiv_sena
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_mohan_bhagwat={
+		name="Mohan Bhagwat"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Mohan_Bhagwat.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_udayanraje_bhosale={
+		name="Udayanraje Bhosale"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Udayanraje_Bhosale.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_ashok_gosh={
+		name="Ashok Gosh"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Ashok_Gosh.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_narendra_modi={
+		name="Narendra Modi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Narendra_Modi.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_h_d_deve_gowda={
+		name="H.D.Deve Gowda"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_H_D_Deve_Gowda.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_sanjeev_shablok={
+		name="Sanjeev Shablok"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Sanjeev_Shablok.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_rajiv_ghandi={
+		name="Rajiv Ghandi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Rajiv_Ghandi.dds"
+			}
+		}
+		country_leader={
+			ideology=nehruvian_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_mulayam_singh_yadav={
+		name="Mulayam Singh Yadav"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Mulayam_Singh_Yadav.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_arvind_kerjiwal={
+		name="Arvind Kerjiwal"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Arvind_Kerjiwal.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUB_bal_thackeray={
+		name="Bal Thackeray"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Bal_Thackeray.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = shiv_sena
+		}
+	}
+	RUB_rajkumar_dhoot={
+		name="Rajkumar Dhoot"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Rajkumar_Dhoot.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = corporate
+		}
+	}
+	RUB_narayan_rane={
+		name="Narayan Rane"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Narayan_Rane.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = shiv_sena
+		}
+	}
+	RUB_chhagan_bhujbal={
+		name="Chhagan Bhujbal"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Chhagan_Bhujbal.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = shiv_sena
+		}
+	}
+	RUB_nirmal_chander_vij={
+		name="Nirmal Chander Vij"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUB/Portrait_RUB_Nirmal_Chander_Vij.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+	}
+}

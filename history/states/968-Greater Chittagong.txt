@@ -1,0 +1,26 @@
+
+state={
+	id=968
+	name="STATE_968"
+
+	history={
+		owner = BNG
+		add_core_of = BNG
+		add_core_of = BGL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			dockyard = 3
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		7179 9991 12010 
+	}
+	manpower=28423019
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

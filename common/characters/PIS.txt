@@ -1,0 +1,145 @@
+Characters={
+PIS_Marco_Filippeschi={
+		name="Marco Filippeschi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Marco_Filippeschi.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_Fascist={
+		name="Municipal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_Nationalist={
+		name="Security Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_Monarchist={
+		name="Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_National_Bolshevik={
+		name="Municipal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_Conservative={
+		name="Pisa City Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_Revolutionary_Socialist={
+		name="Pisa Workers' Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=luxemburgism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_Centrist={
+		name="Pisa City Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_Liberal={
+		name="Pisa City Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_New_Democrat={
+		name="Pisa City Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+PIS_Pisa_Council_Moderate_Socialist={
+		name="Pisa City Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIS/Portrait_PIS_Pisa_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

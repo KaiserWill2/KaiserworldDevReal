@@ -1,0 +1,145 @@
+characters={
+	COG_denis_sassou_nguesso={
+		name="Denis Sassou Nguesso"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Denis_Sassou_Nguesso.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_frédéric_bintsamou={
+		name="Frédéric Bintsamou"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Frederic_Bintsamou.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_clément_miérassa={
+		name="Clément Miérassa"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Clemént_Miérassa.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_moe_makosso_iv={
+		name="Moé Makosso IV"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Moé_Makosso_Fourth.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_joachim_yhombiopango={
+		name="Joachim Yhombi-Opango"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Joachim_Yhombi_Opango.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_jeanmartin_mbemba={
+		name="Jean-Martin Mbemba"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Jean_Martin_Mbemba.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_claude_alphonse_nsilou={
+		name="Claude Alphonse Nsilou"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Claude_Alphonse_Nsilou.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_guy_brice_parfait_kolélas={
+		name="Guy Brice Parfait Kolélas"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Guy_Brice_Parfait_Kolélas.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_pascal_lissouba={
+		name="Pascal Lissouba"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Pascal_Lissouba.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_roland_bouitiviaudo={
+		name="Roland Bouiti-Viaudo"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Roland_Bouiti_Viaudo.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_jeanmarc_thystèretchicaya={
+		name="Jean-Marc Thystère-Tchicaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Jean_Marc_Thystère_Tchicaya.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

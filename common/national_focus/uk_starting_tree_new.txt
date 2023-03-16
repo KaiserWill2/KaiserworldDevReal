@@ -1,0 +1,338 @@
+# focus_tree = {
+#	id = uk_new_Starting_Tree
+#	country = {
+#		factor = 0
+#		modifier = {
+##			add = 20
+#			tag = ENG
+#		}
+#	}
+#	default = no
+#	continuous_focus_position = { x = 50 y = 1550 }
+#
+#	focus = { 
+##		id = ENG_the_annual_congress_of_england
+#		icon = congress_of_the_year
+#		x = 8
+#		y = 0
+#		cost = 6
+	
+#		available = {
+#			has_completed_focus = ENG_the_union_is_strong
+#			has_completed_focus = ENG_england_prevails
+#			has_completed_focus = ENG_the_voice_of_reunification
+#		}
+		search_filters = {
+#			FOCUS_FILTER_POLITICAL
+#		}
+#		completion_reward = {
+#			country_event = {
+#				id = england.17
+			}
+#		}
+#	}
+#
+#	
+#	focus = { 
+#		id = ENG_the_totalist_spirit
+		icon = totalist_spirit
+#		x = 8
+#		y = 1
+#		cost = 3
+#		search_filters = {
+#			FOCUS_FILTER_POLITICAL
+#		}
+#		prerequisite = { focus = ENG_the_annual_congress_of_england  }
+#		completion_reward = {
+			add_stability = 0.10
+#		}
+#	}
+#	focus = { 
+#		id = ENG_The_Orders_For_England
+#		icon = orders_for_england
+		x = 8
+#		y = 2
+#		cost = 3
+#		search_filters = {
+#			FOCUS_FILTER_POLITICAL
+		}
+#		prerequisite = { focus = ENG_the_totalist_spirit  }
+#		completion_reward = {
+#			add_stability = 0.30
+#		}
+#	}
+#	focus = { 
+		id = ENG_Branching_Out_The_Congress
+#		icon = branching_out_the_congress
+#		x = 12
+#		y = 3
+#		cost = 3
+		search_filters = {
+##			FOCUS_FILTER_POLITICAL
+		}
+#		prerequisite = { focus = ENG_The_Orders_For_England  }
+#		completion_reward = {
+#			country_event = {
+#				id = england.22
+#			}
+#		}
+	}
+#	focus = { 
+#		id = ENG_Freedom_Of_Thought_Council
+#		icon = freedom_of_thought
+#		x = 13
+#		y = 4
+		cost = 3
+#		search_filters = {
+#			FOCUS_FILTER_POLITICAL
+#		}
+#		prerequisite = { focus = ENG_Branching_Out_The_Congress  }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { 
+		id = ENG_The_Peoples_Ministry
+		icon = peoples_ministry
+		x = 12
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Freedom_Of_Thought_Council  }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { 
+		id = ENG_We_Are_Everywhere
+		icon = we_are_everywhere
+		x = 11
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Peoples_Ministry  }
+		completion_reward = {
+			add_stability = 0.20
+			add_political_power = 50
+		}
+	}
+	focus = { 
+		id = ENG_The_Scottish_Problem
+		icon = the_question_of_scotland
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Orders_For_England  }
+		completion_reward = {
+			country_event = {
+				id = england.18
+			}
+		}
+	}
+	focus = { 
+		id = ENG_English_Resources
+		icon = british_resources
+		x = 4
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Scottish_Problem  }
+		completion_reward = {
+			add_research_slot = 2
+			add_tech_bonus = {
+				name = construction_tech_bonus
+				bonus = 0.35
+				uses = 1
+				category = construction_tech
+			}
+		}
+	}
+	focus = { 
+		id = ENG_North_Sea_Oil_Dispute
+		icon = the_oil_dispute
+		x = 4
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_English_Resources  }
+		completion_reward = {
+			country_event = {
+				id = england.19
+			}
+		}
+	}
+	focus = { 
+		id = ENG_Border_Patrols
+		icon = border_patrols
+		x = 6
+		y = 4
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Scottish_Problem  }
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 230
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 127
+				instant_build = yes
+			}
+		}
+	}
+	focus = { 
+		id = ENG_Claims_On_Shetlands
+		icon = claims_on_the_shetlands
+		x = 6
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Border_Patrols  }
+		completion_reward = {
+			add_command_power = 30
+		}
+	}
+	focus = { 
+		id = ENG_Giving_Wales_A_Chance
+		icon = giving_wales_a_chance
+		x = 8
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Orders_For_England  }
+		completion_reward = {
+			country_event = {
+				id = england.20
+			}
+		}
+	}
+	focus = { 
+		id = ENG_Trade_With_Wales
+		icon = trade_with_wales
+		x = 8
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Giving_Wales_A_Chance  }
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = WAL
+					modifier = declaration_of_friendship
+				}
+			}
+		}
+	}
+	focus = { 
+		id = ENG_Influence_Wales
+		icon = influence_wales
+		x = 8
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Trade_With_Wales  }
+		completion_reward = {
+			add_command_power = 20
+		}
+	}
+	focus = { 
+		id = ENG_Cornwall_Needs_Treatment
+		icon = cornwall_treatment
+		x = 10
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Orders_For_England  }
+		completion_reward = {
+			add_stability = 0.50
+		}
+	}
+	focus = { 
+		id = ENG_The_Cornwall_Resistance 
+		icon = cornwall_restistance
+		x = 10
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Cornwall_Needs_Treatment  }
+		completion_reward = {
+			country_event = {
+				id = england.21
+			}
+		}
+	}
+	
+	focus = { 
+		id = ENG_Cornwall_Extermination_Camps
+		icon = camps_of_cornwall
+		x = 10
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Cornwall_Resistance  }
+		completion_reward = {s
+				add_timed_idea = {
+					idea = Cornwall_extermination_Camp
+					days = 30						
+				}
+		}
+	}
+	focus = { 
+		id = ENG_Glory_To_Our_Dear_Leader
+		icon = glory_to_the_leader
+		x = 7
+		y = 7
+		cost = 1
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Cornwall_Extermination_Camps  }
+		prerequisite = { focus = ENG_Claims_On_Shetlands  }
+		prerequisite = { focus = ENG_Influence_Wales  }
+		prerequisite = { focus = ENG_We_Are_Everywhere  }
+		prerequisite = { focus = ENG_North_Sea_Oil_Dispute  }
+		completion_reward = {
+			set_country_flag = ENG_glory_to_the_leader
+			mark_focus_tree_layout_dirty = yes	
+			country_event = {
+				id = england.23
+			}
+		}
+	}
+	
+
+
+
+}

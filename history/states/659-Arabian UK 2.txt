@@ -1,0 +1,40 @@
+
+state={
+	id=659
+	name="STATE_659"
+	manpower = 1860200
+
+	state_category = pastoral
+
+	resources = {
+		steel = 4
+		tungsten = 3
+	}
+
+	history = {
+		owner = YEM
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			13636 = {
+				naval_base = 3
+			}
+			13627 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YEM
+		add_core_of = PDY
+		victory_points = { 13632 1 } #Al Dali
+		victory_points = { 13631 1 } #Lahij
+		victory_points = { 13633 1 } #Zinjibar
+		victory_points = { 13636 1 } #Shaqra
+		victory_points = { 13639 1 } #Ahwar
+		victory_points = { 13627 1 } #Murad
+	}
+
+	provinces={
+		13627 13628 13629 13631 13632 13633 13634 13635 13636 13637 13638 13639
+	}
+	buildings_max_level_factor=1.000
+}

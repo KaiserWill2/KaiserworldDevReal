@@ -1,0 +1,146 @@
+﻿characters={
+	BOS_mladen_ivanic={
+		name="Mladen Ivanić"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Amir_Kubura.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_muhamed_filipovic={
+		name="Muhamed Filipović"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Muhamed_Filipovic.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_zlatko_lagumdzija={
+		name="Zlatko Lagumdžija"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Zlatko_Lagumdzija.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_zeljko_komsic={
+		name="Željko Komšić"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Zeljko_Komsic.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_medin_forto={
+		name="Edin Forto"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Edin_Forto.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_dragan_covic={
+		name="Dragan Čović"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Dragan_Covic.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_bakir_izetbegovic={
+		name="Bakir Izetbegović"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Bakir_Izetbegovic.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_milorad_dodik={
+		name="Milorad Dodik"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Milorad_Dodik.dds"
+			}
+		}
+		country_leader={
+			ideology=socialist_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_dragan_cavic={
+		name="Dragan Čavić"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Dragan_Cavic.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_simeon_i={
+		name="Simeon I"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Simeon_von_Habsburg.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOS_amir_kubura={
+		name="Amir Kubura"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOS/Portrait_BOS_Amir_Kubura.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+}

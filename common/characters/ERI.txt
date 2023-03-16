@@ -1,0 +1,265 @@
+characters={
+	ERI_Isaias_Afwerki={
+		name="Isaias Afwerki"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Isaias_Afwerki.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Abu_Sihel={
+		name="Abu Sihel"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Abu_Sihel.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Abdella_Idris={
+		name="Abdella Idris"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Abdella_Idris.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Abraha_Kassa={
+		name="Abraha Kassa"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Abraha_Kassa.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Kunama_Military_Council={
+		name="Kunama Military Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Kunama_Military_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Ibrahim_Harun={
+		name="Ibrahim Harun"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Ibrahim_Harun.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Saho_Military_Council={
+		name="Saho Military Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Saho_Military_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Tewelde_Ghebreselassie={
+		name="Tewelde Ghebreselassie"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Tewelde_Ghebreselassie.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Aster_Fissehatsion={
+		name="Aster Fissehatsion"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Aster_Fissehatsion.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Haile_Woldense={
+		name="Haile Woldensei"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Haile_Woldense.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_asfa_wossen_asserate={
+		name="Asfa Wossen Assarate"
+		portraits={
+			civilian={
+				large="gfx/leaders/ERI/Portrait_ERI_Asfa_Wossen_Asserate.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	ERI_Gebrezigher_Andemariam={ #
+		name="Gebrezigher Andemariam"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ERI/Portrait_Gebrezigher_Andemariam.dds"
+			}
+		}
+		field_marshal={
+		traits = { old_guard guerilla_fighter }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 4
+		legacy_id=-1
+		}
+	}
+	ERI_Samuel_Haile={
+		name="Samuel Haile"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ERI/Portrait_Samuel_Haile.dds"
+			}
+		}
+		corps_commander={
+		traits = { trait_mountaineer }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+		legacy_id=-1
+		}
+	}
+	ERI_Mesfin_Hagos={
+		name="Mesfin Hagos"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ERI/Portrait_Mesfin_Hagos.dds"
+			}
+		}
+		corps_commander={
+		traits = { old_guard guerilla_fighter }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+		legacy_id=-1
+		}
+	}
+		ERI_Sebhat_Ephrem={
+		name="Sebhat Ephrem"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ERI/Portrait_Sebhat_Ephrem.dds"
+			}
+		}
+		field_marshal={
+		traits = { desert_fox old_guard guerilla_fighter career_officer }
+		skill = 4
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 4
+		legacy_id=-1
+		}
+	}
+	ERI_Mussa_Rabba={
+		name="Mussa Rabb'a"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ERI/Portrait_Mussa_Rabba.dds"
+			}
+		}
+		corps_commander={
+		traits = { old_guard guerilla_fighter war_hero }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+		legacy_id=-1
+		}
+	}
+	ERI_Tewolde_Kelati={
+		name="Tewolde Kelati"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ERI/Portrait_Tewolde_Kelati.dds"
+			}
+		}
+		navy_leader={
+		traits = { old_guard_navy }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		coordination_skill = 2
+		maneuvering_skill = 2
+		legacy_id=-1
+		}
+	}
+}

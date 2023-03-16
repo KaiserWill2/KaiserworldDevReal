@@ -1,0 +1,904 @@
+
+##Failed Election#
+focus = {
+    id = IRE_The_Failed_Election
+    icon = ire_failed_election_icon
+    cost = 5
+    x = 27
+    y = 0
+    completion_reward = {
+        country_event = {
+            id = ireland.11
+        }
+    }
+}
+
+focus = {
+    id = IRE_The_Four_Way_Coalition
+    icon = four_way_coalition_icon
+    cost = 5
+    x = 27
+    y = 1
+    prerequisite = { focus = IRE_The_Failed_Election  }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_An_Attempt_To_Rebuild_Ireland
+    icon = attempt_to_rebuild_ireland_icon
+    cost = 5
+    x = 27
+    y = 2
+    prerequisite = { focus = IRE_The_Four_Way_Coalition  }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Send_In_The_Military
+    icon = send_in_the_militayr_ir_icon
+    cost = 5
+    x = 24
+    y = 3
+    prerequisite = { focus = IRE_An_Attempt_To_Rebuild_Ireland  }
+
+    completion_reward = {
+        country_event = {
+            id = ireland.12
+        }
+    }
+}
+
+focus = {
+    id = IRE_Speak_To_The_Republic
+    icon = speak_to_The_republic_icon
+    cost = 5
+    x = 27
+    y = 3
+    prerequisite = { focus = IRE_An_Attempt_To_Rebuild_Ireland  }
+
+    completion_reward = {
+        country_event = {
+            id = ireland.13
+        }
+    }
+}
+
+focus = {
+    id = IRE_Offer_Hope_For_The_Future
+    icon = offer_hope_for_future_icon
+    cost = 5
+    x = 30
+    y = 3
+    prerequisite = { focus = IRE_An_Attempt_To_Rebuild_Ireland  }
+
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_Order_Arrests
+    icon = order_arrests_icon
+    cost = 5
+    x = 30
+    y = 4
+    prerequisite = { focus = IRE_Offer_Hope_For_The_Future  }
+    prerequisite = { focus = IRE_Speak_To_The_Republic  }
+    prerequisite = { focus = IRE_Send_In_The_Military  }
+
+    completion_reward = {
+        country_event = {
+            id = ireland.18
+        }
+    }
+}
+
+
+focus = {
+    id = IRE_Close_Public_Events
+    icon = close_public_events_icon
+    cost = 5
+    x = 29
+    y = 5
+    prerequisite = { focus = IRE_Order_Arrests  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Martial_Law
+    icon = martial_law_icon_ire
+    cost = 5
+    x = 31
+    y = 5
+    prerequisite = { focus = IRE_Order_Arrests  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Try_To_Appease_The_Public
+    icon = try_to_appease_public_icon
+    cost = 5
+    x = 30
+    y = 6
+    prerequisite = { focus = IRE_Martial_Law  }
+    prerequisite = { focus = IRE_Close_Public_Events  }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Speak_To_The_Dail
+    icon = speak_to_the_dail_icon
+    cost = 5
+    x = 29
+    y = 7
+    prerequisite = { focus = IRE_Try_To_Appease_The_Public  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Ask_For_Military_Help
+    icon = ask_for_military_help_icon
+    cost = 5
+    x = 31
+    y = 7
+    prerequisite = { focus = IRE_Try_To_Appease_The_Public  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_A_Gun_And_A_Speaker
+    icon = gun_and_a_speaker_icon
+    cost = 5
+    x = 30
+    y = 8
+    prerequisite = { focus = IRE_Ask_For_Military_Help  }
+    prerequisite = { focus = IRE_Speak_To_The_Dail  }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_The_General_Takes_Control
+    icon = general_takes_control_icon
+    cost = 5
+    x = 30
+    y = 9
+    prerequisite = { focus = IRE_A_Gun_And_A_Speaker  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_The_Irish_State
+    icon = the_irish_state_icon
+    cost = 5
+    x = 30
+    y = 10
+    prerequisite = { focus = IRE_The_General_Takes_Control  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_The_Trouble_In_The_North
+    icon = the_troubles_up_north_icon
+    cost = 5
+    x = 24
+    y = 4
+    prerequisite = { focus = IRE_Offer_Hope_For_The_Future  }
+    prerequisite = { focus = IRE_Speak_To_The_Republic  }
+    prerequisite = { focus = IRE_Send_In_The_Military  }
+
+    completion_reward = {
+        country_event = {
+            id = ireland.14
+        }
+    }
+}
+
+focus = {
+    id = IRE_Combat_English_Influence
+    icon = combat_english_influence_icon
+    cost = 5
+    x = 23
+    y = 5
+    prerequisite = { focus = IRE_The_Trouble_In_The_North  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Declare_Martial_Law
+    icon = declare_martial_law_icon
+    cost = 5
+    x = 25
+    y = 5
+    prerequisite = { focus = IRE_The_Trouble_In_The_North  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Deploy_Troops_To_Belfast
+    icon = deploy_troops_to_belfast_icon
+    cost = 5
+    x = 24
+    y = 6
+    prerequisite = { focus = IRE_Declare_Martial_Law  }
+    prerequisite = { focus = IRE_Combat_English_Influence  }
+
+    completion_reward = {
+        country_event = {
+            id = ireland.15
+        }
+    }
+}
+
+
+focus = {
+    id = IRE_Arrest_Syndicalists
+    icon = arrest_syndicalists_icon
+    cost = 5
+    x = 24
+    y = 7
+    prerequisite = { focus = IRE_Deploy_Troops_To_Belfast  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Arrest_The_Totalist_Leader
+    icon = arrest_totalist_leader_icon
+    cost = 5
+    x = 22
+    y = 8
+    prerequisite = { focus = IRE_Arrest_Syndicalists  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Discourage_Far_Left_Activity
+    icon = discourage_far_left_activity_icon
+    cost = 5
+    x = 24
+    y = 8
+    prerequisite = { focus = IRE_Arrest_Syndicalists  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Send_A_Warning_To_The_USBR
+    icon = send_a_warning_to_usbr_icon
+    cost = 5
+    x = 26
+    y = 8
+    prerequisite = { focus = IRE_Arrest_Syndicalists  }
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_The_Derry_Riot
+    icon = the_derry_riot_icon
+    cost = 5
+    x = 24
+    y = 9
+    prerequisite = { focus = IRE_Arrest_The_Totalist_Leader  }
+    prerequisite = { focus = IRE_Discourage_Far_Left_Activity  }
+    prerequisite = { focus = IRE_Send_A_Warning_To_The_USBR  }
+    completion_reward = {
+        country_event = {
+            id = ireland.16
+        }
+    }
+}
+
+focus = {
+    id = IRE_Proclaim_A_Red_Northern_Ireland
+    icon = proclaim_red_northern_ireland_icon
+    cost = 5
+    x = 24
+    y = 10
+    prerequisite = { focus = IRE_The_Derry_Riot  }
+    completion_reward = {
+        country_event = {
+            id = ireland.17
+        }
+    
+    }
+}
+
+
+
+
+focus = {
+    id = IRE_The_State_Of_Ireland
+    icon = state_of_ireland_icon
+    cost = 5
+    x = 26
+    y = 14
+
+    completion_reward = {
+        set_cosmetic_tag = military_ireland_flag
+
+        
+
+    }
+}
+
+focus = {
+    id = IRE_Preventing_A_Crsis
+    icon = preventing_a_crisis_icon
+    cost = 5
+    x = 30
+    y = 15
+    prerequisite = { focus = IRE_The_State_Of_Ireland  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Declare_Syndicalism
+    icon = syndicalism_illegal_icon
+    cost = 5
+    x = 30
+    y = 16
+    prerequisite = { focus = IRE_Preventing_A_Crsis  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Waive_All_Constitutional_Rights
+    icon = waive_all_constitutional_rights_icon
+    cost = 5
+    x = 30
+    y = 17
+    prerequisite = { focus = IRE_Declare_Syndicalism  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Martial_Law_In_The_North
+    icon = martial_law_in_the_north_icon
+    cost = 5
+    x = 30
+    y = 18
+    prerequisite = { focus = IRE_Waive_All_Constitutional_Rights  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Arrest_Suspected_Traitors
+    icon = arrest_suspected_traitors_icon
+    cost = 5
+    x = 28
+    y = 19
+    prerequisite = { focus = IRE_Martial_Law_In_The_North  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Life_Imprisonment_Terms
+    icon = life_imprisonment_terms_icon
+    cost = 5
+    x = 28
+    y = 20
+    prerequisite = { focus = IRE_Arrest_Suspected_Traitors  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Withhold_Food_From_Spsected_Families
+    icon = withhold_food_from_suspected_families_icon
+    cost = 5
+    x = 32
+    y = 19
+    prerequisite = { focus = IRE_Martial_Law_In_The_North  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Amnesty_For_Those_Who_Surrender
+    icon = amnesty_for_those_who_surrender_icon
+    cost = 5
+    x = 32
+    y = 20
+    prerequisite = { focus = IRE_Withhold_Food_From_Spsected_Families  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_The_Connacht_Conference
+    icon = the_connacht_conference_icon
+    cost = 5
+    x = 30
+    y = 21
+    prerequisite = { focus = IRE_Amnesty_For_Those_Who_Surrender  }
+    prerequisite = { focus = IRE_Life_Imprisonment_Terms  }
+
+    
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Extend_The_Provisional_Powers
+    icon = extend_provisional_powers_icon
+    cost = 5
+    x = 22
+    y = 15
+    prerequisite = { focus = IRE_The_State_Of_Ireland  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Closing_Interregion_Borders
+    icon = closing_interregion_borders_icon
+    cost = 5
+    x = 22
+    y = 16
+    prerequisite = { focus = IRE_Extend_The_Provisional_Powers  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Replacing_Local_Leaders_With_Officers
+    icon = replacing_leaders_with_officers_icon
+    cost = 5
+    x = 22
+    y = 17
+    prerequisite = { focus = IRE_Closing_Interregion_Borders  }
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_A_New_Constitution
+    icon = a_new_consition_icon
+    cost = 5
+    x = 22
+    y = 18
+    prerequisite = { focus = IRE_Replacing_Local_Leaders_With_Officers  }
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_Service_For_Citzenship
+    icon = service_for_citzenship_icon
+    cost = 5
+    x = 19
+    y = 19
+    prerequisite = { focus = IRE_A_New_Constitution  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Militarize_Police_Forces
+    icon = militarize_police_froce_icon
+    cost = 5
+    x = 22
+    y = 19
+    prerequisite = { focus = IRE_A_New_Constitution  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_AntiSyndicalist_Legislation
+    icon = anti_syndicalist_legislation_icon
+    cost = 5
+    x = 25
+    y = 19
+    prerequisite = { focus = IRE_A_New_Constitution  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Government_Control_Of_The_Media
+    icon = government_control_of_media_icon
+    cost = 5
+    x = 20
+    y = 20
+    prerequisite = { focus = IRE_Service_For_Citzenship  }
+    prerequisite = { focus = IRE_Militarize_Police_Forces  }
+    prerequisite = { focus = IRE_AntiSyndicalist_Legislation  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Overhaul_The_Education_System
+    icon = overhaul_educaiton_system_icon
+    cost = 5
+    x = 24
+    y = 20
+    prerequisite = { focus = IRE_Service_For_Citzenship  }
+    prerequisite = { focus = IRE_Militarize_Police_Forces  }
+    prerequisite = { focus = IRE_AntiSyndicalist_Legislation  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_A_New_Better_Ireland
+    icon = a_new_better_ireland_icon
+    cost = 5
+    x = 22
+    y = 21
+    prerequisite = { focus = IRE_Overhaul_The_Education_System  }
+    prerequisite = { focus = IRE_Government_Control_Of_The_Media  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_A_President_For_Life
+    icon = president_for_life_icon
+    cost = 5
+    x = 22
+    y = 22
+    prerequisite = { focus = IRE_A_New_Better_Ireland  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Create_A_Military_Congress
+    icon = create_a_military_congress_icon
+    cost = 5
+    x = 22
+    y = 23
+    prerequisite = { focus = IRE_A_President_For_Life  }
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_Ratify_The_Constitution
+    icon = ratify_the_constitution_icon
+    cost = 5
+    x = 22
+    y = 24
+    prerequisite = { focus = IRE_Create_A_Military_Congress  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_A_Fresh_Start_For_Ireland
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 8
+    y = 11
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE__Giving_Labour_A_Shot_For_Once
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 2
+    y = 12
+    prerequisite = { focus = IRE_A_Fresh_Start_For_Ireland  }
+
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_Gerry_Adams_Nationalistic_Socialism
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 0
+    y = 13
+    prerequisite = { focus = IRE__Giving_Labour_A_Shot_For_Once  }
+    mutually_exclusive = {
+        focus = IRE_Eamonn_Gilmore_The_Moderate
+    }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Eamonn_Gilmore_The_Moderate
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 4
+    y = 13
+    prerequisite = { focus = IRE__Giving_Labour_A_Shot_For_Once  }
+    mutually_exclusive = {
+        focus = IRE_Gerry_Adams_Nationalistic_Socialism
+    }
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_Yet_Another_Victory_For_Fianna_Fail
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 8
+    y = 12
+    prerequisite = { focus = IRE_A_Fresh_Start_For_Ireland  }
+
+    completion_reward = {
+
+    }
+}
+
+
+
+focus = {
+    id = IRE_With_Michael_Martin_At_The_Front
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 6
+    y = 13
+    prerequisite = { focus = IRE_Yet_Another_Victory_For_Fianna_Fail  }
+    mutually_exclusive = {
+        focus = IRE_Bertie_Is_Back_For_Another_Round
+    }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Bertie_Is_Back_For_Another_Round
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 10
+    y = 13
+    prerequisite = { focus = IRE_Yet_Another_Victory_For_Fianna_Fail  }
+    mutually_exclusive = {
+        focus = IRE_With_Michael_Martin_At_The_Front
+    }
+    completion_reward = {
+
+    }
+}
+
+
+
+focus = {
+    id = IRE_Fine_Gael_As_Expected
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 15
+    y = 12
+    prerequisite = { focus = IRE_A_Fresh_Start_For_Ireland  }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Enda_Kelly_At_The_Face
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 13
+    y = 13
+    prerequisite = { focus = IRE_Fine_Gael_As_Expected  }
+    mutually_exclusive = {
+        focus = IRE_Big_Eoins_Populism
+    }
+
+    completion_reward = {
+
+    }
+}
+
+
+
+focus = {
+    id = IRE_Big_Eoins_Populism
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 17
+    y = 13
+    prerequisite = { focus = IRE_Fine_Gael_As_Expected  }
+    mutually_exclusive = {
+        focus = IRE_Enda_Kelly_At_The_Face
+    }
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_Putting_The_Strike_To_Its_Final_Rest
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 19
+    y = 14
+    prerequisite = { focus = IRE_Big_Eoins_Populism  }
+
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_Unity_Of_The_Green_And_Orange_Against_The_Red
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 17
+    y = 14
+    prerequisite = { focus = IRE_Big_Eoins_Populism  }
+
+    completion_reward = {
+
+    }
+}
+
+
+focus = {
+    id = IRE_Up_With_St_Patricks_Banner
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 15
+    y = 14
+    prerequisite = { focus = IRE_Big_Eoins_Populism  }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_The_Authoritarian_Christian_Democratic_Welfare_State
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 20
+    y = 15
+    prerequisite = { focus = IRE_Putting_The_Strike_To_Its_Final_Rest  }
+    prerequisite = { focus = IRE_Unity_Of_The_Green_And_Orange_Against_The_Red  }
+    prerequisite = { focus = IRE_Up_With_St_Patricks_Banner  }
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_1_2_3_4_5_6_7_All_Good_Children_Go_To_Heaven
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 18
+    y = 15
+    prerequisite = { focus = IRE_Putting_The_Strike_To_Its_Final_Rest  }
+    prerequisite = { focus = IRE_Unity_Of_The_Green_And_Orange_Against_The_Red  }
+    prerequisite = { focus = IRE_Up_With_St_Patricks_Banner  }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_Land_Of_Saints_And_Scholars
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 16
+    y = 15
+    prerequisite = { focus = IRE_Putting_The_Strike_To_Its_Final_Rest  }
+    prerequisite = { focus = IRE_Unity_Of_The_Green_And_Orange_Against_The_Red  }
+    prerequisite = { focus = IRE_Up_With_St_Patricks_Banner  }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_The_Big_Friendly_Reverend
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 14
+    y = 15
+    prerequisite = { focus = IRE_Putting_The_Strike_To_Its_Final_Rest  }
+    prerequisite = { focus = IRE_Unity_Of_The_Green_And_Orange_Against_The_Red  }
+    prerequisite = { focus = IRE_Up_With_St_Patricks_Banner  }
+
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = IRE_An_Irish_Republic_Under_The_Most_High_God
+    icon = stabilse_ireland_icon
+    cost = 5
+    x = 17
+    y = 16
+    prerequisite = { focus = IRE_The_Big_Friendly_Reverend  }
+    prerequisite = { focus = IRE_Land_Of_Saints_And_Scholars  }
+    prerequisite = { focus = IRE_1_2_3_4_5_6_7_All_Good_Children_Go_To_Heaven  }
+    prerequisite = { focus = IRE_The_Authoritarian_Christian_Democratic_Welfare_State  }
+    completion_reward = {
+
+    }
+}
+
+
+
+

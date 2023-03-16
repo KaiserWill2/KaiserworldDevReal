@@ -1,0 +1,26 @@
+ideas = {
+
+	country = {
+	
+		vielvoelkerstaat = {
+			picture = low_popular_support3
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = -0.01
+				stability_factor = -0.12
+				war_support_factor = -0.12
+				training_time_army_factor = 0.4
+				#army_noncore_attack_factor = -0.25
+				#army_noncore_defence_factor = -0.25
+			}
+		}
+		
+	}
+	
+}

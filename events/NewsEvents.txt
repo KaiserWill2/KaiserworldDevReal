@@ -1,0 +1,373 @@
+﻿add_namespace = news
+
+news_event = {	
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = cornation_philip_carol_event
+	is_triggered_only = yes
+
+	major = yes
+	
+
+	
+	option = {
+		name = news.o1
+	
+	}
+}
+
+
+
+news_event = {	#Ohio Pillar
+	id = news.15
+	title = news.15.t
+	desc = news.15.d
+	picture = Ohio_pillow_event	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.15.o1
+	
+	}
+}
+
+news_event = {	##1997 election
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = 1997_election_Event	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.2.o1
+	
+	}
+}
+
+
+
+
+
+news_event = {	
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = arrest_of_hu_juntao_event
+	is_triggered_only = yes
+
+	major = yes
+	
+	option = {
+		name = news.3.o1
+	
+	}
+}
+
+news_event = {	
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = justice_league_event
+	is_triggered_only = yes
+
+	major = yes
+	
+
+	option = {
+		name = news.4.o1
+
+	}
+}
+
+news_event = {	
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = constantine_attack_Event
+	is_triggered_only = yes
+
+	major = yes
+
+	
+	option = {
+		name = news.5.o1
+	
+	}
+}
+
+news_event = {	
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = front_leader_arrest_event 
+	is_triggered_only = yes
+
+	major = yes
+	
+
+	
+	option = {
+		name = news.6.o1
+
+	}
+}
+
+news_event = {	
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = english_civil_war_event
+	is_triggered_only = yes
+
+	major = yes
+
+	
+	option = {
+		name = news.7.o1
+	}
+}
+
+news_event = {	
+	id = news.8
+	title = news.8.t
+	desc = news.8.d
+	picture = turkey_earthquake_event
+	is_triggered_only = yes
+
+	major = yes
+
+	
+	option = {
+		name = news.8.o1
+	
+	}
+}
+
+news_event = {	
+	id = news.9
+	title = news.9.t
+	desc = news.9.d
+	picture = sinking_cargo_ship_event
+	is_triggered_only = yes
+
+	major = yes
+
+	
+	option = {
+		name = news.9.o1
+
+	}
+}
+
+news_event = {	
+	id = news.10
+	title = news.10.t
+	desc = news.10.d
+	picture = wait_wjat_event
+	is_triggered_only = yes
+
+	major = yes
+
+	
+	option = {
+		name = news.10.o1
+
+	}
+}
+
+news_event = {	
+	id = news.11
+	title = news.11.t
+	desc = news.11.d
+	picture = ben_arrest_event
+	is_triggered_only = yes
+
+	major = yes
+
+	
+	option = {
+		name = news.11.o1
+
+	}
+}
+
+news_event = {	
+	id = news.12
+	title = news.12.t
+	desc = news.12.d
+	picture = trump_benjamin_event
+	is_triggered_only = yes
+
+	major = yes
+
+	
+	option = {
+		name = news.12.o1
+
+	}
+}
+
+
+
+news_event = {	#russian civil war
+	id = news.16
+	title = news.16.t
+	desc = news.16.d
+	picture = the_russian_civil_war	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.16.o1
+	}
+}
+
+news_event = {	
+	id = news.17
+	title = news.17.t
+	desc = news.17.d
+	picture = basement_library_event	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.17.o1
+	}
+}
+
+
+news_event = {	
+	id = news.18
+	title = news.18.t
+	desc = news.18.d
+	picture = montana_fog_event	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.18.o1
+	}
+}
+
+news_event = {	
+	id = news.19
+	title = news.19.t
+	desc = news.19.d
+	picture = hp_lovecraft_event	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.19.o1
+	}
+}
+
+news_event = {	
+	id = news.20
+	title = news.20.t
+	desc = news.20.d
+	picture = pizza_pie_event	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.20.o1
+	}
+}
+
+
+news_event = {	
+	id = news.21
+	title = news.21.t
+	desc = news.21.d
+	picture = bob_event	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.21.o1
+	}
+}
+
+news_event = {	
+	id = news.22
+	title = news.22.t
+	desc = news.22.d
+	picture = queens_diamont_jubalie	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.22.o1
+	}
+}
+
+news_event = {	
+	id = news.23
+	title = news.23.t
+	desc = news.23.d
+	picture = canadan_olympics_event	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.23.o1
+	}
+}
+
+news_event = {	
+	id = news.24
+	title = news.24.t
+	desc = news.24.d
+	picture = thatcher_dies_event	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.24.o1
+	}
+}
+
+news_event = {	
+	id = news.25
+	title = news.25.t
+	desc = news.25.d
+	picture = king_farouk_dies	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.25.o1
+	}
+}
+
+
+news_event = {	
+	id = news.26
+	title = news.26.t
+	desc = news.26.d
+	picture = england_iceland_test_fire	
+	is_triggered_only = yes
+	major = yes
+
+
+	option = {
+		name = news.26.o1
+	}
+}
+

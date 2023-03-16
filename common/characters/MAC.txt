@@ -1,0 +1,145 @@
+characters={
+	MAC_ljube_boskoski={
+		name="Ljube Boškoski"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Ljube_Boskoski.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_nikola_gruevski={
+		name="Nikola Gruevski"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Nikola_Gruevski.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_dmitri_i={
+		name="Dimitri I"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Dimitri_I.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_dimitar_apasiev={
+		name="Dimitar Apasiev"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Dimitar_Apasiev.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_ljubco_georgievski={
+		name="Ljubčo Georgievski"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Ljubčo_Georgievski.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_menduh_thaci={
+		name="Menduh Thaçi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Menduh_Thaci.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_goran_milevski={
+		name="Goran Milevski"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Goran_Milevski.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_tito_petkovski={
+		name="Tito Petkovski"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Tito_Petkovski.dds"
+			}
+		}
+		country_leader={
+			ideology=labour_revisionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_branko_crvenkovski={
+		name="Branko Crvenkovski"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Branko_Crvenkovski.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_ljubisav_ivanov_dzingo={
+		name="Ljubisav Ivanov-Dzingo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Ljubisav_Ivanov_Dzingo.dds"
+			}
+		}
+		country_leader={
+			ideology=titoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAC_ali_ahmeti={
+		name="Ali Ahmeti"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAC/Portrait_MAC_Ali_Ahmeti.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

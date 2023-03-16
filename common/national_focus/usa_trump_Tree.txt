@@ -1,0 +1,966 @@
+focus_tree = {
+	id = USA_trump_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_Make_America_Great_Again
+		icon = Icon_Make_America_Great_Again_KW
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = {	
+				id = USA.118
+				}
+		}
+	
+	}
+	focus = {
+		id = USA_A_New_Type_Of_Republicanism
+		icon = Icon_A_New_Type_of_Republicanism_KW
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Make_America_Great_Again  }
+		completion_reward = {
+			 hidden_effect = {
+				country_event = {	
+					id = USA.13
+					}
+			}
+		
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Renegotiate_The_Reichspakt_Trade_Agreement
+		icon = Icon_Renegociate_the_Reichspakt_Trade_Agreement_KW
+		x = 7
+		y = 2
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Type_Of_Republicanism  }
+		completion_reward = {
+			country_event = {	
+				id = USA.119
+				}
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Lower_Corporate_Taxes
+		icon = Icon_Lower_Corporate_Taxes_KW
+		x = 7
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Type_Of_Republicanism  }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 20
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Reverse_bernie_Tax_Hikes
+		icon = Icon_Reverse_Bernie_Tax_Hikes_KW
+		x = 7
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Lower_Corporate_Taxes  }
+		completion_reward = {
+			add_ideas = reversing_the_tax_hike
+		}
+	
+	}
+
+
+
+
+
+	focus = {
+		id = USA_Spread_Conservatism
+		icon = Icon_Spread_Conservatism_KW
+		x = 10
+		y = 2
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Type_Of_Republicanism  }
+		completion_reward = {
+			add_political_power = 10
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Appease_The_Religious_Right
+		icon = Icon_Appease_the_Religious_Right_KW
+		x = 10
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Spread_Conservatism  }
+		completion_reward = {
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.05
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Empowering_Local_Government
+		icon = Icon_Empower_Local_Government_KW
+		x = 10
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Appease_The_Religious_Right  }
+		completion_reward = {
+			add_political_power = 10
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Rebuild_Infrastructure
+		icon = Icon_Rebuild_Infrastructure_KW
+		x = 13
+		y = 2
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Type_Of_Republicanism  }
+		completion_reward = {
+			add_ideas = rebuilding_infrastructure
+		}
+	
+	}
+
+	focus = {
+		id = USA_Funds_To_Support_Veterans
+		icon = Icon_Funds_to_Support_Veterans_KW
+		x = 13
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Rebuild_Infrastructure  }
+		completion_reward = {
+			add_stability = 0.15
+		}
+	
+	}
+
+	focus = {
+		id = USA_Improve_Youth_Organizations
+		icon = Icon_Improve_Youth_Organizations_KW
+		x = 13
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Funds_To_Support_Veterans  }
+		completion_reward = {
+			country_event = {	
+				id = USA.22
+				
+				}
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_The_New_American_Dream
+		icon = Icon_The_New_American_Dream_KW
+		x = 10
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Improve_Youth_Organizations  }
+		prerequisite = { focus =  USA_Reverse_bernie_Tax_Hikes  }
+		prerequisite = { focus =  USA_Empowering_Local_Government  }
+		completion_reward = {
+			add_political_power = 10
+		}
+	
+	}
+
+	focus = {
+		id = USA_The_African_Travel_Ban
+		icon = Icon_The_African_Travel_Ban_KW
+		x = 10
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_New_American_Dream  }
+		completion_reward = {
+			country_event = {	
+				id = USA.120
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Invest_In_American_Business
+		icon = Icon_Invest_in_American_Buisness_KW
+		x = 7
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_African_Travel_Ban  }
+		completion_reward = {
+			add_ideas = Investing_In_American_Businesses
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Invest_In_The_American_Tech_Sector
+		icon = Icon_Invest_in_the_American_Technology_Sector_KW
+		x = 7
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Invest_In_American_Business  }
+		completion_reward = {
+			add_research_slot = 2
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = engineers_tech
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = logistics_tech
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = computing_tech
+			}
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Lower_Taxes_On_Corporations
+		icon = Icon_Lower_Taxes_on_Corporations_KW
+		x = 10
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_African_Travel_Ban  }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_Lower_Taxes_On_The_Middle_Class
+		icon = Icon_Lower_Taxes_on_the_Middle_Class_KW
+		x = 10
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Lower_Taxes_On_Corporations  }
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Vilify_The_Clintons
+		icon = Icon_Vilify_the_Clintons_KW
+		x = 13
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_African_Travel_Ban  }
+		completion_reward = {
+			country_event = {	
+				id = USA.121
+				
+				}
+
+			hidden_effect = {
+			country_event = {	
+				id = USA.21
+				
+				}
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Reach_Out_To_The_Royal_Party
+		icon = Icon_Reach_Out_to_the_Royal_Party_KW
+		x = 13
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Vilify_The_Clintons  }
+		completion_reward = {
+			country_event = {	
+				id = USA.20
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Reduce_Reliance_On_Mexico
+		icon = Icon_Reduce_Reliance_on_Mexico_KW
+		x = 10
+		y = 9
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reach_Out_To_The_Royal_Party  }
+		prerequisite = { focus =  USA_Invest_In_The_American_Tech_Sector  }
+		prerequisite = { focus =  USA_Lower_Taxes_On_The_Middle_Class  }
+		completion_reward = {
+			add_stability = 0.10
+			add_political_power = 10
+			add_command_power = 10
+			set_country_flag = USA_Reducing_Reliancing_on_Mexico
+			mark_focus_tree_layout_dirty = yes
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_A_New_Age_For_America
+		icon = Icon_A_New_Age_for_America_KW
+		x = 33
+		y = 0
+		cost = 5
+		trigger = {
+			has_country_flag = USA_Reducing_Reliancing_on_Mexico
+		}
+		allow_branch = {
+		has_country_flag = USA_Reducing_Reliancing_on_Mexico
+		USA_Reducing_Reliancing_on_Mexico = yes
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = {	
+				id = USA.122
+				
+				}
+		}
+	
+	}
+	focus = {
+		id = USA_A_New_Faction_For_The_World
+		icon = Icon_A_New_Faction_For_the_World_KW
+		x = 29
+		y = 1
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Age_For_America  }
+		completion_reward = {
+			country_event = {	
+				id = USA.32
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Bastion_Against_The_Entente
+		icon = Icon_Bastion_Against_the_Entente_KW
+		x = 27
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Faction_For_The_World  }
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = {
+					target = CAN
+					modifier = small_decrease
+				}
+		}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Speak_Out_Against_Entente_Globalism
+		icon = Icon_Speak_Out_Against_Entente_Globalism_KW
+		x = 27
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bastion_Against_The_Entente  }
+		completion_reward = {
+			add_threat = 5
+			add_stability = -0.05
+		}
+	
+	}
+
+	focus = {
+		id = USA_Invite_Ireland
+		icon = Icon_Invite_Ireland_KW
+		x = 27
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Speak_Out_Against_Entente_Globalism  }
+		completion_reward = {
+			country_event = {	
+				id = USA.33
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Invite_Southern_Iran
+		icon = Icon_Invite_Southern_Iran_KW
+		x = 27
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Invite_Ireland  }
+		completion_reward = {
+			country_event = {	
+				id = USA.34
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Poach_Former_Dominions
+		icon = poach_former_dominions_icon
+		x = 27
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Invite_Southern_Iran  }
+		completion_reward = {
+			country_event = {	
+				id = USA.35
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Bastion_Against_The_Reichspakt
+		icon = Icon_Bastion_Against_the_Reichspakt_KW
+		x = 31
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Faction_For_The_World  }
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = {
+					target = GER
+					modifier = declaration_of_friendship
+				}
+		}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_America_First_Trade_Deals
+		icon = Icon_America_First_Trade_Deals_KW
+		x = 31
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bastion_Against_The_Reichspakt  }
+		completion_reward = {
+			country_event = {	
+				id = USA.37
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Invite_The_French
+		icon = Icon_Invite_France_KW
+		x = 31
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_America_First_Trade_Deals  }
+		completion_reward = {
+			country_event = {	
+				id = USA.38
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Fortify_The_Rhine
+		icon = Icon_Fortify_the_Rhine_KW
+		x = 31
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Invite_The_French  }
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 9559
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 11502
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 3629
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 549
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 9503
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 6529
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 678
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_A_Meeting_With_The_Kaiser
+		icon = a_meeting_with_kaiser_icon
+		x = 31
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fortify_The_Rhine  }
+		completion_reward = {
+			country_event = {	
+				id = USA.39
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Sovereignty_Secured
+		icon = sovereighnty_secured_icon
+		x = 29
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_Meeting_With_The_Kaiser  }
+		prerequisite = { focus =  USA_Poach_Former_Dominions  }
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.10
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Bolstering_The_Empire_Economy
+		icon = Icon_Bolstering_the_Empires_Economy_KW
+		x = 36
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Age_For_America  }
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Increase_American_Exports
+		icon = Icon_Increase_American_Exports_KW
+		x = 35
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bolstering_The_Empire_Economy  }
+		completion_reward = {
+			add_idea = increasing_american_exports
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Increase_Buying_Power
+		icon = Icon_Increase_Buying_Power_KW
+		x = 35
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Increase_American_Exports  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_De_Regulate_Wall_Street
+		icon = de_regulate_wall_Street_icon
+		x = 35
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Increase_Buying_Power  }
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_A_Canadian_American_Pipeline
+		icon = Icon_A_Canadian-American_Pipeline_KW
+		x = 37
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bolstering_The_Empire_Economy  }
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 50
+				state = 375
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Subsidize_The_Tech_Sector
+		icon = Icon_Subsidize_the_Technology_Sector_KW
+		x = 37
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_Canadian_American_Pipeline  }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = computing_tech
+			}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Industrialize_The_Midwest
+		icon = industrialize_the_midwest_icon
+		x = 37
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Subsidize_The_Tech_Sector  }
+		completion_reward = {
+			add_building_construction = {
+				type = industry
+				level = 1
+				instant_build = yes
+				province = 12642
+			}
+			add_building_construction = {
+				type = industry
+				level = 1
+				instant_build = yes
+				province = 868
+			}
+			add_building_construction = {
+				type = industry
+				level = 1
+				instant_build = yes
+				province = 11772
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Pax_Americanus
+		icon = pax_americanus_icon
+		x = 36
+		y = 7
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Industrialize_The_Midwest  }
+		prerequisite = { focus =  USA_De_Regulate_Wall_Street  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Expand_The_Empires_Of_Freedom
+		icon = expand_empires_of_freedom_icon
+		x = 41
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Age_For_America  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_The_Greenland_Purchase
+		icon = greenland_purchase_icon
+		x = 41
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_The_Empires_Of_Freedom  }
+		completion_reward = {
+			country_event = {	
+				id = USA.10
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_The_Haiti_Deal
+		icon = the_haiti_deal_icon
+		x = 41
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Greenland_Purchase  }
+		completion_reward = {
+			country_event = {	
+				id = USA.44
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Create_The_Guantanamo_Protectorate
+		icon = create_the_guantanamo_protectorate_icon
+		x = 41
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Haiti_Deal  }
+		completion_reward = {
+			country_event = {	
+				id = USA.47
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_The_Status_Of_Puerti_Rico
+		icon = status_of_puerti_rico_icon
+		x = 41
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Create_The_Guantanamo_Protectorate  }
+		completion_reward = {
+			country_event = {	
+				id = USA.52
+				}
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

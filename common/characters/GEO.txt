@@ -1,0 +1,325 @@
+characters={
+	GEO_eduard_shevardnadze={
+		name="Eduard Shevardnadze"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Eduard_Shevardnadze.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_emzar_kvitsiani={
+		name="Emzar Kvitsiani"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Emzar_Kvitsiani.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_irma_inashvili={
+		name="Irma Inashvili"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Irma_Inashvili.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_nugzar_first={
+		name="Nugzar I"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Nugzar_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_jondi_bagaturia={
+		name="Jondi Bagaturia"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Jondi_Bagaturia.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_mikheil_saakashvili={
+		name="Mikheil Saakashvili"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Mikheil_Saakashvili.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_gogi_topadze={
+		name="Gogi Topadze"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Gogi_Topadze.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_zviad_dzidziguri={
+		name="Zviad Dzidziguri"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Zviad_Dzidziguri.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_giorgi_kvirikashvili={
+		name="Giorgi Kvirikashvili"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Giorgi_Kvirikashvili.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_irakli_alasania={
+		name="Irakli Alasania"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Irakli_Alasania.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_shalva_natelashvili={
+		name="Shalva Natelashvili"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Portrait_GEO_Shalva_Natelashvili.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_devi_chankotadze={
+		name="Devi Chankotadze"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GEO/Portrait_Devi_Chankotadze.dds"
+			}
+		}
+		field_marshal={
+			traits={ bearer_of_artillery }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	GEO_badri_bitsadze={
+		name="Badri Bitsadze"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GEO/Portrait_Badri_Bitsadze.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	GEO_vladimer_chachibaia={
+		name="Vladimer Chachibaia"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GEO/Portrait_Vladimer_Chachibaia.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GEO_zaza_gogava={
+		name="Zaza Gogava"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GEO/Portrait_Zaza_Gogava.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_vakhtang_kapanadze={
+		name="Vakhtang Kapanadze"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GEO/Portrait_Vakhtang_Kapanadze.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_mamuka_kurashvili={
+		name="Mamuka Kurashvili"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GEO/Portrait_Mamuka_Kurashvili.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GEO_nikoloz_janjgava={
+		name="Nikoloz Janjgava"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GEO/Portrait_Nikoloz_Janjgava.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_giorgi_kalandadze={
+		name="Giorgi Kalandadze"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GEO/Portrait_Giorgi_Kalandadze.dds"
+			}
+		}
+		corps_commander={
+			traits = { trait_reckless }
+			skill=1
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_temur_kvantaliani={
+		name="Temur Kvantaliani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GEO/Portrait_Temur_Kvantaliani.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=3
+			coordination_skill=1
+			maneuvering_skill=2
+			legacy_id=-1
+		}
+	}
+}

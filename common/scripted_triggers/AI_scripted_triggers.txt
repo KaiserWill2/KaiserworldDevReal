@@ -1,0 +1,12 @@
+#Shamelessly stolen from KR /s but really thank you to the KR team, many of the triggers used along with lots of other stuff has been used as base for other stuff.
+
+
+has_reached_maximum_divisions = {
+	if = {
+		limit = { has_variable = num_actual_divisions }
+		check_variable = { num_actual_divisions > max_divisions }
+	}
+	else = {
+		check_variable = { num_divisions > max_divisions }
+	}
+} 

@@ -1,0 +1,39 @@
+focus_tree = {
+	id = France_Focus_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = FRA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 3550 }
+	focus = {
+		id = FRA_algerian_crisis
+		icon = wip
+		cost = 5
+		x = 10
+		y = 0
+		completion_reward = {
+			country_event = {
+				id = FRA.france.1
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_WIP
+		icon = reassure_business_icon
+		cost = 5
+		x = 8
+		y = 1
+		prerequisite = { focus = WIP  }
+		completion_reward = {
+			country_event = {
+				id = ireland.2
+			}
+		}
+
+	}
+}

@@ -1,0 +1,379 @@
+characters={
+	OMA_abu_hamza_al_omani={
+		name="Abu Hamza al Omani"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Abu_Hamza_al_Omani.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_Marwan_Habash={
+		name="Marwan Habash"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Marwan_Habash.dds"
+			}
+		}
+		country_leader={
+			ideology=baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_malek_bin_sulaiman_al_maamari={
+		name="Malek Bin Sulaiman Al Ma'amari"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Malek_Bin_Sulaiman_Al_Ma_amari.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_sultan_qaboos_bin_said={
+		name="Qaboos bin Said"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Qaboos_bin_said.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_Asa_ad_bin_Tariq={
+		name="Asa'ad bin Tariq"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Asa_ad_bin_Tariq.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_Sayyid_Badr_Albusaidi={
+		name="Sayyid Badr Albusaidi"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Sayyid_Badr_Albusaidi.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_lujaina_mohsin_darwish={
+		name="Lujaina Mohsin Darwish"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Lujaina_Mohsin_Darwish.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_Madeeha_bint_Ahmed_bin_Nassir_al_Shibaniyah={
+		name="Madeeha bint Ahmed bin Nassir al Shibaniyah"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Madeeha_bint_Ahmed_bin_Nassir_al_Shibaniyah.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_yusuf_bin_alawi_bin_abdullah={
+		name="Yusuf bin Alawi bin Abdullah"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Yusuf_bin_Alawi_bin_Abdullah.dds"
+			}
+		}
+		country_leader={
+			ideology=arab_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_Rumaitha_Al_Busaidi={
+		name="Rumaitha Al Busaidi"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Rumaitha_Al_Busaidi.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_abdul_aziz_alqadi={
+		name="Abdul Aziz al-Qadi"
+		portraits={
+			civilian={
+				large="gfx/leaders/OMA/Portrait_OMA_Abdul_Aziz_al_Qadi.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OMA_ahmed_bin_harith_al_nabhani={
+		name="Ahmed bin Harith Al Nabhani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/OMA/Portrait_Ahmed_bin_Harith_Al_Nabhani.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	OMA_mohammed_bin_ali_al_waeli={
+		name="Mohammed bin Ali Al Waeli"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/OMA/Portrait_Mohammed_bin_Ali_Al_Waeli.dds"
+			}
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	OMA_matar_bin_salim_bin_rashid_al_bulushi={
+		name="Matar bin Salim bin Rashid Al Bulushi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/OMA/Portrait_Matar_bin_Salim_bin_Rashid_Al_Bulushi.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	OMA_mohammed_bin_sifi={
+		name="Mohammed bin Sifi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/OMA/Portrait_Mohammed_bin_Sifi.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	OMA_ismail_bin_shihab_al_balushi={
+		name="Ismail bin Shihab Al Balushi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/OMA/Portrait_Ismail_bin_Shihab_Al_Balushi.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	OMA_abdullah_bin_mohammed_al_badi={
+		name="Abdullah bin Mohammed Al Badi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/OMA/Portrait_Abdullah_bin_Mohammed_Al_Badi.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	OMA_saeed_bin_mohammed_al_jabri={
+		name="Saeed bin Mohammed Al Jabri"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/OMA/Portrait_Saeed_bin_Mohammed_Al_Jabri.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	OMA_ahmed_bin_saeed_al_maskari={
+		name="Ahmed bin Saeed Al Maskari"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/OMA/Portrait_Ahmed_bin_Saeed_Al_Maskari.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	OMA_bahri_salem_bin_nasser_al_qasimi={
+		name="Bahri Salem bin Nasser Al Qasimi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/OMA/Portrait_Bahri_Salem_bin_Nasser_Al_Qasimi.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	OMA_hasan_ibn_hisham={
+		name="Hasan ibn Hisham"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="2026.1.1.12"
+			id=-1
+		}
+	}
+	OMA_hasan_ibn_ali={
+		name="Hasan ibn Ali"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			traits={ quartermaster_general }
+			expire="2024.1.1.12"
+			id=-1
+		}
+	}
+	OMA_salim_ibn_abu_bakr={
+		name="Salim ibn Abu Bakr"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="2022.1.1.12"
+			id=-1
+		}
+	}
+	OMA_muhammad_alshami={
+		name="Muhammad al-Shami"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=buddhist_socialism
+			traits={ quartermaster_general smooth_talking_charmer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+}

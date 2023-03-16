@@ -1,0 +1,62 @@
+
+units= {
+	####### NAVAL UNITS #######
+	##### Battle Force (CO: ) #####
+	### Gaoxiong ###
+	fleet = {
+		name = "Naval Fleets Command"
+		naval_base = 12068
+		task_force = {
+			name = "124th Fleet"
+			location = 12068 # Gaoxiong
+			ship = { #carriers
+			name = "ROCS Carl Vinson" definition = carrier equipment = { carrier_1 = { amount = 1 owner = CHI version_name = "Nimitz Class" } }
+			}
+			ship = {
+			name = "ROCS Theodore Roosevelt" definition = carrier equipment = { carrier_1 = { amount = 1 owner = CHI version_name = "Nimitz Class" } }
+			}			
+			ship = {
+			name = "ROCS Constellation" definition = carrier equipment = { carrier_1 = { amount = 1 owner = CHI version_name = "Kitty Hawk Class" } }
+			}
+			ship = { name = "ROCS Vincennes" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI version_name = "Ticonderoga Class" } } }
+			ship = { name = "ROCS Valley Forge" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI version_name = "Ticonderoga Class" } } }
+			ship = { name = "ROCS Bunker Hill" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI version_name = "Ticonderoga Class" } } }
+			ship = { name = "ROCS Antietam" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI version_name = "Ticonderoga Class" } } }	
+			ship = { name = "ROCS California" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Virginia Class" } } }
+			ship = { name = "ROCS Texas" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Virginia Class" } } }
+			ship = { name = "ROCS Arkansas" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Virginia Class" } } }		
+			ship = { name = "ROCS Chandler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Kinkaid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS David R. Ray" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Oldendorf " definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS John Young" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS O'Brien" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Merrill" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Leftwich" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Cushing" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Harry W. Hill" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Deyo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Ingersoll" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Fife" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Fletcher" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Spurance Class" } } }
+			ship = { name = "ROCS Los Angeles" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Omaha" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Birmingham" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS New York City " definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Bremerton" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS La Jolla" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS City of Corpus Christi" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Albuquerque" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Minneapolis–Saint Paul" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Houston" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Buffalo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Salt Lake City" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Olympia" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Honolulu" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Chicago" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Oklahoma City" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Louisville" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+			ship = { name = "ROCS Topeka" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI version_name = "Los Angeles Class" } } }
+		}
+	}
+}

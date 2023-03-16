@@ -1,0 +1,27 @@
+﻿units= {
+
+	####### NAVAL UNITS #######
+	##### GERMAN FLEET #####
+	##### Volksmarine  #####
+	### Wilhemshaven ###
+
+	fleet = {
+		name = "Volksmarine"			
+		naval_base = 241 # Wilhemshaven
+		task_force = {
+			name = "Erste Flottille"
+			location = 241 # Wilhemshaven	
+			ship = { name = "Sachsen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Sachsen class" } } }
+			ship = { name = "Hamburg" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Sachsen class" } } }
+			ship = { name = "Hessen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Sachsen class" } } }
+			ship = { name = "Brandenburg" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Brandenburg class" } } }
+			ship = { name = "Schleswig-Holstein" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Brandenburg class" } } }
+			ship = { name = "Bayern" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Brandenburg class" } } }
+			ship = { name = "Mecklenburg-Vorpommern" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Brandenburg class" } } }
+			ship = { name = "U-31" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type 212" } } }
+			ship = { name = "U-32" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type 212" } } }
+			ship = { name = "U-33" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type 212" } } }
+			ship = { name = "U-34" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type 212" } } }
+		}
+	}
+}

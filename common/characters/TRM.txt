@@ -1,0 +1,227 @@
+characters={
+	TRM_batyr_kurbanovich_sarjaev={
+		name="Batyr Kurbanovich Sarjaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/portrait_TRM_Batyr_Kurbanovich_Sarjaev.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_gurbanguly_berdimuhamedow={
+		name="Gurbanguly Berdimuhamedow"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Portrait_TRM_Gurbanguly_Berdimuhamedow.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_rasit_meredow={
+		name="Rasit Meredow"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Portrait_TRM_Rasit_Meredow.dds"
+			}
+		}
+		country_leader={
+			ideology=neoconservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_kasymguly_babaev={
+		name="Kasymguly Babaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Portrait_TRM_Kasymguly_Babaev.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_baymyrat_hojamuhammedov={
+		name="Baymyrat Hojamuhammedov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Portrait_TRM_Baymyrat_Hojamuhammedov.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_annageldi_yazmyradov={
+		name="Annageldi Yazmyradov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Portrait_TRM_Annageldi_Yazmyradov.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_nurmuhammet_hanamow={
+		name="Nurmuhammet Hanamow"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Portrait_TRM_Nurmuhammet_Hanamow.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_awdy_kulyyew={
+		name="Awdy Kulyýew"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Portrait_TRM_Awdy_Kulyýew.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_nikolai_levichev={
+		name="Nikolai Levichev"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Portrait_TRM_Nikolai_Levichev.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_marian_lupu={
+		name="Marian Lupu"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Portrait_TRM_Marian_Lupu.dds"
+			}
+		}
+		country_leader={
+			ideology=titoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_agageldi_mammetgeldiyev={
+		name="Agageldi Mammetgeldiyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TRM/Portrait_Agageldi_Mammetgeldiyev.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	TRM_isgender_mulikov={
+		name="Isgender Mulikov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TRM/Portrait_Isgender_Mulikov.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	TRM_akmurad_kabulov={
+		name="Akmurad Kabulov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TRM/Portrait_Akmurad_Kabulov.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+		}
+	}
+	TRM_begench_gundogdyev={
+		name="Begench Gundogdyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TRM/Portrait_Begench_Gundogdyev.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	TRM_yaylym_berdiyev={
+		name="Yaylym Berdiyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TRM/Portrait_Yaylym_Berdiyev.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+		}
+	}
+}

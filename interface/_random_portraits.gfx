@@ -1,0 +1,1383 @@
+spriteTypes = {
+
+	
+
+
+	spriteType = {
+		name = "GFX_africa_general_1"
+		texturefile = "gfx/leaders/Africa/generic_africa_general1.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_general_1_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister26.dds"
+	}
+
+	spriteType = {
+		name = "GFX_africa_general_2"
+		texturefile = "gfx/leaders/Africa/generic_africa_general2.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_general_2_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister25.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_africa_general_3"
+		texturefile = "gfx/leaders/Africa/generic_africa_general3.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_general_3_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister24.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_africa_general_4"
+		texturefile = "gfx/leaders/Africa/generic_africa_general4.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_general_4_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister23.dds"
+	}
+
+	spriteType = {
+		name = "GFX_africa_general_5"
+		texturefile = "gfx/leaders/Africa/Portrait_African_generic5.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_general_5_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister31.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_africa_general_6"
+		texturefile = "gfx/leaders/Africa/Portrait_African_generic6.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_general_6_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister30.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_africa_general_7"
+		texturefile = "gfx/leaders/Africa/Portrait_African_generic7.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_general_7_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister29.dds"
+	}
+
+	spriteType = {
+		name = "GFX_africa_general_8"
+		texturefile = "gfx/leaders/Africa/Portrait_African_generic8.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_general_8_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister28.dds"
+	}
+
+	spriteType = {
+		name = "GFX_africa_general_9"
+		texturefile = "gfx/leaders/Africa/Portrait_African_generic9.dds"
+	}
+	spriteType = {
+		name = "GFX_africa_general_9_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister27.dds"
+	}
+
+
+	#northamerica
+
+	spriteType = {
+		name = "GFX_NA_general_1"
+		texturefile = "gfx/leaders/EU_america/generic_former_usa_general1.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_1_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister46.dds"
+	}
+
+	spriteType = {
+		name = "GFX_NA_general_2"
+		texturefile = "gfx/leaders/EU_america/generic_former_usa_general2.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_2_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister45.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_3"
+		texturefile = "gfx/leaders/EU_america/generic_former_usa_general3.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_3_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister44.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_4"
+		texturefile = "gfx/leaders/EU_america/generic_former_usa_general4.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_4_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister43.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_5"
+		texturefile = "gfx/leaders/EU_america/generic_former_usa_general5.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_5_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister42.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_6"
+		texturefile = "gfx/leaders/EU_america/generic_former_usa_general6.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_6_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister41.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_7"
+		texturefile = "gfx/leaders/EU_america/generic_former_usa_general7.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_7_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister42.dds"
+	}
+
+	spriteType = {
+		name = "GFX_NA_general_8"
+		texturefile = "gfx/leaders/EU_america/generic_former_usa_general8.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_8_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister40.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_9"
+		texturefile = "gfx/leaders/EU_america/generic_former_usa_general9.dds"
+	}
+	spriteType = {
+		name = "GFX_NA_general_9_small"
+		texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister39.dds"
+	}
+
+
+spriteType = {
+	name = "GFX_NA_admiral_1"
+	texturefile = "gfx/leaders/EU_america/generic_former_usa_admiral1.dds"
+}
+spriteType = {
+	name = "GFX_NA_admiral_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/idea_USA_generic_navy_1.dds"
+}
+spriteType = {
+	name = "GFX_NA_admiral_2"
+	texturefile = "gfx/leaders/EU_america/generic_former_usa_admiral2.dds"
+}
+spriteType = {
+	name = "GFX_NA_admiral_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/idea_USA_generic_navy_2.dds"
+}
+
+
+#europe
+
+spriteType = {
+	name = "GFX_europe_general_1"
+	texturefile = "gfx/leaders/EU_america/generic_europe_general1.dds"
+}
+spriteType = {
+	name = "GFX_europe_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister51.dds"
+}
+
+spriteType = {
+	name = "GFX_europe_general_2"
+	texturefile = "gfx/leaders/EU_america/generic_europe_general2.dds"
+}
+spriteType = {
+	name = "GFX_europe_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister50.dds"
+}
+spriteType = {
+	name = "GFX_europe_general_3"
+	texturefile = "gfx/leaders/EU_america/generic_europe_general3.dds"
+}
+spriteType = {
+	name = "GFX_europe_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister49.dds"
+}
+spriteType = {
+	name = "GFX_europe_general_4"
+	texturefile = "gfx/leaders/EU_america/generic_europe_general4.dds"
+}
+spriteType = {
+	name = "GFX_europe_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister48.dds"
+}
+spriteType = {
+	name = "GFX_europe_general_5"
+	texturefile = "gfx/leaders/EU_america/generic_europe_general5.dds"
+}
+spriteType = {
+	name = "GFX_europe_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister47.dds"
+}
+
+
+spriteType = {
+name = "GFX_europe_admiral_1"
+texturefile = "gfx/leaders/EU_america/generic_europe_admiral1.dds"
+}
+spriteType = {
+name = "GFX_europe_admiral_1_small"
+texturefile = "gfx/interface/ideas/genericofficers/idea_europe_generic_navy_1.dds"
+}
+spriteType = {
+name = "GFX_europe_admiral_2"
+texturefile = "gfx/leaders/EU_america/generic_europe_admiral2.dds"
+}
+spriteType = {
+name = "GFX_europe_admiral_2_small"
+texturefile = "gfx/interface/ideas/genericofficers/idea_europe_generic_navy_2.dds"
+}
+
+
+# asia 
+
+spriteType = {
+	name = "GFX_asia_general_1"
+	texturefile = "gfx/leaders/Asia/Portrait_asian_generic1.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister59.dds"
+}
+
+spriteType = {
+	name = "GFX_asia_general_2"
+	texturefile = "gfx/leaders/Asia/Portrait_asian_generic2.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister58.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_3"
+	texturefile = "gfx/leaders/Asia/Portrait_asian_generic3.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister57.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_4"
+	texturefile = "gfx/leaders/Asia/Portrait_asian_generic4.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister56.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_5"
+	texturefile = "gfx/leaders/Asia/Portrait_asian_generic5.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister54.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_6"
+	texturefile = "gfx/leaders/Asia/Portrait_asian_generic6.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister53.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_7"
+	texturefile = "gfx/leaders/Asia/Portrait_asian_generic7.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister52.dds"
+}
+
+spriteType = {
+	name = "GFX_asia_general_8"
+	texturefile = "gfx/leaders/Asia/Portrait_asian_generic8.dds"
+}
+spriteType = {
+	name = "GFX_asia_general_8_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister55.dds"
+}
+
+#arab
+
+spriteType = {
+	name = "GFX_arab_general_1"
+	texturefile = "gfx/leaders/Arab/Portrait_arab_generic1.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister38.dds"
+}
+
+spriteType = {
+	name = "GFX_arab_general_2"
+	texturefile = "gfx/leaders/Arab/Portrait_arab_generic2.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister37.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_3"
+	texturefile = "gfx/leaders/Arab/Portrait_arab_generic3.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister36.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_4"
+	texturefile = "gfx/leaders/Arab/Portrait_arab_generic4.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister35.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_5"
+	texturefile = "gfx/leaders/Arab/Portrait_arab_generic5.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister34.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_6"
+	texturefile = "gfx/leaders/Arab/Portrait_arab_generic6.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister33.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_7"
+	texturefile = "gfx/leaders/Arab/Portrait_arab_generic7.dds"
+}
+spriteType = {
+	name = "GFX_arab_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister32.dds"
+}
+
+#latin america
+
+spriteType = {
+	name = "GFX_latam_general1"
+	texturefile = "gfx/leaders/Latin America/generic_latin_america_general1.dds"
+}
+spriteType = {
+	name = "GFX_latam_general1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister14.dds"
+}
+
+
+spriteType = {
+	name = "GFX_latam_general2"
+	texturefile = "gfx/leaders/Latin America/generic_latin_america_general2.dds"
+}
+spriteType = {
+	name = "GFX_latam_general2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister15.dds"
+}
+
+
+spriteType = {
+	name = "GFX_latam_general3"
+	texturefile = "gfx/leaders/Latin America/generic_latin_america_general3.dds"
+}
+spriteType = {
+	name = "GFX_latam_general3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister13.dds"
+}
+
+
+spriteType = {
+	name = "GFX_latam_general4"
+	texturefile = "gfx/leaders/Latin America/generic_latin_america_general4.dds"
+}
+spriteType = {
+	name = "GFX_latam_general4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister12.dds"
+}
+
+
+spriteType = {
+	name = "GFX_latam_general5"
+	texturefile = "gfx/leaders/Latin America/generic_latin_america_general5.dds"
+}
+spriteType = {
+	name = "GFX_latam_general5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister11.dds"
+}
+
+
+#indian subcontinent
+
+spriteType = {
+	name = "GFX_india_general1"
+	texturefile = "gfx/leaders/Indian/Portrait_indo_generic1.dds"
+}
+spriteType = {
+	name = "GFX_india_general1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister22.dds"
+}
+
+
+spriteType = {
+	name = "GFX_india_general2"
+	texturefile = "gfx/leaders/Indian/Portrait_indo_generic2.dds"
+}
+spriteType = {
+	name = "GFX_india_general2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister21.dds"
+}
+
+
+spriteType = {
+	name = "GFX_india_general3"
+	texturefile = "gfx/leaders/Indian/Portrait_indo_generic3.dds"
+}
+spriteType = {
+	name = "GFX_india_general3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister20.dds"
+}
+
+
+spriteType = {
+	name = "GFX_india_general4"
+	texturefile = "gfx/leaders/Indian/Portrait_indo_generic4.dds"
+}
+spriteType = {
+	name = "GFX_india_general4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister18.dds"
+}
+
+
+spriteType = {
+	name = "GFX_india_general5"
+	texturefile = "gfx/leaders/Indian/Portrait_indo_generic5.dds"
+}
+spriteType = {
+	name = "GFX_india_general5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister17.dds"
+}
+
+spriteType = {
+	name = "GFX_india_general6"
+	texturefile = "gfx/leaders/Indian/Portrait_indo_generic6.dds"
+}
+spriteType = {
+	name = "GFX_india_general6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister16.dds"
+}
+
+
+#SEA
+
+
+spriteType = {
+	name = "GFX_southeastasia_general1"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister2.dds"
+}
+
+
+spriteType = {
+	name = "GFX_southeastasia_general2"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister3.dds"
+}
+
+
+spriteType = {
+	name = "GFX_southeastasia_general3"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister4.dds.dds"
+}
+
+
+spriteType = {
+	name = "GFX_southeastasia_general4"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister5.dds"
+}
+
+
+spriteType = {
+	name = "GFX_southeastasia_general5"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister6.dds"
+}
+
+spriteType = {
+	name = "GFX_southeastasia_general6"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister7.dds"
+}
+
+spriteType = {
+	name = "GFX_southeastasia_general7"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic7.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister8.dds"
+}
+
+spriteType = {
+	name = "GFX_southeastasia_general8"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic8.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general8_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister9.dds"
+}
+
+spriteType = {
+	name = "GFX_southeastasia_general9"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic9.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general9_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister1.dds"
+}
+
+spriteType = {
+	name = "GFX_southeastasia_general10"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic10.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general10_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister10.dds"
+}
+
+spriteType = {
+	name = "GFX_southeastasia_general11"
+	texturefile = "gfx/leaders/Southeast Asia/Portrait_Southeast_Asia_Generic11.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_general11_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister19.dds"
+}
+
+
+#african women
+
+spriteType = {
+	name = "GFX_africa_woman_general_1"
+	texturefile = "gfx/leaders/Africa/Women/Portrait_African_Woman_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_africa_woman_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman8.dds"
+}
+
+spriteType = {
+	name = "GFX_africa_woman_general_2"
+	texturefile = "gfx/leaders/Africa/Women/Portrait_African_Woman_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_africa_woman_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman6.dds"
+}
+
+
+spriteType = {
+	name = "GFX_africa_woman_general_3"
+	texturefile = "gfx/leaders/Africa/Women/Portrait_African_Woman_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_africa_woman_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman7.dds"
+}
+
+
+spriteType = {
+	name = "GFX_africa_woman_general_4"
+	texturefile = "gfx/leaders/Africa/Women/Portrait_African_Woman_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_africa_woman_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman5.dds"
+}
+
+spriteType = {
+	name = "GFX_africa_woman_general_5"
+	texturefile = "gfx/leaders/Africa/Women/Portrait_African_Woman_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_africa_woman_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman4.dds"
+}
+
+
+spriteType = {
+	name = "GFX_africa_woman_general_6"
+	texturefile = "gfx/leaders/Africa/Women/Portrait_African_Woman_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_africa_woman_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman3.dds"
+}
+
+
+spriteType = {
+	name = "GFX_africa_woman_general_7"
+	texturefile = "gfx/leaders/Africa/Women/Portrait_African_Woman_Generic7.dds"
+}
+spriteType = {
+	name = "GFX_africa_woman_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman2.dds"
+}
+
+spriteType = {
+	name = "GFX_africa_woman_general_8"
+	texturefile = "gfx/leaders/Africa/Women/Portrait_African_Woman_Generic8.dds"
+}
+spriteType = {
+	name = "GFX_africa_woman_general_8_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman1.dds"
+}
+
+
+
+
+#white woman 
+
+spriteType = {
+	name = "GFX_white_woman_general_1"
+	texturefile = "gfx/leaders/EU_america/Women/Portrait_White_Woman_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_white_woman_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman23.dds"
+}
+
+spriteType = {
+	name = "GFX_white_woman_general_2"
+	texturefile = "gfx/leaders/EU_america/Women/Portrait_White_Woman_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_white_woman_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman28.dds"
+}
+
+
+spriteType = {
+	name = "GFX_white_woman_general_3"
+	texturefile = "gfx/leaders/EU_america/Women/Portrait_White_Woman_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_white_woman_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman27.dds"
+}
+
+
+spriteType = {
+	name = "GFX_white_woman_general_4"
+	texturefile = "gfx/leaders/EU_america/Women/Portrait_White_Woman_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_white_woman_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman26.dds"
+}
+
+spriteType = {
+	name = "GFX_white_woman_general_5"
+	texturefile = "gfx/leaders/EU_america/Women/Portrait_White_Woman_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_white_woman_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman25.dds"
+}
+
+
+spriteType = {
+	name = "GFX_white_woman_general_6"
+	texturefile = "gfx/leaders/EU_america/Women/Portrait_White_Woman_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_white_woman_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman24.dds"
+}
+
+
+spriteType = {
+	name = "GFX_white_woman_general_7"
+	texturefile = "gfx/leaders/EU_america/Women/Portrait_White_Woman_Generic7.dds"
+}
+spriteType = {
+	name = "GFX_white_woman_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman22.dds"
+}
+
+spriteType = {
+	name = "GFX_white_woman_general_8"
+	texturefile = "gfx/leaders/EU_america/Women/Portrait_White_Woman_Generic8.dds"
+}
+spriteType = {
+	name = "GFX_white_woman_general_8_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman21.dds"
+}
+
+
+#asian women
+
+spriteType = {
+	name = "GFX_asian_woman_general_1"
+	texturefile = "gfx/leaders/Asia/Women/Portrait_Asian_Woman_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_asian_woman_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman14.dds"
+}
+
+spriteType = {
+	name = "GFX_asian_woman_general_2"
+	texturefile = "gfx/leaders/Asia/Women/Portrait_Asian_Woman_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_asian_woman_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman13.dds"
+}
+
+
+spriteType = {
+	name = "GFX_asian_woman_general_3"
+	texturefile = "gfx/leaders/Asia/Women/Portrait_Asian_Woman_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_asian_woman_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman12.dds"
+}
+
+
+spriteType = {
+	name = "GFX_asian_woman_general_4"
+	texturefile = "gfx/leaders/Asia/Women/Portrait_Asian_Woman_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_asian_woman_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman11.dds"
+}
+
+spriteType = {
+	name = "GFX_asian_woman_general_5"
+	texturefile = "gfx/leaders/Asia/Women/Portrait_Asian_Woman_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_asian_woman_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman10.dds"
+}
+
+
+spriteType = {
+	name = "GFX_asian_woman_general_6"
+	texturefile = "gfx/leaders/Asia/Women/Portrait_Asian_Woman_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_asian_woman_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman9.dds"
+}
+
+
+
+
+#indian subcontinent women
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_1"
+	texturefile = "gfx/leaders/Indian/Women/Portrait_Subcontinent_Woman_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman48.dds"
+}
+
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_2"
+	texturefile = "gfx/leaders/Indian/Women/Portrait_Subcontinent_Woman_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman47.dds"
+}
+
+
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_3"
+	texturefile = "gfx/leaders/Indian/Women/Portrait_Subcontinent_Woman_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman46.dds"
+}
+
+
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_4"
+	texturefile = "gfx/leaders/Indian/Women/Portrait_Subcontinent_Woman_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman45.dds"
+}
+
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_5"
+	texturefile = "gfx/leaders/Indian/Women/Portrait_Subcontinent_Woman_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman44.dds"
+}
+
+
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_6"
+	texturefile = "gfx/leaders/Indian/Women/Portrait_Subcontinent_Woman_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman35.dds"
+}
+
+
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_7"
+	texturefile = "gfx/leaders/Indian/Women/Portrait_Subcontinent_Woman_Generic7.dds"
+}
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman34.dds"
+}
+
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_8"
+	texturefile = "gfx/leaders/Indian/Women/Portrait_Subcontinent_Woman_Generic8.dds"
+}
+spriteType = {
+	name = "GFX_indian_subcon_woman_general_8_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman33.dds"
+}
+
+#arab women
+
+spriteType = {
+	name = "GFX_arab_woman_general_1"
+	texturefile = "gfx/leaders/Arab/Women/Portrait_Arab_Woman_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_arab_woman_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman20.dds"
+}
+
+spriteType = {
+	name = "GFX_arab_woman_general_2"
+	texturefile = "gfx/leaders/Arab/Women/Portrait_Arab_Woman_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_arab_woman_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman19.dds"
+}
+
+
+spriteType = {
+	name = "GFX_arab_woman_general_3"
+	texturefile = "gfx/leaders/Arab/Women/Portrait_Arab_Woman_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_arab_woman_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman18.dds"
+}
+
+
+spriteType = {
+	name = "GFX_arab_woman_general_4"
+	texturefile = "gfx/leaders/Arab/Women/Portrait_Arab_Woman_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_arab_woman_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman17.dds"
+}
+
+spriteType = {
+	name = "GFX_arab_woman_general_5"
+	texturefile = "gfx/leaders/Arab/Women/Portrait_Arab_Woman_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_arab_woman_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman49.dds"
+}
+
+
+spriteType = {
+	name = "GFX_arab_woman_general_6"
+	texturefile = "gfx/leaders/Arab/Women/Portrait_Arab_Woman_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_arab_woman_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman16.dds"
+}
+
+
+spriteType = {
+	name = "GFX_arab_woman_general_7"
+	texturefile = "gfx/leaders/Arab/Women/Portrait_Arab_Woman_Generic7.dds"
+}
+spriteType = {
+	name = "GFX_arab_woman_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman15.dds"
+}
+
+
+#Latam women
+
+
+
+spriteType = {
+	name = "GFX_latin_woman_general_1"
+	texturefile = "gfx/leaders/Latin America/Women/Portrait_Latin_American_Woman_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_latin_woman_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman43.dds"
+}
+
+spriteType = {
+	name = "GFX_latin_woman_general_2"
+	texturefile = "gfx/leaders/Latin America/Women/Portrait_Latin_American_Woman_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_latin_woman_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman42.dds"
+}
+
+
+spriteType = {
+	name = "GFX_latin_woman_general_3"
+	texturefile = "gfx/leaders/Latin America/Women/Portrait_Latin_American_Woman_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_latin_woman_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman41.dds"
+}
+
+
+spriteType = {
+	name = "GFX_latin_woman_general_4"
+	texturefile = "gfx/leaders/Latin America/Women/Portrait_Latin_American_Woman_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_latin_woman_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman40.dds"
+}
+
+spriteType = {
+	name = "GFX_latin_woman_general_5"
+	texturefile = "gfx/leaders/Latin America/Women/Portrait_Latin_American_Woman_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_latin_woman_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman39.dds"
+}
+
+
+spriteType = {
+	name = "GFX_latin_woman_general_6"
+	texturefile = "gfx/leaders/Latin America/Women/Portrait_Latin_American_Woman_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_latin_woman_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman38.dds"
+}
+
+
+spriteType = {
+	name = "GFX_latin_woman_general_7"
+	texturefile = "gfx/leaders/Latin America/Women/Portrait_Latin_American_Woman_Generic7.dds"
+}
+spriteType = {
+	name = "GFX_latin_woman_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman37.dds"
+}
+
+spriteType = {
+	name = "GFX_latin_woman_general_8"
+	texturefile = "gfx/leaders/Latin America/Women/Portrait_Latin_American_Woman_Generic8.dds"
+}
+spriteType = {
+	name = "GFX_latin_woman_general_8_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman36.dds"
+}
+
+
+#SEA women
+
+spriteType = {
+	name = "GFX_southeastasia_woman_general_1"
+	texturefile = "gfx/leaders/Southeast Asia/Women/Portrait_Southeast_Asia_Woman_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_woman_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman29.dds"
+}
+
+spriteType = {
+	name = "GFX_southeastasia_woman_general_2"
+	texturefile = "gfx/leaders/Southeast Asia/Women/Portrait_Southeast_Asia_Woman_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_woman_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman30.dds"
+}
+
+
+spriteType = {
+	name = "GFX_southeastasia_woman_general_3"
+	texturefile = "gfx/leaders/Southeast Asia/Women/Portrait_Southeast_Asia_Woman_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_woman_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman31.dds"
+}
+
+
+spriteType = {
+	name = "GFX_southeastasia_woman_general_4"
+	texturefile = "gfx/leaders/Southeast Asia/Women/Portrait_Southeast_Asia_Woman_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_woman_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman50.dds"
+}
+
+spriteType = {
+	name = "GFX_southeastasia_woman_general_5"
+	texturefile = "gfx/leaders/Southeast Asia/Women/Portrait_Southeast_Asia_Woman_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_woman_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman51.dds"
+}
+
+
+spriteType = {
+	name = "GFX_southeastasia_woman_general_6"
+	texturefile = "gfx/leaders/Southeast Asia/Women/Portrait_Southeast_Asia_Woman_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_woman_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman52.dds"
+}
+
+
+spriteType = {
+	name = "GFX_southeastasia_woman_general_7"
+	texturefile = "gfx/leaders/Southeast Asia/Women/Portrait_Southeast_Asia_Woman_Generic7.dds"
+}
+spriteType = {
+	name = "GFX_southeastasia_woman_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman32.dds"
+}
+
+#central asia
+
+#women 
+spriteType = {
+	name = "GFX_centralasia_woman_general_1"
+	texturefile = "gfx/leaders/Central Asia/Women/Central_Asia_Generic_Woman1.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_woman_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman59.dds"
+}
+
+spriteType = {
+	name = "GFX_centralasia_woman_general_2"
+	texturefile = "gfx/leaders/Central Asia/Women/Central_Asia_Generic_Woman2.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_woman_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman58.dds"
+}
+
+
+spriteType = {
+	name = "GFX_centralasia_woman_general_3"
+	texturefile = "gfx/leaders/Central Asia/Women/Central_Asia_Generic_Woman3.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_woman_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman53.dds"
+}
+
+
+spriteType = {
+	name = "GFX_centralasia_woman_general_4"
+	texturefile = "gfx/leaders/Central Asia/Women/Central_Asia_Generic_Woman4.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_woman_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman57.dds"
+}
+
+spriteType = {
+	name = "GFX_centralasia_woman_general_5"
+	texturefile = "gfx/leaders/Central Asia/Women/Central_Asia_Generic_Woman5.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_woman_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman55.dds"
+}
+
+
+spriteType = {
+	name = "GFX_centralasia_woman_general_6"
+	texturefile = "gfx/leaders/Central Asia/Women/Central_Asia_Generic_Woman6.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_woman_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman54.dds"
+}
+
+
+spriteType = {
+	name = "GFX_centralasia_woman_general_7"
+	texturefile = "gfx/leaders/Central Asia/Women/Central_Asia_Generic_Woman7.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_woman_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman56.dds"
+}
+
+#men
+
+spriteType = {
+	name = "GFX_centralasia_general_1"
+	texturefile = "gfx/leaders/Central Asia/Central_Asia_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister64.dds"
+}
+
+spriteType = {
+	name = "GFX_centralasia_general_2"
+	texturefile = "gfx/leaders/Central Asia/Central_Asia_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister66.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_3"
+	texturefile = "gfx/leaders/Central Asia/Central_Asia_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister65.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_4"
+	texturefile = "gfx/leaders/Central Asia/Central_Asia_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister63.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_5"
+	texturefile = "gfx/leaders/Central Asia/Central_Asia_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister62.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_6"
+	texturefile = "gfx/leaders/Central Asia/Central_Asia_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister61.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_7"
+	texturefile = "gfx/leaders/Central Asia/Central_Asia_Generic7.dds"
+}
+spriteType = {
+	name = "GFX_centralasia_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister60.dds"
+}
+
+
+#turkic
+
+#women 
+spriteType = {
+	name = "GFX_turkic_woman_general_1"
+	texturefile = "gfx/leaders/Turkic/Women/Euro_Turk_Generic_Woman1.dds"
+}
+spriteType = {
+	name = "GFX_turkic_woman_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman64.dds"
+}
+
+spriteType = {
+	name = "GFX_turkic_woman_general_2"
+	texturefile = "gfx/leaders/Turkic/Women/Euro_Turk_Generic_Woman2.dds"
+}
+spriteType = {
+	name = "GFX_turkic_woman_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman66.dds"
+}
+
+
+spriteType = {
+	name = "GFX_turkic_woman_general_3"
+	texturefile = "gfx/leaders/Turkic/Women/Euro_Turk_Generic_Woman3.dds"
+}
+spriteType = {
+	name = "GFX_turkic_woman_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman61.dds"
+}
+
+
+spriteType = {
+	name = "GFX_turkic_woman_general_4"
+	texturefile = "gfx/leaders/Turkic/Women/Euro_Turk_Generic_Woman4.dds"
+}
+spriteType = {
+	name = "GFX_turkic_woman_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman63.dds"
+}
+
+spriteType = {
+	name = "GFX_turkic_woman_general_5"
+	texturefile = "gfx/leaders/Turkic/Women/Euro_Turk_Generic_Woman5.dds"
+}
+spriteType = {
+	name = "GFX_turkic_woman_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman62.dds"
+}
+
+
+spriteType = {
+	name = "GFX_turkic_woman_general_6"
+	texturefile = "gfx/leaders/Turkic/Women/Euro_Turk_Generic_Woman6.dds"
+}
+spriteType = {
+	name = "GFX_turkic_woman_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman60.dds"
+}
+
+
+spriteType = {
+	name = "GFX_turkic_woman_general_7"
+	texturefile = "gfx/leaders/Turkic/Women/Euro_Turk_Generic_Woman7.dds"
+}
+spriteType = {
+	name = "GFX_turkic_woman_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister_woman65.dds"
+}
+
+#men
+
+spriteType = {
+	name = "GFX_turkic_general_1"
+	texturefile = "gfx/leaders/Turkic/Euro_Turk_Generic1.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_1_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister70.dds"
+}
+
+spriteType = {
+	name = "GFX_turkic_general_2"
+	texturefile = "gfx/leaders/Turkic/Euro_Turk_Generic2.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_2_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister71.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_3"
+	texturefile = "gfx/leaders/Turkic/Euro_Turk_Generic3.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_3_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister69.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_4"
+	texturefile = "gfx/leaders/Turkic/Euro_Turk_Generic4.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_4_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister68.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_5"
+	texturefile = "gfx/leaders/Turkic/Euro_Turk_Generic5.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_5_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister67.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_6"
+	texturefile = "gfx/leaders/Turkic/Euro_Turk_Generic6.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_6_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister73.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_7"
+	texturefile = "gfx/leaders/Turkic/Euro_Turk_Generic7.dds"
+}
+spriteType = {
+	name = "GFX_turkic_general_7_small"
+	texturefile = "gfx/interface/ideas/genericofficers/generic_military_minister72.dds"
+}
+
+
+
+
+}

@@ -1,0 +1,145 @@
+characters={
+	BSQ_enrique_rodriguez_galindo ={
+			name= "Enrique Rodríguez Galindo"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Enrique_Rodriguez_Galindo.dds"
+				}
+			}
+			country_leader ={
+				ideology=falangist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Javier_Esparza ={
+			name= "Javier Esparza"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Javier_Esparza.dds"
+				}
+			}
+			country_leader ={
+				ideology=nationalist_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Carlos_Javier_I ={
+			name= "Carlos Javier I"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Carlos_Javier_I.dds"
+				}
+			}
+			country_leader ={
+				ideology=absolute_monarchist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Jone_Amezaga ={
+			name= "Jone Amezaga"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Jone_Amezaga.dds"
+				}
+			}
+			country_leader ={
+				ideology=young_socialist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Santiago_Cervera ={
+			name= "Jone Amezaga"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Santiago_Cervera.dds"
+				}
+			}
+			country_leader ={
+				ideology=christian_democracy
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Inigo_Urkullu ={
+			name= "Iñigo Urkullu"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Inigo_Urkullu.dds"
+				}
+			}
+			country_leader ={
+				ideology=centrist_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Begona_Errazti ={
+			name= "Begoña Errazti"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Begona_Errazti.dds"
+				}
+			}
+			country_leader ={
+				ideology=social_liberal
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Paxti_Lopez ={
+			name= "Paxti López"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Paxti_Lopez.dds"
+				}
+			}
+			country_leader ={
+				ideology=new_democrat_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Julen_Madariaga ={
+			name= "Julen Madariaga"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Julen_Madariaga.dds"
+				}
+			}
+			country_leader ={
+				ideology=democratic_socialist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Arnaldo_Otegi ={
+			name= "Arnaldo Otegi"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Arnaldo_Otegi.dds"
+				}
+			}
+			country_leader ={
+				ideology=orthodox_leninist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	BSQ_Juan_Carolos_Ramos ={
+			name= "Juan Carlos Ramos"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/BSQ/Portrait_BSQ_Juan_Carolos_Ramos.dds"
+				}
+			}
+			country_leader ={
+				ideology=leninist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+}

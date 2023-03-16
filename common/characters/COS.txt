@@ -1,0 +1,145 @@
+characters={
+	COS_alberto_pinto={
+		name="Alberto Pinto"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Alberto_Pinto.dds"
+			}
+		}
+		country_leader={
+			ideology=costa_rican_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_fabricio_alvarado_munoz={
+		name="Fabricio Alvarado Muñoz"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Fabricio_Alvarado_Munoz.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_maria_i={
+		name="Maria I"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Maria_I.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_justo_orozco_alvarez={
+		name="Justo Orozco Álvarez"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Justo_Orozco_Alvarez.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_walter_munoz_cespedes={
+		name="Walter Muñoz Cespedes"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Walter_Munoz_Cespedes.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_rodolfo_piza={
+		name="Rodolfo Piza"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Rodolfo_Piza.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_eliecer_feinzaig_mintz={
+		name="Eliécer Feinzaig Mintz"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Eliecer_Feinzaig_Mintz.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_otton_solis={
+		name="Ottón Solís"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Otton_Solis.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_oscar_arias={
+		name="Óscar Arias"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Oscar_Arias.dds"
+			}
+		}
+		country_leader={
+			ideology=figuerist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_jose_florez_estrada={
+		name="José María Villalta Florez-Estrada"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Jose_Florez_Estrada.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_humberto_vargas_carbonell={
+		name="Humberto Vargas Carbonell"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Portrait_COS_Humberto_Vargas_Carbonell.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

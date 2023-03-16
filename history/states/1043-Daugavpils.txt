@@ -1,0 +1,24 @@
+state={
+	id=1043
+	name="STATE_1043" # Daugavpils
+	manpower = 383888
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = LAT	
+		victory_points = { 341 1 }		
+		victory_points = { 310 1 }
+	}
+
+	provinces={
+		11358 7482 341 222 310 6459 9275 13844
+	}
+}

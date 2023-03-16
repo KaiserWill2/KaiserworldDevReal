@@ -1,0 +1,43 @@
+﻿units= {
+
+	####### NAVAL UNITS #######
+	##### INDIAN FLEET #####
+	##### BATTLE FORCE 1 #####
+	### Mumbai ###
+
+	fleet = {
+		name = "Battle Force 1"			
+		naval_base = 1349 # Mumbai
+		task_force = {
+			name = "1st Fleet"
+			location = 1349 # Mumbai
+			ship = {
+				name = "INS Viraat" definition = carrier equipment = { carrier_1 = { amount = 1 owner = RAJ version_name = "Centaur Class" } }
+			}	
+			ship = { name = "INS Delhi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "INS Mysore" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "INS Mumbai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "INS Rana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "INS Ranvir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "INS Ranvijay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "INS Rajput" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "INS Ranjit" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ version_name = "Delhi Class" } } }
+			ship = { name = "INS Vela" definition = submarine equipment = { submarine_1 = { amount = 1 owner = RAJ version_name = "Vela Class" } } }
+			ship = { name = "INS Vagil" definition = submarine equipment = { submarine_1 = { amount = 1 owner = RAJ version_name = "Vela Class" } } }
+			ship = { name = "INS Sindhughosh" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Sindhudhvaj" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Sindhuraj" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Sindhuvir " definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Sindhuratna" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Sindhukesari" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Sindhukirti" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Sindhuvijay" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Sindhurakshak" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Sindhurashtra" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Sindhughosh Class" } } }
+			ship = { name = "INS Shishumar" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Shishumar Class" } } }
+			ship = { name = "INS Shankush" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Shishumar Class" } } }
+			ship = { name = "INS Shalki" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Shishumar Class" } } }
+			ship = { name = "INS Shankul" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RAJ version_name = "Shishumar Class" } } }
+		}
+	}
+}

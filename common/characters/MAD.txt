@@ -1,0 +1,145 @@
+characters={
+	MAD_ny_hasina_andriamanjato={
+		name="Ny Hasina Andriamanjato"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Ny_Hasina_Andriamanjato.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_camille_albert_vital={
+		name="Camille Albert Vital"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Camille_Albert_Vital.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_marc_ravalomanana={
+		name="Marc Ravalomanana"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Marc_Ravalomanana.dds"
+			}
+		}
+		country_leader={
+			ideology=national_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_ndriana_rabarioelina={
+		name="Ndriana Rabarioelina"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Ndriana_Rabarioelina.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_didier_ratsiraka={
+		name="Didier Ratsiraka"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Didier_Ratsiraka.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_hery_rajaonarimampianina={
+		name="Hery Rajaonarimampianina"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Hery_Rajaonarimampianina.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_andry_rajoelina={
+		name="Andry Rajoelina"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Andry_Rajoelina.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_herizo_razafimahaleo={
+		name="Herizo Razafimahaleo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Herizo_Razafimahaleo.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_elia_ravelomanantsoa={
+		name="Elia Ravelomanantsoa"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Elia_Ravelomanantsoa.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_manandafy_rakotonirina={
+		name="Manandafy Rakotonirina"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Manandafy_Rakotonirina.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_norbert_rakotomanana={
+		name="Norbert Rakotomanana"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Norbert_Rakotomanana.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

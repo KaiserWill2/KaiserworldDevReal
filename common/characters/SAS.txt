@@ -1,0 +1,146 @@
+characters={
+	SAS_michael_perth={
+		name="Michael Perth"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Michael_Perth.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_danny_nalliah={
+		name="Danny Nalliah"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Danny_Nalliah.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_karlene_maywald={
+		name="Karlene Maywald"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Karlene_Maywald.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_hieu_van_le={
+		name="Hieu Van Le"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Hieu_Van_Le.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_sean_allwood={
+		name="Sean Allwood"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Sean_Allwood.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_steven_marshall={
+		name="Steven Marshall"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Steven_Marshall.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_nick_xenophon={
+		name="Nick Xenophon"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Nick_Xenophon.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_natasha_stott_despoja={
+		name="Natasha Stott Despoja"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Natasha_Stott_Despoja.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_jay_weatherill={
+		name="Jay Weatherill"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Jay_Weatherill.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_robert_simms={
+		name="Robert Simms"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_Robert_Simms.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAS_james_supple={
+		name="James Supple"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/Portrait_SAS_James_Supple.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+}

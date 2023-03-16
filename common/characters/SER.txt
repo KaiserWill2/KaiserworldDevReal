@@ -1,0 +1,146 @@
+characters={
+	SER_aleksandar_banjanac={
+		name="Aleksandar Banjanac"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Aleksandar_Banjanac.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_joska_broz={
+		name="Joška Broz"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Joska_Broz.dds"
+			}
+		}
+		country_leader={
+			ideology=titoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_nebojsa_zelenovic={
+		name="Nebojša Zelenović"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Nebojsa_Zelenovic.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_boris_tadic={
+		name="Boris Tadić"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Boris_Tadic.dds"
+			}
+		}
+		country_leader={
+			ideology=radical
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_zoran_zivkovic={
+		name="Zoran Živković"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Zoran_Zivkovic.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_srda_popovic={
+		name="Srđa Popović"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Srda_Popovic.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_aleksandar_vucic={
+		name="Aleksandar Vučić"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Aleksandar_Vucic.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_ivica_dacic={
+		name="Ivica Dačić"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Ivica_Dacic.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_bosko_obradovic={
+		name="Boško Obradović"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Bosko_Obradovic.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_alexander_ii={
+		name="Alexander II"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Alexander_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SER_zeljko_raznatovic={
+		name="Željko Ražnatović"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Zeljko_Raznatovic.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+}

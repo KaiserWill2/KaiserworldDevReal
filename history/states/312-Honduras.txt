@@ -1,0 +1,38 @@
+state=
+{
+	id=312
+	name="STATE_312"
+	manpower=5408057
+	resources={
+
+		chromium=1
+
+	}
+	
+	state_category = large_town
+	history = {
+		owner = CEA
+		add_core_of = HON
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+			13776 = {
+				naval_base = 1
+			}
+			13778 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13778 5
+		}
+		add_core_of = CEA
+		
+
+	}
+	provinces={
+		13781 13778 13780 13776 13774 13772 13773 13777 13775 13779
+	}
+}

@@ -1,0 +1,145 @@
+characters={
+	RLN_mansour_fadlallah_azzam={
+		name="Mansour Fadlallah Azzam"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Mansour_Fadlallah_Azzam.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_salah_adli={
+		name="Salah Adli"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Salah_Adli.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_abdul_kareem_tattan={
+		name="Abdul Kareem Tattan"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Abdul_Kareem_Tattan.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_sameh_fahmi={
+		name="Sameh Fahmi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Sameh_Fahmi.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_fuad_ii={
+		name="Fuad II"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Fuad_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_mohamed_morsi={
+		name="Mohamed Morsi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Mohamed_Morsi.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_ayman_nour={
+		name="Ayman Nour"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Ayman_Nour.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_naguib_onsi_sawiris={
+		name="Naguib Onsi Sawiris"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Naguib_Onsi_Sawiris.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_amr_moussa={
+		name="Amr Moussa"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Amr_Moussa.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_ahmed_bahaa_eldin_shaaban={
+		name="Ahmed Bahaa El-Din Shaaban"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Ahmed_Bahaa_El_Din_Shaaban.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RLN_essam_sharaf={
+		name="Essam Sharaf"
+		portraits={
+			civilian={
+				large="gfx/leaders/RLN/Portrait_RLN_Essam_Sharaf.dds"
+			}
+		}
+		country_leader={
+			ideology=nasserism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

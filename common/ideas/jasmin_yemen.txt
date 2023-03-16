@@ -1,0 +1,1452 @@
+ideas = {
+
+	country = {
+	
+		JAS_organized_militias = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_organized_militias" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { has_war = yes }
+			
+			picture = proud_army
+			
+			modifier = {
+				army_org = 5
+			    army_morale_factor = 0.05
+            }
+		}
+        
+        JAS_freedom_fight = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_freedom_fight" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { has_war = yes }
+			
+			picture = fight_for_freedom
+			
+			modifier = {
+				conscription = 0.01
+            }
+		}
+        
+        JAS_tribes = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_tribes" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { has_war = yes }
+			
+			picture = quick_plan
+			
+			modifier = {
+				defence = 0.05
+                supply_consumption_factor = -0.05
+			}
+		}
+        
+        JAS_final_push = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_final_push" }
+			
+			allowed = {
+				always = no
+			}
+
+			available = { has_war = yes }
+			
+			picture = unstoppable_army
+			
+			modifier = {
+				offence = 0.10
+                defence = 0.05
+            }
+		}
+		
+		JAS_loyalty_army = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_loyalty_army" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = loyal_military
+			
+			modifier = {
+				army_org_factor = 0.10
+                conscription = 0.01
+            }
+		}
+		
+		JAS_dem_constitution = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_dem_constitution" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = democratic_constitution
+			
+			modifier = {
+				liberal_drift = 0.01
+                national_conservative_drift = 0.01
+				new_democrat_drift = 0.01
+                moderate_socialist_drift = 0.01
+			    centrist_drift = 0.01
+			}
+		}
+		
+		JAS_political_moderation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_political_moderation" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = moderation_political
+			
+			modifier = {
+				centrist_drift = 0.01
+                political_power_gain = 0.05
+				national_conservative_drift = 0.01
+				training_time_factor = -0.10
+			    encryption_factor = 0.01
+			}
+		}
+		
+		JAS_values = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_values" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = islamic_politics
+			
+			modifier = {
+				research_speed_factor = 0.02
+				monthly_population = 0.10
+				army_morale_factor = 0.03
+			}
+		}
+		JAS_new_tax_cuts = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_new_tax_cuts" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = new_tax_cuts
+			
+			modifier = {
+				production_speed_buildings_factor = -0.03
+				production_factory_max_efficiency_factor  = 0.05
+				industrial_capacity_factory = 0.15
+				trade_opinion_factor = 0.05
+			}
+		}
+		JAS_privatization = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_privatization" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = free_market_economics
+			
+			modifier = {
+				production_speed_buildings_factor = -0.10
+				production_factory_max_efficiency_factor  = 0.05
+				production_factory_efficiency_gain_factor = 0.025
+				consumer_goods_factor = -0.05
+			}
+		}
+		JAS_liberty = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_liberty" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = freedom_enshrined
+			
+			modifier = {
+				political_power_gain = -0.03
+				stability_factor = 0.10
+				research_speed_factor = 0.02
+			}
+		}
+		JAS_liberal_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_liberal_economy" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = economic_injections
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+				production_speed_arms_factory_factor = -0.15
+				production_speed_industrial_complex_factor = 0.10
+				industrial_capacity_factory = 0.05
+			}
+		}
+		JAS_press_reform = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_press_reform" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = media_rights
+			
+			modifier = {
+				political_power_gain = -0.03
+				liberal_drift = 0.02
+				army_morale_factor = 0.035
+			}
+		}
+		JAS_equality = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_equality" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = equal_yemen
+			
+			modifier = {
+				consumer_goods_factor = 0.01
+				industrial_capacity_factory = 0.05
+				training_time_factor = -0.10
+				foreign_subversive_activites = -0.30
+			}
+		}
+		JAS_open_borders = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_open_borders" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = open_borders
+			
+			modifier = {
+				monthly_population = 0.05
+				production_speed_buildings_factor = 0.075
+				trade_opinion_factor = 0.10
+				drift_defence_factor = -0.10
+			}
+		}
+		JAS_equality_gender = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_equality_gender" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = gender_equality
+			
+			modifier = {
+				monthly_population = -0.10
+				production_factory_max_efficiency_factor = 0.10
+				conscription_factor = 0.05
+				research_speed_factor = 0.02
+			}
+		}
+		JAS_minds = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_minds" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = future_minds
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		JAS_secular_nation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_secular_nation" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = disciplinary_education
+			
+			modifier = {
+				research_speed_factor = -0.02
+				national_conservative_drift = -0.01
+				fascist_drift = -0.01
+				political_power_gain = 0.05
+				decryption_factor = 0.01
+				encryption_factor = 0.01
+			}
+		}
+		JAS_soc_alliance = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_soc_alliance" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = social_unity
+			
+			modifier = {
+			    new_democrat_drift = 0.02
+				moderate_socialist_drift = 0.01
+			}
+		}
+		JAS_healthcare = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_healthcare" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = universal_healthcare
+			
+			modifier = {
+			    consumer_goods_factor = 0.02
+				monthly_population = 0.075
+				conscription_factor = 0.05
+				global_building_slots_factor = 0.10
+			}
+		}
+		JAS_welfare_net = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_welfare_net" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = welfare_state
+			
+			modifier = {
+			    consumer_goods_factor = 0.03
+				production_factory_max_efficiency_factor = 0.03
+				production_factory_start_efficiency_factor = 0.075
+			}
+		}
+		JAS_unions_ally = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_unions_ally" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = socialism_forever
+			
+			modifier = {
+			    political_power_gain = 0.05
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.05
+				local_resources_factor = 0.035
+			}
+		}
+		JAS_nationalizations = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_nationalizations" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = totalitarian_economy
+			
+			modifier = {
+			    consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.15
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		JAS_worker = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_worker" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = support_workers
+			
+			modifier = {
+			    consumer_goods_factor = -0.05
+				line_change_production_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.03
+				industry_free_repair_factor = 0.10
+			}
+		}
+		JAS_army_reform = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_army_reform" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = modernised_army
+			
+			modifier = {
+			    army_morale_factor = 0.05
+				army_org_factor = 0.05
+				supply_consumption_factor = -0.10
+			}
+		}
+		JAS_anti_radical = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_anti_radical" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = eliminate_radicalism
+			
+			modifier = {
+			    nationalist_drift = -0.01
+				fascist_drift = -0.01
+				communist_drift = -0.01
+				monarchist_drift = -0.01
+				national_bolshevik_drift = -0.01
+				revolutionary_socialist_drift = -0.01
+			}
+		}
+		JAS_recovery_plan = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_recovery_plan" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = national_recovery
+			
+			modifier = {
+			    production_speed_infrastructure_factor = 0.20
+			}
+		}
+		JAS_electrification = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_electrification" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = electrification
+			
+			modifier = {
+			    production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.025
+			}
+		}
+		JAS_industrial_parks = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_industrial_parks" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = rapid_national_development
+			
+			modifier = {
+			    industrial_capacity_factory = 0.075
+			}
+		}
+		JAS_production = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_production" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = increased_output
+			
+			modifier = {
+			    line_change_production_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.10
+			}
+		}
+		JAS_construction_modern = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_construction_modern" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = modern_construction_methods
+			
+			modifier = {
+			    production_speed_buildings_factor = 0.15
+			}
+		}
+		JAS_ports_upgrade = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_ports_upgrade" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = naval_base_visits
+			
+			modifier = {
+			    industrial_capacity_dockyard = 0.15
+				supply_consumption_factor = -0.10
+			}
+		}
+		JAS_trade_links = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_trade_links" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = new_tradelinks
+			
+			modifier = {
+			    trade_opinion_factor = 0.20
+			}
+		}
+		JAS_tourism_boom = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_tourism_boom" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = booming_tourism
+			
+			modifier = {
+			    consumer_goods_factor = -0.03
+			}
+		}
+		JAS_sufficiency = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_sufficiency" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = agriculture_focus
+			
+			modifier = {
+			    monthly_population = 0.03
+			}
+		}
+		JAS_cash_crop = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_cash_crop" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = cash_crop_agriculture
+			
+			modifier = {
+			    consumer_goods_factor = -0.05
+			}
+		}
+		JAS_mines = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_mines" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_mining
+			
+			modifier = {
+			    local_resources_factor = 0.15
+			}
+		}
+		JAS_oil_drill = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_oil_drill" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = oil_drilling
+			
+			modifier = {
+			    fuel_gain_factor = 0.05
+			}
+		}
+		JAS_assistance = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_assistance" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = canadian_assistance
+			
+			modifier = {
+			    industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		JAS_advisors = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_advisors" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = canadian_advisors
+			
+			modifier = {
+			    army_org_factor = 0.05
+				offence = 0.05
+			}
+		}
+		JAS_intervention = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_intervention" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = military_governance
+			
+			modifier = {
+			    army_org_factor = 0.05
+				offence = 0.05
+			}
+		}
+		JAS_neutrality = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_neutrality" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = neutral_foreign_policy
+			
+			modifier = {
+			   	justify_war_goal_time = 0.75
+			}
+		}
+		JAS_national_defense = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAS_national_defense" }
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = national_defence_committee
+			
+			modifier = {
+			   	army_core_defence_factor = 0.15
+			}
+		}
+		
+		JAS_integrated_arab_militaries = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = national_defence_committee
+			
+			modifier = {
+			   	army_morale_factor = 0.07
+				army_defence_factor = 0.05
+			}
+		}
+		
+		JAS_self_sufficiency = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = national_defence_committee
+			
+			modifier = {
+			   	monthly_population = 0.03
+			}
+		}
+		JAS_marxist_agitation = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = strong_unions
+			
+			modifier = {
+			   	political_power_gain = -0.01
+				stability_factor = -0.05
+			}
+		}
+		JAS_jasmine_unity = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = united_nation
+			
+			modifier = {
+			   	political_power_gain = 0.035
+				stability_factor = 0.10
+			}
+		}
+		JAS_jasmine_unity2 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = united_nation
+			
+			modifier = {
+			   	political_power_gain = 0.01
+				stability_factor = 0.10
+			}
+		}
+		JAS_jasmine_breakdown = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = nation_chaos
+			
+			modifier = {
+			   	political_power_gain = -0.045
+				stability_factor = -0.10
+			}
+		}
+		JAS_national_front_eternal = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = social_unity
+			
+			modifier = {
+				stability_weekly = 0.02
+				war_support_weekly = 0.01
+				political_power_gain = 0.035
+				conscription = 0.05
+				new_democrat_drift = 0.03
+				revolutionary_socialist_drift = 0.01
+                moderate_socialist_drift = 0.01
+			}
+		}
+		JAS_jasmine_cooperation = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = united_nation
+			
+			modifier = {
+			   	political_power_gain = -0.01
+				stability_factor = -0.05
+			}
+		}
+		JAS_british_guns = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = yemen_arms_deal
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+			modifier = {
+			}
+		}
+		JAS_ENG_yemeni_arms_deal = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = yemen_arms_deal
+			
+			modifier = {
+				consumer_goods_factor = -0.01
+			}
+		}
+		JAS_RAJ_yemeni_employment_deal = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_employement_deal
+			
+			modifier = {
+				consumer_goods_factor = -0.01
+			}
+		}
+		JAS_indian_workers = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_employement_deal
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_factory_start_efficiency_factor = 0.025
+			}
+		}
+		JAS_australian_mining_expertise = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_mining
+			
+			modifier = {
+				local_resources_factor = 0.05
+			}
+		}
+		JAS_AST_yemeni_mining = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_mining
+			
+			modifier = {
+				local_resources_factor = 0.025
+			}
+		}
+		JAS_japanese_electronics = {
+		
+			allowed = {
+				always = no
+				
+			}
+			
+			picture = yemeni_exports
+			
+			modifier = {
+				industrial_capacity_factory = 0.025
+			}
+		}
+		JAS_JAP_yemeni_exports = {
+		
+			allowed = {
+				always = no
+				
+			}
+			
+			picture = yemeni_exports
+			
+			modifier = {
+				consumer_goods_factor = -0.01
+			}
+		}
+		JAS_iranian_cooperation = {
+		
+			allowed = {
+				always = no
+			}
+			
+			picture = iranian_cooperation
+			
+			modifier = {
+				army_defence_factor = 0.025
+			}
+		}
+		JAS_PER_yemeni_exports = {
+		
+			allowed = {
+				always = no
+				
+			}
+			
+			picture = yemeni_exports
+			
+			modifier = {
+				consumer_goods_factor = -0.01
+			}
+		}
+	}
+	
+	second_in_command = {
+	    jasmine_sic_najeeb_qahtan_al_shaabi = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+				NOT = {
+					has_country_leader = {
+						name = "Najeeb Qahtan Al-Sha'abi"
+						ruling_only = yes
+					}
+				}
+			    AND = {
+					has_government = new_democrat
+				}
+			}
+			
+			traits = { power_hungry_demagogue }			
+		}
+		
+		jasmine_sic_abdel_aziz_bin_habtour = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+			    OR = {
+					has_government = centrist
+				} 
+			}
+			
+			traits = { corporate_suit }			
+		}
+		
+		jasmine_sic_arwa_othman = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+			    OR = {
+					has_government = liberal
+				} 
+			}
+			
+			traits = { naive_optimist }			
+		}
+		
+		jasmine_sic_refat_hasan_hamoud_braz = {
+		
+		    allowed = {
+			    OR = {
+					original_tag = JAS
+					original_tag = PDY
+				}
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+				} 
+			}
+			
+			traits = { ambitious_union_boss }			
+		}
+	}
+	
+	foreign_minister = {
+	    jasmine_fom_tawakkol_karman = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+				NOT = {
+					has_country_leader = {
+						name = "Najeeb Qahtan Al-Sha'abi"
+						ruling_only = yes
+					}
+				}
+			    OR = {
+					has_government = new_democrat
+					has_government = liberal
+				}
+			}
+			traits = { ideological_crusader }			
+		}
+		
+		jasmine_fom_hisham_sharaf = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+			    OR = {
+					has_government = centrist
+				} 
+			}
+			
+			traits = { international_schemer }			
+		}
+		
+		jasmine_fom_abdullah_al_saidi = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+			    OR = {
+					has_government = liberal
+				} 
+			}
+			
+			traits = { ideological_crusader }			
+		}
+		
+		jasmine_fom_majed_abdul_latif_al_humaidi = {
+		
+		    allowed = {
+			    OR = {
+					original_tag = JAS
+				}
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+					has_government = moderate_socialist
+				} 
+			}
+			
+			traits = { great_compromiser }			
+		}
+	}
+
+	industry_minister = {
+	    jasmine_ind_abd_rabbo_hussein = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+				} 
+			}
+			
+			traits = { private_military_specialist }			
+		}
+		
+	    jasmine_ind_mohamed_awad_bin_humam = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+			    OR = {
+					has_government = centrist
+					has_government = national_conservative
+				} 
+			}
+			
+			traits = { resource_industrialist }			
+		}
+
+	    jasmine_ind_abdulaziz_al_saqqaf = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+			    OR = {
+					has_government = liberal
+				} 
+			}
+			
+			traits = { administrative_genius }			
+		}
+		
+	    jasmine_ind_shawki_ahmed_hayel_saeed = {
+		
+		    allowed = {
+			    OR = {
+					original_tag = JAS
+					original_tag = PDY
+				}
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+					has_government = moderate_socialist
+				} 
+			}
+			
+			traits = { administrative_genius }			
+		}
+	}
+		
+	national_security_minister = {
+	    jasmine_nsm_khaled_bahah = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+				NOT = {
+					has_country_leader = {
+						name = "Najeeb Qahtan Al-Sha'abi"
+						ruling_only = yes
+					}
+				}
+			    OR = {
+					has_government = new_democrat
+					has_government = centrist
+				}
+			}
+			traits = { compassionate_gentleman }			
+		}
+		
+		jasmine_nsm_nayef_al_bakri = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+			    OR = {
+					has_government = centrist
+				} 
+			}
+			
+			traits = { efficient_sociopath }			
+		}
+		
+		jasmine_nsm_huda_al_sarari = {
+		
+		    allowed = {
+			    original_tag = JAS
+			}
+			
+			available = {
+			    OR = {
+					has_government = liberal
+					has_government = new_democrat
+				} 
+			}
+			
+			traits = { silent_lawyer }			
+		}
+		
+		jasmine_nsm_abdel_karim_al_khaiwani = {
+		
+		    allowed = {
+			    OR = {
+					original_tag = JAS
+					original_tag = PDY
+				}
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+				} 
+			}
+			
+			traits = { compassionate_gentleman }			
+		}
+	}
+		
+	intelligence_minister = {
+	    jasmine_inm_ahmad_saif_al_yaffi = {
+		
+		    allowed = {
+			    OR = {
+					original_tag = JAS
+					original_tag = PDY
+				}
+			}
+			
+			available = {
+			    OR = {
+					has_government = new_democrat
+					has_government = liberal
+					has_government = centrist
+				} 
+			}
+			
+			traits = { intelligence_director }			
+		}
+	}
+	tank_manufacturer = { 
+	
+		designer = yes
+		
+		adhi = {
+
+			picture = adhi
+			
+			allowed = {
+			    original_tag = JAS
+			}
+		
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+	naval_manufacturer = { 
+	
+		designer = yes
+	
+		red_sea_ports_jas = {
+			
+			picture = red_sea_ports
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+	aircraft_manufacturer = { 
+	
+		designer = yes
+	
+		aden_military_solutions_light = {
+			
+			picture = aden_military_solutions
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		aden_military_solutions_medium = {
+			
+			picture = aden_military_solutions
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		aden_military_solutions_heavy = {
+			
+			picture = aden_military_solutions
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		aden_military_solutions_naval = {
+			
+			picture = aden_military_solutions
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+	}
+	industrial_concern = {
+		aden_engineering = {
+			
+			picture = aden_engineering
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		general_tire_corporation = {
+			
+			picture = general_tire_corporation
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = refinery_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				synth_resources = 0.10
+			}
+			
+			traits = { refinery_concern }
+		}
+		
+		university_aden = {
+			
+			picture = university_aden
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+	}
+	materiel_manufacturer = {
+	
+		designer = yes
+	
+		Textron_jas = {
+			
+			picture = Textron
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		yemen_colt = {
+			
+			picture = yemen_colt
+
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		bae_systems_jas = {
+			
+			picture = bae_systems
+			allowed = {
+			    original_tag = JAS
+				NOT = {
+					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+}
+
+
+

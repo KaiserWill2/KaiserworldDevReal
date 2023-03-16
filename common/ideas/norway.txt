@@ -1,0 +1,32 @@
+ideas = {
+
+	country = {	
+		
+		King_Harald_V = {
+			allowed = {
+				always = no
+			}
+			
+			picture = Harald_V_idea
+
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+
+			modifier = {
+				monarchist_drift  = 0.02
+				
+			}
+	    }
+	}
+
+
+
+
+
+	
+}

@@ -1,0 +1,3986 @@
+spriteTypes = {	
+
+	
+	spriteType = {
+		name = "GFX_idea_advisor1_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor2_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor2.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_advisor3_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor3.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_advisor4_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor5_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor5.dds"
+	}
+
+    spriteType = {
+		name = "GFX_idea_advisor6_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor6.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_advisor7_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor8_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor9_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor10_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor11_african_2d"
+		texturefile = "gfx/interface/ideas/advisors/africa/african_advisor11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor1_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor2_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor3_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor4_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor5_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor6_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor7_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor8_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor9_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor10_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor11_asian_2d"
+		texturefile = "gfx/interface/ideas/advisors/asia/asian_advisor11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor1_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor2_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor3_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor4_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor5_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor6_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor7_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor8_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor9_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor10_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor11_western_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor1_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor2_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor3_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor4_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor5_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor6_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor7_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor8_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor9_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor10_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor11_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor1_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor2_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor3_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor4_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor5_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor6_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor7_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor8_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor9_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor10_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_advisor11_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/advisors/middle_east/arab_advisor11.dds"
+	}
+	
+	#### SOVIET ADVISORS ####
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_alexander_lukashenko"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_alexander_lukashenko.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_vladimir_putin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_vladimir_putin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_gennady_zyuganov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_gennady_zyuganov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_viktor_tyulkin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_viktor_tyulkin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_volodymyr_lytvyn"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_volodymyr_lytvyn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_dmitry_medvedev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_dmitry_medvedev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_ivan_melnikov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_ivan_melnikov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_hienadz_buraukin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_hienadz_buraukin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_huseyngulu_baghirov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_huseyngulu_baghirov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_nikolay_yegorovich"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_nikolay_yegorovich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_vladimir_masorin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_vladimir_masorin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_alexander_zelin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_alexander_zelin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_petro_symonenko"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_petro_symonenko.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_yevgeny_primakov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_yevgeny_primakov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_anatoly_chubais"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_anatoly_chubais.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_iskander_makhumudov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_iskander_makhumudov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_patriarch_kirill"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_patriarch_kirill.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_andrey_yuryevich_vorobyov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_andrey_yuryevich_vorobyov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_vyacheslav_nikonov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_vyacheslav_nikonov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_irina_yarovaya"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_irina_yarovaya.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_galina_khovanskaya"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_galina_khovanskaya.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_sergey_neverov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_sergey_neverov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_mikhail_khodorkovsky"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_mikhail_khodorkovsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_gennady_timchenko"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_gennady_timchenko.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_vyacheslav_volodin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_vyacheslav_volodin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_boris_gryzlov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_boris_gryzlov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_arkady_rotenberg"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_arkady_rotenberg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_darya_mitina"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_darya_mitina.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_sergey_naryshkin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_sergey_naryshkin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_stepan_poltorak"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_stepan_poltorak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_andrey_savelyev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_andrey_savelyev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_vladimir_zhirinovsky"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_vladimir_zhirinovsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_aleksandr_dugin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_aleksandr_dugin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_natalia_poklonskaya"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_natalia_poklonskaya.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_vladimir_lukin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_vladimir_lukin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_sergey_mitrokhin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_sergey_mitrokhin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_sergey_mironov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_sergey_mironov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_nikolai_levichev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_nikolai_levichev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_gennady_gudkov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_gennady_gudkov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sic_alexander_rutskoy"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sic_alexander_rutskoy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_nikolai_ryzhkov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_nikolai_ryzhkov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_eduard_shevardnadze"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_eduard_shevardnadze.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_boris_pankin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_boris_pankin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_sergey_lavrov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_sergey_lavrov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_igor_ivanov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_igor_ivanov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_anatoly_antonov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_anatoly_antonov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_teimuraz_ramishvili"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_teimuraz_ramishvili.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_dmitry_rogozin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_dmitry_rogozin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_igor_sechin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_igor_sechin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_rashid_nurgaliyev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_rashid_nurgaliyev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_sergey_shoygu"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_sergey_shoygu.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_alexei_kudrin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_alexei_kudrin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_andrei_karlov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_andrei_karlov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_yuri_fedotov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_yuri_fedotov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_aleksander_avdeyev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_aleksander_avdeyev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_petro_poroshenko"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_petro_poroshenko.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_nino_burjanadze"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_nino_burjanadze.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_oleksandr_yakymenko"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_oleksandr_yakymenko.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_maxym_polyakov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_maxym_polyakov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_yulia_tymoshenko"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_yulia_tymoshenko.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_sergei_gaidukevich"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_sergei_gaidukevich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_zakir_hasanov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_zakir_hasanov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_islam_karimov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_islam_karimov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_fom_alexander_rutskoy"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_fom_alexander_rutskoy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_vadim_bakatin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_vadim_bakatin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_alexander_shokhin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_alexander_shokhin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_boris_titov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_boris_titov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_eugene_kaspersky"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_eugene_kaspersky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_mikhail_prokhorov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_mikhail_prokhorov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_yegor_gaidar"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_yegor_gaidar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_andrey_nechaev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_andrey_nechaev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_nursultan_nazarbayev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_nursultan_nazarbayev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_zurab_noghaideli"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_zurab_noghaideli.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_borys_paton"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_borys_paton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_anatoliy_serdyukov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_anatoliy_serdyukov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_sergei_shmatko"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_sergei_shmatko.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_dmitry_kozak"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_dmitry_kozak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_ind_dmitry_medvedev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_ind_dmitry_medvedev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_aleksey_aleksandrov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_aleksey_aleksandrov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_sergei_gorkov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_sergei_gorkov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_vladimir_kolokoltsev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_vladimir_kolokoltsev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_vladimir_putin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_vladimir_putin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_igor_sechin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_igor_sechin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_sergey_sobyanin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_sergey_sobyanin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_bakhytzhan_sagintayev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_bakhytzhan_sagintayev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_gela_charkviani"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_gela_charkviani.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_yaroslav_nilov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_yaroslav_nilov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_mikhail_gorbachev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_mikhail_gorbachev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_nikolay_vinnichenko"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_nikolay_vinnichenko.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_oleg_mitvol"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_oleg_mitvol.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_nsm_yury_chaika"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_nsm_yury_chaika.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_vladimir_putin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_vladimir_putin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_leonid_moiseyev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_leonid_moiseyev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_vladimir_ivanovich_korolev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_vladimir_ivanovich_korolev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_vladimir_zhirinovsky"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_vladimir_zhirinovsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_viktor_chirkov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_viktor_chirkov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_alexander_bortnikov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_alexander_bortnikov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_nikolai_patrushev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_nikolai_patrushev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_olga_golodets"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_olga_golodets.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_vladimir_puchkov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_vladimir_puchkov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_inm_ilya_ponomarev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_inm_ilya_ponomarev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_valery_gerasimov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_valery_gerasimov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_yuri_baluyevsky"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_yuri_baluyevsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_vladimir_kuroyedov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_vladimir_kuroyedov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_sergei_avakyants"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_sergei_avakyants.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_tatiana_anodina"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_tatiana_anodina.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_viktor_bondarev"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_viktor_bondarev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_oleg_salyukov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_oleg_salyukov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_vladimir_chirkin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_vladimir_chirkin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_vladimir_masorin"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_vladimir_masorin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_soviet_anatoly_kornukov"
+		texturefile = "gfx/interface/ideas/advisors/soviets/soviet_anatoly_kornukov.dds"
+	}
+	
+	#### UAR ADVISORS ####
+	
+	spriteType = {
+		name = "GFX_idea_uar_sedki_sobhy"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sedki_sobhy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_mohamed_hussein_tantawi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_mohamed_hussein_tantawi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_abdel_fattah_el_sisi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_abdel_fattah_el_sisi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_mahmoud_hegazy"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_mahmoud_hegazy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_osama_el_gendi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_osama_el_gendi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_mohab_mamish"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_mohab_mamish.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_abdul_meniem_al_toras"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_abdul_meniem_al_toras.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_younes_hamed"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_younes_hamed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_mamdouh_shahin"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_mamdouh_shahin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_hassan_al_roueini"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_hassan_al_roueini.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ahmed_khaled_hassan_saeed"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ahmed_khaled_hassan_saeed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ragaa_rabie_youssef"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ragaa_rabie_youssef.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_ahmed_shafik"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_ahmed_shafik.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_abdel_fattah_el_sisi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_abdel_fattah_el_sisi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_ahmed_nazif"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_ahmed_nazif.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_tarek_kamel"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_tarek_kamel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_hesham_qandil"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_hesham_qandil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_omar_suleiman"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_omar_suleiman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_mohamed_hussein_tantawi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_mohamed_hussein_tantawi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_osama_el_gendi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_osama_el_gendi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_abdul_meniem_al_toras"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_abdul_meniem_al_toras.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_mohamed_kamel_amr"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_mohamed_kamel_amr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_nagwa_khalil"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_nagwa_khalil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_nassef_sawiris"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_nassef_sawiris.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_mohamed_mansour"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_mohamed_mansour.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_ahmed_el_tayeb"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_ahmed_el_tayeb.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_kamal_abu_eita"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_kamal_abu_eita.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_pope_tawadros"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_pope_tawadros.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_sedki_sobhi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_sedki_sobhi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_hisham_zazou"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_hisham_zazou.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_tarek_el_molla"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_tarek_el_molla.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_rachid_mohamed_rachid"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_rachid_mohamed_rachid.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_habib_el_adly"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_habib_el_adly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_bashar_al_assad"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_bashar_al_assad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_hamdeen_sabahi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_hamdeen_sabahi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_hassan_al_nouri"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_hassan_al_nouri.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_ibrahim_al_badri"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_ibrahim_al_badri.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_mahmoud_hegazy"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_mahmoud_hegazy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_mohamed_morsi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_mohamed_morsi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_sic_ibrahim_mahlab"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_sic_ibrahim_mahlab.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_ahmed_aboul_gheit"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_ahmed_aboul_gheit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_sameh_shoukry"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_sameh_shoukry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_essam_sharaf"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_essam_sharaf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_mohamed_abu_hamed"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_mohamed_abu_hamed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_mohamed_morsi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_mohamed_morsi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_momtaz_el_saeed"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_momtaz_el_saeed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_bashar_al_assad"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_bashar_al_assad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_sameh_fahmi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_sameh_fahmi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_samir_radwan"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_samir_radwan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_ahmed_mekki"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_ahmed_mekki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_abdel_fattah_el_sisi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_abdel_fattah_el_sisi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_kamal_ganzouri"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_kamal_ganzouri.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_mohamed_hussein_tantawi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_mohamed_hussein_tantawi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_fom_hossam_badrawi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_fom_hossam_badrawi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_laila_iskander"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_laila_iskander.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_sherif_ismail"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_sherif_ismail.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_hazem_el_beblawi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_hazem_el_beblawi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_essam_khalil"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_essam_khalil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_mohamed_moustafa"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_mohamed_moustafa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_onsi_sawiris"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_onsi_sawiris.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_ahmed_galal"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_ahmed_galal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_faten_zahran_mohammed"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_faten_zahran_mohammed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_mahmoud_balbaa"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_mahmoud_balbaa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_ind_mounir_abdel_nour"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_ind_mounir_abdel_nour.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_gamal_eid"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_gamal_eid.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_atef_helmy"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_atef_helmy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_abdel_fattah_el_sisi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_abdel_fattah_el_sisi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_farouk_el_okdah"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_farouk_el_okdah.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_mahmoud_zakzouk"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_mahmoud_zakzouk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_fahd_jassem_al_freij"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_fahd_jassem_al_freij.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_mohamed_arab"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_mohamed_arab.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_taher_helmy"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_taher_helmy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_mohamed_morsi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_mohamed_morsi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_nsm_sedki_sobhy"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_nsm_sedki_sobhy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_inm_khaled_fawzy"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_inm_khaled_fawzy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_inm_mohamed_raafat_shehata"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_inm_mohamed_raafat_shehata.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_inm_ahmed_ali_fadel"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_inm_ahmed_ali_fadel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_inm_maged_abdelaziz"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_inm_maged_abdelaziz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_inm_youssef_boutros_ghali"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_inm_youssef_boutros_ghali.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uar_inm_murad_muwafi"
+		texturefile = "gfx/interface/ideas/advisors/uar/uar_inm_murad_muwafi.dds"
+	}
+	
+	#### CANADA ADVISORS ####
+	
+	spriteType = {
+		name = "GFX_idea_canada_sic_stockwell_day"
+		texturefile = "gfx/interface/ideas/advisors/canada/canada_sic_stockwell_day.dds"
+	}
+	
+
+	##AMERICA#### 
+
+	spriteType = {
+		name = "GFX_idea_usa_russ_feingold"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_russ_feingold.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_cornel_west"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_cornel_west.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_barbara_lee"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_barbara_lee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_andrew_bacevich"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_andrew_bacevich.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_barack_obama"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_barack_obama.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_talib"
+		texturefile = "gfx/interface/ideas/advisors/yemen/talib.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_thomas_robb"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_thomas_robb.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_michael_duke"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_michael_duke.dds"
+	}
+
+spriteType = {
+		name = "GFX_idea_usa_roy_moore"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_roy_moore.dds"
+	}
+
+spriteType = {
+		name = "GFX_idea_usa_jody_hice"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_jody_hice.dds"
+	}
+
+spriteType = {
+		name = "GFX_idea_usa_mark_milley"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_mark_milley.dds"
+	}
+
+spriteType = {
+		name = "GFX_idea_usa_thomas_ridge"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_thomas_ridge.dds"
+	}
+
+spriteType = {
+		name = "GFX_idea_usa_mitch_mcconnell"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_mitch_mcconnell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_karl_rove"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_karl_rove.dds"
+	}
+
+spriteType = {
+		name = "GFX_idea_usa_lindsey_graham"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_lindsey_graham.dds"
+	}
+
+spriteType = {
+		name = "GFX_idea_usa_omarosa_manigault"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_omarosa_manigault.dds"
+	}
+
+spriteType = {
+		name = "GFX_idea_usa_william_mcraven"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_william_mcraven.dds"
+	}
+
+spriteType = {
+		name = "GFX_idea_usa_jeff_sessions"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_jeff_sessions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_charlie_crist"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_charlie_crist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_david_boaz"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_david_boaz.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_kathleen_blanco"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_kathleen_blanco.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_cedric_richmond"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_cedric_richmond.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_bennie_thompson"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_bennie_thompson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_paul_selva"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_paul_selva.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_usa_richard_burr"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_richard_burr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_peter_brimelow"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_peter_brimelow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_tom_metzger"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_tom_metzger.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_charles_murray"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_charles_murray.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_george_wallace_jr"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_george_wallace_jr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_steve_womack"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_steve_womack.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_john_bolton"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_john_bolton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_henry_kissinger"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_henry_kissinger.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_hugh_shelton"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_hugh_shelton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_roger_wicker"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_roger_wicker.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_condoleezza_rice"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_condoleezza_rice.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_joe_wilson"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_joe_wilson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_jeff_sessions"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_jeff_sessions.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_paul_wolfowitz"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_paul_wolfowitz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_bobby_jindal"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_bobby_jindal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_virgil_goode"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_virgil_goode.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_foster_campbell"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_foster_campbell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_bobby_rush"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_bobby_rush.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_jim_cooper"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_jim_cooper.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_abigail_spanberger"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_abigail_spanberger.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_brian_mast"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_brian_mast.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_fom_john_mcaffee"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_fom_john_mcaffee.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_william_regnery_ii"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_william_regnery_ii.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_charles_murray"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_charles_murray.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_don_blankenship"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_don_blankenship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_robert_mercer"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_robert_mercer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_david_j_lesar"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_david_j_lesar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_robert_j_stevens"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_robert_j_stevens.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_darren_woods"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_darren_woods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_rob_walton"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_rob_walton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_bradley_byrne"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_bradley_byrne.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_matt_gaetz"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_matt_gaetz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_rex_tillerson"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_rex_tillerson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_henry_paulson"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_henry_paulson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_neil_bush"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_neil_bush.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_elaine_chao"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_elaine_chao.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_mark_sanford"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_mark_sanford.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_jim_demint"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_jim_demint.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_scott_rigell"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_scott_rigell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_kay_ivey"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_kay_ivey.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_ted_turner"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_ted_turner.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_andrew_gillum"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_andrew_gillum.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_david_scott"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_david_scott.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_mario_diaz_balart"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_mario_diaz_balart.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_john_barrow"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_john_barrow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_randall_g_holcombe"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_randall_g_holcombe.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_robert_sarvis"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_robert_sarvis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_terri_sewell"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_terri_sewell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_ind_stephanie_murphy"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_ind_stephanie_murphy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_michael_hill"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_michael_hill.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_roy_moore"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_roy_moore.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_darrell_castle"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_darrell_castle.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_oliver_north"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_oliver_north.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_robert_j_stevens"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_robert_j_stevens.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_john_riccitiello"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_john_riccitiello.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_john_f_kelly"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_john_f_kelly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_richard_armitage"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_richard_armitage.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_tom_cotton"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_tom_cotton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_steven_palazzo"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_steven_palazzo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_robert_gates"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_robert_gates.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_wayne_lapierre"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_wayne_lapierre.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_steve_scalise"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_steve_scalise.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_mike_huckabee"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_mike_huckabee.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_luther_strange"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_luther_strange.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_ralph_northam"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_ralph_northam.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_john_lewis"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_john_lewis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_joe_manchin"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_joe_manchin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_joe_biden"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_joe_biden.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_elizabeth_guzman"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_elizabeth_guzman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_roy_barnes"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_roy_barnes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_sanford_bishop"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_sanford_bishop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_nsm_john_monds"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_nsm_john_monds.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_david_wayne_hull"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_david_wayne_hull.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_sam_dickson"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_sam_dickson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_cofer_black"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_cofer_black.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_donald_kerr"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_donald_kerr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_richard_l_burgess_jr"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_richard_l_burgess_jr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_john_michael_mcconnell"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_john_michael_mcconnell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_michael_hayden"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_michael_hayden.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_john_negroponte"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_john_negroponte.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_gina_haspel"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_gina_haspel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_william_joseph_burns"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_william_joseph_burns.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_michael_morell"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_michael_morell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_inm_mike_pompeo"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_inm_mike_pompeo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_army_chief_mark_milley"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_army_chief_mark_milley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_army_chief_michael_hagee"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_army_chief_michael_hagee.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_navy_chief_william_mcraven"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_navy_chief_william_mcraven.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_navy_chief_john_richardson"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_navy_chief_john_richardson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_air_chief_paul_selva"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_air_chief_paul_selva.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_air_chief_t_michael_moseley"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_air_chief_t_michael_moseley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_high_command_michael_hayden"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_high_command_michael_hayden.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_high_command_hugh_shelton"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_high_command_hugh_shelton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_high_command_duncan_mcnabb"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_high_command_duncan_mcnabb.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_high_command_brett_p_giroir"
+		texturefile = "gfx/interface/ideas/advisors/usa/usa_high_command_brett_p_giroir.dds"
+	}
+	
+	###BRITAIN ADVISORS###
+	
+	spriteType = {
+		name = "GFX_idea_Britain_Esther_Mcvey"
+		texturefile = "gfx/interface/ideas/advisors/britain/Britain_Esther_Mcvey.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_Matt_Hancock"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Matt_Hancock.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_Matt_Hancock"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Matt_Hancock.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_ian_duncan_smith"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_ian_duncan_smith.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Britain_Nadine_Dorries"
+		texturefile = "gfx/interface/ideas/advisors/britain/Britain_Nadine_Dorries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_michael_caine"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_michael_caine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_Amber_Rudd"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Amber_Rudd.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_rory_stewart"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_rory_stewart.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_britain_rowan_atkinson"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_rowan_atkinson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Britain_Kate_Hoey"
+		texturefile = "gfx/interface/ideas/advisors/britain/Britain_Kate_Hoey.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Britain_Margaret_Beckett"
+		texturefile = "gfx/interface/ideas/advisors/britain/Britain_Margaret_Beckett.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_Britain_Kate_Hoey"
+		texturefile = "gfx/interface/ideas/advisors/britain/Britain_Kate_Hoey.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_Theresa_May"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Theresa_May.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_britain_david_lammy"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_david_lammy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_tim_farron"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_tim_farron.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_nick_clegg"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_nick_clegg.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_britain_michael_gove"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_michael_gove.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_philip_hammond"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_philip_hammond.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_liz_trust"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_liz_trust.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_Jacob_Rees_Mogg"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Jacob_Rees_Mogg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_ed_balls"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_ed_balls.dds"
+	}
+		
+	
+	spriteType = {
+		name = "GFX_idea_britain_russel_brand"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_russel_brand.dds"
+	}
+		
+	
+	spriteType = {
+		name = "GFX_idea_Britain_rebecca_long_bailey"
+		texturefile = "gfx/interface/ideas/advisors/britain/Britain_rebecca_long_bailey.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_britain_ind_philip_hammond"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_ind_philip_hammond.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_george_osborne"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_george_osborne.dds"
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_fom_keir_starmer"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_fom_keir_starmer.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_David_cameron"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_David_cameron.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_Bill_Nighy"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Bill_Nighy.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_ben_kingsley"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_ben_kingsley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Britain_Angela_Rayner"
+		texturefile = "gfx/interface/ideas/advisors/britain/Britain_Angela_Rayner.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_katie_hopkins"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_katie_hopkins.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_john_hurt"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_john_hurt.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_britain_john_bercow"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_john_bercow.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_owen_jones"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_owen_jones.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_Britain_Patrick_Stewart"
+		texturefile = "gfx/interface/ideas/advisors/britain/Britain_Patrick_Stewart.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_Britain_Rupert_Murdoch"
+		texturefile = "gfx/interface/ideas/advisors/britain/Britain_Rupert_Murdoch.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_Simon_Pegg"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Simon_Pegg.dds"
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_David_cameron"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_David_cameron.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_britain_christopher_eccleston"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_christopher_eccleston.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_ind_ella_rule"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_ind_ella_rule.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_fom_dermot_hudson"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_fom_dermot_hudson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_Owen_Paterson"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Owen_Paterson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_Piers_Corbyn"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Piers_Corbyn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_britain_kenneth_clarke"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_kenneth_clarke.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_Jeremy_Hunt"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Jeremy_Hunt.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_idea_britain_Jonathan_Ashworth"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Jonathan_Ashworth.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_britain_John_Prescott"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_John_Prescott.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_britain_John_McDonnell"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_John_McDonnell.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_idea_britain_Jeremy_Corbyn"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Jeremy_Corbyn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_britain_Charles_Kennedy"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Charles_Kennedy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_britain_Boris_Johnson"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Boris_Johnson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_britain_alan_sugar"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_alan_sugar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_britain_Chris_Whitty"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_Chris_Whitty.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_britain_sic_nick_griffin"
+		texturefile = "gfx/interface/ideas/advisors/britain/britain_sic_nick_griffin.dds"
+	}
+
+	###CASCADIA ADVISORS###
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_sic_kate_brown"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_sic_kate_brown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_sic_kevin_macdonald"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_sic_kevin_macdonald.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_sic_jill_lannan"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_sic_jill_lannan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_sic_michael_stencel"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_sic_michael_stencel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_sic_marc_brodine"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_sic_marc_brodine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_sic_paul_allen"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_sic_paul_allen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_sic_rob_monster"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_sic_rob_monster.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_cascadia_sic_terry_emmert"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_sic_terry_emmert.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_sic_solomon_yue"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_sic_solomon_yue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_michael_polignano"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_michael_polignano.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_aaron_donald_auer"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_aaron_donald_auer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_tim_eyman"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_tim_eyman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_carter_ham"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_carter_ham.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_diana_johnstone"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_diana_johnstone.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_glenn_beck"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_glenn_beck.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_richard_burke"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_richard_burke.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_john_kitzhaber"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_john_kitzhaber.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_denny_heck"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_denny_heck.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_david_adam_smith"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_david_adam_smith.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_suzan_delbene"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_suzan_delbene.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_william_smaldone"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_william_smaldone.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_thom_hartmann"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_thom_hartmann.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_bob_cone"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_bob_cone.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_doug_barnes"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_doug_barnes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_johanna_brenner"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_johanna_brenner.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_fom_hank_adams"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_fom_hank_adams.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_herman_baertschiger"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_herman_baertschiger.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_mark_schoesler"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_mark_schoesler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_dan_newhouse"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_dan_newhouse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_allan_alley"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_allan_alley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_dan_fulton"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_dan_fulton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_mark_emmert"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_mark_emmert.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_bill_sizemore"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_bill_sizemore.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_rick_metsger"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_rick_metsger.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_pramila_jayapal"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_pramila_jayapal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_peter_defazio"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_peter_defazio.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_chris_henry"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_chris_henry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_ind_jordana_sardo"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_ind_jordana_sardo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_greg_johnson"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_greg_johnson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_michael_stencel"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_michael_stencel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_jay_rodne"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_jay_rodne.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_kim_wyman"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_kim_wyman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_dave_reichert"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_dave_reichert.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_thomas_hemingway"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_thomas_hemingway.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_loren_culp"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_loren_culp.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_ian_epstein"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_ian_epstein.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_lars_hedbor"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_lars_hedbor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_ted_wheeler"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_ted_wheeler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_jeanne_atkins"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_jeanne_atkins.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_earl_blumenauer"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_earl_blumenauer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_walter_brown"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_walter_brown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_donald_cobain"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_donald_cobain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_steve_hoffman"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_steve_hoffman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_nsm_ajamu_baraka"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_nsm_ajamu_baraka.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_inm_evan_mcmullin"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_inm_evan_mcmullin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_inm_timothy_perkins"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_inm_timothy_perkins.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_inm_meroe_park"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_inm_meroe_park.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_inm_mary_martin"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_inm_mary_martin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_inm_randy_engel"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_inm_randy_engel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_inm_gregory_todd"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_inm_gregory_todd.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_peter_chiarelli"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_peter_chiarelli.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_carter_ham"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_carter_ham.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_gregory_bryant"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_gregory_bryant.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_eric_olson"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_eric_olson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_michael_stencel"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_michael_stencel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_raymond_rees"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_raymond_rees.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_tracy_garrett"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_tracy_garrett.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_gregory_todd"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_gregory_todd.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cascadia_jill_lannan"
+		texturefile = "gfx/interface/ideas/advisors/cascadia/cascadia_jill_lannan.dds"
+	}
+	
+	###UAPR ADVISORS###
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_bobby_seale"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_bobby_seale.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_gloria_la_riva"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_gloria_la_riva.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_tupac_amaru_shakur"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_tupac_amaru_shakur.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_brett_clark"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_brett_clark.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_gavin_newsom"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_gavin_newsom.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_mona_pasquil"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_mona_pasquil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_zoltan_istvan"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_zoltan_istvan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_lisa_barlett"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_lisa_barlett.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_fabian_nunez"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_fabian_nunez.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_matthew_gonzales"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_matthew_gonzales.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_sic_karen_bass"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_sic_karen_bass.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_john_bellamy_foster"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_john_bellamy_foster.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_kamala_harris"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_kamala_harris.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_grover_furr"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_grover_furr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_leland_yee"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_leland_yee.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_alex_padilla"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_alex_padilla.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_bari_weiss"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_bari_weiss.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_katcho_achadijan"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_katcho_achadijan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_bruce_mcpherson"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_bruce_mcpherson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_kent_mesplay"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_kent_mesplay.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_fom_judith_whitmer"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_fom_judith_whitmer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_john_roemer"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_john_roemer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_david_laibman"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_david_laibman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_jeff_brown"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_jeff_brown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_arturo_rodriguez"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_arturo_rodriguez.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_robert_filner"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_robert_filner.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_anthony_rendon"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_anthony_rendon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_travis_kalanick"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_travis_kalanick.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_howard_ahmanson_jr"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_howard_ahmanson_jr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_orenthal_james_simpson"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_orenthal_james_simpson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_katie_hill"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_katie_hill.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_ind_robert_mcellrath"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_ind_robert_mcellrath.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_christian_parenti"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_christian_parenti.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_jodi_dean"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_jodi_dean.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_alfonso_casal"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_alfonso_casal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_alfonso_casal"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_alfonso_casal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_julie_chavez_rodriguez"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_julie_chavez_rodriguez.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_xavier_becerra"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_xavier_becerra.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_kate_marshall"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_kate_marshall.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_andrew_mccollum"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_andrew_mccollum.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_art_olivier"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_art_olivier.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_scott_wilk"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_scott_wilk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_laura_wells"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_laura_wells.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_nsm_cindy_sheehan"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_nsm_cindy_sheehan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_inm_fred_hampton_jr"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_inm_fred_hampton_jr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_inm_leon_panetta"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_inm_leon_panetta.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_inm_john_brennan"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_inm_john_brennan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_inm_mark_zuckerberg"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_inm_mark_zuckerberg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_john_abizaid"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_john_abizaid.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_william_ward"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_william_ward.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_antonio_jones"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_antonio_jones.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_michelle_howard"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_michelle_howard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_james_foggo"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_james_foggo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_john_batbie"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_john_batbie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_jon_kelk"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_jon_kelk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_aundre_pigee"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_aundre_pigee.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_richard_clarke"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_richard_clarke.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_daniel_hokanson"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_daniel_hokanson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_uapr_robert_willard"
+		texturefile = "gfx/interface/ideas/advisors/uapr/uapr_robert_willard.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_al_ahmar"
+		texturefile = "gfx/interface/ideas/advisors/yemen/al_ahmar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_murshed"
+		texturefile = "gfx/interface/ideas/advisors/yemen/murshed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_qirbi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/qirbi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_hamid_minister"
+		texturefile = "gfx/interface/ideas/advisors/yemen/hamid_minister.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hamid_minister2"
+		texturefile = "gfx/interface/ideas/advisors/yemen/hamid_minister2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yemen_Ali_bin_Mohammed_Al_Hamdan"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Ali_bin_Mohammed_Al_Hamdan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Abdul_Aziz_al_Humain"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Abdul_Aziz_al_Humain.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Mutlaq_bin_Salem_Al_Azima"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Mutlaq_bin_Salem_Al_Azima.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Mohammad_bin_Khalid_Al_Saud"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Mohammad_bin_Khalid_Al_Saud.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_Mohammed_Al_Jaber"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Mohammed_Al_Jaber.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_sic_najeeb_qahtan_al_shaabi"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_sic_najeeb_qahtan_al_shaabi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_sic_abdel_aziz_bin_habtour"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_sic_abdel_aziz_bin_habtour.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_sic_arwa_othman"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_sic_arwa_othman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_sic_refat_hasan_hamoud_braz"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_sic_refat_hasan_hamoud_braz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_fom_tawakkol_karman"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_fom_tawakkol_karman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yem_fom_tawakkol_karman"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_tawakkol_karman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_fom_hisham_sharaf"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_fom_hisham_sharaf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_fom_abdullah_al_saidi"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_fom_abdullah_al_saidi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_fom_majed_abdul_latif_al_humaidi"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_fom_majed_abdul_latif_al_humaidi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_ind_abd_rabbo_hussein"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_ind_abd_rabbo_hussein.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_ind_mohamed_awad_bin_humam"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_ind_mohamed_awad_bin_humam.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_ind_abdulaziz_al_saqqaf"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_ind_abdulaziz_al_saqqaf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_ind_shawki_ahmed_hayel_saeed"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_ind_shawki_ahmed_hayel_saeed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yem_ind_shawki_ahmed_hayel_saeed"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_ind_shawki_ahmed_hayel_saeed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_nsm_khaled_bahah"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_nsm_khaled_bahah.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yem_nsm_khaled_bahah"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_nsm_khaled_bahah.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_nsm_nayef_al_bakri"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_nsm_nayef_al_bakri.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_nsm_huda_al_sarari"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_nsm_huda_al_sarari.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yem_nsm_huda_al_sarari"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_nsm_huda_al_sarari.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_nsm_abdel_karim_al_khaiwani"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_nsm_abdel_karim_al_khaiwani.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jasmine_inm_ahmad_saif_al_yaffi"
+		texturefile = "gfx/interface/ideas/advisors/jasmine/jasmine_inm_ahmad_saif_al_yaffi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_sic_yasin_said_numan"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_sic_yasin_said_numan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_sic_mohammed_qubaty"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_sic_mohammed_qubaty.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_sic_jaafar_mohammed_saad"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_sic_jaafar_mohammed_saad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_fom_abd_al_rahman_ali_al_jifri"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_fom_abd_al_rahman_ali_al_jifri.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_fom_majed_abdul_latif_al_humaidi"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_fom_majed_abdul_latif_al_humaidi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_ind_jarallah_omar_al_kuhali"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_ind_jarallah_omar_al_kuhali.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_ind_abdullatif_al_sayed"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_ind_abdullatif_al_sayed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_nsm_ahmed_hamid_lamlas"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_nsm_ahmed_hamid_lamlas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_nsm_abdul_wahed_al_jamra"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_nsm_abdul_wahed_al_jamra.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_inm_aidarus_al_zoubaidi"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_inm_aidarus_al_zoubaidi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pdry_inm_mohammed_mansour_al_ghadra"
+		texturefile = "gfx/interface/ideas/advisors/pdry/pdry_inm_mohammed_mansour_al_ghadra.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_yar_sic_yahya_mohamed_abdullah_saleh"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_sic_yahya_mohamed_abdullah_saleh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_sic_mohammed_ali_al_houthi"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_sic_mohammed_ali_al_houthi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_sic_saleh_al_mansoob"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_sic_saleh_al_mansoob.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_fom_abdul_qadir_bajamal"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_fom_abdul_qadir_bajamal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_fom_saleh_ali_al-sammad"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_fom_saleh_ali_al-sammad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_fom_sobhi_ghandour"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_fom_sobhi_ghandour.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_ind_huda_al_baan"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_ind_huda_al_baan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_ind_fares_mana"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_ind_fares_mana.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_ind_abdulaziz_al-maqaleh"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_ind_abdulaziz_al-maqaleh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_nsm_abdo_al_janadi"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_nsm_abdo_al_janadi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_nsm_sadeq_amin_abu_rass"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_nsm_sadeq_amin_abu_rass.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_nsm_mustafa_ahmed_noman"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_nsm_mustafa_ahmed_noman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_inm_tareq_saleh"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_inm_tareq_saleh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_inm_talal_aklan"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_inm_talal_aklan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yar_inm_mahsen_ayed"
+		texturefile = "gfx/interface/ideas/advisors/yar/yar_inm_mahsen_ayed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_sic_muhammad_al_yadumi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_sic_muhammad_al_yadumi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_sic_anwar_al_awlaki"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_sic_anwar_al_awlaki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_sic_abdul_hafez_al_saqqaf"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_sic_abdul_hafez_al_saqqaf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_sic_mahmoud_al_subaihi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_sic_mahmoud_al_subaihi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_sic_hooria_mashhour"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_sic_hooria_mashhour.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_sic_abdrabbuh_mansour_hadi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_sic_abdrabbuh_mansour_hadi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Ali_Muhammad_Mujawar"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Ali_Muhammad_Mujawar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Abdo_al_Janadi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Abdo_al_Janadi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Mohammed_Nasser_Ahmed"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Mohammed_Nasser_Ahmed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Saba_Sinan_Abu_Lahoum"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Saba_Sinan_Abu_Lahoum.dds"
+	}
+
+    spriteType = {
+		name = "GFX_idea_yemen_Sinan_Abu_Lahoum"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Sinan_Abu_Lahoum.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Yahya_Mohamed_Abdullah_Saleh"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Yahya_Mohamed_Abdullah_Saleh.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Abdul_Aziz_Abdul_Ghani"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Abdul_Aziz_Abdul_Ghani.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Jamal_Abdullah_al_Sallal"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Jamal_Abdullah_al_Sallal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_Shaher_Abdulhak"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Shaher_Abdulhak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_Maeen_Abdulmalik_Saeed"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Maeen_Abdulmalik_Saeed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_Taher_Ali_Al_Aqil"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Taher_Ali_Al_Aqil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_Abdullah_Ali_Elewa"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Abdullah_Ali_Elewa.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Yahya_Saree"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Yahya_Saree.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_Ahmad_Awad_bin_Mubarak"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Ahmad_Awad_bin_Mubarak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_Shawki_Ahmed_Hayel_Saeed"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Shawki_Ahmed_Hayel_Saeed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_Ali_Al_Uqbi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Ali_Al_Uqbi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_fom_muhammad_musaal_amri"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_muhammad_musaal_amri.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_fom_khaled_al_ruwaishan"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_khaled_al_ruwaishan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_fom_ahmad_awad_bin_mubarak"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_ahmad_awad_bin_mubarak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_sic_khalid_batarfi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_khalid_batarfi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_fom_nasir_abdel_karim_al_wuhayshi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_nasir_abdel_karim_al_wuhayshi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yemen_fom_arif_bin_qayed_shawit"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_arif_bin_qayed_shawit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_fom_riad_yassin"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_riad_yassin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_fom_almigdad_mojalli"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_almigdad_mojalli.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_fom_maeen_abdulmalik_saeed"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_fom_maeen_abdulmalik_saeed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_ind_ahmed_abdul_rahman_al_samawi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_ind_ahmed_abdul_rahman_al_samawi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_ind_mohamed_awad_bin_humam"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_ind_mohamed_awad_bin_humam.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_ind_shaher_abdulhak"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_ind_shaher_abdulhak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_ind_nasser_al_awlaki"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_ind_nasser_al_awlaki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_ind_ahmed_massoud_alwani"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_ind_ahmed_massoud_alwani.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_nsm_abdulwahab_alamrani"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_nsm_abdulwahab_alamrani.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_nsm_qasim_al_raymi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_nsm_qasim_al_raymi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_ind_ahmed_massoud_alwani"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_ind_ahmed_massoud_alwani.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_nsm_abdulwahab_al_dilmi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_nsm_abdulwahab_al_dilmi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_nsm_moammar_al_eryani"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_nsm_moammar_al_eryani.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_nsm_faraj_said_bin_ghanem"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_nsm_faraj_said_bin_ghanem.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_inm_nasser_bin_ali_al_ansi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_inm_nasser_bin_ali_al_ansi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_inm_mohamed_ahmed_mansour"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_inm_mohamed_ahmed_mansour.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Muhammad_Abu_Bakr_Ishaq"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Muhammad_Abu_Bakr_Ishaq.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Adnan_al_Audaini"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Adnan_al_Audaini.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Ibrahim_Ahmed_Al_Hothi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Ibrahim_Ahmed_Al_Hothi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Ahmad_Daifallah_Al_Azeib"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Ahmad_Daifallah_Al_Azeib.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yemen_Abdul_Wahab_al_Ansi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_Abdul_Wahab_al_Ansi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yemen_inm_mohammed_ali_al_maqdashi"
+		texturefile = "gfx/interface/ideas/advisors/yemen/yemen_inm_mohammed_ali_al_maqdashi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_mandela_barnes"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_mandela_barnes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_mandela_barnes"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_mandela_barnes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_andrea_jenkins"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_andrea_jenkins.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_mark_ritchie"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_mark_ritchie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_gwen_moore"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_gwen_moore.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_mark_dayton"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_mark_dayton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_stacey_abrams"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_stacey_abrams.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_amy_klobuchar"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_amy_klobuchar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_mark_pocan"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_mark_pocan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_cheri_honkala"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_cheri_honkala.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_tim_walz"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_tim_walz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_dean_barkley"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_dean_barkley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_richard_campagna"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_richard_campagna.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_tom_horner"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_tom_horner.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_erik_paulsen"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_erik_paulsen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_tim_pawlenty"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_tim_pawlenty.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_scott_walker"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_scott_walker.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_dick_lugar"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_dick_lugar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_ben_carson"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_ben_carson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_michele_bachmann"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_michele_bachmann.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_ron_johnson"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_ron_johnson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_rod_blum"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_rod_blum.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_mike_lackomar"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_mike_lackomar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_sic_joshua_stone"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_sic_joshua_stone.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_alondra_cano"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_alondra_cano.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_mark_allen_webber"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_mark_allen_webber.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_cheri_honkala"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_cheri_honkala.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_doug_la_follette"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_doug_la_follette.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_steve_simon"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_steve_simon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_peggy_flanagan"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_peggy_flanagan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_karen_weaver"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_karen_weaver.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_john_stossel"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_john_stossel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_mae_schunk"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_mae_schunk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_chuck_grassley"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_chuck_grassley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_thomas_harens"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_thomas_harens.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_paul_nehlen"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_paul_nehlen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_mark_koernke"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_mark_koernke.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_dar_leaf"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_dar_leaf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_harry_binswanger"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_harry_binswanger.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_norman_olson"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_norman_olson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_fom_kristopher_sickles"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_fom_kristopher_sickles.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_lisa_bender"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_lisa_bender.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_mary_alice_waters"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_mary_alice_waters.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_andy_dawkins"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_andy_dawkins.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_mark_dayton"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_mark_dayton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_tina_smith"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_tina_smith.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_ray_sandman"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_ray_sandman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_justin_amash"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_justin_amash.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_erik_prince"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_erik_prince.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_rick_snyder"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_rick_snyder.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_grover_norquist"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_grover_norquist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_mike_lindell"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_mike_lindell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_kaleb_franks"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_kaleb_franks.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_joseph_morrison"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_joseph_morrison.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_ind_david_brian_stone_jr"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_ind_david_brian_stone_jr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_elaine_flemming"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_elaine_flemming.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_phillipe_cunningham"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_phillipe_cunningham.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_nelson_eisman"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_nelson_eisman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_cam_gordon"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_cam_gordon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_jacob_frey"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_jacob_frey.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_jake_sullivan"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_jake_sullivan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_timothy_joseph_penny"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_timothy_joseph_penny.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_gregory_creswell"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_gregory_creswell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_kim_reynolds"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_kim_reynolds.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_jim_hagedorn"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_jim_hagedorn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_william_mohr"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_william_mohr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_tara_smith"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_tara_smith.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_david_clarke"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_david_clarke.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_buford_rogers"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_buford_rogers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_matt_savino"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_matt_savino.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_ray_southwell"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_ray_southwell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_nsm_thomas_william_piatek"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_nsm_thomas_william_piatek.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_michael_prysner"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_michael_prysner.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_la_tonya_johnson"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_la_tonya_johnson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_eric_fanning"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_eric_fanning.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_peter_strzok"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_peter_strzok.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_dan_coats"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_dan_coats.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_rodney_faraon"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_rodney_faraon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_richard_stanek"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_richard_stanek.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_john_jensen"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_john_jensen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_keith_michael_novak"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_keith_michael_novak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_adam_fox"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_adam_fox.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_inm_joshua_matthew_stone"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_inm_joshua_matthew_stone.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_paul_nakasone"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_paul_nakasone.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_joseph_votel"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_joseph_votel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_donald_gabrielson"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_donald_gabrielson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_charles_munns"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_charles_munns.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_paul_knapp"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_paul_knapp.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_thomas_waldhauser"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_thomas_waldhauser.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_jon_jensen"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_jon_jensen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_paul_rogers"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_paul_rogers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laker_joane_matthews"
+		texturefile = "gfx/interface/ideas/advisors/greatlakes/laker_joane_matthews.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_john_bachtell"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_john_bachtell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_sonia_chang_diaz"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_sonia_chang_diaz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_barney_frank"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_barney_frank.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_newt_gingrich"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_newt_gingrich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_jeff_mackler"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_jeff_mackler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_tom_conway"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_tom_conway.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_shirley_phelps_roper"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_shirley_phelps_roper.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_steve_drain"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_steve_drain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_michael_flynn"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_michael_flynn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_sic_karen_schraufnagel"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_sic_karen_schraufnagel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_tony_pecinovsky"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_tony_pecinovsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_sidney_blumenthal"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_sidney_blumenthal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_amy_gutman"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_amy_gutman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_madelaine_albright"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_madelaine_albright.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_elaine_bernard"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_elaine_bernard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_jon_tester"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_jon_tester.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_paul_ryan"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_paul_ryan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_aoc"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_aoc.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_jesse_sharkey"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_jesse_sharkey.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_inm_stephen_kappes"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_inm_stephen_kappes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_john_wilkerson"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_john_wilkerson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_fom_eliot_cohen"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_fom_eliot_cohen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_ind_joe_sims"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_ind_joe_sims.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_ind_dennis_kucinich"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_ind_dennis_kucinich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_ind_michael_dukakis"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_ind_michael_dukakis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_ind_marilyn_hewson"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_ind_marilyn_hewson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_ind_tim_scott"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_ind_tim_scott.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_ind_mary_kay_henry"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_ind_mary_kay_henry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_ind_gary_north"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_ind_gary_north.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_ind_tom_delay"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_ind_tom_delay.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_larry_holmes"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_larry_holmes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_jade_bahr"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_jade_bahr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_hakeem_jeffries"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_hakeem_jeffries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_al_from"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_al_from.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_rick_santorum"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_rick_santorum.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_gertrude_himmelfarb"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_gertrude_himmelfarb.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_kenneth_charles_canterbury"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_kenneth_charles_canterbury.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_steven_anderson"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_steven_anderson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_nsm_douglas_feith"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_nsm_douglas_feith.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_inm_richard_ojeda"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_inm_richard_ojeda.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_inm_david_cohen"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_inm_david_cohen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_inm_vaughn_bishop"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_inm_vaughn_bishop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gau_inm_terence_osullivan"
+		texturefile = "gfx/interface/ideas/advisors/gau/gau_inm_terence_osullivan.dds"
+	}
+	
+	
+}

@@ -1,0 +1,145 @@
+characters={
+	SOL_charles_dausabea={
+		name="Charles Dausabea"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Charles_Dausabea.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_david_vunagi={
+		name="David Vunagi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_David_Vunagi.dds"
+			}
+		}
+		country_leader={
+			ideology=dominionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_frank_kabui={
+		name="Frank Kabui"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Frank_Kabui.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_harold_keke={
+		name="Harold Keke"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Harold_Keke.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_danny_philip={
+		name="Danny Philip"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Danny_Philip.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_samuel_manetoali={
+		name="Samuel Manetoali"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Samuel_Manetoali.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_steve_abana={
+		name="Steve Abana"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Steve_Abana.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_manasseh_sogavare={
+		name="Manasseh Sogavare"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Manasseh_Sogavare.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_joses_tuhanuku={
+		name="Joses Tuhanuku"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Joses_Tuhanuku.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_tony_kagovai={
+		name="Tony Kagovai"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Tony_Kagovai.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOL_francis_billy_hilly={
+		name="Francis Billy Hilly"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOL/Portrait_SOL_Francis_Billy_Hilly.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,285 @@
+characters={
+	LUX_ali_ruckert={
+		name="Ali Ruckert"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Ali_Ruckert.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_pierre_peters={
+		name="Pierre Peters"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Pierre_Peters.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_aly_jaerling={
+		name="Aly Jaerling"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Aly_Jaerling.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_henri={
+		name="Henri"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Grand_Duke_Henri.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_jean_ersfeld={
+		name="Jean Ersfeld"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Jean_Ersfeld.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_jean_schoos={
+		name="Jean Schoos"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Jean_Schoos.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_marc_spautz={
+		name="Marc Spautz"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Marc_Spautz.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_corinne_cahen={
+		name="Corinne Cahen"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Corinne_Cahen.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_francoise_folmer={
+		name="Francoise Folmer"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Francoise_Folmer.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_claude_haagen={
+		name="Claude Haagen"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Claude_Haagen.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_andré_hoffmann={
+		name="André Hoffmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_LUX_Andre_Hoffmann.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LUX_romain_mancinelli={
+		name="Romain Mancinelli"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LUX/Portrait_Romain_Mancinelli.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LUX_gaston_reisig={
+		name="Gaston Reisig"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LUX/Portrait_Gaston_Reinig.dds"
+			}
+		}
+		field_marshal={
+			traits={ fast_planner }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LUX_mario_daubenfeld={
+		name="Mario Daubenfeld"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LUX/Portrait_Mario_Daubenfeld.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LUX_alain_duchène={
+		name="Alain Duchène"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LUX/Portrait Alain Duchene.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LUX_marc_assel={
+		name="Marc Assel"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LUX/Portrait_Marc_Assel.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LUX_yves_kalmes={
+		name="Yves Kalmes"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LUX/Portrait_Yves_Kalmes.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LUX_claude_schmitz={
+		name="Claude Schmitz"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LUX/Portrait_Claude_Schmitz.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

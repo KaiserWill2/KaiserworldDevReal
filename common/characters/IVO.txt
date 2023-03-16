@@ -1,0 +1,145 @@
+characters={
+	IVO_tuo_fozié={
+		name="Tuo Fozié"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Tuo_Fozie.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_guillaume_soro={
+		name="Guillaume Soro"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Guillaume_Soro.dds"
+			}
+		}
+		country_leader={
+			ideology=national_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_amon_ndouffou_v={
+		name="Amon N'Douffou V"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Amon_N_Douffou_Fifth.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_charles_blé_goudé={
+		name="Charles Blé Goudé"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Charles_Ble_Goude.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_henri_konan_bédié={
+		name="Henri Konan Bédié"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Henri_Konan_Bedie.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_alassane_ouattara={
+		name="Alassane Ouattara"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Alassane_Ouattara.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_albert_toikeusse_mabri={
+		name="Albert Toikeusse Mabri"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Albert_Toikeusse_Mabri.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_francis_wodié={
+		name="Francis Wodié"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Francis_Wodie.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_laurent_gbagbo={
+		name="Laurent Gbagbo"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Laurent_Gbagbo.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_basile_mahan_gahé={
+		name="Basile Mahan Gahé"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Basile_Mahan_Gahe.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IVO_achy_ekissi={
+		name="Achy Ekissi"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Portrait_IVO_Achy_Ekissi.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

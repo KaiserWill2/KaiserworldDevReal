@@ -1,0 +1,145 @@
+characters={
+	MRA_Ibrahima_Sarr={
+		name="Ibrahima Sarr"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Ibrahima_Sarr.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Khadim_Ould_Semane={
+		name="Khadim Ould Semane"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Khadim_Ould_Semane.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Ely_Ould_Mohamed_Vall={
+		name="Ely Ould Mohamed Vall"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Ely_Ould_Mohamed_Vall.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Mohammed_Fal_Ould_Oumeir={
+		name="Mohammed Fal Ould Oumeir"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Mohammed_Fal_Ould_Oumeir.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Mahfouz_Weld_al-Azizi={
+		name="Mahfouz Weld al-Azizi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Mahfouz_Weld_al-Azizi.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Mohamed_Jemil_Ould_Mansour={
+		name="Mohamed Jemil Ould Mansour"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Mohamed_Jemil_Ould_Mansour.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Sidi_Ould_Cheikh_Abdallahi={ #viva peron
+		name="Sidi Ould Cheikh Abdallahi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Sidi_Ould_Cheikh_Abdallahi.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Naha_Mint_Mouknass={
+		name="Naha Mint Mouknass"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Naha_Mint_Mouknass.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Messaoud_Ould_Boulkheir={
+		name="Messaoud Ould Boulkheir"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Messaoud_Ould_Boulkheir.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Ahmed_Ould_Daddah={
+		name="Ahmed Ould Daddah"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Ahmed_Ould_Daddah.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MRA_Mohamed_Ould_Abdel_Aziz={
+		name="Mohamed Ould Abdel Aziz"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRA/Portrait_MRA_Mohamed_Ould_Abdel_Aziz.dds"
+			}
+		}
+		country_leader={
+			ideology=nasserism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

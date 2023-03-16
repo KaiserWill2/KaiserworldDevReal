@@ -1,0 +1,254 @@
+characters={
+	ICE_guðmundur_Þorleifsson={
+		name="Guðmundur Þorleifsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Gudmundur_Thorleifsson.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_haraldur_johannessen={
+		name="Haraldur Johannessen"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Haraldur_Johannesen.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_ingolf_of_rosenborg={
+		name="Ingolf of Rosenborg"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Ingolf_af_Rosenborg.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_ari_trausti_guðmundsson={
+		name="Ari Trausti Guðmundsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Ari_Trausti_Gudmundsson.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_bjarni_benediktsson={
+		name="Bjarni Benediktsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Bjarni_Benediktsson.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_sigmundur_davíð_gunnlaugsson={
+		name="Sigmundur Davíð Gunnlaugsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Sigmundur_David_Gunnlaugsson.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_sverrir_hermannsson={
+		name="Sverrir Hermannsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Sverrir_Hermannsson.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_jóhanna_sigurðardóttir={
+		name="Jóhanna Sigurðardóttir"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Johanna_Sigurdardottir.dds"
+			}
+		}
+		country_leader={
+			ideology=nordic_model
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_katrín_jakobsdóttir={
+		name="Katrín Jakobsdóttir"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Katrin_Jakobsdottir.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_júlíus_valdimarsson={
+		name="Júlíus Valdimarsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Júlíus_Valdimarsson.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_steingrímur_sigfússon={
+		name="Steingrímur Sigfússon"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Portrait_ICE_Steingrimur_Sigfusson.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_arnor_sigurjonsson={
+		name="Arnor Sigurjonsson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ICE/Portrait_Arnor_Sigurjonsson.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard fast_planner }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_sindri_steingrimsson={
+		name="Sindri Steingrimsson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ICE/Portrait_Sindri_Steingrimsson.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_halli_sigurdsson={
+		name="Halli Sigurdsson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ICE/Portrait_Halli_Sigurdsson.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_georg_kristinn_larusson={
+		name="Georg Kristinn Larusson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ICE/Portrait_Georg_Kristinn_Larusson.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_asgrimur_asgrimsson={
+		name="Asgrimur Asgrimsson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ICE/Portrait_Asgrimur_Asgrimsson.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,265 @@
+characters={
+	LAK_ed_randazzo={
+		name="Ed Randazzo"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Ed_Randazzo.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_russell_means={
+		name="Russell Means"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Russell_Means.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_ernie_lapointe={
+		name="Ernie LaPointe"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Ernie_LaPointe.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_provisional_peoples_council={
+		name="Provisional People's Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Provisional_Peoples_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_ben_nighthorse_campbell={
+		name="Ben Nighthorse Campbell"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Ben_Nighthorse_Campbell.dds"
+			}
+		}
+		country_leader={
+			ideology=american_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_john_yellow_bird_steele={
+		name="John Yellow Bird Steele"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_John_Yellow_Bird_Steele.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_theresa_two_bulls={
+		name="Theresa Two Bulls"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Theresa_Two_Bulls.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_cecilia_fire_thunder={
+		name="Cecilia Fire Thunder"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Cecilia_Fire_Thunder.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_jefferson_keel={
+		name="Jefferson Keel"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Jefferson_Keel.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_dennis_banks={
+		name="Dennis Banks"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Dennis_Banks.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_leonard_peltier={
+		name="Leonard Peltier"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAK/Portrait_LAK_Leonard_Peltier.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAK_joe_medicine_crow={
+		name="Joe Medicine Crow"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAK/Portrait_Joe_Medicine_Crow.dds"
+			}
+		}
+		field_marshal={
+			traits = { cavalry_officer war_hero hill_fighter }
+	        skill = 3
+	        attack_skill = 2
+	        defense_skill = 1
+	        planning_skill = 4
+	        logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	LAK_michael_e_thornton={
+		name="Michael E. Thornton"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAK/Portrait_Michael_E_Thornton.dds"
+			}
+		}
+		corps_commander={
+			traits = { commando naval_invader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LAK_lionell_red_cloud={
+		name="Lionell Red Cloud"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAK/Portrait_Lionell_Red_Cloud.dds"
+			}
+		}
+		corps_commander={
+			traits = { infantry_officer }
+	        skill = 2
+	        attack_skill = 1
+	        defense_skill = 1
+	        planning_skill = 2
+	        logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LAK_judd_h_lyons={
+		name="Judd H. Lyons"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAK/Portrait_Judd_H_Lyons.dds"
+			}
+		}
+		corps_commander={
+			traits = { career_officer }
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 1
+	        planning_skill = 1
+	        logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	LAK_dave_bald_eagle={
+		name="Dave Bald Eagle"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAK/Portrait_Dave_Bald_Eagle.dds"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_officer paratrooper }
+	        skill = 1
+	        attack_skill = 1
+	        defense_skill = 2
+	        planning_skill = 1
+	        logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LAK_marcella_lebeau={
+		name="Marcella LeBeau"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAK/Portrait_Marcella_LeBeau.dds"
+			}
+		}
+		corps_commander={
+			traits = { trait_cautious }
+	        skill = 1
+	        attack_skill = 1
+	        defense_skill = 1
+	        planning_skill = 1
+	        logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}

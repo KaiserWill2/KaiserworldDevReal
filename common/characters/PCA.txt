@@ -1,0 +1,1032 @@
+characters={
+	PCA_angela_davis={
+		name="Angela Davis"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Angela_Davis.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ANGELA_DAVIS_DESC"
+			ideology=american_communist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_jeff_hall={
+		name="Jeff Hall"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Jeff_Hall.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_chuck_baldwin={
+		name="Chuck Baldwin"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Chuck_Baldwin.dds"
+			}
+		}
+		country_leader={
+			ideology=american_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_grand_royal_council={
+		name="Grand Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Grand_Royal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_william_daniel_johnson={
+		name="William Daniel Johnson"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_William_Daniel_Johnson.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_abel_maldonado={
+		name="Abel Maldonado"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Abel_Maldonado.dds"
+			}
+		}
+		country_leader={
+			ideology=american_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_clint_eastwood={
+		name="Clint Eastwood"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Clint_Eastwood.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_kate_brown={
+		name="Kate Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Kate_Brown.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_kevin_de_leon={
+		name="Kevin de Leon"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Kevin_De_Leon.dds"
+			}
+		}
+		country_leader={
+			ideology=labour_revisionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_aimee_allison={
+		name="Aimee Allison"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Aimee_Allison.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PCA_gloria_la_riva={
+		name="Gloria La Riva"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Gloria_La_Riva.dds"
+			}
+		}
+		country_leader={
+			ideology=american_revolutionary_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = b_o_r_communist
+		}
+	}
+	PCA_jarvis_tyner={
+		name="Jarvis Tyner"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Jarvis_Tyner.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = b_o_r_communist
+		}
+	}
+	PCA_john_foster={
+		name="John Foster"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_John_Foster.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = stalinist
+		}
+	}
+	PCA_politburo={
+		name="Politburo"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Politburo.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_communist
+		}
+	}
+	PCA_transitional_government={
+		name="Transitional Government"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Transitional_Government.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_communist
+		}
+	}
+	PCA_kamala_harris={
+		name="Kamala Harris"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Kamala_Harris.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	PCA_toni_atkins={
+		name="Toni Atkins"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Toni_Atkins.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	PCA_dean_heller={
+		name="Dean Heller"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Dean_Heller.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	PCA_kevin_mccarthy={
+		name="Kevin McCarthy"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Kevin_McCarthy.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	PCA_doris_matsui={
+		name="Doris Matsui"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Doris_Matsui.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	PCA_john_ensign={
+		name="John Ensign"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_John_Ensign.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	PCA_barbara_lee={
+		name="Barbara Lee"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Barbara_Lee.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	PCA_eric_swalwell={
+		name="Eric Swalwell"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Eric_Swalwell.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	PCA_elon_musk={
+		name="Elon Musk"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Elon_Musk.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = left_libertarian
+		}
+	}
+	PCA_juan_vargas={
+		name="Juan Vargas"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Juan_Vargas.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	PCA_mimi_walters={
+		name="Mimi Walters"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Mimi_Walters.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	PCA_evan_low={
+		name="Evan Low"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Evan_Low.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	PCA_robert_garcia={
+		name="Robert Garcia"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Robert_Garcia.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	PCA_yari_osorio={
+		name="Yari Osorio"
+		portraits={
+			civilian={
+				large="gfx/leaders/PCA/Portrait_PCA_Yari_Osorio.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_communist
+		}
+	}
+	PCA_john_abizaid={
+		name="John Abizaid"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_john_abizaid.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_John_Abizaid.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = PCA_john_abizaid
+			allowed = {
+				original_tag = PCA
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+		}
+		field_marshal={
+			traits={ organizer commando desert_fox paratrooper }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PCA_stephen_j._townsend={
+		name="Stephen J. Townsend"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Stephen_J_Townsend.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer infantry_leader commando paratrooper }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_william_e._ward={
+		name="William E. Ward"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_william_ward.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_William_E_Ward.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = PCA_william_e._ward
+			allowed = {
+				original_tag = PCA
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+		}
+		field_marshal={
+			traits={ commando trait_mountaineer paratrooper }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_alexander_juliet={
+		name="Alexander Juliet"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Alexander_Juliet.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer panzer_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PCA_antonio_s._jones={
+		name="Antonio S. Jones"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_antonio_jones.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Antonio_S_Jones.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = PCA_antonio_s._jones
+			allowed = {
+				original_tag = PCA
+			}
+			traits = {
+				army_chief_reform_1
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless trait_engineer }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_arthur_mcgrue={
+		name="Arthur McGrue"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Arthur_McGrue.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer armor_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PCA_aundre_f._piggee={
+		name="Aundre F. Piggee"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_aundre_pigee.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Aundre_F_Piggee.dds"
+			}
+		}
+		advisor = {
+		slot = high_command
+		idea_token = PCA_aundre_f._piggee
+		allowed = {
+			original_tag = PCA
+		}
+		traits = {
+		army_logistics_2
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist trait_engineer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PCA_avanulus_vann__r._smiley={
+		name="Avanulus “Vann”  R. Smiley"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Avanulus_R_Smiley.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_chanda_mofu={
+		name="Chanda Mofu"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Chanda_Mofu.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter urban_assault_specialist }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PCA_christine_a._beeler={
+		name="Christine A. Beeler"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Christine_A_Beeler.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PCA_daniel_r._hokanson={
+		name="Daniel R. Hokanson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_daniel_hokanson.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Daniel_R_Hokanson.dds"
+			}
+		}
+	advisor = {
+		slot = high_command
+		idea_token = PCA_daniel_r._hokanson
+		allowed = {
+			original_tag = PCA
+		}
+		traits = {
+		army_infantry_1
+		}
+	}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PCA_dwayne_d._hite={
+		name="Dwayne D. Hite"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Dwayne_D_Hite.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_engineer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_johnnie_wilson={
+		name="Johnnie Wilson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Johnnie_Wilson.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	PCA_julie_balten={
+		name="Julie Balten"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Julie_Balten.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer trait_engineer }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_kirby_dennis={
+		name="Kirby Dennis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Kirby_Dennis.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer infantry_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_lee_e._tafanelli={
+		name="Lee E. Tafanelli"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Lee E_Tafanelli.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery trait_engineer }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PCA_richard_d._clarke={
+		name="Richard D. Clarke"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_richard_clarke.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Richard_D_Clarke.dds"
+			}
+		}
+		advisor = {
+		slot = high_command
+		idea_token = PCA_richard_d._clarke
+		allowed = {
+			original_tag = PCA
+		}
+		traits = {
+		army_commando_1
+			}
+		}
+		corps_commander={
+			traits={ commando paratrooper }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PCA_robert_b._abrams={
+		name="Robert B. Abrams"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Robert_B_Abrams.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer panzer_leader panzer_expert }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PCA_scott_mckean={
+		name="Scott McKean"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Scott_McKean.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PCA_robert_p._ashley_jr.={
+		name="Robert P. Ashley Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Robert_P_Ashley_Jr.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando skirmisher }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PCA_michelle_j._howard={
+		name="Michelle J. Howard"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_michelle_howard.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Michelle_J_Howard.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = PCA_michelle_j._howard
+			allowed = {
+				original_tag = PCA
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+		}
+		navy_leader={
+			traits={ navy_media_personality fleet_protector superior_tactician }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_robert_f._willard={
+		name="Robert F. Willard"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_robert_willard.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Robert_F_Willard.dds"
+			}
+		}
+	advisor = {
+		slot = high_command
+		idea_token = PCA_robert_f._willard
+		allowed = {
+			original_tag = PCA
+		}
+		traits = {
+		navy_chief_naval_aviation_2
+		}
+	}
+		navy_leader={
+			traits={ aviation_enthusiast air_controller blue_water_expert }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_james_g._foggo={
+		name="James G. Foggo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_james_foggo.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_James_G_Foggo.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = PCA_james_g._foggo
+			allowed = {
+				original_tag = PCA
+			}
+			traits = {
+				navy_anti_submarine_2
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_john_batbie={
+	name="John Batbie"
+	portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_john_batbie.dds"
+			}
+		}
+		advisor = {
+		slot = air_chief
+		idea_token = PCA_john_batbie
+		allowed = {
+		original_tag = PCA
+			}
+		traits = {
+			air_close_air_support_1
+			}
+		}
+	}
+	PCA_jon_kelk={
+	name="Jon Kelk"
+	portraits={
+			army={
+				small="gfx/interface/ideas/advisors/uapr/uapr_jon_kelk.dds"
+			}
+		}
+		advisor = {
+		slot = air_chief
+		idea_token = PCA_jon_kelk
+		allowed = {
+		original_tag = PCA
+			}
+		traits = {
+			air_chief_reform_1
+			}
+		}
+	}
+	PCA_james_f._caldwell_jr.={
+		name="James F. Caldwell Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_James_F_Caldwell_Jr.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly seawolf }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_william_e._gortney={
+		name="William E. Gortney"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_William_E_Gortney.dds"
+			}
+		}
+		navy_leader={
+			traits={ aviation_enthusiast }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_michael_mullen={
+		name="Michael Mullen"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_Michael_Mullen.dds"
+			}
+		}
+		navy_leader={
+			traits={ fleet_protector destroyer_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PCA_james_sandy_winnefeld={
+		name="James 'Sandy' Winnefeld"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/PCA/Portrait_James_Winnefeld.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

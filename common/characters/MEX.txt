@@ -1,0 +1,145 @@
+characters={
+	MEX_ruben_aguilar_jimenez={
+		name="Rubén Aguilar Jiménez"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Ruben_Aguilar_Jimenez.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_juan_carlos_lopez={
+		name="Juan Carlos Lopez"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Juan_Carlos_Lopez.dds"
+			}
+		}
+		country_leader={
+			ideology=synarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_jose_manuel_luna={
+		name="José Manuel Luna"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Jose_Manuel_Luna.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_maximilian_ii={
+		name="Maximilian II"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Maximilian_Second.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_humberto_moreira={
+		name="Humberto Moreira"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Humberto_Moreira.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_emilio_gonzalez_marquez={
+		name="Emilio González Márquez"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Emilio_Gonzalez_Marquez.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_roberto_madrazo={
+		name="Roberto Madrazo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Roberto_Madrazo.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_roberto_campa={
+		name="Roberto Campa"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Roberto_Campa.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_andres_manuel_lopez={
+		name="Andrés Manuel López Obrador"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Andres_Manuel_Lopez.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_dante_delgado_rannauro={
+		name="Dante Delgado Rannauro"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Dante_Delgado_Rannauro.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MEX_alberto_anaya={
+		name="Alberto Anaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_Alberto_Anaya.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,146 @@
+characters={
+	ULS_bernadette_devlin_mcaliskey={
+		name="Bernadette Devlin McAliskey"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_Bernadette_Devlin_McAliskey.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_johnny_adair={
+		name="Johnny Adair"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_Johnny_Adair.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_ian_paisley={
+		name="Ian Paisley"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_Ian_Paisley.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_alexander_windsor={
+		name="Alexander Windsor"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_Alexander_Windsor.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_ivor_bell={
+		name="Ivor Bell"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_Ivor_Bell.dds"
+			}
+		}
+		country_leader={
+			ideology=socialist_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_david_trimble={
+		name="David Trimble"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_David_Trimble.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_unity_government={
+		name="Unity Government"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_Unity_Government.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_UNITY_GOVERNMENT_DESC"
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_david_ford={
+		name="David Ford"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_David_Ford.dds"
+			}
+		}
+		country_leader={
+			ideology=owenist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_denis_donaldson={
+		name="Denis Donaldson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_Denis_Donaldson.dds"
+			}
+		}
+		country_leader={
+			ideology=ecopolitician
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_martin_mcguinness={
+		name="Martin McGuinness"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_Martin_McGuinness.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ULS_gerry_carroll={
+		name="Gerry Carroll"
+		portraits={
+			civilian={
+				large="gfx/leaders/ULS/Portrait_ULS_Gerry_Carroll.dds"
+			}
+		}
+		country_leader={
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

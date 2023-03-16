@@ -1,0 +1,28 @@
+state={
+	id=1056
+	name="STATE_1056"
+	
+	history={
+		owner = PRU
+		add_core_of = BOL
+		victory_points = { 
+			13864 2
+		}
+		victory_points = { 
+			12930 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		2174 10952 10987 12930 13134 13859 13863 13864 
+	}
+	manpower=1308814
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

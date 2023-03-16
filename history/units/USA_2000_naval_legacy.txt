@@ -1,0 +1,82 @@
+﻿
+units= {
+
+	####### NAVAL UNITS #######
+	##### ATLANTIC FLEET #####
+	##### Battle Force (CO: ) #####
+	### Norfolk ###
+	fleet = {
+		name = "United States Navy"
+		naval_base = 788
+		task_force = {
+			name = "George Bush Sr Group"
+			location = 788 # Norfolk
+			ship = {
+			name = "USS Nimitz" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA version_name = "Nimitz Class" } }
+			}
+			ship = {
+			name = "USS Dwight D. Eisenhower" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA version_name = "Nimitz Class" } }
+			}
+			ship = {
+			name = "USS Enterprise" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA version_name = "Nimitz Class" } }
+			}
+			ship = { name = "USS Winchester" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }
+			ship = { name = "USS Kirksville" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }
+			ship = { name = "USS Corinth" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }
+			ship = { name = "USS Honey Springs" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }
+			ship = { name = "USS Yorktown" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }	
+			ship = { name = "USS Ticonderoga" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }	
+			ship = { name = "USS Lake Champlain" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }	
+			ship = { name = "USS Thomas S. Gates" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }
+			ship = { name = "USS Mobile Bay" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }
+			ship = { name = "USS Leyte Gulf" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }
+			ship = { name = "USS San Jacinto" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }
+			ship = { name = "USS Princeton" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = USA version_name = "Ticonderoga Class" } } }
+			ship = { name = "USS South Carolina" definition = heavy_cruiser  equipment = { light_cruiser_2 = { amount = 1 owner = USA version_name = "Virginia Class" } } }
+			ship = { name = "USS Virginia" definition = heavy_cruiser  equipment = { light_cruiser_2 = { amount = 1 owner = USA version_name = "Virginia Class" } } }
+			ship = { name = "USS Mississippi" definition = heavy_cruiser  equipment = { light_cruiser_2 = { amount = 1 owner = USA version_name = "Virginia Class" } } }			
+			ship = { name = "USS Noble" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Ingram" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS McCrea" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Standley" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Smoot" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Kidd" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Callaghan" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Spruance" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Arthur W. Radford" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Peterson" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Caron" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Comte de Grasse" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Briscoe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Stump" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Conolly" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Moosbrugger" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS John Hancock" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Nicholson" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS John Rodgers" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS  O'Bannon" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Thorn" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Hayler" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA version_name = "Spurance Class" } } }
+			ship = { name = "USS Baton Rouge" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Cincinatti" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Jacksonville" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Phoenix" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Baltimore" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Hyman G. Rickover" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS San Francisco" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Atlanta" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Norfolk" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Key West" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Helena" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Pasadena" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Darlington" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Lancaster" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Milbank" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Lebanon" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Boonesborough" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Newton" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Ashland" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+			ship = { name = "USS Albany" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "Los Angeles Class" } } }
+		}
+	}
+}

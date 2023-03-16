@@ -1,0 +1,146 @@
+characters={
+	SRI_d.e.w._gunasekera={
+		name="D.E.W. Gunasekera"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_D_E_W_Gunasekera.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_galagoda_aththe_gnanasara={
+		name="Galagoda Aththe Gnanasara"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_Galagoda_Aththe_Gnanasara.dds"
+			}
+		}
+		country_leader={
+			ideology=buddhist_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_champika_ranawaka={
+		name="Champika Ranawaka"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_Champika_Ranawaka.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_anura_kumara_dissanayaka={
+		name="Anura Kumara Dissanayaka"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_Anura_Kumara_Dissanayaka.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_sarath_fonseka={
+		name="Sarath Fonseka"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_Sarath_Fonseka.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_kamal_nissanka={
+		name="Kamal Nissanka"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_Kamal_Nissanka.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_maithripala_sirisena={
+		name="Maithripala Sirisena"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_Maithripala_Sirisena.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_dinesh_gunawardena={
+		name="Dinesh Gunawardena"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_Dinesh_Gunawardena.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_ranil_wickremesinghe={
+		name="Ranil Wickremesinghe"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_Ranil_Wickremesinghe.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_siritunga_jayasuriya={
+		name="Siritunga Jayasuriya"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_SRI_Siritunga_Jayasuriya.dds"
+			}
+		}
+		country_leader={
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRI_john_williams={
+		name="John Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=dynastic_monarchist
+			traits={ fortification_engineer }
+			expire="2027.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,221 @@
+### USA Pence Tree
+#Made by Thedetailedbread
+focus_tree = {
+	id = USA_pence_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_the_modern_jacobite
+		icon = wip
+		x = 10
+		y = 0
+		cost = 1
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	}
+	focus = {
+		id = USA_an_era_of_christian_republicanism
+		icon = wip
+		x = 10
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_the_modern_jacobite  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_erode_the_seperation_policy
+		icon = wip
+		x = 10
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_an_era_of_christian_republicanism  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_undoing_the_berlin_conference
+		icon = wip
+		x = 7
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_erode_the_seperation_policy  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_expand_christian_holidays
+		icon = wip
+		x = 10
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_erode_the_seperation_policy  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_keep_homosexuality_criminalized
+		icon = wip
+		x = 13
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_erode_the_seperation_policy  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_meet_with_herr_kaiser
+		icon = wip
+		x = 7
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_undoing_the_berlin_conference  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_remove_title_ix_policies
+		icon = wip
+		x = 10
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_expand_christian_holidays  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_more_funds_for_christian_states
+		icon = wip
+		x = 13
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_keep_homosexuality_criminalized  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_promote_christian_morals
+		icon = wip
+		x = 10
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_remove_title_ix_policies  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_begin_television_campaigns
+		icon = wip
+		x = 7
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_promote_christian_morals  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_televised_church_services
+		icon = wip
+		x = 7
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_begin_television_campaigns  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_ready_the_fight
+		icon = wip
+		x = 13
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_promote_christian_morals  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_erode_liberalism
+		icon = wip
+		x = 13
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_ready_the_fight  }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+}

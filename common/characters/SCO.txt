@@ -1,0 +1,145 @@
+characters={	
+	SCO_Willie_Clarke={
+		name="Willie Clarke"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Willie_Clarke.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Bruce_Ogilvie={
+		name="Bruce Ogilvie"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Bruce_Ogilvie.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Jim_Fairlie={
+		name="Jim Fairlie"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Jim_Fairlie.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Franz_First={
+		name="Franz I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Franz_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Matt_Lygate={
+		name="Matt Lygate"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Matt_Lygate.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Winnie_Ewing={
+		name="Winnie Ewing"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Winnie_Ewing.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Gordon_Wilson={
+		name="Gordon Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Gordon_Wilson.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Robin_Harper={
+		name="Robin Harper"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Robin_Harper.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Nicola_Sturgeon={
+		name="Nicola Sturgeon"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Nicola_Sturgeon.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Colin_Fox={
+		name="Colin Fox"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Colin_Fox.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SCO_Alex_Salmond={
+		name="Alex Salmond"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/Portrait_SCO_Alex_Salmond.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

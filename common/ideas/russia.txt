@@ -1,0 +1,172 @@
+ideas = {
+
+	country = {
+	
+		bolshevik_insurgents = {
+			picture = communism2
+			
+			allowed = { always = no }
+			available = {}
+			cancel = { has_government = communism }
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				stability_weekly = -0.001
+				communism_drift = 0.01
+			}
+		}
+		bolshevik_insurgents2 = {
+			picture = communism2
+			
+			allowed = { always = no }
+			available = {}
+			cancel = { has_government = communism }
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.06
+				stability_weekly = -0.002
+				war_support_weekly = -0.001
+				communism_drift = 0.02
+			}
+		}
+		bolshevik_insurgents3 = {
+			picture = communism2
+			
+			allowed = { always = no }
+			available = {}
+			cancel = { has_government = communism }
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.09
+				stability_weekly = -0.003
+				war_support_weekly = -0.002
+				communism_drift = 0.03
+			}
+		}
+		bolshevik_insurgents4 = {
+			picture = communism2
+			
+			allowed = { always = no }
+			available = {}
+			cancel = { has_government = communism }
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.12
+				stability_weekly = -0.004
+				war_support_weekly = -0.003
+				communism_drift = 0.04
+			}
+		}
+		bolshevik_insurgents5 = {
+			picture = communism2
+			
+			allowed = { always = no }
+			available = {}
+			cancel = { has_government = communism }
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_weekly = -0.005
+				war_support_weekly = -0.004
+				communism_drift = 0.05
+			}
+		}
+	
+		orthodox_church_unhappy = {
+			picture = orthodoxy
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.004
+				war_support_weekly = -0.001
+				neutrality_drift = -0.02
+			}
+		}
+		orthodox_church_discontent = {
+			picture = orthodoxy
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.002
+				neutrality_drift = -0.01
+			}
+		}
+		orthodox_church_content = {
+			picture = orthodoxy
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.002
+				neutrality_drift = 0.01
+			}
+		}
+		orthodox_church_happy = {
+			picture = orthodoxy
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.004
+				war_support_weekly = 0.001
+				neutrality_drift = 0.02
+			}
+		}
+	
+	}
+	
+	social_faction = {
+		
+		lenin_cult = {
+			picture = vladimir_lenin
+			
+			allowed = {}
+			visible = {
+				original_tag = SOV
+			}
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				communism_drift = 0.02
+				neutrality_drift = -0.01
+				communism_acceptance = 20
+				political_power_factor = 0.05
+				research_speed_factor = 0.05
+			}
+		}
+	
+	}
+
+}

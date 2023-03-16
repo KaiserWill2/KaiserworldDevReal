@@ -1,0 +1,31 @@
+
+state={
+	id=553
+	name="STATE_553"
+	manpower = 5990000
+	
+	state_category = large_town
+
+	history={
+		owner = UAR
+		victory_points = {
+			792 19
+		}
+		victory_points = { 1108 2 }
+		victory_points = { 11919 1 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 5
+			792 = {
+				naval_base = 3
+			}
+		}
+
+		add_core_of = LEB
+	}
+
+	provinces={
+		792 1108 11919 
+	}
+}

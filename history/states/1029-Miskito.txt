@@ -1,0 +1,22 @@
+state=
+{
+	id=1029
+	name="STATE_1029"
+	manpower=1513140
+	
+	state_category = rural
+	history = {
+		owner = CEA
+		add_core_of = NIC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = CEA
+		
+
+	}
+	provinces={
+		13798 13806 13801 13799 13800 13810 13809 13808 13807 13805 13811 13802 13804 13803
+	}
+}

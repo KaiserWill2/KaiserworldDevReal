@@ -1,0 +1,26 @@
+state={
+	id=980
+	name="STATE_980"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = AZR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1610 2
+		}
+add_core_of = AZR
+	}
+
+	provinces={
+		1610
+	}
+	manpower=36573
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

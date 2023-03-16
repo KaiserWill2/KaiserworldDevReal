@@ -1,0 +1,151 @@
+characters={
+	MAR_christopher_loeak={
+		name="Christopher Loeak"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAR/Portrait_MAR_Christopher_Loeak.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAR_bob_evans={
+		name="Bob Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=afrikaner_nationalist
+			expire="2027.1.1.12"
+			id=-1
+		}
+	}
+	MAR_jonas_walker={
+		name="Jonas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="2028.1.1.12"
+			id=-1
+		}
+	}
+	MAR_johannes_jones={
+		name="Johannes Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			traits={ captain_of_industry fortification_engineer }
+			expire="2028.1.1.12"
+			id=-1
+		}
+	}
+	MAR_alex_taylor={
+		name="Alex Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=moldovenist
+			expire="2029.1.1.12"
+			id=-1
+		}
+	}
+	MAR_marcus_taylor={
+		name="Marcus Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			traits={ ideological_crusader fortification_engineer }
+			expire="2030.1.1.12"
+			id=-1
+		}
+	}
+	MAR_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_centrist
+			expire="2030.1.1.12"
+			id=-1
+		}
+	}
+	MAR_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			traits={ smooth_talking_charmer }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MAR_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=austro_marxist
+			traits={ quartermaster_general smooth_talking_charmer }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	MAR_jim_walker={
+		name="Jim Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=left_maoist
+			traits={ smooth_talking_charmer }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	MAR_john_walker={
+		name="John Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=sandinist
+			traits={ quartermaster_general captain_of_industry }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+}

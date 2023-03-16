@@ -1,0 +1,1065 @@
+add_namespace = Scotland
+
+country_event = {
+	id = Scotland.1
+	title = Scotland.1.t
+	desc = Scotland.1.d
+	picture = scotland_the_brave_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.1.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.2
+	title = Scotland.2.t
+	desc = Scotland.2.d
+	picture = english_refugees_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.2.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.3
+	title = Scotland.3.t
+	desc = Scotland.3.d
+	picture = francis_changes_direction_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.3.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.4
+	title = Scotland.4.t
+	desc = Scotland.4.d
+	picture = scottish_welfare_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.4.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.5
+	title = Scotland.5.t
+	desc = Scotland.5.d
+	picture = scottish_job_industry_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.5.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.6
+	title = Scotland.6.t
+	desc = Scotland.6.d
+	picture = highland_resources_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.6.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.7
+	title = Scotland.7.t
+	desc = Scotland.7.d
+	picture = the_nation_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.7.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.8
+	title = Scotland.8.t
+	desc = Scotland.8.d
+	picture = scotland_and_canada_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.8.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.9
+	title = Scotland.9.t
+	desc = Scotland.9.d
+	picture = scottish_intelligence_agency_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.9.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.10
+	title = Scotland.10.t
+	desc = Scotland.10.d
+	picture = bernie_and_scotland_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.10.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.11
+	title = Scotland.11.t
+	desc = Scotland.11.d
+	picture = socialist_scotland_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.11.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.12
+	title = Scotland.12.t
+	desc = Scotland.12.d
+	picture = francis_and_bernie_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.12.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.13
+	title = Scotland.13.t
+	desc = Scotland.13.d
+	picture = scotland_and_ireland_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.13.o1
+
+	}
+}
+
+
+country_event = {
+	id = Scotland.14
+	title = Scotland.14.t
+	desc = Scotland.14.d
+	picture = scotland_and_ireland_agreement_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.14.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.15
+	title = Scotland.15.t
+	desc = Scotland.15.d
+	picture = the_king_in_his_counting_house_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.15.o1
+
+	}
+}
+
+
+country_event = {
+	id = Scotland.16
+	title = Scotland.16.t
+	desc = Scotland.16.d
+	picture = the_welsh_appointment_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.16.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.17
+	title = Scotland.17.t
+	desc = Scotland.17.d
+	picture = the_scottish_coup_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.17.o1
+		SCO = {
+			country_event = { days = 5 id = Scotland.18 } 
+		}
+	}
+}
+
+
+country_event = {
+	id = Scotland.18
+	title = Scotland.18.t
+	desc = Scotland.18.d
+	picture = the_Agreement_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.18.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.19
+	title = Scotland.19.t
+	desc = Scotland.19.d
+	picture = the_shared_parliament_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.19.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.20
+	title = Scotland.20.t
+	desc = Scotland.20.d
+	picture = arresting_far_left_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.20.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.21
+	title = Scotland.21.t
+	desc = Scotland.21.d
+	picture = solidarity_movement_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.21.o1
+		create_country_leader = {
+			name = "Richie Venton"
+			picture = "Richie_Venton.dds"
+			ideology = revolutionary_socialist_ideology
+		}
+	}
+	option = {
+		name = Scotland.21.o2
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.22
+	title = Scotland.22.t
+	desc = Scotland.22.d
+	picture = scotlands_soldiers_stand_ready_Event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.22.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.23
+	title = Scotland.23.t
+	desc = Scotland.23.d
+	picture = scottish_soldiers_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.23.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.24
+	title = Scotland.24.t
+	desc = Scotland.24.d
+	picture = scottish_armed_bordeR_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.24.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.25
+	title = Scotland.25.t
+	desc = Scotland.25.d
+	picture = welcome_to_Scotland_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.25.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.26
+	title = Scotland.26.t
+	desc = Scotland.26.d
+	picture = anti_missile_weapon_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.26.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.27
+	title = Scotland.27.t
+	desc = Scotland.27.d
+	picture = scotland_protest_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.27.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.28
+	title = Scotland.28.t
+	desc = Scotland.28.d
+	picture = breaking_way_from_germany_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.28.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.29
+	title = Scotland.29.t
+	desc = Scotland.29.d
+	picture = ready_for_reforms_Event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.29.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.30
+	title = Scotland.30.t
+	desc = Scotland.30.d
+	picture = create_celtic_research_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.30.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.31
+	title = Scotland.31.t
+	desc = Scotland.31.d
+	picture = rule_out_joining_GEZ_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.31.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.32
+	title = Scotland.32.t
+	desc = Scotland.32.d
+	picture = join_the_OSTA_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.32.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.33
+	title = Scotland.33.t
+	desc = Scotland.33.d
+	picture = the_SHS_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.33.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.34
+	title = Scotland.34.t
+	desc = Scotland.34.d
+	picture = scottish_welfare_system_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.34.o1
+	
+	}
+}
+
+
+
+country_event = {
+	id = Scotland.35
+	title = Scotland.35.t
+	desc = Scotland.35.d
+	picture = scottish_job_training_Event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.35.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.36
+	title = Scotland.36.t
+	desc = Scotland.36.d
+	picture = scotland_reduce_germna_influnence_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.36.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.37
+	title = Scotland.37.t
+	desc = Scotland.37.d
+	picture = scottish_far_right_party_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.37.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.38
+	title = Scotland.38.t
+	desc = Scotland.38.d
+	picture = scotland_removes_german_ministers_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.38.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.39
+	title = Scotland.39.t
+	desc = Scotland.39.d
+	picture = scotland_removes_german_ministers_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.39.o1
+		sound_effect = Scottish_Freedom
+	}
+}
+
+
+country_event = {
+	id = Scotland.40
+	title = Scotland.40.t
+	desc = Scotland.40.d
+	picture = meeting_scottish_parliament_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.40.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.41
+	title = Scotland.41.t
+	desc = Scotland.41.d
+	picture = removing_the_far_right_Event_sc
+	is_triggered_only = yes
+	option = {
+		name = Scotland.41.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.42
+	title = Scotland.42.t
+	desc = Scotland.42.d
+	picture = investigate_far_left_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.42.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.43
+	title = Scotland.43.t
+	desc = Scotland.43.d
+	picture = germany_and_scotland_relations_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.43.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.44
+	title = Scotland.44.t
+	desc = Scotland.44.d
+	picture = the_new_border_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.44.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.45
+	title = Scotland.45.t
+	desc = Scotland.45.d
+	picture = francis_announces_elections_Event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.45.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.46
+	title = Scotland.46.t
+	desc = Scotland.46.d
+	picture = ballots_are_counted_Event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.46.o1
+		set_politics = {
+			ruling_party = national_conservative
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = national_conservative 
+				popularity = 0.52
+			}
+	}
+	option = {
+		name = Scotland.46.o2
+		set_politics = {
+			ruling_party = centrist
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = centrist 
+				popularity = 0.52
+			}
+	}
+	option = {
+		name = Scotland.46.o3
+		set_politics = {
+			ruling_party = liberal
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = liberal 
+				popularity = 0.52
+			}
+	}
+	option = {
+		name = Scotland.46.o4
+		set_politics = {
+			ruling_party = new_democrat
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = new_democrat 
+				popularity = 0.52
+			}
+	}
+
+}
+
+country_event = {
+	id = Scotland.47
+	title = Scotland.47.t
+	desc = Scotland.47.d
+	picture = expanding_scotlands_relations_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.47.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.48
+	title = Scotland.48.t
+	desc = Scotland.48.d
+	picture = ireland_security_partnership_Event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.48.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.49
+	title = Scotland.49.t
+	desc = Scotland.49.d
+	picture = military_exercises_against_england_Event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.49.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.50
+	title = Scotland.50.t
+	desc = Scotland.50.d
+	picture = modern_scotland_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.50.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.51
+	title = Scotland.51.t
+	desc = Scotland.51.d
+	picture = The_celtic_crossing_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.51.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.52
+	title = Scotland.52.t
+	desc = Scotland.52.d
+	picture = scotland_technology_powerhouse_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.52.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.53
+	title = Scotland.53.t
+	desc = Scotland.53.d
+	picture = dyson_comes_to_Scland_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.53.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.54
+	title = Scotland.54.t
+	desc = Scotland.54.d
+	picture = branson_in_scotland_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.54.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.55
+	title = Scotland.55.t
+	desc = Scotland.55.d
+	picture = spaceport_in_scotland_Event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.55.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.56
+	title = Scotland.56.t
+	desc = Scotland.56.d
+	picture = preparing_For_launch_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.56.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.57
+	title = Scotland.57.t
+	desc = Scotland.57.d
+	picture = we_have_lift_off_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.57.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.58
+	title = Scotland.58.t
+	desc = Scotland.58.d
+	picture = germany_removes_francis_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.58.o1
+		remove_ideas = idea_Francis_Of_Scotland 
+
+
+	}
+}
+
+
+
+country_event = {
+	id = Scotland.59
+	title = Scotland.59.t
+	desc = Scotland.59.d
+	picture = the_german_puppet_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.59.o1
+		set_cosmetic_tag = Sco_German_Scotland
+		GER = {
+			puppet = SCO
+		}
+
+		create_country_leader = {
+			name = "Francis IV"
+			picture = "francis_german_IV.dds"
+			ideology = absolute_monarchist
+		}
+		set_politics = {
+			ruling_party = monarchist 
+			elections_allowed = no
+		}
+
+
+	}
+}
+
+country_event = {
+	id = Scotland.60
+	title = Scotland.60.t
+	desc = Scotland.60.d
+	picture = removing_the_radicals_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.60.o1
+	
+
+
+	}
+}
+
+country_event = {
+	id = Scotland.61
+	title = Scotland.61.t
+	desc = Scotland.61.d
+	picture = removing_the_radicals_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.61.o1
+		add_popularity = {
+			ideology = revolutionary_socialist 
+			popularity = -0.50
+		}
+	}
+
+	option = {
+		name = Scotland.61.o2
+		add_popularity = {
+			ideology = revolutionary_socialist 
+			popularity = 0.10
+		}
+	}
+
+
+}
+
+country_event = {
+	id = Scotland.62
+	title = Scotland.62.t
+	desc = Scotland.62.d
+	picture = the_royal_party_unites_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.62.o1
+	}
+}
+
+country_event = {
+	id = Scotland.63
+	title = Scotland.63.t
+	desc = Scotland.63.d
+	picture = electing_pro_german_party_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.63.o1
+	
+		set_party_name = { ideology = monarchist long_name = The_Scottish_Royal_Party name = The_Scottish_Royal_Party }
+
+
+	}
+}
+
+
+country_event = {
+	id = Scotland.64
+	title = Scotland.64.t
+	desc = Scotland.64.d
+	picture = direction_of_scotland_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.64.o1
+	}
+}
+
+country_event = {
+	id = Scotland.65
+	title = Scotland.65.t
+	desc = Scotland.65.d
+	picture = german_and_scottish_manufacturing_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.65.o1
+	}
+}
+
+
+country_event = {
+	id = Scotland.66
+	title = Scotland.66.t
+	desc = Scotland.66.d
+	picture = scotland_joins_europakt_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.66.o1
+	}
+}
+
+
+country_event = {
+	id = Scotland.67
+	title = Scotland.67.t
+	desc = Scotland.67.d
+	picture = moving_weapons_to_scotland_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.67.o1
+	}
+}
+
+country_event = {
+	id = Scotland.68
+	title = Scotland.68.t
+	desc = Scotland.68.d
+	picture = old_scottish_ministers_gone_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.68.o1
+	}
+}
+
+country_event = {
+	id = Scotland.69
+	title = Scotland.69.t
+	desc = Scotland.69.d
+	picture = a_new_prussian_constitution_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.69.o1
+	}
+}
+
+
+country_event = {
+	id = Scotland.70
+	title = Scotland.70.t
+	desc = Scotland.70.d
+	picture = The_welsh_offer_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.70.o1
+
+		GER = {
+			puppet = WAL
+		}
+
+		WAL = {
+			create_country_leader = {
+				name = "Tywysog Llywelyn Jones Cymru"
+				picture = "Tywysog_Llywelyn_Jones_Cymru.dds"
+				ideology = absolute_monarchist
+			}
+			set_cosmetic_tag = WAL_Reichskommissariat_welsch
+			}
+	
+
+	}
+}
+
+country_event = {
+	id = Scotland.71
+	title = Scotland.71.t
+	desc = Scotland.71.d
+	picture = germany_orders_england_to_stop_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.71.o1
+		SCO = {
+			country_event = { days = 10 id = Scotland.72 } 
+			}
+	}
+}
+
+
+country_event = {
+	id = Scotland.72
+	title = Scotland.72.t
+	desc = Scotland.72.d
+	picture = england_returns_fire_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.72.o1
+		SCO = {
+			country_event = { days = 10 id = Scotland.73 } 
+			}
+	}
+}
+
+
+
+country_event = {
+	id = Scotland.73
+	title = Scotland.73.t
+	desc = Scotland.73.d
+	picture = germans_fight_back_Event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.73.o1
+		GER = {
+			declare_war_on = { type = annex_everything    target = ENG }
+			}	
+
+		declare_war_on = { type = annex_everything    target = ENG }
+
+		WAL = {
+		declare_war_on = { type = annex_everything    target = ENG }
+		}	
+
+		SCO = {
+			country_event = { days = 10 id = England.74 } 
+			}
+	}
+}
+
+
+country_event = {
+	id = Scotland.74
+	title = Scotland.74.t
+	desc = Scotland.74.d
+	picture = england_breaks_apart_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.74.o1
+		set_country_flag = SCO_rockets_away
+		SCO = {
+			country_event = { days = 10 id = Scotland.75 } 
+			}
+	}
+}
+
+
+country_event = {
+	id = Scotland.75
+	title = Scotland.75.t
+	desc = Scotland.75.d
+	picture = a_new_prussian_constitution_event
+	is_triggered_only = yes
+	option = {
+		name = Scotland.75.o1
+		
+		ENG = { change_tag_from = SCO }
+
+		ENG = {
+		annex_country = { target = SCO transfer_troops = yes }
+		annex_country = { target = WAL transfer_troops = yes }
+		}
+
+		GER = {
+			puppet = ENG
+		}
+
+		ENG = {
+			create_country_leader = {
+				name = "Kaiser Georg Of Angland"
+				picture = "Kaiser_Georg_Of_Angland.dds"
+				ideology = military_junta
+			}
+			set_cosmetic_tag = ENG_Reichskommissariat_Britannia
+			}
+	}
+}
+
+
+

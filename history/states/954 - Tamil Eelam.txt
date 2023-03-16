@@ -1,0 +1,22 @@
+state={
+	id=954
+	name="STATE_954"
+
+	provinces={
+	4219 10201 10229 12258 13765 13768 13769
+	}
+	state_category = rural
+	history={
+		owner = GER
+		add_core_of = SRI
+		add_core_of = TME
+		victory_points = { 10229 2 } #Trincomalee#
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	
+	}
+	manpower=	3496000
+	buildings_max_level_factor=1.000
+}

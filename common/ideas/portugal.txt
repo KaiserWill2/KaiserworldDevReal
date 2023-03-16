@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+	
+		manuel_ii = {
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				fascism_drift = -0.01
+				communism_drift = -0.01
+			}
+		}
+		
+	}
+	
+}

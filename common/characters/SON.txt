@@ -1,0 +1,155 @@
+characters={
+	SON_juan_pablo_castanon={
+		name="Juan Pablo Castañón"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Juan_Pablo_Castanon.dds"
+			}
+		}
+		country_leader={
+			ideology=corporate
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_julian_leyzaola={
+		name="Julián Leyzaola"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Julian_Leyzaola.dds"
+			}
+		}
+		country_leader={
+			ideology=national_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_carlos_habsburgo={
+		name="Carlos Felipe I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Carlos_Habsburgo.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_jaime_bonilla_valdez={
+		name="Jaime Bonilla Valdez"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Jaime_Bonilla_Valdez.dds"
+			}
+		}
+		country_leader={
+			ideology=socialist_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_guilliermo_padres_elias={
+		name="Guillermo Padrés Elías"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Guillermo_Padres_Elias.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_ernesto_lucas_hopkins={
+		name="Ernesto de Lucas Hopkins"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Ernesto_Lucas_Hopkins.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_eric_garcetti={
+		name="Eric Garcetti"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Eric_Garcetti.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_patricia_mercado={
+		name="Patricia Mercado"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Patricia_Mercado.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_alfonso_durazo={
+		name="Alfonso Durazo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Alfonso_Durazo.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_victor_castro = {
+		name="Víctor Manuel Castro Cosío"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Victor_Castro.dds"
+			}
+		}
+		country_leader={
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SON_claudia_agaton = {
+		name="Claudia Agatón"
+		portraits={
+			civilian={
+				large="gfx/leaders/SON/Portrait_SON_Claudia_Agaton.dds"
+			}
+		}
+		country_leader={
+			ideology=bolivarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

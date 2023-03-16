@@ -1,0 +1,155 @@
+characters={
+	SCA_anders_arleskog={
+		name="Anders Ärleskog"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Anders_Arleskog.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_carl_herslow={
+		name="Carl Peter Herslow"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Carl_Herslow.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_victor_gunnarsson={
+		name="Victor Gunnarsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Victor_Gunnarsson.dds"
+			}
+		}
+		country_leader={
+			ideology=larouche
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_kong_henrik={
+		name="Henrik I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Kong_Henrik.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_goran_tunhammar={
+		name="Göran Tunhammar"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Goran_Tunhammar.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_karl_erik_olsson={
+		name="Karl Erik Olsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Karl_Erik_Olsson.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_philip_sandberg={
+		name="Philip Sandberg"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Philip_Sandberg.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_henrik_fritzon={
+		name="Henrik Fritzon"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Henrik_Fritzon.dds"
+			}
+		}
+		country_leader={
+			ideology=nordic_model
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_marta_stenevi={
+		name="Märta Stenevi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Marta_Stenevi.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_hans_olof_nilsson={
+		name="Hans-Olof Nilsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Hans-Olof_Nilsson.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SCA_hans_linde={
+		name="Hans Linde"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/Portrait_SCA_Hans_Linde.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

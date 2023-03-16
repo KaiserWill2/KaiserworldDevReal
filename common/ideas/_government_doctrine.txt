@@ -1,0 +1,676 @@
+ideas = {
+
+
+	trade_doctrine = {
+		law = yes
+	
+		protectionism = {
+			picture = agrarian_reform
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { 
+				NOT = { has_idea = free_trade }
+				count_triggers = {
+					AMOUNT = 9
+					
+					NOT = { has_government = democratic }
+					OR = {
+						has_government = fascism
+						has_government = communism
+					}
+					threat > 0.2
+					threat > 0.4
+					threat > 0.6
+                    NOT = { has_idea = foreign_investors }
+                    NOT = { has_idea = aristocratic_elites }
+                    NOT = { has_idea = railroad_companies }
+                    NOT = { has_idea = middle_class_businesses }
+					has_war = yes
+					has_defensive_war = yes
+					is_in_faction = no
+					has_stability > 0.5
+					has_war_support > 0.5
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				min_export = -0.07
+				communism_drift = 0.01
+				fascism_drift = 0.01
+				war_support_factor = 0.05
+				industrial_capacity_factory = 0.05
+				#trade_laws_cost_factor = 0.25
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+		dynamic_trade = {
+			picture = central_management
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				count_triggers = {
+					AMOUNT = 6
+					
+					has_defensive_war = no
+					is_puppet = no
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					has_idea_with_trait = captain_of_industry
+					has_idea_with_trait = real_estate_developer
+					has_idea_with_trait = financial_expert
+					has_idea = middle_class_businesses
+                    NOT = { has_idea = foreign_investors }
+                    NOT = { has_idea = aristocratic_elites }
+					has_stability > 0.50
+					has_stability > 0.75
+					has_war_support > 0.5
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			default = yes
+			
+			modifier = {
+				neutrality_drift = 0.01
+				stability_factor = 0.05
+				#trade_laws_cost_factor = -0.25
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+		libertarian_trade = {
+			picture = trade
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				NOT = { has_idea = limited_exports }
+				NOT = { has_idea = closed_economy }
+				count_triggers = {
+					AMOUNT = 6
+					
+					has_government = democratic
+					has_idea = free_trade
+					threat < 0.5
+					threat < 0.25
+					has_stability > 0.25
+					has_stability > 0.5
+                    NOT = { has_idea = middle_class_businesses }
+                    NOT = { has_idea = military_industrialists }
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.07
+				democratic_drift = 0.01
+				consumer_goods_factor = -0.05
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+	}
+
+	economic_doctrine = {
+		law = yes
+	
+		laissez_faire = {
+			picture = foreign_capital
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				count_triggers = {
+					AMOUNT = 7
+					
+					has_government = democratic
+					has_government = neutrality
+					has_idea_with_trait = captain_of_industry
+					has_idea_with_trait = real_estate_developer
+					has_idea_with_trait = financial_expert
+                    NOT = { has_idea = military_industrialists }
+					has_stability > 0.2
+					has_stability > 0.4
+					has_stability > 0.6
+					has_stability > 0.8
+					threat < 0.25
+				}
+			}
+			cancel = {}
+			
+			default = yes
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.01
+				industrial_capacity_factory = 0.05
+				stability_factor = 0.1
+				war_support_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				political_power_factor = -0.05
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+		economic_intervention = {
+			picture = constructions
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				count_triggers = {
+					AMOUNT = 7
+					
+					NOT = { has_government = democratic }
+					threat > 0.1
+					threat > 0.2
+					has_stability > 0.25
+					has_stability < 0.75
+					has_idea_with_trait = financial_expert
+					has_idea_with_trait = real_estate_developer
+					NOT = { has_idea = middle_class_businesses }
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.01
+				neutrality_drift = 0.01
+				local_resources_factor = -0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+		state_capitalism = {
+			picture = resource_production
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				count_triggers = {
+					AMOUNT = 6
+					
+					OR = {
+						has_government = fascism
+						has_government = communism
+					}
+					has_idea_with_trait = fortification_engineer
+					has_idea_with_trait = armaments_organizer
+					has_idea_with_trait = war_industrialist
+					has_idea_with_trait = corporate_elitist
+					has_idea_with_trait = quartermaster_general
+					has_stability > 0.25
+					has_stability < 0.75
+					NOT = { has_idea = leftist_intellectuals }
+					NOT = { has_idea = big_banks }
+					NOT = { has_idea = aristocratic_elites }
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.01
+				fascism_drift = 0.01
+				local_resources_factor = 0.1
+				political_power_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				production_speed_arms_factory_factor = 0.15
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+		planned_economy = {
+			picture = great_red_menace
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				OR = {
+					has_government = communism
+					AND = {
+						has_government = democratic
+						communism > 0.3
+					}
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.01
+				war_support_factor = 0.05
+				local_resources_factor = 0.05
+				enemy_partisan_effect = -0.1
+				political_power_factor = 0.1
+				industrial_capacity_factory = -0.1
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+	}
+
+	religious_doctrine = {
+		law = yes
+	
+		atheism = {
+			picture = technocracy
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				OR = {
+					has_government = communism
+					AND = {
+						has_government = democratic
+						communism > 0.25
+					}
+				}
+				NOT = { has_idea = catholic_clergy }
+				NOT = { has_idea = protestant_clergy }
+				NOT = { has_idea = orthodox_clergy }
+				NOT = { has_idea = sunni_clergy }
+				NOT = { has_idea = shia_clergy }
+				NOT = { has_idea = buddhist_clergy }
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.01
+				democratic_drift = 0.01
+				war_support_factor = 0.05
+				research_speed_factor = 0.03
+			}
+
+			ai_will_do = {
+   				factor = 0
+				
+				modifier = {
+					add = 1
+					has_government = communism
+				}
+   			}
+		}
+		secularism = {
+			picture = national_victory
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = communism
+					has_government = neutrality
+				}
+				OR = {
+					NOT = { 
+						has_idea = catholic_clergy
+						has_idea = protestant_clergy
+						has_idea = orthodox_clergy
+						has_idea = sunni_clergy
+						has_idea = shia_clergy 
+						has_idea = buddhist_clergy 
+					}
+					has_idea = liberal_reformers
+					has_idea = radical_socialists
+					has_idea = liberal_monarchists
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			default = yes
+			
+			modifier = {
+				democratic_drift = 0.01
+				stability_factor = 0.05
+				consumer_goods_factor = -0.02
+			}
+
+			ai_will_do = {
+   				factor = 0
+				
+				modifier = {
+					add = 1
+					has_government = democratic
+				}
+   			}
+		}
+		pluralism = {
+			picture = disjointed_government
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				OR = {
+					AND = {
+						NOT = { has_idea = catholic_clergy }
+						NOT = { has_idea = protestant_clergy }
+						NOT = { has_idea = orthodox_clergy }
+						NOT = { has_idea = buddhist_clergy }
+						NOT = { has_idea = sunni_clergy }
+						NOT = { has_idea = shia_clergy }
+					}
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				OR = {
+					has_war = yes
+					has_stability > 0.6
+					has_war_support > 0.6
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.01
+				stability_factor = 0.05
+				war_support_factor = 0.025
+			}
+
+			ai_will_do = {
+   				factor = 0
+				
+				modifier = {
+					add = 1
+					has_government = neutrality
+				}
+   			}
+		}
+		moralism = {
+			picture = ideology_drift_defense
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				NOT = { has_government = communism }
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+					AND = {
+						has_government = democratic
+						communism < 0.15
+					}
+				}
+				OR = {
+					has_idea = catholic_clergy
+					has_idea = protestant_clergy
+					has_idea = orthodox_clergy
+					has_idea = sunni_clergy
+					has_idea = shia_clergy
+					has_idea = buddhist_clergy
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.01
+				neutrality_drift = 0.01
+				war_support_factor = 0.05
+				political_power_factor = 0.2
+				research_speed_factor = -0.03
+			}
+
+			ai_will_do = {
+   				factor = 0
+				
+				modifier = {
+					add = 1
+					has_government = fascism
+				}
+   			}
+		}
+	}
+
+	diplomatic_doctrine = {
+		law = yes
+	
+		jingoism = {
+			picture = national_mobilization
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				OR = {
+					NOT = { has_idea = diplomatic_neutrality }
+					has_war = yes
+				}	
+				count_triggers = {
+					AMOUNT = 5
+					
+					OR = {
+						has_government = fascism
+						has_government = communism
+					}
+					NOT = { has_government = democratic }
+					NOT = { has_idea = foreign_investors }
+					has_idea = military_industrialists
+					has_idea = ultra_nationalists
+					has_war_support > 0.4
+					has_war_support > 0.8
+					threat > 0.2
+					threat > 0.4
+					threat > 0.6
+					threat > 0.8
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.01
+				communism_drift = 0.01
+				conscription_factor = 0.1
+				justify_war_goal_time = -0.2
+				generate_wargoal_tension = -0.1
+				send_volunteers_tension = 0.05
+				guarantee_tension = 0.2
+				political_power_factor = 0.1
+			}
+
+			ai_will_do = {
+   				factor = 0
+				
+				modifier = {
+					add = 1
+					has_government = fascism
+				}
+   			}
+		}
+		assertiveness = {
+			picture = political_force
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				has_offensive_war = no
+				count_triggers = {
+					AMOUNT = 6
+					
+					has_war_support > 0.2
+					has_war_support > 0.5
+					has_war_support > 0.8
+					threat > 0.15
+					threat > 0.5
+					has_war = no
+					NOT = { has_government = democratic }
+					has_government = neutrality
+					has_idea = colonial_elites
+					has_idea = military_industrialists
+					has_idea = robber_barons
+					OR = {
+						has_idea = army_officers
+						has_idea = air_force_officers
+						has_idea = navy_officers
+					}
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			default = yes
+			
+			modifier = {
+				neutrality_drift = 0.01
+				communism_drift = 0.01
+				conscription_factor = 0.05
+				lend_lease_tension = -0.2
+				generate_wargoal_tension = -0.05
+				send_volunteers_tension = -0.2
+				guarantee_tension = -0.1
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+		diplomatic_solidarity = {
+			picture = political_power_bonus
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				has_offensive_war = no
+				count_triggers = {
+					AMOUNT = 5
+					
+					threat > 0.4
+					has_war_support > 0.3
+					has_war_support > 0.6
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+					has_idea = big_banks
+					has_idea = military_industrialists
+					has_idea = middle_class_businesses
+					OR = {
+						has_idea = army_officers
+						has_idea = navy_officers
+						has_idea = air_force_officers
+					}
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.01
+				neutrality_drift = 0.01
+				join_faction_tension = -0.2
+				lend_lease_tension = -0.1
+				generate_wargoal_tension = 0.05
+				send_volunteers_tension = -0.1
+				guarantee_tension = -0.2
+				justify_war_goal_time = 0.1
+				political_power_factor = -0.05
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+		pacifism = {
+			picture = national_defense
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				NOT = { has_government = fascism }
+				has_war = no
+				count_triggers = {
+					AMOUNT = 6
+					
+					has_government = democratic
+					threat < 0.35
+					threat < 0.7
+					has_stability > 0.3
+					has_stability > 0.6
+					has_idea = middle_class_businesses
+					OR = {
+						has_idea = leftist_intellectuals
+						has_idea = liberal_reformers
+					}
+					OR = {
+						has_idea = foreign_investors
+						has_idea = labor_unions
+					}
+					AND = {
+						NOT = { has_idea = army_officers }
+						NOT = { has_idea = navy_officers }
+						NOT = { has_idea = air_force_officers }
+					}
+				}
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.01
+				send_volunteers_tension = 0.1
+				guarantee_tension = 0.2
+				research_speed_factor = 0.02
+				political_power_factor = 0.1
+				justify_war_goal_time = 0.2
+				generate_wargoal_tension = 0.1
+				production_speed_bunker_factor = 0.25
+				production_speed_coastal_bunker_factor = 0.25
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.15
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+	}
+	
+}

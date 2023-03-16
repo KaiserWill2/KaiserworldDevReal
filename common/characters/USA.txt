@@ -1,0 +1,527 @@
+characters={
+	USA_Barack_Obama={
+		name="Barack Obama"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Barack_Obama.dds"
+			}
+		}
+		country_leader={
+			ideology=national_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+
+
+	USA_Hillary_Clinton={
+		name="Hillary Clinton"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Hillery_Clinton.dds"
+			}
+		}
+		country_leader={
+			ideology=liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+
+	USA_Donald_Trump={
+		name="Donald Trump"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/donald_Trump.dds"
+			}
+		}
+		country_leader={
+			ideology=national_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	###Generals/Field Marshals
+	USA_james_rainey={
+		name="James E. Rainey"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		field_marshal={
+			traits={ logistics_wizard }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		
+	}
+	}
+	USA_bryan_fenton={
+		name="Bryan P. Fenton"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	USA_gary_brito={
+		name="Gary Brito"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_randy_george={
+		name="Randy George"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	USA_andrew_poppas={
+		name="Andrew P. Poppas"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	USA_darryl_williams={
+		name="Darryl A. Williams"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_michael_kurilla={
+		name="Michael Kurilla"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_laura_richardson={
+		name="Laura J. Richardson"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_charles_flynn={
+		name="Charles A. Flynn"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_chris_cavoli={
+		name="Christopher G. Cavoli"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_james_dickinson={
+		name="James H. Dickinson"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_daniel_hokanson={
+		name="Daniel R. Hokanson"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	USA_edward_daly={
+		name="Edward M. Daly"
+		portraits={
+			army={
+				small="wip"
+			}
+			army={
+				large="wip"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	### Advisors and High Command
+	USA_barack_obama_advisor={
+		name="Barack Obama"
+		portraits={
+			army={
+				small=:"wip"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = barack_obama_advisor
+			allowed = {
+				original_tag = USA
+			}
+			available = {
+				if = {
+					limit = {
+						
+					}
+					NOT = {
+						has_autonomy_state = autonomy_supervised_state
+					}
+				}
+				if = {
+					limit = {
+					 
+				}
+			}
+			traits = {
+				ideological_crusader
+			}
+			do_effect = {
+				NOT = {
+					has_government = centrists
+					has_government = liberals
+					has_government = new_democrats
+					has_government = national_conservatives
+					has_government = moderate_socialists
+					has_government = national_bolsheviks
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}		
+	}
+}
+}
+USA_donald_trump_advisor={
+	name="Donald Trump"
+	portraits={
+		army={
+			small=:"wip"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = donald_trump_advisor
+		allowed = {
+			original_tag = USA
+		}
+		available = {
+			if = {
+				limit = {
+					
+				}
+				NOT = {
+					has_autonomy_state = autonomy_supervised_state
+				}
+			}
+			if = {
+				limit = {
+				 
+			}
+		}
+		traits = {
+			libertarian_capitalist
+		}
+		do_effect = {
+			NOT = {
+				has_government = centrists
+				has_government = liberals
+				has_government = new_democrats
+				has_government = national_conservatives
+				has_government = moderate_socialists
+				has_government = national_bolsheviks
+			}
+		}
+		ai_will_do = {
+			factor = 0.000
+		}
+	}		
+}
+}
+USA_hillary_clinton_advisor={
+	name="Hillary Clinton"
+	portraits={
+		army={
+			small=:"wip"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = hillary_clinton_advisor
+		allowed = {
+			original_tag = USA
+		}
+		available = {
+			if = {
+				limit = {
+					
+				}
+				NOT = {
+					has_autonomy_state = autonomy_supervised_state
+				}
+			}
+			if = {
+				limit = {
+				 
+			}
+		}
+		traits = {
+			former_lawyer
+		}
+		do_effect = {
+			NOT = {
+				has_government = centrists
+				has_government = liberals
+				has_government = new_democrats
+				has_government = national_conservatives
+				has_government = moderate_socialists
+				has_government = national_bolsheviks
+			}
+		}
+		ai_will_do = {
+			factor = 0.000
+		}
+	}		
+}
+USA_steven_michael_quezada={
+	name="Steven Michael Quezada"
+	portraits={
+		army={
+			small=:"wip"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = steven_michael_quezada
+		allowed = {
+			original_tag = USA
+		}
+		available = {
+			if = {
+				limit = {
+					
+				}
+				NOT = {
+					has_autonomy_state = autonomy_supervised_state
+				}
+			}
+			if = {
+				limit = {
+				 
+			}
+		}
+		traits = {
+			loved_actor
+		}
+		do_effect = {
+			NOT = {
+				has_government = centrists
+				has_government = liberals
+				has_government = new_democrats
+				has_government = national_conservatives
+				has_government = moderate_socialists
+				has_government = national_bolsheviks
+			}
+		}
+		ai_will_do = {
+			factor = 0.000
+		}
+	}		
+}
+}
+USA_ken_blackwell={
+	name="Ken Blackwell"
+	portraits={
+		army={
+			small=:"wip"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = ken_blackwell
+		allowed = {
+			original_tag = USA
+		}
+		available = {
+			if = {
+				limit = {
+					
+				}
+				NOT = {
+					has_autonomy_state = autonomy_supervised_state
+				}
+			}
+			if = {
+				limit = {
+				 
+			}
+		}
+		traits = {
+			tax_collector
+		}
+		do_effect = {
+			NOT = {
+				has_government = centrists
+				has_government = liberals
+				has_government = new_democrats
+				has_government = national_conservatives
+				has_government = moderate_socialists
+				has_government = national_bolsheviks
+			}
+		}
+		ai_will_do = {
+			factor = 0.000
+		}
+	}		
+}
+}
+}

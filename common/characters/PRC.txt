@@ -1,0 +1,146 @@
+characters={
+	PRC_li_zhanshu={
+		name="Li Zhanshu"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Li_Zhanshu.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_LI_ZHANSHU_DESC"
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_li_hongzi={
+		name="Li Hongzi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Li_Hongzi.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_xi_jinping={
+		name="Xi Jinping"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Xi_Jinping.dds"
+			}
+		}
+		country_leader={
+			ideology=neoconservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_jin_youzhi={
+		name="Jin Youzhi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Jin_Youzhi.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_bo_xilai={
+		name="Bo Xilai"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Bo_Xilai.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_guo_wengui={
+		name="Guo Wengui"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Guo_Wengu.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_xu_wenli={
+		name="Xu Wenli"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Xu_Wenli.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_chen_guangcheng={
+		name="Chen Guangcheng"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Chen_Guangcheng.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_ai_weiwei={
+		name="Ai Weiwei"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Ai_Weiwei.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_guo_quan={
+		name="Guo Quan"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Guo_Quan.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PRC_wan_exiang={
+		name="Wan Exiang"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_PRC_Wan_Exiang.dds"
+			}
+		}
+		country_leader={
+			ideology=left_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

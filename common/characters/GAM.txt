@@ -1,0 +1,145 @@
+characters={
+	GAM_sanna_manjang={
+		name="Sanna Manjang"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Sanna_Manjang.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_yahya_jammeh={
+		name="Yahya Jammeh"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Yahya_Jammeh.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_alhaji_momodou_bojang={
+		name="Alhaji Momodou Bojang"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Alhaji_Momodou_Bojang.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_fabakary_jatta={
+		name="Fabakary Jatta"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Fabakary_Jatta.dds"
+			}
+		}
+		country_leader={
+			ideology=third_international_theory
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_ousman_rambo_jatta={
+		name="Ousman Rambo Jatta"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Ousman_Rambo_Jatta.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_omar_jallow={
+		name="Omar Jallow"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Omar_Jallow.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_ousainou_darboe={
+		name="Ousainou Darboe"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Ousainou_Darboe.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_mama_kandeh={
+		name="Mama Kandeh"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Mama_Kandeh.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_hamat_bah={
+		name="Hamat Bah"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Hamat_Bah.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_halifa_sallah={
+		name="Halifa Sallah"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Halifa_Sallah.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_kukoi_sanyang={
+		name="Kukoi Sanyang"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Portrait_GAM_Kukoi_Sanyang.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,265 @@
+characters={
+	LAT_Alfreds_Rubiks={ # original
+		name="Alfreds Rubiks"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Alfreds_Rubiks.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+    LAT_Raivis_Dzintars={
+		name="Raivis Dzintars"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Raivis_Dzintars.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Artuss_Kaimins={
+		name="Artuss Kaimins"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Artuss_Kaimins.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Viktors_Birze={
+		name="Viktors Birze"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Viktors_Birze.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Inguna_Sudraba={
+		name="Inguna Sudraba"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Inguna_Sudraba.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Solvita_Aboltina={
+		name="Solvita Aboltina"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Solvita_Aboltina.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Martins_Bondars={
+		name="Martins Bondars"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Martins_Bondars.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Miroslav_Mitrofanov={
+		name="Miroslav Mitrofanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Miroslav_Mitrofanov.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Jakovs_Pliners={
+		name="Jakovs Pliners"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Jakovs_Pliners.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Royal_Council={
+		name="Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Royal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Nils_Usakovs={
+		name="Nils Usakovs"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_LAT_Nils_Usakovs.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAT_Leonīds_Kalniņš={
+		name="Leonīds Kalniņš"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAT/Portrait_Leonīds_Kalniņš.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LAT_Egils_Leščinskis={
+		name="Egils Leščinskis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAT/Portrait_Egils_Leščinskis.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LAT_Juris_Maklakovs={
+		name="Juris Maklakovs"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAT/Portrait_Juris_Maklakovs.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LAT_Raimonds_Graube={
+		name="Raimonds Graube"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAT/Portrait_Raimonds_Graube.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LAT_Rimants_Štrimaitis={
+		name="Rimants Štrimaitis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAT/Portrait_Rimants_Štrimaitis.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			coordination_skill = 2
+			maneuvering_skill = 2
+			legacy_id=-1
+		}
+	}
+	LAT_Gaidis_Zeibots={
+		name="Gaidis Zeibots"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LAT/Portrait_Gaidis_Zeibots.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			coordination_skill = 2
+			maneuvering_skill = 2
+			legacy_id=-1
+		}
+	}
+}

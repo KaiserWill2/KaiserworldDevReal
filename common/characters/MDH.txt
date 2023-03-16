@@ -1,0 +1,225 @@
+characters={
+	MDH_safdar_nagori={
+		name="Safdar Nagori"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Safdar_Nagori.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_uma_bharti={
+		name="Uma Bharti"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Uma_Bharti.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_jyotiraditya_scindia={
+		name="Jyotiraditya Scindia"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Jyotiraditya_Scindia.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_kobad_ghandy={
+		name="Kobad Ghandy"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Kobad_Ghandy.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_shivraj_singh_chouhan={
+		name="Shivraj Singh Chouhan"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Shivraj_Singh_Chouhan.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_prashant_pandey={
+		name="Prashant Pandey"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Prashant_Pandey.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_rajkumar_urmaliya={
+		name="Rajkumar Urmaliya"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Rajkumar_Urmaliya.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_suresh_pachouri={
+		name="Suresh Pachouri"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Suresh_Pachouri.dds"
+			}
+		}
+		country_leader={
+			ideology=nehruvian_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_meera_deepak_yadav={
+		name="Meera Deepak Yadav"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Meera_Deepak_Yadav.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_sampat_pal_devi={
+		name="Sampat Pal Devi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Sampat_Pal_Devi.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_jiva_pandu_gavit={
+		name="Jiva Pandu Gavit"
+		portraits={
+			civilian={
+				large="gfx/leaders/MDH/Portrait_MDH_Jiva_Pandu_Gavit.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MDH_igor_cutie={
+		name="Igor Cutie"
+		portraits={
+			army={
+				small="GFX_Portrait_Asia_Generic_land_2_small"
+			}
+			army={
+				large="GFX_Portrait_Asia_Generic_land_2"
+			}
+		}
+		field_marshal={
+			traits={ organisational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MDH_eduard_ohladciuc={
+		name="Eduard Ohladciuc"
+		portraits={
+			army={
+				small="GFX_Portrait_Asia_Generic_land_2_small"
+			}
+			army={
+				large="GFX_Portrait_Asia_Generic_land_2"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MDH_mihail_buclis={
+		name="Mihail Buclis"
+		portraits={
+			army={
+				small="GFX_Portrait_Asia_Generic_land_2_small"
+			}
+			army={
+				large="GFX_Portrait_Asia_Generic_land_2"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MDH_snejana_nitrean={
+		name="Snejana Nitrean"
+		portraits={
+			army={
+				small="GFX_Portrait_Asia_Generic_land_2_small"
+			}
+			army={
+				large="GFX_Portrait_Asia_Generic_land_2"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

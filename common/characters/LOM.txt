@@ -1,0 +1,145 @@
+Characters={	
+LOM_Umberto_Ambrosoli={
+		name="Umberto Ambrosoli"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Umberto_Ambrosoli.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Umberto_Bossi={
+		name="Umberto Bossi"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Umberto_Bossi.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Roberto_Maroni={
+		name="Roberto Maroni"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Roberto_Maroni.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Joseph_Arpadi={
+		name= "Joseph Arpad"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Joseph_Arpad.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Bobo_Craxi={
+		name= "Bobo Craxi"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Bobo_Craxi.dds"
+			}
+		}
+		country_leader={
+			ideology= national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Giancarlo_Giorgetti={
+		name= "Giancarlo Giorgetti"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Giancarlo_Giorgetti.dds"
+			}
+		}
+		country_leader={
+			ideology= fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Giancarlo_Pagliarini={
+		name= "Giancarlo Pagliarini"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Giancarlo_Pagliarini.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Roberto_Castelli={
+		name= "Roberto Castelli"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Roberto_Castelli.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Gabriele_Albertini={
+		name= "Gabriele Albertini"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Gabriele_Albertini.dds"
+			}
+		}
+		country_leader={
+			ideology= new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Filippo_Penati={
+		name= "Filippo Penati"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Filippo_Penati.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+LOM_Willer_Bordon={
+		name= "Willer Bordon"
+		portraits={
+			civilian={
+				large="gfx/leaders/LOM/Portrait_LOM_Willer_Bordon.dds"
+			}
+		}
+		country_leader={
+			ideology=luxemburgism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,250 @@
+characters={
+	KYR_abibilla_kudayberdiev={
+		name="Abibilla Kudayberdiev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Abibilla_Kudayberdiev.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KYR/Portrait_KYR_Abibilla_Kudayberdiev.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_kurmanbek_bakiyev={
+		name="Kurmanbek Bakiyev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Kurmanbek_Bakiyev.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_urmat_askarbekovich_baryktabasov={
+		name="Urmat Askarbekovich Baryktabasov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Urmat_Askarbekovich_Baryktabasov.dds"
+			}
+		}
+		country_leader={
+			ideology=semi_constitutional_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_rayimberdi_duishenbiev={
+		name="Rayimberdi Duishenbiev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Rayimberdi_Duishenbiev.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KYR/Portrait_KYR_Rayimberdi_Duishenbiev.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_felix_kulov={
+		name="Felix Kulov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Felix_Kulov.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_jypar_jeksheev={
+		name="Jypar Jeksheev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Jypar_Jeksheev.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_askar_akayev={
+		name="Askar Akayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Askar_Akayev.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_bakyt_beshimov={
+		name="Bakyt Beshimov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Bakyt_Beshimov.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_omurbek_tekebayev={
+		name="Omurbek Tekebayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Omurbek_Tekebayev.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_roza_otunbayeva={
+		name="Roza Otunbayeva"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Roza_Otunbayeva.dds"
+			}
+		}
+		country_leader={
+			ideology=orthodox_leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_iskhak_masaliyev={
+		name="Iskhak Masaliyev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Portrait_KYR_Iskhak_Masaliyev.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_ismail_isakov={
+		name="Ismail Isakov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KYR/Portrait_Ismail_Isakov.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	KYR_asanbek_alymkozhoev={
+		name="Asanbek Alymkozhoev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KYR/Portrait_Asanbek_Alymkozhoev.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	KYR_taalaibek_omuraliev={
+		name="Taalaibek Omuraliev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KYR/Portrait_Taalaibek_Omuraliev.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	KYR_boris_yugai = {
+		name = "Boris Yugai"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+				}
+			army = {	
+				large = "gfx/leaders/KYR/Portrait_KYR_Boris_Yugai.dds"
+			}
+		}
+		corps_commander = {
+			traits = {}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+}

@@ -1,0 +1,145 @@
+characters={
+	SKK_ganga_prasad={
+		name="Ganga Prasad"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Ganga_Prasad.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_biraj_adhikari={
+		name="Biraj Adhikari"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Biraj_Adhikari.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_wangchuk_namgyal={
+		name="Wangchuk Namgyal"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Wangchuk_Namgyal_Sikkim.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_prem_singh_tamang={
+		name="Prem Singh Tamang"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Prem_Singh_Tamang.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_yong_tshering_lepcha={
+		name="Yong Tshering Lepcha"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Yong_Tshering_Lepcha.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_jigme_kazi={
+		name="Jigme Kazi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Jigme_Kazi.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_a.d._subba={
+		name="A.D. Subba"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_A_D_Subba.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_bharat_basnett={
+		name="Bharat Basnett"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Bharat_Basnett.dds"
+			}
+		}
+		country_leader={
+			ideology=nehruvian_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_pawan_kumar_chamling={
+		name="Pawan Kumar Chamling"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Pawan_Kumar_Chamling.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_bhaichung_bhutia={
+		name="Bhaichung Bhutia"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Bhaichung_Bhutia.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SKK_sanchaman_limboo={
+		name="Sanchaman Limboo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKK/Portrait_SKK_Sanchaman_Limboo.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

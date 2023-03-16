@@ -1,0 +1,609 @@
+focus_tree = {
+	id = USCA_intro_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USCA_The_Reign_Of_Comey
+		icon = the_reign_of_comey_icon
+		x = 16
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USCA_Funding_A_Private_Military
+		icon = fund_private_military_icon
+		x = 16
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_The_Reign_Of_Comey  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Extoring_the_human_Traffickers
+		icon = unkown
+		x = 14
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Funding_A_Private_Military  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USCA_Extorting_The_Slavers
+		icon = unkown
+		x = 14
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Extoring_the_human_Traffickers  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_A_Meeting_At_The_UN
+		icon = unkown
+		x = 14
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Extorting_The_Slavers  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Increase_Cocaine_Exports
+		icon = unkown
+		x = 18
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Funding_A_Private_Military  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Increase_Marijuanna_Production
+		icon = unkown
+		x = 18
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Increase_Cocaine_Exports  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Expanding_FBI_Operations
+		icon = unkown
+		x = 18
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Increase_Marijuanna_Production  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_A_Bombing_In_New_Washington
+		icon = unkown
+		x = 16
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Expanding_FBI_Operations  }
+		prerequisite = { focus =  USCA_A_Meeting_At_The_UN  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USCA_Rebuilding_The_White_Tower
+		icon = unkown
+		x = 16
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_A_Bombing_In_New_Washington  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Investigate_The_Bombing
+		icon = unkown
+		x = 16
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Rebuilding_The_White_Tower  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USCA_Tracing_The_Payments
+		icon = unkown
+		x = 16
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Investigate_The_Bombing  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Announce_Our_Conclusions
+		icon = unkown
+		x = 16
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Tracing_The_Payments  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Revenge_For_The_Bombing
+		icon = unknown
+		x = 27
+		y = 1
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Strike_The_Country_Harboring_Them-Mexico
+		icon = unkown
+		x = 25
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Revenge_For_The_Bombing  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Bribe_Cartels_To_Our_Side
+		icon = unkown
+		x = 25
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Strike_The_Country_Harboring_Them-Mexico  }
+
+		completion_reward = {
+	
+		}
+	}
+
+
+
+	focus = {
+		id = USCA_Destabilize_The_South
+		icon = unkown
+		x = 25
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Bribe_Cartels_To_Our_Side  }
+
+		completion_reward = {
+	
+		}
+	}
+
+
+	focus = {
+		id = USCA_Declare_A_Peacekeeping_Operation
+		icon = unkown
+		x = 25
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Destabilize_The_South  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_DOUBLE_CROSS
+		icon = unkown
+		x = 23
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Declare_A_Peacekeeping_Operation  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Discourage_American_Intervention
+		icon = unkown
+		x = 23
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_DOUBLE_CROSS  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_They_Welcome_Us_As_Liberators
+		icon = unkown
+		x = 25
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Declare_A_Peacekeeping_Operation  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Operation_Tenochtitlan
+		icon = unkown
+		x = 25
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_They_Welcome_Us_As_Liberators  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Establish_A_Yucatan_Protectorate
+		icon = unkown
+		x = 25
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Discourage_American_Intervention  }
+		prerequisite = { focus =  USCA_Operation_Tenochtitlan  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Denounce_The_Mexican_State
+		icon = unkown
+		x = 27
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Establish_A_Yucatan_Protectorate  }
+
+		completion_reward = {
+	
+		}
+	}
+
+
+
+
+	focus = {
+		id = USCA_Race_To_Mexico_City
+		icon = unkown
+		x = 23
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Establish_A_Yucatan_Protectorate  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_The_Fall_Of_Caesar
+		icon = unkown
+		x = 21
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Race_To_Mexico_City  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_The_Miracle_At_Puebla
+		icon = unkown
+		x = 25
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Race_To_Mexico_City  }
+
+		completion_reward = {
+	
+		}
+	}
+
+
+	focus = {
+		id = USCA_Hit_Their_Home_Columbia
+		icon = unkown
+		x = 29
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Revenge_For_The_Bombing  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Stoke_A_Syndicalists_Rebellion
+		icon = unkown
+		x = 29
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Revenge_For_The_Bombing  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Now_Is_Our_Time
+		icon = unkown
+		x = 29
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Stoke_A_Syndicalists_Rebellion  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Seize_Key_Border_Points
+		icon = unkown
+		x = 29
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Now_Is_Our_Time  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Create_Prison_Camps
+		icon = unkown
+		x = 29
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Seize_Key_Border_Points  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_A_New_Better_American_Nation
+		icon = unkown
+		x = 29
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Create_Prison_Camps  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Seize_The_Drug_Industry
+		icon = unkown
+		x = 31
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Seize_Key_Border_Points  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_End_The_Bolivaran_State
+		icon = unkown
+		x = 31
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Seize_The_Drug_Industry  }
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = USCA_Its_Time_For_A_Change
+		icon = unkown
+		x = 30
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_End_The_Bolivaran_State  }
+		prerequisite = { focus =  USCA_A_New_Better_American_Nation  }
+
+		completion_reward = {
+	
+		}
+	}
+
+
+
+
+
+
+
+}

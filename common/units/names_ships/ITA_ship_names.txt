@@ -1,0 +1,118 @@
+##### PERONIAN NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ITA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "Cacciatorpediniere %s"				
+
+	unique = {											
+	"Fante" "Audace" "Ardito" "Impavido" "Intrepido" "Geniere" "Lanciere" "Impetuoso" "Indomito" "Artigliere" "Aviere" "Bersagliere" "Granatiere" "Lupo" "Sagittario" "Perseo" "Orsa" "Alpino" "Carabiniere" "Canopo" "Castore" "Centauro" "Cigno" "Minerva" "Urania" "Danaide" "Sfinge" "Driade" "Chimera" "Fenice" "Sibilla" "Aldebaran" "Altair" "Andromeda" "Cassiopea" "Libra" "Aretusa" "Clio" "Calliope" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+ITA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "Incrociatore leggero %s"
+
+	unique = {
+	"Po" "Abruzzo" "Adige" "Basilicata" "Valle d'Aosta" "Tevere" "Puglia" "Campania" "Calabria" "Friuli Venezia Giulia" "Lazio" "Sicilia" "Toscana" "Sardegna" "Veneto" "Umbria" "Piemonte" "Marche" "Lombardia" "Oglio" "Tane" "Ticino" "Arno" "Piave" "Reno" "Volturno" "Brenta" "Secchia" "Tagliamento" "Dora Baltea" "Ombrone" "Chiese" "Bormida"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+ITA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "Incrociatore pesante %s"
+
+	unique = {
+	"Po" "Abruzzo" "Adige" "Basilicata" "Valle d'Aosta" "Tevere" "Puglia" "Campania" "Calabria" "Friuli Venezia Giulia" "Lazio" "Sicilia" "Toscana" "Sardegna" "Veneto" "Umbria" "Piemonte" "Marche" "Lombardia" "Oglio" "Tane" "Ticino" "Arno" "Piave" "Reno" "Volturno" "Brenta" "Secchia" "Tagliamento" "Dora Baltea" "Ombrone" "Chiese" "Bormida"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+ITA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "Corazzata %s"	
+
+	unique = {
+	"Andrea Doria" "Duilio" "Camillo Benso" "Giuseppe Garibaldi" "Tiberius Sempronius Gracchus" "Gaius Sempronius Gracchus" "Enrico Cialdini" "Francesco Crispi" "István Türr" "Gerolamo Bixio" "Rosalia Montmasson" "Piemonte" "Lombardo" "Raffaele Cadorna" "A. F. La Marmora" "Giuseppe Mazzini" "Carlo Armellini" "Aurelio Saffi" "Francesco Sturbinetti" "Roma"
+	}
+}
+
+#### BATTLECRUISER NAMES ###
+#ITA_BC_HISTORICAL = {
+#	name = NAME_THEME_HISTORICAL_BC
+#
+#	for_countries = { ITA }
+#
+#	type = ship
+#	ship_types = { ship_hull_heavy battle_cruiser }
+#	
+#	fallback_name = "Incrociatore da battaglia %s"		
+#
+#	unique = {
+#		"Azopardo" "Sarandí" "Espora" "Rivadavia" "Moreno" 
+#	}
+#}
+
+### AIRCRAFT CARRIER NAMES ###
+ITA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "Portaerei %s"
+
+	unique = {
+		"Camillo Benso" "Giuseppe Garibaldi" "Tiberius Sempronius Gracchus" "Gaius Sempronius Gracchus" "Enrico Cialdini" "Francesco Crispi" "István Türr" "Gerolamo Bixio" "Rosalia Montmasson" "Piemonte" "Lombardo" "Raffaele Cadorna" "A. F. La Marmora" "Giuseppe Mazzini" "Carlo Armellini" "Aurelio Saffi" "Francesco Sturbinetti"
+	}
+}
+
+### SUBMARINES ###
+ITA_SS_HISTORICAL = { #
+	name = NAME_THEME_NUCLEAR_SUBMARINES
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser_submarine submarine }
+	
+	fallback_name = "Sommergibile %s"
+	
+	unique = {
+		"Roma" "Milano" "Torino" "Palermo" "Genova" "Bologna" "Firenze" "Bari" "Catania" "Verona" "Venezia" "Messina" "Padova" "Prato" "Trieste" "Parma" "Brescia" "Taranto" "Modena" "Perugia" "Ravenna" "Livorno" "Rimini" "Cagliari" "Foggia" "Ferrara" "Salerno" "Latina" "Giugliano in Campania" "Monza" "Sassari" "Bergamo" "Pescara" "Trento" "Forlì" "Siracusa" "Vicenza" "Bolzano" "Terni" "Piacenza" "Novara" "Ancona" "Udine" "Andria" "Arezzo" "Cesena" "Pesaro" "Lecce" "Barletta" "La Spezia" "Alessandria" "Pisa" "Catanzaro" "Guidonia Montecelio" "Lucca" "Treviso" "Como" "Brindisi" "Busto Arsizio" "Grosseto" "Torre del Greco" "Marsala" "Sesto San Giovanni" "Varese" "Pozzuoli" "Fiumicino" "Corigliano-Rossano" "Asti"
+	}
+}

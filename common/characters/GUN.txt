@@ -1,0 +1,145 @@
+characters={
+	GUN_fabien_canavy={
+		name="Fabien Canavy"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Fabien_Canavy.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_juan_remy_quignolot={
+		name="Juan Remy Quignolot"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Juan_Remy_Quignolot.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_edmond_lena={
+		name="Edmond Léna"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Edmond_Lena.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_francois_first={
+		name="François I"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Francois_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_olivier_goudet={
+		name="Olivier Goudet"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Olivier_Goudet.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_leon_bertrand={
+		name="Léon Bertrand"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Leon_Bertrand.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_mikael_mancee={
+		name="Mikael Mancee"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Mikael_Mancee.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_georges_othily={
+		name="Georges Othily"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Georges_Othily.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_antoine_karam={
+		name="Antoine Karam"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Antoine_Karam.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_jean_marie_taubira={
+		name="Jean-Marie Taubira"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Jean-Marie_Taubira.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUN_gabriel_serville={
+		name="Gabriel Serville"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUN/Portrait_GUN_Gabriel_Serville.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

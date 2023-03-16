@@ -1,0 +1,169 @@
+characters={
+	RUS_Maxim_Suraykin={
+		name="Maxim Suraykin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Maxim_Suraykin.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Alexander_Barkashov={
+		name="Alexander Barkashov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Alexander_Barkashov.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Aleksey_Zhuravlyov={
+		name="Aleksey Zhuravlyov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Aleksey_Zhuravlyov.dds"
+			}
+		}
+		country_leader={
+			ideology=russian_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Maria_First={
+		name="Maria I"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Maria_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Eduard_Limonov={
+		name="Eduard Limonov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Eduard_Limonov.dds"
+			}
+		}
+		country_leader={
+			ideology=limonovite
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Dmitry_Medvedev={
+		name="Dmitry Medvedev"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Dmitry_Medvedev.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Rifat_Shaykhutdinov={
+		name="Rifat Shaykhutdinov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Rifat_Shaykhutdinov.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Mikhail_Kasyanov={
+		name="Mikhail Kasyanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Mikhail_Kasyanov.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Grigory_Yavlinsky={
+		name="Grigory Yavlinsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Grigory_Yavlinsky.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Sergey_Mironov={
+		name="Sergey Mironov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Sergey_Mironov.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_Viktor_Tyulkin={
+		name="Viktor Tyulkin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Viktor_Tyulkin.dds"
+			}
+		}
+		country_leader={
+			ideology=orthodox_leninist 
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_mikhail_gorbachev={
+		name="Mikhail Gorbachev"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Mikhail_Gorbachev.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	RUS_vladimir_putin={
+		name="Vladimir Putin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Vladimir_Putin.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = reactionary
+		}
+	}
+}

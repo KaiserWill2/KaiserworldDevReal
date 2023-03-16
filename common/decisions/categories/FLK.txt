@@ -1,0 +1,38 @@
+History_Of_The_Falklands= {
+
+	FLK_start_of_independence = {
+	
+		icon = decision_generic_ignite_civil_war
+	
+		allowed = {
+			OR = {
+				original_tag = FLK
+
+			}
+		}
+	
+		available = {
+			always = yes
+		}
+	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+	
+		complete_effect = {
+			country_event = { id = decision_event.16 }
+		}
+	}
+
+
+	
+} 
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,212 @@
+##### SOVENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SOV_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "Esminets %d"						
+
+	unique = {											
+	"Oryol" "Kiyev" "Minsk" "Stalingrad" "Sevastopol" "Novorossysk" "Rostov-na-Donu" "Tula" "Kharkov" "Baku" "Tblisi" "Arkhangelsk" "Vladivostok" "Kirov" 	"Astrakhan" "Kalinin" "Murmansk" "Tashkent" "Ashkhabad" "Alma-Ata" "Kerch" "Azov" "Yekaterinburg" "Smolensk" "Kazan" "Gorky" "Chelyabinsk" "Omsk" "Yaroslavl" "Novosibirsk" "Petrozavodsk" "Samara" "Petropavlovsk" "Ufa" "Perm" "Barnaul" "Orenburg" "Tomsk" "Kemerovo" "Ivanovo" "Krasnoyarsk" "Samarkand" "Khabarovsk" "Ulan Ude" "Frunze" "Chita" "Irkutsk" "Krasnodar" "Izhevsk" "Ulyanovsk" "Novokuznetsk" "Penza" "Kursk" "Magnitogorsk" "Tyumen" "Dushanbe" "Kyzyl" "Cheboksary" "Stavropol" "Bryansk" "Belgorod" "Novgorod" "Chernigov" "Voronezh" "Tambov" "Saratov" "Engels" "Tallin" "Riga" "Voroshilov" "Kaliningrad" "Malenkovodar" "Sverdlovsk" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+SOV_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "Lyogky Kreyser %d"
+
+	unique = {
+	"Viktor Zenkovich" "Nikolay Skvortsov" "Zhumabay Shayakhmetov" "Ivan Konev" "Andrei Grechko" "Ivan Yakubovsky" "Viktor Kulikov" "Pyotr Lushev" "Aleksei Antonov" "Pavel Batov" "Mikhail Kazakov" "Sergei Shtemenko" "Anatoly Gribkov" "Vladimir Lenin" "Joshep Stalin" "Karl Marx" "Lina Yeliseyeva" "Usman Yusupov" "Amin Niyazov" "Antanas Sniečkus" "Justas Paleckis" "Arvīds Pelše" "Pēteris Stučka" "Vilis Lācis" "Nigol Andresen" "Eduard Päll" "August Jakobson" "Candide Charkviani" "Akaki Mgeladze" "Grigory Arutinov" "Ashot Hovhannisian" "Aram Piruzyan" "Sahak Karapetyan" "Aghasi Sargsyan" "Sergey Kirov" "Mir Jafar Baghirov" "Mir Teymur Yaqubov" "Mikhail Fonin" "Shadzha Batyrov" "Sukhan Babayev" "Turabay Kulatov" "Iskhak Razzakov" "Abdy Suyerkulov " "Georgy Zhukov" "Aleksandr Vasilevsky" "Dmitry Ustinov" "Yevdokiya Bershanskaya" "Serafima Amosova" "Yevdokiya Rachkevich" "Ivan Kozhedub" "	Marina Raskova" "Kuprian Kirkizh" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SOV_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "Tyazhely Kreyser %d"
+
+	unique = {
+	"Viktor Zenkovich" "Nikolay Skvortsov" "Zhumabay Shayakhmetov" "Ivan Konev" "Andrei Grechko" "Ivan Yakubovsky" "Viktor Kulikov" "Pyotr Lushev" "Aleksei Antonov" "Pavel Batov" "Mikhail Kazakov" "Sergei Shtemenko" "Anatoly Gribkov" "Vladimir Lenin" "Joshep Stalin" "Karl Marx" "Lina Yeliseyeva" "Usman Yusupov" "Amin Niyazov" "Antanas Sniečkus" "Justas Paleckis" "Arvīds Pelše" "Pēteris Stučka" "Vilis Lācis" "Nigol Andresen" "Eduard Päll" "August Jakobson" "Candide Charkviani" "Akaki Mgeladze" "Grigory Arutinov" "Ashot Hovhannisian" "Aram Piruzyan" "Sahak Karapetyan" "Aghasi Sargsyan" "Sergey Kirov" "Mir Jafar Baghirov" "Mir Teymur Yaqubov" "Mikhail Fonin" "Shadzha Batyrov" "Sukhan Babayev" "Turabay Kulatov" "Iskhak Razzakov" "Abdy Suyerkulov " "Georgy Zhukov" "Aleksandr Vasilevsky" "Dmitry Ustinov" "Yevdokiya Bershanskaya" "Serafima Amosova" "Yevdokiya Rachkevich" "Ivan Kozhedub" "Marina Raskova" "Kuprian Kirkizh" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+SOV_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "Linkor %d"		
+
+	unique = {
+	"Moskva" "Novorossysk" "Baku" "Riga" "Aleksandr Nemits" "Yevgeny Berens" "Vasiliy Altfater" "Dnepropetrovsk" "Kishinev" "Vladimir Chernavin" "Vladivostok" "Frunze" "Ivan Yumashev" "Alma-Ata" "Kharkov" "Baku" "Feliks Gromov" "Tashkent" "Sverdlovsk" "Sergey Gorshkov" "Ivan Isakov"
+	}
+}
+
+#### BATTLECRUISER NAMES ###
+#SOV_BC_HISTORICAL = {
+#	name = NAME_THEME_HISTORICAL_BC
+#
+#	for_countries = { SOV }
+#
+#	type = ship
+#	ship_types = { ship_hull_heavy battle_cruiser }
+#	
+#	fallback_name = "Bineyny Kreyser %d"		
+#
+#	unique = {
+#		"Azopardo" "Sarandí" "Espora" "Rivadavia" "Moreno" 
+#	}
+#}
+
+### AIRCRAFT CARRIER NAMES ###
+SOV_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "Avianosets %d"	
+
+	unique = {
+		"Moskva" "Novorossysk" "Baku" "Riga" "Aleksandr Nemits" "Yevgeny Berens" "Vasiliy Altfater" "Dnepropetrovsk" "Kishinev" "Vladimir Chernavin" "Vladivostok" "Frunze" "Ivan Yumashev" "Alma-Ata" "Kharkov" "Baku" "Feliks Gromov" "Tashkent" "Sverdlovsk" "Sergey Gorshkov" "Ivan Isakov"
+	}
+}
+
+### SUBMARINES ###
+SOV_SS_CLASS_K = { #will use for nuclear submarines (subs2)
+	name = NAME_THEME_NUCLEAR_SUBMARINES
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_cruiser_submarine submarine }
+	
+	fallback_name = "K-%d"
+	
+	ordered = { #k-535+
+		1 = {"K-%d"}
+		2 = {"K-%d"}
+		3 = {"K-%d"}
+		4 = {"K-%d"} 
+		5 = {"K-%d"} 
+		6 = {"K-%d"} 
+		7 = {"K-%d"}
+		8 = {"K-%d"}
+		9 = {"K-%d"}
+		10 = {"K-%d"}
+		11 = {"K-%d"}
+		12 = {"K-%d"}
+		13 = {"K-%d"}
+		14 = {"K-%d"}
+		15 = {"K-%d"}
+		16 = {"K-%d"}
+		17 = {"K-%d"}
+		18 = {"K-%d"}
+		19 = {"K-%d"}
+		20 = {"K-%d"}
+		21 = {"K-%d"}
+		22 = {"K-%d"}
+		23 = {"K-%d"}
+		24 = {"K-%d"}
+		25 = {"K-%d"}
+		26 = {"K-%d"}
+		27 = {"K-%d"}
+		28 = {"K-%d"}
+		29 = {"K-%d"}
+	}
+}
+SOV_SS_LENINETS = { #will use for balistic and cruise submarines 
+	name = NAME_THEME_CRUISE_SUBMARINES
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "K-%d" 
+	
+	ordered = {
+		1 = {"B-%d"}
+		2 = {"B-%d"}
+		3 = {"B-%d"}
+		4 = {"B-%d"} 
+		5 = {"B-%d"} 
+		6 = {"B-%d"} 
+		7 = {"B-%d"}
+		8 = {"B-%d"}
+		9 = {"B-%d"}
+		10 = {"B-%d"}
+		11 = {"B-%d"}
+		12 = {"B-%d"}
+		13 = {"B-%d"}
+		14 = {"B-%d"}
+		15 = {"B-%d"}
+		16 = {"B-%d"}
+		17 = {"B-%d"}
+		18 = {"B-%d"}
+		19 = {"B-%d"}
+		20 = {"B-%d"}
+	}
+}
+SOV_SS_STALINETS = { #will use for attack submarines
+	name = NAME_THEME_ATTACK_SUBMARINES
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "S-%d"
+	
+	ordered = {
+		1 = {"S-%d"}
+		2 = {"S-%d"}
+		3 = {"S-%d"}
+		4 = {"S-%d"} 
+		5 = {"S-%d"} 
+		6 = {"S-%d"} 
+		7 = {"S-%d"}
+		8 = {"S-%d"}
+		9 = {"S-%d"}
+		10 = {"S-%d"}
+		11 = {"S-%d"}
+		12 = {"S-%d"}
+		13 = {"S-%d"}
+		14 = {"S-%d"}
+		15 = {"S-%d"}
+		16 = {"S-%d"}
+		17 = {"S-%d"}
+		18 = {"S-%d"}
+		19 = {"S-%d"}
+		20 = {"S-%d"}
+	}
+}

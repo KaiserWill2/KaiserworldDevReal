@@ -1,0 +1,145 @@
+characters={
+	COM_combo_ayouba={
+		name="Combo Ayouba"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Combo_Ayouba.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_said_ahmed_said_ali={
+		name="Said Ahmed Said Ali"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Said_Ahmed_Said_Ali.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_said_ali_kemal={
+		name="Said Ali Kemal"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Said_Ali_Kemal.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_mohamed_bacar={
+		name="Mohamed Bacar"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Mohamed_Bacar.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_ahmed_abdallah_mohamed_sambi={
+		name="Ahmed Abdallah Mohamed Sambi"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Ahmed_Abdallah_Mohamed_Sambi.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_fahmi_said_ibrahim={
+		name="Fahmi Said Ibrahim"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Fahmi_Said_Ibrahim.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_ikililou_dhoinine={
+		name="Ikililou Dhoinine"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Ikililou_Dhoinine.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_hadjira_oumouri={
+		name="Hadjira Oumouri"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Hadjira_Oumouri.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_ibrahim_halidi={
+		name="Ibrahim Halidi"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Ibrahim_Halidi.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_hamada_madi={
+		name="Hamada Madi"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Hamada_Madi.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_azali_assoumani={
+		name="Azali Assoumani"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Portrait_COM_Azali_Assoumani.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,388 @@
+﻿add_namespace = decision_event
+
+
+#scotland siegh
+country_event = {
+	id = decision_event.1
+	title = decision_event.1.t
+	desc = decision_event.1.d
+	picture = the_siegh_of_scotland
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.1.o1
+	}
+}
+
+#stablise country
+country_event = {
+	id = decision_event.2
+	title = decision_event.2.t
+	desc = decision_event.2.d
+	picture = the_siegh_of_scotland
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.2.o1
+	}
+}
+
+
+#stablise country
+country_event = {
+	id = decision_event.3
+	title = decision_event.3.t
+	desc = decision_event.3.d
+	picture = welcome_to_the_union
+	
+	is_triggered_only = yes
+
+
+	option = {   
+		name = decision_event.3.o1
+		sound_effect = Welcome_to_the_union
+	}
+}
+
+
+#stablise country
+country_event = {
+	id = decision_event.4
+	title = decision_event.4.t
+	desc = decision_event.4.d
+	picture = the_peoples_palace_decsion
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.4.o1
+	}
+}
+
+#stablise country
+country_event = {
+	id = decision_event.5
+	title = decision_event.5.t
+	desc = decision_event.5.d
+	picture = military_takes_over_descion
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.5.o1
+	}
+}
+
+#weltkrieg 1
+country_event = {
+	id = decision_event.6
+	title = decision_event.6.t
+	desc = decision_event.6.d
+	picture = weltkrieg_over_wallonia_part_1
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.6.o1
+	}
+}
+
+#weltkrieg 2
+country_event = {
+	id = decision_event.7
+	title = decision_event.7.t
+	desc = decision_event.7.d
+	picture = weltkrieg_over_wallonia_part_2
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.7.o1
+	}
+}
+
+country_event = {
+	id = decision_event.8
+	title = decision_event.8.t
+	desc = decision_event.8.d
+	picture = death_of_lawernce
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.8.o1
+	}
+}
+
+country_event = {
+	id = decision_event.9
+	title = decision_event.9.t
+	desc = decision_event.9.d
+	picture = james_comey_overthrown_event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.9.o1
+	}
+	
+	option = {   
+		name = decision_event.9.o2
+	}
+	
+	option = {   
+		name = decision_event.9.o3
+	}
+}
+
+#weltkrieg 3
+country_event = {
+	id = decision_event.10
+	title = decision_event.10.t
+	desc = decision_event.10.d
+	picture = weltkrieg_over_wallonia_part_3
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.10.o1
+	}
+}
+
+#second american civil war
+country_event = {
+	id = decision_event.11
+	title = decision_event.11.t
+	desc = decision_event.11.d
+	picture = second_american_civil_war_decision
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.11.o1
+	}
+}
+
+#new america
+country_event = {
+	id = decision_event.12
+	title = decision_event.12.t
+	desc = decision_event.12.d
+	picture = new_america_1
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.12.o1
+	}
+}
+
+
+#new america
+country_event = {
+	id = decision_event.13
+	title = decision_event.13.t
+	desc = decision_event.13.d
+	picture = new_america_2
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.13.o1
+	}
+}
+
+
+#new america
+country_event = {
+	id = decision_event.14
+	title = decision_event.14.t
+	desc = decision_event.14.d
+	picture = america_start_empire
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.14.o1
+	}
+}
+
+#new america
+country_event = {
+	id = decision_event.15
+	title = decision_event.15.t
+	desc = decision_event.15.d
+	picture = america_start_empire
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.15.o1
+	}
+}
+
+
+country_event = {
+	id = decision_event.16
+	title = decision_event.16.t
+	desc = decision_event.16.d
+	picture = flakland_independence_event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.16.o1
+	}
+}
+
+
+country_event = {
+	id = decision_event.17
+	title = decision_event.17.t
+	desc = decision_event.17.d
+	picture = flakland_invasion_1
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.17.o1
+	}
+}
+
+
+country_event = {
+	id = decision_event.18
+	title = decision_event.18.t
+	desc = decision_event.18.d
+	picture = flakland_invasion_2
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.18.o1
+	}
+}
+
+country_event = {
+	id = decision_event.19
+	title = decision_event.19.t
+	desc = decision_event.19.d
+	picture = falkland_war_3
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.19.o1
+	}
+}
+
+
+country_event = {
+	id = decision_event.20
+	title = decision_event.20.t
+	desc = decision_event.20.d
+	picture = failure_of_wales_event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.20.o1
+	}
+}
+
+
+country_event = {
+	id = decision_event.21
+	title = decision_event.21.t
+	desc = decision_event.21.d
+	picture = Ohio_pillow_event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.21.o1
+	}
+}
+
+
+country_event = {
+	id = decision_event.22
+	title = decision_event.22.t
+	desc = decision_event.22.d
+	picture = basement_library_event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.22.o1
+	}
+}
+
+country_event = {
+	id = decision_event.23
+	title = decision_event.23.t
+	desc = decision_event.23.d
+	picture = montana_fog_event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.23.o1
+	}
+}
+
+country_event = {
+	id = decision_event.24
+	title = decision_event.24.t
+	desc = decision_event.24.d
+	picture = hp_lovecraft_event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.24.o1
+	}
+}
+
+country_event = {
+	id = decision_event.25
+	title = decision_event.25.t
+	desc = decision_event.25.d
+	picture = pizza_pie_event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.25.o1
+	}
+}
+
+country_event = {
+	id = decision_event.26
+	title = decision_event.26.t
+	desc = decision_event.26.d
+	picture = bob_event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.26.o1
+	}
+}
+
+country_event = {
+	id = decision_event.27
+	title = decision_event.27.t
+	desc = decision_event.27.d
+	picture = 1997_election_Event
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.27.o1
+	}
+}
+
+

@@ -1,0 +1,146 @@
+characters={
+	QLD_jack_mundey={
+		name="Jack Mundey"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Jack_Mundey.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_fraser_anning={
+		name="Fraser Anning"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Fraser_Anning.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_lawrence_springborg={
+		name="Lawrence Springborg"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Lawrence_Springborg.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_penelope_wensley={
+		name="Penelope Wensley"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Penelope_Wensley.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_robbie_katter={
+		name="Robbie Katter"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Robbie_Katter.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_tim_nicholls={
+		name="Tim Nicholls"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Tim_Nicholls.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_campbell_newman={
+		name="Campbell Newman"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Campbell_Newman.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_andrew_bartlett={
+		name="Andrew Bartlett"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Andrew_Bartlett.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_anna_bligh={
+		name="Anna Bligh"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Anna_Bligh.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_larissa_waters={
+		name="Larissa Waters"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Larissa_Waters.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QLD_sam_watson={
+		name="Sam Watson"
+		portraits={
+			civilian={
+				large="gfx/leaders/QLD/Portrait_QLD_Sam_Watson.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+}

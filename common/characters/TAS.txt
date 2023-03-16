@@ -1,0 +1,146 @@
+characters={
+	TAS_grahame_mcculloch={
+		name="Grahame McCulloch"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Grahame_McCulloch.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_frank_falozn={
+		name="Frank Falzon"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Frank_Falzon.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_brett_hall={
+		name="Brett Hall"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Brett_Hall.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_kate_warner={
+		name="Kate Warner"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Kate_Warner.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_ray_williams={
+		name="Ray Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Ray_Williams.dds"
+			}
+		}
+		country_leader={
+			ideology=larouche
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_will_hodgman={
+		name="Will Hodgman"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Will_Hodgman.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_steve_martin={
+		name="Steve Martin"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Steve_Martin.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_norm_sanders={
+		name="Norm Sanders"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Norm_Sanders.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_lara_giddings={
+		name="Lara Giddings"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Lara_Giddings.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_nick_mckim={
+		name="Nick McKim"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Nick_McKim.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAS_shayne_murphy={
+		name="Shayne Murphy"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAS/Portrait_TAS_Shayne_Murphy.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+}

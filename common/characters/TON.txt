@@ -1,0 +1,152 @@
+characters={
+	TON_george_tupou_v={
+		name="George Tupou V"
+		portraits={
+			civilian={
+				large="gfx/leaders/TON/Portrait_TON_George_Tupou_Fifth.dds"
+			}
+		}
+		country_leader={
+			ideology=semi_constitutional_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TON_peter_taylor={
+		name="Peter Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=shiv_sena
+			expire="2030.1.1.12"
+			id=-1
+		}
+	}
+	TON_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=peronist
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+	TON_jim_walker={
+		name="Jim Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=moldovenist
+			expire="2028.1.1.12"
+			id=-1
+		}
+	}
+	TON_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			traits={ fortification_engineer }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	TON_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			traits={ fortification_engineer }
+			expire="2027.1.1.12"
+			id=-1
+		}
+	}
+	TON_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			traits={ smooth_talking_charmer }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TON_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=nordic_model
+			traits={ fortification_engineer captain_of_industry }
+			expire="2025.1.1.12"
+			id=-1
+		}
+	}
+	TON_jonas_taylor={
+		name="Jonas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			traits={ fortification_engineer war_industrialist }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	TON_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=national_communist
+			traits={ fortification_engineer war_industrialist }
+			expire="2024.1.1.12"
+			id=-1
+		}
+	}
+	TON_alex_brown={
+		name="Alex Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ ideological_crusader }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+}

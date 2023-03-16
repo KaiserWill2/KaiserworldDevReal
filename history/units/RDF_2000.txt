@@ -1,0 +1,1343 @@
+﻿division_template = {
+	name = "Motorized Rifle Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 3 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 4 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Infantry Training Unit"
+	
+	regiments = {
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Guards Tank Brigade"
+	
+	regiments = {
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 0 y = 2 }
+		heavy_armor = { x = 0 y = 3 }
+		heavy_armor = { x = 0 y = 6 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Spetsnaz Brigade"
+	
+	regiments = {
+		light_armor = { x = 2 y = 4 }
+		light_armor = { x = 3 y = 3 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 2 }
+		artillery_brigade = { x = 4 y = 3 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 2 y = 4 }
+		infantry = { x = 3 y = 5 }
+		infantry = { x = 2 y = 6 }
+	}
+	
+	support = {
+		engineer = { x = 2 y = 3 }
+		artillery = { x = 3 y = 5 }
+		field_hospital = { x = 2 y = 2 }
+		anti_air = { x = 3 y = 5 }
+		anti_tank = { x = 3 y = 5 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Artillery Brigade"
+	
+	regiments = {
+		artillery_brigade = { x = 2 y = 2 }
+		artillery_brigade = { x = 1 y = 5 }
+		artillery_brigade = { x = 1 y = 4 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Airborne Brigade"
+	
+	regiments = {
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+	}
+	
+	support = {
+		field_hospital = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Reconnaissance Brigade"
+	
+	regiments = {
+		cavalry = { x = 0 y = 5 }
+		cavalry = { x = 0 y = 5 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Mountain Recon Brigade"
+	
+	regiments = {
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+
+
+units = {
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10568
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+		 start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic 2nd Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic 2nd Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic Spetsnaz Brigade"
+		location = 10544
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic 3rd Spetsnaz Brigade"
+		location = 1821
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Guards Motor Rifle Brigade"
+		location = 4734
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Guards Motor Rifle Brigade"
+		location = 1775
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Guards Motor Rifle Brigade"
+		location = 1837
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	
+	division = {
+		name = "Russian Democratic 9th Guards Artillery Brigade"
+		location = 11307
+		division_template = "Artillery Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	
+	division = {
+		name = "Russian Democratic Reserve Base (4th Motor Rifles)"
+		location = 3169
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	
+division = {
+		name = "Russian Democratic Brigade"
+		location = 12608
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic Artillery"
+		location = 1856
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	
+division = {
+		name = "Russian 2nd Democratic Artillery"
+		location = 4806
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian 3rd Democratic Brigade"
+		location = 1860
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	
+	division = {
+		name = "Russian Democratic Brigade"
+		location = 10136
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic Rifle Brigade"
+		location = 12545
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	
+division = {
+		name = "Russian Royalist Democratic Rifle Brigade"
+		location = 7828
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Royalist Democratic Rifle Brigade"
+		location = 4878
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian 4th Democratic Rifle Brigade"
+		location = 4780
+		division_template = "Motorized Rifle Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}	
+	
+division = {
+		name = "Russian 4th Democratic Rifle Brigade"
+		location = 10213
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}	
+
+division = {
+		name = "Russian  Democratic Rifle Spetsnaz Unit"
+		location = 10213
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian 2nd Democratic Rifle Spetsnaz Unit"
+		location = 10213
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian 3rd Democratic Rifle Spetsnaz Unit"
+		location = 10213
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian 4th Democratic Rifle Spetsnaz Unit"
+		location = 10213
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian 5th Democratic Rifle Spetsnaz Unit"
+		location = 10213
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	
+
+division = {
+		name = "Russian 6th Democratic Rifle Spetsnaz Unit"
+		location = 10213
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	
+	division = {
+		name = "Russian Democratic Spetsnaz 4th Brigade"
+		location = 4780
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 7th Brigade"
+		location = 4780
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 8th Brigade"
+		location = 4780
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 9th Brigade"
+		location = 1294
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 10th Brigade"
+		location = 1294
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 11th Brigade"
+		location = 1294
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 12th Brigade"
+		location = 1294
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	division = {
+		name = "Russian Democratic Spetsnaz 5th Brigade"
+		location = 12679
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic Spetsnaz Special Forces Brigade"
+		location = 12606
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+division = {
+		name = "Russian Democratic 2nd Spetsnaz Special Forces Brigade"
+		location = 10613
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic  Spetsnaz Rifle Special Forces Brigade"
+		location = 10557
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 2nd Spetsnaz Rifle Special Forces Brigade"
+		location = 10557
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 3rd Spetsnaz Rifle Special Forces Brigade"
+		location = 10557
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 4th Spetsnaz Rifle Special Forces Brigade"
+		location = 10557
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 5th Spetsnaz Rifle Special Forces Brigade"
+		location = 10557
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+division = {
+		name = "Russian Democratic 6th Spetsnaz Rifle Special Forces Brigade"
+		location = 10557
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 7th Spetsnaz Rifle Special Forces Brigade"
+		location = 10557
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 8th Spetsnaz Rifle Special Forces Brigade"
+		location = 13062
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+division = {
+		name = "Russian Democratic 9th Spetsnaz Rifle Special Forces Brigade"
+		location = 13062
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 10th Spetsnaz Rifle Special Forces Brigade"
+		location = 13062
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+division = {
+		name = "Russian Democratic 11th Spetsnaz Rifle Special Forces Brigade"
+		location = 13062
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 2nd Spetsnaz Special Forces Brigade"
+		location = 10613
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+division = {
+		name = "Russian Democratic 2nd Spetsnaz Special Forces Brigade"
+		location = 10613
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+division = {
+		name = "Russian Democratic 2nd Spetsnaz Special Forces Brigade"
+		location = 10613
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+division = {
+		name = "Russian Democratic 2nd Spetsnaz Special Forces Brigade"
+		location = 10613
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+division = {
+		name = "Russian Democratic 2nd Spetsnaz Special Forces Brigade"
+		location = 10613
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic Spetsnaz 7th Brigade"
+		location = 12666
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 8th Brigade"
+		location = 4229
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 10th Brigade"
+		location = 12595
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 11th Brigade"
+		location = 12595
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 12th Brigade"
+		location = 12595
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 13th Brigade"
+		location = 12595
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz 14th Brigade"
+		location = 12595
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+	division = {
+		name = "Russian Democratic Spetsnaz 9th Brigade"
+		location = 9863
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic Spetsnaz Unit"
+		location = 1800
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic 2nd Spetsnaz Unit"
+		location = 12546
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic 3rd Spetsnaz Unit"
+		location = 7687
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic 4th Spetsnaz Unit"
+		location = 10652
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic 5th Spetsnaz Unit"
+		location = 7863
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic 6th Spetsnaz Unit"
+		location = 4703
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+	division = {
+		name = "Russian Democratic 7th Spetsnaz Unit"
+		location = 1792
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+	division = {
+		name = "Russian Democratic 8th Spetsnaz Unit"
+		location = 2853
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 9th Spetsnaz Unit"
+		location = 12634
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 10th Spetsnaz Unit"
+		location = 12634
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 11th Spetsnaz Unit"
+		location = 1744
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 12th Spetsnaz Unit"
+		location = 4744
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 13th Spetsnaz Unit"
+		location = 7733
+		division_template = "Spetsnaz Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 5th Rifle Brigade"
+		location = 7828
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}	
+
+division = {
+		name = "Russian Democratic 6th Rifle Brigade"
+		location = 7828
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}	
+
+division = {
+		name = "Russian Democratic 7th Rifle Brigade"
+		location = 7828
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 8th Rifle Brigade"
+		location = 7828
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 6th Rifle Brigade"
+		location = 7789
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 7th Rifle Brigade"
+		location = 7789
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+division = {
+		name = "Russian Democratic 8th Rifle Brigade"
+		location = 7789
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 9th Rifle Brigade"
+		location = 7789
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 10th Rifle Brigade"
+		location = 7274
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 11th Rifle Brigade"
+		location = 10329
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 12th Rifle Brigade"
+		location = 10329
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 13th Rifle Brigade"
+		location = 10329
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 14th Rifle Brigade"
+		location = 10329
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 15th Rifle Brigade"
+		location = 7863
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 16th Rifle Brigade"
+		location = 7863
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 17th Rifle Brigade"
+		location = 7863
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 18th Rifle Brigade"
+		location = 7863
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+
+division = {
+		name = "Russian Democratic 7th Rifle Brigade"
+		location = 361
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+
+division = {
+		name = "Russian Democratic 8th Rifle Brigade"
+		location = 237
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.15
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+
+division = {
+		name = "Russian Democratic 9th Rifle Brigade"
+		location = 278
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.15
+        	start_manpower_factor = 1.0
+	}
+
+
+division = {
+		name = "Russian Democratic 9th Rifle Brigade"
+		location = 278
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 10th Rifle Brigade"
+		location = 1821
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+division = {
+		name = "Russian Democratic 10th Rifle Brigade"
+		location = 1775
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+
+division = {
+		name = "Russian Democratic 11th Rifle Brigade"
+		location = 1775
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 12th Rifle Brigade"
+		location = 1775
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+
+
+division = {
+		name = "Russian Democratic 13th Rifle Brigade"
+		location = 1775
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+
+division = {
+		name = "Russian Democratic 14th Rifle Brigade"
+		location = 1775
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+
+division = {
+		name = "Russian Democratic 15th Rifle Brigade"
+		location = 1775
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 16th Rifle Brigade"
+		location = 4806
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+
+division = {
+		name = "Russian Democratic 17th Rifle Brigade"
+		location = 4806
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 18th Rifle Brigade"
+		location = 4806
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 19th Rifle Brigade"
+		location = 4806
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 20th Rifle Brigade"
+		location = 4806
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 21st Rifle Brigade"
+		location = 7687
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 22nd Rifle Brigade"
+		location = 7687
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 23rd Rifle Brigade"
+		location = 7687
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 24th Rifle Brigade"
+		location = 7687
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 25th Rifle Brigade"
+		location = 7687
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+division = {
+		name = "Russian Democratic 26th Rifle Brigade"
+		location = 7687
+		division_template = "Guards Tank Brigade"
+		start_experience_factor = 1.0
+ start_equipment_factor = 1.0
+        	start_manpower_factor = 1.0
+	}
+
+}
+
+
+
+
+
+
+
+
+
+}

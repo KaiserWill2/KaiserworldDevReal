@@ -1,0 +1,256 @@
+﻿capital = 126
+
+oob = "ENG_2000"
+ 
+load_focus_tree = uk_starting_tree
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ENG_1936_naval_mtg"
+	else = {
+		set_naval_oob = "ENG_1936_Naval_Legacy"
+	}
+}
+
+add_ideas = {
+	idea_memories_of_Michael_foot
+	idea_war_ready
+	idea_north_sea_oil
+	idea_New_Hadrians_Wall
+	idea_the_failed_economy
+	britain_Charles_Kennedy
+	britain_Jacob_Rees_Mogg
+	britain_fom_dermot_hudson
+	britain_Owen_Paterson
+	britain_Jonathan_Ashworth
+	
+}
+
+add_opinion_modifier = {
+	target = CAN
+	modifier = rival
+}
+
+add_opinion_modifier = {
+	target = USA
+	modifier = rival
+}
+
+add_opinion_modifier = {
+	target = SCO
+	modifier = rival
+}
+
+add_opinion_modifier = {
+	target = WAL
+	modifier = rival
+}
+
+add_opinion_modifier = {
+	target = IRE
+	modifier = rival
+}
+
+
+add_opinion_modifier = {
+	target = FRA
+	modifier = rival
+}
+
+add_opinion_modifier = {
+	target = GER
+	modifier = rival
+}
+
+add_opinion_modifier = {
+	target = SOV
+	modifier = declaration_of_friendship
+}
+
+add_opinion_modifier = {
+	target = PRK
+	modifier = declaration_of_friendship
+}
+
+
+set_research_slots = 4
+set_convoys = 1000
+set_stability = 0.8
+set_war_support = 0.2
+
+set_technology = {
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	support_weapons = 1
+	infantry_weapons = 1
+	motorised_infantry = 1 
+	tech_support = 1 
+	tech_field_hospital = 1 
+	tech_engineers = 1 
+	gwtank = 1 
+	basic_light_tank = 1 
+	gw_artillery = 1 
+	tech_mountaineers = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	
+	fighter1 = 1
+	
+	naval_bomber1 = 1
+	
+	cv_naval_bomber1 = 1 
+	early_bomber = 1 
+	paratroopers = 1 
+	marines = 1
+	basic_heavy_tank = 1 
+	atomic_research = 1 
+	nuclear_reactor = 1 
+	nukes = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		
+		
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+
+set_politics = {
+	ruling_party = communist
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+        fascist = 10
+		nationalist = 0
+		monarchist = 0
+		national_bolshevik = 0
+		national_conservative = 0
+		centrist = 0
+		liberal = 0
+		new_democrat = 0
+		moderate_socialist = 20
+		revolutionary_socialist = 20
+		communist = 50
+}
+	
+
+
+create_country_leader = {
+	name = "Tony Blair"
+	picture = "tony_blair_leader.dds"
+	ideology = british_totalism
+}
+
+
+
+create_country_leader = {
+	name = "Boris Johnson"
+	picture = "big_boris.dds"
+	ideology = revolutionary_socialist_ideology
+}
+
+
+create_country_leader = {
+	name = "John Mcdonnell"
+	picture = "john_mcdonnell.dds"
+	ideology = democratic_socialist
+}
+
+create_country_leader = {
+	name = "David Miliband"
+	picture = "david_milliband.dds"
+	ideology = new_democrat_ideology
+}
+	
+
+create_country_leader = {
+	name = "Vince Cable"
+	picture = "vince_cable.dds"
+	ideology = centrist_ideology
+}
+create_country_leader = {
+	name = "Keir Starmer"
+	picture = "keir_starmer.dds"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "William Hague"
+	picture = "william_hague.dds"
+	ideology = european_conservative
+}
+
+
+create_country_leader = {
+	name = "Robin Tilbrook"
+	picture = "robin_tilbrook.dds"
+	ideology = fascist_ideology
+}
+
+create_country_leader = {
+	name = "Nigel Farage"
+	picture = "Nigel_Farage_KW.dds"
+	ideology = nationalist_ideology
+}
+
+create_country_leader = {
+	name = "Stephen Cottrell"
+	picture = "Stephen_Cottrell.dds"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "George Galloway
+	picture = "george_galloway_KW.dds"
+	ideology = national_bolshevik_ideology
+}
+

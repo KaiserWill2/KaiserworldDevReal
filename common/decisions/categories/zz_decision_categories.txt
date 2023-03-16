@@ -1,0 +1,68 @@
+diplomatic_decisions = {
+	icon = DCI_politics
+	allowed = { always = yes }
+	visible = { always = yes }
+}
+economic_decisions = {
+	icon = DCI_economy
+	allowed = { always = yes }
+	visible = { always = yes }
+}
+economic_crisis_decisions = {
+	icon = DCI_economy
+	allowed = { always = yes }
+	visible = { 
+		OR = {
+			has_focus_tree = generic_focus
+			AND = {
+				has_focus_tree = usa_focus
+				has_completed_focus = USA_reform_the_central_bank
+			}
+			AND = {
+				has_focus_tree = france_focus
+				has_completed_focus = FRA_reform_the_national_employment_office
+			}
+			AND = {
+				has_focus_tree = britain_focus
+				has_completed_focus = ENG_pass_the_currency_reform_act
+			}
+			AND = {
+				has_focus_tree = russia_focus
+				has_completed_focus = SOV_banking_reform
+			}
+			AND = {
+				has_focus_tree = austria_focus
+				has_completed_focus = AUS_reichs_und_bundesbank
+			}
+			AND = {
+				has_focus_tree = ottoman_empire_focus
+				has_completed_focus = TUR_all_turkish_banking_system
+			}
+			AND = {
+				has_focus_tree = china_focus
+				has_completed_focus = CHI_centralize_the_banking_system
+			}
+		}
+		has_economic_crisis = yes
+	}
+}
+authoritarian_decisions = {
+	icon = DCI_monarchism
+	allowed = { always = yes }
+	visible = { NOT = { has_government = neutrality } }
+}
+communist_decisions = {
+	icon = DCI_communism
+	allowed = { always = yes }
+	visible = { NOT = { has_government = communism } }
+}
+democratic_decisions = {
+	icon = DCI_democracy
+	allowed = { always = yes }
+	visible = { NOT = { has_government = democratic } }
+}
+fascist_decisions = {
+	icon = DCI_fascism
+	allowed = { always = yes }
+	visible = { NOT = { has_government = fascism } }
+}

@@ -1,0 +1,375 @@
+characters={
+	MOT_ron_kurtenbach={
+		name="Ron Kurtenbach"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Ron_Kurtenbach.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_harold_covington={
+		name="Harold Covington"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Harold_Covington.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HAROLD_COVINGTON_DESC"
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_imperial_council_of_montana={
+		name="Imperial Council of Montana"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Northwest_Imperial_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_ben_garrison={
+		name="Ben Garrison"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Ben_Garrison.dds"
+			}
+		}
+		country_leader={
+			ideology=militia_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_craig_cobb={
+		name="Craig Cobb"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Craig_Cobb.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_greg_gianforte={
+		name="Greg Gianforte"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Greg_Gianforte.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_steve_daines={
+		name="Steve Daines"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Steve_Daines.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_steve_bullock={
+		name="Steve Bullock"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Steve_Bullock.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_rob_quist={
+		name="Rob Quist"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Rob_Quist.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_eric_hardmeyer={
+		name="Eric Hardmeyer"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Eric_Hardmeyer.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_jello_biafra={
+		name="Jello Biafra"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Jello_Biafra.dds"
+			}
+		}
+		country_leader={
+			ideology=anarcho_communist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOT_matthew_shea={
+		name="Matthew Shea"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Matthew_Shea.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = clerical_fascist
+		}
+	}
+	MOT_morris_gulett={
+		name="Morris Gulett"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_MOT_Morris_Gulett.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = national_socialist
+		}
+	}
+	MOT_james_gordon_gritz={
+		name="James Gordon Gritz"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_Bo_Gritz.dds"
+			}
+		}
+		field_marshal={
+			traits={ war_hero }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MOT_louis_beam={
+		name="Louis Beam"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_Louis_Beam.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_Louis_Beam.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = national_socialist
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MOT_john_trochmann={
+		name="John Trochmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOT/Portrait_John_Trochmann.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_John_Trochmann.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_dictatorship
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MOT_leroy_schweitzer={
+		name="LeRoy Schweitzer"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_LeRoy_Schweitzer.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MOT_russell_dean_landers={
+		name="Russell Dean Landers"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_Rodney_Owen_Skurdal.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MOT_dillon_hopper={
+		name="Dillon Hopper"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_Dillon_Hopper.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MOT_michael_burnett={
+		name="Michael Burnett"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_Michael_Burnett.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MOT_christopher_salmon={
+		name="Christopher Salmon"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_Christopher_Salmon.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MOT_christopher_hasson={
+		name="Christopher Hasson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_Christopher_Hasson.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	MOT_anthony_peden={
+		name="Anthony Peden"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MOT/Portrait_Anthony_Peden.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

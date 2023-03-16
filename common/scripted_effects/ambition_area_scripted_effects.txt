@@ -1,0 +1,159 @@
+###
+### Ambition Areas
+###
+### Each country has a list of states/regions which it will take in a peace conference even if it
+### doesn't have claims/cores. Other countries in their faction will let them take these areas unless there's a conflict.
+### If they're a minor, or they're in a faction but not the leader, they won't expand outside of this ambition area unless
+### there's no-one involved in the peace conference who can take the land.
+###
+### If a country is NOT in this list, then it only takes cores/claims.
+###
+### Originally envisioned by the Kaiserreich dev team, modified for Red World by TiNJiM
+
+create_ambition_areas = {
+	#Libyan Civil War Factions
+	if = {
+		limit = {
+			is_core_of = LBA
+			NOT = {
+				is_core_of = TUN
+			}
+		}
+		set_variable = { ambition_area_@LBA = 1 }
+		set_variable = { ambition_area_@GNS = 1 }
+		set_variable = { ambition_area_@FAL = 1 }
+		set_variable = { ambition_area_@ISL = 1 }
+		set_variable = { ambition_area_@RAL = 1 }
+		set_variable = { ambition_area_@ACS = 1 }
+	}
+	#North American States Want North American Land
+	if = {
+		limit = {
+			OR = {
+				is_core_of = NEA
+				is_core_of = USA
+				is_core_of = TEX
+				is_core_of = ILL
+				is_core_of = GRL
+				is_core_of = MWA
+				is_core_of = MOT
+				is_core_of = ARI
+				is_core_of = UTA
+				is_core_of = LIN
+				is_core_of = PCA
+				is_core_of = ALA
+				is_core_of = HAW
+				is_core_of = CAN
+				is_core_of = MEX
+			}
+		}
+		set_variable = { ambition_area_@NEA = 1 }
+		set_variable = { ambition_area_@AMC = 1 }
+		set_variable = { ambition_area_@USA = 1 }
+		set_variable = { ambition_area_@TEX = 1 }
+		set_variable = { ambition_area_@ILL = 1 }
+		set_variable = { ambition_area_@GRL = 1 }
+		set_variable = { ambition_area_@MWA = 1 }
+		set_variable = { ambition_area_@MOT = 1 }
+		set_variable = { ambition_area_@ARI = 1 }
+		set_variable = { ambition_area_@UTA = 1 }
+		set_variable = { ambition_area_@LIN = 1 }
+		set_variable = { ambition_area_@PCA = 1 }
+		set_variable = { ambition_area_@CSD = 1 }
+		set_variable = { ambition_area_@CAN = 1 }
+		set_variable = { ambition_area_@MEX = 1 }
+	}
+	#UAR, Egypt, and Syria Want Arab Land
+	if = {
+		limit = {
+			OR = {
+				is_core_of = PAL
+				is_core_of = JOR
+				is_core_of = LEB
+				is_core_of = IRQ
+				is_core_of = SAU
+				is_core_of = KUW
+				is_core_of = UAE
+				is_core_of = QAT
+				is_core_of = OMA
+				is_core_of = YEM
+				is_core_of = SUD
+				is_core_of = ALG
+				is_core_of = TUN
+				is_core_of = MOR
+				is_core_of = LBA
+				is_core_of = UAR
+			}
+		}
+		set_variable = { ambition_area_@UAR = 1 }
+		set_variable = { ambition_area_@EGY = 1 }
+		set_variable = { ambition_area_@SYR = 1 }
+	}
+	#Ethiopia Wants African Land
+	if = {
+		limit = {
+			OR = {
+				region = 182
+				region = 126
+				region = 127
+				region = 128
+				region = 140
+				region = 183
+				region = 17
+				region = 184
+				region = 185
+				region = 139
+				region = 181
+				region = 102
+				region = 85
+				region = 62
+				region = 61
+				region = 48
+				AND = {
+					region = 60
+					NOT = {
+						state = 281
+					}
+				}
+			}
+		}
+		set_variable = { ambition_area_@ETH = 1 }
+	}
+	#India Wants Pakistan/Bangladesh
+	if = {
+		limit = {
+			OR = {
+				is_core_of = RAJ
+				is_core_of = PAK
+				is_core_of = BNG
+			}
+		}
+		set_variable = { ambition_area_@RAJ = 1 }
+	}
+	#Russia Wants Former Soviet Land
+	if = {
+		limit = {
+			is_core_of = SOV
+		}
+		set_variable = { ambition_area_@RUS = 1 }
+	}
+	#UK Wants Ireland, Ireland Wants UK
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ENG
+				is_core_of = IRE
+				is_core_of = ULS
+			}
+		}
+		set_variable = { ambition_area_@ENG = 1 }
+		set_variable = { ambition_area_@IRE = 1 }
+	}
+	#Italy Wants Yugoslavia
+	if = {
+		limit = {
+			is_core_of = YUG
+		}
+		set_variable = { ambition_area_@ITA = 1 }
+	}
+}

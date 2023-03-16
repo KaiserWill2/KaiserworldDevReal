@@ -1,0 +1,145 @@
+characters={
+	STL_vernon_francois={
+		name="Vernon Francois"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Vernon_Francois.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_richard_frederick={
+		name="Richard Frederick"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Richard_Frederick.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_pearlette_louisy={
+		name="Pearlette Louisy"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Pearlette_Louisy.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_didacus_jules={
+		name="Didacus Jules"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Didacus_Jules.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_stephenson_king={
+		name="Stephenson King"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Stephenson_King.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_kevin_lord={
+		name="Kevin Lord"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Kevin_Lord.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_martinus_francois={
+		name="Martinus Francois"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Martinus_Francois.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_therold_prudent={
+		name="Therold Prudent"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Therold_Prudent.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_mario_michel={
+		name="Mario Michel"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Mario_Michel.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_jon_odlum={
+		name="Jon Odlum"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Jon_Odlum.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STL_kenny_anthony={
+		name="Kenny Anthony"
+		portraits={
+			civilian={
+				large="gfx/leaders/STL/Portrait_STL_Kenny_Anthony.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

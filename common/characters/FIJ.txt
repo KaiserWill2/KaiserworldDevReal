@@ -1,0 +1,145 @@
+characters={
+	FIJ_iliesa_duvuloco={
+		name="Iliesa Duvuloco"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Iliesa_Duvuloco.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_frank_bainimarama={
+		name="Frank Bainimarama"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Frank_Bainimarama.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_epenisa_cakobau={
+		name="Epenisa Cakobau"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Epenisa_Cakobau.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_ben_padarath={
+		name="Ben Padarath"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Ben_Padarath.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_jale_baba={
+		name="Jale Baba"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Jale_Baba.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_aiyaz_sayedkhaiyum={
+		name="Aiyaz Sayed-Khaiyum"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Aiyaz_Sayed_Khaiyum.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_mick_beddoes={
+		name="Mick Beddoes"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Mick_Beddoes.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_biman_prasad={
+		name="Biman Prasad"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Biman_Prasad.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_mahendra_chaudhry={
+		name="Mahendra Chaudhry"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Mahendra_Chaudhry.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_felix_anthony={
+		name="Felix Anthony"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Felix_Anthony.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_apimeleki_ramatau_mataka={
+		name="Apimeleki Ramatau Mataka"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Portrait_FIJ_Apimeleki_Ramatau_Mataka.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

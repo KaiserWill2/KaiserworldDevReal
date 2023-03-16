@@ -1,0 +1,375 @@
+characters={
+	ANG_josé_eduardo_dos_santos={
+		name="José Eduardo dos Santos"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Jose_Eduardo_Dos_Santos.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOSE_EDUARDO_DOS_SANTOS_DESC"
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_isaias_samakuva={
+		name="Isaias Samakuva"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Isaias_Samakuva.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_geraldo_sachipengo_nunda={
+		name="Geraldo Sachipengo Nunda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Geraldo_Sachipengo_Nunda.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inspirational_leader }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_muene_mwatxissengue_watembo={
+		name="Muene Mwatxissengue Wa-tembo"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Muene_Mwatxissengue_Wa_tembo.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_jonas_savimbi={
+		name="Jonas Savimbi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Jonas_Savimbi.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_ngola_kabangu={
+		name="Ngola Kabangu"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Ngola_Kabangu.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_georges_rebelo_chicoti={
+		name="Georges Rebelo Chicoti"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Georges_Rebelo_Chicoti.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_quintino_de_moreira={
+		name="Quintino de Moreira"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Quintino_De_Moreira.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_abel_chivukuvuku={
+		name="Abel Chivukuvuku"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Abel_Chivukuvuku.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_eduardo_kuangana={
+		name="Eduardo Kuangana"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Eduardo_Kuangana.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_armando_manuel={
+		name="Armando Manuel"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_ANG_Armando_Manuel.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANG_francisco_lopes_gonçalves_afonso={
+		name="Francisco Lopes Gonçalves Afonso"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Francisco_Goncalves.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard fast_planner }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ANG_egídio_sousa_santos={
+		name="Egídio Sousa Santos"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Egidio_Sosa_Santos.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ANG_luis_manuel_domingos={
+		name="Luis Manuel Domingos"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Luis_Domingos.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ANG_baltazar_diogo={
+		name="Baltazar Diogo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Baltazar_Diogo.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat ranger }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	ANG_arlindo_josé_assis={
+		name="Arlindo José Assis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Arlindo_Assis.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ANG_lúcio_goncalves_do_amaral={
+		name="Lúcio Goncalves do Amaral"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Lucio_Goncalves_Amaral.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ANG_antonio_dos_santos_neto={
+		name="Antonio dos Santos Neto"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Antonio_dos_Santos_Neto.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ANG_simão_wala_carlitos={
+		name="Simão Wala Carlitos"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Simao_Carlitos.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ANG_peregrino_huambo={
+		name="Peregrino Huambo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Peregrino_Huambo.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ANG_francisco_josé={
+		name="Francisco José"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Francisco_Jose.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ANG_augusto_da_silva_cunha={
+		name="Augusto da Silva Cunha"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ANG/Portrait_Augusto_da_Silva.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard blockade_runner }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

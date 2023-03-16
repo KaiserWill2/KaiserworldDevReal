@@ -1,0 +1,146 @@
+characters={
+	PAL_arabi_awwad={
+		name="Arabi Awwad"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Arabi_Awwad.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_ismail_haniyeh={
+		name="Ismail Haniyeh"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Ismail_Haniyeh.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_mahmoud_abbas={
+		name="Mahmoud Abbas"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Mahmoud_Abbas.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_queen_rania={
+		name="Queen Rania"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Queen_Rania.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_rakad_salem={
+		name="Rakad Salem"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Raked_Salem.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_omar_hamad={
+		name="Omar Hamad"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Omar_Hamad.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_salam_fayyad={
+		name="Salam Fayyad"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Salam_Fayyad.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_hanan_ashrawi={
+		name="Hanan Ashrawi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Hanan_Ashrawi.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_mustafa_barghouthi={
+		name="Mustafa Barghouthi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Mustafa_Barghouthi.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_bassam_alsalhi={
+		name="Bassam Al-Salhi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Bassam_Al_Salhi.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BASSAM_AL_SALHI_DESC"
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAL_ahmed_majdalani={
+		name="Ahmed Majdalani"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_PAL_Ahmed_Majdalani.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

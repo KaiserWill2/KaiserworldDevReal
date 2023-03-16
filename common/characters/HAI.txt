@@ -1,0 +1,145 @@
+characters={
+	HAI_rené_depestre={
+		name="René Depestre"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Rene_Depestre.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_jeanclaude_duvalier={
+		name="Jean-Claude Duvalier"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Jean_Claude_Duvalier.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_guy_philippe={
+		name="Guy Philippe"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Guy_Philippe.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_michèle_bennett={
+		name="Michèle Bennett"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Michele_Bennett.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_jeancharles_moïse={
+		name="Jean-Charles Moïse"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Jean_Charles_Moise.dds"
+			}
+		}
+		country_leader={
+			ideology=socialist_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_luc_mesadieu={
+		name="Luc Mesadieu"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Luc_Mesadieu.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_michel_martelly={
+		name="Michel Martelly"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Michel_Martelly.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_ann_milfort={
+		name="Ann Milfort"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Ann_Milfort.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_jude_célestin={
+		name="Jude Célestin"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Jude_Celestin.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_rené_préval={
+		name="René Préval"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Rene_Preval.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HAI_jeanbertrand_aristide={
+		name="Jean-Bertrand Aristide"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_Jean_Bertrand_Aristide.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_communism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

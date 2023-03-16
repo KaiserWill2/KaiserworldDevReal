@@ -1,0 +1,637 @@
+characters={
+	AMS_mike_pence={
+		name="Mike Pence"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Mike_Pence.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_noam_chomsky={
+		name="Noam Chomsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Noam_Chomsky.dds"
+			}
+		}
+		country_leader={
+			ideology=american_revolutionary_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_sam_webb={
+		name="Sam Webb"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Sam_Webb.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_tom_hoefling={
+		name="Tom Hoefling"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Tom_Hoefling.dds"
+			}
+		}
+		country_leader={
+			ideology=american_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_new_england_royal_council={
+		name="New England Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_New_England_Royal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_will_williams={
+		name="Will Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Will_Williams.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_newt_gingrich={
+		name="Newt Gingrich"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Newt_Gingrich.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_john_kasich={
+		name="John Kasich"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_John_Kasich.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_debbie_wasserman_schultz={
+		name="Debbie Wasserman Schultz"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Debbie_Wasserman_Schultz.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_keith_ellison={
+		name="Keith Ellison"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Keith_Ellison.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_bernie_sanders={
+		name="Bernie Sanders"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Bernie_Sanders.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMS_protestant_clique_char={
+		name="Protestant Clique"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Protestant_Clique.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = clerical_fascist
+		}
+	}
+	AMS_richard_cheney={
+		name="Richard Cheney"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Richard_Cheney.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = dominionist
+		}
+	}
+	AMS_marion_robertson={
+		name="Marion Robertson"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Marion_Robertson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = clerical_fascist
+		}
+	}
+	AMS_kevin_strom={
+		name="Kevin Strom"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Kevin_Strom.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = national_socialist
+		}
+	}
+	AMS_social_development_council={
+		name="Social Development Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Social_Development_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	AMS_rudy_fratto={
+		name="Rudy Fratto"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Rudy_Fratto.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	AMS_peter_schoomaker={
+		name="Peter Schoomaker"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Peter_Schoomaker.dds"
+			}
+		}
+		field_marshal={
+			traits={ expert_delegator }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_bryan_d._brown={
+		name="Bryan D. Brown"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Bryan_D_Brown.dds"
+			}
+		}
+		field_marshal={
+			traits={ organizer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AMS_eric_b._schoomaker={
+		name="Eric B. Schoomaker"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Eric_B_Schoomaker.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMS_gustave_f._perna={
+		name="Gustave F. Perna"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Gustave_F_Perna.dds"
+			}
+		}
+		corps_commander={
+			traits={ paratrooper }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMS_james_hart={
+		name="James Hart"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_James_Hart.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_john_m._murray={
+		name="John M. Murray"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_John_M_Murray.dds"
+			}
+		}
+		corps_commander={
+			traits={ paratrooper }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMS_keith_alexander={
+		name="Keith Alexander"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Keith_Alexander.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMS_robert_brooks_brown={
+		name="Robert Brooks Brown"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Robert_Brooks_Brown.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMS_raymond_a._thomas_iii={
+		name="Raymond A. Thomas III"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Raymond_A_Thomas_III.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMS_michael_j._williams={
+		name="Michael J. Williams"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Michael_J_Williams.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AMS_michael_flynn={
+		name="Michael Flynn"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Michael_Flynn.dds"
+			}
+		}
+		corps_commander={
+			traits={ caustic_personality }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_paul_lacamera={
+		name="Paul LaCamera"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Paul_LaCamera.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_kevin_p._byrnes={
+		name="Kevin P. Byrnes"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Kevin_P_Byrnes.dds"
+			}
+		}
+		corps_commander={
+			traits={ recently_promoted }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMS_robert_magnus={
+		name="Robert Magnus"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Robert_Magnus.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_expert }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMS_henry_g._ulrich_iii={
+		name="Henry G. Ulrich III"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Henry_G_Ulrich_III.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_james_g._stavridis={
+		name="James G. Stavridis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_James_G_Stavridis.dds"
+			}
+		}
+		navy_leader={
+			traits={ naval_invader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_karl_schultz={
+		name="Karl Schultz"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Karl_Schultz.dds"
+			}
+		}
+		navy_leader={
+			traits={ naval_liason }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_walter_doran={
+		name="Walter Doran"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Walter_Doran.dds"
+			}
+		}
+		navy_leader={
+			traits={ naval_lineage }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_william_j._fallon={
+		name="William J. Fallon"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_William_J_Fallon.dds"
+			}
+		}
+		navy_leader={
+			traits={ naval_invader }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_john_c._harvey_jr.={
+		name="John C. Harvey Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_John_C_Harvey_Jr.dds"
+			}
+		}
+		navy_leader={
+			traits={ naval_liason }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AMS_craig_s._faller={
+		name="Craig S. Faller"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AMS/Portrait_Craig_S_Faller.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

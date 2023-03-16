@@ -1,0 +1,145 @@
+characters={
+	SUR_desi_bouterse={
+		name="Dési Bouterse"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Desi_Bouterse.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_ernst_mercuur={
+		name="Ernst Mercuur"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Ernst_Mercuur.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_paul_somohardjo={
+		name="Paul Somohardjo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Paul_Somohardjo.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_margriet_first={
+		name="Margriet I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Margriet_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_ivan_graanoogst={
+		name="Ivan Graanoogst"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Ivan_Graanoogst.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_winston_jessurun={
+		name="Winston Jessurun"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Winston_Jessurun.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_carl_breeveld={
+		name="Carl Breeveld"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Carl_Breeveld.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_ronald_venetiaan={
+		name="Ronald Venetiaan"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Ronald_Venetiaan.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_chan_santokhi={
+		name="Chan Santokhi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Chan_Santokhi.dds"
+			}
+		}
+		country_leader={
+			ideology=labour_revisionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_ronnie_brunswijk={
+		name="Ronnie Brunswijk"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Ronnie_Brunswijk.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_errol_alibux={
+		name="Errol Alibux"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Portrait_SUR_Errol_Alibux.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

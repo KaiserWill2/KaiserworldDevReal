@@ -1,0 +1,9 @@
+cannot_change_second_in_command = {
+	custom_trigger_tooltip = {
+		tooltip = cannot_change_minister_tt
+		OR = {
+			tag = USA
+			tag = GRL
+		}
+	}
+}

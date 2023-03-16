@@ -1,0 +1,232 @@
+spriteTypes = {	
+
+	
+
+	### USA ###
+
+	spriteType = {
+		name = "GFX_idea_berniecare"
+		texturefile = "gfx/interface/ideas/USA/berniecare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_us_house"
+		texturefile = "gfx/interface/ideas/USA/us_house.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_norton_the_fourth"
+		texturefile = "gfx/interface/ideas/USA/norton_the_fourth.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_us_senate"
+		texturefile = "gfx/interface/ideas/USA/us_senate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_us_supreme_court"
+		texturefile = "gfx/interface/ideas/USA/us_supreme_court.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_norton_ii_legacy"
+		texturefile = "gfx/interface/ideas/USA/norton_ii_legacy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_legacy_of_second_acw"
+		texturefile = "gfx/interface/ideas/USA/legacy_of_second_acw.dds"
+	}
+
+
+
+
+
+	####ALASKA######
+
+	spriteType = {
+		name = "GFX_idea_crumbling_infrastructure"
+		texturefile = "gfx/interface/ideas/ALA/crumbling_infrastructure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_impending_civil_war"
+		texturefile = "gfx/interface/ideas/ALA/impending_civil_war.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_memories_of_beringia"
+		texturefile = "gfx/interface/ideas/ALA/memories_of_beringia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nonexistent_economy"
+		texturefile = "gfx/interface/ideas/ALA/nonexistent_economy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_racial_tension"
+		texturefile = "gfx/interface/ideas/ALA/racial_tension.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_weak_administration"
+		texturefile = "gfx/interface/ideas/ALA/weak_administration.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_bae_systems"
+		texturefile = "gfx/interface/ideas/companies/bae_systems.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_vickers_shipbulding_and_engineering"
+		texturefile = "gfx/interface/ideas/companies/vickers_shipbulding_and_engineering.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_britten_norman"
+		texturefile = "gfx/interface/ideas/companies/britten_norman.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_british_aerospace"
+		texturefile = "gfx/interface/ideas/companies/british_aerospace.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rolls_royce"
+		texturefile = "gfx/interface/ideas/companies/rolls_royce.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_westland"
+		texturefile = "gfx/interface/ideas/companies/westland.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rio_tinto"
+		texturefile = "gfx/interface/ideas/companies/rio_tinto.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_marconi_electronic_systems"
+		texturefile = "gfx/interface/ideas/companies/marconi_electronic_systems.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_land_rover"
+		texturefile = "gfx/interface/ideas/companies/land_rover.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_royal_ordnance"
+		texturefile = "gfx/interface/ideas/companies/royal_ordnance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_thales_air_defence"
+		texturefile = "gfx/interface/ideas/companies/thales_air_defence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_maadi_factory"
+		texturefile = "gfx/interface/ideas/companies/maadi_factory1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_arab_industries"
+		texturefile = "gfx/interface/ideas/companies/arab_industries.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_arab_organization_for_industrialization"
+		texturefile = "gfx/interface/ideas/companies/arab_organization_for_industrialization.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nasr"
+		texturefile = "gfx/interface/ideas/companies/nasr.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_egypt_tele"
+		texturefile = "gfx/interface/ideas/companies/egypt_tele.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fuad_ii"
+		texturefile = "gfx/interface/ideas/EGY/fuad_ii.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_alexandria_shipyard"
+		texturefile = "gfx/interface/ideas/companies/alexandria_shipyard.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_maadi_factory2"
+		texturefile = "gfx/interface/ideas/companies/maadi_factory2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_king_charles_third"
+		texturefile = "gfx/interface/ideas/king_charles_third.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_king_william_fifth"
+		texturefile = "gfx/interface/ideas/king_william_fifth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_amc_queen_zara"
+		texturefile = "gfx/interface/ideas/queen_zara.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_gau_the_white_phoenix"
+		texturefile = "gfx/interface/ideas/the_white_phoenix.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_ams_john_difronzo"
+		texturefile = "gfx/interface/ideas/john_difronzo.dds"
+	}
+	
+	
+	### GENERIC LAWS
+	##mobilization
+	spriteType = {
+		name = "GFX_idea_disarmed_nation"
+		texturefile = "gfx/interface/ideas/laws/disarmed_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_volunteer_only"
+		texturefile = "gfx/interface/ideas/laws/volunteer_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_limited_conscription"
+		texturefile = "gfx/interface/ideas/laws/limited_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_extensive_conscription"
+		texturefile = "gfx/interface/ideas/laws/extensive_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_service_by_requirement"
+		texturefile = "gfx/interface/ideas/laws/service_by_requirement.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_all_adults_serve"
+		texturefile = "gfx/interface/ideas/laws/all_adults_serve.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_scraping_the_barrel"
+		texturefile = "gfx/interface/ideas/laws/scraping_the_barrel.dds"
+	}
+	##Econ
+	spriteType = {
+		name = "GFX_idea_civilian_economy"
+		texturefile = "gfx/interface/ideas/laws/civilian_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/laws/low_economic_mobilisation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_partial_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/laws/partial_economic_mobilisation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_war_economy"
+		texturefile = "gfx/interface/ideas/laws/war_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tot_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/laws/tot_economic_mobilisation.dds"
+	}
+
+
+
+
+
+}

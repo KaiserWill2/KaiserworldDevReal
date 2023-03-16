@@ -1,0 +1,76 @@
+division_template = {
+	name = "Central Government Guard"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Central Government Regular"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Central Government Militia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+division = {			
+		name = "Capital Guard"		
+		location = 13643
+		division_template = "Central Government Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+division = {			
+		name = "Mawshij Guard"		
+		location = 13614
+		division_template = "Central Government Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+division = {			
+		name = "Maydi Regular"		
+		location = 13621
+		division_template = "Central Government Regular"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+division = {			
+		name = "Dhamar Regular"		
+		location = 13618
+		division_template = "Central Government Regular"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+division = {			
+		name = "Manakhah Militia"
+		location = 13616
+		division_template = "Central Government Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+}

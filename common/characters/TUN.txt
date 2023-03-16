@@ -1,0 +1,145 @@
+characters={
+	TUN_seifallah_ben_hassine={
+		name="Seifallah Ben Hassine"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Seifallah_Ben_Hassine.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_rachid_ammar={
+		name="Rachid Ammar"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Rachid_Ammar.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_council_of_beys={
+		name="Council of Beys"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Bey_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_kheireddine_souabni={
+		name="Kheireddine Souabni"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Kheireddine_Souabni.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_rached_ghannouchi={
+		name="Rached Ghannouchi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Rached_Ghannouchi.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_slim_riahi={
+		name="Slim Riahi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Slim_Riahi.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_maya_jribi={
+		name="Maya Jribi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Maya_Jribi.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_beji_caid_essebsi={
+		name="Beji Caid Essebsi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Beji_Caid_Essebsi.dds"
+			}
+		}
+		country_leader={
+			ideology=bourguibist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_mustapha_ben_jafar={
+		name="Mustapha Ben Jafar"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Mustapha_Ben_Jafar.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_mohammed_brahmi={
+		name="Mohammed Brahmi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Mohammed_Brahmi.dds"
+			}
+		}
+		country_leader={
+			ideology=nasserism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUN_chokri_belaid={
+		name="Chokri Belaid"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUN/Portrait_TUN_Chokri_Belaid.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

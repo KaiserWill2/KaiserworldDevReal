@@ -1,0 +1,28 @@
+state={
+	id=815
+	name="STATE_815"
+	
+	resources = {
+		oil=23
+		steel=9
+		chromium=6
+		aluminium=5
+	}
+	
+	history = {
+		owner = KUR
+		add_core_of = IRQ
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 5
+		}
+		 victory_points = { 10106 11 }	#Mosul
+	}
+	
+	state_category = city
+	provinces={
+		10106
+	}
+	manpower=1588427
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,949 @@
+focus_tree = {
+	id = british_future_of_union
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = ENG_The_Future_Of_The_Union
+		icon = the_future_of_the_union_icon
+		x = 15
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 10
+		}
+	
+	}
+	focus = {
+		id = ENG_Begin_To_Compete_With_The_World
+		icon = compete_with_the_rest_of_the_world_icon
+		x = 15
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_The_Future_Of_The_Union  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_Challenge_Other_Nations
+		icon = challenge_other_nations_icon
+		x = 11
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Begin_To_Compete_With_The_World  }
+		completion_reward = {
+			country_event = {
+				id = england.178
+			}
+		}
+
+	
+	}
+
+
+	focus = {
+		id = ENG_Build_The_First_Union_Rocket
+		icon = build_the_first_union_rocket_icon
+		x = 10
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Challenge_Other_Nations  }
+		completion_reward = {
+			add_ideas = The_First_Rocket
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_The_Flight_Test
+		icon = the_test_flight_icon
+		x = 10
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Build_The_First_Union_Rocket  }
+		completion_reward = {
+			country_event = {
+				id = england.179
+			}
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_Strike_Down_A_Satellite
+		icon = strike_down_a_satellite_icon
+		x = 10
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_The_Flight_Test  }
+		completion_reward = {
+			add_threat = 15
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_Move_Weapons_To_Barbados
+		icon = move_weapons_to_barbados_icon
+		x = 12
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Challenge_Other_Nations  }
+		completion_reward = {
+			add_research_slot = 1
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 100
+				target = GUY
+			}
+			send_equipment = {
+				equipment = nuclear
+				amount = 100
+				target = GUY
+			}
+			send_equipment = {
+				equipment = computing_tech
+				amount = 100
+				target = GUY
+			}
+			send_equipment = {
+				equipment = rocketry
+				amount = 100
+				target = GUY
+			}
+		}
+
+	
+	}
+
+
+	focus = {
+		id = ENG_Threats_To_Empire_Of_America
+		icon = threats_to_empire_of_america_icon
+		x = 12
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Move_Weapons_To_Barbados  }
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = USA
+					modifier = declaration_of_hostility
+				}
+			}
+		}
+	
+	}
+
+	focus = {
+		id = ENG_We_Have_Power_Now_Canada
+		icon = we_have_the_power_now_canada_icon
+		x = 12
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Threats_To_Empire_Of_America  }
+		completion_reward = {
+			country_event = {
+				id = england.180
+			
+			}
+		}
+
+	
+	}
+
+
+	focus = {
+		id = ENG_No_One_Stops_Blair
+		icon = no_one_stops_blair_iocn
+		x = 11
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_We_Have_Power_Now_Canada  }
+		prerequisite = { focus =  ENG_Strike_Down_A_Satellite  }
+
+		completion_reward = {
+			country_event = {
+				id = england.181
+			}
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_Claims_To_Northern_Ireland
+		icon = claims_on_northern_ireland_icon
+		x = 15
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Begin_To_Compete_With_The_World  }
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ULS
+			}
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_A_Plan_To_Take_Our_Old_State_Back
+		icon = a_plan_to_take_our_old_state_icon
+		x = 15
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Claims_To_Northern_Ireland  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Move_The_Military_To_Stranraer
+		icon = move_the_military_to_stranraer_icon
+		x = 15
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_A_Plan_To_Take_Our_Old_State_Back  }
+		completion_reward = {
+			country_event = {
+				id = england.183
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Order_The_Irish_To_Leave_The_North
+		icon = order_the_irish_to_leave_icon
+		x = 14
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Move_The_Military_To_Stranraer  }
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = IRE
+					modifier = declaration_of_hostility
+				}
+			}
+		}
+
+	} 
+
+	focus = {
+		id = ENG_Ignore_The_UN_Threats
+		icon = ignore_the_un_threats_icon
+		x = 16
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Move_The_Military_To_Stranraer  }
+		completion_reward = {
+			add_stability = 0.010
+		}
+
+	} 
+
+	focus = {
+		id = ENG_The_Last_Night_Of_Peace
+		icon = then_last_night_of_peace_icon
+		x = 15
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Ignore_The_UN_Threats  }
+		prerequisite = { focus =  ENG_Order_The_Irish_To_Leave_The_North  }
+
+		completion_reward = {
+			country_event = {
+				id = england.184
+			}
+		}
+
+	} 
+
+	focus = {
+		id = ENG_The_Eternal_Leader
+		icon = the_eternal_leader_icon
+		x = 19
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Begin_To_Compete_With_The_World  }
+		completion_reward = {
+			country_event = {
+				id = england.185
+			}
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_Build_The_Peoples_Stadium
+		icon = build_the_peoples_stadium_icon
+		x = 17
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_The_Eternal_Leader  }
+		completion_reward = {
+			country_event = {
+				id = england.186
+			}
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_The_New_Energy_Program
+		icon = the_new_energy_program_icon
+		x = 18
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Build_The_Peoples_Stadium  }
+		completion_reward = {
+			add_offsite_building = { type = nuclear_reactor level = 1 }
+		}
+
+	
+	}
+
+
+	focus = {
+		id = ENG_Execute_The_Scottish_Leftovers
+		icon = execute_scottish_leftovers_icon
+		x = 21
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_The_Eternal_Leader  }
+		completion_reward = {
+			country_event = {
+				id = england.187
+			}
+		}
+
+	
+	}
+
+
+	focus = {
+		id = ENG_Scottish_And_Welsh_Labour_Service
+		icon = scottish_and_welsh_labour_service_icon
+		x = 20
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Execute_The_Scottish_Leftovers  }
+		completion_reward = {
+			add_political_power = 30
+			add_stability = -0.5
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_A_Night_With_Blair
+		icon = a_night_with_blair_icon
+		x = 19
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_The_New_Energy_Program  }
+		prerequisite = { focus =  ENG_Scottish_And_Welsh_Labour_Service  }
+
+		completion_reward = {
+			country_event = {
+				id = england.188
+			}
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_A_Message_About_The_Future
+		icon = a_message_about_the_future_icon
+		x = 19
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_A_Night_With_Blair  }
+
+		completion_reward = {
+			country_event = {
+				id = england.189
+			}
+		}
+
+	
+	}
+
+
+	focus = {
+		id = ENG_Operation_Nightsky
+		icon = operation_nightsky_icon
+		x = 15
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_completed_focus = ENG_No_One_Stops_Blair
+			has_completed_focus = ENG_The_Last_Night_Of_Peace
+			has_completed_focus = ENG_A_Message_About_The_Future
+		}
+
+		completion_reward = {
+			country_event = {
+				id = england.182
+			}
+		}
+	
+	}
+
+	focus = {
+		id = ENG_The_Irish_Must_Stand_Down
+		icon = irish_must_stand_down_icon
+		x = 15
+		y = 10
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Operation_Nightsky  }
+
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 3311
+			}
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 6350
+			}
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_Meet_WIth_Irish_Leaders
+		icon = meeting_the_irish_icon
+		x = 14
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_The_Irish_Must_Stand_Down  }
+
+		completion_reward = {
+			country_event = {
+				id = england.190
+			}
+		}
+
+	
+	}
+
+
+	focus = {
+		id = ENG_Refuse_To_Stand_Down
+		icon = refuse_to_Stand_down_icon
+		x = 16
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_The_Irish_Must_Stand_Down  }
+
+		completion_reward = {
+			add_threat = 10
+		}
+
+	
+	}
+
+
+	focus = {
+		id = ENG_Then_The_Republic_Will_Fall
+		icon = the_republic_will_fall_icon
+		x = 15
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Meet_WIth_Irish_Leaders  }
+		prerequisite = { focus =  ENG_Refuse_To_Stand_Down  }
+
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = IRE
+					modifier = declaration_of_hostility
+				}
+			}
+		}
+
+	
+	}
+
+	focus = {
+		id = ENG_Refuse_To_Listen_To_UN_And_Allies
+		icon = refuse_to_listen_to_un_and_alllies_icon
+		x = 15
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Then_The_Republic_Will_Fall  }
+
+		completion_reward = {
+			add_political_power = 20
+			add_stability = -0.10
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_U.S.B.R_Assassination_Attempt_Failure
+		icon = usbr_fail_assassination_icon
+		x = 15
+		y = 14
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Refuse_To_Listen_To_UN_And_Allies  }
+
+		completion_reward = {
+			country_event = {
+				id = england.191
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Time_To_Take_The_Clover
+		icon = time_to_take_the_clover_icon
+		x = 15
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_U.S.B.R_Assassination_Attempt_Failure  }
+
+		completion_reward = {
+			country_event = {
+				id = england.192
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Order_The_Defences_Against_French
+		icon = order_defence_against_france_icon
+		x = 13
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Time_To_Take_The_Clover  }
+
+		completion_reward = {
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 3501
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 11446
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 9458
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 6489
+			}
+			add_building_construction = {
+				type = radar_station
+				level = 4
+				instant_build = yes
+				province = 6489
+			}
+			add_building_construction = {
+				type = rocket_site
+				level = 4
+				instant_build = yes
+				province = 6489
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Order_The_Young_To_Take_Up_Arms
+		icon = order_young_to_take_up_arms_icon
+		x = 13
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Order_The_Defences_Against_French  }
+
+		completion_reward = {
+			add_manpower = 50000
+		}
+
+	}
+
+	focus = {
+		id = ENG_Civilian_Factories_Into_Army_Factories
+		icon = civilian_factories_into_army_factories_icon
+		x = 13
+		y = 18
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Order_The_Young_To_Take_Up_Arms  }
+
+		completion_reward = {
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				province = 9379
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				province = 351
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				province = 11297
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Forts_Along_Irish_Beaches
+		icon = forts_along_irish_border_icon
+		x = 15
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Time_To_Take_The_Clover  }
+
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 11257
+			}
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 3242
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Protect_Scottish_Waters
+		icon = protect_scottish_waters_icon
+		x = 15
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Forts_Along_Irish_Beaches  }
+
+		completion_reward = {
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 6062
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 6196
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+				province = 6062
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+				province = 9090
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+				province = 200
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+				province = 11266
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_North_Sea_Target_Practice
+		icon = north_sea_target_practice_icon
+		x = 15
+		y = 18
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Protect_Scottish_Waters  }
+
+		completion_reward = {
+			navy_experience = 50
+			add_intel = {
+				target = IRE
+				civilian_intel = 3
+				army_intel = 2
+				navy_intel = 1
+				airforce_intel = 2
+			}
+			add_intel = {
+				target = GER
+				civilian_intel = 3
+				army_intel = 2
+				navy_intel = 1
+				airforce_intel = 2
+			}
+			add_intel = {
+				target = FRA
+				civilian_intel = 3
+				army_intel = 2
+				navy_intel = 1
+				airforce_intel = 2
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Ignore_The_american_And_Canadian_Pleas
+		icon = american_and_canadian_pleas_icon
+		x = 17
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Time_To_Take_The_Clover  }
+
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = USA
+					modifier = declaration_of_hostility
+				}
+			}
+			ENG = {
+				add_opinion_modifier = {
+					target = CAN
+					modifier = declaration_of_hostility
+				}
+			}
+		}	
+	}
+	focus = {
+		id = ENG_We_Are_Serious
+		icon = we_are_serious_icon
+		x = 17
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Ignore_The_american_And_Canadian_Pleas  }
+
+		completion_reward = {
+			country_event = {
+				id = england.196
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Time_To_Kill_Democracy
+		icon = time_to_kill_democracy_icon
+		x = 17
+		y = 18
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_We_Are_Serious  }
+
+		completion_reward = {
+			country_event = {
+				id = england.198
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_The_Third_Weltkrieg
+		icon = the_third_weltkrieg_icon
+		x = 15
+		y = 19
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  ENG_Time_To_Kill_Democracy  }
+		prerequisite = { focus =  ENG_North_Sea_Target_Practice  }
+		prerequisite = { focus =  ENG_Civilian_Factories_Into_Army_Factories  }
+
+
+		completion_reward = {
+
+			country_event = {
+				id = england.199
+			}
+			
+		}
+
+	}
+
+
+
+}

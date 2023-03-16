@@ -1,0 +1,557 @@
+focus_tree = {
+	id = uk_Johnson_stabilised_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = ENG
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1550 }
+	focus = {
+		id = ENG_Continue_the_Johnson_Reforms
+		icon = boris_reforms_keep_going_icon
+		cost = 5
+		x = 10
+		y = 0
+		completion_reward = {
+			add_stability = 0.10
+			country_event = {
+				id = england.135
+			}
+		}
+	}
+	focus = {
+		id = ENG_Abolish_Blairs_Personality_Cult
+		icon = end_blair_personality_icon
+		cost = 5
+		x = 10
+		y = 1
+		prerequisite = { focus = ENG_Continue_the_Johnson_Reforms  }
+		completion_reward = {
+			country_event = {
+				id = england.136
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Remove_Totalist_Ideology
+		icon = remove_totalist_ideology_icon
+		cost = 4
+		x = 7
+		y = 2
+		prerequisite = { focus = ENG_Abolish_Blairs_Personality_Cult  }
+		completion_reward = {
+			country_event = {
+				id = england.137
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Rebuild_Cornwall
+		icon = rebuild_cornwall_icon
+		cost = 4
+		x = 10
+		y = 2
+		prerequisite = { focus = ENG_Abolish_Blairs_Personality_Cult  }
+		completion_reward = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				province = 6586
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Remove_Selected_Work
+		icon = removing_selected_work_icon
+		cost = 4
+		x = 13
+		y = 2
+		prerequisite = { focus = ENG_Abolish_Blairs_Personality_Cult  }
+		completion_reward = {
+			add_stability = 0.05
+		}
+
+	}
+
+	focus = {
+		id = ENG_Better_Housing_For_The_Poor
+		icon = better_housing_for_poor_icon
+		cost = 4
+		x = 9
+		y = 3
+		prerequisite = { focus = ENG_Remove_Totalist_Ideology  }
+		prerequisite = { focus = ENG_Rebuild_Cornwall  }
+		prerequisite = { focus = ENG_Remove_Selected_Work  }
+		completion_reward = {
+			add_extra_state_shared_building_slots = 2
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Remodel_Schools_For_Everyone
+		icon = remodel_schools_for_everyone_icon
+		cost = 4
+		x = 11
+		y = 3
+		prerequisite = { focus = ENG_Remove_Totalist_Ideology  }
+		prerequisite = { focus = ENG_Rebuild_Cornwall  }
+		prerequisite = { focus = ENG_Remove_Selected_Work  }
+		completion_reward = {
+			add_political_power = 20
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Rebuild_And_Reform_The_Nation_From_The_Ground_Up
+		icon = rebuild_from_ground_up_icon
+		cost = 3
+		x = 10
+		y = 4
+		prerequisite = { focus = ENG_Remodel_Schools_For_Everyone  }
+		prerequisite = { focus = ENG_Better_Housing_For_The_Poor  }
+
+		completion_reward = {
+			country_event = {
+				id = england.138
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Create_Congress_Councils_In_Districts
+		icon = create_congress_councils_in_districts_icon
+		cost = 3
+		x = 10
+		y = 5
+		prerequisite = { focus = ENG_Rebuild_And_Reform_The_Nation_From_The_Ground_Up  }
+
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.5
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Rights_For_The_People
+		icon = rights_of_the_people_icon
+		cost = 2
+		x = 12
+		y = 6
+		prerequisite = { focus = ENG_Create_Congress_Councils_In_Districts  }
+
+		completion_reward = {
+			country_event = {
+				id = england.141
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Welfare_To_Heal_The_Union
+		icon = welfare_to_heal_the_nation_icon
+		cost = 2
+		x = 11
+		y = 7
+		prerequisite = { focus = ENG_Rights_For_The_People  }
+
+		completion_reward = {
+			add_ideas = Welfare_To_Heal_The_Nation
+		}
+
+	}
+
+	focus = {
+		id = ENG_Form_A_National_Health_Service
+		icon = introduce_national_healthcare_icon
+		cost = 2
+		x = 13
+		y = 7
+		prerequisite = { focus = ENG_Rights_For_The_People  }
+
+		completion_reward = {
+			country_event = {
+				id = england.142
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Affordable_Housing
+		icon = affordable_housing_icon
+		cost = 2
+		x = 12
+		y = 8
+		prerequisite = { focus = ENG_Welfare_To_Heal_The_Union  }
+		prerequisite = { focus = ENG_Form_A_National_Health_Service  }
+
+		completion_reward = {
+			add_ideas = Affordable_housing
+			add_building_construction = {
+				type = infrastructure
+				level = 3
+				instant_build = yes
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Introduce_National_Living_Wage
+		icon = national_living_wage_icon
+		cost = 2
+		x = 12
+		y = 9
+		prerequisite = { focus = ENG_Affordable_Housing  }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+
+	}
+
+	focus = {
+		id = ENG_Introduce_Liberal_Reforms
+		icon = liberal_reforms_icon
+		cost = 2
+		x = 11
+		y = 10
+		prerequisite = { focus = ENG_Introduce_National_Living_Wage  }
+
+		completion_reward = {
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.5
+			}
+			country_event = {
+				id = england.143
+			}
+		}
+
+	}
+
+
+
+
+	focus = {
+		id = ENG_Allow_Limited_Private_Businesses
+		icon = limiteD_free_business_icon
+		cost = 2
+		x = 8
+		y = 6
+		prerequisite = { focus = ENG_Create_Congress_Councils_In_Districts  }
+
+		completion_reward = {
+			add_ideas = Limited_Private_Businesses
+		}
+
+	}
+
+	focus = {
+		id = ENG_Limit_Unions
+		icon = limit_unions_icon
+		cost = 2
+		x = 7
+		y = 7
+		prerequisite = { focus = ENG_Allow_Limited_Private_Businesses  }
+
+		completion_reward = {
+			add_stability = -0.03
+			add_political_power = 10
+		}
+
+	}
+
+	focus = {
+		id = ENG_Grants_For_Business_Startups
+		icon = grants_for_Business_startup_icon
+		cost = 2
+		x = 9
+		y = 7
+		prerequisite = { focus = ENG_Allow_Limited_Private_Businesses  }
+
+		completion_reward = {
+			country_event = {
+				id = england.139
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Rebuild_The_Economy
+		icon = rebuild_the_economy_icon
+		cost = 2
+		x = 8
+		y = 8
+		prerequisite = { focus = ENG_Limit_Unions  }
+		prerequisite = { focus = ENG_Grants_For_Business_Startups  }
+
+		completion_reward = {
+			add_ideas = Rebuilding_the_economy
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Encourage_Public_Spending
+		icon = encourage_public_spending_icon
+		cost = 2
+		x = 8
+		y = 9
+		prerequisite = { focus = ENG_Rebuild_The_Economy  }
+
+		completion_reward = {
+			add_political_power = 10
+		}
+
+	}
+
+	focus = {
+		id = ENG_Rebuild_London
+		icon = rebuild_london_icon
+		cost = 2
+		x = 9
+		y = 10
+		prerequisite = { focus = ENG_Encourage_Public_Spending  }
+
+		completion_reward = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				province = 6103
+			}
+			country_event = {
+				id = england.140
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_A_New_Beginning_For_England
+		icon = a_new_beginning_for_england_icon
+		cost = 3
+		x = 10
+		y = 11
+		prerequisite = { focus = ENG_Rebuild_London  }
+		prerequisite = { focus = ENG_Introduce_Liberal_Reforms  }
+
+		completion_reward = {
+			country_event = {
+				id = england.144
+			}
+			set_country_flag = ENG_a_un_meeting
+			mark_focus_tree_layout_dirty = yes	
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_The_UN_Meeting
+		icon = the_UN_meeting_icon
+		cost = 5
+		x = 23
+		y = 0
+			trigger = {
+			has_country_flag = ENG_a_un_meeting
+		}
+		allow_branch = {
+			has_country_flag = ENG_a_un_meeting
+			ENG_a_un_meeting = yes
+		}
+		completion_reward = {
+			country_event = {
+				id = england.134
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_The_Dublin_Exchange
+		icon = dublin_exchange_icon
+		cost = 5
+		x = 23
+		y = 1
+		prerequisite = { focus = ENG_The_UN_Meeting  }
+
+		completion_reward = {
+			country_event = {
+				id = england.145
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_The_Cardiff_Agreement
+		icon = the_cardiff_agreement_icon
+		cost = 4
+		x = 22
+		y = 2
+		prerequisite = { focus = ENG_The_Dublin_Exchange  }
+
+		completion_reward = {
+			country_event = {
+				id = england.146
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_The_Peace_Border
+		icon = the_peace_border_icon
+		cost = 4
+		x = 24
+		y = 2
+		prerequisite = { focus = ENG_The_Dublin_Exchange  }
+
+		completion_reward = {
+			country_event = {
+				id = england.147
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_The_King_Agrees
+		icon = the_king_agrees_icon
+		cost = 4
+		x = 23
+		y = 3
+		prerequisite = { focus = ENG_The_Cardiff_Agreement  }
+		prerequisite = { focus = ENG_The_Peace_Border  }
+
+		completion_reward = {
+			country_event = {
+				id = england.148
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Moving_Forward
+		icon = moving_forward_icon
+		cost = 3
+		x = 23
+		y = 4
+		prerequisite = { focus = ENG_The_King_Agrees  }
+
+		completion_reward = {
+			add_political_power = 40
+		}
+
+	}
+
+	focus = {
+		id = ENG_Remove_Borders_Between_States
+		icon = remove_the_borders_icon
+		cost = 5
+		x = 22
+		y = 5
+		prerequisite = { focus = ENG_Moving_Forward  }
+
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = SCO
+					modifier = recent_actions_Are_positive
+				}
+			}
+			ENG = {
+				add_opinion_modifier = {
+					target = SCO
+					modifier = recent_actions_Are_positive
+				}
+			}	
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Open_The_Gates
+		icon = open_borde_gates_icon
+		cost = 3
+		x = 24
+		y = 5
+		prerequisite = { focus = ENG_Moving_Forward  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Welcome_The_Britons
+		icon = welcome_the_britons_icon
+		cost = 2
+		x = 23
+		y = 6
+		prerequisite = { focus = ENG_Remove_Borders_Between_States  }
+		prerequisite = { focus = ENG_Open_The_Gates  }
+		completion_reward = {
+			add_stability = 0.05
+		}
+
+	}
+
+	focus = {
+		id = ENG_Prepare_For_Unification
+		icon = prepare_for_unification_icon
+		cost = 2
+		x = 23
+		y = 7
+		prerequisite = { focus = ENG_Welcome_The_Britons  }
+		completion_reward = {
+			country_event = {
+				id = england.149
+			}
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

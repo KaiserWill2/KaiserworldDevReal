@@ -1,0 +1,145 @@
+﻿characters={
+	MNT_svetozar_marovic={
+		name="Svetozar Marović"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Svetozar_Marovic.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_momir_bulatovic={
+		name="Momir Bulatović"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Momir_Bulatovic.dds"
+			}
+		}
+		country_leader={
+			ideology=titoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_milo_dukanovic={
+		name="Milo Đukanović"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Milo_Dukanovic.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_draginja_vuksanovic={
+		name="Draginja Vuksanović"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Draginja_Vuksanovic.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_dritan_abazovic={
+		name="Dritan Abazović"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Dritan_Abazovic.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_zdravko_krivokapic={
+		name="Zdravko Krivokapić"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Zdravko_Krivokapic.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_nebojsa_medojevic={
+		name="Nebojša Medojević"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Nebojsa_Medojevic.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_milan_knezevic={
+		name="Milan Knežević"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Milan_Knezevic.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_andrija_mandic={
+		name="Andrija Mandić"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Andrija_Mandic.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_nicholas_ii={
+		name="Nicholas II"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Nicholas_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_veselin_sljivancanin={
+		name="Veselin Šljivančanin"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Portrait_MNT_Veselin_Sljivancanin.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

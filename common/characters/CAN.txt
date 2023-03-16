@@ -1,0 +1,886 @@
+characters={
+	CAN_preston_manning={
+		name="Preston Manning"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Preston_Manning.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PRESTON_MANNING_DESC"
+			ideology=progressive_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_stockwell_day={
+		name="Stockwell Day"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Stockwell_Day.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_stephen_harper={
+		name="Stephen Harper"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Stephen_Harper.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_michaelle_jean={
+		name="Michaelle Jean"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Michaelle_Jean.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_kimball_cariou={
+		name="Kimball Cariou"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Kimball_Cariou.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_michael_ignatieff={
+		name="Michael Ignatieff"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Michael_Ignatieff.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_bob_rae={
+		name="Bob Rae"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Bob_Rae.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_richard_cannings={
+		name="Richard Cannings"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Richard_Cannings.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_jack_layton={
+		name="Jack Layton"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Jack_Layton.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_richard_j.f._day={
+		name="Richard J.F. Day"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Richard_J_F_Day.dds"
+			}
+		}
+		country_leader={
+			ideology=american_revolutionary_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_miguel_figueroa={
+		name="Miguel Figueroa"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_Miguel_Figueroa.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAN_rick_j._hillier={
+		name="Rick J. Hillier"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Rick_Hillier.dds"
+			}
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CAN_walter_natynczyk={
+		name="Walter Natynczyk"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Walter_Natynczyk.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CAN_jonathan_vance={
+		name="Jonathan Vance"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Jonathan_Vance.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CAN_marquis_hainse={
+		name="Marquis Hainse"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Marquis_Hainse.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	CAN_jan_arp={
+		name="Jan Arp"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Jan_Arp.dds"
+			}
+		}
+		field_marshal={
+			traits={ expert_delegator }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CAN_peter_devlin={
+		name="Peter Devlin"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Peter_Devlin.dds"
+			}
+		}
+		corps_commander={
+			traits={ combined_arms_expert }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_jeanmarc_lanthier={
+		name="Jean-Marc Lanthier"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Jean_Marc_Lanthier.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CAN_wayne_eyre={
+		name="Wayne Eyre"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Wayne_Eyre.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger combined_arms_expert }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_guy_thibault={
+		name="Guy Thibault"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Guy_Thibault.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CAN_alain_parent={
+		name="Alain Parent"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Alain_Parent.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_frances_j._allen={
+		name="Frances J. Allen"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Frances_J_Allen.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_andrew_leslie={
+		name="Andrew Leslie"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Andrew_Leslie.dds"
+			}
+		}
+		corps_commander={
+			traits={ swamp_fox }
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_jennie_carignan={
+		name="Jennie Carignan"
+		advisor={
+			slot = high_command
+			idea_token = canada_jennie_carignan
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					army_artillery_1 
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_canada_jennie_carignan"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Jennie_Carignan.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	CAN_alain_forand={
+		name="Alain Forand"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Alain_Forand.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_dany_fortin={
+		name="Dany Fortin"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Dany_Fortin.dds"
+			}
+		}
+		corps_commander={
+			traits={ winter_specialist }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_derek_a._macaulay={
+		name="Derek A. Macaulay"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Derek_Macauley.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_anthony_stack={
+		name="Anthony Stack"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Anthony_Stack.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_sébastien_bouchard={
+		name="Sébastien Bouchard"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Sébastien_Bouchard.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CAN_daniel_ménard={
+		name="Daniel Ménard"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Daniel_Ménard.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_colin_keiver={
+		name="Colin Keiver"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Colin_Keiver.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=1
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_william_truelove={
+		name="William Truelove"
+		advisor={
+			slot = navy_chief
+			idea_token = canada_william_truelove
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					navy_anti_submarine_2 
+				}
+		}
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			navy={
+				small="GFX_idea_canada_william_truelove"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Bill_Truelove.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_craig_baines={
+		name="Craig Baines"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Craig_Baines.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_art_mcdonald={
+		name="Art McDonald"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Art_MacDonald.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_bruce_donaldson={
+		name="Bruce Donaldson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Bruce_Donaldson.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_jennifer_bennett={
+		name="Jennifer Bennett"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Jennifer_Bennett.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_scott_bishop={
+		name="Scott Bishop"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Scott_Bishop.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_gilles_couturier={
+		name="Gilles Couturier"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Gilles_Couturier.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_darren_hawco={
+		name="Darren Hawco"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Darren_Hawco.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_bob_auchterlonie={
+		name="Bob Auchterlonie"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CAN/Portrait_Bob_Auchterlonie.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_canada_michel_vigneault={
+		advisor={
+			slot = navy_chief
+			idea_token = canada_michel_vigneault
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					navy_chief_decisive_battle_2 
+				}
+		}
+		name="canada_michel_vigneault"
+		portraits={
+			army={
+				small="GFX_idea_canada_michel_vigneault"
+			}
+		}
+	}
+	CAN_canada_christian_drouin={
+		advisor={
+			slot = air_chief
+			idea_token = canada_christian_drouin
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					air_close_air_support_2 
+				}
+		}
+		name="canada_christian_drouin"
+		portraits={
+			army={
+				small="GFX_idea_canada_christian_drouin"
+			}
+		}
+	}
+	CAN_canada_rob_mackenzie={
+		advisor={
+			slot = army_chief
+			idea_token = canada_rob_mackenzie
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					army_chief_defensive_1 
+				}
+		}
+		name="canada_rob_mackenzie"
+		portraits={
+			army={
+				small="GFX_idea_canada_rob_mackenzie"
+			}
+		}
+	}
+	CAN_canada_alan_guimond={
+		advisor={
+			slot = army_chief
+			idea_token = canada_alan_guimond
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					army_chief_offensive_1 
+				}
+		}
+		name="canada_alan_guimond"
+		portraits={
+			army={
+				small="GFX_idea_canada_alan_guimond"
+			}
+		}
+	}
+	CAN_canada_paul_wynnyk={
+		advisor={
+			slot = high_command
+			idea_token = canada_paul_wynnyk
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					army_logistics_2 
+				}
+		}
+		name="canada_paul_wynnyk"
+		portraits={
+			army={
+				small="GFX_idea_canada_paul_wynnyk"
+			}
+		}
+	}
+	CAN_canada_maurice_lloyd={
+		advisor={
+			slot = high_command
+			idea_token = canada_maurice_lloyd
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					navy_fleet_logistics_1 
+				}
+		}
+		name="canada_maurice_lloyd"
+		portraits={
+			army={
+				small="GFX_idea_canada_maurice_lloyd"
+			}
+		}
+	}
+	CAN_canada_michael_hood={
+		advisor={
+			slot = high_command
+			idea_token = canada_michael_hood
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					air_air_combat_training_2 
+				}
+		}
+		name="canada_michael_hood"
+		portraits={
+			army={
+				small="GFX_idea_canada_michael_hood"
+			}
+		}
+	}
+	CAN_canada_dave_cochrane={
+		advisor={
+			slot = air_chief
+			idea_token = canada_dave_cochrane
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					air_chief_all_weather_2 
+				}
+		}
+		name="canada_dave_cochrane"
+		portraits={
+			army={
+				small="GFX_idea_canada_dave_cochrane"
+			}
+		}
+	}
+}

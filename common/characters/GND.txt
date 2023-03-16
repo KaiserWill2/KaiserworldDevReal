@@ -1,0 +1,145 @@
+characters={
+	GND_bernard_coard={
+		name="Bernard Coard"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Bernard_Coard.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_watson_edwards={
+		name="Watson Edwards"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Watson_Edwards.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_paul_scoon={
+		name="Paul Scoon"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Paul_Scoon.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_nna_nna={
+		name="Nna Nna"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Nna_Nna.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_hudson_austin={
+		name="Hudson Austin"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Hudson_Austin.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_fitzroy_bedeau={
+		name="Fitzroy Bedeau"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Fitzroy_Bedeau.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_john_watts={
+		name="John Watts"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_John_Watts.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_peter_david={
+		name="Peter David"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Peter_David.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_gloria_payne_banfield={
+		name="Gloria Payne Banfield"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Gloria_Payne_Banfield.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_francis_alexis={
+		name="Francis Alexis"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Francis_Alexis.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GND_maurice_bishop={
+		name="Maurice Bishop"
+		portraits={
+			civilian={
+				large="gfx/leaders/GND/Portrait_GND_Maurice_Bishop.dds"
+			}
+		}
+		country_leader={
+			ideology=luxemburgism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

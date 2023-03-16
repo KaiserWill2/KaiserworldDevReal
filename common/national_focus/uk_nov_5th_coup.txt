@@ -1,0 +1,229 @@
+focus_tree = {
+	id = 5th_nov_coup
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = ENG
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1550 }
+	focus = {
+		id = ENG_The_November_5th_Coup
+		icon = 5th_nov_icon
+		cost = 5
+		x = 10
+		y = 0
+		completion_reward = {
+			country_event = {
+				id = england.150
+			}
+		
+		}
+	}
+	focus = {
+		id = ENG_Marital_Law
+		icon = martial_law_icon
+		cost = 5
+		x = 10
+		y = 1
+		prerequisite = { focus = ENG_The_November_5th_Coup  }
+		completion_reward = {
+		
+			add_stability = -0.10
+		}
+
+	}
+
+	focus = {
+		id = ENG_Disband_The_Peoples_Congress
+		icon = disband_the_peoples_congress_icon
+		cost = 5
+		x = 10
+		y = 2
+		prerequisite = { focus = ENG_Marital_Law  }
+		completion_reward = {
+			country_event = {
+				id = england.151
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Ending_School_Early
+		icon = ending_school_early_icon
+		cost = 5
+		x = 7
+		y = 3
+		prerequisite = { focus = ENG_Disband_The_Peoples_Congress  }
+		completion_reward = {
+			add_stability = -0.15
+		
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Expand_the_Camps
+		icon = expanding_the_camps_icon
+		cost = 5
+		x = 8
+		y = 4
+		prerequisite = { focus = ENG_Ending_School_Early  }
+		completion_reward = {
+			add_ideas = army_expanding_the_camps
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Securing_the_cities
+		icon = securing_the_cities_icon
+		cost = 5
+		x = 10
+		y = 3
+		prerequisite = { focus = ENG_Disband_The_Peoples_Congress  }
+		completion_reward = {
+			country_event = {
+				id = england.246
+			}
+		}
+
+	}
+ 
+
+	focus = {
+		id = ENG_Imprisoning_Politicians
+		icon = imprison_politicians_icon
+		cost = 5
+		x = 10
+		y = 4
+		prerequisite = { focus = ENG_Securing_the_cities  }
+		completion_reward = {
+			add_political_power = 20
+		}
+
+	}
+ 
+	focus = {
+		id = ENG_Shoot_To_kill2
+		icon = shoot_to_kill_2_icon
+		cost = 5
+		x = 13
+		y = 3
+		prerequisite = { focus = ENG_Disband_The_Peoples_Congress  }
+		completion_reward = {
+			add_stability = -0.20
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Silence_the_state_media
+		icon = silence_the_state_media_icon
+		cost = 5
+		x = 12
+		y = 4
+		prerequisite = { focus = ENG_Shoot_To_kill2  }
+		completion_reward = {
+			add_ideas = silencing_The_media
+		}
+
+	}
+
+
+
+
+	focus = {
+		id = ENG_Prepare_for_Dissolution
+		icon = prepare_for_dissolution_icon
+		cost = 5
+		x = 10
+		y = 5
+		prerequisite = { focus = ENG_Expand_the_Camps  }
+		prerequisite = { focus = ENG_Imprisoning_Politicians  }
+		prerequisite = { focus = ENG_Silence_the_state_media  }
+		completion_reward = {
+
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_Cement_Our_Positions
+		icon = cement_our_postion_iocn
+		cost = 5
+		x = 10
+		y = 6
+		prerequisite = { focus = ENG_Prepare_for_Dissolution  }
+		completion_reward = {
+
+		}
+
+	}
+
+	
+	focus = {
+		id = ENG_They_Will_come
+		icon = they_will_come_icon
+		cost = 5
+		x = 10
+		y = 7
+		prerequisite = { focus = ENG_Cement_Our_Positions  }
+		completion_reward = {
+			country_event = {
+				id = england.425
+			}
+		}
+	
+	}
+
+	focus = {
+		id = ENG_And_We_Will_be_Ready
+		icon = and_we_will_be_ready_icon
+		cost = 5
+		x = 10
+		y = 8
+		prerequisite = { focus = ENG_They_Will_come  }
+		completion_reward = {
+			country_event = {
+				id = england.153
+			}
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}	

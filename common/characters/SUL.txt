@@ -1,0 +1,145 @@
+characters={
+	SUL_hamilton_mourao={
+		name="Hamilton Mourão"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Hamilton_Mourão.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_augusto_i={
+		name="Augusto I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Augusto_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_emilio_glienke={
+		name="Emílio Glienke"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Emílio_Glienke.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_celia_cabrera={
+		name="Célia Cabrera"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Célia_Cabrera.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_ricardo_barros={
+		name="Ricardo Barros"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Ricardo_Barros.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_jose_ivo_sartori={
+		name="José Ivo Sartori"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_José_Ivo_Sartori.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_raimundo_colombo={
+		name="Raimundo Colombo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Raimundo_Colombo.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_osmar_dias={
+		name="Osmar Dias"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Osmar_Dias.dds"
+			}
+		}
+		country_leader={
+			ideology=labour_revisionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_paulo_paim={
+		name="Paulo Paim"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Paulo_Paim.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_pedro_ruas={
+		name="Pedro Ruas"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Pedro_Ruas.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUL_gleisi_hoffmann={
+		name="Gleisi Hoffmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUL/Portrait_SUL_Gleisi_Hoffmann.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

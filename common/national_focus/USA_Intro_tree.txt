@@ -1,0 +1,583 @@
+focus_tree = {
+	id = USA_intro_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_Bernies_Time_To_Shine
+		icon = Icon_Bernies_Time_to_Shine_KW
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 20
+				country_event = {	
+				id = USA.27
+				}
+				hidden_effect = {
+					news_event = { 
+					id = news.25
+					days = 630 }
+				}
+		}
+	
+	}
+	focus = {
+		id = USA_Bernies_New_Deal
+		icon = Icon_Bernies_New_Deal_KW
+		x = 10
+		y = 1
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernies_Time_To_Shine  }
+		completion_reward = {
+			add_political_power = 10
+		}
+	
+	}
+
+
+
+
+
+
+	focus = {
+		id = USA_Pushing_back_Against_The_Military_Industrial_Complex
+		icon = Icon_Deal_with_the_Military_Industrial_Complex_KW
+		x = 7
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernies_New_Deal  }
+		completion_reward = {
+			random_owned_state = {
+			    add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				    type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+			    add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				    type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Regulate_Wall_Street
+		icon = Icon_Regulate_Wall_Street_KW
+		x = 7
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Pushing_back_Against_The_Military_Industrial_Complex  }
+		completion_reward = {
+			add_ideas = idea_usa_regulate_wall_street
+
+		}
+	
+	}
+
+
+
+
+
+
+	focus = {
+		id = USA_Raise_Minimum_Wage
+		icon = Icon_Increase_Minimum_Wage_KW
+		x = 10
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernies_New_Deal  }
+		completion_reward = {
+			country_event = {	
+				id = USA.28
+				}
+	
+		}
+	
+	}
+
+	
+	focus = {
+		id = USA_Increase_Taxes_On_The_Aristocracy
+		icon = Icon_Increase_Taxes_on_the_Aristocracy_KW
+		x = 10
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Raise_Minimum_Wage  }
+		completion_reward = {
+			add_ideas = idea_usa_taxes_on_aristocracy
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Subsidize_Healthcare
+		icon = Icon_Subsidize_Healthcare_KW
+		x = 13
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernies_New_Deal  }
+		completion_reward = {
+			country_event = {	
+				id = USA.29
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Work_With_The_Banks
+		icon = Icon_Work_With_the_Banks_KW
+		x = 13
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Subsidize_Healthcare  }
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.05
+		}
+	
+	}
+
+	focus = {
+		id = USA_Onto_The_Real_Work
+		icon = Icon_Onto_the_Real_Work_KW
+		x = 10
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Work_With_The_Banks  }
+		prerequisite = { focus =  USA_Regulate_Wall_Street  }
+		prerequisite = { focus =  USA_Increase_Taxes_On_The_Aristocracy  }
+
+		completion_reward = {
+			add_political_power = 20
+
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Free_Schooling_For_All
+		icon = Icon_Free_Schooling_for_All_KW
+		x = 7
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Onto_The_Real_Work  }
+		completion_reward = {
+			add_stability = 0.015
+		}
+	
+	}
+
+	focus = {
+		id = USA_Big_Pharma_And_Socialism
+		icon = Icon_Big_Pharma_and_Socialism_KW
+		x = 7
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Free_Schooling_For_All  }
+		completion_reward = {
+			add_ideas = idea_usa_big_pharma_and_socialism
+
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Protect_Unions
+		icon = Icon_Protect_Unions_KW
+		x = 10
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Onto_The_Real_Work  }
+		completion_reward = {
+			add_political_power = 50
+		}
+	
+	}
+
+	focus = {
+		id = USA_Workplace_Democracy
+		icon = Icon_Workplace_Democracy_KW
+		x = 10
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Protect_Unions  }
+		completion_reward = {
+			add_ideas = idea_usa_workplace_democracy
+
+		}
+	
+	}
+
+	focus = {
+		id = USA_Expand_Small_Business_Loans
+		icon = Icon_Expand_Small_Business_Loans_KW
+		x = 8
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Workplace_Democracy  }
+		prerequisite = { focus =  USA_Big_Pharma_And_Socialism  }
+
+		completion_reward = {
+			add_political_power = 10
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_Roof_Over_Everyones_Head
+		icon = Icon_A_Roof_Over_Everyones_Head_KW
+		x = 13
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Onto_The_Real_Work  }
+		completion_reward = {
+			country_event = {	
+				id = USA.30
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_End_The_Prison_Pipeline
+		icon = Icon_End_the_Prison_Pipeline_KW
+		x = 13
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_Roof_Over_Everyones_Head  }
+		completion_reward = {
+			country_event = {	
+				id = USA.31
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Reform_Law_Enforcement
+		icon = Icon_Reform_Law_Enforcement_KW
+		x = 12
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_End_The_Prison_Pipeline  }
+		prerequisite = { focus =  USA_Workplace_Democracy  }
+
+		completion_reward = {
+		add_stability = 0.05
+		}
+	
+	}
+
+	focus = {
+		id = USA_The_Environmental_Accords
+		icon = Icon_The_Environemental_Accords_KW
+		x = 10
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reform_Law_Enforcement  }
+
+		prerequisite = { focus =  USA_Expand_Small_Business_Loans  }
+
+		completion_reward = {
+			country_event = {	
+				id = USA.23
+				}
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_The_Culmination_Of_The_Commonwealth_Ideals
+		icon = Icon_The_Culmination_of_the_Commonwealth_Ideals_KW
+		x = 25
+		y = 0
+		cost = 4
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 10
+		}
+	
+	}
+
+
+
+
+
+	focus = {
+		id = USA_International_Decolonization
+		icon = Icon_International_Decolonization_KW
+		x = 25
+		y = 1
+		cost = 3
+		prerequisite = { focus =  USA_The_Culmination_Of_The_Commonwealth_Ideals  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_stability = 0.15
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Set_The_Example
+		icon = Icon_Set_the_Example_KW
+		x = 25
+		y = 2
+		cost = 3
+		prerequisite = { focus =  USA_International_Decolonization  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = {	
+				id = USA.24
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Overtures_To_Germany
+		icon = Icon_Overtures_to_Germany_KW
+		x = 22
+		y = 3
+		cost = 2
+		prerequisite = { focus =  USA_Set_The_Example  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = {	
+				id = USA.25
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Set_A_Far_Off_Deadline
+		icon = Icon_Set_a_Far_Off_Deadline_KW
+		x = 22
+		y = 4
+		cost = 2
+		prerequisite = { focus =  USA_Overtures_To_Germany  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Further_Relations_With_Russia
+		icon = Icon_Further_Relations_with_Russia_KW
+		x = 25
+		y = 3
+		cost = 2
+		prerequisite = { focus =  USA_Set_The_Example  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = {
+					target = SOV
+					modifier = declaration_of_friendship
+				}
+		}
+	
+	}
+ }
+
+
+	focus = {
+		id = USA_Push_For_Native_Autonomy
+		icon = Icon_Push_for_Native_Autonomy_KW
+		x = 25
+		y = 4
+		cost = 2
+		prerequisite = { focus =  USA_Further_Relations_With_Russia  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_stability = 0.10
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_Talk_With_Portugal
+		icon = Icon_A_Talk_with_Portugal_KW
+		x = 28
+		y = 3
+		cost = 2
+		prerequisite = { focus =  USA_Set_The_Example  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = {	
+				id = USA.26
+				}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Embargo_The_Portugese
+		icon = Icon_Embargo_Portugal_KW
+		x = 28
+		y = 4
+		cost = 2
+		prerequisite = { focus =  USA_A_Talk_With_Portugal  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = POR
+					modifier = drama
+				}
+		}
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+}

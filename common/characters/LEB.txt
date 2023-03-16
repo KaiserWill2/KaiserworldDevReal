@@ -1,0 +1,314 @@
+characters={
+	LEB_hanna_gharib={
+		name="Hanna Gharib"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Hanna_Gharib.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_hassan_nasrallah={
+		name="Hassan Nasrallah"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Hassan_Nasrallah.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_Émile_lahoud={
+		name="Émile Lahoud"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Emile_Lahoud.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_ghida_altalal={
+		name="Ghida al-Talal"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Ghida_Al_Talal.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_assaad_hardan={
+		name="Assaad Hardan"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Assaad_Hardan.dds"
+			}
+		}
+		country_leader={
+			ideology=national_syndicalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_samir_geagea={
+		name="Samir Geagea"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Samir_Geagea.dds"
+			}
+		}
+		country_leader={
+			ideology=lebanese_falangist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_suleiman_frangieh={
+		name="Suleiman Frangieh"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Suleiman_Frangieh.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_michel_aoun={
+		name="Michel Aoun"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Michel_Aoun.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_nada_zaarour={
+		name="Nada Zaarour"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Nada_Zaarour.dds"
+			}
+		}
+		country_leader={
+			ideology=ecopolitician
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_ziad_majed={
+		name="Ziad Majed"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Ziad_Majed.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_walid_jumblatt={
+		name="Walid Jumblatt"
+		portraits={
+			civilian={
+				large="gfx/leaders/LEB/Portrait_LEB_Walid_Jumblatt.dds"
+			}
+		}
+		country_leader={
+			ideology=nasserism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LEB_mustafa_hamdan={
+		name="Mustafa Hamdan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LEB/Portrait_Mustafa_Hamdan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless infantry_officer }
+			skill=4
+			attack_skill=5
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	LEB_jean_kahwaji={
+		name="Jean Kahwaji"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LEB/Portrait_Jean_Kahwaji.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer trait_cautious }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	LEB_joseph_aoun={
+		name="Joseph Aoun"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LEB/Portrait_Joseph_Aoun.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LEB_françois_alhajj={
+		name="François al-Hajj"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LEB/Portrait_François_al_Hajj.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LEB_antoine_pano={
+		name="Antoine Pano"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LEB/Portrait_Antoine_Pano.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	LEB_abbas_ibrahim={
+		name="Abbas Ibrahim"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LEB/Portrait_Abbas_Ibrahim.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LEB_chamel_roukoz={
+		name="Chamel Roukoz"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LEB/Portrait_Chamel_Roukoz.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster commando }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LEB_samir_elkhadem={
+		name="Samir El-Khadem"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/LEB/Portrait_Samir_El_Khadem.dds"
+			}
+		}
+		navy_leader={
+			traits={ fleet_protector superior_tactician }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

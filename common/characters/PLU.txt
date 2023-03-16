@@ -1,0 +1,150 @@
+characters={
+	PLU_uduch_sengebau={
+		name="Uduch Sengebau"
+		portraits={
+			civilian={
+				large="gfx/leaders/PLU/Portrait_PLU_Uduch_Sengebau_Senior.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PLU_alex_taylor={
+		name="Alex Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			traits={ captain_of_industry quartermaster_general }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	PLU_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=american_nationalist
+			traits={ war_industrialist smooth_talking_charmer }
+			expire="2028.1.1.12"
+			id=-1
+		}
+	}
+	PLU_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=elective_monarchist
+			traits={ ideological_crusader }
+			expire="2023.1.1.12"
+			id=-1
+		}
+	}
+	PLU_marcus_white={
+		name="Marcus White"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=larouche
+			traits={ ideological_crusader }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	PLU_jim_white={
+		name="Jim White"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			traits={ quartermaster_general }
+			expire="2029.1.1.12"
+			id=-1
+		}
+	}
+	PLU_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_centrist
+			expire="2025.1.1.12"
+			id=-1
+		}
+	}
+	PLU_lucas_brown={
+		name="Lucas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	PLU_alexander_smith={
+		name="Alexander Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=nordic_model
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	PLU_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=arab_socialist
+			expire="2026.1.1.12"
+			id=-1
+		}
+	}
+	PLU_jim_jones={
+		name="Jim Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="2021.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,3324 @@
+﻿add_namespace = usa
+
+
+
+#Fred Rogers Death
+country_event = {
+	id = usa.4
+	title = usa.4.t
+	desc = usa.4.d
+	picture = fred_rogers_death
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		date > 2011.1.1
+		date < 2011.1.20
+	}
+	
+	option = {
+		name = usa.4.o1
+
+	}
+}
+
+#Sanders-Trump 2016
+country_event = {
+	id = usa.5
+	title = usa.5.t
+	desc = usa.5.d
+	picture = 2016_bernie_trump
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.5.o1
+		add_popularity = {
+			ideology = moderate_socialist
+			popularity = 0.01
+		}
+	}
+}
+
+#Sanders-Trump 2016
+country_event = {
+	id = usa.6
+	title = usa.6.t
+	desc = usa.6.d
+	picture = gaben
+	is_triggered_only = yes
+	fire_only_once = yes
+
+
+
+	trigger = {
+		tag = USA
+		date > 2010.4.1
+		date < 2010.4.20
+	}
+	
+	option = {
+		name = usa.6.o1
+		add_popularity = {
+			ideology = centrist
+			popularity = 0.05
+		}
+	}
+}
+
+
+
+
+country_event = {
+	id = usa.7
+	title = usa.7.t
+	desc = usa.7.d
+	picture = mcarthur_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		date > 2010.5.1
+		date < 2010.5.20
+	}
+	
+	option = {
+		name = usa.7.o1
+	}
+}
+
+country_event = {
+	id = usa.8
+	title = usa.8.t
+	desc = usa.8.d
+	picture = revengers_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		date > 2012.2.1
+		date < 2012.2.20
+	}
+	
+	option = {
+		name = usa.8.o1
+		hidden_effect = {
+			news_event = {
+				id = news.1
+				days = 1
+			}
+		}
+	
+	}
+}
+
+
+#country_event = {
+#	id = usa.9
+#	title = usa.9.t
+#	desc = usa.9.d
+#	picture = PM_Alex_jones_lovecraft
+	
+#	fire_only_once = yes
+	
+#	trigger = {
+#		tag = USA
+#		date > 2012.2.1
+#		date < 2012.2.20
+#	}
+	
+#	option = {
+#		name = usa.9.o1
+#	}
+#}
+
+
+country_event = {
+	id = usa.10
+	title = usa.10.t
+	desc = usa.10.d
+	picture = greenland_sells_event
+	is_triggered_only = yes
+	option = {
+		name = usa.10.o1
+		USA = {
+			country_event = { days = 5 id = usa.42 } 
+		}
+	}
+	option = {
+		name = usa.10.o2
+		USA = {
+			country_event = { days = 5 id = usa.43 } 
+		}
+	}
+}
+
+country_event = {
+	id = usa.11
+	title = usa.11.t
+	desc = usa.11.d
+	picture = greenland_sells_event
+	is_triggered_only = yes
+	option = {
+		name = usa.11.o1
+	}
+}
+
+country_event = {
+	id = usa.12
+	title = usa.12.t
+	desc = usa.12.d
+	picture = hillary_election_win
+	is_triggered_only = yes
+	option = {
+		name = usa.12.o1
+	}
+}
+
+
+country_event = {
+	id = usa.13
+	title = usa.13.t
+	desc = usa.13.d
+	picture = trump_and_emperor_mcdonalds_event
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 5
+	
+	}
+	option = {
+		name = usa.13.o1
+	}
+}
+
+
+country_event = {
+	id = usa.14
+	title = usa.14.t
+	desc = usa.14.d
+	picture = the2012_us_election
+	
+
+	is_triggered_only = yes
+
+
+
+
+	option = {   #obama
+		name = usa.14.o1
+	
+		create_country_leader = {
+			name = "Barack Obama"
+			picture = "Barack_Obama.dds"
+			ideology = american_conservative
+		}
+		set_politics = {
+			ruling_party = national_conservative 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = national_conservative
+			popularity = 0.2
+	    }
+		load_focus_tree = {
+			tree = USA_obama_tree
+			keep_completed = yes
+		}
+	}
+
+	option = {   #hillary
+		name = usa.14.o2
+		create_country_leader = {
+			name = "Hillary Clinton"
+			picture = "Hillery_Clinton.dds"
+			ideology = social_liberal
+		}
+		set_politics = {
+			ruling_party = liberal 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = liberal
+			popularity = 0.2
+	    }
+		load_focus_tree = {
+			tree = USA_Hillary_Clinton_tree
+			keep_completed = yes
+		}
+	}
+
+	option = {   #trump
+		name = usa.14.o3
+		create_country_leader = {
+			name = "Donald J Trump"
+			picture = "donald_Trump.dds"
+			ideology = social_liberal
+		}
+		set_politics = {
+			ruling_party = liberal 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = liberal
+			popularity = 0.2
+	    }
+		load_focus_tree = {
+			tree = USA_trump_tree
+			keep_completed = yes
+		}
+	}
+	option = {   #gabe and howard
+	name = usa.14.o4
+	create_country_leader = {
+		name = "Todd & Gabe"
+		picture = "howard_and_gabe.dds"
+		ideology = centrist_ideology
+	}
+	set_politics = {
+		ruling_party = centrist 
+		elections_allowed = no
+	}
+	add_popularity = {
+		ideology = centrist
+		popularity = 0.2
+	}
+	load_focus_tree = {
+		tree = USA_gabe_newell_tree
+		keep_completed = yes
+	}
+}
+}
+
+
+country_event = {
+	id = usa.15
+	title = usa.15.t
+	desc = usa.15.d
+	picture = the2012_us_election
+	
+	is_triggered_only = yes
+
+	#trigger = {
+	#	tag = USA
+	#	date > 2010.1.1
+	#	date < 2010.1.10
+	#	has_country_flag = USA_The_great_defeat
+	#}
+
+
+
+	option = {   #obama
+		name = usa.15.o1
+	
+		create_country_leader = {
+			name = "Barack Obama"
+			picture = "Barack_Obama.dds"
+			ideology = american_conservative
+		}
+		set_politics = {
+			ruling_party = national_conservative 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = national_conservative
+			popularity = 0.2
+	    }
+		load_focus_tree = {
+			tree = USA_obama_tree
+			keep_completed = yes
+		}
+
+	}
+
+	option = {   #hillary
+		name = usa.15.o2
+		create_country_leader = {
+			name = "Hillary Clinton"
+			picture = "Hillery_Clinton.dds"
+			ideology = social_liberal
+		}
+		set_politics = {
+			ruling_party = liberal 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = liberal
+			popularity = 0.2
+	    }
+		load_focus_tree = {
+			tree = USA_Hillary_Clinton_tree
+			keep_completed = yes
+		}
+	}
+
+	option = {   #trump
+		name = usa.15.o3
+		create_country_leader = {
+			name = "Donald J Trump"
+			picture = "donald_Trump.dds"
+			ideology = social_liberal
+		}
+		set_politics = {
+			ruling_party = liberal 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = liberal
+			popularity = 0.2
+	    }
+		load_focus_tree = {
+			tree = USA_trump_tree
+			keep_completed = yes
+		}
+	}
+	option = {   #gabe and howard
+		name = usa.15.o4
+		create_country_leader = {
+			name = "Todd & Gabe"
+			picture = "howard_and_gabe.dds"
+			ideology = centrist_ideology
+		}
+		set_politics = {
+			ruling_party = centrist 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = centrist
+			popularity = 0.2
+	    }
+		load_focus_tree = {
+			tree = USA_gabe_newell_tree
+			keep_completed = yes
+		}
+	}
+
+	
+}
+
+
+country_event = {
+	id = usa.16
+	title = usa.16.t
+	desc = usa.16.d
+	picture = the_situation_in_alaska_event
+	is_triggered_only = yes
+	option = {
+		name = usa.16.o1
+
+		hidden_effect = {
+			USA = {
+				country_event = { days = 50 id = usa.40 } 
+			}
+
+		}
+	}
+}
+
+
+
+country_event = {
+	id = usa.17
+	title = usa.17.t
+	desc = usa.17.d
+	picture = first_american_troops_leave_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.17.o1
+
+	}
+}
+
+country_event = {
+	id = usa.18
+	title = usa.18.t
+	desc = usa.18.d
+	picture = alaska_and_america_push_forward_Event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.18.o1
+		hidden_effect = {
+			news_event = {
+				id = news.4
+				days = 75
+			}
+		}
+	}
+}
+
+country_event = {
+	id = usa.19
+	title = usa.19.t
+	desc = usa.19.d
+	picture = canadian_troops_land_in_CEA_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.19.o1
+
+	}
+}
+
+country_event = {
+	id = usa.20
+	title = usa.20.t
+	desc = usa.20.d
+	picture = trump_picks_alex_jones_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.20.o1
+
+	}
+}
+
+country_event = {
+	id = usa.21
+	title = usa.21.t
+	desc = usa.21.d
+	picture = scott_heads_off_event
+	mean_time_to_happen = {
+		days = 15
+	
+	}
+	is_triggered_only = yes
+	option = {
+		name = usa.21.o1
+
+		}
+  }
+
+
+  country_event = {
+	id = usa.21
+	title = usa.21.t
+	desc = usa.21.d
+	picture = trump_signs_executive_order_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.21.o1
+
+	}
+}
+
+country_event = {
+	id = usa.22
+	title = usa.22.t
+	desc = usa.22.d
+	picture = trump_signs_executive_order_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.22.o1
+
+	}
+}
+
+country_event = {
+	id = usa.23
+	title = usa.23.t
+	desc = usa.23.d
+	picture = bernie_enviroment_accords_event
+	is_triggered_only = yes
+	option = {
+		name = usa.23.o1
+		hidden_effect = {
+			news_event = {
+				id = news.8
+				days = 65
+			}
+		}
+	}
+}
+
+country_event = {
+	id = usa.24
+	title = usa.24.t
+	desc = usa.24.d
+	picture = return_of_baja_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.24.o1
+		MEX = {
+			
+			transfer_state = 484
+		}
+	}
+}
+
+
+country_event = {
+	id = usa.25
+	title = usa.25.t
+	desc = usa.25.d
+	picture = empire_and_bernie_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.25.o1
+
+	}
+}
+
+
+country_event = {
+	id = usa.26
+	title = usa.26.t
+	desc = usa.26.d
+	picture = portugese_meeting_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.26.o1
+
+	}
+}
+
+country_event = {
+	id = usa.27
+	title = usa.27.t
+	desc = usa.27.d
+	picture = bernie_sends_a_message_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.27.o1
+
+	}
+}
+
+country_event = {
+	id = usa.28
+	title = usa.28.t
+	desc = usa.28.d
+	picture = sanders_wage_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.28.o1
+
+	}
+}
+
+country_event = {
+	id = usa.29
+	title = usa.29.t
+	desc = usa.29.d
+	picture = bernie_on_a_train_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.29.o1
+
+	}
+}
+
+
+country_event = {
+	id = usa.30
+	title = usa.30.t
+	desc = usa.30.d
+	picture = a_roof_over_everyones_head_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.30.o1
+
+	}
+}
+
+country_event = {
+	id = usa.31
+	title = usa.31.t
+	desc = usa.31.d
+	picture = ending_prison_pipeline_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.31.o1
+
+	}
+}
+
+country_event = {
+	id = usa.32
+	title = usa.32.t
+	desc = usa.32.d
+	picture = creation_of_CTSO_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.32.o1
+		USA = {
+			create_faction = "CTSO"
+		}
+	}
+}
+
+country_event = {
+	id = usa.33
+	title = usa.33.t
+	desc = usa.33.d
+	picture = ireland_joins_CTSO_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.33.o1
+		IRE = {
+			leave_faction = yes
+		}
+		USA = {
+			add_to_faction = IRE
+		}
+	}
+}
+
+country_event = {
+	id = usa.34
+	title = usa.34.t
+	desc = usa.34.d
+	picture = iran_joins_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.34.o1
+
+		USA = {
+			add_to_faction = SPE
+		}
+	}
+}
+
+country_event = {
+	id = usa.35
+	title = usa.35.t
+	desc = usa.35.d
+	picture = australian_military_joins_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.35.o1
+
+		USA = {
+			add_to_faction = AST
+		}
+		ENG = {
+			country_event = { days = 20 id = usa.36 } 
+		}
+	}
+}
+
+country_event = {
+	id = usa.36
+	title = usa.36.t
+	desc = usa.36.d
+	picture = south_africa_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.36.o1
+
+	}
+}
+
+country_event = {
+	id = usa.37
+	title = usa.37.t
+	desc = usa.37.d
+	picture = trump_trade_deal_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.37.o1
+
+	}
+}
+
+
+country_event = {
+	id = usa.38
+	title = usa.38.t
+	desc = usa.38.d
+	picture = france_joins_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.38.o1
+
+		USA = {
+			add_to_faction = FRA
+		}
+	}
+}
+
+country_event = {
+	id = usa.39
+	title = usa.39.t
+	desc = usa.39.d
+	picture = trump_meets_kaiser_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.39.o1
+
+	}
+}
+
+country_event = {
+	id = usa.40
+	title = usa.40.t
+	desc = usa.40.d
+	picture = trump_new_party_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.40.o1
+		set_party_name = { ideology = liberal long_name = The_New_Republican_Founding_Fathers_Party name = New_Republican_party  }
+		add_popularity = {
+			ideology = liberal
+			popularity = 0.10
+		}
+		create_country_leader = {
+			name = "Donald Trump"
+			picture = "donald_Trump.dds"
+			ideology = social_liberal
+		}
+	}
+}
+
+country_event = {
+	id = usa.41
+	title = usa.41.t
+	desc = usa.41.d
+	picture = trump_meets_kaiser_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.41.o1
+
+	}
+}
+
+
+country_event = {
+	id = usa.42
+	title = usa.42.t
+	desc = usa.42.d
+	picture = donald_trump_greenland_Accepts_Event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.42.o1
+		USA = {
+			transfer_state = 101
+		}
+	}
+}
+
+country_event = {
+	id = usa.43
+	title = usa.43.t
+	desc = usa.43.d
+	picture = trump_dissapointed_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.43.o1
+
+	}
+}
+
+country_event = {
+	id = usa.44
+	title = usa.44.t
+	desc = usa.44.d
+	picture = haiti_deal_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.44.o1
+		USA = {
+			country_event = { days = 1 id = usa.45 } 
+		}
+	}
+	option = { ##Haiti does not accept
+		name = usa.44.o2
+		USA = {
+			country_event = { days = 1 id = usa.46 } 
+		}
+	}
+}
+
+country_event = {
+	id = usa.45
+	title = usa.45.t
+	desc = usa.45.d
+	picture = trump_haiti_accepts_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.45.o1
+		USA = {
+		    puppet = HAI
+		}
+	}
+}
+
+country_event = {
+	id = usa.45
+	title = usa.45.t
+	desc = usa.45.d
+	picture = trump_haiti_accepts_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.45.o1
+
+	}
+}
+
+country_event = {
+	id = usa.46
+	title = usa.46.t
+	desc = usa.46.d
+	picture = haiti_refuses_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.46.o1
+
+	}
+}
+
+country_event = {
+	id = usa.47
+	title = usa.47.t
+	desc = usa.47.d
+	picture = cubian_help_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.47.o1
+		USA = {
+			country_event = { days = 1 id = usa.48 } 
+		}
+	}
+	option = { #Cuba Wants No Help
+		name = usa.47.o2
+		USA = {
+			country_event = { days = 5 id = usa.49 } 
+		}
+	}
+}
+
+country_event = {
+	id = usa.48
+	title = usa.48.t
+	desc = usa.48.d
+	picture = cuba_sean_penn_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.48.o1
+		USA = {
+		    puppet = CUB
+		}
+		CUB = {
+			set_politics = {
+			ruling_party = liberal
+			elections_allowed = no
+			}
+			create_country_leader = {
+			name = "Sean Penn"
+			picture = "sean_penn_cuba.dds"
+			ideology = social_liberal
+			}
+		set_cosmetic_tag = CUB_liberal_america		
+		}
+		add_popularity = {
+			ideology = liberal
+			popularity = 0.55
+		}
+	}
+}
+
+
+country_event = {
+	id = usa.49
+	title = usa.49.t
+	desc = usa.49.d
+	picture = operation_bay_of_pigs_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.49.o1 #Act Passes
+		USA = {
+			country_event = { days = 5 id = usa.50 } 
+		}
+	}
+	option = {
+		name = usa.49.o2 # Act Fails
+		USA = {
+			country_event = { days = 5 id = usa.51 } 
+		}
+	}
+}
+
+
+country_event = { 
+	id = usa.50
+	title = usa.50.t
+	desc = usa.50.d
+	picture = rebels_secure_cuba_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.50.o1
+
+	}
+}
+
+#Act Fails
+country_event = {
+	id = usa.51
+	title = usa.51.t
+	desc = usa.51.d
+	picture = cuba_remains_safe_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.51.o1
+	
+	}
+}
+
+#puerto rico status
+country_event = {
+	id = usa.52
+	title = usa.52.t
+	desc = usa.52.d
+	picture = trump_on_puerti_rico_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.52.o1 #Act Passes
+		USA = {
+			country_event = { days = 5 id = usa.53 } 
+		}
+	}
+	option = {
+		name = usa.52.o2 # Act Fails
+		USA = {
+			country_event = { days = 5 id = usa.54 } 
+		}
+		hidden_effect = {
+			country_event = { days = 30 id = England.431 } 
+		}
+	}
+}
+
+#Upgrade Status
+country_event = {
+	id = usa.53
+	title = usa.53.t
+	desc = usa.53.d
+	picture = puerto_rico_dominion_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.53.o1
+		USA = {
+		    puppet = PUE
+		}
+	}
+}
+
+
+#status quo puerto rico
+country_event = {
+	id = usa.54
+	title = usa.54.t
+	desc = usa.54.d
+	picture = puerto_rico_status_quo_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.54.o1
+	
+	}
+}
+
+
+country_event = {	#Revengers
+	id = usa.8
+	title = usa.8.t
+	desc = usa.8.d
+	picture = revengers_event
+	trigger = {
+		tag = USA
+		date > 2010.05.1
+		date < 2010.05.30
+	}
+
+	option = {
+		name = usa.8.o1
+	}
+}
+
+country_event = {	#A More Perfect Union Book
+	id = usa.55
+	title = usa.55.t
+	desc = usa.55.d
+	picture = a_more_perfct_union_event
+	trigger = {
+		tag = USA
+		date > 2011.02.1
+		date < 2011.02.30
+	}
+
+	option = {
+		name = usa.55.o1
+	}
+}
+
+
+#Newell Election
+country_event = {
+	id = usa.56
+	title = usa.56.t
+	desc = usa.56.d
+	picture = todd_and_newell_election
+
+	is_triggered_only = yes
+	option = {
+		name = usa.56.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.57
+	title = usa.57.t
+	desc = usa.57.d
+	picture = todd_newell_tech_sector_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.57.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.58
+	title = usa.58.t
+	desc = usa.58.d
+	picture = NASA_funding_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.58.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.59
+	title = usa.59.t
+	desc = usa.59.d
+	picture = gabe_green_deal_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.59.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.60
+	title = usa.60.t
+	desc = usa.60.d
+	picture = tech_race_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.60.o1
+	
+	}
+}
+
+
+country_event = {
+	id = usa.61
+	title = usa.61.t
+	desc = usa.61.d
+	picture = science_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.61.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.62
+	title = usa.62.t
+	desc = usa.62.d
+	picture = private_space_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.62.o1
+	
+	}
+}
+
+
+country_event = {
+	id = usa.63
+	title = usa.63.t
+	desc = usa.63.d
+	picture = centristism_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.63.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.64
+	title = usa.64.t
+	desc = usa.64.d
+	picture = space_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.64.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.65
+	title = usa.65.t
+	desc = usa.65.d
+	picture = space_race_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.65.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.66
+	title = usa.66.t
+	desc = usa.66.d
+	picture = america_joins_reichspakt_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.66.o1
+	
+	}
+}
+
+
+country_event = {
+	id = usa.67
+	title = usa.67.t
+	desc = usa.67.d
+	picture = san_fran_meeting_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.67.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.68
+	title = usa.68.t
+	desc = usa.68.d
+	picture = free_travel_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.68.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.69
+	title = usa.69.t
+	desc = usa.69.d
+	picture = german_products_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.69.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.70
+	title = usa.70.t
+	desc = usa.70.d
+	picture = german_royal_wedding_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.70.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.71
+	title = usa.71.t
+	desc = usa.71.d
+	picture = american_canada_entente_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.71.o1
+		CAN = {
+			add_to_faction = USA
+		}
+	}
+}
+
+country_event = {
+	id = usa.72
+	title = usa.72.t
+	desc = usa.72.d
+	picture = vancouver_meeting_Event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.72.o1
+	
+	}
+}
+
+
+country_event = {
+	id = usa.73
+	title = usa.73.t
+	desc = usa.73.d
+	picture = aid_for_enente_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.73.o1
+	
+	}
+}
+
+
+country_event = {
+	id = usa.74
+	title = usa.74.t
+	desc = usa.74.d
+	picture = refugges_into_the_entente_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.74.o1
+	
+	}
+}
+
+
+country_event = {
+	id = usa.75
+	title = usa.75.t
+	desc = usa.75.d
+	picture = hunt_for_trudeau_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.75.o1
+	
+	}
+}
+
+
+country_event = {
+	id = usa.76
+	title = usa.76.t
+	desc = usa.76.d
+	picture = windors_norton_marriage_Event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.76.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.77
+	title = usa.77.t
+	desc = usa.77.d
+	picture = NATO_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.77.o1
+		USA = {
+			create_faction = "North Atlantic Treaty Organization"
+		}
+	}
+}
+
+country_event = {
+	id = usa.78
+	title = usa.78.t
+	desc = usa.78.d
+	picture = article_5_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.78.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.79
+	title = usa.79.t
+	desc = usa.79.d
+	picture = invite_ireland_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.79.o1
+		USA = {
+			add_to_faction = IRE
+		}
+	}
+}
+
+country_event = {
+	id = usa.80
+	title = usa.80.t
+	desc = usa.80.d
+	picture = nato_parlaiment_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.80.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.81
+	title = usa.81.t
+	desc = usa.81.d
+	picture = nato_and_pax_america_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.81.o1
+		hidden_effect = {
+			country_event = { days = 30 id = England.431 } 
+		}
+	}
+}
+
+country_event = {
+	id = usa.82
+	title = usa.82.t
+	desc = usa.82.d
+	picture = obama_eelction_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.82.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.83
+	title = usa.83.t
+	desc = usa.83.d
+	picture = from_inside_or_out_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.83.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.84
+	title = usa.84.t
+	desc = usa.84.d
+	picture = obama_lgbt_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.84.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.85
+	title = usa.85.t
+	desc = usa.85.d
+	picture = michelle_obama_health_food_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.85.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.86
+	title = usa.86.t
+	desc = usa.86.d
+	picture = operation_ajax
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usa.86.o1
+		
+		SPE = {
+			set_equipment_fraction = 0.5
+			set_war_support = 0.8
+			add_temporary_buff_to_units = {
+				combat_offense = 0.25
+				combat_breakthrough = 0.25
+				org_damage_multiplier = 1.0
+				str_damage_multiplier = 0.25
+				war_support_reduction_on_damage = 0.2
+				cannot_retreat_while_attacking = 1.0			
+		}
+		}
+		add_manpower = -2500
+		add_stability = 0.2
+		SPE = { 
+			declare_war_on = { type = annex_everything    target = PER }
+		}
+	
+	}
+	option = {
+		name = usa.86.o2
+		SPE = { 
+			declare_war_on = { type = annex_everything    target = PER }
+		}
+	
+		SPE = {
+			add_temporary_buff_to_units = {
+				combat_offense = 0.25
+				combat_breakthrough = 0.25
+				org_damage_multiplier = 1.0
+				str_damage_multiplier = 0.25
+				war_support_reduction_on_damage = 0.2
+				cannot_retreat_while_attacking = 1.0			
+		}
+			set_equipment_fraction = 0.5
+			set_war_support = 0.8
+		}
+		add_stability = 0.2
+		add_political_power = 10
+		add_popularity = {
+			ideology = national_conservative
+			popularity = -0.015
+		}
+	}
+}
+
+country_event = {
+	id = usa.87
+	title = usa.87.t
+	desc = usa.87.d
+	picture = GAE_assassionation_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.87.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.88
+	title = usa.88.t
+	desc = usa.88.d
+	picture = Obama_CEA_attack_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.88.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.89
+	title = usa.89.t
+	desc = usa.89.d
+	picture = Obama_duchy_status_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.89.o1
+	
+	}
+}
+
+
+country_event = {
+	id = usa.90
+	title = usa.90.t
+	desc = usa.90.d
+	picture = GEA_bombed_hospoital_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.90.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.91
+	title = usa.91.t
+	desc = usa.91.d
+	picture = trial_of_comey_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.91.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.92
+	title = usa.92.t
+	desc = usa.92.d
+	picture = trial_of_comey_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.92.o1
+		PAN = {			
+
+			set_politics = {
+				ruling_party = national_conservative
+				elections_allowed = no
+			}
+	
+			transfer_state = 1030
+			transfer_state = 685
+
+		}
+	}
+}
+
+
+country_event = {
+	id = usa.93
+	title = usa.93.t
+	desc = usa.93.d
+	picture = trial_of_comey_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.93.o1
+
+	}
+}
+
+
+country_event = {
+	id = usa.94
+	title = usa.94.t
+	desc = usa.94.d
+	picture = contacting_rim_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.94.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.95
+	title = usa.95.t
+	desc = usa.95.d
+	picture = russian_embassy_close_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.95.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.96
+	title = usa.96.t
+	desc = usa.96.d
+	picture = replace_russian_products_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.96.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.97
+	title = usa.97.t
+	desc = usa.97.d
+	picture = zyuganov_assassionation_evnet
+
+	is_triggered_only = yes
+	option = {
+		name = usa.97.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.98
+	title = usa.98.t
+	desc = usa.98.d
+	picture = sabotage_russian_infrastructure_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.98.o1
+	
+	}
+}
+
+
+country_event = {
+	id = usa.99
+	title = usa.99.t
+	desc = usa.99.d
+	picture = rostov_kursk_powerplanet_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.99.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.100
+	title = usa.100.t
+	desc = usa.100.d
+	picture = another_revolution_in_russia_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.100.o1
+
+		USA = {
+			country_event = { days = 70 id = USA.101 } 
+		}
+
+		hidden_effect = {
+			SOV= {
+				transfer_units_fraction= {
+					target = RDF
+					size = 0.9
+					stockpile_ratio = 0.8
+					army_ratio = 0.8
+					navy_ratio = 0.5
+					air_ratio = 0.5
+			
+				}
+			}
+		}
+
+
+		RDF = {
+		
+
+		
+
+		set_cosmetic_tag = RDF_Russian_Democratic_Federation
+		create_country_leader = {
+			name = "Nikolay Travkin"
+			picture = "Nikolay_Travkin.dds"
+			ideology = new_democrat_ideology
+
+		}
+		
+		
+		set_politics = {
+			ruling_party = new_democrat
+			elections_allowed = no
+		}
+
+		transfer_state = 579
+		transfer_state = 580
+		transfer_state = 653
+		transfer_state = 573
+		transfer_state = 516
+		transfer_state = 577
+		transfer_state = 576
+		transfer_state = 578
+		transfer_state = 403
+		transfer_state = 571
+		transfer_state = 570
+		transfer_state = 572
+		transfer_state = 575
+		transfer_state = 644
+   		transfer_troops = yes
+	}
+		
+
+		
+		
+		UKR = {			
+			create_country_leader = {
+				name = "Aleksandr Bastrykin"
+				picture = "Aleksandr_Bastrykin.dds"
+				ideology = nationalist_ideology
+			}
+			set_cosmetic_tag = UKR_Nationalist_free_state
+			load_oob = "UKR_2000"
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
+			}
+	
+			transfer_state = 93
+			transfer_state = 199
+			transfer_state = 201
+			transfer_state = 203
+			transfer_state = 192
+			transfer_state = 197
+			transfer_state = 202
+			transfer_state = 198
+			transfer_state = 196
+			transfer_state = 857
+
+		}
+
+				
+		CRI = {			
+
+			set_cosmetic_tag = CRI_Crimean_Republic
+			create_country_leader = {
+				name = "Aleksandra Levitskaya"
+				picture = "Aleksandra_Levitskaya.dds"
+				ideology = nationalist_ideology
+			}
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
+			}
+	
+			transfer_state = 137	
+
+		}
+
+		CKR = {			
+
+			set_cosmetic_tag = CKR_Cossak_Rebellion
+			create_country_leader = {
+				name = "Yakov Rezantsev"
+				picture = "Yakov_Rezantsev.dds"
+				ideology = revolutionary_socialist_ideology
+			}
+			set_politics = {
+				ruling_party = communist
+				elections_allowed = no
+			}
+	
+			transfer_state = 228	
+			transfer_state = 218
+			transfer_state = 245	
+			transfer_state = 234
+			
+		}
+
+		SAK = {			
+			JAP = {
+				puppet = SAK
+			}
+			set_cosmetic_tag = SAK_Japanese_Sakhalin
+			create_country_leader = {
+				name = "Mikhail Krotov"
+				picture = "Mikhail_Krotov.dds"
+				ideology = military_junta
+			}
+			set_politics = {
+				ruling_party = monarchist
+				elections_allowed = no
+			}
+	
+			transfer_state = 655	
+			transfer_state = 537
+
+			
+		}
+
+		SPB = {			
+	
+			set_cosmetic_tag = SBP_German_Occupation
+			create_country_leader = {
+				name = "Andreas Marlow"
+				picture = "Andreas_Marlow.dds"
+				ideology = military_junta
+			}
+			set_politics = {
+				ruling_party = monarchist
+				elections_allowed = no
+			}
+	
+			transfer_state = 195	
+			
+		}
+
+		TNR = {			
+			create_country_leader = {
+				name = "Andrey Belousov"
+				picture = "Andrey_Belousov.dds"
+				ideology = ultranationalist
+			}
+			set_cosmetic_tag = TNR_second_Republic
+
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
+			}
+	
+			transfer_state = 408	
+			transfer_state = 409	
+
+			
+		}
+
+		PRM = {			
+	
+			set_cosmetic_tag = PRM_Kingdom_Of_Perm
+
+		
+		create_country_leader = {
+			name = "Georgy Golitsyn"
+			picture = "Georgy_Golitsyn.dds"
+			ideology = absolute_monarchist
+		}
+			set_politics = {
+				ruling_party = monarchist
+				elections_allowed = no
+			}
+			
+	
+			transfer_state = 398	
+			transfer_state = 651	
+	}
+
+
+	NOV = {			
+	
+		set_cosmetic_tag = NOV_Free_Territory_Of_Novogorod
+		create_country_leader = {
+			name = "Aleksey Gromov"
+			picture = "Aleksey_Gromov.dds"
+			ideology = military_junta
+		}
+		set_politics = {
+			ruling_party = monarchist
+			elections_allowed = no
+		}
+		
+	
+		transfer_state = 216	
+		transfer_state = 146	
+		transfer_state = 264	
+		transfer_state = 214	
+		transfer_state = 351	
+		transfer_state = 400	
+		transfer_state = 262
+		transfer_state = 397	
+		transfer_state = 581	
+		transfer_state = 213
+		transfer_state = 215	
+		transfer_state = 722
+		transfer_state = 147
+
+	}
+
+	RMB = {			
+	
+	set_cosmetic_tag = RMB_Revolutionary_Military_Battalion
+	create_country_leader = {
+		name = "Aleksandr Dvornikov"
+		picture = "Aleksandr_Dvornikov.dds"
+		ideology = totalism
+	}
+	set_politics = {
+		ruling_party = communist
+		elections_allowed = no
+	}
+
+	transfer_state = 238	
+	transfer_state = 237	
+	transfer_state = 236	
+	transfer_state = 235
+	transfer_state = 1049	
+	transfer_state = 232	
+	transfer_state = 233
+	transfer_state = 828
+	transfer_state = 796
+	transfer_state = 984	
+	transfer_state = 982
+	transfer_state = 983
+	transfer_state = 797	
+	transfer_state = 229
+	transfer_state = 230	
+	transfer_state = 878
+	transfer_state = 790
+	transfer_state = 231
+	transfer_state = 877	
+	transfer_state = 832
+	transfer_state = 980
+	}
+
+
+	RIM = {			
+	
+	set_cosmetic_tag = RIM_True_Russian_Imperialist_Front
+
+	set_politics = {
+		ruling_party = monarchist
+		elections_allowed = no
+	}
+	create_country_leader = {
+		name = "Sergei Surovikin"
+		picture = "sergei_surovikin.dds"
+		ideology = military_junta
+	}
+
+
+	add_popularity = {
+		ideology = monarchist 
+		popularity = 0.52
+	}
+	transfer_state = 263	
+	transfer_state = 244	
+	transfer_state = 208	
+	transfer_state = 246
+	transfer_state = 1023
+	transfer_state = 209	
+	transfer_state = 247
+	transfer_state = 210
+	transfer_state = 1026
+	transfer_state = 207
+	transfer_state = 242
+	transfer_state = 248
+	transfer_state = 1043
+	transfer_state = 96
+	transfer_state = 206
+	transfer_state = 204
+	transfer_state = 95
+	transfer_state = 808
+	transfer_state = 94
+	transfer_state = 194
+	transfer_state = 241
+	transfer_state = 193
+	transfer_state = 1021
+	transfer_state = 243
+	transfer_state = 259
+	transfer_state = 226
+	transfer_state = 200
+	transfer_state = 225
+	transfer_state = 220
+	transfer_state = 224
+	transfer_state = 222
+	transfer_state = 240
+	transfer_state = 221
+	transfer_state = 227
+	transfer_state = 240
+	transfer_state = 205
+	transfer_state = 258
+	transfer_state = 260
+
+    	}
+	}
+	
+}
+ 
+
+
+
+
+
+	country_event = {
+		id = usa.101
+		title = usa.101.t
+		desc = usa.101.d
+		picture = factions_go_to_war_russia_event
+	
+		is_triggered_only = yes
+		option = {
+			name = usa.101.o1
+			news_event = {
+				id = news.16
+				days = 1
+			}
+
+			SOV = {
+
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = CRI }
+				declare_war_on = { type = annex_everything    target = SAK }
+				declare_war_on = { type = annex_everything    target = SPB }
+				declare_war_on = { type = annex_everything    target = TNR }
+				declare_war_on = { type = annex_everything    target = PRM }
+				declare_war_on = { type = annex_everything    target = NOV }
+				declare_war_on = { type = annex_everything    target = RMB }
+				declare_war_on = { type = annex_everything    target = RIM }
+				declare_war_on = { type = annex_everything    target = RDF }
+			}			
+			CRI = {
+		
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = SOV }
+				declare_war_on = { type = annex_everything    target = SAK }
+				declare_war_on = { type = annex_everything    target = SPB }
+				declare_war_on = { type = annex_everything    target = TNR }
+				declare_war_on = { type = annex_everything    target = PRM }
+				declare_war_on = { type = annex_everything    target = NOV }
+				declare_war_on = { type = annex_everything    target = RMB }
+				declare_war_on = { type = annex_everything    target = RIM }
+				declare_war_on = { type = annex_everything    target = RDF }
+			}			
+		
+			SAK = {
+		
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = SOV }
+				declare_war_on = { type = annex_everything    target = CRI }
+				declare_war_on = { type = annex_everything    target = SPB }
+				declare_war_on = { type = annex_everything    target = TNR }
+				declare_war_on = { type = annex_everything    target = PRM }
+				declare_war_on = { type = annex_everything    target = NOV }
+				declare_war_on = { type = annex_everything    target = RMB }
+				declare_war_on = { type = annex_everything    target = RIM }
+				declare_war_on = { type = annex_everything    target = RDF }
+			}	
+			SPB = {
+		
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = SOV }
+				declare_war_on = { type = annex_everything    target = CRI }
+				declare_war_on = { type = annex_everything    target = SAK }
+				declare_war_on = { type = annex_everything    target = TNR }
+				declare_war_on = { type = annex_everything    target = PRM }
+				declare_war_on = { type = annex_everything    target = NOV }
+				declare_war_on = { type = annex_everything    target = RMB }
+				declare_war_on = { type = annex_everything    target = RIM }
+				declare_war_on = { type = annex_everything    target = RDF }
+			}
+			
+			TNR = {
+		
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = SOV }
+				declare_war_on = { type = annex_everything    target = CRI }
+				declare_war_on = { type = annex_everything    target = SAK }
+				declare_war_on = { type = annex_everything    target = SPB }
+				declare_war_on = { type = annex_everything    target = PRM }
+				declare_war_on = { type = annex_everything    target = NOV }
+				declare_war_on = { type = annex_everything    target = RMB }
+				declare_war_on = { type = annex_everything    target = RIM }
+				declare_war_on = { type = annex_everything    target = RDF }
+			}
+		
+		
+			PRM = {
+				load_oob = "PRM_2000"
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = SOV }
+				declare_war_on = { type = annex_everything    target = CRI }
+				declare_war_on = { type = annex_everything    target = SAK }
+				declare_war_on = { type = annex_everything    target = SPB }
+				declare_war_on = { type = annex_everything    target = TNR }
+				declare_war_on = { type = annex_everything    target = NOV }
+				declare_war_on = { type = annex_everything    target = RMB }
+				declare_war_on = { type = annex_everything    target = RIM }
+				declare_war_on = { type = annex_everything    target = RDF }
+			}
+			NOV = {
+				load_oob = "NOV_2000"
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = SOV }
+				declare_war_on = { type = annex_everything    target = CRI }
+				declare_war_on = { type = annex_everything    target = SAK }
+				declare_war_on = { type = annex_everything    target = SPB }
+				declare_war_on = { type = annex_everything    target = TNR }
+				declare_war_on = { type = annex_everything    target = PRM }
+				declare_war_on = { type = annex_everything    target = RMB }
+				declare_war_on = { type = annex_everything    target = RIM }
+				declare_war_on = { type = annex_everything    target = RDF }
+			}
+		
+			RIM = {
+				load_oob = "RIM_2000"
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = SOV }
+				declare_war_on = { type = annex_everything    target = CRI }
+				declare_war_on = { type = annex_everything    target = SAK }
+				declare_war_on = { type = annex_everything    target = SPB }
+				declare_war_on = { type = annex_everything    target = TNR }
+				declare_war_on = { type = annex_everything    target = PRM }
+				declare_war_on = { type = annex_everything    target = NOV }
+				declare_war_on = { type = annex_everything    target = RMB }
+				declare_war_on = { type = annex_everything    target = RDF }
+			}
+		
+			RMB = {
+		
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = SOV }
+				declare_war_on = { type = annex_everything    target = CRI }
+				declare_war_on = { type = annex_everything    target = SAK }
+				declare_war_on = { type = annex_everything    target = SPB }
+				declare_war_on = { type = annex_everything    target = TNR }
+				declare_war_on = { type = annex_everything    target = PRM }
+				declare_war_on = { type = annex_everything    target = NOV }
+				declare_war_on = { type = annex_everything    target = RIM }
+				declare_war_on = { type = annex_everything    target = RDF }
+			}
+			RDF = {
+				load_oob = "RDF_2000"
+				size = 0.8
+				states = {
+					579 580 653 573 516 577
+				}
+				set_war_support = 0.9
+				add_manpower = 150000
+				add_equipment_to_stockpile = {
+					type = USA_infantry_equipment_3
+					amount = 1000
+					producer = USA
+				}
+				add_equipment_to_stockpile = {
+					type = USA_support_weapons2
+					amount = 1000
+					producer = USA
+				}
+
+				add_temporary_buff_to_units = {
+					combat_offense = 0.55
+					combat_breakthrough = 0.55
+					org_damage_multiplier = 4.0
+					str_damage_multiplier = 0.45
+					war_support_reduction_on_damage = 0.2
+					cannot_retreat_while_attacking = 3.0			
+			}
+				declare_war_on = { type = annex_everything    target = UKR }
+				declare_war_on = { type = annex_everything    target = SOV }
+				declare_war_on = { type = annex_everything    target = CRI }
+				declare_war_on = { type = annex_everything    target = SAK }
+				declare_war_on = { type = annex_everything    target = SPB }
+				declare_war_on = { type = annex_everything    target = TNR }
+				declare_war_on = { type = annex_everything    target = PRM }
+				declare_war_on = { type = annex_everything    target = NOV }
+				declare_war_on = { type = annex_everything    target = RIM }
+				declare_war_on = { type = annex_everything    target = RMB }
+			}
+	}
+}
+
+country_event = {
+	id = usa.102
+	title = usa.102.t
+	desc = usa.102.d
+	picture = addressing_the_democratic_forces_Event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.102.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.103
+	title = usa.103.t
+	desc = usa.103.d
+	picture = obama_russia_forces_support_Event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.103.o1
+		RDF = {
+		army_experience = 10
+		add_manpower = 10000
+		add_equipment_to_stockpile = {
+
+        type = SOV_EQUIPMENT_VERSION_5
+
+        amount = 100
+
+    }
+	add_equipment_to_stockpile = {
+
+        type = modern_tank_equipment
+
+        amount = 100
+
+    }
+			
+		}
+
+	}
+}
+
+
+country_event = {
+	id = usa.104
+	title = usa.104.t
+	desc = usa.104.d
+	picture = obama_meting_travkin_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.104.o1
+		hidden_effect = {
+			country_event = { days = 30 id = England.431 } 
+		}
+	}
+}
+
+
+country_event = {
+	id = usa.105
+	title = usa.105.t
+	desc = usa.105.d
+	picture = clinton_calls_for_decolonisation_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.105.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.106
+	title = usa.106.t
+	desc = usa.106.d
+	picture = clinton_makes_faction_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.106.o1
+	
+USA = {
+	create_faction = "Washington Compact"
+}
+USA = {
+	add_to_faction = BRA
+	add_to_faction = HAI
+	add_to_faction = CUB
+	add_to_faction = PRC
+	add_to_faction = JAP
+}
+	}
+}
+
+
+country_event = {
+	id = usa.107
+	title = usa.107.t
+	desc = usa.107.d
+	picture = hillery_clinton_against_german_empire_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.107.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.108
+	title = usa.108.t
+	desc = usa.108.d
+	picture = audenauer_moevement_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.108.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.109
+	title = usa.109.t
+	desc = usa.109.d
+	picture = french_democracy_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.109.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.110
+	title = usa.110.t
+	desc = usa.110.d
+	picture = kroean_uprising_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.110.o1
+		KOR = {			
+
+			set_cosmetic_tag =  KOR_Democratic_Korean_Rebels_revolt
+			create_country_leader = {
+				name = "Korean Rebels Revolt"
+				picture = "korean_revolt.dds"
+				ideology = nationalist_ideology
+			}
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
+			}
+	
+			transfer_state = 870	
+			transfer_state = 874
+			transfer_state = 871	
+			transfer_state = 875
+			
+		}
+	}
+}
+
+country_event = {
+	id = usa.111
+	title = usa.111.t
+	desc = usa.111.d
+	picture = korean_hms_jean_paul_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.111.o1
+	
+		KOR = {			
+			annex_country = { target = PRK transfer_troops = yes }
+		
+		set_cosmetic_tag =  KOR_Liberal
+		create_country_leader = {
+			name = "Jung Chung-rae"
+			picture = "Jung_Chung_rae.dds"
+			ideology = social_liberal
+		}
+		set_politics = {
+			ruling_party = liberal
+			elections_allowed = no
+		}
+		hidden_effect = {
+			country_event = { days = 30 id = England.431 } 
+		}
+	}
+	}
+}
+
+
+country_event = {
+	id = usa.112
+	title = usa.112.t
+	desc = usa.112.d
+	picture = clinton_after_india_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.112.o1
+	
+	}
+}
+
+country_event = {
+	id = usa.113
+	title = usa.113.t
+	desc = usa.113.d
+	picture = indian_elections_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.113.o1
+
+		RAJ = {
+		create_country_leader = {
+			name = "Rajmohan Ghandi"
+			picture = "Rajmohan_Ghandi.dds"
+			ideology = democratic_socialist
+		}
+		set_politics = {
+			ruling_party = moderate_socialist
+			elections_allowed = no
+		}
+	}
+	}
+}
+
+country_event = {
+	id = usa.114
+	title = usa.114.t
+	desc = usa.114.d
+	picture = south_india_revolts_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.114.o1
+
+		RAJ = {
+		start_civil_war = {
+			ideology = nationalist
+			size = 0.8
+			states = {
+				423 953 425 424 427 429 426 437
+			}
+			set_cosmetic_tag = FID_Revolt
+			load_oob = "FID_2000"
+			set_equipment_fraction = 0.5
+			set_stability = 0.9
+			set_war_support = 0.8
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.35
+			}
+			create_country_leader = {
+				name = "India Revolt"
+				picture = "indian_army_free.dds"
+				ideology = nationalist_ideology
+			}
+		
+		}
+	}
+
+	}
+}
+
+country_event = {
+	id = usa.115
+	title = usa.115.t
+	desc = usa.115.d
+	picture = hms_enterprise_strikes_india_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.115.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.116
+	title = usa.116.t
+	desc = usa.116.d
+	picture = warhammer_tv_Series_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		date > 2011.8.1
+		date < 2011.8.30
+	}
+	
+	option = {
+		name = usa.116.o1
+	}
+}
+
+country_event = {
+	id = usa.117
+	title = usa.117.t
+	desc = usa.117.d
+	picture = half_life_3_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		date > 2010.11.1
+		date < 2010.11.30
+	}
+	
+	option = {
+		name = usa.117.o1
+	}
+}
+
+
+country_event = {
+	id = usa.118
+	title = usa.118.t
+	desc = usa.118.d
+	picture = trump_electionnight_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.118.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.119
+	title = usa.119.t
+	desc = usa.119.d
+	picture = amreican_Trade_Deal_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.119.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.120
+	title = usa.120.t
+	desc = usa.120.d
+	picture = trump_travel_ban_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.120.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.121
+	title = usa.121.t
+	desc = usa.121.d
+	picture = investigating_the_clintons_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.121.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.122
+	title = usa.122.t
+	desc = usa.122.d
+	picture = trump_on_alliance_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.122.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.123
+	title = usa.123.t
+	desc = usa.123.d
+	picture = fixing_america_economy_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.123.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.124
+	title = usa.124.t
+	desc = usa.124.d
+	picture = howard_and_space_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.124.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.125
+	title = usa.125.t
+	desc = usa.125.d
+	picture = norton_1_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.125.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.126
+	title = usa.126.t
+	desc = usa.126.d
+	picture = elizabeth_1_spaceport_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.126.o1
+
+
+	}
+}
+
+
+country_event = {
+	id = usa.127
+	title = usa.127.t
+	desc = usa.127.d
+	picture = american_midnight_raids_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.127.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.128
+	title = usa.128.t
+	desc = usa.128.d
+	picture = obama_care_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.128.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.129
+	title = usa.129.t
+	desc = usa.129.d
+	picture = legalize_Weed_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.129.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.130
+	title = usa.130.t
+	desc = usa.130.d
+	picture = obama_black_lives_matter_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.130.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.131
+	title = usa.131.t
+	desc = usa.131.d
+	picture = america_steps_in_to_iran_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.131.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.132
+	title = usa.132.t
+	desc = usa.132.d
+	picture = america_trains_iran_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.132.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.133
+	title = usa.133.t
+	desc = usa.133.d
+	picture = obama_planning_liberia_evnet
+
+	is_triggered_only = yes
+	option = {
+		name = usa.133.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.134
+	title = usa.134.t
+	desc = usa.134.d
+	picture = liberia_attack_navy_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.134.o1
+
+
+	}
+}
+
+
+country_event = {
+	id = usa.135
+	title = usa.135.t
+	desc = usa.135.d
+	picture = assassionation_of_hoover_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.135.o1
+
+
+	}
+}
+
+
+country_event = {
+	id = usa.136
+	title = usa.136.t
+	desc = usa.136.d
+	picture = bombing_the_capital_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.136.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.137
+	title = usa.137.t
+	desc = usa.137.d
+	picture = capture_hooveR_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.137.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.138
+	title = usa.138.t
+	desc = usa.138.d
+	picture = arrest_of_hoover_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.138.o1
+		annex_country = {
+			target = LIB
+			transfer_troops = yes
+		}
+
+	}
+}
+
+country_event = {
+	id = usa.139
+	title = usa.139.t
+	desc = usa.139.d
+	picture = arrest_of_hoover_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.139.o1
+		set_politics = {
+			ruling_party = national_conservative
+			elections_allowed = no
+			}
+			create_country_leader = {
+			name = "National Government"
+			picture = "liberian_national_gov.dds"
+			ideology = american_conservative
+			}
+
+
+	}
+}
+
+country_event = {
+	id = usa.140
+	title = usa.140.t
+	desc = usa.140.d
+	picture = obama_liberia_meeting_Event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.140.o1
+
+		LIB = {
+		set_politics = {
+			ruling_party = national_conservative
+			elections_allowed = no
+			}
+			create_country_leader = {
+			name = "National Government"
+			picture = "liberian_national_gov.dds"
+			ideology = american_conservative
+			}
+		}
+
+		set_politics = {
+			ruling_party = national_conservative
+			elections_allowed = no
+			}
+			create_country_leader = {
+			name = "National Government"
+			picture = "liberian_national_gov.dds"
+			ideology = american_conservative
+			}
+
+		MLI = {
+			set_cosmetic_tag = MLI_Mali
+			create_country_leader = {
+				name = "Name"
+				picture = "Unknown.dds"
+				ideology = new_democrat_ideology
+			}
+					set_politics = {
+				ruling_party = new_democrat
+				elections_allowed = no
+			}
+	
+			transfer_state = 746
+			transfer_state = 744
+			transfer_state = 745
+	
+		}
+		MRA = {
+			set_cosmetic_tag = MRA_Mauritania
+			create_country_leader = {
+				name = "Name"
+				picture = "Unknown.dds"
+				ideology = liberal
+			}
+					set_politics = {
+				ruling_party = liberal
+				elections_allowed = no
+			}
+	
+			transfer_state = 557
+			transfer_state = 773
+			transfer_state = 272
+
+		}
+		SEN = {
+			#set_cosmetic_tag = RDF_Russian_Democratic_Federation
+			create_country_leader = {
+				name = "Name"
+				picture = "Unknown.dds"
+				ideology = fiscal_conservative
+			}
+					set_politics = {
+				ruling_party = national_conservative
+				elections_allowed = no
+			}
+	
+			transfer_state = 772
+			transfer_state = 701
+			transfer_state = 771
+
+		}
+
+		GUI = {
+			set_cosmetic_tag = GUI_Guinea
+			create_country_leader = {
+				name = "Name"
+				picture = "Unknown.dds"
+				ideology = fiscal_conservative
+			}
+					set_politics = {
+				ruling_party = national_conservative
+				elections_allowed = no
+			}
+	
+			transfer_state = 775
+			transfer_state = 774
+
+		}
+
+		BFO = {
+			set_cosmetic_tag = BFO_Burkina_Faso
+			create_country_leader = {
+				name = "Name"
+				picture = "Unknown.dds"
+				ideology = fiscal_conservative
+			}
+					set_politics = {
+				ruling_party = national_conservative
+				elections_allowed = no
+			}
+	
+			transfer_state = 750
+			transfer_state = 751
+		}
+
+		GHA = {
+		
+			create_country_leader = {
+				name = "Name"
+				picture = "Unknown.dds"
+				ideology = social_liberal
+			}
+					set_politics = {
+				ruling_party = liberal
+				elections_allowed = no
+			}
+	
+			transfer_state = 274
+			transfer_state = 777
+
+		}
+
+
+		IVO = {
+			#set_cosmetic_tag = RDF_Russian_Democratic_Federation
+			create_country_leader = {
+				name = "Name"
+				picture = "Unknown.dds"
+				ideology = fiscal_conservative
+			}
+					set_politics = {
+				ruling_party = national_conservative
+				elections_allowed = no
+			}
+	
+			transfer_state = 776
+			transfer_state = 556
+
+		}
+
+
+
+	}
+}
+
+
+country_event = {
+	id = usa.141
+	title = usa.141.t
+	desc = usa.141.d
+	picture = eliminating_russian_threat_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.141.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.142
+	title = usa.142.t
+	desc = usa.142.d
+	picture = denouncing_russia_Event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.142.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.143
+	title = usa.143.t
+	desc = usa.143.d
+	picture = ruin_russian_image_evnet
+
+	is_triggered_only = yes
+	option = {
+		name = usa.143.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.144
+	title = usa.144.t
+	desc = usa.144.d
+	picture = russina_people_rise_up_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.144.o1
+
+
+	}
+}
+
+
+country_event = {
+	id = usa.145
+	title = usa.145.t
+	desc = usa.145.d
+	picture = clinton_on_gays_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.145.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.146
+	title = usa.146.t
+	desc = usa.146.d
+	picture = clinton_food_bill_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.146.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.147
+	title = usa.147.t
+	desc = usa.147.d
+	picture = clinton_healthcare_plan_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.147.o1
+
+
+	}
+}
+
+
+country_event = {
+	id = usa.148
+	title = usa.148.t
+	desc = usa.148.d
+	picture = clinton_bridge_gap_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.148.o1
+
+
+	}
+}
+
+
+
+country_event = {
+	id = usa.149
+	title = usa.149.t
+	desc = usa.149.d
+	picture = hillary_climate_change_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.149.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.150
+	title = usa.150.t
+	desc = usa.150.d
+	picture = helping_disabled_people_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.150.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.151
+	title = usa.151.t
+	desc = usa.151.d
+	picture = cliton_law_reform_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.151.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.152
+	title = usa.152.t
+	desc = usa.152.d
+	picture = hillery_mental_health_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.152.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.153
+	title = usa.153.t
+	desc = usa.153.d
+	picture = NSA_Event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.153.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.154
+	title = usa.154.t
+	desc = usa.154.d
+	picture = promote_african_democracy_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.154.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.155
+	title = usa.155.t
+	desc = usa.155.d
+	picture = helping_the_federation_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.155.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.156
+	title = usa.156.t
+	desc = usa.156.d
+	picture = clinton_in_africa_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.156.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.157
+	title = usa.157.t
+	desc = usa.157.d
+	picture = india_rises_up_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.157.o1
+
+
+	}
+}
+
+country_event = {
+	id = usa.158
+	title = usa.158.t
+	desc = usa.158.d
+	picture = korea_problem_event
+
+	is_triggered_only = yes
+	option = {
+		name = usa.158.o1
+
+
+	}
+}
+
+

@@ -1,0 +1,145 @@
+characters={
+	RJS_devendra_gupta={
+		name="Devendra Gupta"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Devendra_Gupta.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_vasudev_devnani={
+		name="Vasudev Devnani"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Vasudev_Devnani.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_bhawani_singh={
+		name="Bhawani Singh"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Bhawani_Singh.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_mahipal_maderna={
+		name="Mahipal Maderna"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Mahipal_Maderna.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_vasundhara_raje={
+		name="Vasundhara Raje"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Vasundhara_Raje.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_kamini_jindal={
+		name="Kamini Jindal"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Kamini_Jindal.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_naveen_pilania={
+		name="Naveen Pilania"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Naveen_Pilania.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_ashok_gehlot_={
+		name="Ashok Gehlot "
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Ashok_Gehlot.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_aruna_roy={
+		name="Aruna Roy"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Aruna_Roy.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_meghraj_tawar={
+		name="Meghraj Tawar"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Meghraj_Tawar.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RJS_amra_ram={
+		name="Amra Ram"
+		portraits={
+			civilian={
+				large="gfx/leaders/RJS/Portrait_RJS_Amra_Ram.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

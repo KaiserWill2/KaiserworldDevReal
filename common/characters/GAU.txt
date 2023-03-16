@@ -1,0 +1,994 @@
+characters={
+	GAU_noam_chomsky={
+		name="Noam Chomsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Noam_Chomsky.dds"
+			}
+		}
+		country_leader={
+			ideology=american_revolutionary_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_sam_webb={
+		name="Sam Webb"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Sam_Webb.dds"
+			}
+		}
+		country_leader={
+			ideology=american_communist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_jeff_schoep={
+		name="Jeff Schoep"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Jeff_Schoep.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_tom_hoefling={
+		name="Tom Hoefling"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Tom_Hoefling.dds"
+			}
+		}
+		country_leader={
+			ideology=paleoconservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_american_royal_council={
+		name="American Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_New_England_Royal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_newt_gingrich={
+		name="Newt Gingrich"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Newt_Gingrich.dds"
+			}
+		}
+		country_leader={
+			ideology=american_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_john_kasich={
+		name="John Kasich"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_John_Kasich.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_debbie_wasserman_schultz={
+		name="Debbie Wasserman Schultz"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Debbie_Wasserman_Schultz.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_keith_ellison={
+		name="Keith Ellison"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Keith_Ellison.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_will_williams={
+		name="Will Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Will_Williams.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAU_bernie_sanders={
+		name="Bernie Sanders"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Bernie_Sanders.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = socialist_nationalist
+		}
+	}
+	GAU_national_peoples_council={
+		name="National People's Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_National_Peoples_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = socialist_nationalist
+		}
+	}
+	GAU_albert_gore={
+		name="Albert Gore"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Albert_Gore.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	GAU_lindsey_graham={
+		name="Lindsey Graham"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Lindsey_Graham.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	GAU_gary_johnson={
+		name="Gary Johnson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Gary_Johnson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fiscal_conservative
+		}
+	}
+	GAU_ross_anderson={
+		name="Ross Anderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Ross_Anderson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = new_democrat_ideology
+		}
+	}
+	GAU_michelle_robinson={
+		name="Michelle Robinson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Michelle_Robinson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	GAU_xavier_becerra={
+		name="Xavier Becerra"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Xavier_Becerra.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = new_democrat_ideology
+		}
+	}
+	GAU_elaine_chao={
+		name="Elaine Chao"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Elaine_Chao.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	GAU_tulsi_gabbard={
+		name="Tulsi Gabbard"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Tulsi_Gabbard.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = new_democrat_ideology
+		}
+	}
+	GAU_sidney_blumenthal={
+		name="Sidney Blumenthal"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Sidney_Blumenthal.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	GAU_jeff_mackler={
+		name="Jeff Mackler"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Jeff_Mackler.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = socialist_nationalist
+		}
+	}
+	GAU_leo_gerard={
+		name="Leo Gerard"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Leo_Gerard.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = national_syndicalist
+		}
+	}
+	GAU_lori_robinson={
+		name="Lori Robinson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Lori_Robinson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+	}
+	GAU_fred_phelps={
+		name="Fred Phelps"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Fred_Phelps.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = dominionist
+		}
+	}
+	GAU_laura_welch={
+		name="Laura Welch"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Laura_Welch.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_populist
+		}
+	}
+	GAU_peter_schoomaker={
+		name="Peter Schoomaker"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Peter_Schoomaker.dds"
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_bryan_d._brown={
+		name="Bryan D. Brown"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Bryan_D_Brown.dds"
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	GAU_larry_r._ellis={
+		name="Larry R. Ellis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Larry_R_Ellis.dds"
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	GAU_jim_mattis={
+		name="Jim Mattis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Jim_Mattis.dds"
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	GAU_eric_b._schoomaker={
+		name="Eric B. Schoomaker"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Eric_B_Schoomaker.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_gustave_f._perna={
+		name="Gustave F. Perna"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Gustave_F_Perna.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_james_hart={
+		name="James Hart"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_James_Hart.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_vincent_r._stewart={
+		name="Vincent R. Stewart"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Vincent_R_Stewart.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_john_m._murray={
+		name="John M. Murray"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_John_M_Murray.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_david_zinn={
+		name="David Zinn"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_David_Zinn.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_keith_alexander={
+		name="Keith Alexander"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Keith_Alexander.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_robert_brooks_brown={
+		name="Robert Brooks Brown"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Robert_Brooks_Brown.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_raymond_a._thomas_iii={
+		name="Raymond A. Thomas III"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Raymond_A_Thomas_III.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_michael_j._williams={
+		name="Michael J. Williams"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Michael_J_Williams.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	GAU_richard_ojeda={
+		name="Richard Ojeda"
+		portraits={
+			army={
+				small="GFX_Portrait_Europe_Generic_land_2_small"
+			}
+			army={
+				large="GFX_Portrait_Europe_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_paul_lacamera={
+		name="Paul LaCamera"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Paul_LaCamera.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_stephen_r._lyons={
+		name="Stephen R. Lyons"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Stephen_R_Lyons.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_kevin_p._byrnes={
+		name="Kevin P. Byrnes"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Kevin_P_Byrnes.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_timothy_maude={
+		name="Timothy Maude"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Timothy_Maude.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_dennis_l._via={
+		name="Dennis L. Via"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Dennis_L_Via.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_robert_magnus={
+		name="Robert Magnus"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Robert_Magnus.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_ann_dunwoody={
+		name="Ann Dunwoody"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Ann_Dunwoody.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_edwin_t._brooks={
+		name="Edwin T. Brooks"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Edwin_T_Brooks.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_flora_d._darpino={
+		name="Flora D. Darpino"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Flora_D_Darpino.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_james_j._tuite_iv={
+		name="James J. Tuite IV"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_James_J_Tuite_IV.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_john_w._nicholson_jr.={
+		name="John W. Nicholson Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_John_W_Nicholson_Jr.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GAU_henry_g._ulrich_iii={
+		name="Henry G. Ulrich III"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Henry_G_Ulrich_III.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_james_g._stavridis={
+		name="James G. Stavridis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_James_G_Stavridis.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_karl_schultz={
+		name="Karl Schultz"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Karl_Schultz.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_walter_doran={
+		name="Walter Doran"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Walter_Doran.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_william_j._fallon={
+		name="William J. Fallon"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_William_J_Fallon.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_john_c._aquilino={
+		name="John C. Aquilino"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_John_C_Aquilino.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_john_c._harvey_jr.={
+		name="John C. Harvey Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_John_C_Harvey_Jr.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_craig_s._faller={
+		name="Craig S. Faller"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Craig_S_Faller.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GAU_philip_s._davidson={
+		name="Philip S. Davidson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/GAU/Portrait_Philip_S_Davidson.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

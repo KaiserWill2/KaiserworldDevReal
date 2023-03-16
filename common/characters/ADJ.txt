@@ -1,0 +1,147 @@
+characters={
+	ADJ_Yevgeny_Dzhugashvili ={
+			name= "Yevgeny Dzhugashvili"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Yevgeny_Dzhugashvili.dds"
+				}
+			}
+			country_leader ={
+				ideology=stalinist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Roman_Dumbadze ={
+			name= "Roman Dumbadze"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Roman_Dumbadze.dds"
+				}
+			}
+			country_leader ={
+				ideology=fascist_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Murman_Dumbadze ={
+			name= "Murman Dumbadze"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Murman_Dumbadze.dds"
+				}
+			}
+			country_leader ={
+				ideology=nationalist_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Ali_I ={
+			name= "Ali I"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Ali_I.dds"
+				}
+			}
+			country_leader ={
+				ideology=absolute_monarchist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Igor_Giorgadze ={
+			name= "Igor Giorgadze"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Igor_Giorgadze.dds"
+				}
+			}
+			country_leader ={
+				ideology=neo_bolshevik
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Zurab_Pataradze ={
+			name= "Zurab Pataradze"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Zurab_Pataradze.dds"
+				}
+			}
+			country_leader ={
+				ideology=agrarian_conservative
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Levan_Varshalomidze ={
+			name= "Levan Varshalomidze"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Levan_Varshalomidze.dds"
+				}
+			}
+			country_leader ={
+				ideology=centrist_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Avtandil_Beridze ={
+			name= "Avtandil Beridze"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Avtandil_Beridze.dds"
+				}
+			}
+			country_leader ={
+				ideology=social_liberal
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Aslan_Abashidze ={
+			name= "Aslan Abashidze"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Aslan_Abashidze.dds"
+				}
+			}
+			country_leader ={
+				ideology=new_democrat_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Lasha_Komakhidze ={
+			name= "Lasha Komakhidze"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Lasha_Komakhidze.dds"
+				}
+			}
+			country_leader ={
+				ideology=democratic_socialist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	ADJ_Timur_Kacharava ={
+			name= "Timur Kacharava"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/ADJ/Portrait_ADJ_Timur_Kacharava.dds"
+				}
+			}
+			country_leader ={
+				ideology=anarcho_syndicalism
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	
+}
+

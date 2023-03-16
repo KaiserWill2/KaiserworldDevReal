@@ -1,0 +1,146 @@
+characters={
+	NIC_Humberto_Ortega={
+			name= "Humberto Ortega"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Humberto_Ortega.dds"
+				}
+			}
+			country_leader ={
+				ideology=sandinist
+				expire="1.1.1.1"
+				id=-1
+				desc = "POLITICS_HUMBERTO_ORTEGA_DESC"
+			}
+	}
+	NIC_Enrique_Bermudez={
+			name= "Enrique Bermudez"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Enrique_Bermudez.dds"
+				}
+			}
+			country_leader ={
+				ideology=fascist_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	NIC_Arturo_Cruz_Jr={
+			name= "Arturo Cruz Jr"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Arturo_Cruz_Jr.dds"
+				}
+			}
+			country_leader ={
+				ideology=nationalist_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	NIC_Fernando_First={
+			name= "Fernando I"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Fernando_First.dds"
+				}
+			}
+			country_leader ={
+				ideology=absolute_monarchist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	NIC_Joaquin_Cuadra={
+			name= "Joaquin Cuadra"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Joaquin_Cuadra.dds"
+				}
+			}
+			country_leader ={
+				ideology=national_bolshevik_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	NIC_Eduardo_Montealegre={
+			name= "Eduardo Montealegre"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Eduardo_Montealegre.dds"
+				}
+			}
+			country_leader ={
+				ideology=fiscal_conservative
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	NIC_Fabio_Gadea_Mantilla={
+			name= "Fabio Gadea Mantilla"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Fabio_Gadea_Mantilla.dds"
+				}
+			}
+			country_leader ={
+				ideology=centrist_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	NIC_Alvaro_Robelo={
+			name= "Alvaro Robelo"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Alvaro_Robelo.dds"
+				}
+			}
+			country_leader ={
+				ideology=social_liberal
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	NIC_Alfonso_Robelo={
+			name= "Alfonso Robelo"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Alfonso_Robelo.dds"
+				}
+			}
+			country_leader ={
+				ideology=new_democrat_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	NIC_Ana_Margarita_Vijil={
+			name= "Ana Margarita Vijil"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Ana_Margarita_Vijil.dds"
+				}
+			}
+			country_leader ={
+				ideology=democratic_socialist
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+	NIC_Eden_Pastora={
+			name= "Eden Pastora"
+			portraits={
+				civilian ={
+					large= "gfx/leaders/NIC/Portrait_NIC_Eden_Pastora.dds"
+				}
+			}
+			country_leader ={
+				ideology=revolutionary_socialist_ideology
+				expire="1.1.1.1"
+				id=-1
+			}
+	}
+}

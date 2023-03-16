@@ -1,0 +1,145 @@
+Characters = {
+	PIE_Achille_Occhetto = {
+		name = "Achille Occhetto"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Achille_Occhetto.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxist
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Renzo_Rabellino = {
+		name = "Renzo Rabellino"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Renzo_Rabellino.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_ideology
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Roberto_Cota = {
+		name = "Roberto Cota"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Roberto_Cota.dds"
+			}
+		}
+		country_leader = {
+			ideology = nationalist_ideology
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Victor_Emmanuel_IV = {
+		name = "Victor Emmanuel IV"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Victor_Emmanuel_IV.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchist
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Chiara_Appendino = {
+		name = "Chiara Appendino"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Chiara_Appendino.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_bolshevik_ideology
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Carlo_Fatuzzo = {
+		name = "Carlo Fatuzzo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Carlo_Fatuzzo.dds"
+			}
+		}
+		country_leader = {
+			ideology = fiscal_conservative
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Gianfranco_Rotondi = {
+		name = "Gianfranco Rotondi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Gianfranco_Rotondi.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_libertarian
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Carlo_Scognamiglio = {
+		name = "Carlo Scognamiglio"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Carlo_Scognamiglio.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_libertarian
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Mercedes_Bresso = {
+		name = "Mercedes Bresso"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Mercedes_Bresso.dds"
+			}
+		}
+		country_leader = {
+			ideology = new_democrat_ideology
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Piero_Fassino = {
+		name = "Piero Fassino"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Piero_Fassino.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	PIE_Sergio_Chiamparino = {
+		name = "Sergio Chiamparino"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIE/Portrait_PIE_Sergio_Chiamparino.dds"
+			}
+		}
+		country_leader = {
+			ideology = luxemburgism
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+}

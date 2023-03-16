@@ -1,0 +1,59 @@
+ideas = {
+
+
+    country = {	
+
+        idea_The_Dragon_Rises = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+            
+            picture = dragon_rises_idea
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+				stability_factor = 0.15
+				political_power_factor = 0.75
+				monthly_population = 0.02
+            }
+        }
+	}
+
+
+    
+    country = {	
+
+        idea_expanding_coal_operations = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+            
+            picture = expanding_mine_operations_idea
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                industrial_capacity_factory = 0.015
+                line_change_production_efficiency_factor = -0.03
+                local_resources_factor = 0.3
+            }
+        }
+	}
+
+
+
+
+
+
+
+
+}	

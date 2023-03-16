@@ -1,0 +1,146 @@
+characters={
+	BHU_tek_nath_rizal={
+		name="Tek Nath Rizal"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_Tek_Nath_Rizal.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_kipchu_namgyal={
+		name="Kipchu Namgyal"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_Kipchu_Namgyal.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_jigme_thinley={
+		name="Jigme Thinley"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_Jigme_Thinley.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_jigme_singye_wangchuck={
+		name="Jigme Singye Wangchuck"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_Jigme_Singye_Wangchuck.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JIGME_SINGYE_WANGCHUCK_DESC"
+			ideology=semi_constitutional_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_phanindra_nepal={
+		name="Phanindra Nepal"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_Phanindra_Nepal.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_sangay_ngedup={
+		name="Sangay Ngedup"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_Sangay_Ngedup.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_chenkyab_dorji={
+		name="Chenkyab Dorji"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_Chenkyab_Dorji.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_dorji_choden={
+		name="Dorji Choden"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_Dorji_Choden.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_sonam_tobgye={
+		name="Sonam Tobgye"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_Sonam_Tobgay.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_r.p._subba={
+		name="R.P. Subba"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_RP_Subba.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_r.k._budhathoki={
+		name="R.K. Budhathoki"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_BHU_RK_Budhathoki.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

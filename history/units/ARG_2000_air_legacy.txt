@@ -1,0 +1,15 @@
+air_wings = {
+	278 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		fighter_equipment_0 = { owner = "ARG" amount = 100 }			
+		tac_bomber_equipment_0 = { owner = "ARG" amount = 100 }	
+	}
+	"ARA 25 de Mayo"  = {
+		cv_fighter_equipment_0 =  { owner = "ARG" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "ARG" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "ARG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ARG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ARG" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "ARG" amount = 10 }
+	}
+}

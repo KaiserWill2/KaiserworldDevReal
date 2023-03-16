@@ -1,0 +1,63 @@
+ideas = {
+
+	country = {
+	
+		agreement_of_1827 = {
+			picture = treaty
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+				generate_wargoal_tension = 0.2
+				send_volunteers_tension = 0.2
+				guarantee_tension = 0.2
+			}
+		}
+		
+	}
+	
+	political_advisor = {
+		
+		OHI_sierra_stachowicz = {
+			picture = soong_mei_ling
+		
+			allowed = {
+				original_tag = OHI
+			}
+			available = {
+				OR = {
+					POL = { is_puppet = no }
+					POL = { OVERLORD = { NOT = { is_in_faction_with = ROOT } } }
+				}
+			}
+			
+			traits = { popular_figurehead }
+			modifier = {}
+	
+			on_add = {
+				if = {
+					limit = { 
+						POL = { is_puppet = yes }
+						POL = {
+							OVERLORD = {
+								NOT = { has_war_with = ROOT }
+								NOT = { is_in_faction_with = ROOT }
+							}
+						}
+					}
+					POL = { OVERLORD = { country_event = { id = ohio.5 hours = 6 } } }
+				}
+			}
+			
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+}

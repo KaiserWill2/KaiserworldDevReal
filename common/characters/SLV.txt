@@ -1,0 +1,146 @@
+﻿characters={
+	SLV_janez_jansa={
+		name="Janez Janša"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Janez_Jansa.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_slavoj_zizek={
+		name="Slavoj Žižek"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Slavoj_Zizek.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_katarina_kresal={
+		name="Katarina Kresal"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Katarina_Kresal.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_alenka_bratusek={
+		name="Alenka Bratušek"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Alenka_Bratusek.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_miro_cerar={
+		name="Miro Cerar"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Miro_Cerar.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_karl_erjavec={
+		name="Karl Erjavec"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Karl_Erjavec.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_radovan_zerjav={
+		name="Radovan Žerjav"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Radovan_Zerjav.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_zmago_jelincic_plementini={
+		name="Zmago Jelinčič Plemeniti"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Zmago_Jelincic_Plemeniti.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_albin_gutman={
+		name="Albin Gutman"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Albin_Gutman.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_mariano_first_of_windisch_graetz={
+		name="Mariano I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Mariano_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_andrej_sisko={
+		name="Andrej Šiško"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Portrait_SLV_Andrej_Sisko.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+}

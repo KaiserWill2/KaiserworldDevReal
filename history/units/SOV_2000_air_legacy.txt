@@ -1,0 +1,65 @@
+air_wings = {
+	219 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		fighter_equipment_0 = { owner = "SOV" amount = 100 }			
+		tac_bomber_equipment_0 = { owner = "SOV" amount = 100 }	
+	}
+	"Kiev"  = {
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+	}
+	"Leningrad"  = {
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+	}
+	"Valery Sablin"  = {
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+	}
+	"Nikolai Kuznetsov"  = {
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+	}
+	"Tblisi"  = {
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+	}
+	"Minsk"  = {
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+	}
+	"Ulyanovsk"  = {
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+	}
+	"Oryol"  = {
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "SOV" amount = 10 }
+	}
+}

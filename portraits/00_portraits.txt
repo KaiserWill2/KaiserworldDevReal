@@ -1,0 +1,3220 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	operative = {
+		male = {
+			"GFX_portrait_operative_unknown"
+		}
+		female = {
+			"GFX_portrait_operative_unknown"
+		}
+	}
+
+	male = {
+		"GFX_portrait_unknown"
+	}
+	female = {
+		"GFX_portrait_unknown_female"
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"GFX_latam_general1"
+			"GFX_latam_general2"
+			"GFX_latam_general3"
+			"GFX_latam_general4"
+			"GFX_latam_general5"
+		}
+		female = {
+			"GFX_latin_woman_general_1"
+			"GFX_latin_woman_general_2"
+			"GFX_latin_woman_general_3"
+			"GFX_latin_woman_general_4"
+			"GFX_latin_woman_general_5"
+			"GFX_latin_woman_general_6"
+			"GFX_latin_woman_general_7"
+			"GFX_latin_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_latam_general1"
+			"GFX_latam_general2"
+			"GFX_latam_general3"
+			"GFX_latam_general4"
+			"GFX_latam_general5"
+		}
+		female = {
+			"GFX_latin_woman_general_1"
+			"GFX_latin_woman_general_2"
+			"GFX_latin_woman_general_3"
+			"GFX_latin_woman_general_4"
+			"GFX_latin_woman_general_5"
+			"GFX_latin_woman_general_6"
+			"GFX_latin_woman_general_7"
+			"GFX_latin_woman_general_8"
+		}
+	}
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"GFX_latam_general1"
+			"GFX_latam_general2"
+			"GFX_latam_general3"
+			"GFX_latam_general4"
+			"GFX_latam_general5"
+		}
+		female = {
+			"GFX_latin_woman_general_1"
+			"GFX_latin_woman_general_2"
+			"GFX_latin_woman_general_3"
+			"GFX_latin_woman_general_4"
+			"GFX_latin_woman_general_5"
+			"GFX_latin_woman_general_6"
+			"GFX_latin_woman_general_7"
+			"GFX_latin_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_latam_general1"
+			"GFX_latam_general2"
+			"GFX_latam_general3"
+			"GFX_latam_general4"
+			"GFX_latam_general5"
+		}
+		female = {
+			"GFX_latin_woman_general_1"
+			"GFX_latin_woman_general_2"
+			"GFX_latin_woman_general_3"
+			"GFX_latin_woman_general_4"
+			"GFX_latin_woman_general_5"
+			"GFX_latin_woman_general_6"
+			"GFX_latin_woman_general_7"
+			"GFX_latin_woman_general_8"
+		}
+	}
+}
+
+
+
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+			
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"GFX_africa_general_1"
+			"GFX_africa_general_2"
+			"GFX_africa_general_3"
+			"GFX_africa_general_4"
+			"GFX_africa_general_5"
+            "GFX_africa_general_6"
+			"GFX_africa_general_7"
+		}
+		
+	female = {
+		"GFX_africa_woman_general_1"
+		"GFX_africa_woman_general_2"
+		"GFX_africa_woman_general_3"
+		"GFX_africa_woman_general_4"
+		"GFX_africa_woman_general_5"
+		"GFX_africa_woman_general_6"
+		"GFX_africa_woman_general_7"
+		"GFX_africa_woman_general_8"
+	}
+	}
+	
+	navy = {
+		male = {
+			"GFX_africa_general_1"
+			"GFX_africa_general_2"
+			"GFX_africa_general_3"
+			"GFX_africa_general_4"
+			"GFX_africa_general_5"
+            "GFX_africa_general_6"
+			"GFX_africa_general_7"
+		}
+		
+	female = {
+		"GFX_africa_woman_general_1"
+		"GFX_africa_woman_general_2"
+		"GFX_africa_woman_general_3"
+		"GFX_africa_woman_general_4"
+		"GFX_africa_woman_general_5"
+		"GFX_africa_woman_general_6"
+		"GFX_africa_woman_general_7"
+		"GFX_africa_woman_general_8"
+	}
+	}
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"GFX_india_general1"
+			"GFX_india_general2"
+			"GFX_india_general3"
+			"GFX_india_general4"
+			"GFX_india_general5"
+			"GFX_india_general6"
+		}
+		female = {
+			"GFX_indian_subcon_woman_general_1"
+			"GFX_indian_subcon_woman_general_2"
+			"GFX_indian_subcon_woman_general_3"
+			"GFX_indian_subcon_woman_general_4"
+			"GFX_indian_subcon_woman_general_5"
+			"GFX_indian_subcon_woman_general_6"
+			"GFX_indian_subcon_woman_general_7"
+			"GFX_indian_subcon_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_india_general1"
+			"GFX_india_general2"
+			"GFX_india_general3"
+			"GFX_india_general4"
+			"GFX_india_general5"
+			"GFX_india_general6"
+		}
+		female = {
+			"GFX_indian_subcon_woman_general_1"
+			"GFX_indian_subcon_woman_general_2"
+			"GFX_indian_subcon_woman_general_3"
+			"GFX_indian_subcon_woman_general_4"
+			"GFX_indian_subcon_woman_general_5"
+			"GFX_indian_subcon_woman_general_6"
+			"GFX_indian_subcon_woman_general_7"
+			"GFX_indian_subcon_woman_general_8"
+		}
+	}
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+}
+
+
+USA = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+CAN = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+QUE = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+NEA = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+PCA = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+ALA = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+}
+
+TEX = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+MWA = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+CSD = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+GRL = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+LIN = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+MOT = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+UTA = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+ILL = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+AMC = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+
+}
+
+
+
+
+LBA = {
+	army = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+}
+
+UAR = {
+	army = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+}
+
+EGY = {
+	army = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+}
+
+SUD = {
+	army = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+}
+
+TUN = {
+	army = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+}
+
+ALG = {
+	army = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+}
+
+AFG = {
+	army = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+}
+
+MOR = {
+	army = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_arab_general_1"
+			"GFX_arab_general_2"
+			"GFX_arab_general_3"
+			"GFX_arab_general_4"
+			"GFX_arab_general_5"
+			"GFX_arab_general_6"
+			"GFX_arab_general_7"
+		}
+		female = {
+			"GFX_arab_woman_general_1"
+			"GFX_arab_woman_general_2"
+			"GFX_arab_woman_general_3"
+			"GFX_arab_woman_general_4"
+			"GFX_arab_woman_general_5"
+			"GFX_arab_woman_general_6"
+			"GFX_arab_woman_general_7"
+		}
+	}
+}
+
+CHI = {
+	army = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+}
+
+PRC = {
+	army = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+}
+
+
+PRK = {
+	army = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+}
+
+JAP = {
+	army = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+}
+
+
+TIB = {
+	army = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_asia_general_1"
+			"GFX_asia_general_2"
+			"GFX_asia_general_3"
+			"GFX_asia_general_4"
+			"GFX_asia_general_5"
+			"GFX_asia_general_6"
+			"GFX_asia_general_7"
+			"GFX_asia_general_8"
+		}
+		female = {
+			"GFX_asian_woman_general_1"
+			"GFX_asian_woman_general_2"
+			"GFX_asian_woman_general_3"
+			"GFX_asian_woman_general_4"
+			"GFX_asian_woman_general_5"
+			"GFX_asian_woman_general_6"
+		}
+	}
+}
+
+
+INS = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+PHI = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+MAY = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+BOR = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+SIG = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+VIN = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+MYA = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+LAO = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+CMB = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+PLU = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+PAP = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+SIA = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+
+TON = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+
+FJI = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+
+SMO = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+KIR = {
+	army = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+            "GFX_southeastasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_southeastasia_general1"
+			"GFX_southeastasia_general2"
+			"GFX_southeastasia_general3"
+			"GFX_southeastasia_general4"
+			"GFX_southeastasia_general5"
+			"GFX_southeastasia_general6"
+			"GFX_southeastasia_general7"
+			"GFX_southeastasia_general8"
+            "GFX_southeastasia_general9"
+            "GFX_southeastasia_general10"
+            "GFX_southeastasia_general11"  
+		}
+		female = {
+			"GFX_southeastasia_woman_general_1"
+			"GFX_southeastasia_woman_general_2"
+			"GFX_southeastasia_woman_general_3"
+			"GFX_southeastasia_woman_general_4"
+			"GFX_southeastasia_woman_general_5"
+			"GFX_southeastasia_woman_general_6"
+           "GFX_southeastasia_woman_general_7" 
+		}
+	}
+}
+
+TUR = {
+	army = {
+		male = {
+			"GFX_turkic_general_1"
+			"GFX_turkic_general_2"
+			"GFX_turkic_general_3"
+			"GFX_turkic_general_4"
+			"GFX_turkic_general_5"
+			"GFX_turkic_general_6"
+			"GFX_turkic_general_7"
+		}
+		female = {
+			"GFX_turkic_woman_general_1"
+			"GFX_turkic_woman_general_2"
+			"GFX_turkic_woman_general_3"
+			"GFX_turkic_woman_general_4"
+			"GFX_turkic_woman_general_5"
+			"GFX_turkic_woman_general_6"
+			"GFX_turkic_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_turkic_general_1"
+			"GFX_turkic_general_2"
+			"GFX_turkic_general_3"
+			"GFX_turkic_general_4"
+			"GFX_turkic_general_5"
+			"GFX_turkic_general_6"
+			"GFX_turkic_general_7"
+		}
+		female = {
+			"GFX_turkic_woman_general_1"
+			"GFX_turkic_woman_general_2"
+			"GFX_turkic_woman_general_3"
+			"GFX_turkic_woman_general_4"
+			"GFX_turkic_woman_general_5"
+			"GFX_turkic_woman_general_6"
+			"GFX_turkic_woman_general_7"
+		}
+	}
+}
+
+AZR = {
+	army = {
+		male = {
+			"GFX_turkic_general_1"
+			"GFX_turkic_general_2"
+			"GFX_turkic_general_3"
+			"GFX_turkic_general_4"
+			"GFX_turkic_general_5"
+			"GFX_turkic_general_6"
+			"GFX_turkic_general_7"
+		}
+		female = {
+			"GFX_turkic_woman_general_1"
+			"GFX_turkic_woman_general_2"
+			"GFX_turkic_woman_general_3"
+			"GFX_turkic_woman_general_4"
+			"GFX_turkic_woman_general_5"
+			"GFX_turkic_woman_general_6"
+			"GFX_turkic_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_turkic_general_1"
+			"GFX_turkic_general_2"
+			"GFX_turkic_general_3"
+			"GFX_turkic_general_4"
+			"GFX_turkic_general_5"
+			"GFX_turkic_general_6"
+			"GFX_turkic_general_7"
+		}
+		female = {
+			"GFX_turkic_woman_general_1"
+			"GFX_turkic_woman_general_2"
+			"GFX_turkic_woman_general_3"
+			"GFX_turkic_woman_general_4"
+			"GFX_turkic_woman_general_5"
+			"GFX_turkic_woman_general_6"
+			"GFX_turkic_woman_general_7"
+		}
+	}
+}
+
+
+TAR = {
+	army = {
+		male = {
+			"GFX_turkic_general_1"
+			"GFX_turkic_general_2"
+			"GFX_turkic_general_3"
+			"GFX_turkic_general_4"
+			"GFX_turkic_general_5"
+			"GFX_turkic_general_6"
+			"GFX_turkic_general_7"
+		}
+		female = {
+			"GFX_turkic_woman_general_1"
+			"GFX_turkic_woman_general_2"
+			"GFX_turkic_woman_general_3"
+			"GFX_turkic_woman_general_4"
+			"GFX_turkic_woman_general_5"
+			"GFX_turkic_woman_general_6"
+			"GFX_turkic_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_turkic_general_1"
+			"GFX_turkic_general_2"
+			"GFX_turkic_general_3"
+			"GFX_turkic_general_4"
+			"GFX_turkic_general_5"
+			"GFX_turkic_general_6"
+			"GFX_turkic_general_7"
+		}
+		female = {
+			"GFX_turkic_woman_general_1"
+			"GFX_turkic_woman_general_2"
+			"GFX_turkic_woman_general_3"
+			"GFX_turkic_woman_general_4"
+			"GFX_turkic_woman_general_5"
+			"GFX_turkic_woman_general_6"
+			"GFX_turkic_woman_general_7"
+		}
+	}
+}
+
+
+BHS = {
+	army = {
+		male = {
+			"GFX_turkic_general_1"
+			"GFX_turkic_general_2"
+			"GFX_turkic_general_3"
+			"GFX_turkic_general_4"
+			"GFX_turkic_general_5"
+			"GFX_turkic_general_6"
+			"GFX_turkic_general_7"
+		}
+		female = {
+			"GFX_turkic_woman_general_1"
+			"GFX_turkic_woman_general_2"
+			"GFX_turkic_woman_general_3"
+			"GFX_turkic_woman_general_4"
+			"GFX_turkic_woman_general_5"
+			"GFX_turkic_woman_general_6"
+			"GFX_turkic_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_turkic_general_1"
+			"GFX_turkic_general_2"
+			"GFX_turkic_general_3"
+			"GFX_turkic_general_4"
+			"GFX_turkic_general_5"
+			"GFX_turkic_general_6"
+			"GFX_turkic_general_7"
+		}
+		female = {
+			"GFX_turkic_woman_general_1"
+			"GFX_turkic_woman_general_2"
+			"GFX_turkic_woman_general_3"
+			"GFX_turkic_woman_general_4"
+			"GFX_turkic_woman_general_5"
+			"GFX_turkic_woman_general_6"
+			"GFX_turkic_woman_general_7"
+		}
+	}
+}
+
+
+KZH = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+UZB = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+MOU = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+TRM = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+TJI = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+KYR = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+
+SIK = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+KAR = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+MON = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+TAN = {
+	army = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+		}
+	}
+}
+
+
+SOV = {
+	army = {
+		male = {
+			"GFX_europe_general_1"
+			"GFX_europe_general_2"
+			"GFX_europe_general_4"
+			"GFX_europe_general_5"
+			"GFX_NA_general_1"
+			"GFX_NA_general_2"
+			"GFX_NA_general_3"
+			"GFX_NA_general_4"
+			"GFX_NA_general_5"
+			"GFX_NA_general_6"
+			"GFX_NA_general_7"
+			"GFX_NA_general_8"
+			"GFX_NA_general_9"
+			"GFX_centralasia_general_1"
+			"GFX_centralasia_general_2"
+			"GFX_centralasia_general_3"
+			"GFX_centralasia_general_4"
+			"GFX_centralasia_general_5"
+			"GFX_centralasia_general_6"
+			"GFX_centralasia_general_7"
+		}
+		female = {
+			"GFX_centralasia_woman_general_1"
+			"GFX_centralasia_woman_general_2"
+			"GFX_centralasia_woman_general_3"
+			"GFX_centralasia_woman_general_4"
+			"GFX_centralasia_woman_general_5"
+			"GFX_centralasia_woman_general_6"
+			"GFX_centralasia_woman_general_7"
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_europe_admiral_1"
+			"GFX_europe_admiral_2"
+			"GFX_NA_admiral_1"
+			"GFX_NA_admiral_2"
+		}
+		female = {
+			"GFX_white_woman_general_1"
+			"GFX_white_woman_general_2"
+			"GFX_white_woman_general_3"
+			"GFX_white_woman_general_4"
+			"GFX_white_woman_general_5"
+			"GFX_white_woman_general_6"
+			"GFX_white_woman_general_7"
+			"GFX_white_woman_general_8"
+		}
+	}
+}

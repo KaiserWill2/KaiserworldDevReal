@@ -1,0 +1,830 @@
+characters={
+	MWA_rocky_suhayda={
+		name="Rocky Suhayda"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Rocky_Suhayda.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_merlin_miller={
+		name="Merlin Miller"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Merlin_Miller.dds"
+			}
+		}
+		country_leader={
+			ideology=paleoconservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_imperial_council_of_the_great_plains={
+		name="Imperial Council of the Great Plains"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Midwestern_Imperial_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_ben_covington={
+		name="Ben Covington"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Ben_Covington.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_hillary_rodham={
+		name="Hillary Rodham"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Hillary_Clinton.dds"
+			}
+		}
+		country_leader={
+			ideology=paleoliberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_bill_hammons={
+		name="Bill Hammons"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Bill_Hammons.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BILL_HAMMONS_DESC"
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_bill_owens={
+		name="Bill Owens"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Bill_Owens.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_lucia_guzman={
+		name="Lucia Guzman"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Lucia_Guzman.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_jill_stein={
+		name="Jill Stein"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Jill_Stein.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_dolores_huerta={
+		name="Dolores Huerta"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Dolores_Huerta.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_general_baker={
+		name="General Baker"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_General_Baker.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MWA_bill_clinton={
+		name="Bill Clinton"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Bill_Clinton.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	MWA_david_koch={
+		name="David Koch"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_David_Koch.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	MWA_mark_udall={
+		name="Mark Udall"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Mark_Udall.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	MWA_pat_buchanan={
+		name="Pat Buchanan"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Pat_Buchanan.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = paleoconservative
+		}
+	}
+	MWA_wesley_clark={
+		name="Wesley Clark"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Wesley_Clark.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_nationalist
+		}
+	}
+	MWA_warren_buffett={
+		name="Warren Buffett"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Warren_Buffett.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	MWA_paul_gosar={
+		name="Paul Gosar"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Paul_Gosar.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = paleoconservative
+		}
+	}
+	MWA_tom_tancredo={
+		name="Tom Tancredo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Tom_Tancredo.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = paleoconservative
+		}
+	}
+	MWA_kris_kobach={
+		name="Kris Kobach"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Kris_Kobach.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_nationalist
+		}
+	}
+	MWA_michael_bennet={
+		name="Michael Bennet"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Michael_Bennet.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	MWA_jared_polis={
+		name="Jared Polis"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Jared_Polis.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = left_libertarian
+		}
+	}
+	MWA_marco_rubio={
+		name="Marco Rubio"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Marco_Rubio.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	MWA_chris_christie={
+		name="Chris Christie"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Chris_Christie.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	MWA_sam_brownback={
+		name="Sam Brownback"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Sam_Brownback.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	MWA_chuck_hagel={
+		name="Chuck Hagel"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Chuck_Hagel.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	MWA_john_hickenlooper={
+		name="John Hickenlooper"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_John_Hickenlooper.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	MWA_eric_bodenstab={
+		name="Eric Bodenstab"
+		portraits={
+			civilian={
+				large="gfx/leaders/MWA/Portrait_MWA_Eric_Bodenstab.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	MWA_stanley_a._mcchrystal={
+		name="Stanley A. McChrystal"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Stanley_A_McChrystal.dds"
+			}
+		}
+		field_marshal={
+			traits={ commando trait_mountaineer paratrooper }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_dan_kelly_mcneill={
+		name="Dan Kelly McNeill"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Dan_Kelly_McNeill.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer commando }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_john_m._paxton_jr={
+		name="John M. Paxton Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_John_M_Paxton_Jr.dds"
+			}
+		}
+		field_marshal={
+			traits={ commando naval_invader }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_charles_h._jacoby_jr={
+		name="Charles H. Jacoby Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Charles_H_Jacoby_Jr.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando paratrooper }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_daniel_william_christman={
+		name="Daniel William Christman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Daniel_William_Christman.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_darrell_k._williams={
+		name="Darrell K. Williams"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Darrell_K_Williams.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	MWA_david_d._halverson={
+		name="David D. Halverson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_David_D_Halverson.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery trait_engineer fortress_buster }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_james_cartwright={
+		name="James Cartwright"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_James_Cartwright.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MWA_james_f._amos={
+		name="James F. Amos"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_James_F_Amos.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando urban_assault_specialist }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MWA_james_h._dickinson={
+		name="James H. Dickinson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_James_H_Dickinson.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	MWA_john_f._kelly={
+		name="John F. Kelly"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_John_F_Kelly.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless commando }
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_jason_wallace={
+		name="Jason Wallace"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Jason_Wallace.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MWA_lewis_a._craparotta={
+		name="Lewis A. Craparotta"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_L_A_Craparotta.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	MWA_laura_j._richardson={
+		name="Laura J. Richardson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Laura_J_Richardson.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando paratrooper }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MWA_martin_dempsey={
+		name="Martin Dempsey"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Martin_Dempsey.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader combined_arms_expert }
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_richard_f._natonski={
+		name="Richard F. Natonski"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Richard_F_Natonski.dds"
+			}
+		}
+		corps_commander={
+			traits={ winter_specialist urban_assault_specialist adaptable }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MWA_richard_stevens={
+		name="Richard Stevens"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Richard_Stevens.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MWA_keith_kellogg={
+		name="Keith Kellogg"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Keith_Kellogg.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_paul_e._owen={
+		name="Paul E. Owen"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Paul_E_Owen.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_scott_f._siegfried={
+		name="Scott F. Siegfried"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Scott_F_Siegfried.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_willard_m._burleson_iii={
+		name="Willard M. Burleson III"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Willard_M_Burleson_III.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando paratrooper }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MWA_samuel_j._locklear_iii={
+		name="Samuel J. Locklear III"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Samuel_J_Locklear_III.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_william_f._moran={
+		name="William F. Moran"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_William_F_Moran.dds"
+			}
+		}
+		navy_leader={
+			traits={ air_controller }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	MWA_robert_j._natter={
+		name="Robert J. Natter"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/MWA/Portrait_Robert_J_Natter.dds"
+			}
+		}
+		navy_leader={
+			traits={ fleet_protector destroyer_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

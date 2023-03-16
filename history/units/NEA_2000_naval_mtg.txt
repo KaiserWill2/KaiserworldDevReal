@@ -1,0 +1,59 @@
+
+units= {
+	####### NAVAL UNITS #######
+	##### COMMONWEALTH FLEET #####
+	##### Battle Force (CO: ) #####
+	### Philadelphia ###
+
+	fleet = {
+		name = "Commonwealth Navy"			
+		naval_base = 6845 # Philadelphia
+		task_force = {
+			name = "Atlantic Fleet"
+			location = 6845 # Philadelphia
+			ship = {
+				name = "CNS Kitty Hawk" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = NEA version_name = "Kitty Hawk Class" } } 
+			}
+			ship = {
+				name = "CNS Smedley Butler" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = NEA version_name = "Kitty Hawk Class" } } 
+			}	
+			ship = { name = "CNS San Jacinto" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NEA version_name = "Ticonderoga Class" } } }	
+			ship = { name = "CNS Normandy" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NEA version_name = "Ticonderoga Class" } } }		
+			ship = { name = "CNS Monterey" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NEA version_name = "Ticonderoga Class" } } }	
+            ship = { name = "CNS Appomattox Court" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NEA version_name = "Ticonderoga Class" } } }
+			ship = { name = "CNS Mechanicsville" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NEA version_name = "Ticonderoga Class" } } }	
+			ship = { name = "CNS Missionary Ridge" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NEA version_name = "Ticonderoga Class" } } }
+			ship = { name = "CNS Cayuga" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Nisqually" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Oneida" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Quapaw" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Pomo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Seneca" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Choctaw" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Osage" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Tuscarora" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Wyandotte" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Yurok" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Zuni" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Jack Reed" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEA version_name = "Spurance Class" } } }
+			ship = { name = "CNS Phipladelphia" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Memphis" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Portsmouth" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Augusta" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Providence" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Pittsburgh" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Newport News" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Kingston" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } } #1
+			ship = { name = "CNS Montpelier" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Newark" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Scranton" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Biddeford" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Eastport" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Catonsville" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Rockville" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Arlington" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Chelmsford" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+			ship = { name = "CNS Peterborough" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NEA version_name = "Los Angeles Class" } } }
+		}
+	}
+}

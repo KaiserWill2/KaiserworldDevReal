@@ -1,0 +1,898 @@
+characters={
+	RAJ_sitaram_yechury={
+		name="Sitaram Yechury"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Sitaram_Yechury.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_bal_thackeray={
+		name="Bal Thackeray"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Bal_Thackeray.dds"
+			}
+		}
+		country_leader={
+			ideology=shiv_sena
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_mohan_bhagwat={
+		name="Mohan Bhagwat"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Mohan_Bhagwat.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_udayanraje_bhosale={
+		name="Udayanraje Bhosale"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Udayanraje_Bhosale.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_ashok_ghosh={
+		name="Ashok Ghosh"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Ashok_Gosh.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_arun_jaitley={
+		name="Arun Jaitley"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Arun_Jaitley.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_h.d._deve_gowda={
+		name="H.D. Deve Gowda"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Deve_Gowda.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_sanjeev_shablok={
+		name="Sanjeev Shablok"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Sanjeev_Shablok.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_rajiv_gandhi={
+		name="Rajiv Gandhi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Rajiv_Ghandi.dds"
+			}
+		}
+		country_leader={
+			ideology=nehruvian_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	RAJ_mulayam_singh_yadav={
+		name="Mulayam Singh Yadav"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Mulayam_Singh_Yadav.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_arvind_kejriwal={
+		name="Arvind Kejriwal"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Arvind_Kejriwal.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAJ_manmohan_singh={
+		name="Manmohan Singh"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Manmohan_Singh.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = nehruvian_socialism
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	RAJ_pranab_mukherjee={
+		name="Pranab Mukherjee"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Pranab_Mukherjee.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = nehruvian_socialism
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	RAJ_left_front_coalition={
+		name="Left Front Coalition"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Left_Front_Coalition.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	RAJ_v_s_achuthanandan={
+		name="V. S. Achuthanandan"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_V_S_Achuthanandan.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	RAJ_ardhendu_bhusan_bardhan={
+		name="Ardhendu Bhusan Bardhan"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Ardhendu_Bhusan_Bardhan.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	RAJ_somnath_chatterjee={
+		name="Somnath Chatterjee"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Somnath_Chatterjee.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	RAJ_rahul_gandhi={
+		name="Rahul Gandhi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Rahul_Gandhi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = nehruvian_socialism
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	RAJ_sharad_pawar={
+		name="Sharad Pawari"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Sharad_Pawar.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = nehruvian_socialism
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	RAJ_politburo={
+		name="Politburo"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Politburo.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = marxist
+		}
+	}
+	RAJ_prakash_karat={
+		name="Prakash Karat"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Prakash_Karat.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = leninist
+		}
+	}
+	RAJ_manik_sarkar={
+		name="Manik Sarkar"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Manik_Sarkar.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = stalinist
+		}
+	}
+	RAJ_h_i_m_gandhi={
+		name="H.I.M Rajiv Ratna Gandhi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_HIM_Rajiv_Gandhi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	RAJ_nirmal_chander_vij={
+		name="Nirmal Chander Vij"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Nirmal_Chander_Vij.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	RAJ_narendra_modi={
+		name="Narendra Modi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Narendra_Modi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = reactionary
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = hindutva
+		}
+	}
+	RAJ_yogi_adityanath={
+		name="Yogi Adityanath"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Yogi_Adityanath.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = hindutva
+		}
+	}
+	RAJ_raj_thackeray={
+		name="Raj Thackeray"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Raj_Thackeray.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = shiv_sena
+		}
+	}
+	RAJ_gagandeep_bakshi={
+		name="Gagandeep Bakshi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Gagandeep_Bakshi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+	}
+	RAJ_lal_krishna_advani={
+		name="Lal Krishna Advani"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Lal_Krishna_Advani.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	RAJ_omar_abdullah={
+		name="Omar Abdullah"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Omar_Abdullah.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	RAJ_abhishek_verma={
+		name="Abhishek Verma"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Abhishek_Verma.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	RAJ_mamata_banerjee={
+		name="Mamata Banerjee"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Mamata_Banerjee.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = nehruvian_socialism
+		}
+	}
+	RAJ_shangwang_shangyung_khaplang={
+		name="Shangwang Shangyung Khaplang"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Shangwang_Shangyung_Khaplang.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = marxist_leninist_maoist
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = clerical_fascist
+		}
+	}
+	RAJ_bipin_rawat={
+		name="Bipin Rawat"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Bipin_Rawat.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer infantry_leader adaptable }
+			skill=4
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=1
+		}
+	}
+	RAJ_manoj_mukund_naravane={
+		name="Manoj Mukund Naravane"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Manoj_Mukund_Naravane.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer armor_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=2
+		}
+	}
+	RAJ_v._k._singh={
+		name="V. K. Singh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_V_K_Singh.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer infantry_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=3
+		}
+	}
+	RAJ_chandi_prasad_mohanty={
+		name="Chandi Prasad Mohanty"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Chandi_Prasad_Mohanty.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer trait_mountaineer }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=4
+		}
+	}
+	RAJ_yogesh_kumar_joshi={
+		name="Yogesh Kumar Joshi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Yogesh_Kumar_Joshi.dds"
+			}
+		}
+		corps_commander={
+			traits={ organizer trait_mountaineer }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=5
+		}
+	}
+	RAJ_manoj_pande={
+		name="Manoj Pande"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Manoj_Pande.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=6
+		}
+	}
+	RAJ_ravendra_pal_singh={
+		name="Ravendra Pal Singh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Ravendra_Pal_Singh.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer panzer_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=7
+		}
+	}
+	RAJ_yogendra_dimri={
+		name="Yogendra Dimri"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Yogendra_Dimri.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer armor_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=8
+		}
+	}
+	RAJ_jai_singh_nain={
+		name="Jai Singh Nain"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Jai_Singh_Nain.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=9
+		}
+	}
+	RAJ_harcharanjit_singh_panag={
+		name="Harcharanjit Singh Panag"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Harcharanjit_Singh_Panag.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_RAJ_Harcharanjit_Singh_Panag.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = revolutionary_socialist_ideology
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+		corps_commander={
+			traits={ brilliant_strategist armor_officer politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=10
+		}
+	}
+	RAJ_amardeep_singh_bhinder={
+		name="Amardeep Singh Bhinder"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Amardeep_Singh_Bhinder.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=11
+		}
+	}
+	RAJ_raj_shukla={
+		name="Raj Shukla"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Raj_Shukla.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=12
+		}
+	}
+	RAJ_ajai_singh={
+		name="Ajai Singh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Ajai_Singh.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist armor_officer panzer_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=13
+		}
+	}
+	RAJ_sukhdeep_sangwan={
+		name="Sukhdeep Sangwan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Sukhdeep_Sangwan.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=14
+		}
+	}
+	RAJ_mandip_singh={
+		name="Mandip Singh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Mandip_Singh.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=15
+		}
+	}
+	RAJ_sonali_ghoshal={
+		name="Sonali Ghoshal"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Sonali_Ghoshal.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=16
+		}
+	}
+	RAJ_karambir_singh={
+		name="Karambir Singh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Karambir_Singh.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner destroyer_leader }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=17
+		}
+	}
+	RAJ_r._hari_kumar={
+		name="R. Hari Kumar"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_R_Hari_Kumar.dds"
+			}
+		}
+		navy_leader={
+			traits={ air_controller marksman }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=18
+		}
+	}
+	RAJ_ajendra_bahadur_singh={
+		name="Ajendra Bahadur Singh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Ajendra_Bahadur_Singh.dds"
+			}
+		}
+		navy_leader={
+			traits={ big_guns_expert }
+			skill=3
+			attack_skill=3
+			defense_skill=5
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=19
+		}
+	}
+	RAJ_anil_kumar_chawla={
+		name="Anil Kumar Chawla"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Anil_Kumar_Chawla.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=20
+		}
+	}
+	RAJ_atul_kumar_jain={
+		name="Atul Kumar Jain"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Atul_Kumar_Jain.dds"
+			}
+		}
+		navy_leader={
+			traits={ destroyer_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=21
+		}
+	}
+	RAJ_suraj_berry={
+		name="Suraj Berry"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAJ/Portrait_Suraj_Berry.dds"
+			}
+		}
+		navy_leader={
+			traits={ air_controller hunter_killer }
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=22
+		}
+	}
+}

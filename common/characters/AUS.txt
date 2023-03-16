@@ -1,0 +1,165 @@
+characters={
+	AUS_mirko_messner={
+		name="Mirko Messner"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Mirko_Messner.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_gerhard_dorfler={
+		name="Gerhard Dörfler"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Gerhard_Dorfler.dds"
+			}
+		}
+		country_leader={
+			ideology=austrofascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_norbert_hofer={
+		name="Norbert Hofer"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Norbert_Hofer.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_karl_ii={
+		name="Karl II"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Karl_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_gottfried_kussel={
+		name="Gottfried Küssel"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Gottfried_Kussel.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_arnold_schwarzenegger={
+		name="Arnold Schwarzenegger"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Arnold_Schwarzenegger.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_michael_spindelegger={
+		name="Michael Spindelegger"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Michael_Spindelegger.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_angelika_mlinar={
+		name="Angelika Mlinar"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Angelika_Mlinar.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_christian_kern={
+		name="Christian Kern"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Christian_Kern.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_peter_pilz={
+		name="Peter Pilz"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Peter_Pilz.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_sebastian_kurz={
+		name="Sebastian Kurz"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Sebastian_Kurz.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_communism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AUS_robert_brieger={
+		name="Robert Brieger"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AUS/Portrait_Robert_Brieger.dds"
+			}
+		}
+		corps_commander={
+			traits = { offensive_doctrine }
+			skill=3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}

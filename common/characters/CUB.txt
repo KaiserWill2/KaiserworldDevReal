@@ -1,0 +1,146 @@
+characters={
+	CUB_raúl_castro={
+		name="Raúl Castro"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Raul_Castro.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_RAUL_CASTRO_DESC"
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_jose_basulto={
+		name="Jose Basulto"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Jose_Basulto.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_maria_teresa_i={
+		name="Maria Teresa I"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Maria_Teresa_Mestre_y_Batista.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_jorge_luis_garcia_perez={
+		name="Jorge Luis Garcia Perez"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Jorge_Luis_Garcia_Perez.dds"
+			}
+		}
+		country_leader={
+			ideology=american_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_oswaldo_payá={
+		name="Oswaldo Payá"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Oswaldo_Paya.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_yoani_sánchez={
+		name="Yoani Sánchez"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Yoani_Sanchez.dds"
+			}
+		}
+		country_leader={
+			ideology=young_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_jose_daniel_ferrer_garcia={
+		name="Jose Daniel Ferrer Garcia"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Jose_Daniel_Ferrer_Garcia.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_jorge_valls={
+		name="Jorge Valls"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Jorge_Valls.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_felipe_pérez_roque={
+		name="Felipe Pérez Roque"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Felipe_Perez_Roque.dds"
+			}
+		}
+		country_leader={
+			ideology=orthodox_leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_antonio_veciana={
+		name="Antonio Veciana"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Antonio_Venciana.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CUB_antonio_guedes={
+		name="Antonio Guedes"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Antonio_Guedes.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

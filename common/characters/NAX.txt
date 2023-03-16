@@ -1,0 +1,15 @@
+characters={
+	NAX_mallojula_koteswara_rao = {
+		name="Mallojula Koteswara Rao"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAX/GFX_NAX_Mallojula_Koteswara_Rao.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

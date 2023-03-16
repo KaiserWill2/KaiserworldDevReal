@@ -1,0 +1,385 @@
+characters={
+	VEN_hugo_chavez={
+		name="Hugo Chavez"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Hugo_Chavez.dds"
+			}
+		}
+		country_leader={
+			ideology=bolivarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_pedro_carmona={
+		name="Pedro Carmona"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Pedro_Carmona.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_henrique_capriles={
+		name="Henrique Capriles"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Henrique_Capriles.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_pilar_i={
+		name="Pilar I"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Pilar_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_yoel_acosta_chirinos={
+		name="Yoel Acosta Chirinos"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Yoel_Acosta_Chirinos.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_henrique_salas_romer={
+		name="Henrique Salas Romer"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Henrique_Salas_Romer.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_maría_corina_machado={
+		name="María Corina Machado"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Maria_Corina_Machado.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_leopoldo_lopez={
+		name="Leopoldo Lopez"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Leopoldo_Lopez.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_antonio_ledezma={
+		name="Antonio Ledezma"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Antonio_Ledezma.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_jose_ignacio_guedez={
+		name="Jose Ignacio Guedez"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Jose_Ignacio_Guedez.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_oscar_figuera={
+		name="Oscar Figuera"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Oscar_Figuera.dds"
+			}
+		}
+		country_leader={
+			ideology=orthodox_leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VEN_vladimir_padrino_lopez={
+		name="Vladimir Padrino Lopez"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Vladimir_Padrino_Lopez.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard thorough_planner }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	VEN_juan_de_jesus_garcia_toussaintt={
+		name="Juan de Jesus Garcia Toussaintt"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Juan_Garcia_Barrios_Toussaintt.dds"
+			}
+		}
+		field_marshal={
+			traits={ organisational_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	VEN_jesus_alberto_milano_mendoza={
+		name="Jesus Alberto Milano Mendoza"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Jesus_Alberto_Milano_Mendoza.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VEN_edgar_valentin_cruz_arteaga={
+		name="Edgar Valentin Cruz Arteaga"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Edgar_Valentin_Cruz_Arteaga.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VEN_nestor_luis_reverol_torres={
+		name="Nestor Luis Reverol Torres"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Nestor_Luis_Reverol_Torres.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	VEN_antonio_benavidez_torrez={
+		name="Antonio Benavidez Torrez"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Antonio_Benavido_Torres.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	VEN_cecar_vega_gonzalez={
+		name="Cecar Vega Gonzalez"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Cesar_Vega_Gonzalez.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VEN_henry_rangel_silva={
+		name="Henry Rangel Silva"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Henry_Rangel_Silva.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VEN_jose_morantes_torres={
+		name="Jose Morantes Torres"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Jose_Morantes_Torres.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VEN_luis_medina_fernandes={
+		name="Luis Medina Fernandes"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Luis_Medina_Fernandes.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VEN_orlando_miguel_maneiro_gaspar={
+		name="Orlando Miguel Maneiro Gaspar"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Orlando_Miguel_Maneiro.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	VEN_carlos_jose_vieira_acevedo={
+		name="Carlos Jose Vieira Acevedo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/VEN/Portrait_Carlos_Viera_Acevedo.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

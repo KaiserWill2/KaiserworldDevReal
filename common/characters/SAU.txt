@@ -1,0 +1,395 @@
+characters={
+	SAU_saleh_mansour={
+		name="Saleh Mansour"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Saleh_Mansour.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_osama_bin_laden={
+		name="Osama bin Laden"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Osama_Bin_Laden.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_saleh_almuhaya={
+		name="Saleh Al-Muhaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Saleh_Al_Muhaya.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=islamic_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_sultan_bin_abdulaziz_al_saud={
+		name="Sultan bin Abdulaziz Al Saud"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Sultan_Bin_Abdulaziz_Al_Saud.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SULTAN_BIN_ABDULAZIZ_AL_SAUD_DESC"
+			ideology=dynastic_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_juhayman_alotaybi={
+		name="Juhayman al-Otaybi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Juhayman_Al_Otaybi.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_bolshevik
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_saad_alfaqih={
+		name="Sa'ad Al-Faqih"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Sa_Ad_Al_Faqih.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_khaled_altuwaijri={
+		name="Khaled al-Tuwaijri"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Khaled_Al_Tuwaijri.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_manal_alsharif={
+		name="Manal al-Sharif"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Manal_Al_Sharif.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_mohammad_fahad_alqahtani={
+		name="Mohammad Fahad al-Qahtani"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Mohammad_Fahad_Al_Qahtani.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_madawi_alrasheed={
+		name="Madawi al-Rasheed"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Madawi_al_Rasheed.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_talal_bin_abdulaziz_al_saud={
+		name="Talal bin Abdulaziz Al Saud"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_SAU_Talal_Bin_Abdulaziz_Al_Saud.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAU_ahmad_asiri={
+		name="Ahmad Asiri"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Ahmad_Asiri.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SAU_khalid_bin_ali_al_humaidan={
+		name="Khalid bin Ali Al Humaidan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Khalid_bin_Ali_Al_Humaidan.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SAU_jarallah_alaluwayt={
+		name="Jarallah Alaluwayt"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Jarallah_Alaluwayt.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery organizer }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SAU_abdulrahman_bin_saad_alshahrani={
+		name="Abdulrahman bin Saad al-Shahrani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Abdulrahman_bin_Saad_al_Shahrani.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless trickster }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SAU_ibrahim_hamzi={
+		name="Ibrahim Hamzi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Ibrahim_Hamzi.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SAU_fahd_bin_turki_bin_abdulaziz_al_saud={
+		name="Fahd bin Turki bin Abdulaziz Al Saud"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Fahd_bin_Turki_Al_Saud.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SAU_saad_bin_khalid_al_jabry={
+		name="Saad bin Khalid Al Jabry"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Saad_bin_Khalid_Al_Jabry.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SAU_mutaib_bin_abdullah_al_saud={
+		name="Mutaib bin Abdullah Al Saud"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Mutaib_bin_Abdullah_Al_Saud.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SAU_abdullah_bin_sultan_bin_mohammed_alsultan={
+		name="Abdullah bin Sultan bin Mohammed Al-Sultan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Abdullah_bin_Sultan_bin_Mohammed_Al_Sultan.dds"
+			}
+		}
+		navy_leader={
+			traits={ blue_water_expert }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SAU_fahd_alghofaily={
+		name="Fahd al-Ghofaily"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Fahd_al_Ghofaily.dds"
+			}
+		}
+		navy_leader={
+			traits={ green_water_expert }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SAU_faleh_alfaleh={
+		name="Faleh al-Faleh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Faleh_al_Faleh.dds"
+			}
+		}
+		navy_leader={
+			traits={ fly_swatter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SAU_awwad_eid_alaradi_albalawi={
+		name="Awwad Eid Al-Aradi Al-Balawi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Awwad_Eid_Al_Aradi_Al_Balawi.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=304
+	name="STATE_304"
+	manpower = 1549411
+	resources={
+		steel=9
+	}
+	
+	state_category = large_town
+	
+	history={
+		owner = CEA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			13822 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = PAN
+		victory_points = {
+			13822 10
+		}
+
+	}
+
+	provinces={
+		13818 13820 13819 13821 13822
+	}
+}

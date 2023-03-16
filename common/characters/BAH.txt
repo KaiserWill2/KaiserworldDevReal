@@ -1,0 +1,145 @@
+characters={
+	BAH_hassan_madan={
+		name="Hassan Madan"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Hassan_Madan.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_hadi_al-modarresi={
+		name="Hadi al-Modarresi"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Hadi_al-Modarresi.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_ghanim_al_buaneen={
+		name="Ghanim Al Buaneen"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Ghanim_Al_Buaneen.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_hamad_bin_isa_al_khalifa={
+		name="Hamad bin Isa Al Khalifa"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Hamad_bin_Isa_Al_Khalifa.dds"
+			}
+		}
+		country_leader={
+			ideology=dynastic_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_hassan_ali={
+		name="Hassan Ali"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Hassan_Ali.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_isa_qassim={
+		name="Isa Qassim"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Isa_Qassim.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_hasan_mushaima={
+		name="Hasan Mushaima"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Hasan_Mushaima.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_fareed_ghazi={
+		name="Fareed Ghazi"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Fareed_Ghazi.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_abdullah_hashem={
+		name="Abdullah Hashem"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Abdullah_Hashem.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_munira_fakhro={
+		name="Munira Fakhro"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Munira_Fakhro.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAH_ibrahim_sharif={
+		name="Ibrahim Sharif"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAH/Portrait_BAH_Ibrahim_Sharif.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

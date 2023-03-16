@@ -1,0 +1,145 @@
+characters={
+	DOM_ramfis_domíngueztrujillo={
+		name="Ramfis Domínguez-Trujillo"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Ramfis_Domínguez-Trujillo.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_carlos_morales_troncoso={
+		name="Carlos Morales Troncoso"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Carlos_Morales_Troncoso.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_simoneta_i={
+		name="Simoneta I"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Simoneta_I.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_brígido_peguero={
+		name="Brígido Peguero"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Brígido_Peguero.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_vincho_castillo={
+		name="Vincho Castillo"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Vincho_Castillo.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_juan_cohen={
+		name="Juan Cohen"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Juan_Cohen.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_josé_miguel_soto_jiménez={
+		name="José Miguel Soto Jiménez"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_José_Miguel_Soto_Jiménez.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_hipólito_mejía={
+		name="Hipólito Mejía"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Hipólito_Mejía.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_leonel_fernández={
+		name="Leonel Fernández"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Leonel_Fernández.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_fidel_santana={
+		name="Fidel Santana"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Fidel_Santana.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_manuel_salazar={
+		name="Manuel Salazar"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Portrait_DOM_Manuel_Salazar.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

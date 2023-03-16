@@ -1,0 +1,153 @@
+characters={
+	NAU_sprent_dabwido={
+		name="Sprent Dabwido"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAU/Portrait_NAU_Sprent_Dabwido.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NAU_marcus_white={
+		name="Marcus White"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=hutu_power
+			traits={ fortification_engineer }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	NAU_peter_jones={
+		name="Peter Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=american_nationalist
+			traits={ war_industrialist }
+			expire="2025.1.1.12"
+			id=-1
+		}
+	}
+	NAU_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=dynastic_monarchist
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	NAU_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			traits={ captain_of_industry smooth_talking_charmer }
+			expire="2024.1.1.12"
+			id=-1
+		}
+	}
+	NAU_peter_brown={
+		name="Peter Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			traits={ captain_of_industry }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	NAU_jim_brown={
+		name="Jim Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=owenist
+			traits={ armaments_organizer fortification_engineer }
+			expire="2023.1.1.12"
+			id=-1
+		}
+	}
+	NAU_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=nordic_model
+			traits={ quartermaster_general smooth_talking_charmer }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	NAU_marcus_evans={
+		name="Marcus Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			traits={ quartermaster_general }
+			expire="2023.1.1.12"
+			id=-1
+		}
+	}
+	NAU_jonas_roberts={
+		name="Jonas Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_confederalist
+			expire="2030.1.1.12"
+			id=-1
+		}
+	}
+	NAU_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=meliorist
+			traits={ smooth_talking_charmer war_industrialist }
+			expire="2022.1.1.12"
+			id=-1
+		}
+	}
+}

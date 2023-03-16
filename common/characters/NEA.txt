@@ -1,0 +1,1711 @@
+characters={
+	NEA_protestant_clique_char={
+		name="Protestant Clique"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Protestant_Clique.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = clerical_fascist
+		}
+	}
+	NEA_richard_cheney={
+		name="Richard Cheney"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Richard_Cheney.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = dominionist
+		}
+	}
+	NEA_marion_robertson={
+		name="Marion Robertson"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Marion_Robertson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = clerical_fascist
+		}
+	}
+	NEA_kevin_strom={
+		name="Kevin Strom"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Kevin_Strom.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = national_socialist
+		}
+	}
+	NEA_social_development_council={
+		name="Social Development Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Social_Development_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	NEA_rudy_fratto={
+		name="Rudy Fratto"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Rudy_Fratto.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	NEA_mike_pence={
+		name="Mike Pence"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMS/Portrait_AMS_Mike_Pence.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_noam_chomsky={
+		name="Noam Chomsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Noam_Chomsky.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_NOAM_CHOMSKY_DESC"
+			ideology=american_revolutionary_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_sam_webb={
+		name="Sam Webb"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Sam_Webb.dds"
+			}
+		}
+		country_leader={
+			ideology=american_communist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_jeff_schoep={
+		name="Jeff Schoep"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Jeff_Schoep.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_tom_hoefling={
+		name="Tom Hoefling"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Tom_Hoefling.dds"
+			}
+		}
+		country_leader={
+			ideology=paleoconservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_new_england_royal_council={
+		name="New England Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_New_England_Royal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_will_williams={
+		name="Will Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Will_Williams.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_newt_gingrich={
+		name="Newt Gingrich"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Newt_Gingrich.dds"
+			}
+		}
+		country_leader={
+			ideology=american_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_john_kasich={
+		name="John Kasich"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_John_Kasich.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_debbie_wasserman_schultz={
+		name="Debbie Wasserman Schultz"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Debbie_Wasserman_Schultz.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_keith_ellison={
+		name="Keith Ellison"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Keith_Ellison.dds"
+			}
+		}
+		country_leader={
+			ideology=labour_revisionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_lori_robinson={
+		name="Lori Robinson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Lori_Robinson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+	}
+	NEA_fred_phelps={
+		name="Fred Phelps"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Fred_Phelps.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = dominionist
+		}
+	}
+	NEA_laura_welch={
+		name="Laura Welch"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Laura_Welch.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_populist
+		}
+	}
+	NEA_albert_gore={
+		name="Albert Gore"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Albert_Gore.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	NEA_lindsey_graham={
+		name="Lindsey Graham"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Lindsey_Graham.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	NEA_xavier_becerra={
+		name="Xavier Becerra"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Xavier_Becerra.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = new_democrat_ideology
+		}
+	}
+	NEA_elaine_chao={
+		name="Elaine Chao"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Elaine_Chao.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	NEA_tulsi_gabbard={
+		name="Tulsi Gabbard"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Tulsi_Gabbard.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = new_democrat_ideology
+		}
+	}
+	NEA_michelle_robinson={
+		name="Michelle Robinson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Michelle_Robinson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	NEA_ross_anderson={
+		name="Ross Anderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Ross_Anderson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = new_democrat_ideology
+		}
+	}
+	NEA_gary_johnson={
+		name="Gary Johnson"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Gary_Johnson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fiscal_conservative
+		}
+	}
+	NEA_national_peoples_council={
+		name="National People's Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_National_Peoples_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = socialist_nationalist
+		}
+	}
+	NEA_jeff_mackler={
+		name="Jeff Mackler"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Jeff_Mackler.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = socialist_nationalist
+		}
+	}
+	NEA_leo_gerard={
+		name="Leo Gerard"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Leo_Gerard.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = national_syndicalist
+		}
+	}
+	NEA_sidney_blumenthal={
+		name="Sidney Blumenthal"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Sidney_Blumenthal.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	NEA_bernie_sanders={
+		name="Bernie Sanders"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Bernie_Sanders.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NEA_bernie_sanders_based={
+		name="Bernie Sanders"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAU/Portrait_GAU_Bernie_Sanders.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = socialist_nationalist
+		}
+	}
+	NEA_sonia_sotomayor={
+		name="Sonia Sotomayor"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Sonia_Sotomayor.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	NEA_bill_gates={
+		name="Bill Gates"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Bill_Gates.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = gatesism
+		}
+	}
+	NEA_auto_council={
+		name="Automotive Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Automotive_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = syndicalism
+		}
+	}
+	NEA_federation_of_delegates={
+		name="Federation of Delegates"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Federation_Of_Delegates.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_germaine_greer={
+		name="Germaine Greer"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Germaine_Greer.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_valeria_wasserman={
+		name="Valeria Wasserman"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Valeria_Wasserman.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_robin_hahnel={
+		name="Robin Hahnel"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Robin_Hahnel.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_norman_spinrad={
+		name="Norman Spinrad"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Norman_Spinrad.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_ward_churchill={
+		name="Ward Churchill"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Ward_Churchill.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_ashanti_alston={
+		name="Ashanti Alston"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Ashanti_Alston.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_aviva_chomsky={
+		name="Aviva Chomsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Aviva_Chomsky.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_janet_biehl={
+		name="Janet Biehl"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Janet_Biehl.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_oshea_jackson={
+		name="O'Shea Jackson"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_O_Shea_Jackson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_levar_stoney={
+		name="Levar Stoney"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Levar_Stoney.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_eli_pariser={
+		name="Eli Pariser"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Eli_Pariser.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_symone_sanders={
+		name="Symone Sanders"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Symone_Sanders.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_james_mattis={
+		name="James Mattis"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_James_Mattis.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = anarcho_syndicalism
+		}
+	}
+	NEA_central_committee={
+		name="Central Committee"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Central_Committee.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_revolutionary_socialism
+		}
+	}
+	NEA_rod_blagojevich={
+		name="Rod Blagojevich"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Rod_Blagojevich.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_revolutionary_socialism
+		}
+	}
+	NEA_chuck_schumer={
+		name="Chuck Schumer"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Chuck_Schumer.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_revolutionary_socialism
+		}
+	}
+	NEA_eric_holder={
+		name="Eric Holder"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Eric_Holder.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_revolutionary_socialism
+		}
+	}
+	NEA_sherrod_brown={
+		name="Sherrod Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Sherrod_Brown.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_revolutionary_socialism
+		}
+	}
+	NEA_pete_buttigieg={
+		name="Pete Buttigieg"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Pete_Buttigieg.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_revolutionary_socialism
+		}
+	}
+	NEA_rahm_emanuel={
+		name="Rahm Emanuel"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Rahm_Emanuel.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_revolutionary_socialism
+		}
+	}
+	NEA_grand_trade_council={
+		name="Grand Trade Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_Grand_Trade_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = syndicalism
+		}
+	}
+	NEA_john_holdren={
+		name="John Holdren"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_NEA_John_Holdren.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_revolutionary_socialism
+		}
+	}
+	NEA_peter_schoomaker={
+		name="Peter Schoomaker"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Peter_Schoomaker.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Peter_Schoomaker.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = NEA_peter_schoomaker
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				army_chief_maneuver_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer commando ranger paratrooper }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_bryan_d._brown={
+		name="Bryan D. Brown"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_bryan_d_brown.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Bryan_D_Brown.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = NEA_bryan_d._brown
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits={ commando }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	NEA_larry_r._ellis={
+		name="Larry R. Ellis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Larry_Ellis.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Larry_R_Ellis.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = NEA_larry_r._ellis
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				army_chief_organizational_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits={ armor_officer panzer_leader thorough_planner }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	NEA_timothy_maude={
+		name="Timothy Maude"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_timothy_maude.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Timothy_Maude.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = NEA_timothy_maude
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits={ politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	NEA_eric_b._schoomaker={
+		name="Eric B. Schoomaker"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Eric_B_Schoomaker.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_gustave_f._perna={
+		name="Gustave F. Perna"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Gustave_F_Perna.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	NEA_james_hart={
+		name="James Hart"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_James_Hart.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless infantry_officer infantry_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_vincent_r._stewart={
+		name="Vincent R. Stewart"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEA/Portrait_Vincent_R_Stewart.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Vincent_R_Stewart.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = nationalist_ideology
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = new_democrat_ideology
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+		corps_commander={
+			traits={ trickster commando }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_john_m._murray={
+		name="John M. Murray"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_John_M_Murray.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader infantry_expert }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_david_zinn={
+		name="David Zinn"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_David_Zinn.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_keith_alexander={
+		name="Keith Alexander"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Keith_Alexander.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Keith_Alexander.dds"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = NEA_keith_alexander
+			ledger = army
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader panzer_expert }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_robert_brooks_brown={
+		name="Robert Brooks Brown"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Robert_Brooks_Brown.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_raymond_a._thomas_iii={
+		name="Raymond A. Thomas III"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Raymond_A_Thomas_III.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando paratrooper }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_michael_j._williams={
+		name="Michael J. Williams"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Michael_J_Williams.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando camouflage_expert }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	NEA_richard_ojeda={
+		name="Richard Ojeda"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Richard_Ojeda.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Richard_Ojeda.dds"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = NEA_richard_ojeda
+			ledger = army
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				army_infantry_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_paul_lacamera={
+		name="Paul LaCamera"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Paul_LaCamera.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer infantry_leader infantry_expert }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_stephen_r._lyons={
+		name="Stephen R. Lyons"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Stephen_r_Lyons.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Stephen_R_Lyons.dds"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = NEA_stephen_r._lyons
+			ledger = army
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				army_logistics_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ commando ranger paratrooper }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_kevin_p._byrnes={
+		name="Kevin P. Byrnes"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Kevin_P_Byrnes.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_dennis_l._via={
+		name="Dennis L. Via"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Dennis_L_Via.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_robert_magnus={
+		name="Robert Magnus"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Robert_Magnus.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_ann_dunwoody={
+		name="Ann Dunwoody"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Ann_Dunwoody.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_edwin_t._brooks={
+		name="Edwin T. Brooks"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Edwin_T_Brooks.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_leader combined_arms_expert }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_flora_d._darpino={
+		name="Flora D. Darpino"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Flora_D_Darpino.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_james_j._tuite_iv={
+		name="James J. Tuite IV"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_James_J_Tuite_IV.dds"
+			}
+		}
+		corps_commander={
+			traits={  infantry_leader infantry_expert urban_assault_specialist }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_john_w._nicholson_jr.={
+		name="John W. Nicholson Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_John_W_Nicholson_Jr.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger paratrooper }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NEA_henry_g._ulrich_iii={
+		name="Henry G. Ulrich III"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Henry_G_Ulrich_III.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_james_g._stavridis={
+		name="James G. Stavridis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_James_G_Stavridis.dds"
+			}
+		}
+		navy_leader={
+			traits={ fleet_protector destroyer_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_karl_schultz={
+		name="Karl Schultz"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Karl_Schultz.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Karl_Schultz.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = NEA_karl_schultz
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				navy_submarine_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_walter_doran={
+		name="Walter Doran"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Walter_Doran.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Walter_Doran.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = NEA_walter_doran
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				navy_chief_maneuver_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		navy_leader={
+			traits={ navy_media_personality }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_william_j._fallon={
+		name="William J. Fallon"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_William_j_Fallon.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_William_J_Fallon.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = NEA_william_j._fallon
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				navy_chief_old_guard
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy ironside }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_john_c._aquilino={
+		name="John C. Aquilino"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_John_c_Aquilino.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_John_C_Aquilino.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = NEA_john_c._aquilino
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				navy_chief_naval_aviation_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		navy_leader={
+			traits={ air_controller }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_john_c._harvey_jr.={
+		name="John C. Harvey Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_John_C_Harvey_Jr.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_craig_s._faller={
+		name="Craig S. Faller"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Craig_S_Faller.dds"
+			}
+		}
+		navy_leader={
+			traits={ fly_swatter cruiser_captain }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NEA_philip_s._davidson={
+		name="Philip S. Davidson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Philip_s_Davidson.dds"
+			}
+			army={
+				large="gfx/leaders/NEA/Portrait_Philip_S_Davidson.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = NEA_philip_s._davidson
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				navy_chief_commerce_raiding_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		navy_leader={
+			traits={ fleet_protector fly_swatter }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	### AIR CHIEFS  if you are reading this, paraguay isnt a real nation atte rob!###
+	NEA_gilmary_M._Hostage_iii={
+		name="Gilmary M. Hostage III"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Gilmary_Hostage.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = gilmary_M._Hostage_iii
+			ledger = air
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				air_air_superiority_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	NEA_raymond_E._Johns_jr={
+		name="Raymond E. Johns Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Raymond_E._Johns_jr.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = raymond_E._Johns_jr
+			ledger = air
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				air_strategic_bombing_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	NEA_james_kowalski={
+		name="James Kowalski"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_James_Kowalski.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = james_kowalski
+			ledger = air
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				air_tactical_bombing_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	NEA_tyler_J._holland={
+		name="Tyler J. Holland"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_Tyler_Holland.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = tyler_J._holland
+			ledger = air
+			allowed = {
+				original_tag = NEA
+			}
+			traits = {
+				air_chief_ground_support_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+}

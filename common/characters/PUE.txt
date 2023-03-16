@@ -1,0 +1,145 @@
+characters={
+	PUE_antonio_cruz_colon={
+		name="Antonio Cruz Colon"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Antonio_Cruz_Colon.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_wanda_vazquez={
+		name="Wanda Vasquez"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portratr_PUE_Wanda_Vazquez.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_juan_first_of_bourbon_anjou={
+		name="Juan I"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Juan_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_juan_enrique_segarra_palmer={
+		name="Juan Enrique Segarra-Palmer"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Juan_Enrique_Segarra_Palmer.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_thomas_rivera_schatz={
+		name="Thomas Rivera Schatz"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Thomas_Rivera_Schatz.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_luis_fortuno={
+		name="Luis Fortuño"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Luis_Fortuno.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_alejandro_padilla={
+		name="Alejandro Padilla"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Alejandro_Padilla.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_ruben_angel_berrios_martinez={
+		name="Rubén Ángel Berríos Martínez"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Ruben_Angel_Berrios_Martinez.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_julio_murimente={
+		name="Julio Murimente"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Julio_Murimente.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_maria_de_lourdes_santiago_negron={
+		name="María de Lourdes Santiago Negrón"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Maria_de_Lourdes_Santiago_Negron.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PUE_carlos_gallisa={
+		name="Carlos Gallisa"
+		portraits={
+			civilian={
+				large="gfx/leaders/PUE/Portrait_PUE_Carlos_Gallisa.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

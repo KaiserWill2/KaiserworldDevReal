@@ -1,0 +1,910 @@
+focus_tree = {
+	id = usa_alaska_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_The_Situation_In_Alaska
+		icon = Icon_The_Situation_in_Alaska_KW
+		x = 16
+		y = 0
+		cost = 2
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = {	
+				id = USA.16
+				}
+				hidden_effect = {
+					news_event = { 
+					id = news.1
+					days = 10 }
+				}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Finally_Pull_Out_Of_Alaska
+		icon = Icon_Finally_Pull_Out_of_Alaska_KW
+		x = 16
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Situation_In_Alaska  }
+		completion_reward = {
+		add_command_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_Take_Our_Time_Withdraw_Slowly
+		icon = Icon_Take_Our_Time_Withdraw_Slowly_KW
+		x = 12
+		y = 2
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_Its_long_Overdue_Get_Our_Boys_Home_Now
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Finally_Pull_Out_Of_Alaska  }
+		completion_reward = {
+			add_political_power = 20
+
+		}
+	
+	}
+
+	focus = {
+		id = USA_Continue_Training_The_Alaskan_Military
+		icon = Icon_Continue_Training_the_Alaskan_Military_KW
+		x = 10
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Take_Our_Time_Withdraw_Slowly  }
+		completion_reward = {
+			add_ideas = Training_Alaska_Military
+		}
+	
+	}
+
+	focus = {
+		id = USA_Fortify_the_consulate
+		icon = Icon_Fortify_the_Consulate_KW
+		x = 10
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Continue_Training_The_Alaskan_Military  }
+		completion_reward = {
+			add_stability = 0.05
+		}
+	
+	}
+
+	focus = {
+		id = USA_Continue_Building_Up_Infrastructure
+		icon = Icon_Continue_Building_Up_Infrastructure_KW
+		x = 10
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fortify_the_consulate  }
+		completion_reward = {
+			add_ideas = Continue_Building_Up_Infrastructure
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_Start_Troop_Withdrawal
+		icon = Icon_Start_Troop_Withdrawal_KW
+		x = 10
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Continue_Building_Up_Infrastructure  }
+		completion_reward = {
+			country_event = {			
+				id = USA.17
+			}
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Cooperate_With_Government_On_Withdrawal_Efforts
+		icon = Icon_Cooperate_with_Government_on_Withdrawal_Efforts_KW
+		x = 10
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Start_Troop_Withdrawal  }
+		completion_reward = {
+			add_command_power = 10
+			add_political_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_Complete_Our_Withdrawal
+		icon = Icon_Complete_our_Withdrawal_KW
+		x = 12
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Cooperate_With_Government_On_Withdrawal_Efforts  }
+		prerequisite = { focus =  USA_Keep_Elmendirf_AFB_Under_Our_Control  }
+		
+		completion_reward = {
+			country_event = {			
+				id = usa.18
+			}
+
+			set_country_flag = USA_Alaska_Crisis
+			mark_focus_tree_layout_dirty = yes
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Continue_Building_Up_The_Government
+		icon = Icon_Continue_Building_Up_the_Governement_KW
+		x = 14
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Take_Our_Time_Withdraw_Slowly  }
+		completion_reward = {
+			add_ideas = building_up_the_governemnt
+		
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Encouraging_American_Investment
+		icon = Icon_Encourage_American_Investments_KW
+		x = 14
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Continue_Building_Up_The_Government  }
+		completion_reward = {
+			add_ideas = Encouraging_american_Investment
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Continue_Secularization_Polcies
+		icon = Icon_Continue_Secularization_Policies_KW
+		x = 14
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Encouraging_American_Investment  }
+		completion_reward = {
+			add_stability = 0.03
+		}
+	
+	}
+
+	focus = {
+		id = USA_Anti-Beringian_Propaganda
+		icon = Icon_Anti-Beringian_Propaganda_KW
+		x = 14
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Continue_Secularization_Polcies  }
+		completion_reward = {
+			add_political_power = 30
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Keep_Elmendirf_AFB_Under_Our_Control
+		icon = Icon_Keep_Elmendorf_AFB_Under_our_Control_KW
+		x = 14
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Anti-Beringian_Propaganda  }
+		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.15
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_Its_long_Overdue_Get_Our_Boys_Home_Now
+		icon = Icon_Its_long_overdue_get_our_boys_home_now_KW
+		x = 20
+		y = 2
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_Take_Our_Time_Withdraw_Slowly
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Finally_Pull_Out_Of_Alaska  }
+		completion_reward = {
+			add_command_power = 20
+			add_political_power = 20
+
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Set_A_4_Week_Timer
+		icon = Icon_Set_a_4_Week_Timer_KW
+		x = 18
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Its_long_Overdue_Get_Our_Boys_Home_Now  }
+		completion_reward = {
+			add_stability = 0.10
+
+		}
+	
+	}
+
+	focus = {
+		id = USA_Push_For_Alaskan_Self_Defense
+		icon = Icon_Push_for_Alaskan_Self-Defense_KW
+		x = 18
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Set_A_4_Week_Timer  }
+		completion_reward = {
+			add_ideas = Alaska_self_defense
+
+		}
+	
+	}
+
+	focus = {
+		id = USA_Put_The_Embassy_On_High_Alert
+		icon = Icon_Put_the_Embassy_on_High_Alert_KW
+		x = 18
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Push_For_Alaskan_Self_Defense  }
+		completion_reward = {
+	         add_stability = -0.10                           
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Remove_Our_Infrastructure
+		icon = Icon_Remove_our_Infrastructure_KW
+		x = 18
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_The_Embassy_On_High_Alert  }
+		completion_reward = {
+			add_political_power = -10
+		}
+	
+	}
+
+	focus = {
+		id = USA_Evacuate_Any_Allies
+		icon = Icon_Evacuate_Any_Allies_KW
+		x = 18
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Remove_Our_Infrastructure  }
+		completion_reward = {
+			add_stability = 0.10
+			add_political_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_We_Accomplished_our_Mission
+		icon = Icon_We_Accomplished_our_Mission_KW
+		x = 20
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Evacuate_Any_Allies  }
+		prerequisite = { focus =  USA_Leave_In_The_Middle_Of_The_Night  }
+		
+		completion_reward = {
+			country_event = {			
+				id = Alaska.6
+			}
+			set_country_flag = USA_Alaska_Crisis
+			mark_focus_tree_layout_dirty = yes
+
+		}
+	
+	}
+
+	focus = {
+		id = USA_Withdraw_Training_Instructors
+		icon = Icon_Withdraw_Training_Instructors_KW
+		x = 22
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Its_long_Overdue_Get_Our_Boys_Home_Now  }
+		completion_reward = {
+			country_event = {			
+				id = Alaska.4
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Delegate_Policing_To_Alaskan_Authorities
+		icon = Icon_Delegate_Policing_to_Alaskan_Authorities_KW
+		x = 22
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Withdraw_Training_Instructors  }
+		completion_reward = {
+			add_ideas = Policing_To_Alaskan_Authorities
+		}
+	
+	}
+
+	focus = {
+		id = USA_Start_Evacuating_Soldiers
+		icon = Icon_Start_Evacuating_Soldiers_KW
+		x = 22
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Delegate_Policing_To_Alaskan_Authorities  }
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_Give_A_Warning_To_Any_Civilians
+		icon = Icon_Give_a_Warning_to_Any_Civilians_KW
+		x = 22
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Start_Evacuating_Soldiers  }
+		completion_reward = {
+			add_stability = -0.05
+		}
+	
+	}
+
+	focus = {
+		id = USA_Leave_In_The_Middle_Of_The_Night
+		icon = Icon_Leave_in_the_Middle_of_the_Night_KW
+		x = 22
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Give_A_Warning_To_Any_Civilians  }
+		completion_reward = {
+			add_political_power = -20
+			add_stability = -0.10
+		}
+	
+	}
+
+
+
+
+
+	focus = {
+		id = USA_The_Anchorage_Crsis
+		icon = Icon_The_Anchorage_Crisis_KW
+		x = 13
+		y = 12
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_A_Successful_Withdrawal
+		}
+		trigger = {
+			has_country_flag = USA_Alaska_Crisis
+		}
+		allow_branch = {
+			has_country_flag = USA_Alaska_Crisis
+		USA_Alaska_Crisis = yes
+		}
+		completion_reward = {
+			country_event = {			
+				id = Alaska.1
+			}
+			
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Operation_Rising_Eagle
+		icon = Icon_Operation_Rising_Eagle_KW
+		x = 10
+		y = 13
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Negotiate_For_Civilian_Safety
+		}
+		prerequisite = { focus =  USA_The_Anchorage_Crsis  }
+
+		completion_reward = {
+			country_event = {			
+				id = Alaska.2
+			}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Secure_Old_Airfields
+		icon = Icon_Secure_Old_Airfields_KW
+		x = 8
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Operation_Rising_Eagle  }
+
+		completion_reward = {
+			add_ideas = Securing_old_Airfields
+
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_The_Race_For_Anchorage
+		icon = Icon_The_Race_for_Anchorage_KW
+		x = 8
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Secure_Old_Airfields  }
+
+		completion_reward = {
+			add_command_power = 20
+			add_manpower = 2500
+		}
+	
+	}
+
+	focus = {
+		id = USA_Melt_The_Alaskan_Wilderness
+		icon = Icon_Melt_the_Alaskan_Wilderness_KW
+		x = 12
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Operation_Rising_Eagle  }
+
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_Bring_Canada_Into_The_Fold
+		icon = Icon_Bring_Canada_Into_the_Fold_KW
+		x = 12
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Melt_The_Alaskan_Wilderness  }
+
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = {
+					target = CAN
+					modifier = declaration_of_friendship
+				}
+			}
+
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_BReinegrate_Alaska_Into_The_Union
+		icon = Icon_Integrate_Alaska_Into_the_Union_KW
+		x = 10
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Bring_Canada_Into_The_Fold  }
+		prerequisite = { focus =  USA_The_Race_For_Anchorage  }
+
+		completion_reward = {
+			USA = {
+				annex_country = { target = ALA transfer_troops = yes }
+			}
+			country_event = {			
+				id = Alaska.20
+			}
+			hidden_effect = {
+				country_event = {			
+					id = Alaska.9
+				}
+			}
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = USA_Negotiate_For_Civilian_Safety
+		icon = Icon_Negociate_for_Civilian_Safety_KW
+		x = 16
+		y = 13
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Operation_Rising_Eagle
+		}
+		prerequisite = { focus =  USA_The_Anchorage_Crsis  }
+
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_Release_Beringian_Figures
+		icon = Icon_Release_Beringian_Figures_KW
+		x = 14
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Negotiate_For_Civilian_Safety  }
+
+		completion_reward = {
+			add_stability = -0.15
+		}
+	
+	}
+
+	focus = {
+		id = USA_Secure_The_Anchorage_Airport
+		icon = Icon_Secure_Anchorage_Airport_KW
+		x = 14
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Release_Beringian_Figures  }
+
+		completion_reward = {
+			add_manpower = 1000
+			add_command_power = 20
+		}
+	
+	}
+
+	focus = {
+		id = USA_Push_For_A_Democratic_Regime
+		icon = Icon_Push_for_a_Democratic_Regime_KW
+		x = 18
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Negotiate_For_Civilian_Safety  }
+
+		completion_reward = {
+	add_stability = -0.10
+	add_popularity = {
+		ideology = moderate_socialist
+		popularity = -0.05
+	}
+		}
+	
+	}
+
+	focus = {
+		id = USA_Leave_As_Quickly_As_Possible
+		icon = Icon_Leave_as_Quickly_as_Possible_KW
+		x = 18
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Push_For_A_Democratic_Regime  }
+
+		completion_reward = {
+			add_stability = -0.10
+			add_command_power = -10
+			add_manpower = 3500
+		}
+	
+	}
+
+	focus = {
+		id = USA_What_Was_The_Point
+		icon = Icon_What_Was_the_Point_KW
+		x = 16
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { focus =  USA_Leave_As_Quickly_As_Possible  }
+		prerequisite = { focus =  USA_Secure_The_Anchorage_Airport  }
+
+		completion_reward = {
+			add_stability = -0.10
+			country_event = {			
+				id = Alaska.9
+			}
+			
+		}
+	
+	}
+
+
+
+
+
+
+	focus = {
+		id = USA_A_Successful_Withdrawal
+		icon = Icon_A_Successful_Withdrawal_KW
+		x = 23
+		y = 12
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_The_Anchorage_Crsis
+		}
+		trigger = {
+			has_country_flag = USA_Alaska_Crisis
+		}
+		allow_branch = {
+			has_country_flag = USA_Alaska_Crisis
+			USA_Alaska_Crisis = yes
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Continue_To_Support_Democracy_Aboard
+		icon = Icon_Continue_to_Support_Democracy_Abroad_KW
+		x = 23
+		y = 13
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_Successful_Withdrawal  }
+
+		completion_reward = {
+			add_political_power = 20
+			
+		}
+	
+	}
+
+	focus = {
+		id = USA_Establish_A_New_Embassy
+		icon = Icon_Establish_a_New_Embassy_KW
+		x = 23
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Continue_To_Support_Democracy_Aboard  }
+
+		completion_reward = {
+	add_command_power = 10
+	add_stability = 0.10
+	add_political_power = 30
+		}
+	
+	}
+
+	focus = {
+		id = USA_Cooperate_With_The_Alaskan_Military
+		icon = Icon_Cooperate_with_the_Alaskan_Military_KW
+		x = 23
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Establish_A_New_Embassy  }
+
+		completion_reward = {
+			add_manpower = 1000
+			hidden_effect = {
+				id = Alaska.10
+			}
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Alaska_And_America_Push_Forward_Together
+		icon = Icon_Alaska_and_America_Push_Foward_Together_KW
+		x = 23
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Cooperate_With_The_Alaskan_Military  }
+
+		completion_reward = {
+			country_event = {			
+				id = Alaska.8
+			}
+		
+		
+		
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

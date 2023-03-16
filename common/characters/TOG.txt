@@ -1,0 +1,145 @@
+characters={
+	TOG_zakari_nandja={
+		name="Zakari Nandja"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Zakari_Nandja.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_faure_gnassingbé={
+		name="Faure Gnassingbé"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Faure_Gnassingbe.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_savado_lawson_viii={
+		name="Savado Lawson VIII"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Savado_Lawson_Eigth.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_kpatcha_gnassingbé={
+		name="Kpatcha Gnassingbé"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Kpatcha_Gnassingbé.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_agbéyomé_kodjo={
+		name="Agbéyomé Kodjo"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Agbéyomé_Kodjo.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_zarifou_ayéva={
+		name="Zarifou Ayéva"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Zarifou_Ayéva.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_joseph_kokou_koffigoh={
+		name="Joseph Kokou Koffigoh"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Joseph_Kokou_Koffigoh.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_gilchrist_olympio={
+		name="Gilchrist Olympio"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Gilchrist_Olympio.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_jeanpierre_fabre={
+		name="Jean-Pierre Fabre"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Jean_Pierre_Fabre.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_edem_kodjo={
+		name="Edem Kodjo"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Edem_Kodjo.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOG_tavio_amorin={
+		name="Tavio Amorin"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOG/Portrait_TOG_Tavio_Amorin.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

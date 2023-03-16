@@ -1,0 +1,286 @@
+characters={
+	JOR_faraj_altameezi={
+		name="Faraj Al-Tameezi"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Faraj_Al_Tameezi.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_emhamed_abu_khalil={
+		name="Emhamed Abu Khalil"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Emhamed_Abu_Khalil.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_mahmoud_freihat={
+		name="Mahmoud Freihat"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Mahmoud_Freihat.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_abdullah_ii={
+		name="Abdullah II"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Abdullah_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_akram_alhomsi={
+		name="Akram Al-Homsi"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Akram_Al_Homsi.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_hamza_mansour={
+		name="Hamza Mansour"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Hamza_Mansour.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_hani_almulki={
+		name="Hani Al-Mulki"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Hani_Al_Mulki.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_rula_alhroob={
+		name="Rula Alhroob"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Rula_Alhroob.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_saleh_ersheidatt={
+		name="Saleh Ersheidatt"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Saleh_Ersheidatt.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SALEH_ERSHEIDATT_DESC"
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_saeed_thyab={
+		name="Saeed Thyab"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Saeed_Thyab.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_abla_abu_elbah={
+		name="Abla Abu Elbah"
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_JOR_Abla_Abu_Elbah.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JOR_khaled_sarayra={
+		name="Khaled Sarayra"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JOR/portrait_Khaled_Sarayra.dds"
+			}
+		}
+		field_marshal={
+			traits={ skilled_staffer expert_delegator }
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	JOR_mashal_zaben={
+		name="Mashal Zaben"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JOR/portrait_Mashal_Zaben.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_mountaineer }
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	JOR_yousef_huneiti={
+		name="Yousef Huneiti"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JOR/portrait_Yousef_Huneiti.dds"
+			}
+		}
+		corps_commander={
+			traits={ organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	JOR_abdel_hafez_kaabneh={
+		name="Abdel Hafez Ka'abneh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JOR/portrait_Abdel_Hafez_Kaabneh.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	JOR_hussein_majali={
+		name="Hussein Majali"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JOR/portrait_Hussein_Majali.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	JOR_muhammed_bashir_ismail_ashshishani={
+		name="Muhammed Bashir Ismail ash-Shishani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JOR/portrait_Muhammed_Bashir_Ismail_ash_Shishani.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer infantry_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	JOR_ibrahim_salman_alnaimat={
+		name="Ibrahim Salman al-Naimat"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/JOR/portrait_Ibrahim_Salman_Al_Naimat.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

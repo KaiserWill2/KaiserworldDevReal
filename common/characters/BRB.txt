@@ -1,0 +1,145 @@
+characters={
+	BRB_darwin_dottin={
+		name="Darwin Dottin"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_Darwin_Dottin.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_alvin_quintyne={
+		name="Alvin Quintyne"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_Alvin_Quintyne.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_tonika_sealythompson={
+		name="Tonika Sealy-Thompson"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_Tonika_Sealy_Thompson.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_clifford_husbands={
+		name="Clifford Husbands"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_Clifford_Husbands.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_julian_rogers={
+		name="Julian Rogers"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_Julian_Rogers.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_alex_mitchell={
+		name="Alex Mitchell"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_Alex_Mitchell.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_lynette_eastmond={
+		name="Lynette Eastmond"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_Lynette_Eastmond.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_owen_arthur={
+		name="Owen Arthur"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_Owen_Arthur.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_freundel_stuart={
+		name="Freundel Stuart"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_Freundel_Stuart.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_david_comissiong={
+		name="David Comissiong"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_David_Comissiong.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRB_george_belle={
+		name="George Belle"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRB/Portrait_BRB_George_Belle.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

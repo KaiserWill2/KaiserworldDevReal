@@ -1,0 +1,154 @@
+add_namespace = Alaska
+
+country_event = {
+	id = Alaska.1
+	title = Alaska.1.t
+	desc = Alaska.1.d
+	picture = Anchorage_Under_Siege_event
+	is_triggered_only = yes
+
+	option = {
+		name = Alaska.1.o1
+
+	}
+}
+
+country_event = {
+	id = Alaska.2
+	title = Alaska.2.t
+	desc = Alaska.2.d
+	picture = order_66_event
+	is_triggered_only = yes
+
+	option = {
+		name = Alaska.2.o1
+
+	}
+}
+
+
+
+country_event = {
+	id = Alaska.4
+	title = Alaska.4.t
+	desc = Alaska.4.d
+	picture = alaskan_milita_takes_rig_event
+	is_triggered_only = yes
+
+	option = {
+		name = Alaska.4.o1
+
+	}
+}
+
+country_event = {
+	id = Alaska.6
+	title = Alaska.6.t
+	desc = Alaska.6.d
+	picture = last_troops_leave_alaska_event
+	is_triggered_only = yes
+
+	option = {
+		name = Alaska.6.o1
+
+	}
+}
+
+country_event = {
+	id = Alaska.7
+	title = Alaska.7.t
+	desc = Alaska.7.d
+	picture = alaska_and_america_push_forward_Event
+	is_triggered_only = yes
+
+	option = {
+		name = Alaska.7.o1
+	
+	}
+}
+
+country_event = {
+	id = Alaska.8
+	title = Alaska.8.t
+	desc = Alaska.8.d
+	picture = reintegtate_alaska_event
+	is_triggered_only = yes
+
+	option = {
+		name = Alaska.8.o1
+		load_focus_tree = {
+			tree = USA_intro_tree
+			keep_completed = yes
+		}
+
+		
+		hidden_effect = {
+			USA = {
+				country_event = { days = 365 id = usa.14 } 
+			}
+		}
+	}
+}
+
+country_event = {
+	id = Alaska.9
+	title = Alaska.9.t
+	desc = Alaska.9.d
+	picture = what_was_the_point_event
+	is_triggered_only = yes
+
+	option = {
+		name = Alaska.9.o1
+		load_focus_tree = {
+			tree = USA_intro_tree
+			keep_completed = yes
+		}
+		hidden_effect = {
+
+			USA = {
+				country_event = { days = 365 id = usa.15 } 
+			}
+
+		}
+
+	
+	}
+}
+
+country_event = {
+	id = Alaska.10
+	title = Alaska.10.t
+	desc = Alaska.10.d
+	picture = bernie_no_third_term_event
+	is_triggered_only = yes
+
+	option = {
+		name = Alaska.10.o1
+
+	}
+}
+
+
+country_event = {
+	id = Alaska.20
+	title = Alaska.20.t
+	desc = Alaska.20.d
+	picture = Anchorage_Under_Siege_event
+	is_triggered_only = yes
+
+	option = {
+		name = Alaska.20.o1
+		load_focus_tree = {
+			tree = USA_intro_tree
+			keep_completed = yes
+		}
+		hidden_effect = {
+			USA = {
+				country_event = { days = 365 id = usa.15 } 
+			}
+		}
+	}
+}
+
+
+

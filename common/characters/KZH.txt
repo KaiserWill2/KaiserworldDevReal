@@ -1,0 +1,365 @@
+characters={
+	KZH_gaziz_aldamzharov={
+		name="Gaziz Aldamzharov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Gaziz_Aldamzharov.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_amantay_hantemiruly_asylbek={
+		name="Amantay Hantemiruly Asylbek"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Amantay_Hantemiruly_Asylbek.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_nursultan_nazarbayev={
+		name="Nursultan Nazarbayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Nursultan_Nazarbayev.dds"
+			}
+		}
+		country_leader={
+			ideology=neoconservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_nafusa_azimkhanovna={
+		name="Nafusa Azimkhanovna"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Nafusa_Azimkhanovna.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_serik_sultangaliev={
+		name="Serik Sultangaliev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Serik_Sultangaliev.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_gani_qasymov={
+		name="Gani Qasymov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Gani_Qasymov.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_mukhtar_ablyazov={
+		name="Mukhtar Ablyazov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Mukhtar_Ablyazov.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_janbolat_mamai={
+		name="Janbolat Mamai"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Janbolat_Mamai.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_zharmakhan_tuyakbay={
+		name="Zharmakhan Tuyakbay"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Zharmakhan_Tuyakbay.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_dariga_nazarbayeva={
+		name="Dariga Nazarbayeva"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Dariga_Nazarbayeva.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_esenbek_ukteshbayev={
+		name="Esenbek Ukteshbayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Portrait_KZH_Esenbek_Ukteshbayev.dds"
+			}
+		}
+		country_leader={
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KZH_mukhtar_altynbayev={
+		name="Mukhtar Altynbayev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Mukhtar_Altynbayev.dds"
+			}
+		}
+		field_marshal={
+			traits={ war_hero }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	KZH_saken_zhasuzakov={
+		name="Saken Zhasuzakov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Saken_Zhasuzakov.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	KZH_murat_bektanov={
+		name="Murat Bektanov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Murat_Bektanov.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	KZH_murat_maikeyev={
+		name="Murat Maikeyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Murat_Maikeyev.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KZH_yunus_bek_yevkurov={
+		name="Yunus-bek Yevkurov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Yunus_bek_Yevkurov.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KZH_nurlan_yermekbayev={
+		name="Nurlan Yermekbayev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Nurlan_Yermekbayev.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	KZH_kaidar_karakulov={
+		name="Kaidar Karakulov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Kaidar_Karakulov.dds"
+			}
+		}
+		corps_commander={
+			traits = { desert_fox }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	KZH_dzhabrail_yamadayev={
+		name="Dzhabrail Yamadayev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Dzhabrail_Yamadayev.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	KZH_saken_bekzhanov={
+		name="Saken Bekzhanov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Saken_Bekzhanov.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			coordination_skill=1
+			maneuvering_skill=3
+			legacy_id=-1
+		}
+	}
+	KZH_ratmir_komratov={
+		name="Ratmir Komratov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Ratmir_Komratov.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			coordination_skill=2
+			maneuvering_skill=2
+			legacy_id=-1
+		}
+	}
+	KZH_zhandarbek_zhanzakov={
+		name="Zhandarbek Zhanzakov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KZH/Portrait_Zhandarbek_Zhanzakov.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			coordination_skill=2
+			maneuvering_skill=2
+			legacy_id=-1
+		}
+	}
+}

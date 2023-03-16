@@ -1,0 +1,1057 @@
+focus_tree = {
+	id = USA_paul_ryan_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_Fix_Americas_Mistakes
+		icon = unknown
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_Combat_Political_Extremism
+		icon = unknown
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fix_Americas_Mistakes  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Bernie_Was_The_Greatest_Mistake
+		icon = unknown
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Combat_Political_Extremism  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Roll_Back_BernieCare
+		icon = unknown
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernie_Was_The_Greatest_Mistake  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_The_1776_Project
+		icon = unknown
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Roll_Back_BernieCare  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Employ_Native_In_Office
+		icon = unknown
+		x = 5
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_1776_Project  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Roll_Back_Parliamentary_Powers
+		icon = unknown
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Roll_Back_BernieCare  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Promote_Traditional_Values
+		icon = unknown
+		x = 7
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Roll_Back_Parliamentary_Powers  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Criticize_Media_Bias
+		icon = unknown
+		x = 6
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Promote_Pre_Civil_War_History
+			focus = USA_The_Wonders_Of_Capitalism
+			focus = USA_Subsidize_The_Tech_Industry
+
+		}
+		prerequisite = { focus =  USA_Promote_Traditional_Values  }
+		prerequisite = { focus =  USA_Employ_Native_In_Office  }
+		prerequisite = { focus =  USA_Lower_Tarrifs  }
+		prerequisite = { focus =  USA_Create_Low_Tax_Zones  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Add_Stipulations_To_Welfare
+		icon = unknown
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernie_Was_The_Greatest_Mistake  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Work_With_Reformists
+		icon = unknown
+		x = 10
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Add_Stipulations_To_Welfare  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Demonize_The_Commonwealth_Party
+		icon = unknown
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Work_With_Reformists  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Promote_Pre_Civil_War_History
+		icon = unknown
+		x = 9
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Criticize_Media_Bias
+			focus = USA_The_Wonders_Of_Capitalism
+			focus = USA_Subsidize_The_Tech_Industry
+
+		}
+		prerequisite = { focus =  USA_Demonize_The_Commonwealth_Party  }
+		prerequisite = { focus =  USA_Promote_Traditional_Values  }
+		prerequisite = { focus =  USA_Employ_Native_In_Office  }
+		prerequisite = { focus =  USA_Lower_Tarrifs  }
+		prerequisite = { focus =  USA_Create_Low_Tax_Zones  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Actually_Help_The_Common_Man
+		icon = unknown
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernie_Was_The_Greatest_Mistake  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Lower_Taxes_On_The_Rich
+		icon = unknown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Actually_Help_The_Common_Man  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Lower_Taxes_On_The_Rich
+		icon = unknown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Actually_Help_The_Common_Man  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Create_Low_Tax_Zones
+		icon = unknown
+		x = 13
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Lower_Taxes_On_The_Rich  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Reinvigorate_American_Industry
+		icon = unknown
+		x = 15
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Actually_Help_The_Common_Man  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Lower_Tarrifs
+		icon = unknown
+		x = 15
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reinvigorate_American_Industry  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Subsidize_The_Tech_Industry
+		icon = unknown
+		x = 14
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Criticize_Media_Bias
+			focus = USA_Promote_Pre_Civil_War_History
+			focus = USA_The_Wonders_Of_Capitalism
+
+		}
+		prerequisite = { focus =  USA_Lower_Tarrifs  }
+		prerequisite = { focus =  USA_Create_Low_Tax_Zones  }
+		prerequisite = { focus =  USA_Demonize_The_Commonwealth_Party  }
+		prerequisite = { focus =  USA_Promote_Traditional_Values  }
+		prerequisite = { focus =  USA_Employ_Native_In_Office  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_The_Wonders_Of_Capitalism
+		icon = unknown
+		x = 11
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Criticize_Media_Bias
+			focus = USA_Promote_Pre_Civil_War_History
+			focus = USA_Subsidize_The_Tech_Industry
+
+		}
+		prerequisite = { focus =  USA_Lower_Tarrifs  }
+		prerequisite = { focus =  USA_Create_Low_Tax_Zones  }
+		prerequisite = { focus =  USA_Demonize_The_Commonwealth_Party  }
+		prerequisite = { focus =  USA_Promote_Traditional_Values  }
+		prerequisite = { focus =  USA_Employ_Native_In_Office  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Harshen_Immigration_Restrictions
+		icon = unknown
+		x = 7
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Support_School_Choice
+			focus = USA_Criticize_The_Canadian_Regime
+
+		}
+		prerequisite = { 
+		focus =  USA_Criticize_Media_Bias
+		focus =  USA_Promote_Pre_Civil_War_History
+		focus =  USA_The_Wonders_Of_Capitalism
+		focus =  USA_Subsidize_The_Tech_Industry
+
+	}
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Criticize_The_Canadian_Regime
+		icon = unknown
+		x = 10
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Support_School_Choice
+			focus = USA_Harshen_Immigration_Restrictions
+
+		}
+		prerequisite = { 
+		focus =  USA_Criticize_Media_Bias
+		focus =  USA_Promote_Pre_Civil_War_History
+		focus =  USA_The_Wonders_Of_Capitalism
+		focus =  USA_Subsidize_The_Tech_Industry
+
+	}
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Support_School_Choice
+		icon = unknown
+		x = 13
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Criticize_The_Canadian_Regime
+			focus = USA_Harshen_Immigration_Restrictions
+
+		}
+		prerequisite = { 
+		focus =  USA_Criticize_Media_Bias
+		focus =  USA_Promote_Pre_Civil_War_History
+		focus =  USA_The_Wonders_Of_Capitalism
+		focus =  USA_Subsidize_The_Tech_Industry
+
+	}
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_America_First_Energy_Plan
+		icon = unknown
+		x = 8
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { 
+		focus =  USA_Harshen_Immigration_Restrictions
+		focus =  USA_Criticize_The_Canadian_Regime
+		focus =  USA_Support_School_Choice
+
+	}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Safe_Gun_Legislation
+		icon = unknown
+		x = 12
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { 
+		focus =  USA_Harshen_Immigration_Restrictions
+		focus =  USA_Criticize_The_Canadian_Regime
+		focus =  USA_Support_School_Choice
+
+	}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_America_Made_Great
+		icon = unknown
+		x = 10
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		prerequisite = { 
+		focus =  USA_America_First_Energy_Plan
+		focus =  USA_Safe_Gun_Legislation
+
+
+	}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_Conservative_Foreign_Policy
+		icon = unknown
+		x = 30
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Fall_Back_To_Hoover
+		icon = unknown
+		x = 25
+		y = 1
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_A_New_Fortress_On_The_Hill
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_A_Conservative_Foreign_Policy
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Neutral_Trade_Policies
+		icon = unknown
+		x = 25
+		y = 2
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Fall_Back_To_Hoover
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Continue_The_Syndicalist_Embargoes
+		icon = unknown
+		x = 25
+		y = 3
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Neutral_Trade_Policies
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Encourage_Foreign_Investment
+		icon = unknown
+		x = 22
+		y = 4
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Continue_The_Syndicalist_Embargoes
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Extradite_Criminals
+		icon = unknown
+		x = 22
+		y = 5
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Continue_The_Syndicalist_Embargoes
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_German_Food_Deals
+		icon = unknown
+		x = 23
+		y = 6
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Extradite_Criminals
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Invest_In_Canada
+		icon = unknown
+		x = 25
+		y = 4
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Continue_The_Syndicalist_Embargoes
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Invest_In_Germany
+		icon = unknown
+		x = 25
+		y = 5
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Invest_In_Canada
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Neutral_Grounds_In_America
+		icon = unknown
+		x = 28
+		y = 4
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Continue_The_Syndicalist_Embargoes
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Brng_Peace_To_Both_Factions
+		icon = unknown
+		x = 28
+		y = 5
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Neutral_Grounds_In_America
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Canadian_Military_Deals
+		icon = unknown
+		x = 27
+		y = 6
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Brng_Peace_To_Both_Factions
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Never_Another_Weltkrieg
+		icon = unknown
+		x = 25
+		y = 7
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Canadian_Military_Deals
+		}
+		prerequisite = { 
+			focus =  USA_German_Food_Deals
+		}
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_A_New_Fortress_On_The_Hill
+		icon = unknown
+		x = 35
+		y = 1
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_Fall_Back_To_Hoover
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_A_Conservative_Foreign_Policy
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_The_Third_Power
+		icon = unknown
+		x = 35
+		y = 2
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_A_New_Fortress_On_The_Hill
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Set_up_American_Bases_Overseas
+		icon = unknown
+		x = 35
+		y = 3
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_The_Third_Power
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Free_Movement_Between_Members
+		icon = unknown
+		x = 32
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_up_American_Bases_Overseas
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Set_Up_Joint_Battalions
+		icon = unknown
+		x = 35
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_up_American_Bases_Overseas
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Push_For_French_Membership
+		icon = unknown
+		x = 38
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_up_American_Bases_Overseas
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Push_For_International_Detente
+		icon = unknown
+		x = 35
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_Up_Joint_Battalions
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Cultural_Exchange_Between_The_Memebers
+		icon = unknown
+		x = 32
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_Up_Joint_Battalions
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Reach_Out_To_The_Benelux
+		icon = unknown
+		x = 38
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_Up_Joint_Battalions
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Secure_True_Freedom
+		icon = unknown
+		x = 35
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Push_For_International_Detente
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Lower_Tarrifs_For_Members
+		icon = unknown
+		x = 32
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Push_For_International_Detente
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Tame_The_Iberians
+		icon = unknown
+		x = 38
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Push_For_International_Detente
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

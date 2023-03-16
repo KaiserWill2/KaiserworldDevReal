@@ -1,0 +1,145 @@
+characters={
+	LIB_sekou_conneh={
+		name="Sekou Conneh"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Sekou_Conneh.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_alhaji_g.v._kromah={
+		name="Alhaji G.V. Kromah"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Alhaji_G_V_Kromah.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_samuel_doe={
+		name="Samuel Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Samuel_Doe.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_prince_johnson={
+		name="Prince Johnson"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Prince_Johnson.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_charles_taylor={
+		name="Charles Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Charles_Taylor.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_winston_tubman={
+		name="Winston Tubman"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Winston_Tubman.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_ellen_johnson_sirleaf={
+		name="Ellen Johnson Sirleaf"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Ellen_Johnson_Sirleaf.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_george_klay_kieh={
+		name="George Klay Kieh"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_George_Klay_Kieh .dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_joseph_woahtee={
+		name="Joseph Woah-Tee"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Joseph_Woah_Tee.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_amos_sawyer={
+		name="Amos Sawyer"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Amos_Sawyer.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_nathaniel_i={
+		name="Nathaniel I"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_Nathaniel_Massaquoi.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

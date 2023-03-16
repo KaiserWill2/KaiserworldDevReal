@@ -1,0 +1,1788 @@
+focus_tree = {
+	id = usa_JKF_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_The_Delta_-Green_President
+		icon = unknown
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_Better_The_Devil_You_Know
+		icon = unkown
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Delta_-Green_President  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Fixing_Americas_Mistakes
+		icon = unkown
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Delta_-Green_President  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Move_More_Funding_Towarads_Delta_Green
+		icon = unkown
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fixing_Americas_Mistakes  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Bunkers_For_The_Arrival
+		icon = unkown
+		x = 6
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Move_More_Funding_Towarads_Delta_Green  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Restart_Project_Green_Book
+		icon = unkown
+		x = 6
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Move_More_Funding_Towarads_Delta_Green  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Reverse_Engineer_Project_82
+		icon = unkown
+		x = 6
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Restart_Project_Green_Book  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_A_Meeting_With_The_Council
+		icon = unkown
+		x = 6
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reverse_Engineer_Project_82  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Undoing_The_Bernoe_Tax_Hikes
+		icon = unkown
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fixing_Americas_Mistakes  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Combat_The_Socialist_Menace
+		icon = unkown
+		x = 9
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Undoing_The_Bernoe_Tax_Hikes  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Raise_Taxes_On_Border_Communities
+		icon = unkown
+		x = 9
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Combat_The_Socialist_Menace  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Close_The_Russian_Embassy
+		icon = unkown
+		x = 9
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Raise_Taxes_On_Border_Communities  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Build_Up_New_England
+		icon = unkown
+		x = 11
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Undoing_The_Bernoe_Tax_Hikes  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Discreetly_Fund_Lovecraftian_Organizations
+		icon = unkown
+		x = 11
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Build_Up_New_England  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_Urban_Renewal_Project
+		icon = unkown
+		x = 11
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Discreetly_Fund_Lovecraftian_Organizations  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_Problem_With_The_Emperor
+		icon = unkown
+		x = 10
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Urban_Renewal_Project  }
+		prerequisite = { focus =  USA_Close_The_Russian_Embassy  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Rewriting_History
+		icon = unkown
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fixing_Americas_Mistakes  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_New_England_Save_America_Not_California
+		icon = unkown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Rewriting_History  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_New_England_Save_America_Not_California
+		icon = unkown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Rewriting_History  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Talking_To_Extremist_Groups
+		icon = unkown
+		x = 13
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_New_England_Save_America_Not_California  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Stoking_Riots_In_The_Capitol
+		icon = unkown
+		x = 13
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Talking_To_Extremist_Groups  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_The_False_Flag_At_Noon
+		icon = unkown
+		x = 13
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Stoking_Riots_In_The_Capitol  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Retreat_To_Providence
+		icon = unkown
+		x = 20
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Stoke_The_Flames_OF_War
+		icon = unkown
+		x = 20
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Retreat_To_Providence  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Spread_The_Martial_Law_Declaration
+		icon = unkown
+		x = 20
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Stoke_The_Flames_OF_War  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Embrace_Anarchy_Forget_Tradition
+		icon = unkown
+		x = 20
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Spread_The_Martial_Law_Declaration  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Thy_Will_Be_Done
+		icon = unkown
+		x = 35
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_2nd_Vermont_Campaign
+		icon = unkown
+		x = 35
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Thy_Will_Be_Done  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Lovecraftist_Doctrine
+		icon = unkown
+		x = 35
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_2nd_Vermont_Campaign  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_follow__In_The_Prophets_Steps
+		icon = unkown
+		x = 40
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Lovecraftist_Doctrine  }
+		mutually_exclusive ={
+			focus = USA_Left_Lovecraftianism
+		}
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Reinstate_Racial_Laws
+		icon = unkown
+		x = 40
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_follow__In_The_Prophets_Steps  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_A_New_Version_Of_English
+		icon = unkown
+		x = 40
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reinstate_Racial_Laws  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Replace_Police_With_Delta_Green
+		icon = unkown
+		x = 37
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Version_Of_English  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Build_Protection_Camps
+		icon = unkown
+		x = 37
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Replace_Police_With_Delta_Green  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Safekeeping_The_Non_Anglos
+		icon = unkown
+		x = 37
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Build_Protection_Camps  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Ending_Decades_Of_Liberal_Policies
+		icon = unkown
+		x = 40
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Version_Of_English  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Bar_Woman_From_Schooling
+		icon = unkown
+		x = 40
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Ending_Decades_Of_Liberal_Policies  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Teach_The_True_Word_Of_The_Prophet
+		icon = unkown
+		x = 40
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bar_Woman_From_Schooling  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Rewrite_History
+		icon = unkown
+		x = 43
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Version_Of_English  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Conscript_True_Adherents
+		icon = unkown
+		x = 43
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Rewrite_History  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Build_The_Yellow_Palace
+		icon = unkown
+		x = 43
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Conscript_True_Adherents  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Sally_Forth_For_His_Vision_Be_Made
+		icon = unkown
+		x = 40
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Build_The_Yellow_Palace  }
+		prerequisite = { focus =  USA_Teach_The_True_Word_Of_The_Prophet  }
+		prerequisite = { focus =  USA_Safekeeping_The_Non_Anglos  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+
+
+	focus = {
+		id = USA_Left_Lovecraftianism
+		icon = unkown
+		x = 30
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Lovecraftist_Doctrine  }
+		mutually_exclusive ={
+			focus = USA_follow__In_The_Prophets_Steps
+		}
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Equality_And_Equity_For_All
+		icon = unkown
+		x = 30
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Left_Lovecraftianism  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Paradise_Under_Providences_Eye
+		icon = unkown
+		x = 30
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Equality_And_Equity_For_All  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Unite_All_Under_The_Culture
+		icon = unkown
+		x = 28
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Paradise_Under_Providences_Eye  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+	focus = {
+		id = USA_Replace_The_Aristocracy
+		icon = unkown
+		x = 28
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Unite_All_Under_The_Culture  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Run_Headfirst_Into_The_Future
+		icon = unkown
+		x = 28
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Replace_The_Aristocracy  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Save_America_From_Itself
+		icon = unkown
+		x = 30
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Paradise_Under_Providences_Eye  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Invite_Bernie_Into_Government
+		icon = unkown
+		x = 30
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Save_America_From_Itself  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Liberate_The_Empire_From_Royalism
+		icon = unkown
+		x = 30
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Invite_Bernie_Into_Government  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Adopt_Some_Tenets_Of_Syndicalism
+		icon = unkown
+		x = 32
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Paradise_Under_Providences_Eye  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_All_Safe_Under_The_Banner
+		icon = unkown
+		x = 32
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Adopt_Some_Tenets_Of_Syndicalism  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Ending_Racism_In_The_Nation
+		icon = unkown
+		x = 32
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_All_Safe_Under_The_Banner  }
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Universal_Lovecraftianism
+		icon = unkown_
+		x = 30
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Ending_Racism_In_The_Nation  }
+		prerequisite = { focus =  USA_Liberate_The_Empire_From_Royalism  }
+		prerequisite = { focus =  USA_Run_Headfirst_Into_The_Future  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_A_New_Better_Vision_Of_America
+		icon = unkown
+		x = 40
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_A_New_Better_Vision_Of_America
+		icon = unkown
+		x = 40
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Voluntary_Suicide_Centers
+		icon = unkown
+		x = 37
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Better_Vision_Of_America  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Ending_The_Sham_Of_Democracy
+		icon = unkown
+		x = 37
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Better_Vision_Of_America  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Hang_The_Unbelivers
+		icon = unkown
+		x = 37
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Ending_The_Sham_Of_Democracy  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_A_Pure_America_By_His_Will
+		icon = unkown
+		x = 40
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Better_Vision_Of_America  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Redefine_Science
+		icon = unkown
+		x = 40
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_Pure_America_By_His_Will  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Assist_The_Media
+		icon = unkown
+		x = 40
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Redefine_Science  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Re_establish_The_Old_Gods
+		icon = unkown
+		x = 40
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Assist_The_Media  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_A_New_Better_Cult_Of_Providence
+		icon = unkown
+		x = 38
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Re_establish_The_Old_Gods  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Anglo_Lovercraftian_Identity
+		icon = unkown
+		x = 40
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Re_establish_The_Old_Gods  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Purge_The_Natives_From_History
+		icon = unkown
+		x = 38
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Anglo_Lovercraftian_Identity  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Glorify_The_KKK
+		icon = unkown
+		x = 40
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Anglo_Lovercraftian_Identity  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Prepare_For_His_Arrival
+		icon = unkown
+		x = 42
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Anglo_Lovercraftian_Identity  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Work_With_The_Confederates
+		icon = unkown
+		x = 43
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Better_Vision_Of_America  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Pardon_The_Patriot_Front
+		icon = unkown
+		x = 43
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Work_With_The_Confederates  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Spartan_Nation
+		icon = unkown
+		x = 43
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Pardon_The_Patriot_Front  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+
+	focus = {
+		id = USA_The_Innsmouth_Trials
+		icon = unkown
+		x = 50
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_Worst_Of_Them_All
+		icon = unkown
+		x = 50
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Innsmouth_Trials  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Trial_Of_The_Traitorous
+		icon = unkown
+		x = 50
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Worst_Of_Them_All  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_Trial_Of_Old_Politicans
+		icon = unkown
+		x = 48
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Trial_Of_The_Traitorous  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Purge_The_Soldiers_Who_Swear_No_Allegiance
+		icon = unkown
+		x = 50
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Trial_Of_The_Traitorous  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_The_Purge_Of_Liberal_Woman
+		icon = unkown
+		x = 52
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Trial_Of_The_Traitorous  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+
+	focus = {
+		id = USA_End_The_Trials
+		icon = unkown
+		x = 50
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Trial_Of_Old_Politicans  }
+		prerequisite = { focus =  USA_Purge_The_Soldiers_Who_Swear_No_Allegiance  }
+		prerequisite = { focus =  USA_The_Purge_Of_Liberal_Woman  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Show_Them_Our_Gracious_Light
+		icon = unkown
+		x = 60
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Retreat_Into_Our_Own_Purity
+		}
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_End_The_Windsor_Exile_Permanetly
+		icon = unkown
+		x = 60
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Show_Them_Our_Gracious_Light  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Expand_In_The_New_World
+		icon = unkown
+		x = 58
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_End_The_Windsor_Exile_Permanetly  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Annex_The_Mexican_Protectorate
+		icon = unkown
+		x = 58
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_In_The_New_World  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Cleanse_The_Carribean
+		icon = unkown
+		x = 58
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Annex_The_Mexican_Protectorate  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Turn_Towards_The_Old_World
+		icon = unkown
+		x = 62
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_End_The_Windsor_Exile_Permanetly  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Conquer_The_Irish_People
+		icon = unkown
+		x = 62
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Turn_Towards_The_Old_World  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Finish_Off_The_Isles
+		icon = unkown
+		x = 62
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Conquer_The_Irish_People  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Cleanse_Europa
+		icon = unkown
+		x = 60
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Finish_Off_The_Isles  }
+		prerequisite = { focus =  USA_Cleanse_The_Carribean  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Retreat_Into_Our_Own_Purity
+		icon = unkown
+		x = 65
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = {
+			focus = USA_Show_Them_Our_Gracious_Light
+		}
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Reorganising_Europa
+		icon = unkown
+		x = 75
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	
+
+	focus = {
+		id = USA_Boglands
+		icon = unkown
+		x = 72
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reorganising_Europa  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_Kingdom_Of_Juk_Shaab
+		icon = unkown
+		x = 72
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reorganising_Europa  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_Empire_Of_Shista
+		icon = unkown
+		x = 72
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Kingdom_Of_Juk_Shaab  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_The_Lands_Of_Set
+		icon = unkown
+		x = 72
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Empire_Of_Shista  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Mother_England
+		icon = unkown
+		x = 75
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reorganising_Europa  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Sovereign_Servant_Of_Basatan
+		icon = unkown
+		x = 75
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Mother_England  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Sovereign_Realm_Of_Vulthoom
+		icon = unkown
+		x = 75
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sovereign_Servant_Of_Basatan  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_Refugee_Of_Ctoggha
+		icon = unkown
+		x = 75
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sovereign_Realm_Of_Vulthoom  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Sovereign_Realm_Of_Azazoth
+		icon = unkown
+		x = 78
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reorganising_Europa  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Realm_Of_Tsathoggua
+		icon = unkown
+		x = 78
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sovereign_Realm_Of_Azazoth  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Realms_Of_Lod
+		icon = unkown
+		x = 78
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Realm_Of_Tsathoggua  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Domain_Of_Mormo
+		icon = unkown
+		x = 78
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Realms_Of_Lod  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Lovecraft_Reigns
+		icon = unkown
+		x = 75
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Domain_Of_Mormo  }
+		prerequisite = { focus =  USA_The_Refugee_Of_Ctoggha  }
+		prerequisite = { focus =  USA_The_Lands_Of_Set  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+
+
+}

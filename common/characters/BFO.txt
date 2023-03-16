@@ -1,0 +1,145 @@
+characters={
+	BFO_ibrahim_malam_dicko={
+		name="Ibrahim Malam Dicko"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Ibrahim_Malam_Dicko.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_gilbert_diendere={
+		name="Gilbert Diendéré"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Gilbert_Diendéré.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_baongo_second={
+		name="Baongo II"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Baongo_Second.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_blaise_compaore={
+		name="Blaise Compaoré"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Blaise_Compaoré.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_hermann_yameogo={
+		name="Hermann Yaméogo"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Hermann_Yaméogo.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_zephirin_diabre={
+		name="Zéphirin Diabré"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Zéphirin_Diabré.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_gilbert_noel_ouedraogo={
+		name="Gilbert Noël Ouédraogo"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Gilbert_Noël_Ouédraogo.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_alain_bedouma_yoda={
+		name="Alain Bédouma Yoda"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Alain_Bédouma_Yoda.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_roch_marc_christian_kabore={
+		name="Roch Marc Christian Kaboré"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Roch_Marc_Christian_Kaboré.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_hama_arba_diallo={
+		name="Hama Arba Diallo"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Hama_Arba_Diallo.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BFO_benewende_stanislas_sankara={
+		name="Bénéwendé Stanislas Sankara"
+		portraits={
+			civilian={
+				large="gfx/leaders/BFO/Portrait_BFO_Bénéwendé_Stanislas_Sankara.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

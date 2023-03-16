@@ -1,0 +1,38 @@
+state={
+	id=886
+	name="STATE_886"
+	history = {
+		owner = ALB
+		add_core_of = ALB
+		victory_points = {
+			11767 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			914 = {
+				bunker = 3
+			}
+			3448 = {
+				bunker = 3
+			}
+			6900 = {
+				bunker = 3
+			}
+			11767 = {
+				bunker = 3
+			}
+		}
+	}
+	resources = {
+		steel=2
+		chromium=1
+	}
+	state_category = rural
+	provinces={
+		914 3448 6900 11767 
+	}
+	manpower=490000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,345 @@
+characters={
+	ILL_erich_gliebe={
+		name="Erich Gliebe"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Erich_Gliebe.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_mark_fairchild={
+		name="Mark Fairchild"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Mark_Fairchild.dds"
+			}
+		}
+		country_leader={
+			ideology=larouche
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_royal_chamber_of_illinois={
+		name="Royal Chamber of Illinois"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Royal_Chamber.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_sebastian_gorka={
+		name="Sebastian Gorka"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Sebastian_Gorka.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_jim_durkin={
+		name="Jim Durkin"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Jim_Durkin.dds"
+			}
+		}
+		country_leader={
+			ideology=american_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_pat_quinn={
+		name="Pat Quinn"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Pat_Quinn.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_stephen_webber={
+		name="Stephen Webber"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Stephen_Webber.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_martin_omalley={
+		name="Martin O'Malley"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Martin_Malley.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_nicole_galloway={
+		name="Nicole Galloway"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Nicole_Galloway.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_rob_sherman={
+		name="Rob Sherman"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Rob_Sherman.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_ron_dellums={
+		name="Ron Dellums"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Ron Dellums.dds"
+			}
+		}
+		country_leader={
+			ideology=american_communist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ILL_william_s._wallace={
+		name="William S. Wallace"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_William_S_Wallace.dds"
+			}
+		}
+		field_marshal={
+			traits={ commando }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ILL_george_william_casey_jr.={
+		name="George William Casey Jr."
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_George_William_Casey_Jr.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ILL_frank_grass={
+		name="Frank Grass"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_Frank_Grass.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer fortress_buster }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ILL_corey_l._crosbie={
+		name="Corey L. Crosbie"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_Corey_L_Crosbie.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ILL_gregg_a._sturdevant={
+		name="Gregg A. Sturdevant"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_Gregg_A_Sturdevant.dds"
+			}
+		}
+		corps_commander={
+			traits={ skilled_staffer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ILL_lloyd_austin={
+		name="Lloyd Austin"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_Lloyd_Austin.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ILL_michael_ferriter={
+		name="Michael Ferriter"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_Michael_Ferriter.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger paratrooper }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ILL_robert_ferrell={
+		name="Robert Ferrell"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_Robert_Ferrell.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist }
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ILL_gary_roughead={
+		name="Gary Roughead"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_Gary_Roughead.dds"
+			}
+		}
+		navy_leader={
+			traits={ fleet_protector destroyer_leader hunter_killer }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ILL_timothy_j._keating={
+		name="Timothy J. Keating"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_Timothy_J_Keating.dds"
+			}
+		}
+		navy_leader={
+			traits={ air_controller }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

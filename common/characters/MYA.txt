@@ -1,0 +1,146 @@
+characters={
+	MYA_thakin_tin_mya={
+		name="Thakin Tin Mya"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Thakin_Tin_Mya.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_ashin_wirathu={
+		name="Ashin Wirathu"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Ashin_Wirathu.dds"
+			}
+		}
+		country_leader={
+			ideology=buddhist_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_tin_aung_myint_oo={
+		name="Tin Aung Myint Oo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Tin_Aung_Myint_Oo.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_taw_phaya={
+		name="Taw Phaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Taw_Phaya.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_sandar_win={
+		name="Sandar Win"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Sandar_Win.dds"
+			}
+		}
+		country_leader={
+			ideology=burmese_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_shwe_mann={
+		name="Shwe Mann"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Shwe_Mann.dds"
+			}
+		}
+		country_leader={
+			ideology=buddhist_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_maung_wuntha={
+		name="Maung Wuntha"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Maung_Wuntha.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_than_nyein={
+		name="Than Nyein"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Than_Nyein.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_win_tin={
+		name="Win Tin"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Win_Tin.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_min_ko_naing={
+		name="Min Ko Naing"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Min_Ko_Naing.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MYA_aung_san_suu_kyi={
+		name="Aung San Suu Kyi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MYA/Portrait_MYA_Aung_San_Suu_Kyi.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_AUNG_SAN_SUU_KYI_DESC"
+			ideology=buddhist_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,199 @@
+add_namespace = wales
+
+
+
+
+country_event = {
+	id = wales.1
+	title = wales.1.t
+	desc = wales.1.d
+	picture = dragon_rises_event
+	is_triggered_only = yes
+	option = {
+		name = wales.1.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.2
+	title = wales.2.t
+	desc = wales.2.d
+	picture = address_wales_event
+	is_triggered_only = yes
+	option = {
+		name = wales.2.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.3
+	title = wales.3.t
+	desc = wales.3.d
+	picture = expanding_industry_event
+	is_triggered_only = yes
+	option = {
+		name = wales.3.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.4
+	title = wales.4.t
+	desc = wales.4.d
+	picture = increasing_demand_event
+	is_triggered_only = yes
+	option = {
+		name = wales.4.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.5
+	title = wales.5.t
+	desc = wales.5.d
+	picture = striking_for_safety_event
+	is_triggered_only = yes
+	option = {
+		name = wales.5.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.6
+	title = wales.6.t
+	desc = wales.6.d
+	picture = banning_strikes_event
+	is_triggered_only = yes
+	option = {
+		name = wales.6.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.7
+	title = wales.7.t
+	desc = wales.7.d
+	picture = wales_poverty_help_event
+	is_triggered_only = yes
+	option = {
+		name = wales.7.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.8
+	title = wales.8.t
+	desc = wales.8.d
+	picture = blinding_the_young_event
+	is_triggered_only = yes
+	option = {
+		name = wales.8.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.9
+	title = wales.9.t
+	desc = wales.9.d
+	picture = removing_left_event
+	is_triggered_only = yes
+	option = {
+		name = wales.9.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.10
+	title = wales.10.t
+	desc = wales.10.d
+	picture = welsh_miltiary_budget_event
+	is_triggered_only = yes
+	option = {
+		name = wales.10.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.11
+	title = wales.11.t
+	desc = wales.11.d
+	picture = ban_tarde_with_england_event
+	is_triggered_only = yes
+	option = {
+		name = wales.11.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.12
+	title = wales.12.t
+	desc = wales.12.d
+	picture = no_coal_for_blair_event
+	is_triggered_only = yes
+	option = {
+		name = wales.12.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.13
+	title = wales.13.t
+	desc = wales.13.d
+	picture = celetic_congress_event
+	is_triggered_only = yes
+	option = {
+		name = wales.13.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.14
+	title = wales.14.t
+	desc = wales.14.d
+	picture = gethin_confidence_vote_event
+	is_triggered_only = yes
+	option = {
+		name = wales.14.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.15
+	title = wales.15.t
+	desc = wales.15.d
+	picture = welsh_people_riot_event
+	is_triggered_only = yes
+	option = {
+		name = wales.15.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.16
+	title = wales.16.t
+	desc = wales.16.d
+	picture = chamber_elections_event
+	is_triggered_only = yes
+	option = {
+		name = wales.16.o1
+	
+	}
+}
+
+
+

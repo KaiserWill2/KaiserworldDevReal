@@ -1,0 +1,145 @@
+characters={
+	DRC_joseph_kabila={
+		name="Joseph Kabila"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Joseph_Kabila.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_bosco_ntaganda={
+		name="Bosco Ntaganda"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Bosco_Ntaganda.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_jeanpierre_bemba={
+		name="Jean-Pierre Bemba"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Jean_Pierre_Bemba.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_philippe_i={
+		name="Philippe I"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Philippe_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_nzanga_mobutu={
+		name="Nzanga Mobutu"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Nzanga_Mobutu.dds"
+			}
+		}
+		country_leader={
+			ideology=mobutist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_moïse_katumbi={
+		name="Moïse Katumbi"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Moise_Katumbi.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_andrephilippe_futa={
+		name="Andre-Philippe Futa"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Andre_Philippe_Futa.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_azarias_ruberwa={
+		name="Azarias Ruberwa"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Azarias_Ruberwa.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_Étienne_tshisekedi={
+		name="Étienne Tshisekedi"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Etienne_Tshisekedi.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_antoine_gizenga={
+		name="Antoine Gizenga"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Antoine_Gizenga.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_laurent_nkunda={
+		name="Laurent Nkunda"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Portrait_DRC_Laurent_Nkunda.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,145 @@
+characters={
+	CAM_henri_hogbe_nlend={
+		name="Henri Hogbe Nlend"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Henri_Hogbe_Nlend.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_ephraïm_inoni={
+		name="Ephraïm Inoni"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Ephraim_Inoni.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_paul_biya={
+		name="Paul Biya"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Paul_Biya.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_alim_hayatou={
+		name="Alim Hayatou"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Alim_Hayatou.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_sisiku_julius_ayuk_tabe={
+		name="Sisiku Julius Ayuk Tabe"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Sisiku_Julius_Ayuk_Tabe.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_bello_bouba_maigari={
+		name="Bello Bouba Maigari"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Bello_Bouba_Maigari.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_garga_haman_adji={
+		name="Garga Haman Adji"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Garga_Haman_Adji.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_nkhongho_felix_agbor={
+		name="Nkhongho Felix Agbor"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Nkhongho_Felix_Agbor.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_jeanjacques_ekindi={
+		name="Jean-Jacques Ekindi"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Jean-Jacques_Ekindi.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_john_fru_ndi={
+		name="John Fru Ndi"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_John_Fru_Ndi.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_augustin_frédéric_kodock={
+		name="Augustin Frédéric Kodock"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_CAM_Augustin_Frederic_Kodock.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

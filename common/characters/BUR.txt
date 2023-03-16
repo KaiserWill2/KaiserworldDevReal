@@ -1,0 +1,145 @@
+characters={
+	BUR_jacques_bigirimana={
+		name="Jacques Bigirimana"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Jacques_Bigirimana.dds"
+			}
+		}
+		country_leader={
+			ideology=hutu_power
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_pierre_buyoya={
+		name="Pierre Buyoya"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Pierre_Buyoya.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_rosa_i_paula_iribagiza={
+		name="Rosa I Paula Iribagiza"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Rosa_I_Paula_Iribagiza.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_agathon_rwasa={
+		name="Agathon Rwasa"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Agathon_Rwasa.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_pierre_nkurunziza={
+		name="Pierre Nkurunziza"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Pierre_Nkurunziza.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_terence_nsanze={
+		name="Terence Nsanze"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Terence_Nsanze.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_pierre_claver_mbonimpa={
+		name="Pierre Claver Mbonimpa"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Pierre_Claver_Mbonimpa.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_stéphanie_mbanzendore={
+		name="Stéphanie Mbanzendore"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Stephanie_Mbanzendore.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_léonce_ngendakumana={
+		name="Léonce Ngendakumana"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Leonce_Ngendakumana.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_eulalie_nibizi={
+		name="Eulalie Nibizi"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Eulalie_Nibizi.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_melchior_ndadaye={
+		name="Melchior Ndadaye"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Portrait_BUR_Melchior_Ndadaye.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

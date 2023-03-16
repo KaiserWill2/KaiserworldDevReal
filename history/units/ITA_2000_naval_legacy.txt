@@ -1,0 +1,33 @@
+﻿units= {
+	####### NAVAL UNITS #######
+	##### ARMATA ROSSA #####
+	##### Battle Force (CO: ) #####
+	### Anzio ###
+	fleet = {
+		name = "Armata Rossa"
+		naval_base = 11846 # Anzio
+		task_force = {
+			name = "Italian Fleet"
+			location = 11846 # Anzio
+		ship = {
+				name = "Cavour" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ITA version_name = "Cavour Class" } }
+			}
+			ship = {
+				name = "Giuseppe Garibaldi" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ITA version_name = "Garibaldi Class" } }
+			}			
+			ship = { name = "Andrea Doria" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA version_name = "Horizon class" } } }
+			ship = { name = "Caio Duilio" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA version_name = "Horizon class" } } }
+			ship = { name = "Luigi Durand de la Penne" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA version_name = "Durand de la Penne class" } } }
+			ship = { name = "Francesco Mimbelli" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA version_name = "Durand de la Penne class" } } }
+			ship = { name = "Salvatore Todaro" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ITA version_name = "Todaro Class" } } }
+			ship = { name = "Scirè" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ITA version_name = "Todaro Class" } } }
+			ship = { name = "Pietro Venuti" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ITA version_name = "Todaro Class" } } }
+			ship = { name = "Romeo Romei" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ITA version_name = "Todaro Class" } } }
+			ship = { name = "Salvatore Pelosi" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ITA version_name = "Sauro Class" } } }
+			ship = { name = "Giuliano Prini" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ITA version_name = "Sauro Class" } } }
+			ship = { name = "Primo Longobardo" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ITA version_name = "Sauro Class" } } }
+			ship = { name = "Gianfranco Gazzana Priaroggia" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ITA version_name = "Sauro Class" } } }
+			ship = { name = "Leonardo da Vinci" definition = submarine equipment = { submarine_2 = { amount = 1 owner = ITA version_name = "Sauro Class" } } }
+		}
+	} 	
+}

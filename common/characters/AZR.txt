@@ -1,0 +1,407 @@
+characters={
+	AZR_shahin_sultanov={
+		name="Shahin Sultanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Shahin_Sultanov.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_AZR_Shahin_Sultanov.dds"
+			}
+		}
+		navy_leader={
+			traits={ politically_connected caustic_personality }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			coordination_skill=4
+			maneuvering_skill=3
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_ilham_aliyev={
+		name="Ilham Aliyev"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Ilham_Aliyev.dds"
+			}
+		}
+		country_leader={
+			ideology=neoconservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_telman_nurullayev={
+		name="Telman Nurullayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Telman_Nurullayev.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_ali_karimli={
+		name="Ali Karimli"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Ali_Karimli.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_artur_rasizade={
+		name="Artur Rasizade"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Artur_Rasizade.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_isa_gambar={
+		name="Isa Gambar"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Isa_Gambar.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_araz_alizade={
+		name="Araz Alizade"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Araz_Alizade.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_mais_gulaliyev={
+		name="Mais Gulaliyev"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Mais_Gulaliyev.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_musa_tukanov={
+		name="Musa Tukanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Musa_Tukanov.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_rauf_gurbanov={
+		name="Rauf Gurbanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Portrait_AZR_Rauf_Gurbanov.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_najmeddin_sadikov={
+		name="Najmeddin Sadikov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Najmeddin_Sadikov.dds"
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	AZR_safar_abiyev={
+		name="Safar Abiyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Safar_Abiyev.dds"
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	AZR_ramil_usubov={
+		name="Ramil Usubov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Ramil_Usubov.dds"
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	AZR_madat_guliyev={
+		name="Madat Guliyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Madat_Guliyev.dds"
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	AZR_ali_naghiyev={
+		name="Ali Naghiyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Ali_Naghiyev.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AZR_eldar_mahmudov={
+		name="Eldar Mahmudov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Eldar_Mahmudov.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AZR_zakir_hasanov={
+		name="Zakir Hasanov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Zakir_Hasanov.dds"
+			}
+		}
+		corps_commander={
+			traits = { bearer_of_artillery }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AZR_hikmat_mirzayev={
+		name="Hikmat Mirzayev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Hikmat_Mirzayev.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AZR_haydar_piriyev={
+		name="Haydar Piriyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Haydar_Piriyev.dds"
+			}
+		}
+		corps_commander={
+			traits = { brilliant_strategist }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AZR_yusif_akhundzade={
+		name="Yusif Akhundzade"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Yusif_Akhundzade.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AZR_polad_hashimov={
+		name="Polad Hashimov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Polad_Hashimov.dds"
+			}
+		}
+		corps_commander={
+			traits = { armor_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AZR_hikmat_hasanov={
+		name="Hikmat Hasanov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Hikmat_Hasanov.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AZR_zaur_mammadov={
+		name="Zaur Mammadov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/AZR/Portrait_Zaur_Mammadov.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+}

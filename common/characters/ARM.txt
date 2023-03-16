@@ -1,0 +1,312 @@
+characters={
+	ARM_tachat_sargsyan={
+		name="Tachat Sargsyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Tachat_Sargsyan.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_armen_avetisyan={
+		name="Armen Avetisyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Armen_Avetisyan.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_gagik_tsarukyan={
+		name="Gagik Tsarukyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Gagik_Tsarukyan.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_vazgen_safaryan={
+		name="Vazgen Safaryan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Vazgen_Safaryan.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_serzh_sargsyan={
+		name="Serzh Sargsyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Serzh_Sargsyan.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_paruyr_hayrikyan={
+		name="Paruyr Hayrikyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Paruyr_Hayrikyan.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_edmon_marukyan={
+		name="Edmon Marukyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Edmon_Marukyan.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_stepan_demirchyan={
+		name="Stepan Demirchyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Stepan_Demirchyan.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_vahan_hovhannisyan={
+		name="Vahan Hovhannisyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Vahan_Hovhannisyan.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_aram_gaspar_sargsyan={
+		name="Aram Gaspar Sargsyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Portrait_ARM_Aram_Gaspar_Sargsyan.dds"
+			}
+		}
+		country_leader={
+			ideology=peoples_socialist_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_onik_gasparyan={
+		name="Onik Gasparyan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Onik_Gasparyan.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ARM_seyran_ohanyan={
+		name="Seyran Ohanyan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Seyran_Ohanyan.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	ARM_movses_hakobyan={
+		name="Movses Hakobyan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Movses_Hakobyan.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ARM_artak_davtyan={
+		name="Artak Davtyan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Artak_Davtyan.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ARM_arkady_ter_tadevosyan={
+		name="Arkady Ter-Tadevosyan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Arkady_Ter_Tadevosyan.dds"
+			}
+		}
+		corps_commander={
+			traits = { media_personality }
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ARM_andranik_piloyan={
+		name="Andranik Piloyan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Andranik_Piloyan.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ARM_jirayr_poghosyan={
+		name="Jirayr Poghosyan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Jirayr_Poghosyan.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ARM_grigory_khatchaturov={
+		name="Grigory Khatchaturov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Grigory_Khatchaturov.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	ARM_tiran_khachatryan={
+		name="Tiran Khachatryan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Tiran_Khachatryan.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+}

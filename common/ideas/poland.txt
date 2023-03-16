@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+	
+		polish_independence_movement = {
+			picture = april_constitution
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				autonomy_gain = 0.3
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+	}
+	
+}

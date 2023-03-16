@@ -1,0 +1,174 @@
+characters={
+	RAL_hamma_hammami={
+		name="Hamma Hammami"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAL/Portrait_RAL_Hamma_Hammami.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAL_ahmed_qetrani={
+		name="Ahmed Qetrani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAL/Portrait_Ahmed_Qetrani.dds"
+			}
+		}
+		field_marshal={
+			traits={ organizer logistics_wizard }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	RAL_abdel_rahman_altaweel={
+		name="Abdel Rahman al-Taweel"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAL/Portrait_Abdel_Rahman_al_Taweel.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer infantry_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	RAL_mokhtar_milad_fernana={
+		name="Mokhtar Milad Fernana"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAL/Portrait_Mokhtar_Milad_Fernana.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	RAL_ismaïl_fathali={
+		name="Ismaïl Fathali"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAL/Portrait_Ismaïl_Fathali.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	RAL_macer_gifford={
+		name="Macer Gifford"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAL/Portrait_Macer_Gifford.dds"
+			}
+		}
+		corps_commander={
+			traits={ international_volunteer }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	RAL_dmitry_utkin={
+		name="Dmitry Utkin"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAL/Portrait_Dmitry_Utkin.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando urban_assault_specialist }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	RAL_brace_belden={
+		name="Brace Belden"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAL/Portrait_Brace_Belden.dds"
+			}
+		}
+		corps_commander={
+			traits={ international_volunteer media_personality }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	RAL_aziz_güler={
+		name="Aziz Güler"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/RAL/Portrait_Aziz_Güler.dds"
+			}
+		}
+		corps_commander={
+			traits={ international_volunteer organizer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

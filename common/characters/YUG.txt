@@ -1,0 +1,160 @@
+characters={
+	YUG_ante_gotovina={
+		name="Ante Gotovina"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Ante_Gotovina.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_radovan_karadžić={
+		name="Radovan Karadžić"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Radovan_Karadzic.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_alexander_ii={
+		name="Alexander II"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Alexander_Second.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_vojislav_Šešelj={
+		name="Vojislav Šešelj"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Vojislav_Seselj.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_tomislav_nikolić={
+		name="Tomislav Nikolić"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Tomislav_Nikolic.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_stjepan_mesić={
+		name="Stjepan Mesić"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Stjepan_Mesic.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_vesna_pešić={
+		name="Vesna Pešić"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Vesna_Pesic.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_vojislav_koštunica={
+		name="Vojislav Koštunica"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Vojislav_Kostunica.dds"
+			}
+		}
+		country_leader={
+			ideology=radical
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_ivo_josipović={
+		name="Ivo Josipović"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Ivo_Josipovic.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_slobodan_milošević={
+		name="Slobodan Milošević"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Slobodan_Milosevi.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SLOBODAN_MILOSEVIC_DESC"
+			ideology=titoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_ratko_mladić={
+		name="Ratko Mladić"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Ratko_Mladic.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YUG_milutin_mrkonjic={
+		name="Milutin Mrkonjić"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_YUG_Milutin_Mrkonjic.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_MILUTIN_MRKONJIC_DESC"
+			ideology=titoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

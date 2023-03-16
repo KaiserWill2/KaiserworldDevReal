@@ -1,0 +1,146 @@
+characters={
+	BAV_jorg_haider={
+		name="Jörg Haider"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Jorg_Haider.dds"
+			}
+		}
+		country_leader={
+			ideology=austrofascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_rolf_schlierer={
+		name="Rolf Schlierer"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Rolf_Schlierer.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_franz_first={
+		name="Franz I"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Franz_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_wolfgang_schneiderhan={
+		name="Wolfgang Schneiderhan"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Wolfgang_Schneiderhan.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_horst_seehofer={
+		name="Horst Seehofer"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Horst_Seehofer.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_winfried_kretschmann={
+		name="Winfried Kretschmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Winfried_Kretschmann.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_hans_ulrich_rulke={
+		name="Hans-Ulrich Rülke"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Hans_Ulrich_Rulke.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_ute_vogt={
+		name="Ute Vogt"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Ute_Vogt.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_petra_kelly={
+		name="Petra Kelly"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Petra_Kelly.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_ulrich_rippert={
+		name="Ulrich Rippert"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Ulrich_Rippert.dds"
+			}
+		}
+		country_leader={
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAV_patrik_kobele={
+		name="Patrik Köbele"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAV/Portrait_BAV_Patrik_Kobele.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+}

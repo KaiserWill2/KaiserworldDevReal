@@ -1,0 +1,5 @@
+formable_nations_decisions = {
+	icon = DCI_politics
+	allowed = { always = yes }
+	visible = { always = yes }
+}

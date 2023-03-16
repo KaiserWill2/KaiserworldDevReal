@@ -1,0 +1,29 @@
+state={
+	id=1022
+	name="STATE_1022"
+	
+	history={
+		owner = BEL
+		victory_points = {
+			516 25 
+		}
+
+		buildings = {
+			infrastructure = 10
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_extra_state_shared_building_slots = 2
+		add_core_of = BEL
+
+	}
+	
+	provinces={
+		516 
+	}
+	manpower= 1138854
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

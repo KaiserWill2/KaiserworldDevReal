@@ -1,0 +1,325 @@
+characters={
+	TEX_scott_copeland={
+		name="Scott Copeland"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Scott_Copeland.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_rick_perry={
+		name="Rick Perry"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Rick_Perry.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_texan_royal_council={
+		name="Texan Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Royal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_wade_michael_page={
+		name="Wade Michael Page"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Wade_Michael_Page.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_joe_straus={
+		name="Joe Straus"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Joe_Straus.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_ron_paul={
+		name="Ron Paul"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Ron_Paul.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_jose_r._rodriguez={
+		name="Jose R. Rodriguez"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Jose_Rodriguez.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_david_cobb={
+		name="David Cobb"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_David_Cobb.dds"
+			}
+		}
+		country_leader={
+			ideology=ecopolitician
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_stewart_alexander={
+		name="Stewart Alexander"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Stewart_Alexander.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_gary_chartier={
+		name="Gary Chartier"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Gary_Chartier.dds"
+			}
+		}
+		country_leader={
+			ideology=luxemburgism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_jim_jones={
+		name="Jim Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEX/Portrait_TEX_Jim_Jones.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TEX_james_d._thurman={
+		name="James D. Thurman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TEX/Portrait_James_D_Thurman.dds"
+			}
+		}
+		field_marshal={
+			traits={ armor_officer organizer panzer_leader combined_arms_expert }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	TEX_michael_wehr={
+		name="Michael Wehr"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TEX/Portrait_Michael_Wehr.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	TEX_michael_l._oates={
+		name="Michael L. Oates"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TEX/Portrait_Michael_L_Oates.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	TEX_bradley_houston={
+		name="Bradley Houston"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TEX/Portrait_Bradley_Houston.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster expert_improviser }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	TEX_gary_l._thomas={
+		name="Gary L. Thomas"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TEX/Portrait_Gary_L_Thomas.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando skirmisher }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	TEX_horace_c._chuck_hodges={
+		name="Horace C. “Chuck” Hodges"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TEX/Portrait_Horace_C_Hodges.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer infantry_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	TEX_paul_e._funk_ii={
+		name="Paul E. Funk II"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TEX/Portrait_Paul_E_Funk II.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer armor_officer }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	TEX_john_b._nathman={
+		name="John B. Nathman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TEX/Portrait_John_B_Nathman.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	TEX_patrick_m._walsh={
+		name="Patrick M. Walsh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/TEX/Portrait_Patrick_M_Walsh.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

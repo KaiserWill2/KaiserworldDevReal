@@ -1,0 +1,147 @@
+ideas = {
+
+	country = {	
+		
+		Entente_Economic_Union = {
+			allowed = {
+				always = no
+			}
+			
+			picture = Entente_Economic_Union_idea
+			research_bonus = {
+				industry = 0.10
+			}
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+
+			modifier = {
+				stability_factor = 0.05		
+
+			}
+	    }
+		
+		Entente_Cordiale_idea = {
+			allowed = {
+				always = no
+			}
+			
+			picture = Entente_Cordiale_idea
+
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+
+			modifier = {
+				stability_factor = 0.015
+				
+			}
+	    }
+
+		
+		housing_crisis_idea = {
+			allowed = {
+				always = no
+			}
+			
+			picture = housing_crisis
+
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+
+			modifier = {
+				stability_factor = -0.015
+				
+			}
+	    }
+
+		Lost_Exile_Legitimacy_idea = {
+			allowed = {
+				always = no
+			}
+			
+			picture = Lost_exile_legitimacy
+
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+
+			modifier = {
+				monarchist_drift  = 0.02
+				
+			}
+	    }
+
+		
+		Inflation_crisis_idea = {
+			allowed = {
+				always = no
+			}
+			
+			picture = Inflation_crisis
+
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+
+			modifier = {
+				monarchist_drift  = 0.02
+				
+			}
+	    }
+
+		Totalist_Terrorism = {
+			allowed = {
+				always = no
+			}
+			
+			picture = Totalist_Terrorism
+
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+
+			modifier = {
+				stability_factor = -0.10
+				
+			}
+	    }
+
+		
+		
+		
+
+
+	}
+
+
+
+
+
+	
+}

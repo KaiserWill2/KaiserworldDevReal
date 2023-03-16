@@ -1,0 +1,31 @@
+﻿
+units= {
+	####### NAVAL UNITS #######
+	##### PEOPLE'S FLEET #####
+	##### Battle Force (CO: ) #####
+	### Los Angeles ###
+	fleet = {
+		name = "Battle Force Newton"
+		naval_base = 9814 # Los Angeles
+		task_force = {
+			name = "Strike Group Rosenberg"
+			location = 9814 # Los Angeles
+			ship = {
+			name = "Abraham Lincoln" definition = carrier equipment = { carrier_1 = { amount = 1 owner = PCA version_name = "Nimitz Class" } } 
+						}
+			ship = { name = "Gus Hall" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2  = { amount = 1 owner = PCA version_name = "Ticonderoga Class" } } }
+			ship = { name = "James Winnefeld" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2  = { amount = 1 owner = PCA version_name = "Ticonderoga Class" } } }
+			ship = { name = "Vladimir Lenin" definition = heavy_cruiser  equipment = { ship_hull_cruiser_2  = { amount = 1 owner = PCA version_name = "Ticonderoga Class" } } }			
+			ship = { name = "Paul F. Foster" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PCA version_name = "Spurance Class" } } }
+			ship = { name = "Aliso Creek" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PCA version_name = "Spurance Class" } } }
+			ship = { name = "McKenzie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PCA version_name = "Spurance Class" } } }
+			ship = { name = "Van Duzen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PCA version_name = "Spurance Class" } } }
+			ship = { name = "Napa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PCA version_name = "Spurance Class" } } }
+			ship = { name = "Bakersfield" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PCA version_name = "Los Angeles Class" } } }
+			ship = { name = "Vancouver" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PCA version_name = "Los Angeles Class" } } }
+			ship = { name = "Yakima" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PCA version_name = "Los Angeles Class" } } }
+			ship = { name = "Eugene" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PCA version_name = "Los Angeles Class" } } }
+			ship = { name = "McMinnville" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PCA version_name = "Los Angeles Class" } } }
+		}
+	}
+}

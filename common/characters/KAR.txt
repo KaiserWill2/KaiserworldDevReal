@@ -1,0 +1,146 @@
+characters={
+	KAR_musa_yerniyazov={
+		name="Musa Yerniyazov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Musa_Yerniyazov.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_aibek_tazhetdinov={
+		name="Aibek Tazhetdinov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Aibek_Tazhetdinov.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_marinika_babanazarov={
+		name="Marinika Babanazarova"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Marinika_Maratovna_Babanazarov.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_rustam_saparbaev={
+		name="Rustam Saparbaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Rustam_Tursynbaevich_Saparbaev.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_panaev_berdimuratovich={
+		name="Panaev Berdimuratovich"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Panaev_Utemurat_Berdimuratovich.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_zhumasapar_dadebaev={
+		name="Zhumasapar Dadebaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Zhumasapar_Dadebaev.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_atabek_davletov={
+		name="Atabek Davletov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Atabek_Davletov.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_gulkhatsha_aimbetova={
+		name="Gulkhatsha Aimbetova"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Aimbetova_Gulkhatsha_Aimanovna.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_aman_sagidullaev={
+		name="Aman Sagidullaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Aman_Sagidullaev.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_royal_council={
+		name="Royal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Royal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAR_orynbay_bekbergenov={
+		name="Orynbay Bekbergenov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAR/Portrait_KAR_Bekbergenov_Orynbay_Dosbergenovich.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}
+

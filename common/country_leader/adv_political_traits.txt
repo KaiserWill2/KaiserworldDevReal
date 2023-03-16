@@ -1,0 +1,42 @@
+leader_traits = {
+
+	popular_figurehead = {
+		random = yes
+		
+		sprite = 12
+		stability_weekly = 0.001
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	prince_of_terror = {
+		random = yes
+		
+		sprite = 13
+		enemy_partisan_effect = -0.2
+		foreign_subversive_activites = -0.2
+		non_core_manpower = 0.03
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	silent_workhorse = {
+		random = yes
+		
+		sprite = 12
+		political_power_factor = 0.1
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	socialist_enforcer = {
+		random = yes
+		
+		sprite = 12
+		political_power_factor = 0.05
+		communism_drift = 0.02
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+}

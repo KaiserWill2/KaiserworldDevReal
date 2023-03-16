@@ -1,0 +1,146 @@
+characters={
+	TUS_Enrico_Rossi={
+		name="Enrico Rossi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Enrico_Rossi.dds"
+			}
+		}
+		country_leader={
+			ideology=meliorist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_Altero_Matteoli={
+		name="Altero Matteoli"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Altero_Matteoli.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_Gianni_Fava={
+		name="Gianni Fava"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Gianni_Fava.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_Giuliano_I={
+		name="Giuliano I"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Giuliano_I.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_Stefano_Delle_Chiaie={
+		name="Stefano Delle Chiaie"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Stefano_Delle_Chiaie.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_Monica_Faenzi={
+		name="Monica Faenzi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Monica_Faenzi.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_Francesco_Bosi={
+		name="Francesco Bosi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Francesco_Bosi.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_Lamberto_Dini={
+		name="Lamberto Dini"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Lamberto_Dini.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_Maria_Elena_Boschi={
+		name="Maria Elena Boschi"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Maria_Elena_Boschi.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_Eugenio_Giani={
+		name="Eugenio Giani"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_Eugenio_Giani.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUS_David_Sassoli={
+		name="David Sassoli"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUS/Portrait_TUS_David_Sassoli.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}
+

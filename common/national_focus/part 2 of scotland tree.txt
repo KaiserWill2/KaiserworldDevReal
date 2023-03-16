@@ -1,0 +1,1511 @@
+
+	###Breaking from german chains
+
+	focus = {
+		id = SCO_Breaking_Away_From_The_German_Chains
+		icon = breaking_Away_from_german_chains_icon
+		cost = 10
+		x = 43
+		y = 0
+		completion_reward = {
+			add_political_power = 20
+			country_event = {
+				id = Scotland.28
+			}
+		}
+
+	}
+
+
+
+	focus = {
+		id = SCO_Francis_Is_Ready_For_Reforms
+		icon = francis_ready_for_reforms_icon
+		cost = 10
+		x = 43
+		y = 1
+		prerequisite = { focus = SCO_Breaking_Away_From_The_German_Chains  }
+
+		completion_reward = {
+			add_stability = 0.05
+			country_event = {
+				id = Scotland.29
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Opening_Up_The_Economy
+		icon = opening_up_the_Scottish_market_icon
+		cost = 10
+		x = 37
+		y = 2
+		prerequisite = { focus = SCO_Francis_Is_Ready_For_Reforms  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_New_Business_Agreements
+		icon = new_business_agreements_icon
+		cost = 10
+		x = 35
+		y = 3
+		prerequisite = { focus = SCO_Opening_Up_The_Economy  }
+
+		completion_reward = {
+	
+		}
+
+	}
+	
+	focus = {
+		id = SCO_Invest_In_Renewable_Energy
+		icon = invest_in_renewable_energy_icon
+		cost = 10
+		x = 35
+		y = 4
+		prerequisite = { focus = SCO_New_Business_Agreements  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Join_The_OSTA
+		icon = join_the_OSTA_icon
+		cost = 10
+		x = 39
+		y = 3
+		prerequisite = { focus = SCO_Opening_Up_The_Economy  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.32
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Create_A_Celtic_Research_Industry
+		icon = celtic_research_industry_icon
+		cost = 10
+		x = 39
+		y = 4
+		prerequisite = { focus = SCO_Join_The_OSTA  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.30
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Rule_Out_Joining_The_German_Economic_Zone
+		icon = rule_out_joining_european_economic_zone_icon
+		cost = 10
+		x = 37
+		y = 5
+		prerequisite = { focus = SCO_Create_A_Celtic_Research_Industry  }
+		prerequisite = { focus = SCO_Invest_In_Renewable_Energy  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.31
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_The_New_Social_Security_System
+		icon = new_social_security_system_icon
+		cost = 10
+		x = 43
+		y = 2
+		prerequisite = { focus = SCO_Francis_Is_Ready_For_Reforms  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.34
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_A_New_Healthcare_System
+		icon = SHS_icon
+		cost = 10
+		x = 43
+		y = 3
+		prerequisite = { focus = SCO_The_New_Social_Security_System  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.33
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Invest_In_Our_Towns
+		icon = invest_in_the_Towns_icon
+		cost = 10
+		x = 41
+		y = 4
+		prerequisite = { focus = SCO_A_New_Healthcare_System  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Free_State_Education
+		icon = free_state_education_icon
+		cost = 10
+		x = 45
+		y = 4
+		prerequisite = { focus = SCO_A_New_Healthcare_System  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Help_For_The_Unemployed
+		icon = help_for_unemployed_icon
+		cost = 10
+		x = 43
+		y = 5
+		prerequisite = { focus = SCO_Free_State_Education  }
+		prerequisite = { focus = SCO_Invest_In_Our_Towns  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.35
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Looking_Out
+		icon = looking_out_icon
+		cost = 10
+		x = 49
+		y = 2
+		prerequisite = { focus = SCO_Francis_Is_Ready_For_Reforms  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Reduce_The_German_Influence
+		icon = reduce_german_influence_icon
+		cost = 10
+		x = 49
+		y = 3
+		prerequisite = { focus = SCO_Looking_Out  }
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.36
+			}
+			SCO = {
+				add_opinion_modifier = {
+					target = GER
+					modifier = declaration_of_friendship
+				}
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Align_Closer_To_The_Scottish_Nationals
+		icon = align_closer_to_scottish_nationals_icon
+		cost = 10
+		x = 49
+		y = 4
+		prerequisite = { focus = SCO_Reduce_The_German_Influence  }
+
+		completion_reward = {
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.05
+			}
+			country_event = {
+				id = Scotland.37
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Allow_Parliament_More_Powers
+		icon = parliament_more_powers_icon
+		cost = 10
+		x = 47
+		y = 5
+		prerequisite = { focus = SCO_Align_Closer_To_The_Scottish_Nationals  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Remove_German_Ministers_From_Parliament
+		icon = remvoing_german_ministers_from_parliament_icon
+		cost = 10
+		x = 51
+		y = 5
+		prerequisite = { focus = SCO_Align_Closer_To_The_Scottish_Nationals  }
+
+		completion_reward = {
+			add_stability = 0.10
+			country_event = {
+				id = Scotland.38
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_A_True_Independent_Scotland
+		icon = true_independent_scotland_icon
+		cost = 10
+		x = 43
+		y = 7
+		available ={
+			focus = SCO_Allow_Parliament_More_Powers
+			focus = SCO_Remove_German_Ministers_From_Parliament
+			focus = SCO_Help_For_The_Unemployed
+			focus = SCO_Rule_Out_Joining_The_German_Economic_Zone
+		}
+
+		completion_reward = {
+	
+			country_event = {
+			id = Scotland.29
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Germany_Removes_Francis
+		icon = germany_remvoes_francis_icon
+		cost = 10
+		x = 37
+		y = 8
+		prerequisite = { focus = SCO_A_True_Independent_Scotland  }
+		mutually_exclusive = {
+			focus = SCO_Scotland_Breaks_Free
+		}
+		completion_reward = {
+			country_event = {
+				id = Scotland.58
+			}
+		
+
+
+			
+		}
+
+	}
+
+	focus = {
+		id = SCO_The_German_Puppet
+		icon = german_puppet_icon
+		cost = 10
+		x = 37
+		y = 9
+		prerequisite = { focus = SCO_Germany_Removes_Francis  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.59
+			}
+		}
+
+	}
+
+
+
+	focus = {
+		id = SCO_A_Matter_That_Must_Be_Solved
+		icon = a_matter_that_must_be_solved_icon
+		cost = 10
+		x = 34
+		y = 10
+		prerequisite = { focus = SCO_The_German_Puppet  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_A_Plan_To_Remove_The_Radicals
+		icon = a_plan_to_remove_the_radicals_icon
+		cost = 10
+		x = 32
+		y = 11
+		prerequisite = { focus = SCO_A_Matter_That_Must_Be_Solved  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.60
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_What_To_Do_With_The_Solidarity_Movement
+		icon = question_of_solidarity_movement_icon
+		cost = 10
+		x = 35
+		y = 13
+		prerequisite = { focus = SCO_A_Plan_To_Remove_The_Radicals  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.61
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_A_False_Friendship_With_The_Right
+		icon = false_friendship_with_right_icon
+		cost = 10
+		x = 29
+		y = 12
+		prerequisite = { focus = SCO_A_Plan_To_Remove_The_Radicals  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Allow_The_Liberals_Into_Parliament
+		icon = allow_liberals_back_icon
+		cost = 10
+		x = 31
+		y = 12
+		prerequisite = { focus = SCO_A_Plan_To_Remove_The_Radicals  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_The_Nationalist_Ban
+		icon = The_nationalist_ban_icon
+		cost = 10
+		x = 33
+		y = 12
+		prerequisite = { focus = SCO_A_Plan_To_Remove_The_Radicals  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Cut_Off_Elections_For_Now
+		icon = cut_off_elections_for_now_icon
+		cost = 10
+		x = 30
+		y = 13
+		prerequisite = { focus = SCO_A_False_Friendship_With_The_Right  }
+		prerequisite = { focus = SCO_The_Nationalist_Ban  }
+		prerequisite = { focus = SCO_Allow_The_Liberals_Into_Parliament  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_The_Royal_Party_Unites_All
+		icon = royal_party_unites_all_icon
+		cost = 10
+		x = 32
+		y = 13
+		prerequisite = { focus = SCO_A_False_Friendship_With_The_Right  }
+		prerequisite = { focus = SCO_The_Nationalist_Ban  }
+		prerequisite = { focus = SCO_Allow_The_Liberals_Into_Parliament  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.62
+			}
+		}
+
+	}
+
+
+
+
+	focus = {
+		id = SCO_Elect_The_Pro_German_Party
+		icon = elect_pro_german_party_icon
+		cost = 10
+		x = 31
+		y = 14
+		prerequisite = { focus = SCO_The_Royal_Party_Unites_All  }
+		prerequisite = { focus = SCO_Cut_Off_Elections_For_Now  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.63
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_An_Offer_To_Wales
+		icon = an_offer_to_wales_icon
+		cost = 10
+		x = 28
+		y = 15
+		prerequisite = { focus = SCO_Elect_The_Pro_German_Party  }
+
+		completion_reward = {
+
+
+			GER = {
+				Add_to_faction = WAL
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Offer_Wales_Protection
+		icon = offer_wales_protection_icon
+		cost = 10
+		x = 26
+		y = 16
+		prerequisite = { focus = SCO_An_Offer_To_Wales  }
+		prerequisite = { focus = SCO_A_Prussian_Constitution  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.70
+			}
+			
+		}
+
+	}
+
+	focus = {
+		id = SCO_Order_England_To_Cease_All_Actions_Against_States
+		icon = cease_all_Actions_to_state_icon
+		cost = 10
+		x = 26
+		y = 17
+		prerequisite = { focus = SCO_Offer_Wales_Protection  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.71
+			}
+			
+		}
+
+	}
+
+	focus = {
+		id = SCO_Removing_The_Totalist_Head
+		icon = removing_totalist_head_icon
+		cost = 10
+		x = 26
+		y = 18
+		
+		prerequisite = { focus = SCO_Order_England_To_Cease_All_Actions_Against_States  }
+		available = {
+			has_country_flag = SCO_rockets_away
+			}
+		completion_reward = {
+			country_event = {
+				id = Scotland.74
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Return_The_Land_To_Its_Germanic_Roots
+		icon = return_lands_to_germanic_roots_icon
+		cost = 10
+		x = 26
+		y = 19
+		prerequisite = { focus = SCO_Removing_The_Totalist_Head  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.75
+			}
+
+		}
+
+	}
+
+	focus = {
+		id = SCO_The_German_Direction_For_Scotland
+		icon = german_direction_for_scotland_icon
+		cost = 10
+		x = 23
+		y = 11
+		prerequisite = { focus = SCO_A_Matter_That_Must_Be_Solved  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.64
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Prepare_To_Combine_The_Economies
+		icon = prepare_to_combine_the_economy_icon
+		cost = 10
+		x = 21
+		y = 12
+		prerequisite = { focus = SCO_The_German_Direction_For_Scotland  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	
+	focus = {
+		id = SCO_German_And_Scottish_Manufacturing_Industry
+		icon = german_and_Scottish_manufacturing_icon
+		cost = 10
+		x = 21
+		y = 13
+		prerequisite = { focus = SCO_Prepare_To_Combine_The_Economies  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.65
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_adpot_The_Reichsmarc
+		icon = adopt_the_reichmarcs_icon
+		cost = 10
+		x = 21
+		y = 14
+		prerequisite = { focus = SCO_German_And_Scottish_Manufacturing_Industry  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = SCO_German_Ministers_To_Senior_Positions
+		icon = german_ministers_to_senior_positions_icon
+		cost = 10
+		x = 23
+		y = 12
+		prerequisite = { focus = SCO_The_German_Direction_For_Scotland  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.68
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Abolish_Pro_Scottish_Education
+		icon = abolish_pro_scottish_education_icon
+		cost = 10
+		x = 23
+		y = 13
+		prerequisite = { focus = SCO_German_Ministers_To_Senior_Positions  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Remove_The_Recent_Reforms
+		icon = remove_recent_reforms_icon
+		cost = 10
+		x = 23
+		y = 14
+		prerequisite = { focus = SCO_Abolish_Pro_Scottish_Education  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = SCO_Unite_Scotland_With_Europe
+		icon = unite_scotland_With_europe_icon
+		cost = 10
+		x = 25
+		y = 12
+		prerequisite = { focus = SCO_The_German_Direction_For_Scotland  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_A_Seat_In_The_EuroPakt
+		icon = a_eat_in_the_europakt_icon
+		cost = 10
+		x = 25
+		y = 13
+		prerequisite = { focus = SCO_Unite_Scotland_With_Europe  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.66
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Move_Weapons_To_Scotland
+		icon = move_weapons_to_Scotland_icon
+		cost = 10
+		x = 25
+		y = 14
+		prerequisite = { focus = SCO_A_Seat_In_The_EuroPakt  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.67
+			}
+		}
+
+	}
+
+
+
+	focus = {
+		id = SCO_A_Prussian_Constitution
+		icon = prussian_constituion_icon
+		cost = 10
+		x = 23
+		y = 15
+		prerequisite = { focus = SCO_Move_Weapons_To_Scotland  }
+		prerequisite = { focus = SCO_adpot_The_Reichsmarc  }
+		prerequisite = { focus = SCO_Remove_The_Recent_Reforms  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.69
+			}
+		}
+
+	}
+
+
+
+
+
+	focus = {
+		id = SCO_Scotland_Breaks_Free
+		icon = scotland_breaks_free_icon
+		cost = 10
+		x = 49
+		y = 8
+		prerequisite = { focus = SCO_A_True_Independent_Scotland  }
+		mutually_exclusive = {
+			focus = SCO_Germany_Removes_Francis
+		}
+		completion_reward = {
+			country_event = {
+				id = Scotland.39
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_A_Plan_For_Scotlands_Future
+		icon = a_paln_for_scotlands_future_iocn
+		cost = 10
+		x = 49
+		y = 9
+		prerequisite = { focus = SCO_Scotland_Breaks_Free  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Meet_With_Parliament
+		icon = meet_with_parliament_icon
+		cost = 10
+		x = 49
+		y = 10
+		prerequisite = { focus = SCO_A_Plan_For_Scotlands_Future  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.40
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Tear_Out_Corruption
+		icon = tear_out_corruption_icon
+		cost = 10
+		x = 47
+		y = 11
+		prerequisite = { focus = SCO_Meet_With_Parliament  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Look_Into_The_Far_Right
+		icon = look_into_far_right_icon
+		cost = 10
+		x = 46
+		y = 12
+		prerequisite = { focus = SCO_Tear_Out_Corruption  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.41
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Investigate_The_Far_Left
+		icon = investigate_the_far_left_icon
+		cost = 10
+		x = 48
+		y = 12
+		prerequisite = { focus = SCO_Tear_Out_Corruption  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.42
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Parliament_Is_Cleansed
+		icon = parliament_is_cleansed_icon
+		cost = 10
+		x = 47
+		y = 13
+		prerequisite = { focus = SCO_Investigate_The_Far_Left  }
+		prerequisite = { focus = SCO_Look_Into_The_Far_Right  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_What_To_Do_With_Germany
+		icon = what_to_do_with_germany_icon
+		cost = 10
+		x = 51
+		y = 11
+		prerequisite = { focus = SCO_Meet_With_Parliament  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Work_With_Our_European_Friends
+		icon = work_with_our_european_friends_icon
+		cost = 10
+		x = 50
+		y = 12
+		prerequisite = { focus = SCO_What_To_Do_With_Germany  }
+		mutually_exclusive = {
+			focus = SCO_Our_English_Border_Is_A_European_Border
+		}
+		completion_reward = {
+			country_event = {
+				id = Scotland.43
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Our_English_Border_Is_A_European_Border
+		icon = our_english_border_is_euro_border_icon
+		cost = 10
+		x = 52
+		y = 12
+		prerequisite = { focus = SCO_What_To_Do_With_Germany  }
+		mutually_exclusive = {
+			focus = SCO_Work_With_Our_European_Friends
+		}
+		completion_reward = {
+			country_event = {
+				id = Scotland.44
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Scotland_Stands_On_Its_Own_Two_Legs
+		icon = scotlnad_on_own_two_legs
+		cost = 10
+		x = 51
+		y = 13
+		prerequisite = { focus = SCO_Our_English_Border_Is_A_European_Border
+						 focus = SCO_Work_With_Our_European_Friends 	}
+	
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_The_Bells_Of_Freedom_Call
+		icon = bells_of_freedom_call_icon
+		cost = 10
+		x = 49
+		y = 14
+		prerequisite = { focus = SCO_Scotland_Stands_On_Its_Own_Two_Legs  }
+		prerequisite = { focus = SCO_Parliament_Is_Cleansed  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Francis_Speaks_To_Parliament
+		icon = francis_speaks_to_parliament_icon
+		cost = 10
+		x = 49
+		y = 15
+		prerequisite = { focus = SCO_The_Bells_Of_Freedom_Call  }
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.45
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_The_King_Moves_Over
+		icon = king_moves_over_icon
+		cost = 10
+		x = 47
+		y = 16
+		prerequisite = { focus = SCO_Francis_Speaks_To_Parliament  }
+
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_The_People_Are_Ready_To_Vote
+		icon = election_now_icon
+		cost = 10
+		x = 51
+		y = 16
+		prerequisite = { focus = SCO_Francis_Speaks_To_Parliament  }
+
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_The_Battlots_Are_Counted
+		icon = ballots_are_counted_scotland_icon
+		cost = 10
+		x = 49
+		y = 17
+		prerequisite = { focus = SCO_The_King_Moves_Over  }
+		prerequisite = { focus = SCO_The_People_Are_Ready_To_Vote  }
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.46
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Ties_With_The_West
+		icon = ties_with_the_west_icon
+		cost = 10
+		x = 56
+		y = 9
+		prerequisite = { focus = SCO_Scotland_Breaks_Free  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.47
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_OH_CANADA
+		icon = oh_canada_icon
+		cost = 10
+		x = 55
+		y = 10
+		prerequisite = { focus = SCO_Ties_With_The_West  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Working_With_The_Empire
+		icon = working_with_the_empire_icon
+		cost = 10
+		x = 57
+		y = 10
+		prerequisite = { focus = SCO_Ties_With_The_West  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Sphere_Of_Democracy
+		icon = sphere_of_democracy_icon
+		cost = 10
+		x = 58
+		y = 11
+		prerequisite = { focus = SCO_Working_With_The_Empire  }
+		prerequisite = { focus = SCO_OH_CANADA  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Invite_Ireland_To_A_Secruity_Partnership
+		icon = invite_ireland_to_security_partnership_cion
+		cost = 10
+		x = 58
+		y = 12
+		prerequisite = { focus = SCO_Sphere_Of_Democracy  }
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.48
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Wales_Joins_Its_Brothers
+		icon = wales_joins_brothers_icon
+		cost = 10
+		x = 56
+		y = 13
+		prerequisite = { focus = SCO_Invite_Ireland_To_A_Secruity_Partnership  }
+
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Unite_the_Armies
+		icon = unite_the_armies_icon
+		cost = 10
+		x = 60
+		y = 13
+		prerequisite = { focus = SCO_Invite_Ireland_To_A_Secruity_Partnership  }
+
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = SCO_Create_An_Alliance
+		icon = create_an_allaince_scotland_icon
+		cost = 10
+		x = 58
+		y = 14
+		prerequisite = { focus = SCO_Unite_the_Armies  }
+		prerequisite = { focus = SCO_Wales_Joins_Its_Brothers  }
+
+		completion_reward = {
+		
+		}
+
+	}
+
+	focus = {
+		id = SCO_Military_Exercuse_Against_England
+		icon = military_exercises_against_england_icon
+		cost = 10
+		x = 58
+		y = 15
+		prerequisite = { focus = SCO_Create_An_Alliance  }
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.49
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_A_Show_Of_Force_On_The_Border
+		icon = a_show_of_force_on_the_border_icon
+		cost = 10
+		x = 58
+		y = 16
+		prerequisite = { focus = SCO_Military_Exercuse_Against_England  }
+
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Celtic_Warships_In_The_North_Sea
+		icon = celtic_warships_in_north_sea_icon
+		cost = 10
+		x = 56
+		y = 17
+		prerequisite = { focus = SCO_A_Show_Of_Force_On_The_Border  }
+
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Scramble_Jets_Over_The_Border
+		icon = scramble_jets_over_the_border_icon
+		cost = 10
+		x = 58
+		y = 17
+		prerequisite = { focus = SCO_A_Show_Of_Force_On_The_Border  }
+
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Perform_Berwick_Beach_Landings
+		icon = perform_berwick_beach_landings_icon
+		cost = 10
+		x = 60
+		y = 17
+		prerequisite = { focus = SCO_A_Show_Of_Force_On_The_Border  }
+
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Building_The_Kingdom
+		icon = building_the_kingdom_icon
+		cost = 10
+		x = 65
+		y = 10
+		prerequisite = { focus = SCO_Ties_With_The_West  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.50
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Edinburgh_Is_Not_The_Only_City
+		icon = unknown
+		cost = 10
+		x = 65
+		y = 11
+		prerequisite = { focus = SCO_Building_The_Kingdom  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Edinburgh_Is_Not_The_Only_City
+		icon = edinburgh_is_not_only_city_icon
+		cost = 10
+		x = 65
+		y = 11
+		prerequisite = { focus = SCO_Building_The_Kingdom  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Aberdeen_Is_Our_Industrial_Heartland
+		icon = aberdeen_is_our_industrial_heartland_icon
+		cost = 10
+		x = 63
+		y = 12
+		prerequisite = { focus = SCO_Edinburgh_Is_Not_The_Only_City  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Glasgow_Will_Be_Our_Second_Capital
+		icon = glasgow_will_be_our_second_city_icon
+		cost = 10
+		x = 65
+		y = 12
+		prerequisite = { focus = SCO_Edinburgh_Is_Not_The_Only_City  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Inverness_Will_WAtch_The_North_Of_Scotland
+		icon = inverness_watch_the_north_icon
+		cost = 10
+		x = 67
+		y = 12
+		prerequisite = { focus = SCO_Edinburgh_Is_Not_The_Only_City  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Open_Scotland_For_Tourism
+		icon = open_scotland_for_tourism_icon
+		cost = 10
+		x = 64
+		y = 13
+		prerequisite = { focus = SCO_Inverness_Will_WAtch_The_North_Of_Scotland  }
+		prerequisite = { focus = SCO_Glasgow_Will_Be_Our_Second_Capital  }
+		prerequisite = { focus = SCO_Aberdeen_Is_Our_Industrial_Heartland  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Build_The_Celtic_Crossing
+		icon = build_the_celtic_crossing_icon
+		cost = 10
+		x = 66
+		y = 13
+		prerequisite = { focus = SCO_Inverness_Will_WAtch_The_North_Of_Scotland  }
+		prerequisite = { focus = SCO_Glasgow_Will_Be_Our_Second_Capital  }
+		prerequisite = { focus = SCO_Aberdeen_Is_Our_Industrial_Heartland  }
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.51
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Become_The_Technology_Powerhouse
+		icon = become_tech_powerhouse_icon
+		cost = 10
+		x = 65
+		y = 14
+		prerequisite = { focus = SCO_Open_Scotland_For_Tourism  }
+		prerequisite = { focus = SCO_Build_The_Celtic_Crossing  }
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.52
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Invite_James_Dyson_To_Scotland
+		icon = invite_james_dyson_icon
+		cost = 10
+		x = 64
+		y = 15
+		prerequisite = { focus = SCO_Become_The_Technology_Powerhouse  }
+
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.53
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Create_The_Dyson_Park
+		icon = create_dyson_park_icon
+		cost = 10
+		x = 64
+		y = 16
+		prerequisite = { focus = SCO_Invite_James_Dyson_To_Scotland  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Richard_Branson_Will_Make_Scotland_A_Technological_Hub
+		icon = branson_make_scotland_tech_hub_icon
+		cost = 10
+		x = 66
+		y = 15
+		prerequisite = { focus = SCO_Become_The_Technology_Powerhouse  }
+
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.54
+			}
+		}
+
+	}
+
+
+	focus = {
+		id = SCO_Create_Virgin_Galactic
+		icon = create_virgin_galatic_icon
+		cost = 10
+		x = 66
+		y = 16
+		prerequisite = { focus = SCO_Richard_Branson_Will_Make_Scotland_A_Technological_Hub  }
+
+
+
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = SCO_Scotland_Will_Reach_The_Stars
+		icon = scotland_reach_the_stars_icon
+		cost = 10
+		x = 65
+		y = 17
+		prerequisite = { focus = SCO_Create_Virgin_Galactic  }
+		prerequisite = { focus = SCO_Create_The_Dyson_Park  }
+
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.55
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_Prepare_For_Launch
+		icon = prepare_for_launch_icon
+		cost = 10
+		x = 65
+		y = 18
+		prerequisite = { focus = SCO_Scotland_Will_Reach_The_Stars  }
+
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.56
+			}
+		}
+
+	}
+
+	focus = {
+		id = SCO_WE_HAVE_LIFT_OFF
+		icon = we_have_lift_off_icon
+		cost = 10
+		x = 65
+		y = 19
+		prerequisite = { focus = SCO_Prepare_For_Launch  }
+
+
+
+		completion_reward = {
+			country_event = {
+				id = Scotland.57
+			}
+		}
+
+	}
+
+
+

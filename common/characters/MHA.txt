@@ -1,0 +1,145 @@
+characters={
+	MHA_uddhav_thackeray={
+		name="Uddhav Thackeray"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Uddhav_Thackeray.dds"
+			}
+		}
+		country_leader={
+			ideology=shiv_sena
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_vijayrao_bhaskarrao_auti={
+		name="Vijayrao Bhaskarrao Auti"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Vijayrao_Bhaskarrao_Auti.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_udayanraje_bhosale={
+		name="Udayanraje Bhosale"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Udayanraje_Bhosale.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_rajan_vichare={
+		name="Rajan Vichare"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Rajan_Vichare.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_devendra_fadnavis={
+		name="Devendra Fadnavis"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Devendra_Fadnavis.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_raju_shetti={
+		name="Raju Shetti"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Raju_Shetti.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_imtiyaz_jaleel={
+		name="Imtiyaz Jaleel"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Imtiyaz_Jaleel.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_prithviraj_chavan={
+		name="Prithviraj Chavan"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Prithviraj_Chavan.dds"
+			}
+		}
+		country_leader={
+			ideology=nehruvian_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_ramdas_athawale={
+		name="Ramdas Athawale"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Ramdas_Athawale.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_jayant_prabhakar_patil={
+		name="Jayant Prabhakar Patil"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Jayant_Prabhakar_Patil.dds"
+			}
+		}
+		country_leader={
+			ideology=left_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MHA_govind_pansare={
+		name="Govind Pansare"
+		portraits={
+			civilian={
+				large="gfx/leaders/MHA/Portrait_MHA_Govind_Pansare.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

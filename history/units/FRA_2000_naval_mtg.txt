@@ -1,0 +1,41 @@
+﻿
+units = {
+	####### NAVAL UNITS #######
+	##### FRENCH FLEET #####
+	##### ARMADA ROUGE #####
+	### Dunkerque ###
+	fleet = {
+		name = "Marine nationale"
+		naval_base = 911 # Toulon
+		task_force = {
+			name = "Force d'Action Navale"
+			location = 911 # Toulon
+			ship = { name = "Tourville" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Tourville Class" } } }
+			ship = { name = "Duguay-Trouin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Tourville Class" } } }
+			ship = { name = "De Grasse" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Tourville Class" } } }
+			ship = { name = "Georges Leygues" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Georges Leygues Class" } } }
+			ship = { name = "Dupleix" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Georges Leygues Class" } } }
+			ship = { name = "Montcalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Georges Leygues Class" } } }
+			ship = { name = "Jean de Vienne" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Georges Leygues Class" } } }
+			ship = { name = "Primauguet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Georges Leygues Class" } } }
+			ship = { name = "Lamotte-Picquet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Georges Leygues Class" } } }
+			ship = { name = "Latouche-Treville" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Georges Leygues Class" } } }
+			ship = { name = "Jean Bart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Cassard Class" } } }
+			ship = { name = "Cassard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Cassard Class" } } }
+			ship = { name = "Rubis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Rubis Class" } } }
+			ship = { name = "Saphir" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Rubis Class" } } }
+			ship = { name = "Casabianca" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Rubis Class" } } }
+			ship = { name = "Émeraude" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Rubis Class" } } }
+			ship = { name = "Améthyste" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Rubis Class" } } }
+			ship = { name = "Perle" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Rubis Class" } } }
+			}
+		task_force = {
+			name = "Forces Sous-marines"
+			location = 3552 # Île Longue/Brest
+			ship = { name = "Le Triomphant" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "Triomphant Class" } } }
+			ship = { name = "Le Téméraire" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "Triomphant Class" } } }
+			ship = { name = "Le Vigilant" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "Triomphant Class" } } }
+#			ship = { name = "Le Terrible" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "Triomphant Class" } } }
+		}
+	}
+}

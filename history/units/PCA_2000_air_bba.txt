@@ -1,0 +1,15 @@
+air_wings = {
+	378 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		small_plane_airframe_1 = { owner = "PCA" amount = 100 version_name = "Fighter I" }					
+		medium_plane_airframe_1 = { owner = "PCA" amount = 100 version_name = "Tactical Bomber I" }	
+	}
+	"Abraham Lincoln" = { #DIOS QUE GANAS DE PEGARME UN TIRO LA REPUTISIMA MADRE QUE HACER ESTA PORQUERIA ES AGONIZANTE -ROB!
+		cv_small_plane_airframe_1 =  { owner = "PCA" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "PCA" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_airframe_1 =  { owner = "PCA" amount = 10 version_name = "Carrier Fighter I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "PCA" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "PCA" amount = 10 version_name = "Carrier Naval Bomber I" }
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "PCA" amount = 10 version_name = "Carrier Naval Bomber I" }
+	}
+}

@@ -1,0 +1,23 @@
+air_wings = {
+	361 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		fighter_equipment_0 = { owner = "NEA" amount = 100 }			
+		tac_bomber_equipment_0 = { owner = "NEA" amount = 100 }	
+	}
+	"CNS Kitty Hawk"  = {
+		cv_fighter_equipment_0 =  { owner = "NEA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "NEA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "NEA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "NEA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "NEA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "NEA" amount = 10 }
+	}
+	"CNS Smedley Butler"  = {
+		cv_fighter_equipment_0 =  { owner = "NEA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "NEA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "NEA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "NEA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "NEA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "NEA" amount = 10 }
+	}
+}

@@ -1,0 +1,968 @@
+ideas = {
+
+    country = {
+	    
+		YEM_saudi_devestated_economy = {
+			allowed = {
+				always = no
+			}
+			
+			picture = international_isolation
+			
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = -0.15
+				production_speed_industrial_complex_factor = -0.10
+				production_speed_arms_factory_factor = -0.10
+				production_speed_rail_way_factor = -0.20
+				production_factory_start_efficiency_factor = -0.10
+				consumer_goods_factor = 0.07
+			}
+		}
+		YEM_saudi_influence = {
+			allowed = {
+				always = no
+			}
+			
+			picture = the_kings_army
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				political_power_gain = -0.01
+				industrial_capacity_factory = 0.05
+			}
+		}
+		YEM_saudi_fractured_nation = {
+			allowed = {
+				always = no
+			}
+			
+			picture = low_political_freedom
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				political_power_gain = -0.05
+				communist_drift = 0.01
+			}
+		}
+		YEM_saudi_buffer_state = {
+			allowed = {
+				always = no
+			}
+			
+			picture = protectionism
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = 0.10
+				stability_factor = -0.05
+			}
+		}
+		YEM_saudi_fractured_nation2 = {
+			allowed = {
+				always = no
+			}
+			
+			picture = low_political_freedom
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				political_power_gain = -0.03
+			}
+		}
+		YEM_saudi_buffer_state2 = {
+			allowed = {
+				always = no
+			}
+			
+			picture = protectionism
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = 0.15
+				conscription_factor = 0.02
+				stability_factor = -0.05
+			}
+		}
+		YEM_fueling_the_saudi_economy = {
+			allowed = {
+				always = no
+			}
+			
+			picture = saudi_investment
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				cic_to_overlord_factor = 0.15
+			}
+		}
+		YEM_saudi_influence2 = {
+			allowed = {
+				always = no
+			}
+			
+			picture = the_kings_army
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				political_power_gain = -0.01
+				industrial_capacity_factory = 0.05
+				monarchist_drift = 0.01
+			}
+		}
+		YEM_saudi_led_nation = {
+			allowed = {
+				always = no
+			}
+			
+			picture = royal_institutions_castle
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.03
+				nationalist_drift = 0.01
+                production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		YEM_employment_quotas = {
+			allowed = {
+				always = no
+			}
+			
+			picture = crown_work
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+                production_speed_arms_factory_factor = 0.05
+			}
+		}
+		YEM_saudi_legal_system = {
+			allowed = {
+				always = no
+			}
+			
+			picture = sharia_law
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.25
+				political_power_gain = -0.02
+			}
+		}
+		YEM_saudi_dominant_society = {
+			allowed = {
+				always = no
+			}
+			
+			picture = royal_rule
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.07
+				production_factory_efficiency_gain_factor = 0.10
+                production_speed_arms_factory_factor = 0.10
+				production_speed_industrial_complex_factor = 0.10
+			} 
+		}
+		YEM_martial_law = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_military_advisors
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.03
+			} 
+		}
+		YEM_saudi_media = {
+			allowed = {
+				always = no
+			}
+			
+			picture = nationalist_radio
+			
+			removal_cost = -1
+			
+			modifier = {
+				nationalist_drift = 0.01
+				army_core_defence_factor = 0.10
+			} 
+		}
+		YEM_silenced_tribes = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemen_outlawed_western_ideals
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.05
+			} 
+		}
+		YEM_saudi_corruption = {
+			allowed = {
+				always = no
+			}
+			
+			picture = corrupt_military
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.10
+				political_power_gain = -0.01
+			} 
+		}
+		YEM_banking_reforms = {
+			allowed = {
+				always = no
+			}
+			
+			picture = government_knows_best
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.02
+				production_factory_max_efficiency_factor = 0.07
+			} 
+		}
+		YEM_corporate_alliance = {
+			allowed = {
+				always = no
+			}
+			
+			picture = corporate_aid
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+				production_speed_rail_way_factor = 0.05
+			} 
+		}
+		YEM_1970_constitution = {
+			allowed = {
+				always = no
+			}
+			
+			picture = moderation_political
+			
+			removal_cost = -1
+			
+			modifier = {
+				nationalist_drift = 0.01
+				army_core_defence_factor = 0.05
+				drift_defence_factor = 0.25
+			} 
+		}
+		YEM_defending_the_revolution = {
+			allowed = {
+				always = no
+			}
+			
+			picture = loyal_army
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+				army_attack_factor = 0.05
+			} 
+		}
+		YEM_a_nation_for_the_junta = {
+			allowed = {
+				always = no
+			}
+			
+			picture = nationalist_military
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.07
+			} 
+		}
+		YEM_privatized_economy = {
+			allowed = {
+				always = no
+			}
+			
+			picture = mass_privatization
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.07
+				production_speed_buildings_factor = 0.07
+				line_change_production_efficiency_factor = 0.05
+			} 
+		}
+		YEM_saleh_constitution = {
+			allowed = {
+				always = no
+			}
+			
+			picture = new_order
+			
+			removal_cost = -1
+			
+			modifier = {
+				nationalist_drift = 0.01
+				army_core_defence_factor = 0.05
+				drift_defence_factor = 0.25
+				industrial_capacity_factory = 0.07
+				monthly_population = -0.03
+			} 
+		}
+		YEM_1970_constitution2 = {
+			allowed = {
+				always = no
+			}
+			
+			picture = moderation_political
+			
+			removal_cost = -1
+			
+			modifier = {
+				nationalist_drift = 0.01
+				army_core_defence_factor = 0.05
+				drift_defence_factor = 0.25
+				monthly_population = 0.05
+				political_power_gain = 0.01
+			} 
+		}
+		YEM_a_nation_for_all = {
+			allowed = {
+				always = no
+			}
+			
+			picture = social_programs
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.07
+				research_speed_factor = 0.05
+			} 
+		}
+		YEM_anti_corruption_agencies = {
+			allowed = {
+				always = no
+			}
+			
+			picture = anti_corruption
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.02
+				industrial_capacity_factory = 0.05
+				operative_slot = 1
+			} 
+		}
+		YEM_indivisible = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemen_defenders
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				operative_slot = 1
+			} 
+		}
+		YEM_reconstruction = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_mining
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_infrastructure_factor = 0.10
+			} 
+		}
+		YEM_agricultural_revival = {
+			allowed = {
+				always = no
+			}
+			
+			picture = mechanization_of_agriculture
+			
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.10
+				local_resources_factor = 0.05
+			} 
+		}
+		YEM_depressed_economy = {
+			allowed = {
+				always = no
+			}
+			
+			picture = international_isolation
+			
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = -0.07
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
+				production_speed_rail_way_factor = -0.10
+				production_factory_start_efficiency_factor = -0.05
+				consumer_goods_factor = 0.03
+			}
+		}
+		YEM_development_agencies = {
+			allowed = {
+				always = no
+			}
+			
+			picture = centralised_economy_ar
+			
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.05
+				consumer_goods_factor = 0.03
+				production_speed_buildings_factor = 0.07
+				research_speed_factor = 0.07
+			}
+		}
+		YEM_nationalized_industries = {
+			allowed = {
+				always = no
+			}
+			
+			picture = soft_nationalisation
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.02
+				industrial_capacity_factory = 0.07
+				production_factory_efficiency_gain_factor = 0.07
+			}
+		}
+		YEM_foreign_investment = {
+			allowed = {
+				always = no
+			}
+			
+			picture = corporate
+			
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = 0.05
+				trade_opinion_factor = 0.10
+			}
+		}
+		YEM_corpo_tax_cuts = {
+			allowed = {
+				always = no
+			}
+			
+			picture = new_tax_cuts
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.07
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		YEM_american_cooperation = {
+			allowed = {
+				always = no
+			}
+			
+			picture = am_works
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_rail_way_factor = 0.05
+			}
+		}
+		YEM_railway_construction_boom = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_mining
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_rail_way_factor = 0.02
+			}
+		}
+		YEM_saudi_investment = {
+			allowed = {
+				always = no
+			}
+			
+			picture = SAU_gold_mines
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+				research_speed_factor = 0.07
+				production_speed_infrastructure_factor = 0.05
+			}
+		}
+		YEM_economic_independence = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_exports
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.07
+			}
+		}
+		YEM_economic_independence2 = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_exports
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.07
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		YEM_yemeni_business_support = {
+			allowed = {
+				always = no
+			}
+			
+			picture = corporate_aid
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		YEM_an_economic_boom = {
+			allowed = {
+				always = no
+			}
+			
+			picture = fiscal_economics
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.07
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		YEM_companies_for_sale = {
+			allowed = {
+				always = no
+			}
+			
+			picture = corporate_aid
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.07
+				industrial_capacity_factory = -0.05
+				production_factory_max_efficiency_factor = 0.03
+			}
+		}
+		YEM_saudi_tank_designs = {
+			allowed = {
+				always = no
+			}
+			
+			picture = new_order
+			
+			removal_cost = -1
+			
+			modifier = {
+                army_armor_attack_factor = -0.05
+                army_armor_speed_factor = 0.05
+			}
+			equipment_bonus = {
+				light_tank_chassis = {
+					build_cost_ic = -0.10 instant = yes
+				}
+			}
+		}
+		YEM_intelligence_funding = {
+			allowed = {
+				always = no
+			}
+			
+			picture = arabian_spymaster
+			
+			removal_cost = -1
+			
+			modifier = {
+				encryption = 1
+				decryption = 1
+				foreign_subversive_activites = -0.20
+			}
+		}
+		YEM_oil_exploitation = {
+			allowed = {
+				always = no
+			}
+			
+			picture = fossil_fuel
+			
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = 0.10
+			}
+		}
+		YEM_a_nation_for_riyadh = {
+			allowed = {
+				always = no
+			}
+			
+			picture = government_knows_best
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+		YEM_northern_focus = {
+			allowed = {
+				always = no
+			}
+			
+			picture = open_borders
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = -0.07
+				production_speed_industrial_complex_factor = 0.07
+			}
+		}
+		YEM_saudi_buffer_state3 = {
+			allowed = {
+				always = no
+			}
+			
+			picture = protectionism
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = -0.05
+				production_speed_arms_factory_factor = 0.05
+				conscription_factor = 0.02
+				stability_factor = -0.05
+			}
+		}
+		YEM_border_patrols = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_military_advisors
+			
+			removal_cost = -1
+			
+			modifier = {
+				max_planning = 10
+				recon_factor = 0.05
+			}
+		}
+		YEM_saudi_buffer_state4 = {
+			allowed = {
+				always = no
+			}
+			
+			picture = protectionism
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = -0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.02
+				conscription_factor = 0.02
+				stability_factor = -0.05
+			}
+		}
+		YEM_sanaa_doctrine = {
+			allowed = {
+				always = no
+			}
+			
+			picture = disciplinary_education
+			
+			removal_cost = -1
+
+			on_add = {
+				set_rule = {
+                    can_join_factions = no
+                }
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+				political_power_gain = -0.01
+			}
+		}
+		YEM_local_production = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemen_arms_deal
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			}
+		}
+		YEM_recruitment_drive = {
+			allowed = {
+				always = no
+			}
+			
+			picture = egyptian_conscripted
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.03
+			}
+		}
+		YEM_reconstruction_efforts = {
+			allowed = {
+				always = no
+			}
+			
+			picture = modern_construction_methods
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industry_repair_factor = 0.15
+			}
+		}
+		YEM_defence_focus = {
+			allowed = {
+				always = no
+			}
+			
+			picture = unstoppable_army
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = 0.05
+			}
+		}
+		YEM_isolationism = {
+			allowed = {
+				always = no
+			}
+			
+			picture = Imperial_Pride
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+		YEM_trade_agreements = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemeni_exports
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+				local_resources_factor = 0.07
+			}
+		}
+		YEM_defending_the_nation = {
+			allowed = {
+				always = no
+			}
+			
+			picture = national_defence_committee
+			
+			removal_cost = -1
+			
+			modifier = {
+				training_time_factor = -0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.10 instant = yes
+				}
+				cas_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			}
+		}
+		YEM_border_fortification_focus = {
+			allowed = {
+				always = no
+			}
+			
+			picture = building_defences
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = 0.10
+				production_speed_coastal_bunker_factor = 0.10
+			}
+		}
+		YEM_renewed_tribal_focus = {
+			allowed = {
+				always = no
+			}
+			
+			picture = tribal_reorganisation
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.02
+				army_attack_factor = 0.05
+				political_power_gain = 0.01
+			}
+		}
+		YEM_self_sufficiency = {
+			allowed = {
+				always = no
+			}
+			
+			picture = totalitarian_economy
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.02
+				army_attack_factor = 0.05
+				political_power_gain = 0.01
+			}
+		}
+		YEM_northern_identity = {
+			allowed = {
+				always = no
+			}
+			
+			picture = yemen_culture_promotion
+			
+			removal_cost = -1
+			
+			modifier = {
+				communist_drift = -0.01
+				monthly_population = -0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		YEM_saudi_war_reparations = {
+			allowed = {
+				always = no
+			}
+			
+			picture = saudi_investment
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.07
+				industry_free_repair_factor = 0.2
+			}
+		}
+		YEM_paying_war_reparations = {
+			allowed = {
+				always = no
+			}
+			
+			picture = new_tradelinks
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.07
+				political_power_gain = -0.01
+			}
+		}
+	}
+}
+        

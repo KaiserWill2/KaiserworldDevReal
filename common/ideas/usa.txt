@@ -1,0 +1,2145 @@
+ideas = {
+
+    country = {	
+        
+        Expanding_welfare_idea = {
+            picture = expanding_welfare_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.05
+                stability_factor = 0.10
+                political_power_cost = 1
+
+            }
+        }
+
+        Shipping_Weapons_to_rebels = {
+            picture = Shipping_Weapons_to_rebels_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+
+            modifier = {
+                intel_network_gain = 0.3
+                decryption = 1
+                operation_outcome = 0.5
+                supply_factor = 0.3
+                industrial_capacity_factory = 0.3
+            }
+        }
+        
+        Lower_taxes_For_lower_Class = {
+            picture = lower_taxes_for_middle_class_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = -0.05
+                trade_opinion_factor = 0.1
+
+            }
+        }
+
+        Rebuild_Midwest_Industries = {
+            picture = rebuild_midwest_industries_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+
+            modifier = {
+                industrial_capacity_factory = 0.05
+                production_speed_industrial_complex_factor = 0.1
+                industrial_capacity_factory = 0.025
+
+            }
+        }
+        
+        Loosen_Immigration_Restrictions = {
+            picture = unkown
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+
+            modifier = {
+                MONTHLY_POPULATION = -0.01
+
+            }
+        }
+        
+        praising_citizens = {
+            picture = praising_normal_cits_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+
+            modifier = {
+                political_power_gain = 0.05
+                stability_factor = 0.02
+                drift_defence_factor = 0.3
+            }
+        }
+        
+        The_NSA = {
+            picture = NSA_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+
+            modifier = {
+                decryption_power = 10
+                foreign_subversive_activites = -0.35
+                crypto_strength = 1
+
+            }
+        }
+
+        American_Economic_Union = {
+            picture = american_economic_union_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = -0.03
+                production_speed_arms_factory_factor = 0.15
+                production_factory_efficiency_gain_factor = 0.10
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.10
+            }
+        }
+
+        Lower_taxes_on_one_percent = {
+            picture = tech_in_school
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = -0.03
+                production_speed_arms_factory_factor = 0.10
+                production_factory_efficiency_gain_factor = 0.5
+                industrial_capacity_factory = 0.15
+                industrial_capacity_dockyard = 0.10
+            }
+        }
+        
+        increasing_american_exports = {
+            picture = increasing_american_exports_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+            
+            modifier = {
+                production_factory_max_efficiency_factor = 0.04
+                production_speed_industrial_complex_factor = 0.2
+                consumer_goods_factor = 0.05
+            }
+        }
+
+        Technology_in_schools = {
+            picture = tech_in_school
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+            modifier = {
+                training_time_factor = -0.1
+            }
+            modifier = {
+                political_power_factor = 0.10
+                monthly_population = 0.30
+                research_speed_factor = 0.08	
+            }
+        }
+        
+        increasing_american_exports = {
+            picture = increasing_american_exports_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+            
+            modifier = {
+                production_factory_max_efficiency_factor = 0.04
+                production_speed_industrial_complex_factor = 0.2
+                consumer_goods_factor = 0.05
+            }
+        }
+        
+        
+            
+        Investing_In_American_Businesses = {
+            picture = invest_in_small_companies_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+            
+            modifier = {
+                consumer_goods_factor = -0.05
+                production_speed_arms_factory_factor = 0.10
+                production_factory_efficiency_gain_factor = 0.10
+                industrial_capacity_factory = 0.20
+                industrial_capacity_dockyard = 0.20
+            }
+        }
+        
+        reversing_the_tax_hike = {
+            picture = reverse_tax_incerase_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+            
+            modifier = {
+                consumer_goods_factor = -0.02
+                political_power_gain = 0.1
+                industrial_capacity_factory = 0.04
+                production_speed_industrial_complex_factor = -0.5
+            }
+        }
+        
+        rebuilding_infrastructure = {
+            picture = rebuilding_infrastucture_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+        
+            removal_cost = -1
+            
+            modifier = {
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+                consumer_goods_factor = 0.03
+                monthly_population = 0.30
+            }
+        }
+        
+        idea_usa_workplace_democracy = {
+            picture = workplace_democracy_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            research_bonus = {
+                industry = 0.10
+            }
+            removal_cost = -1
+            
+            modifier = {
+                consumer_goods_factor = 0.03
+                moderate_socialist_drift = 0.02
+            }
+        }
+        
+                    
+        idea_usa_big_pharma_and_socialism = {
+            picture = pharma_and_socialism_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+                MONTHLY_POPULATION = 0.02
+                stability_factor = 0.005
+                MONTHLY_POPULATION = 0.03
+            }
+        }
+        
+        idea_usa_taxes_on_aristocracy = {
+            picture = increase_taxes_on_aristocracy_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+            consumer_goods_factor = -0.02
+            political_power_gain = 0.1
+            industrial_capacity_factory = 0.04
+            production_speed_air_base_factor = -0.2
+            research_speed_factor = -0.01
+            }
+        }
+        
+                    
+        idea_usa_regulate_wall_street = {
+            picture = regulate_wall_street_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+            consumer_goods_factor = 0.05
+            research_speed_factor = 0.04
+            production_speed_buildings_factor = 0.1
+            }
+        }
+        
+        Securing_old_Airfields = {
+            picture = secure_old_airfields_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+                air_ace_generation_chance_factor = 0.04
+                air_mission_xp_gain_factor = 0.03
+                air_weather_penalty = -0.02
+                air_accidents_factor = -0.055
+                air_range_factor = 0.06
+            }
+        }
+        
+            
+        Policing_To_Alaskan_Authorities = {
+            picture = delegate_policing_alaskan_authorities_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+                foreign_subversive_activites = 0.40
+                decryption = 1
+                encryption = 1
+                planning_speed = -0.10
+                political_power_factor = 0.03
+            }
+        }
+        
+        Alaska_self_defense = {
+            picture = alaskan_self_defence_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+                stability_factor = -0.03
+                drift_defence_factor = -1.50
+                foreign_subversive_activites = 0.90
+                training_time_army_factor = -0.30
+                army_org_factor = -0.20
+            }
+        }
+        
+        Encouraging_american_Investment = {
+            picture = encourage_american_investment_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+            industrial_capacity_factory = 0.05
+            industrial_capacity_dockyard = 0.05
+            consumer_goods_factor = 0.03
+            min_export = 0.1
+            political_power_cost = 0.5
+            max_fuel_factor = -0.25
+            fuel_gain_factor = -0.4
+            }
+        }
+
+        
+        building_up_the_governemnt = {
+            picture = continue_building_up_government_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+                production_speed_industrial_complex_factor = -0.5
+                production_speed_arms_factory_factor = -0.5
+                production_speed_dockyard_factor = -0.5
+                conversion_cost_civ_to_mil_factor = 0.5
+                conversion_cost_mil_to_civ_factor = 0.5
+                
+
+            }
+        }
+
+        Continue_Building_Up_Infrastructure = {
+            picture = building_up_infrastucture_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+            industrial_capacity_factory = 0.05
+            industrial_capacity_dockyard = 0.05
+            consumer_goods_factor = 0.03
+            monthly_population = 0.30
+
+            }
+        }
+        
+        Training_Alaska_Military = {
+            picture = training_alaska_military_idea
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+                stability_factor = 0.3
+                army_speed_factor = 0.5
+                mobilization_speed = 0.5
+                experience_gain_army_unit_factor = 0.1
+                army_attack_factor = 0.075
+                army_defence_factor = 0.075
+            
+            }
+        }
+
+
+        
+        idea_usa_norton_the_fourth = {
+            picture = norton_iv
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+        
+            }
+        }
+
+                
+        idea_usa_norton_ii_legacy = {
+            picture = norton_ii_legacy
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+        
+            }
+        }
+
+        idea_usa_house = {
+            picture = us_house
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+        
+            }
+        }
+
+        idea_usa_senate = {
+            picture = us_senate
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+        
+            }
+        }
+
+
+        idea_usa_us_supreme_court = {
+            picture = us_senate
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+        
+            }
+        }
+
+        idea_usa_legacy_of_second_acw = {
+            picture = legacy_of_second_acw
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+        
+            }
+        }
+
+        idea_usa_berniecare = {
+            picture = berniecare
+            
+            allowed = { always = no }
+            available = {}
+            cancel = {}
+            
+            removal_cost = -1
+            
+            modifier = {
+        
+            }
+        }
+    }
+
+
+second_in_command = {
+    
+usa_howie_hawkins = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = communist
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+        }
+    }
+    traits = {
+        insignificant_layman
+    }
+}
+usa_john_holdren = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = communist
+            has_government = revolutionary_socialist
+        }
+    }
+    traits = {
+        iron_fisted_brute
+    }
+}
+usa_germaine_greer = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+        }
+    }
+    traits = {
+        power_hungry_demagogue
+    }
+}
+usa_bob_king = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+        }
+    }
+    traits = {
+        iron_fisted_brute
+    }
+}
+usa_michio_kaku = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+        }
+    }
+    traits = {
+        former_scientist
+    }
+}
+usa_peter_diamondstone = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+        }
+    }
+    traits = {
+        silent_workhorse
+    }
+}
+usa_ralph_nader = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+        }
+    }
+    traits = {
+        naive_optimist
+    }
+}
+usa_jesse_jackson = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+        }
+    }
+    traits = {
+        silent_lawyer
+    }
+}
+usa_eleanor_norton = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+        }
+    }
+    traits = {
+        political_protege
+    }
+}
+usa_barack_obama = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+        }
+    }
+    traits = {
+        political_protege
+    }
+}
+usa_nina_turner = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+        }
+    }
+    traits = {
+        political_protege
+    }
+}
+usa_edward_markey = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+        }
+    }
+    traits = {
+        silent_workhorse
+    }
+}
+usa_sonya_sotomayor = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+        }
+    }
+    traits = {
+        silent_lawyer
+    }
+}
+usa_danny_davis = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        insignificant_layman
+    }
+}
+usa_andrew_cuomo = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+            has_government = monarchist
+        }
+    }
+    traits = {
+        politician_with_connections
+    }
+}
+usa_thomas_menino = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+            has_government = monarchist
+        }
+    }
+    traits = {
+        insignificant_layman
+    }
+}
+usa_joe_lieberman = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = liberal
+            has_government = centrist
+            has_government = national_conservative
+        }
+    }
+    traits = {
+        autocratic_charmer
+    }
+}
+usa_philip_scott = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = liberal
+            has_government = centrist
+            has_government = national_conservative
+        }
+    }
+    traits = {
+        insignificant_layman
+    }
+}
+usa_rudy_giuliani = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = centrist
+            has_government = national_conservative
+            has_government = nationalist
+        }
+    }
+    traits = {
+        flamboyant_tough_guy
+    }
+}
+usa_joseph_dunford = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+            has_government = nationalist
+        }
+    }
+    traits = {
+        autocratic_charmer
+    }
+}
+usa_james_mcconville = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+        }
+    }
+    traits = {
+        retired_general
+    }
+}
+usa_military_triumvirate = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+        }
+    }
+    traits = {
+        political_protege
+    }
+}
+usa_charles_coloumbe = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = monarchist
+        }
+    }
+    traits = {
+        religious_leader
+    }
+}
+usa_sean_patrick_o_malley = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = monarchist
+            has_government = fascist
+        }
+    }
+    traits = {
+        religious_leader
+    }
+}
+}
+
+
+
+foreign_minister = {
+usa_charles_barron = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = communist
+            has_government = revolutionary_socialist
+        }
+    }
+    traits = {
+        ideological_crusader
+    }
+}
+usa_ward_churchill = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = communist
+            has_government = revolutionary_socialist
+        }
+    }
+    traits = {
+        isolationist
+    }
+}
+usa_chris_hedges = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+        }
+    }
+    traits = {
+        biased_intellectual
+    }
+}
+usa_glenn_greenwald = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+        }
+    }
+    traits = {
+        international_schemer
+    }
+}
+usa_rashida_tlaib = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+        }
+    }
+    traits = {
+        ideological_crusader
+    }
+}
+usa_eric_holder = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+        }
+    }
+    traits = {
+        great_compromiser
+    }
+}
+usa_al_sharpton = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+        }
+    }
+    traits = {
+        religious_leader
+    }
+}
+usa_cory_booker = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        iron_fisted_brute
+    }
+}
+usa_howard_dean = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+        }
+    }
+    traits = {
+        ideological_crusader
+    }
+}
+usa_russ_feingold = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = monarchist	
+        }
+    }
+    traits = {
+        silent_lawyer
+    }
+}
+usa_peter_welch = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+        }
+    }
+    traits = {
+        insignificant_layman
+    }
+}
+usa_jack_reed = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        apologetic_clerk
+    }
+}
+usa_charles_baker = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = liberal
+            has_government = centrist
+            has_government = national_conservative
+        }
+    }
+    traits = {
+        great_compromiser
+    }
+}
+usa_alan_keyes = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = national_conservative
+            has_government = nationalist
+            has_government = monarchist	
+        }
+    }
+    traits = {
+        ideological_crusader
+    }
+}
+usa_john_f_campbell = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+        }
+    }
+    traits = {
+        international_schemer
+    }
+}
+usa_lee_walter_congdon = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+            has_government = monarchist
+        }
+    }
+    traits = {
+        biased_intellectual
+    }
+}
+usa_curtis_yarvin = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+            has_government = monarchist
+            has_government = fascist
+        }
+    }
+    traits = {
+        ideological_crusader
+    }
+}
+}
+industry_minister = {
+usa_richard_wolff = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = communist
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+        }
+    }
+    traits = {
+        administrative_genius
+    }
+}
+usa_cornel_west = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+        }
+    }
+    traits = {
+        biased_intellectual
+    }
+}
+usa_richard_trumka = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+        }
+    }
+    traits = {
+        ambitious_union_boss
+    }
+}
+usa_tom_perez = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+        }
+    }
+    traits = {
+        administrative_genius
+    }
+}
+usa_robert_reich = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+        }
+    }
+    traits = {
+        extreme_regulator
+    }
+}
+usa_neil_tyson = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        former_scientist
+    }
+}
+usa_elaine_bernard = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        ambitious_union_boss
+    }
+}
+usa_joe_kennedy_jr = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = new_democrat
+            has_government = liberal
+            has_government = monarchist
+        }
+    }
+    traits = {
+        extreme_regulator
+    }
+}
+usa_paul_krugman = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        administrative_genius
+    }
+}
+usa_william_weld = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = liberal
+            has_government = centrist
+            has_government = national_conservative
+        }
+    }
+    traits = {
+        libertarian_capitalist
+    }
+}
+usa_john_engel = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = centrist
+            has_government = national_conservative
+            has_government = monarchist
+        }
+    }
+    traits = {
+        resource_industrialist
+    }
+}
+usa_mark_rockefeller = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = centrist
+            has_government = national_conservative
+            has_government = monarchist
+        }
+    }
+    traits = {
+        libertarian_capitalist
+    }
+}
+usa_douglas_mcbride = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+        }
+    }
+    traits = {
+        administrative_genius
+    }
+}
+usa_paul_gottfried = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+            has_government = monarchist
+            has_government = fascist
+        }
+    }
+    traits = {
+        isolationist
+    }
+}
+}
+national_security_minister = {
+usa_edward_s_herman = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+        }
+    }
+    traits = {
+        silent_lawyer
+    }
+}
+usa_john_kerry = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+        }
+    }
+    traits = {
+        compassionate_gentleman
+    }
+}
+usa_james_p_hoffa = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+        }
+    }
+    traits = {
+        prince_of_terror
+    }
+}
+usa_bill_mckibben = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        compassionate_gentleman
+    }
+}
+usa_jesus_garcia = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+        }
+    }
+    traits = {
+        insignificant_layman
+    }
+}
+usa_andrew_bacevich = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+        }
+    }
+    traits = {
+        compassionate_gentleman
+    }
+}
+usa_harold_koh = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        silent_lawyer
+    }
+}
+usa_chris_dodd = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        silent_lawyer
+    }
+}
+usa_douglas_kennedy = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = new_democrat
+            has_government = liberal
+            has_government = monarchist
+        }
+    }
+    traits = {
+        iron_fisted_brute
+    }
+}
+usa_john_kasich = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = liberal
+            has_government = centrist
+            has_government = national_conservative
+        }
+    }
+    traits = {
+        compassionate_gentleman
+    }
+}
+usa_gregory_g_johnson = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+        }
+    }
+    traits = {
+        retired_admiral
+    }
+}
+usa_darren_mcdew = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+        }
+    }
+    traits = {
+        compassionate_gentleman
+    }
+}
+usa_william_s_lind = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+            has_government = monarchist
+        }
+    }
+    traits = {
+        efficient_sociopath
+    }
+}
+}
+intelligence_minister = {
+usa_richard_ojeda = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = national_bolshevik
+        }
+    }
+    traits = {
+        retired_general
+    }
+}
+usa_daniel_ellsberg = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+        }
+    }
+    traits = {
+        novice_mastermind
+    }
+}
+usa_richard_daley = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = communist
+            has_government = revolutionary_socialist
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+            has_government = national_conservative
+        }
+    }
+    traits = {
+        politician_with_connections
+    }
+}
+usa_barbara_lee = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+        }
+    }
+    traits = {
+        politician_with_connections
+    }
+}
+usa_joe_sestak = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        retired_admiral
+    }
+}
+usa_james_comey = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = moderate_socialist
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+            has_government = national_conservative
+        }
+    }
+    traits = {
+        novice_mastermind
+    }
+}
+usa_richard_blumenthal = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = new_democrat
+            has_government = liberal
+            has_government = centrist
+        }
+    }
+    traits = {
+        novice_mastermind
+    }
+}
+usa_mark_fitzgerald = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = nationalist
+            has_government = monarchist
+        }
+    }
+    traits = {
+        naval_intelligence_specialist
+    }
+}
+    usa_david_petraeus = {
+    allowed = {
+        OR = {
+            original_tag = USA
+        }
+    }
+    available = {
+        OR = {
+            has_government = liberal
+            has_government = centrist
+            has_government = national_conservative
+            has_government = nationalist
+            has_government = monarchist
+        }
+    }
+    traits = {
+        intelligence_director
+        }
+    }
+ }	
+
+    # TECHNOLOGY
+    tank_manufacturer = {
+
+        designer = yes
+
+        general_dynamics_land_systems = {
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
+                }
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                armor = -0.10
+            }
+
+            traits = { tank_manufacturer }
+        }
+    }
+
+    naval_manufacturer = {
+
+        designer = yes
+
+        huntington_ingalls_industries = {
+
+            picture = generic_naval_manufacturer_1
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
+                }
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                naval_equipment = -0.10
+            }
+
+            traits = { naval_manufacturer }
+        }
+    }
+
+    aircraft_manufacturer = {
+
+        designer = yes
+
+        lockheed_corporation = {
+
+            picture = generic_air_manufacturer_1
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
+                }
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                air_equipment = -0.10
+            }
+
+            traits = { light_aircraft_manufacturer }
+        }
+
+        grumman = {
+
+            picture = generic_air_manufacturer_3
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
+                }
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                air_equipment = -0.10
+            }
+
+            traits = { medium_aircraft_manufacturer }
+        }
+
+        bombardier = {
+
+            picture = generic_air_manufacturer_2
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
+                }
+            }
+
+            available = {
+                has_country_flag = corporations_return
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                air_equipment = -0.10
+            }
+
+            traits = { heavy_aircraft_manufacturer }
+        }
+
+        northrop = {
+
+            picture = generic_naval_manufacturer_2
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
+                }
+            }
+
+            available = {
+                has_country_flag = corporations_return
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                air_equipment = -0.10
+            }
+
+            traits = { naval_aircraft_manufacturer }
+        }
+    }
+
+    industrial_concern = {
+
+        caterpillar_inc = {
+
+            picture = generic_industrial_concern_1
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+                }
+            }
+
+            available = {
+                has_country_flag = corporations_return
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                industry = -0.10
+            }
+
+            traits = { industrial_concern }
+        }
+
+        hewlett_packard = {
+
+            picture = generic_electronics_concern_1
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+                }
+            }
+
+            available = {
+                has_country_flag = corporations_return
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                electronics = -0.10
+            }
+
+            traits = { electronics_concern }
+        }
+    }
+
+
+    materiel_manufacturer = {
+
+        designer = yes
+
+        anniston_army_depot = {
+
+            picture = generic_motorized_equipment_manufacturer_3
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
+                }
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                motorized_equipment = -0.10
+            }
+
+            traits = { motorized_equipment_manufacturer }
+        }
+
+        bushmaster_firearms = {
+
+            picture = generic_infantry_equipment_manufacturer_2
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
+                }
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                infantry_weapons = -0.10
+            }
+
+            traits = { infantry_equipment_manufacturer }
+        }
+
+        remington_arms = {
+
+            picture = generic_artillery_manufacturer_2
+
+            allowed = {
+                original_tag = USA
+                NOT = {
+                    has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
+                }
+            }
+
+            cost = 150
+            removal_cost = 10
+
+            research_bonus = {
+                artillery = -0.10
+            }
+
+            traits = { artillery_manufacturer }
+        }
+    }
+}

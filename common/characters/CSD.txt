@@ -1,0 +1,621 @@
+characters={
+	CSD_ajamu_baraka={
+		name="Ajamu Baraka"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Ajamu_Baraka.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_kevin_macdonald={
+		name="Kevin MacDonald"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Kevin_MacDonald.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_greg_walden={
+		name="Greg Walden"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Greg_Walden.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_royal_coalition={
+		name="Royal Coalition"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Royal_Coalition.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_diana_johnstone={
+		name="Diana Johnstone"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Diana_Johnstone.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_dennis_richardson={
+		name="Dennis Richardson"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Dennis_Richardson.dds"
+			}
+		}
+		country_leader={
+			ideology=american_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_wes_wagner={
+		name="Wes Wagner"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Wes_Wagner.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_kate_brown={
+		name="Kate Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Kate_Brown.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_kevin_stine={
+		name="Kevin Stine"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Kevin_Stine.dds"
+			}
+		}
+		country_leader={
+			ideology=ecopolitician
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_james_nicita={
+		name="James Nicita"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_James_Nicita.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_hilary_franz={
+		name="Hilary Franz"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Hilary_Franz.dds"
+			}
+		}
+		country_leader={
+			ideology=luxemburgism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CSD_ian_telfer={
+		name="Ian Telfer"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Ian_Telfer.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = corporate
+		}
+	}
+	CSD_board_of_shareholders={
+		name="Board Of Shareholders"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Business_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = corporate
+		}
+	}
+	CSD_national_council_of_investors={
+		name="National Council of Investors"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Business_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = corporate
+		}
+	}
+	CSD_patty_murray={
+		name="Patty Murray"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Patty_Murray.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = ecopolitician
+		}
+	}
+	CSD_tim_reeves={
+		name="Tim Reeves"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Tim_Reeves.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	CSD_gordon_smith={
+		name="Gordon Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Gordon_Smith.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	CSD_cyrus_habib={
+		name="Cyrus Habib"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Cyrus_Habib.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = ecopolitician
+		}
+	}
+	CSD_steven_nielson={
+		name="Steven Nielson"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Steven_Nielson.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	CSD_chris_dudley={
+		name="Chris Dudley"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Chris_Dudley.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	CSD_peter_defazio={
+		name="Peter DeFazio"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Peter_DeFazio.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = ecopolitician
+		}
+	}
+	CSD_bill_sizemore={
+		name="Bill Sizemore"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Bill_Sizemore.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	CSD_jaime_herrera_beutler={
+		name="Jaime Herrera Beutler"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Jaime_Herrera.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	CSD_michael_stencel={
+		name="Michael Stencel"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Michael_E_Stencel.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+	}
+	CSD_doug_barnes={
+		name="Doug Barnes"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Doug_Barnes.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = luxemburgism
+		}
+	}
+	CSD_john_kitzhaber={
+		name="John Kitzhaber"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_John_Kitzhaber.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	CSD_jason_levin={
+		name="Jason Levin"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSD/Portrait_CSD_Jason_Levin.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = eco_socialist
+		}
+	}
+	CSD_gregory_bryant={ #navy
+		name="Gregory Bryant"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_gregory_bryant.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = CSD_gregory_bryant
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+		}
+	}
+	CSD_eric_olson={ #navy
+		name="Eric Olson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_eric_olson.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = CSD_eric_olson
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				navy_anti_submarine_2
+			}
+		}
+	}
+	CSD_michael_stencel_air={ #air
+		name="Michael Stencel"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_michael_stencel.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = CSD_michael_stencel_air
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				air_close_air_support_2
+			}
+		}
+	}
+	CSD_donna_m_prigmore={ #air
+		name="Donna Prigmore"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_donna_m_prigmore.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = CSD_donna_m_prigmore
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				air_air_superiority_3
+			}
+		}
+	}
+	CSD_raymond_rees={ #high_command
+		name="Raymond Rees"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_raymond_rees.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CSD_raymond_rees
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				army_artillery_1
+			}
+		}
+	}
+	CSD_tracy_garrett={ #high_command
+		name="Tracy Garrett"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_tracy_garrett.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CSD_tracy_garrett
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				army_logistics_2
+			}
+		}
+	}
+	CSD_gregory_todd={ #high_command
+		name="Gregory Todd"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_gregory_todd.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CSD_gregory_todd
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				navy_fleet_logistics_1
+			}
+		}
+	}
+	CSD_jill_lannan={ #high_command
+		name="Jill Lannan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_jill_lannan.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CSD_jill_lannan
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				air_air_combat_training_2
+			}
+		}
+	}
+	CSD_carter_ham={
+		name="Carter Ham"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_fom_carter_ham.dds"
+			}
+			army={
+				large="gfx/leaders/CSD/Portrait_Carter_Ham.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = CSD_carter_ham
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer armor_officer politically_connected infantry_leader panzer_leader }
+			skill=4
+			attack_skill=1
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CSD_peter_w._chiarelli={
+		name="Peter W. Chiarelli"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/cascadia/cascadia_peter_chiarelli.dds"
+			}
+			army={
+				large="gfx/leaders/CSD/Portrait_Peter_W_Chiarelli.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = CSD_peter_w._chiarelli
+			allowed = {
+				original_tag = CSD
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer inspirational_leader }
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CSD_peter_helmlinger={
+		name="Peter Helmlinger"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CSD/Portrait_Peter_Helmlinger.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer ranger }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CSD_daniel_r._kent={
+		name="Daniel R. Kent"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CSD/Portrait_Daniel_R_Kent.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer trait_mountaineer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CSD_gary_j._volesky={
+		name="Gary J. Volesky"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CSD/Portrait_Gary_J_Volesky.dds"
+			}
+		}
+		corps_commander={
+			traits={ paratrooper }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CSD_eric_thor_olson={
+		name="Eric Thor Olson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/CSD/Portrait_Eric_Thor_Olson.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

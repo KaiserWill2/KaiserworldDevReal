@@ -1,0 +1,1742 @@
+characters={
+	ITA_giorgio_napolitano={
+		name="Giorgio Napolitano"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Giorgio_Napolitano.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GIORGIO_NAPOLITANO_DESC"
+			ideology=meliorist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_luca_romagnoli={
+		name="Luca Romagnoli"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Luca_Romagnoli.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_matteo_salvini={
+		name="Matteo Salvini"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Matteo_Salvini.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_vittorio_emanuele_iv={
+		name="Vittorio Emanuele IV"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_Fourth.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_francesco_storace={
+		name="Francesco Storace"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Francesco_Storace.dds"
+			}
+		}
+		country_leader={
+			ideology=national_syndicalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_raffaele_fitto={
+		name="Raffaele Fitto"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Raffaele_Fitto.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_pier_ferdinando_casini={
+		name="Pier Ferdinando Casini"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Pier_Ferdinando_Casini.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_denis_verdini={
+		name="Denis Verdini"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Denis_Verdini.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_maurizio_martina={
+		name="Maurizio Martina"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Maurizio_Martina.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_roberto_speranza={
+		name="Roberto Speranza"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Roberto_Speranza.dds"
+			}
+		}
+		country_leader={
+			ideology=european_moderate_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_giuliano_amato={
+		name="Giuliano Amato"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Giuliano_Amato.dds"
+			}
+		}
+		country_leader={
+			ideology=orthodox_leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ITA_vincenzo_camporini={
+		name="Vincenzo Camporini"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Vincenzo_Camporini.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = stalinist
+		}
+	}
+	ITA_grand_council_of_fascism={
+		name="Grand Council of Fascism"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Grand_Council_Of_Fascism.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	ITA_francis_i={
+		name="Francis"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Pope_Francis.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = meliorist
+		}
+	}
+	ITA_pius_xiii={
+		name="Pius XIII"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Pope_Pius_Thirteenth.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = clerical_fascist
+		}
+	}
+	ITA_benedict_xvi={
+		name="Benedict XVI"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Pope_Benedict_Sixteenth.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = ultranationalist
+		}
+	}
+	ITA_the_senate={
+		name="The Senate"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_The_Senate.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	ITA_silvio_berlusconi={
+		name="Silvio Berlusconi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Silvio_Berlusconi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = european_conservative
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ITA_alessandra_mussolini={
+		name="Alessandra Mussolini"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Alessandra_Mussolini.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = ultranationalist
+		}
+	}
+	ITA_sergio_mattarella={
+		name="Sergio Mattarella"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Sergio_Mattarella.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = christian_democrat
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	ITA_laura_boldrini={
+		name="Laura Boldrini"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Laura_Boldrini.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = new_democrat_ideology
+		}
+	}
+	ITA_margaretha_bonaparte={
+		name="Margaretha Bonaparte"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Margaretha_Bonaparte.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	ITA_birgitta_bonaparte={
+		name="Birgitta Bonaparte"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Birgitta_Bonaparte.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	ITA_desiree_bonaparte={
+		name="Desiree Bonaparte"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Desiree_Bonaparte.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	ITA_christina_bonaparte={
+		name="Christina Bonaparte"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Christina_Bonaparte.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	ITA_carl_philip_bonaparte={
+		name="Carl Philip Bonaparte"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Carl_Philip_Bonaparte.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	ITA_sergio_marchionne={
+		name="Sergio Marchionne"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Sergio_Marchionne.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = european_conservative
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ITA_maria_franca_fissolo={
+		name="Maria Franca Fissolo"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Maria_Franca_Fissolo.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = european_conservative
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ITA_miuccia_prada={
+		name="Miuccia Prada"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Miuccia_Prada.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = european_conservative
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ITA_leonardo_del_vecchio={
+		name="Leonardo Del Vecchio"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Leonardo_Del_Vecchio.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = european_conservative
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	ITA_fausto_bertinotti={
+		name="Fausto Bertinotti"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Fausto_Bertinotti.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = meliorist
+		}
+	}
+	ITA_matteo_renzi={
+		name="Matteo Renzi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Matteo_Renzi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	ITA_virginia_raggi={
+		name="Virginia Raggi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Virginia_Raggi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	ITA_gianni_alemanno={
+		name="Gianni Alemanno"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Gianni_Alemanno.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = fascist_ideology
+		}
+	}
+	ITA_fabrizio_castagnetti={
+		name="Fabrizio Castagnetti"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Fabrizio_Castagnetti.dds"
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ITA_giuseppe_valotto={
+		name="Giuseppe Valotto"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Giuseppe_Valotto.dds"
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ITA_salvatore_camporeale={
+		name="Salvatore Camporeale"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Salvatore_Camporeale.dds"
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ITA_rino_de_vito={
+		name="Rino De Vito"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Rino_De_Vito.dds"
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ITA_luigi_francesco_de_leverano={
+		name="Luigi Francesco De Leverano"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Luigi_Francesco_De_Leverano.dds"
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=4
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ITA_salvatore_farina={
+		name="Salvatore Farina"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Salvatore_Farina.dds"
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ITA_danilo_errico={
+		name="Danilo Errico"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Danilo_Errico.dds"
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	ITA_claudio_graziano={
+		name="Claudio Graziano"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Claudio_Graziano.dds"
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=5
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	ITA_agostino_biancafarini={
+		name="Agostino Biancafarini"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Agostino_Biancafarini.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ITA_alberto_primicerj={
+		name="Alberto Primicerj"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Alberto_Primicerj.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ITA_aldo_mezzalana={
+		name="Aldo Mezzalana"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Aldo_Mezzalana.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_alessandro_grassano={
+		name="Alessandro Grassano"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Alessandro_Grassano.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_amedeo_sperotto={
+		name="Amedeo Sperotto"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Amedeo_Sperotto.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ITA_andrea_di_stasio={
+		name="Andrea Di Stasio"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Andrea_Di_Stasio.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_antonello_vespeziani={
+		name="Antonello Vespeziani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Antonello_Vespeziani.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ITA_antonino_poma={
+		name="Antonino Poma"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Antonino_Poma.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ITA_antonio_vittiglio={
+		name="Antonio Vittiglio"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Antonio_Vittiglio.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ITA_aurelio_tassi={
+		name="Aurelio Tassi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Aurelio_Tassi.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ITA_bruno_stano={
+		name="Bruno Stano"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Bruno_Stano.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_carlo_di_pasquale={
+		name="Carlo Di Pasquale"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Carlo_Di_Pasquale.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_claudio_berto={
+		name="Claudio Berto"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Claudio_Berto.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_claudio_mora={
+		name="Claudio Mora"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Claudio_Mora.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ITA_corrado_dalzini={
+		name="Corrado Dalzini"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Corrado_Dalzini.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_domenico_nicola_di_biase={
+		name="Domenico Nicola Di Biase"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Domenico_Nicola_Di_Biase.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_enzo_stefanini={
+		name="Enzo Stefanini"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Enzo_Stefanini.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ITA_federico_bonato={
+		name="Federico Bonato"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Federico_Bonato.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_filippo_ritondale={
+		name="Filippo Ritondale"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Filippo_Ritondale.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_flaviano_godio={
+		name="Flaviano Godio"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Flaviano_Godio.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_gabriele_lupini={
+		name="Gabriele Lupini"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Gabriele_Lupini.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_gianluca_carai={
+		name="Gianluca Carai"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Gianluca_Carai.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_gianluca_feroce={
+		name="Gianluca Feroce"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Gianluca_Feroce.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_gianluigi_de_matteis={
+		name="Gianluigi De Matteis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Gianluigi_De_Matteis.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_giorgio_battist={
+		name="Giorgio Battist"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Giorgio_Battist.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_giorgio_cornacchione={
+		name="Giorgio Cornacchione"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Giorgio_Cornacchione.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_giorgio_toschi={
+		name="Giorgio Toschi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Giorgio_Toschi.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_giovanni_armentani={
+		name="Giovanni Armentani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Giovanni_Armentani.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_giuseppe_tortorelli={
+		name="Giuseppe Tortorelli"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Giuseppe_Tortorelli.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_leonardo_di_marco={
+		name="Leonardo Di Marco"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Leonardo_Di_Marco.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_luca_felicissimo={
+		name="Luca Felicissimo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Luca_Felicissimo.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_luigi_musti={
+		name="Luigi Musti"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Luigi_Musti.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_marcello_bellacicco={
+		name="Marcello Bellacicco"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Marcello_Bellacicco.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_marco_bertolini={
+		name="Marco Bertolini"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Marco_Bertolini.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_massimiliano_stecca={
+		name="Massimiliano Stecca"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Massimiliano_Stecca.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_maurizio_scardino={
+		name="Maurizio Scardino"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Maurizio_Scardino.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_maurizio_settesoldi={
+		name="Maurizio Settesoldi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Maurizio_Settesoldi.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_michele_galotto={
+		name="Michele Galotto"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Michele_Galotto.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_nicola_terzano={
+		name="Nicola Terzano"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Nicola_Terzano.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_paolo_fabbri={
+		name="Paolo Fabbri"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Paolo_Fabbri.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_paolo_fortezza={
+		name="Paolo Fortezza"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Paolo_Fortezza.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_pietro_serino={
+		name="Pietro Serino"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Pietro_Serino.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_gianpaolo_mirra={
+		name="Gianpaolo Mirra"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Gianpaolo_Mirra.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_marco_piacentini={
+		name="Marco Piacentini"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Marco_Piacentini.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_riccardo_marchiò={
+		name="Riccardo Marchiò"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Riccardo_Marchiò.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_roberto_perretti={
+		name="Roberto Perretti"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Roberto_Perretti.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_roberto_vannacci={
+		name="Roberto Vannacci"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Roberto_Vannacci.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_rosario_castellano={
+		name="Rosario Castellano"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Rosario_Castellano.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_stefano_mannino={
+		name="Stefano Mannino"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Stefano_Mannino.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_stefano_santoro={
+		name="Stefano Santoro"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Stefano_Santoro.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_tullio_del_sette={
+		name="Tullio Del Sette"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Tullio_Del_Sette.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_ugo_cillo={
+		name="Ugo Cillo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Ugo_Cillo.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_vincenzo_coppola={
+		name="Vincenzo Coppola"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Vincenzo_Coppola.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = stalinist
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_donato_marzano={
+		name="Donato Marzano"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Donato_Marzano.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_enrico_mascia={
+		name="Enrico Mascia"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Enrico_Mascia.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_paolo_pezzuti={
+		name="Paolo Pezzuti"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Paolo_Pezzuti.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_stefano_tortora={
+		name="Stefano Tortora"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Stefano_Tortora.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_valter_girardelli={
+		name="Valter Girardelli"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Valter_Girardelli.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_vincenzo_melone={
+		name="Vincenzo Melone"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Vincenzo_Melone.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_giuseppe_de_giorgi={
+		name="Giuseppe De Giorgi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Giuseppe_De_Giorgi.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,243 @@
+ideas = {
+
+	tank_manufacturer = { 
+	
+		designer = yes
+		
+		megaev = {
+
+			picture = megaev
+			
+			allowed = {
+			    original_tag = PCA
+			}
+		
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+	naval_manufacturer = { 
+	
+		designer = yes
+	
+		hunter_point_naval_shipyard = {
+			
+			picture = hunter_point_naval_shipyard
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+	aircraft_manufacturer = { 
+	
+		designer = yes
+	
+		epic_aircraft = {
+			
+			picture = epic_aircraft
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		convair = {
+			
+			picture = convair
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		general_atomics = {
+			
+			picture = general_atomics
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+	}
+	industrial_concern = {
+		channel_technologies_group = {
+			
+			picture = channel_technologies_group
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		raychem = {
+			
+			picture = raychem
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = refinery_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				synth_resources = 0.10
+			}
+			
+			traits = { refinery_concern }
+		}
+		
+		overaa_construction = {
+			
+			picture = overaa_construction
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+	}
+	materiel_manufacturer = {
+	
+		designer = yes
+	
+		megaev_motorized = {
+			
+			picture = megaev
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		arma_lite = {
+			
+			picture = arma_lite
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		aerojet = {
+			
+			picture = aerojet
+
+			allowed = {
+			    original_tag = PCA
+				NOT = {
+					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+}

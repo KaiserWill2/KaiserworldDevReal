@@ -1,0 +1,113 @@
+﻿l_english:
+ DECISIONVIEW_TITLE:0 "Decisions"
+ DECISIONSVIEW_EVENT_HEADER:0 "Events"
+ POPUP_NEWS:0 "News Popup"
+ POPUP_EVENTS:0 "Event Popup"
+ CATEGORY_COLLAPSE_DESC:0 "§GClick§! to collapse"
+ CATEGORY_EXPAND_DESC:0 "§GClick§! to expand"
+ DECISION_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Rnot be notified§! when it is possible to read this.\n"
+ DECISION_NOT_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Gbe notified§! when it is possible to read this.\n"
+ TAKE_DECISION_HEADER:0 "§HRead event§!\n\n"
+ DECISION_COST_DESC:0 "It costs £pol_power $VAL|H0$ to read this."
+ DECISION_COST_NOT_ENOUGH:0 "It costs £pol_power $VAL|HR0$ to read this."
+ ON_MAP_DECISION_NAME_DEFAULT:0 "Find decisions on the map."
+ ADD_DAYS_TO_DECISION:0 "Add $DAYS|H$ days to Decision $DECISION|H$"
+ REMOVE_DAYS_TO_DECISION:0 "Remove $DAYS|H$ days from Decision $DECISION|H$"
+ ADD_DAYS_TO_MISSION:0 "Add $DAYS|H$ days to Mission $MISSION|H$"
+ REMOVE_DAYS_TO_MISSION:0 "Remove $DAYS|H$ days from Mission $MISSION|H$"
+ CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
+
+
+ ### HISTORY DECISIONS ###
+ History_Of_The_War:0 "History Of The War"
+ History_Of_America:0 "History Of Empire Of America"
+ thirties:0 "History of the 1930s"
+ forties:0 "History of the 1940s"
+ fifties:0 "History of the 1950s"
+ sixties:0 "History of the 1960s"
+ seventies:0 "History of the 1970s"
+ eighties:0 "History of the 1980s"
+ nineties:0 "History of the 1990s"
+ noughts:0 "History of the 2000s"
+
+ parliament_gui_decision_category:0 "Congress Seats"
+ parliament_gui_decision_category_desc:0 "Below Shows Size Of Party In The Workers Congress"
+ 
+ Keeping_The_Nation_Stable:0 "Keeping The Union Stable"
+ Keeping_The_Nation_Stable_desc:0 "Blair is dead, we must ensure that our union can remain stable until a successor has been chosen"
+ Stablising_The_Nation:0 "Stablising The Nation"
+ Stablising_The_Nation_desc:0 "We must do what we can to try and stablise the union before it collapses"
+ ENG_Deploy_The_Military:0 "Deploy The Military"
+ ENG_Sideline_The_Police:0 "Sideline The Police"
+ ENG_Converting_Apartments_To_Barracks:0 "Converting Apartments To Barracks"
+ ENG_Shutting_Down_State_Industries:0 "Shutting Down State Industries"
+ ENG_Enforce_A_state_At_Home_Policy:0 "Enforce A 'State At Home' Policy"
+ ENG_Censoring_Media:0 "Censoring Media"
+ ENG_NationalPPropaganda_Campaign:0 "National Propaganda Campaign"
+ ENG_Deploy_The_Police:0 "Deploy The Police"
+ ENG_A_New_National_Holiday:0 "A New National Holiday"
+ ENG_Rewarding_Political_Supporters:0 "Rewarding Political Supporters"
+
+
+
+ ENG_A_History_of_the_Second_Weltkrieg:0 "A History of the Second Weltkrieg (Part 1)§!"
+
+ ENG_A_History_of_the_Second_Weltkrieg2:0 "A History of the Second Weltkrieg (Part 2)§!"
+
+ ENG_A_History_of_the_Second_Weltkrieg3:0 "A History of the Second Weltkrieg (Part 3)§!"
+
+ ENG_The_Dumfries_War:0 "The Dumfries War§!"
+
+  ENG_Welcome_To_The_Union:0 "Welcome To The Union"
+  
+  ENG_Fix_The_Union:0 "Taking Wales!"
+
+  ENG_Stablise_The_Nation:0 "Stablise The Nation"
+
+  ENG_The_Peoples_Palace:0 "The Peoples Palace"
+
+  Fate_Of_The_Union:0 "Fate Of The Union"
+
+  ENG_The_Death_Of_Lawrence:0 "The Death Of Lawrence"
+
+  ENG_Take_Wales:0 "Take Wales"
+
+
+
+  History_Of_The_Falklands:0 "History Of The Falklands"
+
+ FLK_The_Falkland_Invasion:0 "The Falkland Invasion"
+ FLK_The_Falkland_Invasion_II:0 "The Falkland Invasion II"
+ FLK_The_Falkland_Invasion_III:0 "The Falkland Invasion III"
+
+  USCA_James_Comey_Overthrown:0 "James Comey Overthrown"
+
+  USA_Second_American_Civil_War:0 "Second American Civil War§!"
+
+ USA_Delta_Green:0 "Delta Green"
+
+ USA_The_Ohio_Pillar:0 "The Ohio Pillar"
+
+ USA_The_In_Between:0 "The In-Between"
+
+ USA_Area_X:0 "Area X - Project 001"
+
+ USA_Another_Lovecraft:0 "Another Lovecraft"
+
+  USA_Project_201:0 "Project 201"
+  
+ USA_Project_001:0 "Project 001"
+ 
+ USA_Chairman_Blair:0 "Chairman Blairs Newspaper - No class awarded"
+
+  USA_New_America:0 "The New America§"
+
+  USA_New_America_2:0 "The New America II§"
+
+  USA_New_America_3:0 "The New America III§"
+
+  USA_Start_of_Empire:0 "The Start Of The Empire§"
+
+  FLK_start_of_independence:0 "Falkland Independence"
+
+  Central_America_Lore:0 "Central American Lore"

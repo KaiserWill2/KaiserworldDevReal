@@ -1,0 +1,164 @@
+characters={
+	ISL_abu_khalid_almadani={
+		name="Abu Khalid al-Madani"
+		portraits={
+			civilian={
+				large="gfx/leaders/ISL/Portrait_ISL_Abu_Khalid_Al_Madani.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected organizer }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ISL_mohamed_alzahawi={
+		name="Mohamed al-Zahawi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ISL/Portrait_Mohamed_al_Zahawi.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected inspirational_leader expert_delegator }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ISL_mokhtar_belmokhtar={
+		name="Mokhtar Belmokhtar"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ISL/Portrait_Mokhtar_Belmokhtar.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer desert_fox guerilla_fighter }
+			skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	ISL_abdelhakim_belhaj={
+		name="Abdelhakim Belhaj"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ISL/Portrait_Abdelhakim_Belhaj.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ISL_abu_yahya_allibi={
+		name="Abu Yahya al-Libi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ISL/Portrait_Abu_Yahya_al_Libi.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ISL_abu_sufian_bin_qumu={
+		name="Abu Sufian bin Qumu"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ISL/Portrait_Abu_Sufian_bin_Qumu.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ISL_ismail_alsalabi={
+		name="Ismail al-Salabi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ISL/Portrait_Ismail_al_Salabi.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ISL_wissam_ben_hamid={
+		name="Wissam Ben Hamid"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ISL/Portrait_Wissam_Ben_Hamid.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

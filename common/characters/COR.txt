@@ -1,0 +1,145 @@
+characters={
+	COR_yvan_colonna={
+		name="Yvan Colonna"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Yvan_Colonna.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_roger_holeindre={
+		name="Roger Holeindre"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Roger_Holeindre.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_charles_first={
+		name="Charles I"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Charles_First.dds"
+			}
+		}
+		country_leader={
+			ideology=bonapartist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_charles_pieri={
+		name="Charles Pieri"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Charles_Pieri.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_charles_ceccaldi_raynaud={
+		name="Charles Ceccaldi-Raynaud"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Charles_Ceccaldi_Raynaud.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_camille_de_rocca_serra={
+		name="Camille de Rocca Serra"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Camille_de_Rocca_Serra.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_emile_zuccarelli={
+		name="Émile Zuccarelli"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Émile_Zuccarelli.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_jean_christophe_angelini={
+		name="Jean-Christophe Angelini"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Jean_Christophe_Angelini.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_edmond_simeoni={
+		name="Edmond Simeoni"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Edmond_Simeoni.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_jean_guy_talamoni={
+		name="Jean-Guy Talamoni"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Jean_Guy_Talamoni.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COR_dominique_bucchini={
+		name="Dominique Bucchini"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Dominique_Bucchini.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

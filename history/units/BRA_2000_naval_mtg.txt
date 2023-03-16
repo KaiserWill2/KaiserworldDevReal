@@ -1,0 +1,28 @@
+
+units= {
+	####### NAVAL UNITS #######
+	##### Brazilian Navy #####
+	##### Battle Force (CO: ) #####
+	### Rio ###
+	fleet = {
+		name = "Brazilian Navy"
+		naval_base = 11846 # Anzio
+		task_force = {
+			name = "Grupo Independencia"
+			location = 10980 # Rio
+			ship = { #carriers
+			name = "São Paulo" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = BRA version_name = "Clemenceau Class" } }
+			}
+			ship = { name = "Greenhalgh" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Type 22 Class" } } }
+			ship = { name = "Rademaker" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Type 22 Class" } } }
+			ship = { name = "Bosísio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "Type 22 Class" } } }
+			ship = { name = "Tikuna" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "Type 209 Class" } } }
+			ship = { name = "Tapajó" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "Type 209 Class" } } }
+			ship = { name = "Timbira" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "Type 209 Class" } } }
+			ship = { name = "Tamoio" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "Type 209 Class" } } }
+			ship = { name = "Tupi" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "Type 209 Class" } } }
+			ship = { name = "Humaitá" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "Type 209 Class" } } }
+			ship = { name = "Riachuelo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "Type 209 Class" } } }
+		}
+	}
+}

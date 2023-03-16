@@ -1,0 +1,145 @@
+characters={
+	GAL_jose_amedo={
+		name="José Amedo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Jose_Amedo.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_gonzalo_perez_jacome={
+		name="Gonzalo Pérez Jácome"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Gonzalo_Perez_Jacome.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_bruno_i={
+		name="Bruno I"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Bruno_I.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_nestor_rego={
+		name="Néstor Rego"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Nestor_Rego.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_alberto_nunez_feijoo={
+		name="Alberto Núñez Feijóo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Alberto_Nunez_Feijoo.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_guillermo_sanchez_fojo={
+		name="Guillermo Sánchez Fojo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Guillermo_Sanchez_Fojo.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_xose_mosquera_casero={
+		name="Xosé Mosquera Casero"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Xose_Mosquera_Casero.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_emilio_perez_tourino={
+		name="Emilio Pérez Touriño"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Emilio_Perez_Tourino.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_xose_manuel_beiras={
+		name="Xosé Manuel Beiras"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Xose_Manuel_Beiras.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_anxo_quintana={
+		name="Anxo Quintana"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Anxo_Quintana.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAL_yolanda_diaz={
+		name="Yolanda Díaz"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAL/Portrait_GAL_Yolanda_Diaz.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

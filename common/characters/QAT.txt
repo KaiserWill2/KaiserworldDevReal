@@ -1,0 +1,225 @@
+characters={
+	QAT_khalifa_muhammad_turki_alsubaiy={
+		name="Khalifa Muhammad Turki al-Subaiy"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Khalifa_Muhammad_Turki_al_Subaiy.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_abdullah_bin_nasser_bin_khalifa_al_thani={
+		name="Abdullah bin Nasser bin Khalifa Al Thani"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Abdullah_bin_Nasser_bin_Khalifa_Al_Thani.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_hamad_bin_khalifa_al_thani={
+		name="Hamad bin Khalifa Al Thani"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Hamad_bin_Khalifa_Al_Thani.dds"
+			}
+		}
+		country_leader={
+			ideology=dynastic_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_najeeb_al_nuaimi={
+		name="Najeeb Al Nuaimi"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Najeeb_Al_Nuaimi.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_bolshevik
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_ali_alqaradaghi={
+		name="Ali al-Qaradaghi"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Ali_al_Qaradaghi.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_khalid_alhail={
+		name="Khalid al-Hail"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Khalid_Al_Hail.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_hind_abdul_rahman_almuftah={
+		name="Hind Abdul Rahman al-Muftah"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Hind_Abdul_Rahman_al_Muftah.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_mouza_al_malki={
+		name="Mouza Al Malki"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Mouza_Al_Malki.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_ali_khalifa_alkuwari={
+		name="Ali Khalifa Al-Kuwari"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Ali_Khalifa_Al_Kuwari.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_huda_alnaimi={
+		name="Huda al-Naimi"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Huda_al_Naimi.dds"
+			}
+		}
+		country_leader={
+			ideology=nasserism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_khalifa_bin_mubarak_al_thani={
+		name="Khalifa bin Mubarak Al Thani"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Portrait_QAT_Khalifa_bin_Mubarak_Al_Thani.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_ghanem_bin_shaheen_al_ghanem={
+		name="Ghanem bin Shaheen Al Ghanem"
+		portraits={
+			army={
+				small="GFX_Portrait_Arabia_Generic_land_1_small"
+			}
+			army={
+				large="GFX_Portrait_Arabia_Generic_land_1"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine organisational_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	QAT_mohammed_bin_ali_al_ghanim_al_maadeed={
+		name="Mohammed bin Ali Al Ghanim Al Maadeed"
+		portraits={
+			army={
+				small="GFX_Portrait_Arabia_Generic_land_1_small"
+			}
+			army={
+				large="GFX_Portrait_Arabia_Generic_land_1"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer fortress_buster }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	QAT_abdulaziz_yousus_al_naemi={
+		name="Abdulaziz Yousus Al Naemi"
+		portraits={
+			army={
+				small="GFX_Portrait_Arabia_Generic_land_1_small"
+			}
+			army={
+				large="GFX_Portrait_Arabia_Generic_land_1"
+			}
+		}
+		corps_commander={
+			traits={ commando desert_fox urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	QAT_mohammed_nasser_al_mohannadi={
+		name="Mohammed Nasser Al Mohannadi"
+		portraits={
+			army={
+				small="GFX_Portrait_Arabia_Generic_navy_1_small"
+			}
+			army={
+				large="GFX_Portrait_Arabia_Generic_navy_1"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

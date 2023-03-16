@@ -1,0 +1,145 @@
+characters={
+	WSA_Mohamed_Abdelaziz={
+		name="Mohamed Abdelaziz"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Mohamed_Abdelaziz_suit.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Adnan_Abu_Walid_al_Sahrawi={
+		name="Adnan Abu Walid al-Sahrawi"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Adnan_Abu_Walid_al_Sahrawi.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Khalihenna_Ould_Errachid={
+		name="Khalihenna Ould Errachid"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Khalihenna_Ould_Errachid.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Hicham_First={
+		name="Hicham I"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Hicham_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Omar_Hadrami={
+		name="Mohamed Ali El Admi"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Omar_Hadrami.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Ahmed_Lakhrif={
+		name="Ahmed Lakhrif"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Ahmed_Lakhrif.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Aminatou_Haidar={
+		name="Aminatou Haidar"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Aminatou_Haidar.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Brahim_Dahane={
+		name="Brahim Dahane"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Brahim_Dahane.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Rkia_Derham={
+		name="Rkia Derham"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Rkia_Derham.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Luchaa_Mohamed_Lamin={
+		name="Luchaa Mohamed Lamin"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Luchaa_Mohamed_Lamin.dds"
+			}
+		}
+		country_leader={
+			ideology=peoples_socialist_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSA_Ali_Salem_Tamek={
+		name="Ali Salem Tamek"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSA/Portrait_WSA_Ali_Salem_Tamek.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

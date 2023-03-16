@@ -1,0 +1,146 @@
+characters={
+	ZIM_dumiso_dabengwa={
+		name="Dumiso Dabengwa"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Dumiso_Dabengwa.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_philip_valerio_sibanda={
+		name="Philip Valerio Sibanda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Philip_Valerio_Sibanda.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_robert_mugabe={
+		name="Robert Mugabe"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Robert_Mugabe.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ROBERT_MUGABE_DESC"
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_grace_mugabe={
+		name="Grace Mugabe"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Grace_Mugabe.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_alain_noudehou={
+		name="Alain Noudehou"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Alain_Noudehou.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_simba_makoni={
+		name="Simba Makoni"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Simba_Makoni.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_promise_mkwananzi={
+		name="Promise Mkwananzi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Promise_Mkwananzi.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_kisinoti_mukwazhe={
+		name="Kisinoti Mukwazhe"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Kisinoti_Mukwazhe.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_morgan_tsvangirai={
+		name="Morgan Tsvangirai"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Morgan_Tsvangirai.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_welshman_ncube={
+		name="Welshman Ncube"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Welshman_Ncube.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_Bulelani_Lobengula={
+		name="Bulelani Lobengula"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Portrait_ZIM_Bulelani_Lobengula.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

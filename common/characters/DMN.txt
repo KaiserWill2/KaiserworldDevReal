@@ -1,0 +1,145 @@
+characters={
+	DMN_patrick_john={
+		name="Patrick John"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_Patrick_John.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_cyril_carette={
+		name="Cyril Carette"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_Cyril_Carette.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_george_first_of_windsor={
+		name="George I"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_George_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_william_para_riviere={
+		name="William Para Riviere"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_William_Para_Riviere.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_sapphire_carrington={
+		name="Sapphire Carrington"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_Sapphire_Carrington.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_hector_john={
+		name="Hector John"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_Hector_John.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_charles_savarin={
+		name="Charles Savarin"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_Charles_Savarin.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_roosevelt_skerrit={
+		name="Roosevelt Skerrit"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_Roosevelt_Skerrit.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_atherton_martín={
+		name="Atherton Martín"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_Atherton_Martín.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_irwin_larocque={
+		name="Irwin LaRocque"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_Irwin_LaRocque.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_ian_douglas={
+		name="Ian Douglas"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Portrait_DMN_Ian_Douglas.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

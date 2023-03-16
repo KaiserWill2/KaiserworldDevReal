@@ -1,0 +1,189 @@
+political_decisions = {
+	renovate_london = {
+		potential = {
+            OR = {
+                tag = ENG
+                tag = ENL
+            }
+            NOT = {
+                has_global_flag = renovate_london
+            }
+        }
+        allow = {
+            all_core = {owned_by = THIS}
+			iron_railroad = 1
+			impressionism = 1
+        }
+
+        effect = {
+            300 = {life_rating = 5}
+			capital = 300
+            set_global_flag = renovate_london
+        }
+	
+	}
+	the_corn_laws_eng = {
+        potential = {
+            OR = {
+                tag = ENG
+                tag = ENL
+            }
+            NOT = {
+                has_country_flag = corn_laws_cope_flag
+            }
+        }
+        allow = {
+            OR = {
+			government = democracy
+			trade_policy = free_trade
+			}
+        }
+
+        effect = {
+            add_country_modifier = {
+                name = corn_laws_repealed
+                duration = -1
+            }
+            set_country_flag = corn_laws_cope_flag
+        }
+    }
+	repeal_the_corn_laws = {
+        potential = {
+            OR = {
+                tag = ENG
+                tag = ENL
+            }
+            has_country_flag = corn_laws_cope_flag
+            NOT = {
+                has_country_flag = corn_laws_repealed_flag
+            }
+			
+        }
+        allow = {
+			
+            average_militancy = 2
+        }
+
+        effect = {
+			remove_country_modifier = corn_laws_repealed
+            set_country_flag = corn_laws_repealed_flag
+        }
+    }
+	found_the_bbc = {
+        picture = found_the_bbc
+        potential = {
+            OR = {
+                tag = ENG
+                tag = ENL
+            }
+            year = 1900
+            NOT = {
+                has_country_flag = we_are_live_from_london
+            }
+        }
+
+        allow = {
+            invention = national_radio_networks
+        }
+
+        effect = {
+            any_country = {
+                relation = {
+                    who = THIS
+                    value = 5
+                }
+            }
+            any_pop = {
+                militancy = -0.5
+            }
+            prestige = 10
+            set_country_flag = we_are_live_from_london
+        }
+    }
+    the_scotland_yard = {
+        potential = {
+            OR = {
+                tag = ENG
+                tag = ENL
+            }
+            NOT = {
+                has_country_flag = elementary_my_dear_watson # I know, he never says it in the books, yadiyadi.
+            }
+        }
+
+        allow = {
+            realism = 1
+        }
+
+        effect = {
+            add_country_modifier = {
+                name = the_yard
+                duration = -1
+            }
+            set_country_flag = elementary_my_dear_watson
+        }
+    }
+	build_the_big_ben = {
+        picture = bigben
+        potential = {
+            OR = {
+                tag = ENG
+                tag = ENL
+            }
+            year = 1844
+            NOT = { has_country_flag = big_ben_construction }
+            NOT = { year = 1860 }
+            300 = { NOT = { has_province_modifier = the_big_ben } }
+        }
+
+        allow = {
+            war = no
+            election = no
+            stock_exchange = 1
+            OR = {
+                money = 30000
+                ai = yes
+            }
+        }
+
+        effect = {
+            set_country_flag = big_ben_construction
+            country_event = 3697000
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+	
+	gateway_into_china = {
+	picture = "dreams_of_empire"
+	potential = {
+	tag = ENG
+	NOT = {has_country_flag = gateway_into_china}
+	}
+	allow = {
+	1496 = {owned_by = THIS}
+	}
+	effect = {
+		1496 = {naval_base = 2}
+		1496 = {add_province_modifier = {name = hong_kong_buildup duration = -1}}
+		1496 = {life_rating = 5}
+		set_country_flag = gateway_into_china
+	}
+	}
+	
+	outlaw_child_labour = {
+	picture = "destroy_westminster"
+	potential = {
+	tag = ENG
+	government = democracy
+	OR = {is_next_reform = child_labor_restricted is_next_reform = child_labor_illegal}
+	}
+	allow = {
+	}
+	effect = {
+		social_reform = child_labor_illegal
+	}
+	}
+
+}

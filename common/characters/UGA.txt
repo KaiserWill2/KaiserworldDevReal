@@ -1,0 +1,334 @@
+characters={
+	UGA_yoweri_museveni={
+		name="Yoweri Museveni"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Yoweri_Museveni.dds"
+			}
+		}
+		country_leader={
+			ideology=neoauthoritarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_jimmy_akena={
+		name="Jimmy Akena"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Jimmy_Akena.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_joseph_kony={
+		name="Joseph Kony"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Joseph_Kony.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_kale_kayihura={
+		name="Kale Kayihura"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Kale_Kayihura.dds"
+			}
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_david_nyekorachmatsanga={
+		name="David Nyekorach-Matsanga"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_David_Nyekorach-Matsanga.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_norbert_mao={
+		name="Norbert Mao"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Norbert_Mao.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_kizza_besigye={
+		name="Kizza Besigye"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Kizza_Besigye.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_moses_kibalama={
+		name="Moses Kibalama"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Moses_Kibalama.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_jaberi_bidandi_ssali={
+		name="Jaberi Bidandi Ssali"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Jaberi_Bidandi_Ssali.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_mugisha_muntu={
+		name="Mugisha Muntu"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Mugisha_Muntu.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_muwenda_mutebi_ii={
+		name="Muwenda Mutebi II"
+		portraits={
+			civilian={
+				large="gfx/leaders/UGA/Portrait_UGA_Muwenda_Mutebi_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UGA_katumba_wamala={
+		name="Katumba Wamala"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UGA/Portrait_Katumba_Wamala.dds"
+			}
+		}
+		field_marshal={
+			traits={ fast_planner }
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	UGA_andrew_gutti={
+		name="Andrew Gutti"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UGA/Portrait_Andrew_Gutti.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	UGA_peter_elwelu={
+		name="Peter Elwelu"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UGA/Portrait_Peter_Elwelu.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UGA_ivan_koreta={
+		name="Ivan Koreta"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UGA/Portrait_Ivan_Koreta.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	UGA_muhoozi_kainerugaba={
+		name="Muhoozi Kainerugaba"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UGA/Portrait_Muhoozi_Kainerugaba.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	UGA_levi_karuhanga={
+		name="Levi Karuhanga"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UGA/Portrait_Levi_Karuhanga.dds"
+			}
+		}
+		corps_commander={
+			traits={ thorough_planner }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UGA_leopold_kyanda={
+		name="Leopold Kyanda"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UGA/Portrait_Leopold_Kyanda.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_expert }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UGA_ronnie_balya={
+		name="Ronnie Balya"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UGA/Portrait_Ronnie_Balya.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UGA_david_muhoozi={
+		name="David Muhoozi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UGA/Portrait_David_Muhoozi.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

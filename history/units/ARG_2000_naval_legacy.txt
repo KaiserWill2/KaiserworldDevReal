@@ -1,0 +1,35 @@
+﻿
+units = {
+	####### NAVAL UNITS #######
+	##### ARGENTINEAN FLEET #####
+	##### Battle Force (CO: ) #####
+	### SYDNEY ###
+	fleet = {
+		name = "Armada Argentina"
+		naval_base = 1639 # Punta Alta
+		task_force = {
+			name = "Comando de la Flota de Mar"
+			location = 1639 # Punta Alta
+			ship = { #carriers
+			name = "ARA 25 de Mayo" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ARG version_name = "Colossus Class" } }
+			}
+		
+			ship = { name = "ARA Hércules" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ARG version_name = "Type 42 Class" } } }
+			ship = { name = "ARA Santísima Trinidad" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ARG version_name = "Type 42 Class" } } }
+			ship = { name = "ARA La Argentina" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ARG version_name = "MEKO 360 Class" } } }
+			ship = { name = "ARA Almirante Brown" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ARG version_name = "MEKO 360 Class" } } }
+			ship = { name = "ARA Heroína" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ARG version_name = "MEKO 360 Class" } } }
+			ship = { name = "ARA Sarandí" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ARG version_name = "MEKO 360 Class" } } }
+			ship = { name = "ARA Rivadavia" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ARG version_name = "MEKO 360 Class" } } }
+			ship = { name = "ARA Moreno" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ARG version_name = "MEKO 360 Class" } } }
+		}
+		task_force = {
+			name = "Comando de la Fuerza de Submarinos"
+			location = 7621 # Mar del Plata
+			ship = { name = "ARA Salta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG version_name = "Type 209 Class" } } }
+			ship = { name = "ARA San Luis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG version_name = "Type 209 Class" } } }
+			ship = { name = "ARA Santa Cruz" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG version_name = "TR-1700 Class" } } }
+			ship = { name = "ARA San Juan" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG version_name = "TR-1700 Class" } } }
+		}
+	}
+}

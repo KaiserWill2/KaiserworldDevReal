@@ -1,0 +1,177 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+
+	embargo = {
+		trade = yes
+		value = -100
+	}
+	
+	sanctions = {
+		trade = yes
+		value = -40
+	}
+	
+	minor_sanctions = {
+		trade = yes
+		value = -20
+	}
+	
+	jas_can_trade = {
+		value = 50
+		trade = yes
+	}
+
+	pdy_trade = {
+		value = 30
+		trade = yes
+	}
+
+	yar_trade_modifier = {
+		value = -50
+		trade = yes
+	}
+	
+	yar_warsaw_pact_trade = {
+		value = -40
+		trade = yes
+	}
+	
+	yar_cappie_trade = {
+		value = 30
+		trade = yes
+	}
+	
+	yar_arab_trade = {
+		value = 20
+		trade = yes
+	}
+	
+	yar_socialist_trade = {
+		value = 40
+		trade = yes
+	}
+
+	yar_iran_yemen_trade_deal = {
+		value = 60
+		trade = yes
+	}
+
+	yar_iraqi_frends = {
+		value = 60
+		trade = yes
+	}
+
+	yar_omani_frends = {
+		value = 30
+		trade = yes
+	}
+
+	yar_omani_enmies = {
+		value = 30
+		trade = yes
+	}
+	
+	yar_saudi_yemen_conflict_trade = {
+		value = -100
+		trade = yes
+	}
+
+	yar_saudi_ties  = {
+		value = 50
+		trade = yes
+	}
+
+	yem_saudi_trade  = {
+		value = 30
+		trade = yes
+	}
+
+	yar_oman_trade_deals  = {
+		value = 50
+		trade = yes
+	}
+	yar_iraqi_cooperation_trade = {
+		value = 40
+		trade = yes
+	}
+	
+	yem_zindani_saudi_ties  = {
+		value = 50
+		trade = yes
+	}
+	
+	yem_al_islah_saudi_trade  = {
+		value = 30
+		trade = yes
+	}
+	
+	yem_canadian_trade  = {
+		value = 40
+		trade = yes
+	}
+	
+	yem_trade_deficit_reduction  = {
+		value = 50
+		trade = yes
+	}
+	
+	yem_monarchist_western_trade  = {
+		value = 50
+		trade = yes
+	}
+	
+	yem_monarchist_saudi_trade  = {
+		value = 40
+		trade = yes
+	}
+	
+	yem_monarchist_world_trade  = {
+		value = 50
+		trade = yes
+	}
+
+	can_jas_trade = {
+		value = 50
+		trade = yes
+	}
+	
+	trade_influence_1 = {
+		value = 20
+		trade = yes
+	}
+	
+	trade_influence_2 = {
+		value = 40
+		trade = yes
+	}
+	
+	trade_influence_3 = {
+		value = 60
+		trade = yes
+	}
+	
+	trade_influence_4 = {
+		value = 80
+		trade = yes
+	}
+
+	uapr_trade = {
+		value = 35
+		trade = yes
+	}
+	
+	trade_influence_5 = {
+		value = 100
+		trade = yes
+	}
+	
+}

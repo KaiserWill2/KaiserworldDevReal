@@ -1,0 +1,146 @@
+﻿characters={
+	CRO_milan_bandic={
+		name="Milan Bandić"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Milan_Bandic.dds"
+			}
+		}
+		country_leader={
+			ideology=neocommunist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_vlado_busic={
+		name="Vlado Bušić"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Vlado_Busic.dds"
+			}
+		}
+		country_leader={
+			ideology=titoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_katarina_peovic={
+		name="Katarina Peović"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Katarina_Peovic.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_ivo_josipovic={
+		name="Ivo Josipović"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Ivo_Josipovic.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_radimir_cacic={
+		name="Radimir Čačić"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Radimir_Cacic.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_zlatko_tomcic={
+		name="Zlatko Tomčić"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Zlatko_Tomcic.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_ruza_tomasic={
+		name="Ruža Tomašić"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Ruza_Tomasic.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_milan_babic={
+		name="Milan Babić"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Milan_Babic.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_miroslav_skoro={
+		name="Miroslav Škoro"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Miroslav_Skoro.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_zvonimir_ii={
+		name="Zvonimir II"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Zvonimir_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_dobroslav_paraga={
+		name="Dobroslav Paraga"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Dobroslav_Paraga.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+}

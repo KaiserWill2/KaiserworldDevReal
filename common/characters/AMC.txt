@@ -1,0 +1,1191 @@
+characters={
+	AMC_bernie_sanders={
+		name="Bernie Sanders"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Bernie_Sanders.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_kimball_cariou={
+		name="Kimball Cariou"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Kimball_Cariou.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_sean_patrick_omalley={
+		name="Sean Patrick O'Malley"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Sean_Patrick_O_Malley.dds"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_alan_keyes={
+		name="Alan Keyes"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Alan_Keyes.dds"
+			}
+		}
+		country_leader={
+			ideology=paleoconservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_royal_transitional_council={
+		name="Royal Transitional Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Royal_Transitional_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=regency_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_louis_farrakhan={
+		name="Louis Farrakhan"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Louis_Farrakhan.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_mark_rockefeller={
+		name="Mark Rockefeller"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Mark_Rockefeller.dds"
+			}
+		}
+		country_leader={
+			ideology=american_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_randy_barnett={
+		name="Randy Barnett"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Randy_Barnett.dds"
+			}
+		}
+		country_leader={
+			ideology=right_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_gina_raimondo={
+		name="Gina Raimondo"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Gina_Raimondo.dds"
+			}
+		}
+		country_leader={
+			ideology=old_american_democrats
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_jack_reed={
+		name="Jack Reed"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Jack_Reed.dds"
+			}
+		}
+		country_leader={
+			ideology=labour_revisionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_rich_whitney={
+		name="Rich Whitney"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Rich_Whitney.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AMC_imre_i={
+		name="Imre I"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Imre_I.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	AMC_zara_i={
+		name="Zara I"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Zara_I.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	AMC_sonia_sotomayor={
+		name="Sonia Sotomayor"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Sonia_Sotomayor.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	AMC_mary_kerry_kennedy={
+		name="Mary Kerry Kennedy"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Mary_Kerry_Kennedy.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	AMC_military_triumvirate={
+		name="Military Triumvirate"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Military_Triumvirate.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+	}
+	AMC_darren_mcdew={
+		name="Darren McDew"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/commonwealth/NEA_James_Kowalski.dds"
+			}
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Darren_McDew.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+		advisor={
+			slot = air_chief
+			idea_token = AMC_darren_mcdew
+			ledger = air
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				air_chief_safety_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_mark_fitzgerald={
+		name="Mark Fitzgerald"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Mark_Fitzgerald.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+	}
+	AMC_maria_marguerite={
+		name="Maria Marguerite"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Maria_Marguerite.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	AMC_eudes_marie={
+		name="Eudes Thibaut Joseph Marie"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Eudes_Thibaut_Joseph_Marie.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	AMC_rene_auberjonois={
+		name="Rene Auberjonois"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Rene_Auberjonois.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	AMC_marcus_roosevelt={
+		name="Marcus Roosevelt"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Marcus_Roosevelt.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	AMC_franklin_roosevelt_iii={
+		name="Franklin Roosevelt III"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Franklin_Roosevelt_III.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	AMC_ralph_nader={
+		name="Ralph Nader"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Ralph_Nader.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	AMC_elaine_bernard={
+		name="Elaine Bernard"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Elaine_Bernard.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	AMC_russ_feingold={
+		name="Russ Feingold"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Russ_Feingold.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = progressive
+		}
+	}
+	AMC_harold_koh={
+		name="Harold Koh"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Harold_Koh.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	AMC_andrew_cuomo={
+		name="Andrew Cuomo"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Andrew_Cuomo.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	AMC_paul_krugman={
+		name="Paul Krugman"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Paul_Krugman.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = left_libertarian
+		}
+	}
+	AMC_jim_rex={
+		name="Jim Rex"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Jim_Rex.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_populist
+		}
+	}
+	AMC_bill_weld={
+		name="Bill Weld"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Bill_Weld.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	AMC_joe_lieberman={
+		name="Joe Lieberman"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Joe_Lieberman.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	AMC_al_sharpton={
+		name="Al Sharpton"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Al_Sharpton.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	AMC_ed_markey={
+		name="Ed Markey"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Ed_Markey.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	AMC_richard_blumenthal={
+		name="Richard Blumenthal"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Richard_Blumenthal.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	AMC_eliot_spitzer={
+		name="Eliot Spitzer"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Eliot_Spitzer.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	AMC_nancy_pelosi={
+		name="Nancy Pelosi"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Nancy_Pelosi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	AMC_susan_collins={
+		name="Susan Collins"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Susan_Collins.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	AMC_rudy_giuliani={
+		name="Rudy Giuliani"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Rudolph_Giuliani.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	AMC_dan_carter={
+		name="Dan Carter"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Dan_Carter.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = centrist_ideology
+		}
+	}
+	AMC_stephen_lynch={
+		name="Stephen Lynch"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Stephen_Lynch.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	AMC_jerry_nadler={
+		name="Jerry Nadler"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Jerry_Nadler.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	AMC_vince_mcmahon={
+		name="Vince McMahon"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Vince_McMahon.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = right_libertarian
+		}
+	}
+	AMC_nicole_malliotakis={
+		name="Nicole Malliotakis"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Nicole_Malliotakis.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	AMC_grace_meng={
+		name="Grace Meng"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Grace_Meng.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = old_american_democrats
+		}
+	}
+	AMC_howard_dean={
+		name="Howard Dean"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Howard_Dean.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	AMC_sheldon_whitehouse={
+		name="Sheldon Whitehouse"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Sheldon_Whitehouse.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = labour_revisionist
+		}
+	}
+	AMC_linda_mcmahon={
+		name="Linda McMahon"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Linda_McMahon.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	AMC_chris_dodd={
+		name="Chris Dodd"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Chris_Dodd.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_nationalist
+		}
+	}
+	AMC_kelly_ayotte={
+		name="Kelly Ayotte"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Kelly_Ayotte.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = american_conservative
+		}
+	}
+	AMC_joseph_dunford={
+		name="Joseph Dunford"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_Joseph_Dunford.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_Joseph_Dunford_military.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_AMC_Joseph_Dunford.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+		field_marshal={
+			traits={ politically_connected commando thorough_planner expert_delegator }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = AMC_joseph_dunford
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_david_petraeus={
+		name="David Petraeus"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_David_Petraeus.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_David_Petraeus.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless organizer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = AMC_david_petraeus
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				army_chief_maneuver_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_daniel_a._dailey={
+		name="Daniel A. Dailey"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_daniel_a_dailey.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Daniel_A_Dailey.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer infantry_leader }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		advisor={	
+			slot = high_command
+			idea_token = AMC_stephen_maranian
+			ledger = army
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_daniel_b._allyn={
+		name="Daniel B. Allyn"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_daniel_b_allyn.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Daniel_B_Allyn.dds"
+			}
+		}
+		corps_commander={
+			traits={ paratrooper }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMC_david_g._perkins={
+		name="David G. Perkins"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_david_g_perkins.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_David_G_Perkins.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer panzer_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+		advisor={	
+			slot = high_command
+			idea_token = AMC_david_g._perkins
+			ledger = army
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				army_armored_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_john_f._campbell={
+		name="John F. Campbell"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_john_f_campbell.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_John_F_Campbell.dds"
+			}
+		}
+		corps_commander={
+			traits={ paratrooper }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AMC_james_mcconville={
+		name="James McConville"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMC/Portrait_AMC_James_McConville.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_james_mcconville.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_James_Mcconville.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = AMC_james_mcconville
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_leon_j._laporte={
+		name="Leon J. LaPorte"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_leon_j_laporte.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Leon_J_LaPorte.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AMC_kenneth_j._mintz={
+		name="Kenneth J. Mintz"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_kenneth_j_mintz.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Kenneth_J_Mintz.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AMC_robert_l._caslen_jr={
+		name="Robert L. Caslen Jr"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_robert_l_caslen.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Robert_L_Caslen_Jr.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AMC_ronald_l._green={
+		name="Ronald L. Green"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_ronald_l_green.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Ronald_L_Green.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando swamp_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AMC_stephen_maranian={
+		name="Stephen Maranian"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_stephen_maranian.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Stephen_Maranian.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+		advisor={	
+			slot = high_command
+			idea_token = AMC_stephen_maranian
+			ledger = army
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				army_artillery_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_todd_t._semonite={
+		name="Todd T. Semonite"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_todd_s_semonite.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Todd_T_Semonite.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	AMC_mark_p._fitzgerald={
+		name="Mark P. Fitzgerald"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_mark_fitzgerald.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Mark_P_Fitzgerald.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = AMC_mark_p._fitzgerald
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				navy_chief_commerce_raiding_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AMC_christopher_w._grady={
+		name="Christopher W. Grady"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_christopher_w_grady.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Christopher_W_Grady.dds"
+			}
+		}
+		navy_leader={
+			traits={ naval_liason }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+		advisor={
+			slot = high_command
+			idea_token = AMC_christopher_w._grady
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				navy_screen_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_gregory_g._johnson={
+		name="Gregory G. Johnson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_gregory_g_johnson.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Gregory_G_Johnson.dds"
+			}
+		}
+		navy_leader={
+			traits={ naval_lineage }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AMC_robert_papp={
+		name="Robert Papp"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_Robert_Papp.dds"
+			}
+			army={
+				large="gfx/leaders/AMC/Portrait_Robert_Papp.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = AMC_robert_papp
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				navy_carrier_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		navy_leader={
+			traits={ naval_lineage }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AMC_frank_w_roy={
+		name="Frank W Roy"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_Frank_W_Roy.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = AMC_frank_w_roy
+			ledger = air
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				air_chief_all_weather_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_andrew_j_carlson={
+		name="Andrew J Carlson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_Andrew_J_Carlson.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = AMC_andrew_j_carlson
+			ledger = air
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				air_close_air_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	AMC_gary_w._keefe={
+		name="Gary W. Keefe"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/amc/rebel_Gary_W_Keefe.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = AMC_gary_w._keefe
+			ledger = air
+			allowed = {
+				original_tag = AMC
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+}

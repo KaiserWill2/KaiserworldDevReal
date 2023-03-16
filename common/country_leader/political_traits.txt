@@ -1,0 +1,11 @@
+leader_traits = {
+
+	vacancy = {
+		random = no
+		
+		political_power_factor = -0.5
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+}

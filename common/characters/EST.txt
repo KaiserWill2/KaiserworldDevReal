@@ -1,0 +1,332 @@
+characters={
+	EST_vaino_valjas={
+		name="Vaino Väljas"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Vaino_Valjas.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_risto_teinonen={
+		name="Risto Teinonen"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Risto_Teinonen.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_mart_helme={
+		name="Mart Helme"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Mart_Helme.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_sven_sildnik={
+		name="Sven Sildnik"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Sven_Sildnik.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_helir_valdor_seeder={
+		name="Helir-Valdor Seeder"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Helir_Valdor_Seeder.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_juri_ratas={
+		name="Jüri Ratas"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Juri_Ratas.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_hanno_pevkur={
+		name="Hanno Pevkur"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Hanno_Pevkur.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_jevgeni_ossinovski={
+		name="Jevgeni Ossinovski"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Jevgeni_Ossinovski.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_zuleyxa_izmailova={
+		name="Züleyxa Izmailova"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Zuleyxa_Izmailova.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_valev_kald={
+		name="Valev Kald"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/Portrait_EST_Valev_Kald.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EST_meelis_kiili={
+		name="Meelis Kiili"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Meelis_Kiili.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	EST_riho_terras={
+		name="Riho Terras"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Riho_Terras.dds"
+			}
+		}
+		field_marshal={
+			traits={ urban_assault_specialist }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	EST_ants_laaneots={
+		name="Ants Laaneots"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Ants_Laaneots.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	EST_artur_tiganik={
+		name="Artur Tiganik"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Artur_Tiganik.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	EST_indrek_sirel={
+		name="Indrek Sirel"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Indrek_Sirel.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	EST_martin_herem={
+		name="Martin Herem"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Martin_Herem.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	EST_ivo_vark={
+		name="Ivo Värk"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Ivo_Värk.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			coordination_skill=1
+			maneuvering_skill=1
+			legacy_id=-1
+		}
+	}
+	EST_juri_saska={
+		name="Jüri Saska"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Jüri_Saska.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			coordination_skill=1
+			maneuvering_skill=2
+			legacy_id=-1
+		}
+	}
+	EST_rain_terras={
+		name="Rain Terras"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Rain_Terras.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			coordination_skill=3
+			maneuvering_skill=2
+			legacy_id=-1
+		}
+	}
+	EST_tarmo_kouts={
+		name="Tarmo Kõuts"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/EST/Portrait_Tarmo_Kõuts.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			coordination_skill=2
+			maneuvering_skill=4
+			legacy_id=-1
+		}
+	}
+}

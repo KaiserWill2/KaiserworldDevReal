@@ -1,0 +1,15 @@
+air_wings = {
+	378 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		fighter_equipment_0 = { owner = "PCA" amount = 100 }			
+		tac_bomber_equipment_0 = { owner = "PCA" amount = 100 }	
+	}
+	"Abraham Lincoln" = {
+		cv_fighter_equipment_0 =  { owner = "PCA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "PCA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "PCA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "PCA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "PCA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "PCA" amount = 10 }
+	}
+}

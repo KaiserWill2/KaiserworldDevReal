@@ -1,0 +1,145 @@
+Characters={	
+NAP_Mario_Oliverio={
+		name="Mario Oliverio"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Mario_Oliverio.dds"
+			}
+		}
+		country_leader={
+			ideology=meliorist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Giuseppe_Scopelliti={
+		name="Giuseppe Scopelliti"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Giuseppe_Scopelliti.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Vito_Bardi={
+		name="Vito Bardi"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Vito_Bardi.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Carlo_I={
+		name="Carlo I"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Carlo_I.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Franco_Freda={
+		name="Franco Freda"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Franco_Freda.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Giuseppe_Chiaravalloti={
+		name="Giuseppe Chiaravalloti"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Giuseppe_Chiaravalloti.dds"
+			}
+		}
+		country_leader={
+			ideology=european_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Agazio_Loiero={
+		name="Agazio Loiero"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Agazio_Loiero.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Francesco_Nucara={
+		name="Francesco Nucara"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Francesco_Nucara.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Michele_Emiliano={
+		name="Michele Emiliano"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Michele_Emiliano.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Stefano_Caldoro={
+		name="Stefano Caldoro"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Stefano_Caldoro.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+NAP_Gianni_Pittella={
+		name="Gianni Pittella"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/Portrait_NAP_Gianni_Pittella.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

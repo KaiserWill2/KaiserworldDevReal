@@ -1,0 +1,146 @@
+characters={
+	AFG_mohammad_najibullah={
+		name="Mohammad Najibullah"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Mohammad_Najibullah.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MOHAMMAD_NAJIBULLAH_DESC"
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_mohammed_omar={
+		name="Mohammed Omar"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Mohammed_Omar.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_burhanuddin_rabbani={
+		name="Burhanuddin Rabbani"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Burhanuddin_Rabbani.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_ahmad_shah_khan={
+		name="Ahmad Shah Khan"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Ahmad_Shah_Khan.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_abdul_rasul_sayyaf={
+		name="Abdul Rasul Sayyaf"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Abdul_Rasul_Sayyaf.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_bolshevik
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_hamid_karzai={
+		name="Hamid Karzai"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Hamid_Karzai.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_amrullah_saleh={
+		name="Amrullah Saleh"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Amrullah_Saleh.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_abdul_latif_pedram={
+		name="Abdul Latif Pedram"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Abdul_Latif_Pedram.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_abdullah_abdullah={
+		name="Abdullah Abdullah"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Abdullah_Abdullah.dds"
+			}
+		}
+		country_leader={
+			ideology=labour_revisionist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_anwar_ulhaq_ahady={
+		name="Anwar ul-Haq Ahady"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Anwar_Ul_Haq_Ahady.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_nur_ulhaq_ulumi={
+		name="Nur ul-Haq Ulumi"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_AFG_Nur_Ul_Haq_Ulumi.dds"
+			}
+		}
+		country_leader={
+			ideology=luxemburgism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

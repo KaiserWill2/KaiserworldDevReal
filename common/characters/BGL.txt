@@ -1,0 +1,145 @@
+characters={
+	BGL_n._c._debbarma={
+		name="N. C. Debbarma"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_N_C_Debbarma.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_tapan_sikdar={
+		name="Tapan Sikdar"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Tapan_Sikdar.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_abbas_ali_meerza={
+		name="Abbas Ali Meerza"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Abbas_Ali_Mirza.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_naren_chatterjee={
+		name="Naren Chatterjee"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Naren_Chatterjee.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_dilip_ghosh={
+		name="Dilip Ghosh"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Dilip_Ghosh.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_subhash_ghisingh={
+		name="Subhash Ghisingh"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Subhash_Ghisingh.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_mamata_banerjee={
+		name="Mamata Banerjee"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Mamata_Banerjee.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_manas_bhunia={
+		name="Manas Bhunia"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Manas_Bhunia.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_prabodh_chandra_sinha={
+		name="Prabodh Chandra Sinha"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Prabodh_Chandra_Sinha.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_kshiti_goswami={
+		name="Kshiti Goswami"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Kshiti_Goswami.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGL_surjya_kanta_mishra={
+		name="Surjya Kanta Mishra"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGL/Portrait_BGL_Surjya_Kanta_Mishra.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

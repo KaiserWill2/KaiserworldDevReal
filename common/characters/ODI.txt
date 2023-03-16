@@ -1,0 +1,145 @@
+characters={
+	ODI_subash_chouhan={
+		name="Subash Chouhan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Subash_Chouhan.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_jual_oram={
+		name="Jual Oram"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Jual_Oram.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_kanak_vardhan_singh_deo={
+		name="Kanak Vardhan Singh Deo"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Kanak_Vardhan_Singh_Deo.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_ginugu_narsimha_reddy={
+		name="Ginugu Narsimha Reddy"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Ginugu_Narsimha_Reddy.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_basanta_kumar_panda={
+		name="Basanta Kumar Panda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Basanta_Kumar_Panda.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_naveen_patnaik={
+		name="Naveen Patnaik"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Naveen_Patnaik.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_nabin_nanda={
+		name="Nabin Nanda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Nabin_Nanda.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_bhupinder_singh={
+		name="Bhupinder Singh"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Bhupinder_Singh.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_basanti_hembram={
+		name="Basanti Hembram"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Basanti_Hembram.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_adikanda_sethi={
+		name="Adikanda Sethi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Adikanda_Sethi.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ODI_laxman_munda={
+		name="Laxman Munda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ODI/Portrait_ODI_Laxman_Munda.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

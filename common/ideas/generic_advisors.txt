@@ -1,0 +1,2310 @@
+ideas = {
+
+	political_advisor = {
+	
+		#ECONOMY
+
+		generic_captain_of_industry = {
+			picture = generic_politician
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_industrial_effort_1
+				}
+				if = { 
+					limit = { has_focus_tree = italy_focus }
+					has_completed_focus = ITA_renew_the_alliance_with_the_unions
+				}
+				if = { 
+					limit = { has_focus_tree = mexico_focus }
+					has_completed_focus = MEX_create_the_ctm
+				}
+				if = { 
+					limit = { has_focus_tree = ohio_focus }
+					has_completed_focus = OHI_fund_selby_industries
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_civilian_industrial_expansion
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_adopt_the_warburg_plan
+				}
+			}
+			traits = { captain_of_industry }
+		}
+
+		generic_war_industrialist = {
+			picture = generic_politician2
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = papal_state_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_military_industrial_effort_1
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_military_industrial_expansion
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_adopt_the_macguire_plan
+				}
+			}
+			traits = { war_industrialist }
+		}
+
+		generic_oil_baron = {
+			picture = generic_politician3
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = russia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = britain_focus }
+					has_completed_focus = ENG_national_oil_projects
+				}
+				if = { 
+					limit = { has_focus_tree = mexico_focus }
+					has_completed_focus = MEX_yucatan_employment
+				}
+			}
+			traits = { oil_baron }
+		}
+
+		generic_financial_expert = {
+			picture = generic_politician3
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = papal_state_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_financial_reform
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_financial_reform
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_economic_recovery
+				}
+			}
+			traits = { financial_expert }
+		}
+
+		generic_armaments_organizer = {
+			picture = generic_politician4
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = papal_state_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_military_industrial_effort_2
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_invest_in_koenigsberg_artillery
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_expand_sherman_industries
+				}
+			}
+			traits = { armaments_organizer }
+		}
+
+		generic_quartermaster_general = {
+			picture = generic_politician5
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = papal_state_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_military_industrial_effort_3
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_schutzplan_sued
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_army_focus
+				}
+			}
+			traits = { quartermaster_general }
+		}
+
+		generic_fortification_engineer = {
+			picture = generic_politician6
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = papal_state_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = france_focus }
+					has_completed_focus = FRA_expand_the_defensive_plan
+				}
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_expand_the_army
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_schutzplan_ost
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_army_focus
+				}
+			}
+			traits = { fortification_engineer }
+		}
+
+		generic_real_estate_developer = {
+			picture = generic_politician
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = papal_state_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_construction_program
+				}
+				if = { 
+					limit = { has_focus_tree = italy_focus }
+					has_completed_focus = ITA_reform_factory_control_policy
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_social_reform
+				}
+			}
+			traits = { real_estate_developer }
+		}
+	
+		#IDEOLOGY
+
+		generic_authoritarian_ideologue = {
+			picture = generic_politician3
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = france_focus }
+					has_completed_focus = FRA_call_the_grand_assembly
+				}
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_strengthen_the_officer_corps
+				}
+				if = { 
+					limit = { has_focus_tree = ohio_focus }
+					has_completed_focus = OHI_reaffirm_the_royal_claims
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_strengthen_the_monarchy
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_maintain_segregation
+				}
+			}
+			traits = { authoritarian_ideologue }
+			
+			cost = 200
+		}
+
+		generic_communist_revolutionary = {
+			picture = generic_communist
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = quebec_focus
+					has_focus_tree = usa_focus
+					has_focus_tree = prussia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = france_focus }
+					has_completed_focus = FRA_call_the_grand_assembly
+				}
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_political_commissars
+				}
+				if = { 
+					limit = { has_focus_tree = mexico_focus }
+					has_completed_focus = MEX_strengthen_the_party
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_ideological_reform
+				}
+				if = {
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_radical_drift
+				}
+			}
+			traits = { communist_revolutionary }
+			
+			cost = 200
+		}
+
+		generic_democratic_reformer = {
+			picture = generic_democrat
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = quebec_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = france_focus }
+					has_completed_focus = FRA_call_the_grand_assembly
+				}
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_popular_defense
+				}
+				if = { 
+					limit = { has_focus_tree = mexico_focus }
+					has_completed_focus = MEX_allow_parliamentary_opposition
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_defend_prussian_democracy
+				}
+				if = { 
+					limit = { has_focus_tree = quebec_focus }
+					OR = {
+						has_completed_focus = CAN_liberal_values
+						has_completed_focus = CAN_reinforce_cultural_francophilia
+					}
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_pass_the_civil_rights_act
+				}
+			}
+			traits = { democratic_reformer }
+			
+			cost = 200
+		}
+
+		generic_fascist_demagogue = {
+			picture = generic_fascist
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = quebec_focus
+					has_focus_tree = usa_focus
+					has_focus_tree = prussia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_assault_divisions
+				}
+				if = { 
+					limit = { has_focus_tree = quebec_focus }
+					has_completed_focus = CAN_socialistic_nationalism
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_ideological_reform
+				}
+				if = {
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_radical_drift
+				}
+			}
+			traits = { fascist_demagogue }
+			
+			cost = 200
+		}
+		
+		#POLITICS
+
+		generic_prince_of_terror = {
+			picture = generic_politician3
+			visible = {
+				OR = {
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = quebec_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_expand_the_secret_service
+				}
+				if = { 
+					limit = { has_focus_tree = italy_focus }
+					has_completed_focus = ITA_strengthen_the_secret_police
+				}
+				if = { 
+					limit = { has_focus_tree = naples_focus }
+					NOT = { has_completed_focus = NAP_accept_papal_authority }
+					has_country_flag = integrated_the_bolscevichi
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_pan_nationalistic_ambition
+				}
+				if = { 
+					limit = { has_focus_tree = quebec_focus }
+					has_completed_focus = CAN_government_propaganda
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_create_the_cia
+				}
+			}
+			traits = { prince_of_terror }
+		}
+
+		generic_popular_figurehead = {
+			picture = generic_politician4
+			visible = {
+				OR = {
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_government_expansion
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_social_democratic_dominance
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_align_with_france
+				}
+			}
+			traits = { popular_figurehead }
+		}
+
+		generic_silent_workhorse = {
+			picture = generic_politician5
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = generic_focus }
+					has_completed_focus = generic_government_expansion
+				}
+				if = { 
+					limit = { has_focus_tree = prussia_focus }
+					has_completed_focus = PRS_conservative_dominance
+				}
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_the_ford_investigations
+				}
+			}
+			traits = { silent_workhorse }
+		}
+
+		generic_socialist_enforcer = {
+			picture = generic_politician6
+			visible = {
+				OR = {
+					has_focus_tree = usa_focus
+					has_focus_tree = italy_focus
+				}
+			}
+			allowed = {
+				communism > 0.1
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_ban_religious_education
+				}
+			}
+			traits = { socialist_enforcer }
+		}
+	
+	}
+	
+	tank_manufacturer = {
+	
+		generic_fast_tank_manufacturer = {
+			picture = tank_manufacturer2
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = quebec_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { 
+					limit = { has_focus_tree = quebec_focus }
+					has_completed_focus = CAN_dynamique_generale
+				}
+			}
+			traits = { fast_tank_manufacturer }
+			cost = 250
+		}
+	
+		generic_heavy_tank_manufacturer = {
+			picture = tank_manufacturer
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = quebec_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { heavy_tank_manufacturer }
+			cost = 250
+		}
+	
+		generic_medium_tank_manufacturer = {
+			picture = tank_manufacturer3
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { medium_tank_manufacturer }
+			cost = 250
+		}
+	
+		generic_tank_manufacturer = {
+			picture = electronics_concern3
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = { tank_manufacturer }
+			cost = 250
+		}
+	
+	}
+	
+	naval_manufacturer = {
+	
+		generic_atlantic_fleet_naval_manufacturer = {
+			picture = coastal_defense_ships
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { atlantic_fleet_naval_manufacturer }
+			cost = 250
+		}
+	
+		generic_battlefleet_naval_manufacturer = {
+			picture = navy
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+					has_focus_tree = russia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { battlefleet_designer }
+			cost = 250
+		}
+	
+		generic_coastal_defense_naval_manufacturer = {
+			picture = coastal_defense_ships
+			visible = {
+				OR = {
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { coastal_defense_naval_manufacturer }
+			cost = 250
+		}
+	
+		generic_convoy_escort_naval_manufacturer = {
+			picture = naval_manufacturer3
+			visible = {
+				OR = {
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = russia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { convoy_escort_naval_manufacturer }
+			cost = 250
+		}
+	
+		generic_naval_manufacturer = {
+			picture = naval_manufacturer4
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			traits = { naval_manufacturer }
+			cost = 250
+		}
+	
+		generic_pacific_fleet_naval_manufacturer = {
+			picture = coastal_defense_ships2
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { pacific_fleet_naval_manufacturer }
+			cost = 250
+		}
+	
+		generic_raiding_fleet_naval_manufacturer = {
+			picture = naval_manufacturer2
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { raiding_fleet_naval_manufacturer }
+			cost = 250
+		}
+	
+	}
+	
+	aircraft_manufacturer = {
+	
+		generic_CAS_manufacturer = {
+			picture = air_manufacturer
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = naples_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { CAS_manufacturer }
+			cost = 250
+		}
+	
+		generic_fuel_efficient_aircraft_manufacturer = {
+			picture = refining_concern
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = russia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { fuel_efficient_aircraft_manufacturer }
+			cost = 250
+		}
+	
+		generic_heavy_aircraft_manufacturer = {
+			picture = air_manufacturer3
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = china_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { heavy_aircraft_manufacturer }
+			cost = 250
+		}
+	
+		generic_light_aircraft_manufacturer = {
+			picture = air_manufacturer2
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { light_aircraft_manufacturer }
+			cost = 250
+		}
+	
+		generic_medium_aircraft_manufacturer = {
+			picture = industrial_concern2
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = china_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { medium_aircraft_manufacturer }
+			cost = 250
+		}
+	
+		generic_naval_aircraft_manufacturer = {
+			picture = naval_manufacturer
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { naval_aircraft_manufacturer }
+			cost = 250
+		}
+	
+	}
+	
+	materiel_manufacturer = {
+	
+		generic_rifle_company = {
+			picture = infantry_equipment_manufacturer2
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			research_bonus = { infantry_weapons = 0.2 }
+			traits = { infantry_equipment_manufacturer }
+			cost = 250
+		}
+	
+		generic_artillery_company = {
+			picture = artillery_manufacturer
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			research_bonus = { artillery = 0.2 }
+			traits = { artillery_manufacturer }
+			cost = 250
+		}
+	
+		generic_vehicle_company = {
+			picture = motorized_equipment_manufacturer3
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			research_bonus = { motorized_equipment = 0.2 }
+			traits = { motorized_equipment_manufacturer }
+			cost = 250
+		}
+	
+		generic_support_company = {
+			picture = electronics_concern
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			research_bonus = { support_tech = 0.2 }
+			traits = { support_equipment_manufacturer }
+			cost = 250
+		}
+		
+	}
+	
+	industrial_concern = {
+	
+		generic_construction_company = {
+			picture = production
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { construction_company }
+			cost = 250
+		}
+	
+		generic_electronics_company = {
+			picture = industrial_concern2
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			research_bonus = {
+				electronics = 0.3
+			}
+			traits = { electronics_concern }
+			cost = 250
+		}
+	
+		generic_industrial_company = {
+			picture = industrial_concern
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			research_bonus = {
+				industry = 0.2
+			}
+			traits = { industrial_concern }
+			cost = 250
+		}
+	
+		generic_refinery_concern = {
+			picture = refining_concern
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			research_bonus = {
+				synth_resources = 0.5
+			}
+			traits = { refinery_concern }
+			cost = 250
+		}
+		
+	}
+
+	theorist = {
+
+		generic_rocket_scientist = {
+			picture = generic_politician
+			
+			visible = {
+				OR = {
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			
+			research_bonus = {
+				rocketry = 0.3
+			}
+			
+			traits = { rocket_scientist }
+		}
+
+		generic_nuclear_scientist = {
+			picture = generic_politician2
+			
+			visible = {
+				OR = {
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			
+			research_bonus = {
+				nuclear = 0.2
+			}
+			
+			traits = { nuclear_scientist }
+		}
+
+		generic_military_theorist = {
+			picture = generic_general
+			
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { limit = { has_focus_tree = mexico_focus }
+					has_completed_focus = MEX_cardenas_plan
+				}
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+
+		generic_grand_battleplan_theorist = {
+			picture = generic_general4
+			
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = {
+					limit = { has_focus_tree = naples_focus }
+					has_completed_focus = NAP_doctrinal_reform
+				}
+			}
+			
+			research_bonus = {
+				cat_grand_battle_plan = 0.15
+			}
+			
+			cost = 300
+			
+			traits = { grand_battle_plan_expert }
+		}
+
+		generic_mass_assault_theorist = {
+			picture = generic_general5
+			
+			visible = {
+				OR = {
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			
+			research_bonus = {
+				cat_mass_assault = 0.15
+			}
+			
+			cost = 300
+			
+			traits = { mass_assault_expert }
+		}
+
+		generic_mobile_warfare_theorist = {
+			picture = generic_general2
+			
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = france_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = {
+					limit = { has_focus_tree = naples_focus }
+					has_completed_focus = NAP_doctrinal_reform
+				}
+			}
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.15
+			}
+			
+			cost = 300
+			
+			traits = { mobile_warfare_expert }
+		}
+
+		generic_superior_firepower_theorist = {
+			picture = generic_general3
+			
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			
+			research_bonus = {
+				cat_superior_firepower = 0.15
+			}
+			
+			cost = 300
+			
+			traits = { superior_firepower_expert }
+		}
+		
+	}
+	
+	army_chief = {
+	
+		generic_defensive_army_chief = {
+			picture = generic_general
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { army_chief_defensive }
+		}
+		generic_drill_army_chief = {
+			picture = generic_general2
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { army_chief_drill }
+		}
+		generic_maneuver_army_chief = {
+			picture = generic_general2
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { army_chief_maneuver }
+		}
+		generic_morale_army_chief = {
+			picture = generic_general4
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { army_chief_morale }
+		}
+		generic_offensive_army_chief = {
+			picture = generic_general3
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = {
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_army_focus
+				}
+			}
+			traits = { army_chief_offensive }
+		}
+		generic_old_guard_army_chief = {
+			picture = generic_general5
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { army_chief_old_guard }
+		}
+		generic_organization_army_chief = {
+			picture = generic_general6
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = {
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_army_focus
+				}
+			}
+			traits = { army_chief_organization }
+		}
+		generic_reform_army_chief = {
+			picture = generic_general
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { army_chief_reform }
+		}
+
+	}
+	
+	navy_chief = {
+	
+		generic_capital_ship_navy_chief = {
+			picture = generic_admiral
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = {
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_naval_focus
+				}
+			}
+			traits = { navy_chief_decisive_battle }
+		}
+		generic_maneuver_navy_chief = {
+			picture = generic_admiral2
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = {
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_naval_focus
+				}
+			}
+			traits = { navy_chief_maneuver }
+		}
+		generic_naval_aviation_navy_chief = {
+			picture = generic_admiral3
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { navy_chief_naval_aviation }
+		}
+		generic_old_guard_navy_chief = {
+			picture = generic_admiral
+			visible = {
+				OR = {
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { navy_chief_old_guard }
+		}
+		generic_reform_navy_chief = {
+			picture = generic_admiral2
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = austria_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { navy_chief_reform }
+		}
+		generic_submarine_navy_chief = {
+			picture = generic_admiral3
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = {
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_naval_focus
+				}
+			}
+			traits = { navy_chief_commerce_raiding }
+		}
+		
+	}
+	
+	air_chief = {
+	
+		generic_all_weather_air_chief = {
+			picture = generic_air_force_officer
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { air_chief_all_weather }
+		}
+		generic_ground_support_air_chief = {
+			picture = generic_air_force_officer2
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { air_chief_ground_support }
+		}
+		generic_night_combat_air_chief = {
+			picture = generic_air_force_officer3
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { air_chief_night_operations }
+		}
+		generic_old_guard_air_chief = {
+			picture = generic_air_force_officer
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { air_chief_old_guard }
+		}
+		generic_reform_air_chief = {
+			picture = generic_air_force_officer2
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { air_chief_reform }
+		}
+		generic_safety_air_chief = {
+			picture = generic_air_force_officer3
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = prussia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { air_chief_safety }
+		}
+	
+	}
+	
+	high_command = {
+	
+		generic_high_command_air_combat_trainer = {
+			picture = generic_air_force_officer
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_air_combat_training }
+		}
+		generic_high_command_air_naval_aeronaut = {
+			picture = generic_air_force_officer2
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_air_naval_strike }
+		}
+		generic_high_command_air_anti_bomber_expert = {
+			picture = generic_air_force_officer3
+			visible = {
+				OR = {
+					has_focus_tree = france_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ottoman_empire_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_air_bomber_interception }
+		}
+		generic_high_command_air_airspace_controller = {
+			picture = generic_air_force_officer
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_air_superiority }
+		}
+		generic_high_command_air_supporter = {
+			picture = generic_air_force_officer2
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = japan_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_air_close_air_support }
+		}
+		generic_high_command_air_strategic_bomber_captain = {
+			picture = generic_air_force_officer3
+			visible = {
+				OR = {
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_air_strategic_bombing }
+		}
+		generic_high_command_air_airborne_commander = {
+			picture = generic_air_force_officer
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_expand_the_ranger_corps
+				}
+			}
+			traits = { generic_high_command_air_airborne }
+		}
+		
+		generic_high_command_army_tank_commander = {
+			picture = generic_general
+			visible = {
+				OR = {
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_army_armored }
+		}
+		generic_high_command_army_artillery_commander = {
+			picture = generic_general2
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { limit = { has_focus_tree = mexico_focus }
+					has_completed_focus = MEX_tactical_innovations
+				}
+			}
+			traits = { generic_high_command_army_artillery }
+		}
+		generic_high_command_army_cavalry_commander = {
+			picture = generic_general3
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { limit = { has_focus_tree = mexico_focus }
+					has_completed_focus = MEX_tactical_innovations
+				}
+				if = { limit = { has_focus_tree = ottoman_empire_focus }
+					has_completed_focus = TUR_cavalry_tactics
+				}
+			}
+			traits = { generic_high_command_army_cavalry }
+		}
+		generic_high_command_army_commando_leader = {
+			picture = generic_general
+			visible = {
+				OR = {
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = usa_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_army_commando }
+		}
+		generic_high_command_army_concealment_expert = {
+			picture = generic_general2
+			visible = {
+				OR = {
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_army_concealment }
+		}
+		generic_high_command_army_entrenchment_expert = {
+			picture = generic_general3
+			visible = {
+				OR = {
+					has_focus_tree = china_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_army_entrenchment }
+		}
+		generic_high_command_army_infantry_commander = {
+			picture = generic_general
+			visible = {
+				OR = {
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = { limit = { has_focus_tree = mexico_focus }
+					has_completed_focus = MEX_tactical_innovations
+				}
+				if = { limit = { has_focus_tree = ottoman_empire_focus }
+					has_completed_focus = TUR_infantry_tactics
+				}
+			}
+			traits = { generic_high_command_army_infantry }
+		}
+		generic_high_command_army_logistics_expert = {
+			picture = generic_general2
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = france_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_army_logistics }
+		}
+		generic_high_command_army_regrouping_expert = {
+			picture = generic_general3
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_army_regrouping }
+		}
+		
+		generic_high_command_navy_amphibious_assaulter = {
+			picture = generic_admiral
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+				if = {
+					limit = { has_focus_tree = usa_focus }
+					has_completed_focus = USA_expand_the_marine_corps
+				}
+			}
+			traits = { generic_high_command_navy_amphibious_assault }
+		}
+		generic_high_command_navy_submarine_hunter = {
+			picture = generic_admiral2
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = generic_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ottoman_empire_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = usa_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_navy_anti_submarine }
+		}
+		generic_high_command_navy_capital_commander = {
+			picture = generic_admiral3
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = china_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = ohio_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_navy_capital_ship }
+		}
+		generic_high_command_navy_carrier_commander = {
+			picture = generic_admiral
+			visible = {
+				OR = {
+					has_focus_tree = austria_focus
+					has_focus_tree = britain_focus
+					has_focus_tree = ohio_focus
+					has_focus_tree = mexico_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = russia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_navy_carrier }
+		}
+		generic_high_command_navy_logistics_commander = {
+			picture = generic_admiral2
+			visible = {
+				OR = {
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = russia_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_navy_fleet_logistics }
+		}
+		generic_high_command_navy_air_defender = {
+			picture = generic_admiral3
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = france_focus
+					has_focus_tree = italy_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_navy_naval_air_defense }
+		}
+		generic_high_command_navy_screen_commander = {
+			picture = generic_admiral
+			visible = {
+				OR = {
+					has_focus_tree = britain_focus
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_navy_screen }
+		}
+		generic_high_command_navy_submarine_commander = {
+			picture = generic_admiral2
+			visible = {
+				OR = {
+					has_focus_tree = japan_focus
+					has_focus_tree = naples_focus
+					has_focus_tree = prussia_focus
+					has_focus_tree = russia_focus
+					has_focus_tree = sweden_focus
+				}
+			}
+			allowed = {
+			}
+			available = {
+			}
+			traits = { generic_high_command_navy_submarine }
+		}
+	
+	}
+	
+}

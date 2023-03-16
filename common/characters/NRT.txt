@@ -1,0 +1,146 @@
+characters={
+	NRT_tony_oldfield={
+		name="Tony Oldfield"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Tony_Oldfield.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_regina_mccarthy={
+		name="Regina McCarthy"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Regina_McCarthy.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_eli_melki={
+		name="Eli Melky"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Eli_Melky.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_sally_thomas={
+		name="Sally Thomas"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Sally_Thomas.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_trudy_campbell={
+		name="Trudy Campbell"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Trudy_Campbell.dds"
+			}
+		}
+		country_leader={
+			ideology=larouche
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_adam_giles={
+		name="Adam Giles"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Adam_Giles.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_terry_mills={
+		name="Terry Mills"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Terry_Mills.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_braedon_earley={
+		name="Braedon Earley"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Braedon_Earley.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_michael_gunner={
+		name="Michael Gunner"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Michael_Gunner.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_billee_mcginley={
+		name="Billee McGinley"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Billee_McGinley.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NRT_yingiya_mark_guyula={
+		name="Yingiya Mark Guyula"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/Portrait_NRT_Yingiya_Mark_Guyula.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+}

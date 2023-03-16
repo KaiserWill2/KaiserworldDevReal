@@ -1,0 +1,15 @@
+air_wings = {
+	500 = { 														# Virginia
+		### No. 11 Fighter Command (CO: ) ###
+		fighter_equipment_0 = { owner = "BRA" amount = 100 }			
+		tac_bomber_equipment_0 = { owner = "BRA" amount = 100 }	
+	}
+	"São Paulo"  = {
+		cv_fighter_equipment_0 =  { owner = "BRA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "BRA" amount = 10 }
+		cv_fighter_equipment_0 =  { owner = "BRA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "BRA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "BRA" amount = 10 }
+		cv_nav_bomber_equipment_1 =  { owner = "BRA" amount = 10 }
+	}
+}

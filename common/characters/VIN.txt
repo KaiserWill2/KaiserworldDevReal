@@ -1,0 +1,145 @@
+characters={
+	VIN_nông_Đuc_manh={
+		name="Nông Đuc Manh"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Nong_Duc_Manh.dds"
+			}
+		}
+		country_leader={
+			ideology=ho_chi_minh_thought
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_tran_thien_khiem={
+		name="Tran Thien Khiem"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Tran_Thien_Khiem.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_nguyen_si_binh={
+		name="Nguyen Si Binh"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Nguyen_Si_Binh.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_bao_thang={
+		name="Bao Thang"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Bao_Thang.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_nguyen_thien_nhan={
+		name="Nguyen Thien Nhan"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Nguyen_Thien_Nhan.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_thadeus_nguyen_van_ly={
+		name="Thadeus Nguyen Van Ly"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Thadeus_Nguyen_Van_Ly.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_do_hoang_diem={
+		name="Do Hoang Diem"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Do_Hoang_Diem.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_hoang_tu_duy={
+		name="Hoang Tu Duy"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Hoang_Tu_Duy.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_nguyen_quoc_quan={
+		name="Nguyen Quoc Quan"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Nguyen_Quoc_Quan.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_tran_quoc_hien={
+		name="Tran Quoc Hien"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Tran_Quoc_Hien.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_vi_duc_hoi={
+		name="Vi Duc Hoi"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_VIN_Vi_Duc_Hoi.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

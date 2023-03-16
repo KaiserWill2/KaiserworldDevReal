@@ -1,0 +1,146 @@
+characters={
+	SOM_mohammed_said_hersi_morgan={
+		name="Mohammed Said Hersi Morgan"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Mohammed_Said_Hersi_Morgan.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MOHAMMED_MORGAN_DESC"
+			ideology=islamic_marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_sharif_sheikh_ahmed={
+		name="Sharif Sheikh Ahmed"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Sharif_Sheikh_Ahmed.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_ali_mohammed_ghedi={
+		name="Ali Mohammed Ghedi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Ali_Mohammed_Ghedi.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_jama_garad_ali={
+		name="Jama Garad Ali"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Jama_Garad_Ali.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_hassan_abdullah_hersi_alturki={
+		name="Hassan Abdullah Hersi al-Turki"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Hassan_Abdullah_Hersi_Al_Turki.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_bolshevik
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_hassan_sheikh_mohamud={
+		name="Hassan Sheikh Mohamud"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Hassan_Sheikh_Mohamud.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_abdirahman_farole={
+		name="Abdirahman Farole"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Abdirahman_Farole.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_mohamed_abdullahi_mohamed={
+		name="Mohamed Abdullahi Mohamed"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Mohamed_Abdullahi_Mohamed.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_faysal_ali_warabe={
+		name="Faysal Ali Warabe"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Faysal_Ali_Warabe.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_ahmed_mohamed_mohamoud={
+		name="Ahmed Mohamed Mohamoud"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Ahmed_Mohamed_Mohamoud.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOM_saiid_isse_mohamud={
+		name="Sa'iid Isse Mohamud"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOM/Portrait_SOM_Saiid_Isse_Mohamud.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

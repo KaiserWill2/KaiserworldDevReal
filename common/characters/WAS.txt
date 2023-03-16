@@ -1,0 +1,146 @@
+characters={
+	WAS_vinnie_molina={
+		name="Vinnie Molina"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Vinnie_Molina.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_john_golawski={
+		name="John Golawski"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_John_Golawski.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_brendon_grylls={
+		name="Brendon Grylls"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Brendon_Grylls.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_malcolm_mccusker={
+		name="Malcolm McCusker"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Malcolm_McCusker.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_graeme_campbell={
+		name="Graeme Campbell"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Graeme_Campbell.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_colin_barnett={
+		name="Colin Barnett"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Colin_Barnett.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_julie_matheson={
+		name="Julie Matheson"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Julie_Matheson.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_brian_grieg={
+		name="Brian Greig"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Brian_Greig.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_mark_mcgowan={
+		name="Mark McGowan"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Mark_McGowan.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_rachel_siewert={
+		name="Rachel Siewert"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Rachel_Siewert.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_chris_cain={
+		name="Chris Cain"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/Portrait_WAS_Chris_Cain.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+}

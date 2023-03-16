@@ -1,0 +1,145 @@
+characters={
+	WAL_Leanne_Wood={
+		name="Leanne Wood"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_Leanne_Wood.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_Gethin_Ap_Gruffydd={
+		name="Gethin Ap Gruffydd"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_Gethin_Ap_Gruffydd.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_John_Barnard_Jenkins={
+		name="John Barnard Jenkins"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_John_Barnard_Jenkins.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_David_Watkin_Williams_Wynn={
+		name="David Watkin Williams Wynn"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_David_Watkin_Williams_Wynn.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_Rhisiart_Tal_E_Bot={
+		name="Rhisiart Tal-e-bot"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_Rhisiart_Tal_E_Bot.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_Guto_Bebb={
+		name="Guto Bebb"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_Guto_Bebb.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_Ieuan_Wyn_Jones={
+		name="Ieuan Wyn Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_Ieuan_Wyn_Jones.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_Eleanor_Burnham={
+		name="Eleanor Burnham"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_Eleanor_Burnham.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_Alan_Woods={
+		name="Alan Woods"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_Alan_Woods.dds"
+			}
+		}
+		country_leader={
+			ideology=trotskyist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_Dafydd_Wigley={
+		name="Dafydd Wigley"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_Dafydd_Wigley.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAL_Ron_Davies={
+		name="Ron Davies"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAL/Portrait_WAL_Ron_Davies.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

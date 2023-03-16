@@ -1,0 +1,50 @@
+ideas = {
+
+		country = {	
+
+			
+			Falkland_oil_boom = {
+				allowed = {
+					always = no
+				}
+				
+				picture = oil_boom
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+				production_oil_factor = 0.05
+				local_resources_factor = 0.03
+				}
+		}	
+
+		Empire_Protect_Agreement = {
+			allowed = {
+				always = no
+			}
+			
+			picture = empires_protection
+
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+
+			modifier = {
+			production_oil_factor = 0.05
+			local_resources_factor = 0.03
+			}
+	}	
+
+		
+	}
+}	

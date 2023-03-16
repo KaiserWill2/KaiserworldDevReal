@@ -1,0 +1,26 @@
+state=
+{
+	id=311
+	name="STATE_311"
+	manpower = 324528
+	
+	state_category = town
+	history=
+	{
+		owner = CEA
+		add_core_of = BLZ
+		add_claim_by = GUA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			7630 = { 
+				naval_base = 1
+			}
+		}
+		victory_points = { 
+			7630 2
+		}
+	}
+	provinces= {  7617 7630 10482 }
+}

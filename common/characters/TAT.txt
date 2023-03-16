@@ -1,0 +1,145 @@
+characters={
+	TAT_yasin_abu_bakr={
+		name="Yasin Abu Bakr"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Yasin_Abu_Bakr.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_ralph_brown={
+		name="Ralph Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Ralph_Brown.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_ellis_clarke={
+		name="Ellis Clarke"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Ellis_Clarke.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_makandal_daaga={
+		name="Makandal Daaga"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Makandal_Daaga.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_noel_woodroffe={
+		name="Noel Woodroffe"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Noel_Woodroffe.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_winston_dookeran={
+		name="Winston Dookeran"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Winston_Dookeran.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_patrick_manning={
+		name="Patrick Manning"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Patrick_Manning.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_kamla_persadbissessar={
+		name="Kamla Persad-Bissessar"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Kamla_Persad_Bissessar.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_steve_alvarez={
+		name="Steve Alvarez"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Steve_Alvarez.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_basdeo_panday={
+		name="Basdeo Panday"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Basdeo_Panday.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_wade_mark={
+		name="Wade Mark"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Portrait_TAT_Wade_Mark.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

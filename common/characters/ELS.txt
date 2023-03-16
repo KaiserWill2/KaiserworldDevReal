@@ -1,0 +1,145 @@
+characters={
+	ELS_domingo_monterrosa={
+		name="Domingo Monterrosa"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Domingo_Monterrosa.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_rodrigo_avila={
+		name="Rodrigo Ávila"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Rodrigo_Ávila.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_beltran_first={
+		name="Beltrán I"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Beltrán_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_nayib_bukele={
+		name="Nayib Bukele"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Nayib_Bukele.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_ciro_cruz_zepeda={
+		name="Ciro Cruz Zepeda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Ciro_Cruz_Zepeda.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_rodolfo_parker={
+		name="Rodolfo Parker"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Rodolfo_Parker.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_juan_valiente={
+		name="Juan Valiente"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Juan_Valiente.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_douglas_aviles={
+		name="Douglas Avilés"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Douglas_Avilés.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_mauricio_funes={
+		name="Mauricio Funes"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Mauricio_Funes.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_salvador_sanchez_ceren={
+		name="Salvador Sánchez Cerén"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Salvador_Sánchez_Cerén.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_joaquin_villalobos={
+		name="Joaquín Villalobos"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Portrait_ELS_Joaquin_Villalobos.dds"
+			}
+		}
+		country_leader={
+			ideology=sandinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

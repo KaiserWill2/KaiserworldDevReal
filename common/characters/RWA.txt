@@ -1,0 +1,145 @@
+characters={
+	RWA_augustin_bizimungu={
+		name="Augustin Bizimungu"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Augustin_Bizimungu.dds"
+			}
+		}
+		country_leader={
+			ideology=hutu_power
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_paul_kagame={
+		name="Paul Kagame"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Paul_Kagame.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_kigeli_v_ndahindurwa={
+		name="Kigeli V Ndahindurwa"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Kigeli_V_Ndahindurwa.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_ignace_murwanashyaka={
+		name="Ignace Murwanashyaka"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Ignace_Murwanashyaka.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_mussa_harerimana={
+		name="Mussa Harerimana"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Mussa_Harerimana.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_agnes_mukabaranga={
+		name="Agnes Mukabaranga"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Agnes_Mukabaranga.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_prosper_higiro={
+		name="Prosper Higiro"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Prosper_Higiro.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_frank_habineza={
+		name="Frank Habineza"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Frank_Habineza.dds"
+			}
+		}
+		country_leader={
+			ideology=ecopolitician
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_alivera_mukabaramba={
+		name="Alivera Mukabaramba"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Alivera_Mukabaramba.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_eric_manzi={
+		name="Eric Manzi"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Eric_Manzi.dds"
+			}
+		}
+		country_leader={
+			ideology=syndicalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWA_jean_baptiste_rucibagango={
+		name="Jean Baptiste Rucibagango"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWA/Portrait_RWA_Jean_Baptiste_Rucibagango.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

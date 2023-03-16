@@ -1,0 +1,146 @@
+Characters={	
+SCY_Rosario_Crocetta={
+		name="Rosario Crocetta"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Rosario_Crocetta.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+SCY_Nello_Musumeci={
+		name="Nello Musumeci"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Nello_Musumeci.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+SCY_Antonio_Pappalardo={
+		name="Antonio Pappalardo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Antonio_Pappalardo.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+SCY_Carlo_I={
+		name="Carlo I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Carlo_I.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+SCY_Gaetano_Saya={
+		name="Gaetano Saya"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Gaetano_Saya.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+SCY_Salvatore_Cuffaro={
+		name="Salvatore Cuffaro"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Salvatore_Cuffaro.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+SCY_Raffaele_Lombardo={
+		name="Raffaele Lombardo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Raffaele_Lombardo.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+SCY_Gianfranco_Micciche={
+		name="Gianfranco Miccichè"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Gianfranco_Micciche.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+SCY_Leoluca_Orlando={
+		name="Leoluca Orlando"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Leoluca_Orlando.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+SCY_Pietro_Grasso={
+		name="Pietro Grasso"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Pietro_Grasso.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+SCY_Claudio_Fava={
+		name="Claudio Fava"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCY/Portrait_SCY_Claudio_Fava.dds"
+			}
+		}
+		country_leader={
+			ideology=luxemburgism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

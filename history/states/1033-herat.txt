@@ -1,0 +1,22 @@
+state={
+	id=1033
+	name="STATE_1033" # Herat
+	manpower = 2397607
+	
+	state_category = rural
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 8053 3 }
+		victory_points = { 2017 3 }
+		victory_points = { 4893 1 }
+		add_core_of = AFG
+	}
+
+	provinces={
+		4893 8053 12871 2017 2062
+	}
+}

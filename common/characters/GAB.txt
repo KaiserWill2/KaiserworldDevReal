@@ -1,0 +1,145 @@
+characters={
+	GAB_pacôme_moubeletboubeya={
+		name="Pacôme Moubelet-Boubeya"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Pacome_Moubelet_Boubeya.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_ali_bongo_ondimba={
+		name="Ali Bongo Ondimba"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Ali_Bongo_Ondimba.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_mbongo_ntchounga={
+		name="Mbongo Ntchounga"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Mbongo_Ntchounga.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_rené_radembino_coniquet={
+		name="René Radembino Coniquet"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Rene_Radembino_Coniquet.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_françois_engongah_owono={
+		name="François Engongah Owono"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Francois_Engongah_Owono.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_andré_mba_obame={
+		name="André Mba Obame"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Andre_Mba_Obame.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_jeanboniface_assélé={
+		name="Jean-Boniface Assélé"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Jean_Boniface_Assele.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_pierreclaver_maganga_moussavou={
+		name="Pierre-Claver Maganga Moussavou"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Pierre_Claver_Maganga_Moussavou.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_seraphim_ndaot_rembogo={
+		name="Seraphim Ndaot Rembogo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Seraphim_Ndaot_Rembogo.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_léon_mbou_yembi={
+		name="Léon Mbou Yembi"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Leon_Mbou_Yembi.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_renépaul_sousatte={
+		name="René-Paul Sousatte"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Portrait_GAB_Rene_Paul_Sousatte.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

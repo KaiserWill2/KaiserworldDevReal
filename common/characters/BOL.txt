@@ -1,0 +1,386 @@
+characters={
+	BOL_evo_morales={
+		name="Evo Morales"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Evo_Morales.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_freddy_terrazas_salas={
+		name="Freddy Terrazas Salas"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Freddy_Terrazas_Salas.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_erick_moron_osinaga={
+		name="Erik Moron Osinaga"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Erick_Moron_Osinaga.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_elena_i={
+		name="Elena I"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Elena_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_gustavo_sejas_revollo={
+		name="Gustavo Sejas Revollo"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Gustavo_Sejas_Revollo.dds"
+			}
+		}
+		country_leader={
+			ideology=national_syndicalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_jorge_quiroga={
+		name="Jorge Quiroga"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Jorge_Quiroga.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_samuel_jorge_doria_medina_auza={
+		name="Samuel Jorge Doria Medina Auza"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Samuel_Jorge_Doria_Medina_Auza.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_populist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_rubén_costas={
+		name="Rubén Costas"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Ruben_Costas.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_margot_soria_saravia={
+		name="Margot Soria Saravia"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Margot_Soria_Saravia.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_fernando_vargas_mosua={
+		name="Fernando Vargas Mosua"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Fernando_Vargas_Mosua.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_oscar_zamora_medinaceli={
+		name="Oscar Zamora Medinaceli"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_BOL_Oscar_Zamora_Medinaceli.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_OSCAR_ZAMORA_MEDINACELI_DESC"
+			ideology=left_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOL_luis_orlando_ariñez_bazán={
+		name="Luis Orlando Ariñez Bazán"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Luis_Bazan.dds"
+			}
+		}
+		field_marshal={
+			traits={ organisational_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	BOL_marcelo_antezana={
+		name="Marcelo Antezana"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Marcelo_Antezana.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inspirational_leader }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	BOL_Óscar_naranjo={
+		name="Óscar Naranjo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Oscar_Naranjo.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	BOL_juan_gonzalo_duran_flores={
+		name="Juan Gonzalo Duran Flores"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Juan_Flores.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard fast_planner }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	BOL_carlos_erik_rück_arzabe={
+		name="Carlos Erik Rück Arzabe"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Carlos_Arzabe.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BOL_melvin_arteaga_aguada={
+		name="Melvin Arteaga Aguada"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Melvin_Aguada.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	BOL_abel_galo_de_la_barra_cáceres={
+		name="Abel Galo de la Barra Cáceres"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Abel_Caceres.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	BOL_gina_reque_terán={
+		name="Gina Reque Terán"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Gina_Teran.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	BOL_luis_fernando_aramayo_mercado={
+		name="Luis Fernando Aramayo Mercado"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Luis_Mercado.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	BOL_felipe_eduardo_vasquez_moya={
+		name="Felipe Eduardo Vasquez Moya"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Felipe_Moya.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BOL_guillermo_chalup_liendo={
+		name="Guillermo Chalup Liendo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Guillermo_Liendo.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BOL_josé_manuel_puente_guarachi={
+		name="José Manuel Puente Guarachi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/BOL/Portrait_Jose_Guarachi.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

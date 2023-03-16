@@ -1,0 +1,29 @@
+
+state={
+	id=291
+	name="STATE_291"
+	manpower = 5386328
+	
+	state_category = town
+	
+	resources={
+		oil=51
+		steel=8
+	}
+
+	history={
+		owner = UAR
+		victory_points = { 7977 4 }
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 5
+		}
+		add_core_of = IRQ
+	}
+
+	provinces={
+		78 2004 7977 7994 12726 
+	}
+}

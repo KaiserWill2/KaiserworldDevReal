@@ -1,0 +1,615 @@
+History_Of_The_War = {
+
+	ENG_A_History_of_the_Second_Weltkrieg = {
+	
+		icon = decision_generic_tank
+	
+		allowed = {
+			OR = {
+				original_tag = ENG
+				original_tag = SCO
+				original_tag = WAL
+				original_tag = IRE
+				original_tag = USA
+				original_tag = SOV
+				original_tag = FRA
+				original_tag = GER
+			}
+		}
+	
+		available = {
+			always = yes
+		}
+	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+	
+		complete_effect = {
+			country_event = { id = decision_event.6 }
+		}
+	}
+	
+	ENG_A_History_of_the_Second_Weltkrieg2 = {
+	
+		icon = decision_generic_tank
+	
+		allowed = {
+			OR = {
+				original_tag = ENG
+				original_tag = SCO
+				original_tag = WAL
+				original_tag = IRE
+				original_tag = USA
+				original_tag = SOV
+				original_tag = FRA
+				original_tag = GER
+			}
+		}
+	
+		available = {
+			always = yes
+		}
+	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+	
+		complete_effect = {
+			country_event = { id = decision_event.7 }
+		}
+	}
+
+	ENG_A_History_of_the_Second_Weltkrieg3 = {
+	
+		icon = decision_generic_tank
+	
+		allowed = {
+			OR = {
+				original_tag = ENG
+				original_tag = SCO
+				original_tag = WAL
+				original_tag = IRE
+				original_tag = USA
+				original_tag = SOV
+				original_tag = FRA
+				original_tag = GER
+			}
+		}
+	
+		available = {
+			always = yes
+		}
+	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+	
+		complete_effect = {
+			country_event = { id = decision_event.10 }
+		}
+	}
+
+	
+	ENG_Welcome_To_The_Union = {
+		
+		icon = generic_nationalism
+	
+		allowed = {
+			OR = {
+				original_tag = ENG
+			}
+		}
+	
+		available = {
+			always = yes
+	}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+	
+		complete_effect = { 
+			country_event = { id = decision_event.3 }
+			
+		}
+	}
+	
+	}
+	
+	
+	thirties = {
+	
+	
+	
+	
+	}
+	
+	forties = {
+	
+	
+	
+	
+	}
+	
+	fifties = {
+		
+		ENG_The_Dumfries_War = {
+	
+			icon = decision_generic_tank
+	
+			allowed = {
+				OR = {
+					original_tag = ENG
+					original_tag = SCO
+					original_tag = WAL
+				}
+			}
+	
+			available = {
+				always = yes
+			}
+		
+			cost = 0
+			fire_only_once = yes
+			ai_will_do = {
+				factor = 0
+			}
+	
+			complete_effect = {
+				country_event = { id = decision_event.1 }
+			}
+		}
+	
+	
+	
+	
+	
+		
+		ENG_The_Peoples_Palace = {
+	
+			icon = decision_generic_construction
+		
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+	
+	
+			available = {
+				always = yes
+			}
+			cost = 0
+			fire_only_once = yes
+			ai_will_do = {
+				factor = 0
+			}     
+			complete_effect = {
+		country_event = { id = decision_event.4 }
+			}       
+	   }
+			
+		
+	   ENG_The_Death_Of_Lawrence = {
+	
+		icon = decision_generic_army_support
+	
+		allowed = {
+			OR = {
+				original_tag = ENG
+			}
+		}
+	
+		available = {
+			always = yes
+		}
+	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+	
+		complete_effect = {
+			country_event = { id = decision_event.8 }
+		}
+	}
+	
+	
+	
+		ENG_Welcome_To_The_Union = {
+		
+			icon = generic_nationalism
+		
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+		
+			available = {
+				always = yes
+		}
+			cost = 0
+			fire_only_once = yes
+			ai_will_do = {
+				factor = 0
+			}
+		
+			complete_effect = {
+				country_event = { id = decision_event.3 }
+			}
+		}
+	
+	
+	}
+	
+	sixties = {
+		
+		
+	}
+	
+	seventies = {
+		
+		
+	}
+	
+	eighties = {
+		
+		
+	}
+	
+	nineties = {
+	
+			
+	}
+	
+	noughts = {
+
+	}
+	
+	Keeping_The_Nation_Stable = {
+	
+		ENG_Deploy_The_Military = {
+
+			icon = decision_generic_ignite_civil_war
+
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+		   
+		   Available = {
+			has_completed_focus = ENG_Grey_Tuesday
+			}
+
+
+	
+			fire_only_once = yes
+	
+			complete_effect = {
+				add_stability = 0.15
+			}
+		}
+
+		
+				
+		ENG_Sideline_The_Police = {
+		
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+
+			icon = decision_generic_prepare_civil_war
+			is_good = no
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+			activation = {
+				has_country_flag = keeping_things_stable
+		}
+    
+			complete_effect = {
+				add_stability = -0.10
+				add_command_power = 20
+				add_political_power = 20
+			}       
+		}
+		
+		ENG_Converting_Apartments_To_Barracks = {
+			
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+
+			icon = decision_generic_prepare_civil_war
+			is_good = no
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+			activation = {
+				has_country_flag = keeping_things_stable
+		}
+	     
+			complete_effect = {
+				add_stability = -0.10
+			}       
+		}
+
+	
+		ENG_Shutting_Down_State_Industries = {
+			
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+
+			icon = decision_generic_prepare_civil_war
+			is_good = no
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+			activation = {
+				has_country_flag = keeping_things_stable
+		}
+	  
+			complete_effect = {
+				add_stability = -0.20
+				add_political_power = 10
+			}       
+		}
+
+		ENG_Enforce_A_state_At_Home_Policy = {
+			
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+
+			icon = decision_generic_prepare_civil_war
+			is_good = no
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+			activation = {
+				has_country_flag = keeping_things_stable
+		}    
+			complete_effect = {
+				add_stability = -0.10
+			}       
+		}
+
+		ENG_Censoring_Media = {
+			
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+
+			icon = decision_generic_prepare_civil_war
+			is_good = no
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+			activation = {
+				has_country_flag = keeping_things_stable
+		}    
+			complete_effect = {
+				add_stability = -0.10
+				add_political_power = 20
+			}       
+		}
+
+		
+		ENG_NationalPPropaganda_Campaign = {
+			
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+
+			icon = decision_generic_prepare_civil_war
+			is_good = no
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+			activation = {
+				has_country_flag = keeping_things_stable
+		}    
+			complete_effect = {
+				add_stability = 0.10
+				add_political_power = 0.10
+			}       
+		}
+
+		ENG_Deploy_The_Police = {
+			
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+
+			icon = decision_generic_prepare_civil_war
+			is_good = no
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+			activation = {
+				has_country_flag = keeping_things_stable
+		}    
+			complete_effect = {
+				add_stability = 0.10
+				add_political_power =  -10
+			}       
+		}
+
+		ENG_A_New_National_Holiday = {
+			
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+
+			icon = decision_generic_prepare_civil_war
+			is_good = no
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+			activation = {
+				has_country_flag = keeping_things_stable
+		}    
+			complete_effect = {
+				add_stability = 0.10
+				add_political_power = -20
+			}       
+		}
+
+		ENG_Rewarding_Political_Supporters = {
+			
+			visible = {
+				has_completed_focus = ENG_Grey_Tuesday
+			}
+
+			icon = decision_generic_prepare_civil_war
+			is_good = no
+			allowed = {
+				OR = {
+					original_tag = ENG
+				}
+			}
+			activation = {
+				has_country_flag = keeping_things_stable
+		}    
+			complete_effect = {
+				add_stability = 0.10
+			}       
+		}
+
+	}
+
+	noughts = {
+
+		
+	}
+
+	
+
+	
+ Stablising_The_Nation = {
+
+	ENG_Take_Wales = {
+	
+		icon = decision_generic_ignite_civil_war
+		is_good = no
+		visible = {
+			has_completed_focus = ENG_The_Dragons_Head
+		}
+	   
+
+			activation = {
+				has_country_flag = taking_wales
+		}
+	
+		selectable_mission = yes
+		days_mission_timeout = 15
+
+		fire_only_once = yes
+		Available = {
+			owns_state = 122
+			}
+
+		timeout_effect = {    
+			country_event = { id = decision_event.20 }    
+			set_country_flag =  Failure_To_Take_Wales  
+			white_peace = WAL
+			country_event = {
+				id = England.48
+			}
+   }
+		complete_effect = {
+	
+		set_country_flag =  ENG_Go_For_Wales  
+	
+		}
+	}
+
+
+	ENG_Stablise_The_Nation = {
+
+		icon = decision_generic_ignite_civil_war
+		is_good = no
+
+		visible = {
+			has_completed_focus = ENG_Choosing_The_Replacement
+		}
+	   Available = {
+		has_stability > 0.55
+		has_political_power > 110
+		}
+			activation = {
+				has_country_flag = choosing_the_replacement_flag
+		}
+	
+		selectable_mission = yes
+		days_mission_timeout = 100
+
+		fire_only_once = yes
+
+
+		timeout_effect = {    
+			country_event = { id = decision_event.5 }                  
+			load_focus_tree = {
+				tree = 5th_nov_coup
+				keep_completed = yes
+			}             
+   }
+		complete_effect = {
+			country_event = {
+				id = england.57
+			}
+			set_country_flag =  A_Leader_Has_Been_Chosen
+		add_political_power = 100
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
+	
+	
+	
+	
+	
+	
+	

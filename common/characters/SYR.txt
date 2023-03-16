@@ -1,0 +1,847 @@
+characters={
+	SYR_khawla_dunia={
+		name="Khawla Dunia"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Khawla_Dunia.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_confederalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SYR_hanin_nimir={
+		name="Hanin Nimir"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Hanin_Nimir.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SYR_ali_haidar={
+		name="Ali Haidar"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Ali_Haidar.dds"
+			}
+		}
+		country_leader={
+			ideology=social_nationalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SYR_rifaat_alassad={
+		name="Rifaat al-Assad"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Rifaat_Al_Assad.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SYR_mired_i={
+		name="Mired I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Mired_I.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SYR_bashar_alassad={
+		name="Bashar al-Assad"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Bashar_Al_Assad.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BASHAR_AL_ASSAD_DESC"
+			ideology=neo_baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader = {
+			desc="POLITICS_BASHAR_AL_ASSAD_DESC"
+			expire = "1.1.1.1"
+			ideology = social_nationalist
+		}
+	}
+	SYR_ali_sadreddine_albayanouni={
+		name="Ali Sadreddine Al-Bayanouni"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Ali_Sadreddine_Al_Bayanouni.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SYR_anas_alabdah={
+		name="Anas al-Abdah"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Anas_Al_Abdah.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SYR_hassan_abdulazim={
+		name="Hassan Abdul-Azim"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Hassan_Abdul_Azim.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SYR_riad_alturk={
+		name="Riad al-Turk"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Riad_Al_Turk.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = luxemburgism
+		}
+	}
+	SYR_farid_ghadry={
+		name="Farid Ghadry"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Farid_Ghadry.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SYR_fateh_jamous={
+		name="Fateh Jamous"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Fateh_Jamous.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+	}
+	SYR_rami_makhlouf={
+		name="Rami Makhlouf"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Rami_Makhlouf.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+	}
+	SYR_anisa_alassad={
+		name="Anisa al-Assad"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Anisa_Al_Assad.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+	}
+	SYR_transitional_assembly={
+		name="Transitional Assembly"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Transitional_Assembly.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = neo_baathist
+		}
+	}
+	SYR_hadi_albahra={
+		name="Hadi al-Bahra"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Hadi_Al_Bahra.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_liberal
+		}
+	}
+	SYR_asma_alassad={
+		name="Asma al-Assad"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Asma_Al_Assad.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = social_nationalist
+		}
+	}
+	SYR_hafez_alassad={
+		name="Hafez al-Assad Jr."
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Hafez_Al_Assad_Junior.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+	}
+	SYR_ayman_asfari={
+		name="Ayman Asfari"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Ayman_Asfari.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = corporate
+		}
+	}
+	SYR_najah_alattar={
+		name="Najah al-Attar"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Najah_Al_Attar.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+	}
+	SYR_revolutionary_government={
+		name="Revolutionary Government"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Revolutionary_Government.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	SYR_gamal_khalid_abdel_nasser={
+		name="Gamal Khalid Abdel Nasser"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Gamal_Khalid_Abdel_Nasser.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = democratic_socialist
+		}
+	}
+	SYR_cabinet_of_syria={
+		name="Cabinet of Syria"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Cabinet_Of_Syria.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = neo_baathist
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+	}
+	SYR_mohammad_jihad_allaham={
+		name="Mohammad Jihad al-Laham"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Mohammad_Jihad_Al_Laham.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = ultranationalist
+		}
+	}
+	SYR_mustafa_tlass={
+		name="Mustafa Tlass"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Mustafa_Tlass.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+	}
+	SYR_wael_nader_alhalqi={
+		name="Wael Nader al-Halqi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Wael_Nader_Al_Halqi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = neo_baathist
+		}
+	}
+	SYR_riyad_farid_hijab={
+		name="Riyad Farid Hijab"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Riyad_Farid_Hijabi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = nationalist_ideology
+		}
+	}
+	SYR_bashar_i={
+		name="Bashar I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_King_Bashar.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	SYR_regency_council={
+		name="Regency Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Regency_Council.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = regency_monarchist
+		}
+	}
+	SYR_siwar_i={
+		name="Siwar I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_King_Siwar_Al_Assad.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	SYR_anisa_i={
+		name="Anisa I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Queen_Anisa_Al_Assad.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	SYR_ribal_i={
+		name="Ribal I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_King_Ribal_Al_Assad.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	SYR_hafez_i={
+		name="Hafez I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_King_Hafez_I.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	SYR_maher_i={
+		name="Maher I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_King_Maher_I.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = absolute_monarchist
+		}
+	}
+	SYR_maher_alassad={
+		name="Maher al-Assad"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Maher_Al_Assad.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = baathist
+		}
+	}
+	SYR_ali_abdullah_ayyoub={
+		name="Ali Abdullah Ayyoub"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Ali_Abdullah_Ayyoub.dds"
+			}
+		}
+		field_marshal={
+			traits={ fast_planner }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SYR_suheil_alhassan={
+		name="Suheil al-Hassan"
+		portraits={
+			civilian={
+				large="gfx/leaders/SYR/Portrait_SYR_Suheil_Al_Hassan.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portrait_SYR_Suheil_Al_Hassan.dds"
+			}
+		}
+		country_leader = {
+			expire = "1.1.1.1"
+			ideology = military_junta
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	SYR_naim_jasem_suleiman={
+		name="Naim Jasem Suleiman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Naim_Jasem_Suleiman.dds"
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SYR_aymen_aljaber={
+		name="Aymen al-Jaber"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Aymen_al-Jaber.dds"
+			}
+		}
+		corps_commander={
+			traits={ naval_invader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SYR_abdul_jabbar_aqidi={
+		name="Abdul Jabbar Aqidi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Abdul_Jabbar_Aqidi.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SYR_abdul_qader_saleh={
+		name="Abdul Qader Saleh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Abdul_Qader_Saleh.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SYR_abu_issa={
+		name="Abu Issa"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Abu_Issa.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SYR_ali_mamlouk={
+		name="Ali Mamlouk"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Ali_Mamlouk.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SYR_bashar_alzoubi={
+		name="Bashar Al-Zoubi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Bashar_Al-Zoubi.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SYR_ammar_alwawi={
+		name="Ammar Al-Wawi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Ammar_Al-Wawi.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SYR_dawoud_abdellah_rajiha={
+		name="Dawoud Abdellah Rajiha"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Dawoud_Abdellah_Rajiha.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SYR_fahd_jassem_alfreij={
+		name="Fahd Jassem al-Freij"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Fahd_Jassem_al-Freij.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SYR_muhammad_suleiman={
+		name="Muhammad Suleiman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Muhammad_Suleiman.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SYR_talal_makhlouf={
+		name="Talal Makhlouf"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Talal_Makhlouf.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SYR_mustafa_al_sheikh={
+		name="Mustafa al_Sheikh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Mustafa_al-Sheikh.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SYR_mohammad_nayou={
+		name="Mohammad Nayou"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Mohammad_Nayou.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SYR_hassan_saado={
+		name="Hassan Saado"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Hassan_Saado.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SYR_issam_zahreddine={
+		name="Issam Zahreddine"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Issam_Zahreddine.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SYR_manaf_tlass={
+		name="Manaf Tlass"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portriat_Manaf_Tlass.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SYR_jawher_sulkar={
+		name="Jawher Sulkar"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/SYR/Portrait_Jawher_Sulkar.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

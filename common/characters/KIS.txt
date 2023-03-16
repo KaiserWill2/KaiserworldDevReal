@@ -1,0 +1,145 @@
+characters={
+KIS_Michael_Ben_Ari={
+		name="Michael Ben Ari"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Michael_Ben_Ari.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Shalom_Dov_Wolpo={
+		name="Shalom Dov Wolpo"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Shalom_Dov_Wolpo.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Yitzhak_Yosef={
+		name="Yitzhak Yosef"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Yitzhak_Yosef.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Arie_Deri={
+		name="Arie Deri"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Arie_Deri.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Ariel_Sharon={
+		name="Ariel Sharon"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Ariel_Sharon.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Yair_Lapid={
+		name="Yair Lapid"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Yair_Lapid.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Moshe_Kahlon={
+		name="Moshe Kahlon"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Moshe_Kahlon.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Isaac_Herzog={
+		name="Isaac Herzog"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Isaac_Herzog.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Tzipi_Livni={
+		name="Tzipi Livni"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Tzipi_Livni.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Ayman_Odeh={
+		name="Ayman Odeh"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Ayman_Odeh.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+KIS_Issam_Makhoul={
+		name="Issam Makhoul"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIS/Portrait_KIS_Issam_Makhoul.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

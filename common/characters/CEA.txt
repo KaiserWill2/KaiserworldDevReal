@@ -1,0 +1,146 @@
+characters={
+	CEA_daniel_ortega={
+		name="Daniel Ortega"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Daniel_Ortega.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_DANIEL_ORTEGA_DESC"
+			ideology=neoauthoritarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_anastasio_somoza_portocarrero={
+		name="Anastasio Somoza Portocarrero"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Anastasio_Somoza_Portocarrero.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_juan_orlando_hernández={
+		name="Juan Orlando Hernández"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Juan_Orlando_Hernandez.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_juan_i={
+		name="Juan I"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Juan_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_martha_elena_ruiz_sevilla={
+		name="Martha Elena Ruiz Sevilla"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Martha_Elena_Ruiz_Sevilla.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_arnoldo_alemán={
+		name="Arnoldo Alemán"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Arnoldo_Aleman.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_mauricio_villeda={
+		name="Mauricio Villeda"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Mauricio_Villeda.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_margarita_bolaños_arquín={
+		name="Margarita Bolaños Arquín"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Margarita_Bolanos_Arquin.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_guillermo_enrique_valle={
+		name="Guillermo Enrique Valle"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Guillermo_Enrique_Valle.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_césar_ham={
+		name="César Ham"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Cesar_Ham.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CEA_manuel_zelaya={
+		name="Manuel Zelaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/CEA/Portrait_CEA_Manuel_Zelaya.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

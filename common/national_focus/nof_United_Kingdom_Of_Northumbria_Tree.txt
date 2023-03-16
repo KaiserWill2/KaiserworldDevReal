@@ -1,0 +1,297 @@
+focus_tree = {
+	id = nof_United_Kingdom_Of_Northumbria_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = ENG
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1550 }
+	focus = {
+		id = NOF_The_End_Of_6th_English_Civil_War
+		icon = Icon_The_end_of_the_6th_English_civil_war_KW
+		cost = 5
+		x = 10
+		y = 0
+		completion_reward = {
+			country_event = {
+				id = Northumberland.1
+			}
+		}
+	}
+	focus = {
+		id = NOF_We_Won_But_Were_Not_That_Strong
+		icon = We_won_but_were_not_that_strong_KW
+		cost = 5
+		x = 10
+		y = 1
+		prerequisite = { focus = NOF_The_End_Of_6th_English_Civil_War  }
+		completion_reward = {
+		
+		}
+	}
+
+
+	focus = {
+		id = NOF_Look_For_International_Protection
+		icon = Icon_Look_for_international_protection_KW
+		cost = 5
+		x = 10
+		y = 2
+		prerequisite = { focus = NOF_We_Won_But_Were_Not_That_Strong  }
+		completion_reward = {
+			country_event = {
+				id = Northumberland.2
+			}
+		}
+	}
+
+	focus = {
+		id = NOF_Reach_Out_To_The_Canadians
+		icon = Icon_Reach_out_to_the_Canadians_KW
+		cost = 5
+		available = {
+		has_country_flag = Canada_flag
+		}
+		mutually_exclusive = {
+			focus = NOF_Weeks_Help_From_Our_Scottish_Neighbours
+		}
+		mutually_exclusive = {
+			focus = NOF_An_Offer_To_The_Germans
+		}
+		x = 7
+		y = 3
+		prerequisite = { focus = NOF_Look_For_International_Protection  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NOF_Welcome_The_Royal_Family_Back
+		icon = Icon_Welcome_the_Royal_Family_Back_KW
+		cost = 5
+		x = 7
+		y = 4
+		prerequisite = { focus = NOF_Reach_Out_To_The_Canadians  }
+		completion_reward = {
+			country_event = {
+				id = Northumberland.5
+			}
+		}
+	}
+
+	focus = {
+		id = NOF_Canadian_Funds_English_Business
+		icon = Icon_Canadian_Funded_English_Businesses_CKW
+		cost = 5
+		x = 7
+		y = 5
+		prerequisite = { focus = NOF_Welcome_The_Royal_Family_Back  }
+		completion_reward = {
+
+		}
+	}
+
+
+	focus = {
+		id = NOF_Resettling_Refugee_Populations
+		icon = Icon_Resettling_Refugee_Population_KW
+		cost = 5
+		x = 7
+		y = 6
+		prerequisite = { focus = NOF_Canadian_Funds_English_Business  }
+		completion_reward = {
+
+		}
+	}
+
+
+	focus = {
+		id = NOF_With_Canada_Well_Bring_Democracy_Back_To_The_Isle
+		icon = Icon_With_Canada_Well_Bring_Democracy_Back_to_the_Isle_KW
+		cost = 5
+		x = 7
+		y = 8
+		prerequisite = { focus = NOF_Resettling_Refugee_Populations  }
+		completion_reward = {
+		
+		}
+	}
+
+
+	focus = {
+		id = NOF_Weeks_Help_From_Our_Scottish_Neighbours
+		icon = Icon_Weeks_Help_From_Our_Scottish_Neighbours_KW
+		cost = 5
+		x = 10
+		y = 3
+		available = {
+		has_country_flag = Scotland_flag
+		}
+		mutually_exclusive = {
+			focus = NOF_Reach_Out_To_The_Canadians
+		}
+		mutually_exclusive = {
+			focus = NOF_An_Offer_To_The_Germans
+		}
+		prerequisite = { focus = NOF_Look_For_International_Protection  }
+		completion_reward = {
+
+		}
+	}
+
+
+	focus = {
+		id = NOF_The_Treaty_Of_Inverness
+		icon = Icon_The_Treaty_of_Inverness_KW
+		cost = 5
+		x = 10
+		y = 4
+		prerequisite = { focus = NOF_Weeks_Help_From_Our_Scottish_Neighbours  }
+		completion_reward = {
+			country_event = {
+				id = Northumberland.7
+			}
+		}
+	}
+
+
+	focus = {
+		id = NOF_Dismantling_The_Wall
+		icon = Icon_Dismantling_the_Wall_CKW
+		cost = 5
+		x = 10
+		y = 5
+		prerequisite = { focus = NOF_The_Treaty_Of_Inverness  }
+		completion_reward = {
+			country_event = {
+				id = Northumberland.8
+			}
+		}
+	}
+
+
+	focus = {
+		id = NOF_Building_A_Northumbrian_Identity
+		icon = Icon_Building_A_Northumbrian_Identity_KW
+		cost = 5
+		x = 10
+		y = 6
+		prerequisite = { focus = NOF_Dismantling_The_Wall  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NOF_Under_The_Saltire_Well_Survive
+		icon = Icon_Under_the_Saltire_Well_Survive_KW
+		cost = 5
+		x = 10
+		y = 8
+		prerequisite = { focus = NOF_Building_A_Northumbrian_Identity  }
+		completion_reward = {
+
+		}
+	}
+
+
+
+	focus = {
+		id = NOF_An_Offer_To_The_Germans
+		icon = Icon_An_Offer_to_the_Germans_KW
+		cost = 5
+		x = 13
+		y = 3
+		available = {
+		has_country_flag = Germany_flag
+		}
+		mutually_exclusive = {
+			focus = NOF_Reach_Out_To_The_Canadians
+		}
+		mutually_exclusive = {
+			focus = NOF_Weeks_Help_From_Our_Scottish_Neighbours
+		}
+		prerequisite = { focus = NOF_Look_For_International_Protection  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NOF_Joining_Mittle_Europa
+		icon = Icon_Joining_MittelEuropa_KW
+		cost = 5
+		x = 13
+		y = 4
+		prerequisite = { focus = NOF_An_Offer_To_The_Germans  }
+		completion_reward = {
+			country_event = {
+				id = Northumberland.9
+			}
+		}
+	}
+
+	focus = {
+		id = NOF_A_Delegation_to_the_Kaiserreich 
+		icon = Icon_A_Delegation_to_the_Kaiserreich_KW
+		cost = 5
+		x = 13
+		y = 5
+		prerequisite = { focus = NOF_Joining_Mittle_Europa  }
+		completion_reward = {
+
+		}
+	}
+
+
+	focus = {
+		id = NOF_The_Limits_Of_German_Influence
+		icon = Icon_The_Limits_of_the_German_Influence_KW
+		cost = 5
+		x = 13
+		y = 6
+		prerequisite = { focus = NOF_A_Delegation_to_the_Kaiserreich  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NOF_Un_Das_English_Reich
+		icon = Icon_Un_Das_Englisch_Reich_KW
+		cost = 5
+		x = 13
+		y = 8
+		prerequisite = { focus = NOF_The_Limits_Of_German_Influence  }
+		completion_reward = {
+
+		}
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

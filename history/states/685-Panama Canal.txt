@@ -1,0 +1,25 @@
+state={
+	id=685
+	name="STATE_685"
+	manpower = 398110
+	
+	state_category = enclave
+
+	history={
+		owner = CEA
+		victory_points = {
+			13824 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 6
+			13823 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = PAN
+	}
+	
+	provinces={ 13823 13824 }
+}

@@ -1,0 +1,145 @@
+characters={
+	NER_khalid_al_barnawi={
+		name="Khalid Al-Barnawi"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Khalid_Al-Barnawi.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_mamadou_tandja={
+		name="Mamadou Tandja"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Mamadou_Tandja.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_ali_zaki={
+		name="Ali Zaki"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Ali_Zaki.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_ibrahim_yacouba={
+		name="Ibrahim Yacouba"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Ibrahim_Yacouba.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_hama_amadou={
+		name="Hama Amadou"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Hama_Amadou.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_moussa_moumouni_djermakoye={
+		name="Moussa Moumouni Djermakoye"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Moussa_Moumouni_Djermakoye.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_amadou_cisse={
+		name="Amadou Cissé"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Amadou_Cissé.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_mahamane_ousmane={
+		name="Mahamane Ousmane"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Mahamane_Ousmane.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_mahamadou_issoufou={
+		name="Mahamadou Issoufou"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Mahamadou_Issoufou.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_abdoulaye_hamani_diori={
+		name="Abdoulaye Hamani Diori"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Abdoulaye_Hamani_Diori.dds"
+			}
+		}
+		country_leader={
+			ideology=african_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NER_issoufou_assoumane={
+		name="Issoufou Assoumane"
+		portraits={
+			civilian={
+				large="gfx/leaders/NER/Portrait_NER_Issoufou_Assoumane.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

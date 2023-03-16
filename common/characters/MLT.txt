@@ -1,0 +1,146 @@
+characters={
+	MLT_victor_degiovanni={
+		name="Victor Degiovanni"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Victor_Degiovanni.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_matthew_festing={
+		name="Matthew Festing"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Matthew_Festing.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MATTHEW_FESTING_DESC"
+			ideology=clerical_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_ludwig_hoffmannrumerstein={
+		name="Ludwig Hoffmann-Rumerstein"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Ludwig_Hoffmann_Rumerstein.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_giacomo_dalla_torre={
+		name="Giacomo dalla Torre"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Giacomo_dalla_Torre del_Tempio_di_Sanguinetto.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_norman_lowell={
+		name="Norman Lowell"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Norman_Lowell.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_simon_busuttil={
+		name="Simon Busuttil"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Simon_Busuttil.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_joseph_muscat={
+		name="Joseph Muscat"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Joseph_Muscat.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_lawrence_gonzi={
+		name="Lawrence Gonzi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Lawrence_Gonzi.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_evarist_bartolo={
+		name="Evarist Bartolo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Evarist_Bartolo.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_george_abela={
+		name="George Abela"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_George_Abela.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLT_yana_mintoff={
+		name="Yana Mintoff"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLT/Portrait_MLT_Yana_Mintoff.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

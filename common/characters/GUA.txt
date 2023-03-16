@@ -1,0 +1,145 @@
+characters={
+	GUA_ricardo_rosales={
+		name="Ricardo Rosales"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Ricardo_Rosales.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_efrain_rios_montt={
+		name="Efrain Rios Montt"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Efrain_Rios_Montt.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_otto_perez_molina={
+		name="Otto Perez Molina"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Otto_Perez_Molina.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_jaime_de_marichalar={
+		name="Jaime de Marichalar"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Jaime_De_Marichalar.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_luis_fernando_perez={
+		name="Luis Fernando Perez"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Luis_Fernando_Perez.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_jimmy_morales={
+		name="Jimmy Morales"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Jimmy_Morales.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_alejandro_giammattei_falla={
+		name="Alejandro Giammattei Falla"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Alejandro_Giammattei_Falla.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_felipe_alejos={
+		name="Felipe Alejos"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Felipe_Alejos.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_nineth_montenegro={
+		name="Nineth Montenegro"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Nineth_Montenegro.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_sandra_torres={
+		name="Sandra Torres"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Sandra_Torres.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_miguel_angel_sandoval={
+		name="Miguel Angel Sandoval"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Portrait_GUA_Miguel_Angel_Sandoval.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

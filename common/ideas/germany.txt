@@ -1,0 +1,45 @@
+ideas = {
+	
+	country = {
+	
+	EuroPaktMember_idea = {
+					allowed = {
+						always = no
+					}
+					
+					picture = EuroPaktMember_idea
+		
+					removal_cost = -1
+					
+					allowed_civil_war = {
+						always = yes
+					}
+		
+		
+		
+					modifier = {
+						stability_factor = 0.015
+						
+					}
+				}
+		
+				
+	
+		Reichspakt_idea = {
+			picture = Reichspakt
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.1
+			}
+		}
+	
+	}
+}
+		
+

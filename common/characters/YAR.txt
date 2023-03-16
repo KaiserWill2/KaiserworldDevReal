@@ -1,0 +1,264 @@
+characters={
+	YAR_ali_salem_al_beidh={
+		name="Ali Salem al Beidh"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Ali_Salem_al_Beidh.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_abdul_majeed_alzindani={
+		name="Abdul Majeed al-Zindani"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Abdul_Majeed_al_Zindani.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_ahmed_saleh={
+		name="Ahmed Saleh"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Ahmed_Saleh.dds"
+			}
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/YAR/Portrait_YEM_Ahmed_Saleh.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			desc = "AHMED_SALEH_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits={ politically_connected media_personality inspirational_leader }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	YAR_ageel_bin_muhammad_al_badr={
+		name="Ageel bin Muhammad al Badr"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Ageel_bin_Muhammad_al_Badr.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_abdel_wahab_mahmoud_abdel_hamid={
+		name="Abdel Wahab Mahmoud Abdel Hamid"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Abdel_Wahab_Mahmoud_Abdel_Hamid.dds"
+			}
+		}
+		country_leader={
+			ideology=baathist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_mohammed_qahtan={
+		name="Mohammed Qahtan"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Mohammed_Qahtan.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MOHAMMED_QAHTAN_DESC"
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_khaled_bahah={
+		name="Khaled Bahah"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Khaled_Bahah.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_tawakkol_karman={
+		name="Tawakkol Karman"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Tawakkol_Karman.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_najeeb_qahtan_alshaabi={
+		name="Najeeb Qahtan Al-Sha'abi"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Najeeb_Qahtan_Al_Sha_abi.dds"
+			}
+		}
+		country_leader={
+			ideology=paleosocialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_haidar_abu_bakr_alattas={
+		name="Haidar Abu Bakr al-Attas"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Haidar_Abu_Bakr_al_Attas.dds"
+			}
+		}
+		country_leader={
+			ideology=peoples_socialist_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_abdulmalik_almekhlafi={
+		name="Abdulmalik Al-Mekhlafi"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Abdulmalik_Al_Mekhlafi.dds"
+			}
+		}
+		country_leader={
+			ideology=nasserism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	YAR_abdul_malik_al_houthi={
+		name="Abdul-Malik Al-Houthi"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/Portrait_YEM_Ansarullah_Leader_Abdel_Malek_Alhouthi.dds"
+			}
+		}
+	}
+	YAR_yahya_mohamed_abdullah_saleh={
+		name="Yahya Mohamed Abdullah Saleh"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/YAR/Portrait_Yahya_Mohamed_Abdullah_Saleh.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	YAR_mohamed_al_atifi={
+		name="Mohamed al-Atifi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/YAR/Portrait_Mohamed_al-Atifi.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	YAR_mohammed_nasser_ahmed={
+		name="Mohammed Nasser Ahmed"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/YAR/Portrait_Mohammed_Nasser_Ahmed.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	YAR_bahri_nasser_hassan={
+		name="Bahri Nasser Hassan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/YAR/Portrait_Bahri_Nasser_Hassan.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill = 1
+	        attack_skill = 1
+	        defense_skill = 1
+	        coordination_skill = 1
+	        maneuvering_skill = 2
+		}
+	}
+	YAR_khalid_al_qamali={
+		name="Khalid al-Qamali"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/YAR/Portrait_Khalid_al-Qamali.dds"
+			}
+		}
+		navy_leader={
+			traits={ green_water_expert }
+			skill = 3
+	        attack_skill = 2
+	        defense_skill = 3
+	        coordination_skill = 3
+	        maneuvering_skill = 1
+		}
+	}
+}

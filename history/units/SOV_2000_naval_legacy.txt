@@ -1,0 +1,450 @@
+﻿
+units= {
+	####### NAVAL UNITS #######
+	##### RED NAVY #####
+	#####  #####
+	fleet = {
+		name = "5th Naval Squadron"
+		naval_base = 11837 # Taranto
+		task_force = {
+			name = "Mediterranean Squadron"
+			location = 11837 # Taranto
+			ship = { #Kiev-Class
+				name = "Leningrad" definition = carrier equipment = { carrier_1 = { amount = 1 owner = SOV version_name = "Kiev Class" } }
+			}	
+			ship = { name = "Gremyashchy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Zhguchy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Zorky" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Derzky" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Gnevny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Uporny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "K-137" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-140" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-26" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-32" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-216" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-207" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-210" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-249" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-253" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "B-248" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-260" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-227" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-229" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-404" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-401" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-402" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-405" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-470" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "K-156" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-85" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-24" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-68" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-77" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-58" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-470" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-73" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-67" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-78" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-203" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-304" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-318" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-120" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-121" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-313" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-308" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-320" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-302" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-325" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+		}
+	}
+	fleet = {
+		name = "Leningrad Naval Base"
+		naval_base = 3151 # Leningrad
+		task_force = {
+			name = "Leningrad Squadron"
+			location = 3151 # Leningrad
+			ship = { #Kiev-Class
+				name = "Kiev" definition = carrier equipment = { carrier_1 = { amount = 1 owner = SOV version_name = "Kiev Class" } }
+			}	
+			ship = { name = "Boyky" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Gordy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Besstrashnyy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Nastoychivyy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "K-395" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-339" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-408" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-411" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-418" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-423" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-434" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-236" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-415" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "B-806" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-439" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-445" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-808" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-464" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-459" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-871" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-471" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-494" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "K-429" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-201" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-458" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-452" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-479" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-503" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-508" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-209" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-525" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-206" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-148" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-173" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-132" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-119" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-410" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-442" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-456" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-266" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-186" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-150" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+		}
+	}
+		fleet = {
+		name = "Baltic Fleet"
+		naval_base = 9340 # Riga
+		task_force = {
+			name = "Baltic Squadron"
+			location = 9340 # Riga
+			ship = { #Ulyanovsk-Class
+				name = "Valery Sablin" definition = carrier equipment = { carrier_2 = { amount = 1 owner = SOV version_name = "Ulyanovsk Class" } }
+			}
+			ship = { name = "Karl Marx" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }
+			ship = { name = "Vladimir Lenin" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }
+			ship = { name = "Iosif Stalin" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Karl Liebknecht" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Mikhail Kutuzov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Aleksandr Suvorov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Dimitry Pozharsky" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }
+			ship = { name = "Vasily Chapayev" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }
+			ship = { name = "Panteleimon Ponomarenko" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }			
+			ship = { name = "Sovremenny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Otchayanny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Otlichny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Osmotritelny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Bezuprechny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Komsomolets Ukrainy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Soobrazitelny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Provorny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Odaryonny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "K-403" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-389" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-245" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-219" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-252" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-214" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-228" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-258" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-241" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-159" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "B-187" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-177" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-190" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-345" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-261" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-237" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-262" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-265" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-268" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "K-141" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-329" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-135" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-160" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-424" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-441" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-449" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-455" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-490" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-496" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-506" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-211" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-223" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-180" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-433" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-129" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-44" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-51" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-84" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+		}
+	}
+	fleet = {
+		name = "Pacific Fleet"
+		naval_base = 957 # Vladviostok
+		task_force = {
+			name = "Pacific Squadron"
+			location = 957 # Vladviostok
+			ship = { #Kuznetsov Class
+				name = "Nikolai Kuznetsov" definition = carrier equipment = { carrier_1 = { amount = 1 owner = SOV version_name = "Kuznetsov Class" } }
+			}
+			ship = { #Ulyanovsk-Class
+				name = "Tblisi" definition = carrier equipment = { carrier_2 = { amount = 1 owner = SOV version_name = "Ulyanovsk Class" } }
+			}
+			ship = { name = "Mikhail Lazarev" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }	
+			ship = { name = "Aleksandr Nevsky" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }
+			ship = { name = "Pavel Nakhimov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Fiódor Ushakov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Georgy Malenkov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Vyacheslav Molotov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Lazar Kaganovich" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Dmitri Shepilov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Nikolai Gusarov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }			
+			ship = { name = "Boyevoy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Stoyky" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Okrylyonny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Burny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Gremyashchy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Obraztsovy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Otvazhny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Steregushchy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Krasny Kavkaz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "K-444" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-446" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-451" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-436" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-430" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-239" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-276" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-534" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-336" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-42" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "B-271" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-274" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-603" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-602" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-588" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-94" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-95" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-36" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-37" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "K-64" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-114" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-117" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-407" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-145" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-149f" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-178" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-55" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-54" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-40" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-45" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-59" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-66" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-122" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-151" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-166" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-104" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-170" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+		}
+	}
+	fleet = {
+		name = "Northern Fleet"
+		naval_base = 3338 # Arkhangelsk
+		task_force = {
+			name = "Northen Squadron"
+			location = 3338 # Arkhangelsk
+			ship = { #Ulyanovsk-Class
+				name = "Minsk" definition = carrier equipment = { carrier_2 = { amount = 1 owner = SOV version_name = "Ulyanovsk Class" } }
+			}
+			ship = { name = "Nikolai Bulganin" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }	
+			ship = { name = "Nikolay Shvernik" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }
+			ship = { name = "Georgy Zhukov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Sergey Kirov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Valerian Kuybyshev" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Anastas Mikoyan" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Andrey Andreyev" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }
+			ship = { name = "Kliment Voroshilov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }
+			ship = { name = "Nikolai Patolichev" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }			
+			ship = { name = "Rastoropny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Bezboyaznenny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Gremyashchy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Bespokoyny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Nastoychivy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Reshitelny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Strogy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Smetlivy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Krasny Krym" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "K-284" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-480" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-263" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-332" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-317" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-461" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-391" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-328" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-154" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-50" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "B-133" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-135" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-139" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-116" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-130" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-85" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-59" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-156" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-164" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "K-175" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-184" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-172" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-47" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-35" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-189" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-74" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-90" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-431" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-125" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-48" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-128" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-56" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-131" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-135" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-94" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-108" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-34" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-161" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+		}
+	}
+	fleet = {
+		name = "Atlantic Fleet"
+		naval_base = 241 # Thalmannshaven
+		task_force = {
+			name = "Atlantic Squadron"
+			location = 241 # Thalmannshaven
+			ship = { 	#Ulyanovsk-Class
+				name = "Ulyanovsk" definition = carrier equipment = { carrier_2 = { amount = 1 owner = SOV version_name = "Ulyanovsk Class" } }
+			}
+			ship = { name = "Nikolai Podgorny" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }	
+			ship = { name = "Vasili Kuznetsov" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }
+			ship = { name = "Konstantin Chernenko" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Grigory Romanov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Boris Pugo" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Dimitry Yazov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Vladislav Achalov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }
+			ship = { name = "Philip Bobkov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }
+			ship = { name = "Grigory Petrovskyv" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }				
+			ship = { name = "Admiral Ushakov" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Vazhny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Vdumchivy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Vnushitelny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Vechny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Sposobny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Skory" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Ognevoy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Stroyny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "K-331" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-157" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-419" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-335" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-337" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-333" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-295" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-152" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-3" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "B-164" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-33" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-105" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-169" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-38" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-53" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-50" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-55" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-31" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "K-447" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-123" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-344" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-457" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-264" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-155" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-198" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-76" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-88" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-134" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-377" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-467" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-510" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-303" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-240" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-312" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-144" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-356" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-278" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+		}
+	}
+	fleet = {
+		name = "Black Sea Fleet"
+		naval_base = 3686 # Sevastopol
+		task_force = {
+			name = "Black Sea Squadron"
+			location = 3686 # Sevastopol
+			ship = { #Ulyanovsk-Class
+				name = "Oryol" definition = carrier equipment = { carrier_2 = { amount = 1 owner = SOV version_name = "Ulyanovsk Class" } }
+			}
+			ship = { name = "Vladimir Kryuchkov" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }	
+			ship = { name = "Valentin Pavlov" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }
+			ship = { name = "Dmitry Yazov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Mikhail Yasnov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Alexander Volkov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Zhumabay Shayakhmetov" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Kara Class" } } }
+			ship = { name = "Mikhail Vladimirsky" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }
+			ship = { name = "Slava" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }
+			ship = { name = "Leonid Korniyets" definition = light_cruiser  equipment = { light_cruiser_1 = { amount = 1 owner = SOV version_name = "Slava Class" } } }				
+			ship = { name = "Tolkovy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Tvyordy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Lovky" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Gubitelny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Nadezhny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV version_name = "Sovremenny Class" } } }
+			ship = { name = "Sderzhanny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Warszawa" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Smyshlyony" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "Slavny" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV version_name = "Kashin Class" } } }
+			ship = { name = "K-5" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-8" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-14" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-52" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-21" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-11" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-133" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-181" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "K-115" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV version_name = "Project 641" } } }
+			ship = { name = "B-98" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-101" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-103" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-109" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-107" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-112" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-205" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-143" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "B-427" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 671" } } }
+			ship = { name = "K-100" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-499" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-470" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-475" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-299" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-439" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-280" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-367" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-359" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-468" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-492" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-53" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-111" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-432" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-501" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-514" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-169" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-387" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+			ship = { name = "K-330" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "Project 675" } } }
+		}
+	}
+}

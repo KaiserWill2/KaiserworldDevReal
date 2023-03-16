@@ -1,0 +1,145 @@
+characters={
+	MAU_dev_virahsawmy={
+		name="Dev Virahsawmy"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Dev_Virahsawmy.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_cehl_meeah={
+		name="Cehl Meeah"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Cehl_Meeah.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_mario_nobin={
+		name="Mario Nobin"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Mario_Nobin.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_ameenah_gurib_fakim={
+		name="Ameenah Gurib-Fakim"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Ameenah_Gurib_Fakim.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_alen_ganoo={
+		name="Alan Ganoo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Alan_Ganoo.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_xavier_luc_duval={
+		name="Xavier-Luc Duval"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Xavier_Luc_Duval.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_anil_gayan={
+		name="Anil Gayan"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Anil_Gayan.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_roshi_bhadain={
+		name="Roshi Bhadain"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Roshi_Bhadain.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_navin_ramgoolam={
+		name="Navin Ramgoolam"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Navin_Ramgoolam.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_anerood_jugnauth={
+		name="Anerood Jugnauth"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Anerood_Jugnauth.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAU_paul_berenger={
+		name="Paul Bérenger"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAU/Portrait_MAU_Paul_Berenger.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,306 @@
+characters={
+	KUR_abdullah_Öcalan={
+		name="Abdullah Öcalan"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Abdullah_Ocalan.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_abu_musab={
+		name="Abu Musab"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Abu_Musab.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_masoud_barzani={
+		name="Masoud Barzani"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Masoud_Barzani.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_cemîl_bayik={
+		name="Cemîl Bayik"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Cemil_Bay.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_salaheddine_bahaaeddin={
+		name="Salaheddine Bahaaeddin"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Salaheddine_Bahaaeddin.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_nawshirwan_mustafa={
+		name="Nawshirwan Mustafa"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Nawshirwan_Mustafa.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_arif_bawecani={
+		name="Arif Bawecani"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Arif_Bawecani.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_bahaedin_adab={
+		name="Bahaedin Adab"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Bahaedin_Adab.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_jalal_talabani={
+		name="Jalal Talabani"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Jalal_Talabani.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_asya_abdullah={
+		name="Asya Abdullah"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Portrait_KUR_Asya_Abdullah.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_confederalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_hossein_yazdanpanah={
+		name="Hossein Yazdanpanah"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KUR/Portrait_Hossein_Yazdanpanah.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inspirational_leader }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	KUR_mazloum_abdi={
+		name="Mazloum Abdi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KUR/Portrait_Mazloum_Abdi.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	KUR_sipan_hemo={
+		name="Sipan Hemo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KUR/Portrait_Sipan_Hemo.dds"
+			}
+		}
+		corps_commander={
+			traits={ thorough_planner }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	KUR_nesrin_abdullah={
+		name="Nesrin Abdullah"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KUR/Portrait_Nesrin_Abdullah.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KUR_rojda_felat={
+		name="Rojda Felat"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KUR/Portrait_Rojda_Felat.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	KUR_abu_layla={
+		name="Abu Layla"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KUR/Portrait_Abu_Layla.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	KUR_mahmud_berxwedan={
+		name="Mahmud Berxwedan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KUR/Portrait_Mahmud_Berxwedan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	KUR_redur_xelil={
+		name="Redur Xelil"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/KUR/Portrait_Redur_Xelil.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox hill_fighter }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	KUR_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=dynastic_monarchist
+			traits={ fortification_engineer war_industrialist }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+}

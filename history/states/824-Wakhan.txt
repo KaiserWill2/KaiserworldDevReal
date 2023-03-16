@@ -1,0 +1,21 @@
+state={
+	id=824
+	name="STATE_824"
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 10781 2 }
+		victory_points = { 12653 1 }
+	}
+	provinces={
+		7519 12653 12314 10781 10826
+	}
+	manpower=4825631
+	buildings_max_level_factor=1.000
+	
+	state_category = rural
+}

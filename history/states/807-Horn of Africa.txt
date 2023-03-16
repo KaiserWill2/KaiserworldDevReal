@@ -1,0 +1,20 @@
+state={
+	id=807
+	name="STATE_807"
+	history = {
+		owner = CAF
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1966 1 }
+		victory_points = { 4909 1 }
+		victory_points = { 10891 1 }
+	}
+	provinces={
+		1966 4909 10818 10891 
+	}
+	manpower=1113300
+	buildings_max_level_factor=1.000
+	
+	state_category = pastoral
+}

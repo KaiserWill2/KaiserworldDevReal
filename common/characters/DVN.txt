@@ -1,0 +1,93 @@
+characters={
+	DVN_p_k_gurudasan={
+		name="P. K. Gurudasan"
+		portraits={
+			civilian={
+				large="gfx/leaders/DVN/Portrait_DVN_P_K_Guradasan.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DVN_kancha_ilaiah_pasti={
+		name="Kancha Ilaiah Pasti"
+		portraits={
+			civilian={
+				large="gfx/leaders/DVN/Portrait_DVN_Kancha_Ilaiah_Pasti.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DVN_srikantadatta_narasimharaja_wadiyar={
+		name="Srikantadatta Narasimharaja Wadiyar"
+		portraits={
+			civilian={
+				large="gfx/leaders/DVN/Portrait_DVN_Srikantadatta_Narasimharaja_Wadiyar.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DVN_arun_nambiar={
+		name="Arun Nambiar"
+		portraits={
+			civilian={
+				large="gfx/leaders/DVN/Portrait_DVN_Arun_Nambiar.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DVN_jayaram_jayalalithaa={
+		name="Jayaram Jayalalithaa"
+		portraits={
+			civilian={
+				large="gfx/leaders/DVN/Portrait_DVN_Jayaram_Jayalalithaa.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DVN_m_k_stalin={
+		name="M. K. Stalin"
+		portraits={
+			civilian={
+				large="gfx/leaders/DVN/Portrait_DVN_M_K_Stalin.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DVN_y_s_chowdary={
+		name="Y.S. Chowdary"
+		portraits={
+			civilian={
+				large="gfx/leaders/DVN/Portrait_DVN_Y_S_Chowdary.dds"
+			}
+		}
+		country_leader={
+			ideology=left_libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

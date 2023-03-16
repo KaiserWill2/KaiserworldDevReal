@@ -1,0 +1,145 @@
+characters={
+	LAO_choummaly_sayasone={
+		name="Choummaly Sayasone"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Choummaly_Sayasone.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_chai_vang={
+		name="Chai Vang"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Chai_Vang.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_vang_pao={
+		name="Vang Pao"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Vang_Pao.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_soulivong_savang={
+		name="Soulivong Savang"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Soulivong_Savang.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_somsavat_lengsavad={
+		name="Somsavat Lengsavad"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Somsavat_Lengsavad.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_khamphoui_sisavatdy={
+		name="Khamphoui Sisavatdy"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Khamphoui_Sisavatdy.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_kong_le={
+		name="Kong Le"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Kong_Le.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_somnuk_phongsouvanh={
+		name="Somnuk Phongsouvanh"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Somnuk_Phongsouvanh.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_sombath_somphone={
+		name="Sombath Somphone"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Sombath_Somphone.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_kham_ouane_boupha={
+		name="Kham Ouane Boupha"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Kham_Ouane_Boupha.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_bouasone_bouphavanh={
+		name="Bouasone Bouphavanh"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_LAO_Bouasone_Bouphavanh.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

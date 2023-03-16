@@ -1,0 +1,240 @@
+characters={
+	UZB_tahir_yuldashev={
+		name="Tahir Yuldashev"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Tahir_Yuldashev.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_shavkat_mirziyoyev={
+		name="Shavkat Mirziyoyev"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Shavkat_Mirziyoyev.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_shukria_raad_alimi={
+		name="Shukria Raad Alimi"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Shukria_Raad_Alimi.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_vitaly_fen={
+		name="Vitaly Fen"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Vitaly_Fen.dds"
+			}
+		}
+		country_leader={
+			ideology=national_bolshevik_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_abdulla_aripov={
+		name="Abdulla Aripov"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Abdulla_Aripov.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_bakhodir_choriev={
+		name="Bakhodir Choriev"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Bakhodir_Choriev.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_hotamjon_ketmonov={
+		name="Hotamjon Ketmonov"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Hotamjon_Ketmonov.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_narimon_umarov={
+		name="Narimon Umarov"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Narimon_Umarov.dds"
+			}
+		}
+		country_leader={
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_boriy_alikhanov={
+		name="Boriy Alikhanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Boriy_Alikhanov.dds"
+			}
+		}
+		country_leader={
+			ideology=eco_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_islam_karimov={
+		name="Islam Karimov"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Islam_Karimov.dds"
+			}
+		}
+		country_leader={
+			ideology=orthodox_leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_rafiq_nishonov={
+		name="Rafiq Nishonov"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Portrait_UZB_Rafiq_Nishonov.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_qobul_berdiyev={
+		name="Qobul Berdiyev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UZB/Portrait_Qobul_Berdiyev.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	UZB_rustam_inoyatov={
+		name="Rustam Inoyatov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UZB/Portrait_Rustam_Inoyatov.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	UZB_abdusalom_azizov={
+		name="Abdusalom Azizov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UZB/Portrait_Abdusalom_Azizov.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	UZB_bakhodir_kurbanov={
+		name="Bakhodir Kurbanov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UZB/Portrait_Bakhodir_Kurbanov.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	UZB_abdulla_xolmuhamedov={
+		name="Abdulla Xolmuhamedov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/UZB/Portrait_Abdulla_Xolmuhamedov.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

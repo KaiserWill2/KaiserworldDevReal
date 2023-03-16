@@ -1,0 +1,56 @@
+ideas = {
+
+	country = {
+	
+		lessons_of_humiliation = {
+			picture = invasion_of_china
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.02
+				neutrality_drift = 0.01
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+	}
+	
+	social_faction = {
+	
+		maoist_rebels = {
+			picture = communist_army
+			
+			allowed = {}
+			visible = {
+				OR = {
+					is_minor_chinese_state = yes
+					original_tag = CHI
+				}
+			}
+			available = { always = no }
+			cancel = {
+				OR = {
+					communism < 0.05
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.05
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+	
+	}
+	
+}

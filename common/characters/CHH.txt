@@ -1,0 +1,145 @@
+characters={
+	CHH_abdul_subhan_qureshi={
+		name="Abdul Subhan Qureshi"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Abdul_Subhan_Qureshi.dds"
+			}
+		}
+		country_leader={
+			ideology=jihadist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_ajay_chandrakar={
+		name="Ajay Chandrakar"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Ajay_Chandrakar.dds"
+			}
+		}
+		country_leader={
+			ideology=hindutva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_kamal_chandra_bhanj_deo={
+		name="Kamal Chandra Bhanj Deo"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Kamal_Chandra_Bhanj_Deo.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_nambala_keshava_rao={
+		name="Nambala Keshava Rao"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Nambala_Keshava_Rao.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist_leninist_maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_raman_singh={
+		name="Raman Singh"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Raman_Singh.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_ramesh_agrawal={
+		name="Ramesh Agrawal"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Ramesh_Agrawal.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_soni_sori={
+		name="Soni Sori"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Soni_Sori.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_ajit_jogi={
+		name="Ajit Jogi"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Ajit_Jogi.dds"
+			}
+		}
+		country_leader={
+			ideology=nehruvian_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_devwrat_singh={
+		name="Devwrat Singh"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Devwrat_Singh.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_binayak_sen={
+		name="Binayak Sen"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Binayak_Sen.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHH_mahendra_karma={
+		name="Mahendra Karma"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Portrait_CHH_Mahendra_Karma.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

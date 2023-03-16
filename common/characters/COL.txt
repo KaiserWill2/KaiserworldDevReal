@@ -1,0 +1,606 @@
+characters={
+	COL_alfonso_cano={
+		name="Alfonso Cano"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Alfonso_Cano.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_salvatore_mancuso={
+		name="Salvatore Mancuso"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Salvatore_Mancuso.dds"
+			}
+		}
+		country_leader={
+			ideology=military_dictatorship
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_Álvaro_uribe={
+		name="Álvaro Uribe"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Alvaro_Uribe.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_margarita_i={
+		name="Margarita I"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Margarita_First.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_carlos_lehder={
+		name="Carlos Lehder"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Carlos_Lehder.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_carlos_alberto_baena={
+		name="Carlos Alberto Baena"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Carlos_Alberto_Baena.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_germán_vargas_lleras={
+		name="Germán Vargas Lleras"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_German_Vargas_Lleras.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_rafael_pardo_rueda={
+		name="Rafael Pardo Rueda"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Rafael_Pardo_Rueda.dds"
+			}
+		}
+		country_leader={
+			ideology=social_liberal
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_juan_manuel_santos={
+		name="Juan Manuel Santos"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Juan_Manuel_Santos.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JUAN_MANUEL_SANTOS_DESC"
+			ideology=new_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_clara_lópez_obregón={
+		name="Clara López Obregón"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Clara_Lopez_Obregon.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_jaime_caycedo={
+		name="Jaime Caycedo"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/Portrait_COL_Jaime_Caycedo.dds"
+			}
+		}
+		country_leader={
+			ideology=orthodox_leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COL_juan_pablo_rodriguez_barragán={
+		name="Juan Pablo Rodriguez Barragán"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Juan_Rodriguez_Barragan.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inspirational_leader }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	COL_javier_alberto_flórez_aristizabal={
+		name="Javier Alberto Flórez Aristizabal"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Javier_Alberto_Florez.dds"
+			}
+		}
+		field_marshal={
+			traits={ fast_planner }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	COL_alberto_josé_mejia_ferrero={
+		name="Alberto José Mejia Ferrero"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Alberto_Meija.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	COL_juan_carlos_salazar_salazar={
+		name="Juan Carlos Salazar Salazar"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Juan_Salazar.dds"
+			}
+		}
+		field_marshal={
+			traits={ organisational_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	COL_jaime_alfonso_lasprilla_villamizar={
+		name="Jaime Alfonso Lasprilla Villamizar"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Jaime_Lasprilla.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	COL_jorge_enrique_navarrete_jadeth={
+		name="Jorge Enrique Navarrete Jadeth"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Jorge_Navarrete.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_luis_felipe_montoya_sánchez={
+		name="Luis Felipe Montoya Sánchez"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Luis_Montoya.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_jorge_humberto_jerez_cuellar={
+		name="Jorge Humberto Jerez Cuellar"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Jorge_Jerez.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_javier_enrique_rey_navas={
+		name="Javier Enrique Rey Navas"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Javier_Rey.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando hill_fighter }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_juan_pablo_forero_tascón={
+		name="Juan Pablo Forero Tascón"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Juan_Forero.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_hugo_rodriguez_durán={
+		name="Hugo Rodriguez Durán"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Hugo_Duran.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	COL_eduardo_enrique_zapateiro_altamiranda={
+		name="Eduardo Enrique Zapateiro Altamiranda"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Eduardo_Zapateiro.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_carlos_eduardo_bueno_vargas={
+		name="Carlos Eduardo Bueno Vargas"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Carlos_Bueno_Vargas.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_luis_gómez_vásquez={
+		name="Luis Gómez Vásquez"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Luis_Gomez_Vasquez.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer naval_invader }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	COL_oscar_eduardo_hernández_duràn={
+		name="Oscar Eduardo Hernández Duràn"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Oscar_Hernandez_Duran.dds"
+			}
+		}
+		corps_commander={
+			traits={ naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_Àlvaro_augusto_cubillos_gómez={
+		name="Àlvaro Augusto Cubillos Gómez"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Alvaro_Cubillos.dds"
+			}
+		}
+		corps_commander={
+			traits={ naval_invader ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_adolfo_enrique_martinez_flórez={
+		name="Adolfo Enrique Martinez Flórez"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Adolfo_Martinez_Florez.dds"
+			}
+		}
+		corps_commander={
+			traits={ swamp_fox ranger urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_leonardo_santamaria_gaitán={
+		name="Leonardo Santamaria Gaitán"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Leonardo_Gaitan.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_juan_carlos_oti_paituvi={
+		name="Juan Carlos Oti Paituvi"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Juan_Oti_Paituvi.dds"
+			}
+		}
+		navy_leader={
+			traits={ air_controller }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_ramón_costero_corona={
+		name="Ramón Costero Corona"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Ramon_Costero.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_gabriel_alfonso_pérez_garcés={
+		name="Gabriel Alfonso Pérez Garcés"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Gabriel_Perez.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_henry_john_blain_garzon={
+		name="Henry John Blain Garzon"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Henry_Blain_Garzon.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_luis_jesús_suárez_castillo={
+		name="Luis Jesús Suárez Castillo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/COL/Portrait_Luis_Jesus_Suarez_Castillo.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

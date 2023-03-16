@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SOV
+		owner = PER
 add_core_of = BAH
 		buildings = {
 			infrastructure = 6

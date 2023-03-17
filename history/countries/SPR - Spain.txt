@@ -106,7 +106,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Domingo I"
-	picture = "Portrait_SPR_Domingo_I.dds"
+	picture = "Portrait_SPR_Domingo_I.png"
 	ideology = absolute_monarchist
 }
 

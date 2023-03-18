@@ -6,7 +6,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = MIC
+		owner = USA
 		add_core_of = MIC
 		buildings = {
 			infrastructure = 3

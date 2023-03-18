@@ -5,7 +5,7 @@ state={
 		oil=125
 	}
 	history = {
-		owner = UAE
+		owner = UAR
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 7

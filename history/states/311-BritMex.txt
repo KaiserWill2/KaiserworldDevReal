@@ -7,7 +7,7 @@ state=
 	state_category = town
 	history=
 	{
-		owner = CEA
+		owner = GUY
 		add_core_of = BLZ
 		add_claim_by = GUA
 		buildings = {

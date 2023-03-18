@@ -123,7 +123,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Luiz I"
-	picture = "luiz_I.dds"
+	picture = "luiz_I.png"
 	ideology = absolute_monarchist
 }
 

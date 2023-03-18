@@ -148,71 +148,70 @@ add_opinion_modifier = {
 	modifier = rival
 }
 
-
 create_country_leader = {
-	name = "Donald Rumsfeld"
-	picture = "Portrait_USA_Donald_Rumsfeld.dds"
-	ideology = american_nationalist
-}
-
-create_country_leader = {
-	name = "David Duke"
-	picture = "Portrait_USA_David_Duke.dds"
+	name = "Russell Pearce"
+	picture = "Portrait_USA_Russell_Pearce.png"
 	ideology = fascist_ideology
 }
 
 create_country_leader = {
+	name = "Mike Pence"
+	picture = "Portrait_USA_Alex_Jones.png"
+	ideology = ultranationalist
+}
+
+create_country_leader = {
 	name = "Norton IV"
-	picture = "Portrait_USA_Norton_IV.dds"
+	picture = "Portrait_USA_Norton_IV.png"
 	ideology = absolute_monarchist
 }
 
 create_country_leader = {
-	name = "Tom Metzger"
-	picture = "Portrait_USA_Tom_Metzger.dds"
+	name = "Robert F. Kennedy Jr."
+	picture = "Portrait_USA_RFK_Jr.png"
 	ideology = national_bolshevik_ideology
 }
 
 create_country_leader = {
-	name = "Barack Obama"
-	picture = "Barack_Obama.dds"
+	name = "Benny Campbell"
+	picture = "Portrait_USA_Benny_Campbell.png"
 	ideology = american_conservative
 }
 
 create_country_leader = {
-	name = "David Nolan"
-	picture = "Portrait_USA_David_Nolan.dds"
-	ideology = right_libertarian
+	name = "Joe Lieberman"
+	picture = "Portrait_USA_Joe_Lieberman.png"
+	ideology = centrist_ideology
 }
 
 create_country_leader = {
-	name = "Mark Warner"
-	picture = "Portrait_USA_Mark_Warner.dds"
-	ideology = old_american_democrats
+	name = "Hillary Clinton"
+	picture = "Portrait_USA_Hillary_Clinton.png"
+	ideology = social_liberal
 }
 
 create_country_leader = {
-	name = "Elizabeth Warren"
-	picture = "Portrait_USA_Elizabeth_Warren.dds"
+	name = "Jesse Ventura"
+	picture = "Portrait_USA_Jesse_Ventura.png"
 	ideology = new_democrat_ideology
 }
 
 create_country_leader = {
 	name = "Bernard Sanders"
 	desc = "POLITICS_BERNIE_SANDERS_DESC"
-	picture = "Portrait_USA_Bernard_Sanders.dds"
+	picture = "Portrait_USA_Bernie_2012.png"
 	ideology = democratic_socialist
 }
 
 create_country_leader = {
-	name = "Robin Hahnel"
-	picture = "Portrait_USA_Robin_Hahnel.dds"
-	ideology = luxemburgism
+	name = "Noam Chomsky"
+	picture = "Portrait_USA_Noam_Chomsky.png"
+	ideology = revolutionary_socialist_ideology
 }
 
 create_country_leader = {
-	name = "John Bachtell"
-	picture = "Portrait_USA_John_Bachtell.dds"
+	name = "Jim Jones"
+	picture = "Portrait_USA_Jim_Jones.png"
 	ideology = communist
 }
 recruit_character = USA_andrew_poppas

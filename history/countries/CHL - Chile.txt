@@ -102,68 +102,68 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Guillermo Teillier"
-	picture = "Portrait_CHL_Guillermo_Teillier.dds"
+	picture = "Portrait_CHL_Guillermo_Teillier.png"
 	ideology = marxist
 }
 
 create_country_leader = {
 	name = "Augusto Pinochet Molina"
-	picture = "Portrait_CHL_Augusto_Pinochet_Molina.dds"
+	picture = "Portrait_CHL_Augusto_Pinochet_Molina.png"
 	ideology = fascist_ideology
 }
 
 create_country_leader = {
 	name = "Evelyn Matthei"
-	picture = "Portrait_CHL_Evelyn_Matthei.dds"
+	picture = "Portrait_CHL_Evelyn_Matthei.png"
 	ideology = nationalist_ideology
 }
 
 create_country_leader = {
 	name = "Iñaki I"
-	picture = "Portrait_CHL_Inaki_I.dds"
+	picture = "Portrait_CHL_Inaki_I.png"
 	ideology = absolute_monarchist
 }
 
 create_country_leader = {
 	name = "Pablo Rodriguez Grez"
-	picture = "Portrait_CHL_Pablo_Rodriguez_Grez.dds"
+	picture = "Portrait_CHL_Pablo_Rodriguez_Grez.png"
 	ideology = national_bolshevik_ideology
 }
 
 create_country_leader = {
 	name = "Sebastián Piñera"
-	picture = "Portrait_CHL_Sebastian_Pinera.dds"
+	picture = "Portrait_CHL_Sebastian_Pinera.png"
 	ideology = reactionary
 }
 
 create_country_leader = {
 	name = "Cristian Monckeberg"
-	picture = "Portrait_CHL_Cristian_Monckeberg.dds"
+	picture = "Portrait_CHL_Cristian_Monckeberg.png"
 	ideology = centrist_ideology
 }
 
 create_country_leader = {
 	name = "Vlado Mirosevic"
-	picture = "Portrait_CHL_Vlado_Mirosevic.dds"
+	picture = "Portrait_CHL_Vlado_Mirosevic.png"
 	ideology = social_liberal
 }
 
 create_country_leader = {
 	name = "Ricardo Lagos"
-	picture = "Portrait_CHL_Ricardo_Lagos.dds"
+	picture = "Portrait_CHL_Ricardo_Lagos.png"
 	ideology = new_democrat_ideology
 }
 
 create_country_leader = {
 	name = "Michelle Bachelet"
-	picture = "Portrait_CHL_Michelle_Bachelet.dds"
+	picture = "Portrait_CHL_Michelle_Bachelet.png"
 	ideology = progressive
 }
 
 create_country_leader = {
 	name = "Isabel Allende"
 	desc = "POLITICS_ISABEL_ALLENDE_DESC"
-	picture = "Portrait_CHL_Isabel_Allende.dds"
+	picture = "Portrait_CHL_Isabel_Allende.png"
 	ideology = revolutionary_socialist_ideology
 }
 

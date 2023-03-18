@@ -151,18 +151,18 @@ add_opinion_modifier = {
 create_country_leader = {
 	name = "Maria I"
 	desc = "POLITICS_DMITRY_YAZOV_DESC"
-	picture = "Portrait_SOV_Maria_I.dds"
+	picture = "gfx/leaders/SOV/Portrait_SOV_Maria_I.png"
 	ideology = leninist
 }
 
 create_country_leader = {
-	name = "Maria I"
+	name = "Andrey Savelyev"
 	picture = "Portrait_SOV_Andrey_Savelyev.dds"
 	ideology = fascist_ideology
 }
 
 create_country_leader = {
-	name = "Maria I"
+	name = "Vladimir Zhirinovsky"
 	picture = "Portrait_SOV_Vladimir_Zhirinovsky.dds"
 	ideology = ultranationalist
 }
@@ -175,12 +175,12 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Maria I"
-	picture = "Portrait_SOV_Maria_I.dds"
+	picture = "gfx/leaders/SOV/Portrait_SOV_Maria_I.png"
 	ideology = national_bolshevik_ideology
 }
 
 create_country_leader = {
-	name = "Maria I"
+	name = "Natalia Poklonskaya"
 	picture = "Portrait_SOV_Natalia_Poklonskaya.dds"
 	ideology = fiscal_conservative
 }
@@ -205,12 +205,12 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Maria I"
-	picture = "Portrait_SOV_Maria_I.dds"
+	picture = "gfx/leaders/SOV/Portrait_SOV_Maria_I.png"
 	ideology = progressive
 }
 
 create_country_leader = {
 	name = "Maria I"
-	picture = "Portrait_SOV_Maria_I.dds"
+	picture = "gfx/leaders/SOV/Portrait_SOV_Maria_I.png"
 	ideology = revolutionary_socialist_ideology
 }

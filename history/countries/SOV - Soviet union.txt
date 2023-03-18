@@ -169,7 +169,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Maria I"
-	picture = "Portrait_SOV_Maria_I.png"
+	picture = "gfx/leaders/SOV/Portrait_SOV_Maria_I.png"
 	ideology = absolute_monarchist
 }
 

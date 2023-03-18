@@ -150,68 +150,68 @@ add_opinion_modifier = {
 
 create_country_leader = {
 	name = "Russell Pearce"
-	picture = "Portrait_USA_Russell_Pearce.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Russell_Pearce.png"
 	ideology = fascist_ideology
 }
 
 create_country_leader = {
 	name = "Mike Pence"
-	picture = "Portrait_USA_Alex_Jones.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Alex_Jones.png"
 	ideology = ultranationalist
 }
 
 create_country_leader = {
 	name = "Norton IV"
-	picture = "Portrait_USA_Norton_IV.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Norton_IV.png"
 	ideology = absolute_monarchist
 }
 
 create_country_leader = {
 	name = "Robert F. Kennedy Jr."
-	picture = "Portrait_USA_RFK_Jr.png"
+	picture = "gfx/leaders/USA/Portrait_USA_RFK_Jr.png"
 	ideology = national_bolshevik_ideology
 }
 
 create_country_leader = {
 	name = "Benny Campbell"
-	picture = "Portrait_USA_Benny_Campbell.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Benny_Campbell.png"
 	ideology = american_conservative
 }
 
 create_country_leader = {
 	name = "Joe Lieberman"
-	picture = "Portrait_USA_Joe_Lieberman.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Joe_Lieberman.png"
 	ideology = centrist_ideology
 }
 
 create_country_leader = {
 	name = "Hillary Clinton"
-	picture = "Portrait_USA_Hillary_Clinton.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Hillary_Clinton.png"
 	ideology = social_liberal
 }
 
 create_country_leader = {
 	name = "Jesse Ventura"
-	picture = "Portrait_USA_Jesse_Ventura.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Jesse_Ventura.png"
 	ideology = new_democrat_ideology
 }
 
 create_country_leader = {
 	name = "Bernard Sanders"
 	desc = "POLITICS_BERNIE_SANDERS_DESC"
-	picture = "Portrait_USA_Bernie_2012.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Bernie_2012.png"
 	ideology = democratic_socialist
 }
 
 create_country_leader = {
 	name = "Noam Chomsky"
-	picture = "Portrait_USA_Noam_Chomsky.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Noam_Chomsky.png"
 	ideology = revolutionary_socialist_ideology
 }
 
 create_country_leader = {
 	name = "Jim Jones"
-	picture = "Portrait_USA_Jim_Jones.png"
+	picture = "gfx/leaders/USA/Portrait_USA_Jim_Jones.png"
 	ideology = communist
 }
 recruit_character = USA_andrew_poppas

@@ -23,6 +23,7 @@ state=
 			}
 		}
 		add_core_of = DOM
+		add_core_of = HAI
 		victory_points = {
 			7660 5
 		}

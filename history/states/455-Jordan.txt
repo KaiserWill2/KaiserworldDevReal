@@ -21,6 +21,7 @@ state={
 		victory_points = { 4115 1 } #Aqaba
 		victory_points = { 10089 2 }
 		add_core_of = JOR
+		add_claim_by = GRE
 	}
 
 	provinces={

@@ -14,6 +14,7 @@ state={
 	history={
 		owner = UAR 
 		add_core_of = UAR
+		add_claim_by = GRE
 		victory_points = { 4111 20 }	#Damascus
 		victory_points = { 4550 10 }		#Homs
 		victory_points = { 1074 1 }

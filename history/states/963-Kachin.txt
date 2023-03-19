@@ -14,6 +14,8 @@ state={
 
 	history={
 		owner = MYA
+		add_core_of = MYA
+		add_claim_by = CHI
 		buildings = {
 		infrastructure = 2
 		}

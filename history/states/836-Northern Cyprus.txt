@@ -17,6 +17,7 @@ state={
 		}
 		
 		add_core_of = CYP
+		add_core_of = GRE
 		
 		victory_points = { 11984 2 }
 	}

@@ -25,6 +25,7 @@ state={
 			}
 		}
 		add_core_of = ULS
+		add_core_of = IRE
 	}
 
 	provinces={

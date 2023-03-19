@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = SWI
+		add_core_of = SWI
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

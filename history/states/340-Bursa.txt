@@ -32,6 +32,7 @@ state={
 			6912 1
 		}
 		add_core_of = TUR
+		add_core_of = GRE
 	}
 
 	provinces={

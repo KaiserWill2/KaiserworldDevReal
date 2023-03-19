@@ -9,6 +9,7 @@ state={
 
 	history={
 		owner = CAF
+		add_core_of = CAF
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3

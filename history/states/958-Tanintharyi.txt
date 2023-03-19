@@ -13,6 +13,8 @@ state={
 
 	history={
 		owner = SIA
+		add_core_of = MYA
+		add_core_of = SIA
 		buildings = {
 		infrastructure = 3
 		}

@@ -19,6 +19,7 @@ state={
 			13012 = { naval_base = 1 }
 		}
 		add_core_of = TAT
+		add_core_of = GUY
 		victory_points = { 3284 1 }
 	}
 	

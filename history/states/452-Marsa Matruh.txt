@@ -18,6 +18,7 @@ state={
 		}
 
 	add_core_of = EGY
+	add_claim_by = GRE
 	add_core_of = UAR
 	}
 

@@ -5,8 +5,9 @@ state={
 		13227 13228 
 	}
 	history = {
-		owner = TON
+		owner = AST
 		add_core_of = TON
+		add_core_of = AST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = CAF
+		add_core_of = CAF
 		victory_points = { 5139 1 }
 		buildings = {
 			infrastructure = 4

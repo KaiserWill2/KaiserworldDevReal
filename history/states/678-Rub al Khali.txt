@@ -13,6 +13,7 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = SAU
+		add_core_of = UAR
 		victory_points = { 10791 1 }
 		victory_points = { 5081 1 }
 	}

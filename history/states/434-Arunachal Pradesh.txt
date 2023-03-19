@@ -17,8 +17,9 @@ state={
 			industrial_complex = 1
 
 		}
-		add_claim_by = RAJ
+		add_core_of = RAJ
 		add_claim_by = PRC
+		add_claim_by = CHI
 
 	}
 

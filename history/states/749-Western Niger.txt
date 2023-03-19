@@ -10,6 +10,7 @@ state={
 	history = {
 		owner = CAF
 		add_core_of = WAF
+		add_core_of = CAF
         add_core_of = NER
               
 		buildings = {

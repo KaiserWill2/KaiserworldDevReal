@@ -18,6 +18,7 @@ state=
 		}
 		victory_points = { 6583 2 }
 		add_core_of = LUX
+		add_core_of = GER
 	}
 
 	provinces= {

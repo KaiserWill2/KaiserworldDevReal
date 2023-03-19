@@ -5,6 +5,7 @@ state = {
 	history = {
 		owner = OMA
 		add_core_of = OMA
+		add_core_of = UAR
 		victory_points = { 13729 1 }
 		buildings = {
 			infrastructure = 4

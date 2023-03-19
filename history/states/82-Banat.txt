@@ -12,6 +12,7 @@ state={
 	history={
 		owner = TRN
 		add_core_of = TRN
+		add_core_of = HUN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

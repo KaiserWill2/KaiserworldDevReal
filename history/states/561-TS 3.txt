@@ -13,6 +13,7 @@ add_core_of = RUS
 			infrastructure = 3
 		}
 		add_core_of = SOV
+		add_claim_by = CHI
 	}
 
 	provinces={

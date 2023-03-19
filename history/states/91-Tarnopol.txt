@@ -18,6 +18,7 @@ state={
 			9468 3
 		}
 		add_core_of = UKR
+		add_core_of = AUS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3

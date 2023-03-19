@@ -10,6 +10,7 @@ state={
 	history={
 		owner = UAR
 		add_core_of = UAR
+		add_claim_by = GRE
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 7

@@ -13,6 +13,7 @@ state={
 			}
 		}
 		add_core_of = DMN
+		add_core_of = GUY
 		victory_points = { 7123 3 }
 	}
 

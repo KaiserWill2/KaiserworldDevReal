@@ -11,6 +11,7 @@ state={
 	
 	history = {
 		owner = CAF
+		add_core_of = CAF
 		
 		buildings = {
 			infrastructure = 6

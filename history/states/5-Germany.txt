@@ -36,6 +36,7 @@ state={
 			11386 1
 		}
 		add_core_of = POL
+		add_core_of = GER
 	}
 
 	provinces={

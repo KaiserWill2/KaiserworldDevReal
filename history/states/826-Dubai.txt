@@ -6,6 +6,7 @@ state={
 	}
 	history = {
 		owner = UAR
+		add_core_of = UAR
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 7

@@ -7,7 +7,9 @@ state={
 	}
 
 	history={
-		owner = CYP
+		owner = GRE
+		add_core_of = CYP
+		add_core_of = GRE
 		buildings = {
 			infrastructure = 6
 			air_base = 1

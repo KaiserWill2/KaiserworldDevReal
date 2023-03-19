@@ -11,6 +11,7 @@ state={
 		add_core_of = WAF
         add_core_of = MLI
         add_core_of = AZA
+		add_core_of = LIB
 		
 		buildings = {
 			infrastructure = 0

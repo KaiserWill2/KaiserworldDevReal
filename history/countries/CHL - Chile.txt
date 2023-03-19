@@ -126,13 +126,13 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Pablo Rodriguez Grez"
-	picture = "gfx/leaders/CHL/Portrait_CHL_Pablo_Rodriguez_Grez.png"
+	picture = "Portrait_CHL_Pablo_Rodriguez_Grez.png"
 	ideology = national_bolshevik_ideology
 }
 
 create_country_leader = {
 	name = "Sebastián Piñera"
-	picture = "gfx/leaders/CHL/Portrait_CHL_Sebastian_Pinera.png"
+	picture = "Portrait_CHL_Sebastian_Pinera.png"
 	ideology = reactionary
 }
 

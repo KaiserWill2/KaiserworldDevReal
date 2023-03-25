@@ -1,5 +1,14 @@
 ﻿l_english:
 
+ tank_manufacturer:0 "Tank Manufacturer"
+ naval_manufacturer:0 "Naval Manufacturer"
+ medium_aircraft_manufacturer:0 "Medium Aircraft Manufacturer"
+ heavy_aircraft_manufacturer:0 "Heavy Aircraft Manufacturer"
+ motorized_equipment_manufacturer:0 "Motorized Equipment Manufacturer"
+ infantry_equipment_manufacturer:0 "Infantry Equipment Manufacturer"
+ artillery_manufacturer:0 "Artillery Manufacturer"  
+ electronics_concern:0 "electronics_concern"
+
  morozov_design_bureau:0 "Morozov Design Bureau"
  leningrad_admiralty_association:0 "Leningrad Admiralty Association"
  mikoyan:0 "Mikoyan"
@@ -23,6 +32,7 @@
  bushmaster_firearms:0 "Bushmaster Firearms"
  remington_arms:0 "Remington Arms"
  union_motors:0 "Union Motors"
+ union_motors_desc:0 "Union motors provides the best tank and motorised materials to England."
  vickers_shipbulding_and_engineering:0 "Union Manufacturing"
  britten_norman:0 "Qinetiq"
  british_aerospace:0 "Lockheed Martin"

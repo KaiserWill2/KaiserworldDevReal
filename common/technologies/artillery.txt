@@ -22,7 +22,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			ship_anti_air_1
-			tank_small_cannon
+			IFV_small_cannon
 			secondary_turret_small_cannon
 		}
 
@@ -85,9 +85,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_small_cannon_2
-			tank_close_support_gun
-			secondary_turret_close_support_gun
+			IFV_small_cannon_1
 		}
 
 		path = {
@@ -135,8 +133,8 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_medium_howitzer
-			tank_medium_cannon
+			IFV_medium_howitzer
+			MBT_medium_cannon
 		}
 
 		path = {
@@ -275,7 +273,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_medium_howitzer_2
+			IFV_medium_howitzer_2
 		}
 		path = {
 			leads_to_tech = artillery4
@@ -316,7 +314,7 @@ technologies = {
 			artillery_equipment_3
 		}
 		enable_equipment_modules = {
-			tank_medium_cannon_2
+			MBT_medium_cannon_2
 		}
 
 		path = {
@@ -386,7 +384,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			auto_loader
-			tank_heavy_howitzer
+			IFV_heavy_howitzer
 		}
 
 		research_cost = 1
@@ -448,13 +446,6 @@ technologies = {
 
 		enable_equipments = {
 			rocket_artillery_equipment_1
-		}
-#		enable_subunits = {
-#			rocket_artillery_brigade
-#		}
-
-		enable_equipment_modules = {
-			tank_rocket_launcher
 		}
 
 		path = {
@@ -579,9 +570,6 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.3
 		}
-		enable_equipment_modules = {
-			tank_rocket_launcher_2
-		}
 		research_cost = 1
 
 		start_year =  2017
@@ -613,9 +601,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_anti_air_2
-			tank_auto_cannon
-			tank_anti_air_cannon
-			tank_heavy_cannon
+			IFV_auto_cannon
+			IFV_anti_air_cannon
+			MBT_heavy_cannon
 		}
 
 		enable_building = {
@@ -723,8 +711,8 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_anti_air_3
-			tank_auto_cannon_2
-			tank_anti_air_cannon_2
+			IFV_auto_cannon_2
+			IFV_anti_air_cannon_2
 		}
 
 		path = {
@@ -777,7 +765,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_heavy_cannon_2
+			MBT_heavy_cannon_2
 		}
 
 		tech_air_damage_factor = -0.02
@@ -880,8 +868,8 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_anti_air_4
-			tank_heavy_cannon_3
-			tank_anti_air_cannon_3
+			MBT_heavy_cannon_3
+			IFV_anti_air_cannon_3
 			auto_loader
 		}
 
@@ -923,8 +911,8 @@ technologies = {
 			anti_tank_equipment_1
 		}
 		enable_equipment_modules = {
-			tank_high_velocity_cannon
-			tank_heavy_cannon
+			MBT_high_velocity_cannon
+			MBT_heavy_cannon
 		}
 		path = {
 			leads_to_tech = antitank1
@@ -1022,7 +1010,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_medium_cannon
+			MBT_medium_cannon
 			squeezebore_adaptor
 		}
 		path = {
@@ -1090,8 +1078,8 @@ technologies = {
 			anti_tank_equipment_2
 		}
 		enable_equipment_modules = {
-			tank_high_velocity_cannon_2
-			tank_heavy_cannon_2
+			MBT_high_velocity_cannon_2
+			MBT_heavy_cannon_2
 		}
 		path = {
 			leads_to_tech = antitank3
@@ -1158,7 +1146,7 @@ technologies = {
 
 	antitank3 = {
 		enable_equipment_modules = {
-			tank_medium_cannon_2
+			MBT_medium_cannon_2
 		}
 		anti_tank = {
 			hard_attack = 0.1
@@ -1347,8 +1335,8 @@ technologies = {
 			anti_tank_equipment_3
 		}
 		enable_equipment_modules = {
-			tank_high_velocity_cannon_3
-			tank_heavy_cannon_3
+			MBT_high_velocity_cannon_3
+			MBT_heavy_cannon_3
 			auto_loader
 		}
 		research_cost = 1

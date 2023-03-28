@@ -17,11 +17,14 @@ technologies = {
 	gwtank_chassis = { #T-64/MBT-60/Leopard-1
 
 		enable_equipments = {
-			IFV_chassis_0
-			MBT_chassis_0
-			IFV_destroyer_chassis_0
-			IFV_artillery_chassis_0
-			IFV_aa_chassis_0
+			ifv_chassis_0
+			mbt_chassis_0
+			ifv_destroyer_chassis_0
+			mbt_destroyer_chassis_0
+			ifv_artillery_chassis_0
+			mbt_artillery_chassis_0
+			ifv_aa_chassis_0
+			mbt_aa_chassis_0
 		}
 		enable_equipment_modules = {
 			#Armour
@@ -37,15 +40,15 @@ technologies = {
 			tank_horstmann_suspension
 			tank_interleaved_suspension
 			#IFV Turrets
-			IFV_one_man_tank_turret
-			IFV_two_man_tank_turret
-			IFV_three_man_tank_turret
-			IFV_fixed_superstructure_turret
+			ifv_one_man_tank_turret
+			ifv_two_man_tank_turret
+			ifv_three_man_tank_turret
+			ifv_fixed_superstructure_turret
 			#MBT Turrets
-			MBT_one_man_tank_turret
-			MBT_two_man_tank_turret
-			MBT_three_man_tank_turret
-			MBT_fixed_superstructure_turret
+			mbt_one_man_tank_turret
+			mbt_two_man_tank_turret
+			mbt_three_man_tank_turret
+			mbt_fixed_superstructure_turret
 			#Future Tank Turret
 			future_tank_turret
 			#Extra Modules
@@ -55,12 +58,12 @@ technologies = {
 			smoke_launchers
 		}
 		enable_subunits = {
-			IFV_armor
-			MBT_armor
+			light_armor
+			medium_armor
 		}
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = IFV_armor }
-			NOT = {	has_template_containing_unit = MBT_armor }
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -84,12 +87,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = basic_IFV_chassis
+			leads_to_tech = basic_ifv_chassis
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = basic_MBT_chassis
+			leads_to_tech = basic_mbt_chassis
 			research_cost_coeff = 1
 		}
 
@@ -126,25 +129,25 @@ technologies = {
 
 		categories = {
 			armor
-			cat_IFV_armor
+			cat_light_armor
 		}
 	}
 
-	basic_IFV_chassis = { #BMP-2/Marder-1A2/Bradley-M2
+	basic_ifv_chassis = { #BMP-2/Marder-1A2/Bradley-M2
 
 		enable_equipments = {
-			IFV_tank_chassis_1
-			IFV_tank_destroyer_chassis_1
-			IFV_tank_artillery_chassis_1
-			IFV_tank_aa_chassis_1
+			light_tank_chassis_1
+			light_tank_destroyer_chassis_1
+			light_tank_artillery_chassis_1
+			light_tank_aa_chassis_1
 		}
 		enable_subunits = {
-			IFV_armor
+			light_armor
 		}
 
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = IFV_armor }
-			NOT = {	has_template_containing_unit = MBT_armor }
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -168,7 +171,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = improved_IFV_chassis
+			leads_to_tech = improved_ifv_chassis
 			research_cost_coeff = 1
 		}
 
@@ -210,21 +213,21 @@ technologies = {
 
 		categories = {
 			armor
-			cat_IFV_armor
+			cat_light_armor
 		}
 	}
 
-	improved_IFV_chassis = { #BMP3/Marder-1A5/M3-Bradley
+	improved_ifv_chassis = { #BMP3/Marder-1A5/M3-Bradley
 
 		enable_equipments = {
-			IFV_chassis_2
-			IFV_destroyer_chassis_2
-			IFV_artillery_chassis_2
-			IFV_aa_chassis_2
+			ifv_chassis_2
+			ifv_destroyer_chassis_2
+			ifv_artillery_chassis_2
+			ifv_aa_chassis_2
 		}
 
 		path = {
-			leads_to_tech = advanced_IFV_chassis
+			leads_to_tech = advanced_ifv_chassis
 			research_cost_coeff = 1
 		}
 
@@ -276,17 +279,17 @@ technologies = {
 
 		categories = {
 			armor
-			cat_IFV_armor
+			cat_light_armor
 		}
 	}
 
-	advanced_IFV_chassis = { #Kurganetz/Puma/Bradley M3 with Upgrades
+	advanced_ifv_chassis = { #Kurganetz/Puma/Bradley M3 with Upgrades
 
 		enable_equipments = {
-			IFV_chassis_3
-			IFV_destroyer_chassis_3
-			IFV_artillery_chassis_3
-			IFV_aa_chassis_3
+			ifv_chassis_3
+			ifv_destroyer_chassis_3
+			ifv_artillery_chassis_3
+			ifv_aa_chassis_3
 		}
 
 		research_cost = 2
@@ -322,7 +325,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_IFV_armor
+			cat_light_armor
 		}
 	}
 
@@ -394,10 +397,10 @@ technologies = {
 		}
 
 		enable_equipments = {
-			IFV_amphibious_chassis_0
-			IFV_amphibious_chassis_1
-			IFV_amphibious_chassis_2
-			IFV_amphibious_chassis_3
+			ifv_amphibious_chassis_0
+			ifv_amphibious_chassis_1
+			ifv_amphibious_chassis_2
+			ifv_amphibious_chassis_3
 		}
 
 		research_cost = 2
@@ -438,22 +441,22 @@ technologies = {
 		}
 	}
 
-	basic_MBT_chassis = { #T-72/Leopard 1A5/M1A1 Abrams
+	basic_mbt_chassis = { #T-72/Leopard 1A5/M1A1 Abrams
 
 		enable_equipments = {
-			MBT_tank_chassis_1
-			MBT_tank_destroyer_chassis_1
-			MBT_tank_artillery_chassis_1
-			MBT_tank_aa_chassis_1
+			mbt_tank_chassis_1
+			mbt_tank_destroyer_chassis_1
+			mbt_tank_artillery_chassis_1
+			mbt_tank_aa_chassis_1
 		}
 
 		enable_subunits = {
-			MBT_armor
+			medium_armor
 		}
 
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = IFV_armor }
-			NOT = {	has_template_containing_unit = MBT_armor }
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -477,7 +480,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = improved_MBT_chassis
+			leads_to_tech = improved_mbt_chassis
 			research_cost_coeff = 1
 		}
 
@@ -524,23 +527,23 @@ technologies = {
 
 		categories = {
 			armor
-			cat_MBT_armor
+			cat_medium_armor
 		}
 	}
 
 
 
-	improved_MBT_chassis = { #T-80/Leopard 2A1/M1A2 Abrams
+	improved_mbt_chassis = { #T-80/Leopard 2A1/M1A2 Abrams
 
 		enable_equipments = {
-			MBT_tank_chassis_2
-			MBT_tank_destroyer_chassis_2
-			MBT_tank_artillery_chassis_2
-			MBT_tank_aa_chassis_2
+			mbt_tank_chassis_2
+			mbt_tank_destroyer_chassis_2
+			mbt_tank_artillery_chassis_2
+			mbt_tank_aa_chassis_2
 		}
 
 		path = {
-			leads_to_tech = advanced_MBT_chassis
+			leads_to_tech = advanced_mbt_chassis
 			research_cost_coeff = 1
 		}
 
@@ -595,17 +598,17 @@ technologies = {
 
 		categories = {
 			armor
-			cat_MBT_armor
+			cat_medium_armor
 		}
 	}
 
-	advanced_MBT_chassis = { #T-95/Leopard 2A4/M1A3 Abrams
+	advanced_mbt_chassis = { #T-95/Leopard 2A4/M1A3 Abrams
 
 		enable_equipments = {
-			MBT_tank_chassis_3
-			MBT_tank_destroyer_chassis_3
-			MBT_tank_artillery_chassis_3
-			MBT_tank_aa_chassis_3
+			mbt_tank_chassis_3
+			mbt_tank_destroyer_chassis_3
+			mbt_tank_artillery_chassis_3
+			mbt_tank_aa_chassis_3
 		}
 
 		path = {
@@ -642,7 +645,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_MBT_armor
+			cat_medium_armor
 		}
 	}
 
@@ -655,7 +658,7 @@ technologies = {
 			future_tank_aa_chassis_1
 		}
 		enable_subunits = {
-			future_armor
+			modern_armor
 		}
 
 		research_cost = 2.5
@@ -687,7 +690,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_MBT_armor
+			cat_medium_armor
 		}
 	}
 

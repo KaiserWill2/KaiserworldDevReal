@@ -147,6 +147,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			dozer_blade
+			flamethrower
 		}
 
 		enable_subunits = {
@@ -335,7 +336,7 @@ technologies = {
 			recon
 			mot_recon
 			armored_car_recon
-			IFV_recon
+			light_tank_recon
 		}
 		
 		path = {

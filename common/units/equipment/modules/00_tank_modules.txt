@@ -134,9 +134,9 @@ equipment_modules = {
 		multiply_stats = {
 		}
 	}
-	ifv_wheeled_suspension = {
+	IFV_wheeled_suspension = {
 		abbreviation = "whe"
-		category = ifv_non_tracked_suspension_type
+		category = IFV_non_tracked_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
 			reliability = -0.2
@@ -148,9 +148,9 @@ equipment_modules = {
 	}
 	###Turret Types - light
 	### turrets are split by chassis to make it easier to control which guns they can mount
-	ifv_one_man_tank_turret = {
+	IFV_one_man_tank_turret = {
 		abbreviation = "l1m"
-		category = ifv_turret_type
+		category = IFV_turret_type
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 0.5
@@ -160,9 +160,9 @@ equipment_modules = {
 		multiply_stats = {
 		}
 	}
-	ifv_two_man_tank_turret = {
+	IFV_two_man_tank_turret = {
 		abbreviation = "l2m"
-		category = ifv_turret_type
+		category = IFV_turret_type
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 0.75
@@ -172,9 +172,9 @@ equipment_modules = {
 		multiply_stats = {
 		}
 	}
-	ifv_three_man_tank_turret = {
+	IFV_three_man_tank_turret = {
 		abbreviation = "l3m"
-		category = ifv_turret_type
+		category = IFV_turret_type
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 1
@@ -185,19 +185,19 @@ equipment_modules = {
 		multiply_stats = {
 		}
 	}
-	ifv_fixed_superstructure_turret = {
+	IFV_fixed_superstructure_turret = {
 		abbreviation = "lfs"
-		category = ifv_turret_type
+		category = IFV_turret_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
 		allowed_module_categories = {
 			main_armament_slot = {
-				mbt_medium_main_armament
+				MBT_medium_main_armament
 			}
 		}
 		forbid_equipment_type_exact_match_for_category = {
-			mbt_medium_main_armament = armor
-			mbt_heavy_main_armament = armor
+			MBT_medium_main_armament = armor
+			MBT_heavy_main_armament = armor
 		}
 		xp_cost = 2
 		add_stats = {
@@ -209,13 +209,13 @@ equipment_modules = {
 			breakthrough = -0.25
 		}
 	}
-	mbt_one_man_tank_turret = {
+	MBT_one_man_tank_turret = {
 		abbreviation = "m1m"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
 		allowed_module_categories = {
 			main_armament_slot = {
-				mbt_medium_main_armament
+				MBT_medium_main_armament
 			}
 		}
 		add_stats = {
@@ -228,14 +228,14 @@ equipment_modules = {
 			soft_attack = -0.25
 		}
 	}
-	mbt_two_man_tank_turret = {
+	MBT_two_man_tank_turret = {
 		abbreviation = "m2m"
-		category = mbt_turret_type
+		category = MBT_turret_type
 		sfx = sfx_ui_sd_module_turret
 		allowed_module_categories = {
 			main_armament_slot = {
-				mbt_medium_main_armament
-				mbt_heavy_main_armament
+				MBT_medium_main_armament
+				MBT_heavy_main_armament
 			}
 		}
 		add_stats = {
@@ -246,14 +246,14 @@ equipment_modules = {
 		multiply_stats = {
 		}
 	}
-	mbt_three_man_tank_turret = {
+	MBT_three_man_tank_turret = {
 		abbreviation = "m3m"
-		category = mbt_turret_type
+		category = MBT_turret_type
 		sfx = sfx_ui_sd_module_turret
 		allowed_module_categories = {
 			main_armament_slot = {
-				mbt_medium_main_armament
-				mbt_heavy_main_armament
+				MBT_medium_main_armament
+				MBT_heavy_main_armament
 			}
 		}
 		add_stats = {
@@ -265,16 +265,16 @@ equipment_modules = {
 		multiply_stats = {
 		}
 	}
-	mbt_fixed_superstructure_turret = {
+	MBT_fixed_superstructure_turret = {
 		abbreviation = "mfs"
-		category = mbt_turret_type
+		category = MBT_turret_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = anti_air
 		allowed_module_categories = {
 			main_armament_slot = {
-				mbt_medium_main_armament
-				mbt_heavy_main_armament
-				mbt_super_heavy_main_armament
+				MBT_medium_main_armament
+				MBT_heavy_main_armament
+				MBT_super_heavy_main_armament
 			}
 		}
 		xp_cost = 2
@@ -289,13 +289,13 @@ equipment_modules = {
 		}
 	}
 	future_tank_turret = {
-		abbreviation = "mbt"
+		abbreviation = "MBT"
 		category = future_turret_type
 		sfx = sfx_ui_sd_module_turret
 		allowed_module_categories = {
 			main_armament_slot = {
-				mbt_medium_main_armament
-				mbt_heavy_main_armament
+				MBT_medium_main_armament
+				MBT_heavy_main_armament
 			}
 		}
 		add_stats = {
@@ -307,9 +307,9 @@ equipment_modules = {
 		}
 	}
 	###Weapons
-	ifv_auto_cannon = {
+	IFV_auto_cannon = {
 		abbreviation = "ac1"
-		category = ifv_small_main_armament
+		category = IFV_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			soft_attack = 15
@@ -321,15 +321,15 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = ifv_small_main_armament
+			module_category = IFV_small_main_armament
 			convert_cost_ic = 3
 		}
 	}
-	ifv_auto_cannon_2 = {
+	IFV_auto_cannon_2 = {
 		abbreviation = "ac2"
-		category = ifv_small_main_armament
+		category = IFV_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-		parent = ifv_auto_cannon
+		parent = IFV_auto_cannon
 		add_stats = {
 			soft_attack = 20
 			hard_attack = 7
@@ -340,13 +340,13 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = ifv_small_main_armament
+			module_category = IFV_small_main_armament
 			convert_cost_ic = 3.5
 		}
 	}
-	ifv_anti_air_cannon = {
+	IFV_anti_air_cannon = {
 		abbreviation = "aa1"
-		category = ifv_small_main_armament
+		category = IFV_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type_exact_match = armor
@@ -360,17 +360,17 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = ifv_small_main_armament
+			module_category = IFV_small_main_armament
 			convert_cost_ic = 4
 		}
 	}
-	ifv_anti_air_cannon_2 = {
+	IFV_anti_air_cannon_2 = {
 		abbreviation = "aa2"
-		category = ifv_small_main_armament
+		category = IFV_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type_exact_match = armor
-		parent = ifv_anti_air_cannon
+		parent = IFV_anti_air_cannon
 		add_stats = {
 			soft_attack = 8
 			hard_attack = 5
@@ -381,7 +381,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = ifv_small_main_armament
+			module_category = IFV_small_main_armament
 			convert_cost_ic = 5
 		}
 		build_cost_resources = {
@@ -389,13 +389,13 @@ equipment_modules = {
 			tungsten = 1
 		}
 	}
-	ifv_anti_air_cannon_3 = {
+	IFV_anti_air_cannon_3 = {
 		abbreviation = "aa3"
-		category = ifv_medium_main_armament
+		category = IFV_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type_exact_match = armor
-		parent = ifv_anti_air_cannon_2
+		parent = IFV_anti_air_cannon_2
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 5
@@ -406,7 +406,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = ifv_small_main_armament
+			module_category = IFV_small_main_armament
 			convert_cost_ic = 6
 		}
 		build_cost_resources = {
@@ -414,9 +414,9 @@ equipment_modules = {
 			tungsten = 1
 		}
 	}
-	ifv_small_cannon = {
+	IFV_small_cannon = {
 		abbreviation = "sc"
-		category = ifv_small_main_armament
+		category = IFV_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			soft_attack = 10
@@ -428,15 +428,15 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = ifv_small_main_armament
+			module_category = IFV_small_main_armament
 			convert_cost_ic = 4
 		}
 	}
-	ifv_small_cannon_1 = {
+	IFV_small_cannon_1 = {
 		abbreviation = "sc1"
-		category = ifv_small_main_armament
+		category = IFV_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-		parent = ifv_small_cannon
+		parent = IFV_small_cannon
 		add_stats = {
 			soft_attack = 15
 			hard_attack = 15
@@ -447,13 +447,13 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = ifv_small_main_armament
+			module_category = IFV_small_main_armament
 			convert_cost_ic = 5
 		}
 	}
-	mbt_medium_cannon = {
+	MBT_medium_cannon = {
 		abbreviation = "mc1"
-		category = mbt_medium_main_armament
+		category = MBT_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -467,7 +467,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = mbt_medium_main_armament
+			module_category = MBT_medium_main_armament
 			convert_cost_ic = 5
 		}
 		build_cost_resources = {
@@ -475,12 +475,12 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	mbt_medium_cannon_2 = {
+	MBT_medium_cannon_2 = {
 		abbreviation = "mc2"
-		category = mbt_medium_main_armament
+		category = MBT_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
-		parent = mbt_medium_cannon
+		parent = MBT_medium_cannon
 		add_stats = {
 			soft_attack = 32
 			hard_attack = 20
@@ -492,7 +492,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = mbt_medium_main_armament
+			module_category = MBT_medium_main_armament
 			convert_cost_ic = 6
 		}
 		build_cost_resources = {
@@ -501,9 +501,9 @@ equipment_modules = {
 			chromium = 1
 		}
 	}
-	ifv_medium_howitzer = {
+	IFV_medium_howitzer = {
 		abbreviation = "mh1"
-		category = ifv_medium_main_armament
+		category = IFV_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
@@ -517,7 +517,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = ifv_medium_main_armament
+			module_category = IFV_medium_main_armament
 			convert_cost_ic = 6
 		}
 		build_cost_resources = {
@@ -525,12 +525,12 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	ifv_medium_howitzer_2 = {
+	IFV_medium_howitzer_2 = {
 		abbreviation = "mh2"
-		category = ifv_medium_main_armament
+		category = IFV_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
-		parent = ifv_medium_howitzer
+		parent = IFV_medium_howitzer
 		add_stats = {
 			soft_attack = 45
 			hard_attack = 2
@@ -552,9 +552,9 @@ equipment_modules = {
 		}
 	}
 
-	mbt_high_velocity_cannon = {
+	MBT_high_velocity_cannon = {
 		abbreviation = "hv1"
-		category = mbt_small_main_armament
+		category = MBT_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -567,7 +567,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = mbt_small_main_armament
+			module_category = MBT_small_main_armament
 			convert_cost_ic = 4
 		}
 		build_cost_resources = {
@@ -575,9 +575,9 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	mbt_high_velocity_cannon_2 = {
+	MBT_high_velocity_cannon_2 = {
 		abbreviation = "hv2"
-		category = mbt_medium_main_armament
+		category = MBT_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -590,7 +590,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = mbt_medium_main_armament
+			module_category = MBT_medium_main_armament
 			convert_cost_ic = 7
 		}
 		build_cost_resources = {
@@ -599,9 +599,9 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	mbt_high_velocity_cannon_3 = {
+	MBT_high_velocity_cannon_3 = {
 		abbreviation = "hv3"
-		category = mbt_heavy_main_armament
+		category = MBT_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -614,7 +614,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = mbt_heavy_main_armament
+			module_category = MBT_heavy_main_armament
 			convert_cost_ic = 9
 		}
 		build_cost_resources = {
@@ -623,9 +623,9 @@ equipment_modules = {
 			steel = 3
 		}
 	}
-	mbt_heavy_cannon = {
+	MBT_heavy_cannon = {
 		abbreviation = "hc1"
-		category = mbt_heavy_main_armament
+		category = MBT_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -639,7 +639,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = mbt_heavy_main_armament
+			module_category = MBT_heavy_main_armament
 			convert_cost_ic = 7.5
 		}
 		build_cost_resources = {
@@ -648,12 +648,12 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	mbt_heavy_cannon_2 = {
+	MBT_heavy_cannon_2 = {
 		abbreviation = "hc2"
-		category = mbt_heavy_main_armament
+		category = MBT_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
-		parent = mbt_heavy_cannon
+		parent = MBT_heavy_cannon
 		add_stats = {
 			soft_attack = 32
 			hard_attack = 32
@@ -665,7 +665,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = mbt_heavy_main_armament
+			module_category = MBT_heavy_main_armament
 			convert_cost_ic = 9
 		}
 		build_cost_resources = {
@@ -674,12 +674,12 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	mbt_heavy_cannon_3 = {
+	MBT_heavy_cannon_3 = {
 		abbreviation = "hc3"
-		category = mbt_heavy_main_armament
+		category = MBT_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
-		parent = mbt_heavy_cannon_2
+		parent = MBT_heavy_cannon_2
 		add_stats = {
 			soft_attack = 35
 			hard_attack = 40
@@ -691,7 +691,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = mbt_heavy_main_armament
+			module_category = MBT_heavy_main_armament
 			convert_cost_ic = 11
 		}
 		build_cost_resources = {
@@ -700,9 +700,9 @@ equipment_modules = {
 			steel = 3
 		}
 	}
-	ifv_heavy_howitzer = {
+	IFV_heavy_howitzer = {
 		abbreviation = "hh1"
-		category = ifv_heavy_main_armament
+		category = IFV_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
@@ -716,7 +716,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		can_convert_from = {
-			module_category = ifv_medium_main_armament
+			module_category = IFV_medium_main_armament
 			convert_cost_ic = 8
 		}
 		build_cost_resources = {
@@ -725,9 +725,9 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	mbt_super_heavy_cannon = {
+	MBT_super_heavy_cannon = {
 		abbreviation = "sh1"
-		category = mbt_super_heavy_main_armament
+		category = MBT_super_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {

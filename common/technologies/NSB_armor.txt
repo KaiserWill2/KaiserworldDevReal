@@ -17,29 +17,23 @@ technologies = {
 	gwtank_chassis = { #Leichttraktor
 
 		enable_equipments = {
-			light_tank_chassis_0
 			medium_tank_chassis_0
-			heavy_tank_chassis_0
-			light_tank_destroyer_chassis_0
 			medium_tank_destroyer_chassis_0
-			heavy_tank_destroyer_chassis_0
-			light_tank_artillery_chassis_0
 			medium_tank_artillery_chassis_0
-			heavy_tank_artillery_chassis_0
-			light_tank_aa_chassis_0
 			medium_tank_aa_chassis_0
-			heavy_tank_aa_chassis_0
 		}
 		enable_equipment_modules = {
+			#Armour
+			tank_cast_armor
+			#Suspension
 			tank_torsion_bar_suspension
-			tank_riveted_armor
+			tank_horstmann_suspension
+			tank_interleaved_suspension
+			#Engine
 			tank_gasoline_engine
 			tank_diesel_engine
 			tank_petrol_electric_engine
-			tank_cast_armor
-			tank_christie_suspension
-			tank_bogie_suspension
-			tank_interleaved_suspension
+			#Turret
 			tank_light_one_man_tank_turret
 			tank_light_two_man_tank_turret
 			tank_light_three_man_tank_turret
@@ -51,9 +45,8 @@ technologies = {
 			tank_heavy_two_man_tank_turret
 			tank_heavy_three_man_tank_turret
 			tank_heavy_fixed_superstructure_turret
-			tank_super_heavy_four_man_tank_turret
-			tank_super_heavy_three_man_tank_turret
 			tank_modern_tank_turret
+			#Additional
 			sloped_armor
 			extra_ammo_storage
 			wet_ammo_storage
@@ -713,7 +706,7 @@ technologies = {
 
 	armor_tech_1 = {
 		enable_equipment_modules = {
-			tank_welded_armor
+			tank_lm_composite_armor
 		}
 
 		path = {
@@ -823,6 +816,9 @@ technologies = {
 
 	armor_tech_3 = {
 
+		enable_equipment_modules = {
+			tank_composite_armor
+		}
 
 		path = {
 			leads_to_tech = armor_tech_4

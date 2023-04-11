@@ -1,0 +1,1343 @@
+focus_tree = {
+	id = sco_German_Britain
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = SCO
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 5550 }
+
+
+
+
+    focus = {
+        id = sco_Secure_The_Isle
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+
+		x = 7
+		y = 0
+
+        completion_reward = { political_power = 100 }
+  
+        ai_will_do = {
+            factor = 1
+        }
+
+    }
+
+
+	focus = {
+        id = sco_Suppress_The_Totalists
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 4
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Secure_The_Isle }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Expand_The_Empire
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 4
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Suppress_The_Totalists }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Strengthen_The_Military
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 5
+		y = 3
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Expand_The_Empire }
+		prerequisite = { focus = sco_Invest_In_The_Economy }
+		prerequisite = { focus = sco_Promote_German_Culture }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Establish_German_Dominion
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 7
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Secure_The_Isle }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Invest_In_The_Economy
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 7
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Establish_German_Dominion }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Consolidate_The_Isles
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 10
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Secure_The_Isle }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Promote_German_Culture
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 10
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Consolidate_The_Isles }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Crush_The_Rebels
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 9
+		y = 3
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Promote_German_Culture }
+		prerequisite = { focus = sco_Invest_In_The_Economy }
+		prerequisite = { focus = sco_Expand_The_Empire }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Create_A_German_Royal_House
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 7
+		y = 4
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Crush_The_Rebels }
+		prerequisite = { focus = sco_Strengthen_The_Military }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Claim_The_Throne_Of_Britain
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 7
+		y = 5
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Create_A_German_Royal_House }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Claim_The_Throne_Of_Britain
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 7
+		y = 5
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Create_A_German_Royal_House }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Establish_A_Royal_Court
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 4
+		y = 6
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Claim_The_Throne_Of_Britain }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Marriage_Alliance
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 5
+		y = 7
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Establish_A_Royal_Court }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Secure_The_Support_Of_The_Nobility
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 7
+		y = 6
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Claim_The_Throne_Of_Britain }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Win_Over_The_People
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 10
+		y = 6
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Claim_The_Throne_Of_Britain }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Establish_A_New_Parliament
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 9
+		y = 7
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Win_Over_The_People }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Coronation_Ceremony
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 7
+		y = 8
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Establish_A_New_Parliament }
+        prerequisite = { focus = sco_Marriage_Alliance }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Establish_A_Royal_Army
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 5
+		y = 9
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Coronation_Ceremony }
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Expand_The_Royal_Navy
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 7
+		y = 9
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Coronation_Ceremony }
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	
+	focus = {
+        id = sco_Create_A_Royal_Airforce
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 9
+		y = 9
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Coronation_Ceremony }
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Colonial_Expansion
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 3
+		y = 10
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Create_A_Royal_Airforce }
+        prerequisite = { focus = sco_Establish_A_Royal_Army }
+        prerequisite = { focus = sco_Expand_The_Royal_Navy }
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Establishing_Overseas_Territories
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 2
+		y = 11
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Colonial_Expansion }
+   
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Encouraging_Immigration
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 1
+		y = 12
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Establishing_Overseas_Territories }
+   
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	
+	focus = {
+        id = sco_Expanding_German_Influence
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 4
+		y = 11
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Colonial_Expansion }
+   
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Developing_New_Agricultural_Land
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 5
+		y = 12
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Establishing_Overseas_Territories }
+        prerequisite = { focus = sco_Expanding_German_Influence }
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+	focus = {
+        id = sco_EEstablishing_New_Industries
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 3
+		y = 12
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Establishing_Overseas_Territories }
+   
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Establish_A_New_Commonwealth
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 11
+		y = 10
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Create_A_Royal_Airforce }
+        prerequisite = { focus = sco_Establish_A_Royal_Army }
+        prerequisite = { focus = sco_Expand_The_Royal_Navy }
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Establishing_The_New_Commonwealth
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 11
+		y = 11
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Establish_A_New_Commonwealth }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Building_A_Global_Trading_Network
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 10
+		y = 12
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Establishing_The_New_Commonwealth }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Protecting_The_New_Commonwealth
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 12
+		y = 12
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Establishing_The_New_Commonwealth }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+    focus = {
+        id = sco_Underground_Resistance
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+
+		x = 23
+		y = 0
+
+        completion_reward = { political_power = 100 }
+  
+        ai_will_do = {
+            factor = 1
+        }
+
+    }
+
+
+	focus = {
+        id = sco_Sabotage_And_Disruption
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 20
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Underground_Resistance }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Coordinating_With_Allies
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 21
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Sabotage_And_Disruption }
+		prerequisite = { focus = sco_Recruitment_And_Training }
+        prerequisite = { focus = sco_Establishing_Safe_Havens }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Propaganda_War
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 25
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Sabotage_And_Disruption }
+		prerequisite = { focus = sco_Recruitment_And_Training }
+        prerequisite = { focus = sco_Establishing_Safe_Havens }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Unity_Talks
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 23
+		y = 3
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Propaganda_War }
+        prerequisite = { focus = sco_Coordinating_With_Allies }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Smuggle_Weapons_And_Supplies
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 21
+		y = 4
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Unity_Talks }
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Assassination_And_Kidnapping
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 25
+		y = 4
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Unity_Talks }
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Spark_An_Uprising
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 23
+		y = 5
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Assassination_And_Kidnapping }
+        prerequisite = { focus = sco_Smuggle_Weapons_And_Supplies }
+
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Recruitment_And_Training
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 23
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Underground_Resistance }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Establishing_Safe_Havens
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 26
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Underground_Resistance }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+	focus = {
+        id = sco_Reunite_The_Country
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 23
+		y = 7
+        ai_will_do = {
+            factor = 1
+        }
+
+			available = { has_completed_focus = sco_Spark_An_Uprising }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Consolidate_Power
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 20
+		y = 8
+        ai_will_do = {
+            factor = 1
+        }
+
+		prerequisite = { focus = sco_Reunite_The_Country }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Draft_A_Constitution
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 23
+		y = 8
+        ai_will_do = {
+            factor = 1
+        }
+
+		prerequisite = { focus = sco_Reunite_The_Country }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Pursue_Justice
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 26
+		y = 8
+        ai_will_do = {
+            factor = 1
+        }
+
+		prerequisite = { focus = sco_Reunite_The_Country }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_National_Unity_Conference
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 23
+		y = 9
+        ai_will_do = {
+            factor = 1
+        }
+
+		prerequisite = { focus = sco_Pursue_Justice }
+		prerequisite = { focus = sco_Consolidate_Power }
+		prerequisite = { focus = sco_Draft_A_Constitution }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	
+	focus = {
+        id = sco_Building_Trust
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 20
+		y = 10
+        ai_will_do = {
+            factor = 1
+        }
+
+		prerequisite = { focus = sco_National_Unity_Conference }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_National_Reconcillation_Program
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 21
+		y = 11
+        ai_will_do = {
+            factor = 1
+        }
+
+		prerequisite = { focus = sco_Building_Trust }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+	focus = {
+        id = sco_Constitutional_Convention
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 26
+		y = 10
+        ai_will_do = {
+            factor = 1
+        }
+
+		prerequisite = { focus = sco_National_Unity_Conference }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+	focus = {
+        id = sco_National_Unity_Cabinet
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 25
+		y = 11
+        ai_will_do = {
+            factor = 1
+        }
+
+		prerequisite = { focus = sco_Constitutional_Convention }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	
+	focus = {
+        id = sco_Interim_Government
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 23
+		y = 12
+        ai_will_do = {
+            factor = 1
+        }
+
+		prerequisite = { focus = sco_National_Unity_Cabinet }
+		prerequisite = { focus = sco_National_Reconcillation_Program }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Internal_Struggles
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 18
+		y = 13
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Interim_Government }
+		mutually_exclusive = { focus = sco_Building_United_Front }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Economic_Collapse
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 16
+		y = 14
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Internal_Struggles }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Factionalism
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 20
+		y = 14
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Internal_Struggles }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Civil_War
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 18
+		y = 15
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Economic_Collapse }
+		prerequisite = { focus = sco_Factionalism }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Building_United_Front
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 28
+		y = 13
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Interim_Government }
+		mutually_exclusive = { focus = sco_Internal_Struggles }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Compromise_And_Cooperation
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 25
+		y = 14
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Building_United_Front }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Negotiate_Power_Sharing
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 25
+		y = 15
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Compromise_And_Cooperation }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Strengthening_The_Coalition
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 24
+		y = 16
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Negotiate_Power_Sharing }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Building_A_Shared_Identity
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 26
+		y = 16
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Negotiate_Power_Sharing }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Constitutional_Reform
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 25
+		y = 17
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Building_A_Shared_Identity }
+		prerequisite = { focus = sco_Strengthening_The_Coalition }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Infrastructure_Development
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 28
+		y = 14
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Building_United_Front }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	
+	focus = {
+        id = sco_Rebuild_Infrastructure
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 28
+		y = 15
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Infrastructure_Development }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+		
+	focus = {
+        id = sco_Economic_Recovery
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 28
+		y = 16
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Rebuild_Infrastructure }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+		
+	focus = {
+        id = sco_Providing_For_The_Displaced
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 28
+		y = 17
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Economic_Recovery }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Rebuilding_The_Military
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 30
+		y = 14
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Building_United_Front }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_Establish_A_National_Army
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 31
+		y = 15
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Rebuilding_The_Military }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+	focus = {
+        id = sco_Establishing_A_New_National_Defense
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 31
+		y = 16
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Establish_A_National_Army }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_International_Engagement
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 31
+		y = 17
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Establishing_A_New_National_Defense }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+	focus = {
+        id = sco_A_New_Britain
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+      
+		x = 28
+		y = 18
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_International_Engagement }
+		prerequisite = { focus = sco_Providing_For_The_Displaced }
+		prerequisite = { focus = sco_Constitutional_Reform }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

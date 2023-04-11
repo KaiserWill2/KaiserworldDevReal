@@ -1,0 +1,1342 @@
+focus_tree = {
+	id = sco_scotland_tree_elections
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = SCO
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1550 }
+
+
+
+    # Fascist party focus tree
+    focus = {
+        id = sco_fascist_focus
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+
+		x = 7
+		y = 0
+        prerequisite = { 
+        has_government = fascist
+        }
+        completion_reward = { political_power = 100 }
+  
+        ai_will_do = {
+            factor = 1
+        }
+        # Fascist party focuses go here
+    }
+
+
+
+    focus = {
+        id = sco_Rally_the_fascists
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 4
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_fascist_focus }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_anti_totalist_crusade
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 3
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Rally_the_fascists }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_purge_the_traitors
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 5
+		y = 3
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_anti_totalist_crusade }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+    focus = {
+        id = sco_The_Iron_Fist
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 7
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_fascist_focus }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_Corporate_Dominance
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 7
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_The_Iron_Fist }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_Youth_indoctrination
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 7
+		y = 3
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_The_Iron_Fist }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+    focus = {
+        id = sco_military_buildup
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 10
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_fascist_focus }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_National_Renewal
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 11
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_military_buildup }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+    focus = {
+        id = sco_Cult_Of_Personality
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 9
+		y = 3
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_National_Renewal }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_Expansionist_Agenda
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+		x = 7
+		y = 4
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Cult_Of_Personality }
+        prerequisite = { focus = sco_Youth_indoctrination }
+        prerequisite = { focus = sco_purge_the_traitors }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+
+
+
+
+
+
+    # Nationalist party focus tree
+    focus = {
+        id = sco_nationalist_focus
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 18
+		y = 0
+        prerequisite = { 
+            has_government = nationalist
+            }
+   
+        completion_reward = { political_power = 100 }
+       
+        ai_will_do = {
+            factor = 1
+        }
+        # Nationalist party focuses go here
+    }
+
+    focus = {
+        id = sco_National_Identity
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 15
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_nationalist_focus }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_Scottish_Language
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 17
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_National_Identity }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_Scottish_Infrastructure
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 17
+		y = 3
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Scottish_Language }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+    focus = {
+        id = sco_Protectionism
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 21
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_nationalist_focus }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_Military_Expansion
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 19
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Protectionism }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+	 
+
+    focus = {
+        id = sco_Rural_Development
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 19
+		y = 3
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Military_Expansion }
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_Cultural_Exchange
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 18
+		y = 4
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Rural_Development }
+        prerequisite = { focus = sco_Scottish_Infrastructure }
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+    
+
+    focus = {
+        id = sco_Resistance_Against_England
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 16
+		y = 5
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Cultural_Exchange }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+    focus = {
+        id = sco_Propaganda
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 18
+		y = 5
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Cultural_Exchange }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+    focus = {
+        id = sco_Military_Preparedness
+        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        cost = 10
+        available = { fascist = true }
+        x = 20
+		y = 5
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Cultural_Exchange }
+
+
+        completion_reward = { political_power = 100 }
+     
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # Conservative party focus tree
+    focus = {
+        id = sco_conservative_focus
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 28
+		y = 0
+
+        prerequisite = { 
+            has_government = national_conservative
+            }
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+        # Conservative party focuses go here
+    }
+
+    
+  
+    focus = {
+        id = sco_Rebuild_Our_Nation
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 25
+		y = 1
+
+        prerequisite = { focus = sco_conservative_focus }
+
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = sco_Military_Build_up
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 25
+		y = 2
+
+        prerequisite = { focus = sco_Rebuild_Our_Nation }
+
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = sco_Reclaim_The_Isles
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 25
+		y = 3
+
+        prerequisite = { focus = sco_Military_Build_up }
+
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = sco_Economic_Development
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 28
+		y = 1
+
+        prerequisite = { focus = sco_conservative_focus }
+
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = sco_National_Parks
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 28
+		y = 2
+
+        prerequisite = { focus = sco_Economic_Development }
+
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = sco_Military_Cooperation
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 28
+		y = 3
+
+        prerequisite = { focus = sco_National_Parks }
+
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = sco_Education_Reform
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 31
+		y = 1
+
+        prerequisite = { focus = sco_conservative_focus }
+
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = sco_Cultural_Renaissance
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 31
+		y = 2
+
+        prerequisite = { focus = sco_Education_Reform }
+
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = sco_Diplomatic_Recognition
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 31
+		y = 3
+
+        prerequisite = { focus = sco_Cultural_Renaissance }
+
+        completion_reward = { political_power = 100 }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
+
+
+
+    
+    # centrist focus tree
+    focus = {
+        id = sco_Centrist_focus
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 37
+		y = 0
+        prerequisite = { 
+            has_government = centrist
+            }
+   
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+  
+        # Liberal Democrats focuses go here
+    }
+
+    focus = {
+        id = sco_Centrist_Reforms
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 34
+		y = 1
+
+        prerequisite = { focus = sco_Centrist_focus }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+
+    }
+
+    focus = {
+        id = sco_Free_Trade_Deals
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 35
+		y = 2
+
+        prerequisite = { focus = sco_Centrist_Reforms }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+
+    }
+
+    
+    focus = {
+        id = sco_Maintain_Neutrality
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 36
+		y = 3
+
+        prerequisite = { focus = sco_Free_Trade_Deals }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+
+    }
+
+
+    focus = {
+        id = sco_Infrastructure_Investment
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 37
+		y = 1
+
+        prerequisite = { focus = sco_Centrist_focus }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+
+    }
+
+    focus = {
+        id = sco_Open_Dialogue_With_England
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 37
+		y = 2
+
+        prerequisite = { focus = sco_Infrastructure_Investment }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+
+    }
+
+
+    focus = {
+        id = sco_Reach_Across_The_Aisle
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 40
+		y = 1
+
+        prerequisite = { focus = sco_Centrist_focus }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+
+    }
+
+    focus = {
+        id = sco_Entrepreneurial_Support
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 39
+		y = 2
+
+        prerequisite = { focus = sco_Reach_Across_The_Aisle }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+
+    }
+    
+    focus = {
+        id = sco_Build_Regional_Partnerships
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 38
+		y = 3
+
+        prerequisite = { focus = sco_Entrepreneurial_Support }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+
+    }
+
+    focus = {
+        id = sco_Military_Modernization_Programs
+        icon = "GFX_goal_generic_civilian_refinery"
+        cost = 10
+		x = 37
+		y = 4
+
+        prerequisite = { focus = sco_Build_Regional_Partnerships }
+        prerequisite = { focus = sco_Maintain_Neutrality }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+        
+
+    }
+
+
+	    # SNP focus tree
+		focus = {
+			id = sco_SNP_focus
+			icon = "GFX_goal_generic_civilian_nuclear_reactor"
+			cost = 10
+			x = 46
+			y = 0
+            prerequisite = { 
+                has_government = liberal
+                }
+            ai_will_do = {
+				factor = 1
+			}
+			completion_reward = { political_power = 100 }
+	
+		
+			# SNP focuses go here
+		}
+
+	
+		focus = {
+			id = sco_Pursue_International_Recognition
+			icon = "GFX_goal_generic_civilian_nuclear_reactor"
+			cost = 10
+			x = 46
+			y = 1
+            prerequisite = { focus = sco_SNP_focus }
+
+            ai_will_do = {
+				factor = 1
+			}
+			completion_reward = { political_power = 100 }
+	
+		}
+
+
+    		focus = {
+			id = sco_Rebuild_The_Scottish_Government
+			icon = "GFX_goal_generic_civilian_nuclear_reactor"
+			cost = 10
+			x = 44
+			y = 2
+            prerequisite = { focus = sco_Pursue_International_Recognition }
+
+            ai_will_do = {
+				factor = 1
+			}
+			completion_reward = { political_power = 100 }
+	
+		}
+
+        
+    	focus = {
+                id = sco_Diversifying_The_Economy
+                icon = "GFX_goal_generic_civilian_nuclear_reactor"
+                cost = 10
+                x = 44
+                y = 3
+                prerequisite = { focus = sco_Rebuild_The_Scottish_Government }
+    
+                ai_will_do = {
+                    factor = 1
+                }
+                completion_reward = { political_power = 100 }
+        
+            }
+    
+            focus = {
+                id = sco_Establishing_Diplomatic_Ties
+                icon = "GFX_goal_generic_civilian_nuclear_reactor"
+                cost = 10
+                x = 45
+                y = 4
+                prerequisite = { focus = sco_Diversifying_The_Economy }
+                prerequisite = { focus = sco_Social_Housing_Program }
+
+                ai_will_do = {
+                    factor = 1
+                }
+                completion_reward = { political_power = 100 }
+        
+            }
+    
+            focus = {
+                id = sco_Prepare_For_English_Aggression
+                icon = "GFX_goal_generic_civilian_nuclear_reactor"
+                cost = 10
+                x = 46
+                y = 5
+                prerequisite = { focus = sco_Establishing_Diplomatic_Ties }
+                prerequisite = { focus = sco_Increase_Intelligence_Capabilities }
+
+                ai_will_do = {
+                    factor = 1
+                }
+                completion_reward = { political_power = 100 }
+        
+            }
+    
+
+	
+        focus = {
+			id = sco_A_New_Scottish_Constitution
+			icon = "GFX_goal_generic_civilian_nuclear_reactor"
+			cost = 10
+			x = 46
+			y = 2
+            prerequisite = { focus = sco_Pursue_International_Recognition }
+
+            ai_will_do = {
+				factor = 1
+			}
+			completion_reward = { political_power = 100 }
+	
+		}
+
+        focus = {
+			id = sco_Social_Housing_Program
+			icon = "GFX_goal_generic_civilian_nuclear_reactor"
+			cost = 10
+			x = 46
+			y = 3
+            prerequisite = { focus = sco_A_New_Scottish_Constitution }
+
+            ai_will_do = {
+				factor = 1
+			}
+			completion_reward = { political_power = 100 }
+	
+		}
+
+
+        focus = {
+			id = sco_National_Reconciliation
+			icon = "GFX_goal_generic_civilian_nuclear_reactor"
+			cost = 10
+			x = 48
+			y = 2
+            prerequisite = { focus = sco_Pursue_International_Recognition }
+
+            ai_will_do = {
+				factor = 1
+			}
+			completion_reward = { political_power = 100 }
+	
+		}
+
+        focus = {
+			id = sco_Reducing_Income_Inequality
+			icon = "GFX_goal_generic_civilian_nuclear_reactor"
+			cost = 10
+			x = 48
+			y = 3
+            prerequisite = { focus = sco_National_Reconciliation }
+
+            ai_will_do = {
+				factor = 1
+			}
+			completion_reward = { political_power = 100 }
+	
+		}
+
+        focus = {
+            id = sco_Increase_Intelligence_Capabilities
+            icon = "GFX_goal_generic_civilian_nuclear_reactor"
+            cost = 10
+            x = 47
+            y = 4
+            prerequisite = { focus = sco_Reducing_Income_Inequality }
+            prerequisite = { focus = sco_Social_Housing_Program }
+
+            ai_will_do = {
+                factor = 1
+            }
+            completion_reward = { political_power = 100 }
+    
+        }
+
+	   # Labour party focus tree
+	   focus = {
+        id = sco_labour_focus
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 54
+		y = 0
+        prerequisite = { 
+            has_government = new_democrat
+            }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+        # Labour party focuses go here
+    }
+
+
+
+	   focus = {
+        id = sco_Establish_A_Federal_System
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 52
+		y = 1
+        prerequisite = { focus = sco_labour_focus }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+
+    focus = {
+        id = sco_Social_Justice
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 52
+		y = 2
+        prerequisite = { focus = sco_Establish_A_Federal_System }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+    
+    focus = {
+        id = sco_Social_Services
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 53
+		y = 3
+        prerequisite = { focus = sco_Social_Justice }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+
+    focus = {
+        id = sco_Peace_And_Diplomacy
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 53
+		y = 4
+        prerequisite = { focus = sco_Social_Services }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+
+    focus = {
+        id = sco_Green_New_Deal
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 54
+		y = 2
+        prerequisite = { focus = sco_Establish_A_Federal_System }
+        prerequisite = { focus = sco_Labour_Unity }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+
+    focus = {
+        id = sco_Workers_Rights
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 56
+		y = 2
+        prerequisite = { focus = sco_Establish_A_Federal_System }
+ 
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+
+    focus = {
+        id = sco_Equality
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 55
+		y = 3
+        prerequisite = { focus = sco_Workers_Rights }
+ 
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+
+    focus = {
+        id = sco_Military_Reform
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 55
+		y = 4
+        prerequisite = { focus = sco_Workers_Rights }
+ 
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+
+    focus = {
+        id = sco_Defend_Scotland
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 54
+		y = 5
+        prerequisite = { focus = sco_Military_Reform }
+ 
+        prerequisite = { focus = sco_Peace_And_Diplomacy }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+
+
+    focus = {
+        id = sco_Labour_Unity
+        icon = "GFX_goal_generic_civilian_arms_factory"
+        cost = 10
+		x = 56
+		y = 1
+        prerequisite = { focus = sco_labour_focus }
+
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = { political_power = 100 }
+  
+    }
+
+
+
+
+
+
+
+
+    # Totalist party focus tree
+    focus = {
+        id = sco_Radical_Left_focus
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 64
+		y = 0
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { 
+            has_government = moderate_socialist
+            }
+        completion_reward = { political_power = 100 }
+
+    
+        # Totalist party focuses go here
+    }
+
+
+    focus = {
+        id = sco_Nationalisation
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 60
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Radical_Left_focus }
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+    focus = {
+        id = sco_Democratization_Of_The_Workplace
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 62
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Nationalisation }
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+
+
+    focus = {
+        id = sco_The_Peoples_Voice
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 64
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Radical_Left_focus }
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+    focus = {
+        id = sco_Process_Establish_Peoples_Councils
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 64
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_The_Peoples_Voice }
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+
+
+    focus = {
+        id = sco_The_Workers_Rights
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 68
+		y = 1
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Radical_Left_focus }
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+    focus = {
+        id = sco_Universal_Basic_Services
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 66
+		y = 2
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_The_Workers_Rights }
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+    
+    focus = {
+        id = sco_Pursuing_An_Independent_Foreign_Policy
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 64
+		y = 3
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Process_Establish_Peoples_Councils }
+        prerequisite = { focus = sco_Democratization_Of_The_Workplace }
+        prerequisite = { focus = sco_Universal_Basic_Services }
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+    focus = {
+        id = sco_Internationalism_And_Solidarity
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 64
+		y = 4
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Pursuing_An_Independent_Foreign_Policy }
+
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+
+    focus = {
+        id = sco_Peoples_Militia
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 62
+		y = 5
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Internationalism_And_Solidarity }
+
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+    focus = {
+        id = sco_International_Solidarity_and_Anti_Colonialism
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 66
+		y = 5
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Internationalism_And_Solidarity }
+
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+
+    focus = {
+        id = sco_Strengthen_Border_Defenses
+        icon = "GFX_goal_generic_civilian_airfield"
+        cost = 10
+		x = 64
+		y = 6
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_International_Solidarity_and_Anti_Colonialism }
+        prerequisite = { focus = sco_Peoples_Militia }
+
+
+        completion_reward = { political_power = 100 }
+
+    
+    }
+
+
+
+
+
+
+}

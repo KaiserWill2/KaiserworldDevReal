@@ -465,106 +465,100 @@ focus_tree = {
 
 
 
-
-
-
-
-
 	focus = {
-		id = WAL_Celtic_Congress
-		icon = the_celtic_congress_icon
+		id = WAL_A_Meeting_In_Congress
+		icon = meeting_in_congress_icon
 		cost = 5
 		x = 40
 		y = 0
-
-		available ={
-		has_completed_focus = WAL_Ban_English_Refugees
-		has_completed_focus = WAL_No_To_The_Left
-		has_completed_focus = WAL_The_Future_Lives_On
-		has_completed_focus = WAL_The_Future_Lives_On
-		has_completed_focus = WAL_Ban_The_Strike
-		has_completed_focus = WAL_Remove_Safety_Laws
-		has_completed_focus = WAL_No_More_trade_With_Ireland
-		has_completed_focus = WAL_We_Need_Scottish_Power	
-		}
 		completion_reward = {
-			country_event = {
-				id = wales.13
-			}
+
 		}
 	}
+
+
 	focus = {
-		id = WAL_Meeting_With_Scottish_Royalty
-		icon = meeting_with_scottish_royalty_icon
+		id = WAL_National_Unity_Conference
+		icon = national_unity_conference_icon
 		cost = 5
 		x = 38
 		y = 1
-		prerequisite = { focus = WAL_Celtic_Congress  }
+		prerequisite = { focus = WAL_A_Meeting_In_Congress  }
 		completion_reward = {
 
 		}
 
 	}
+
+
 	focus = {
-		id = WAL_Meeting_With_The_Irish
-		icon = meeting__with_the_irish_icon
+		id = WAL_Crush_Dissent
+		icon = crush_dissent_icon
 		cost = 5
 		x = 42
 		y = 1
-		prerequisite = { focus = WAL_Celtic_Congress  }
+		prerequisite = { focus = WAL_A_Meeting_In_Congress  }
 		completion_reward = {
 
 		}
 
 	}
+
+
 	focus = {
-		id = WAL_The_Power_Struggle
-		icon = the_power_struggle_icon
+		id = WAL_Suppress_The_Congress
+		icon = unknown
 		cost = 5
 		x = 40
 		y = 2
-		prerequisite = { focus = WAL_Meeting_With_The_Irish  }
-		prerequisite = { focus = WAL_Meeting_With_Scottish_Royalty  }
+		prerequisite = { focus = WAL_Crush_Dissent  }
+		prerequisite = { focus = WAL_National_Unity_Conference  }
+
 		completion_reward = {
-			country_event = {
-				id = wales.14
-			}
+
 		}
 
 	}
+
 	focus = {
-		id = WAL_The_Vote_Of_No_Confidence
-		icon = vote_of_no_confidence_icon
+		id = WAL_Suppress_The_Congress
+		icon = supress_congress_icon
 		cost = 5
 		x = 40
-		y = 3
-		prerequisite = { focus = WAL_The_Power_Struggle  }
+		y = 2
+		prerequisite = { focus = WAL_Crush_Dissent  }
+		prerequisite = { focus = WAL_National_Unity_Conference  }
+
 		completion_reward = {
-	
+
 		}
 
 	}
+
 	focus = {
-		id = WAL_The_People_Want_To_Vote
-		icon = the_people_want_to_vote_icon
+		id = WAL_Propaganada_Campaign
+		icon = propaganada_campaign_icon
 		cost = 5
 		x = 38
-		y = 4
-		prerequisite = { focus = WAL_The_Vote_Of_No_Confidence  }
+		y = 3
+		prerequisite = { focus = WAL_Suppress_The_Congress  }
+
+
 		completion_reward = {
-			country_event = {
-				id = wales.15
-			}
+
 		}
 
 	}
+
 	focus = {
-		id = WAL_The_Party_Takes_Charge
-		icon = the_party_takes_charge_icon
+		id = WAL_Increase_Police_Presence
+		icon = increased_police_pres_icon
 		cost = 5
 		x = 42
-		y = 4
-		prerequisite = { focus = WAL_The_Vote_Of_No_Confidence  }
+		y = 3
+		prerequisite = { focus = WAL_Suppress_The_Congress  }
+
+
 		completion_reward = {
 
 		}
@@ -572,54 +566,63 @@ focus_tree = {
 	}
 
 	focus = {
-		id = WAL_Chamber_Election
-		icon = chamber_elections_icon
+		id = WAL_Call_For_Chamber_Elections
+		icon = chamber_elections_iconn
+		cost = 5
+		x = 40
+		y = 4
+		prerequisite = { focus = WAL_Increase_Police_Presence  }
+
+		prerequisite = { focus = WAL_Propaganada_Campaign  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+
+	focus = {
+		id = WAL_Refusal_To_Step_Down
+		icon = refuse_to_stand_down_wales_icon
 		cost = 5
 		x = 40
 		y = 5
-		prerequisite = { focus = WAL_The_People_Want_To_Vote  }
-		prerequisite = { focus = WAL_The_Party_Takes_Charge  }
+		prerequisite = { focus = WAL_Call_For_Chamber_Elections  }
+
+
 		completion_reward = {
-			country_event = {
-				id = wales.16
-			}
+
 		}
 
 	}
+
+
 	focus = {
-		id = WAL_Welsh_National
-		icon = nationals_elected_icon
+		id = WAL_Rally_The_Support
+		icon = rally_walesh_Support_icon
 		cost = 5
-		x = 38
+		x = 40
 		y = 6
-		mutually_exclusive = {
-			focus = WAL_Coalition_Government
-		}
-		prerequisite = { focus = WAL_Chamber_Election  }
+		prerequisite = { focus = WAL_Refusal_To_Step_Down  }
+
+
 		completion_reward = {
 
-			set_cosmetic_tag = WAL_fascist_new
-
-			create_country_leader = {
-				name = "Owain Williams"
-				picture = "Owain_Williams_wal.dds"
-				ideology = fascist_ideology
-			}
-			set_politics = {
-				ruling_party = fascist 
-				elections_allowed = no
-			}
 		}
 
 	}
 
+
 	focus = {
-		id = WAL_Ban_The_English_Language
-		icon = ban_english_language_icon
+		id = WAL_Solidify_Support
+		icon = solidfy_wales_icons
 		cost = 5
 		x = 38
 		y = 7
-		prerequisite = { focus = WAL_Welsh_National  }
+		prerequisite = { focus = WAL_Rally_The_Support  }
+
+
 		completion_reward = {
 
 		}
@@ -627,39 +630,171 @@ focus_tree = {
 	}
 
 	focus = {
-		id = WAL_Coalition_Government
-		icon = coalition_government_icon
+		id = WAL_Repositioning_The_Party
+		icon = reposition_the_party_icon
 		cost = 5
-		x = 42
-		y = 6
-		mutually_exclusive = {
-			focus = WAL_Welsh_National
-		}
-		prerequisite = { focus = WAL_Chamber_Election  }
+		x = 39
+		y = 8
+		prerequisite = { focus = WAL_Solidify_Support  }
+
+
 		completion_reward = {
-			add_popularity = {
-				ideology = liberal 
-				popularity = 0.50
-			}
-			set_politics = {
-				ruling_party = liberal
-				elections_allowed = no
-			}
+
 		}
 
 	}
+
 	focus = {
-		id = WAL_Emergency_Talks
-		icon = emergency_talks_icon
+		id = WAL_Secure_External_Support
+		icon = wales_external_support_icon
 		cost = 5
 		x = 42
 		y = 7
-		prerequisite = { focus = WAL_Coalition_Government  }
+		prerequisite = { focus = WAL_Rally_The_Support  }
+
+
 		completion_reward = {
 
 		}
 
 	}
+
+	focus = {
+		id = WAL_Mobilise_The_Nationalist_Base
+		icon = mobiilise_nations_base_icon
+		cost = 5
+		x = 41
+		y = 8
+		prerequisite = { focus = WAL_Secure_External_Support  }
+
+
+		completion_reward = {
+
+		}
+
+	}
+
+
+	focus = {
+		id = WAL_Chamber_Deadlock
+		icon = chamber_deadlock_icon
+		cost = 5
+		x = 40
+		y = 9
+		prerequisite = { focus = WAL_Mobilise_The_Nationalist_Base  }
+		prerequisite = { focus = WAL_Repositioning_The_Party  }
+
+
+		completion_reward = {
+
+		}
+
+	}
+
+
+
+	focus = {
+		id = WAL_Secessionist_Movements
+		icon = successionist_movements_icon
+		cost = 5
+		x = 40
+		y = 10
+		prerequisite = { focus = WAL_Chamber_Deadlock  }
+
+
+
+		completion_reward = {
+
+		}
+
+	}
+
+
+	focus = {
+		id = WAL_Military_Loyalty
+		icon = miltiary_loyalty_icon
+		cost = 5
+		x = 38
+		y = 11
+		prerequisite = { focus = WAL_Secessionist_Movements  }
+
+
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = WAL_Preparing_For_The_Worst
+		icon = preparing_the_worst_icon
+		cost = 5
+		x = 40
+		y = 11
+		prerequisite = { focus = WAL_Secessionist_Movements  }
+
+
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = WAL_Mobilizing_Supporters
+		icon = mobilizing_supporters_icon
+		cost = 5
+		x = 42
+		y = 11
+		prerequisite = { focus = WAL_Secessionist_Movements  }
+
+
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = WAL_Fianl_Ultimatum
+		icon = final_ultimatum_icon
+		cost = 5
+		x = 40
+		y = 12
+		prerequisite = { focus = WAL_Mobilizing_Supporters  }
+		prerequisite = { focus = WAL_Preparing_For_The_Worst  }
+		prerequisite = { focus = WAL_Military_Loyalty  }
+
+
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = WAL_Call_To_Arms
+		icon = call_to_arms_icon
+		cost = 5
+		x = 40
+		y = 13
+		prerequisite = { focus = WAL_Fianl_Ultimatum  }
+
+
+
+
+		completion_reward = {
+
+		}
+
+	}
+
+
+
 
 
 

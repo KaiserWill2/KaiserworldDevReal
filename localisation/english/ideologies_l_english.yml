@@ -64,7 +64,7 @@
  social_liberal_desc:0 "Social Liberalism thinks the state should address economic and social issues. Examples of problems the state might work on include unemployment, health care, and education."
  new_democrat_ideology:0 "Social Democracy"
  new_democrat_ideology_desc:0 "Social democracy is a political system according to which social justice and equality can be achieved within the framework of a market economy"
- democratic_socialist: "Democratic Socialism"
+ democratic_socialist:0 "Democratic Socialism"
  democratic_socialist_desc:0 "Democratic socialism is an ideology that advocates political democracy alongside social ownership of the means of production, often with an emphasis on democratic management of enterprises within a socialist economic system."
  progressive:0 "Progressivism"
  progressive_desc:0 "As a political movement, progressivism seeks to advance the human condition through social reform based on purported advancements in science, technology, economic development, and social organization."

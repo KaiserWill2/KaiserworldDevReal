@@ -2,42 +2,24 @@
 state={
 	id=462
 	name="STATE_462"
+	manpower = 1865552
 	
-	resources = {
-		oil = 19
-		steel = 21
-		chromium = 2
-		tungsten = 3
-	}
+	state_category = wasteland
 
 	history={
 		owner = MOR
+		add_core_of = MOR
+		victory_points = {
+			4108 1 
+		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			12857 = {
-				naval_base = 1
-			}
+			infrastructure = 1
 		}
-		victory_points = {
-			4108 10 
-		}
-		victory_points = {
-			7203 4 
-		}
-		victory_points = {
-			1207 2 
-		}
-		victory_points = {
-			12857 1 
-		}
-
 	}
 
 	provinces={
-		1102 1152 1207 1989 4022 4108 4154 4933 5046 7203 7908 7958 8046 10107 12857 
+		1102 1152 1207 1989 4022 4108 4154 4933 5046 7203 7908 7958 8046 10107 
 	}
-	manpower=5865552
-	buildings_max_level_factor=1.000
-	state_category=town
+
+	local_supplies=0.0 
 }

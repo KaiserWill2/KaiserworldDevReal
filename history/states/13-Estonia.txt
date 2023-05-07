@@ -2,34 +2,32 @@
 state={
 	id=13
 	name="STATE_13"
-	manpower = 835081
 	resources={
-		steel=3
+		steel=2.000
 	}
-	state_category = city
+
 	history={
 		owner = EST
-		victory_points = { 3152 5 }
-		victory_points = { 3174 1 }
-		victory_points = { 83 1 }
-		victory_points = { 185 1 }
-		victory_points = { 11426 1 }
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-			industrial_complex = 5
-			dockyard = 1
-			air_base = 2
-			3152 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
+		victory_points = {
+			3174 1 #Voru
 		}
-		add_core_of = SOV
-add_core_of = EST
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = EST
+
 	}
 
 	provinces={
-		83 185 308 496 567 3074 3152 3174 6201 6381 9079 11127 11291 11426 
+		83 308 3074 3174 6381 11291 
 	}
+
+	local_supplies=6.0 
+	manpower=423070
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

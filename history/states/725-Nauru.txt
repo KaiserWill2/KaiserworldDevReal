@@ -1,14 +1,14 @@
 state={
 	id=725
 	name="STATE_725"
-	manpower=10084
-	state_category = small_island
+	manpower=5785
+	state_category = tiny_island
 
 	history={
-		owner = USA
+		owner = ENG
+		add_core_of = FIJ
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 2
 			13038 = {
 				naval_base = 1
 			}
@@ -21,4 +21,6 @@ state={
 	provinces={
 		13038 
 	}
+
+	local_supplies=0.0 
 }

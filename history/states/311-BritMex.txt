@@ -2,26 +2,24 @@ state=
 {
 	id=311
 	name="STATE_311"
-	manpower = 324528
+	manpower = 51000
 	
-	state_category = town
+	state_category = pastoral
 	history=
 	{
-		owner = GUY
-		add_core_of = GUY
-		add_core_of = BLZ
-		add_claim_by = GUA
+		add_core_of = CEA
+		owner = CEA
+		victory_points = {
+			2077 1 
+		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 1
-			7630 = { 
+			infrastructure = 2
+			2077 = {
 				naval_base = 1
 			}
 		}
-		victory_points = { 
-			7630 2
-		}
 	}
-	provinces= {  7617 7630 10482 }
+	provinces= { 2077 }
+
+	local_supplies=0.0 
 }

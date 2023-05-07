@@ -2,26 +2,26 @@
 state={
 	id=308
 	name="STATE_308"
+	manpower=	25678
+	state_category = tiny_island
 
 	history={
+		add_core_of = GUY
 		owner = GUY
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 2
+			4450 = {
+				naval_base = 1
+			}
 			7123 = {
-				naval_base = 2
+				naval_base = 1
 			}
 		}
-		add_core_of = DMN
-		add_core_of = GUY
-		victory_points = { 7123 3 }
 	}
 
 	provinces={
-		7123 
+		4450 7123 
 	}
-	manpower=71000
-	buildings_max_level_factor=1.000
-	
-	state_category=small_island
+
+	local_supplies=0.0 
 }

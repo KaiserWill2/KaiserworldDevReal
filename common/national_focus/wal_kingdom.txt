@@ -16,7 +16,9 @@ focus_tree = {
 		x = 25
 		y = 0
 		completion_reward = {
-	
+			country_event = {
+				id = wales.28
+			}
 		}
 	}
 	focus = {
@@ -27,7 +29,9 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = WAL_Rise_Of_an_Empire  }
 		completion_reward = {
-	
+			country_event = {
+				id = wales.29
+			}
 		}
 
 	}
@@ -40,7 +44,9 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = WAL_Establish_The_Monarchy  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.30
+			}
 		}
 
 	}
@@ -48,12 +54,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Expand_The_Monarchs_Power
 		icon = unknown
-		cost = 5
+		cost = 4
 		x = 27
 		y = 3
 		prerequisite = { focus = WAL_Reorganise_the_Government  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.45
+			}
 		}
 
 	}
@@ -61,12 +69,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Create_A_Royal_Court
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 25
 		y = 4
 		prerequisite = { focus = WAL_Expand_The_Monarchs_Power  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.46
+			}
 		}
 
 	}
@@ -74,12 +84,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Expand_Royal_Authority
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 25
 		y = 5
 		prerequisite = { focus = WAL_Create_A_Royal_Court  }
 		completion_reward = {
-
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.05
 		}
 
 	}
@@ -93,7 +105,9 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_Expand_The_Monarchs_Power  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.47
+			}
 		}
 
 	}
@@ -101,12 +115,17 @@ focus_tree = {
 	focus = {
 		id = WAL_Consolidate_Power
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 29
 		y = 5
 		prerequisite = { focus = WAL_Emperors_Council  }
 		completion_reward = {
-
+		
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.10
+			}
+			add_political_power = 150
 		}
 
 	}
@@ -114,14 +133,16 @@ focus_tree = {
 	focus = {
 		id = WAL_Siarter_Y_Brenin
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 27
 		y = 6
 		prerequisite = { focus = WAL_Consolidate_Power  }
 		prerequisite = { focus = WAL_Expand_Royal_Authority  }
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.48
+			}
 		}
 
 	}
@@ -129,12 +150,12 @@ focus_tree = {
 	focus = {
 		id = WAL_Modernise_The_Military
 		icon = unknown
-		cost = 5
+		cost = 4
 		x = 35
 		y = 3
 		prerequisite = { focus = WAL_Reorganise_the_Government  }
 		completion_reward = {
-
+			add_political_power = 10
 		}
 
 	}
@@ -147,7 +168,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_Modernise_The_Military  }
 		completion_reward = {
-
+			add_political_power = 10
 		}
 
 	}
@@ -155,12 +176,21 @@ focus_tree = {
 	focus = {
 		id = WAL_Byddin_Frenhiniol_Gymrieg
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 32
 		y = 4
 		prerequisite = { focus = WAL_Modernise_The_Military  }
 		completion_reward = {
-
+			army_experience = 10
+			create_field_marshal = {
+				name = "Cai Williams"
+				traits = { defensive_doctrine }
+				skill = 2
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 1
+			}
 		}
 
 	}
@@ -168,12 +198,21 @@ focus_tree = {
 	focus = {
 		id = WAL_Llu_Awyr_Frenhiniol_Gymrieg
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 34
 		y = 5
 		prerequisite = { focus = WAL_Byddin_Frenhiniol_Gymrieg  }
 		completion_reward = {
-
+			air_experience  = 10
+			create_corps_commander = {
+				name = "Tudor Rees"
+				traits = { trickster brilliant_strategist }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 3
+			}
 		}
 
 	}
@@ -182,12 +221,17 @@ focus_tree = {
 	focus = {
 		id = WAL_Llynges_Frenhiniol_Gymreig
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 38
 		y = 4
 		prerequisite = { focus = WAL_Modernise_The_Military  }
 		completion_reward = {
-
+			navy_experience  = 10
+			create_navy_leader = {
+				name = "Nia Powell"
+				traits = { superior_tactician }
+				skill = 3
+			}
 		}
 
 	}
@@ -195,11 +239,25 @@ focus_tree = {
 	focus = {
 		id = WAL_Strengthen_The_Welsh_Border
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 36
 		y = 5
 		prerequisite = { focus = WAL_Llynges_Frenhiniol_Gymreig  }
 		completion_reward = {
+
+			add_building_construction = {
+				type = bunker
+				level = 10
+				instant_build = yes
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = ENG
+				modifier = threatened_by_wales
+			}
 
 		}
 
@@ -208,13 +266,17 @@ focus_tree = {
 	focus = {
 		id = WAL_Wales_Shall_Never_Fall
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 35
 		y = 6
 		prerequisite = { focus = WAL_Strengthen_The_Welsh_Border  }
 		prerequisite = { focus = WAL_Llu_Awyr_Frenhiniol_Gymrieg  }
 
 		completion_reward = {
+
+			add_command_power = 20
+			add_political_power = 20
+			add_war_support = 0.050
 
 		}
 
@@ -225,12 +287,14 @@ focus_tree = {
 	focus = {
 		id = WAL_The_King_And_His_people
 		icon = unknown
-		cost = 5
+		cost = 4
 		x = 18
 		y = 3
 		prerequisite = { focus = WAL_Reorganise_the_Government  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.31
+			}
 		}
 
 	}
@@ -251,12 +315,24 @@ focus_tree = {
 	focus = {
 		id = WAL_Strengthen_The_National_Identity
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 16
 		y = 4
 		prerequisite = { focus = WAL_The_King_And_His_people  }
 		completion_reward = {
+			add_ideas = welsh_national_identity
 
+			add_popularity = {
+                ideology = monarchist 
+                popularity = 0.05
+            }
+			add_popularity = {
+                ideology = nationalist 
+                popularity = 0.02
+            }
+			
+		
+	
 		}
 
 	}
@@ -264,25 +340,33 @@ focus_tree = {
 	focus = {
 		id = WAL_Spreading_Nationalism
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 14
 		y = 5
 		prerequisite = { focus = WAL_Strengthen_The_National_Identity  }
 		completion_reward = {
-
+			add_stability = 0.05
+			add_popularity = {
+                ideology = nationalist 
+                popularity = 0.03
+            }
+	
 		}
+
 
 	}
 
 	focus = {
 		id = WAL_Expand_Military_Presence
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 13
 		y = 6
 		prerequisite = { focus = WAL_Spreading_Nationalism  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.36
+			}
 		}
 
 	}
@@ -290,27 +374,40 @@ focus_tree = {
 	focus = {
 		id = WAL_Create_Elite
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 15
 		y = 6
 		prerequisite = { focus = WAL_Spreading_Nationalism  }
 		completion_reward = {
-
-		}
-
-	}
-
+			
+			create_unit = {
+				division = "name = \"Welsh Elite Force\" division_template = \"my_special_template\" start_experience_factor = 100"
+				owner = WAL
+			}
+			}
+		}	
+		
 	focus = {
 		id = WAL_Conduct_Military_Exercises
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 14
 		y = 7
 		prerequisite = { focus = WAL_Create_Elite  }
 		prerequisite = { focus = WAL_Expand_Military_Presence  }
 
 		completion_reward = {
-
+			add_political_power = 50
+			add_manpower = 100000
+			
+		
+			add_building_construction = {
+				# Building a level 4 air base in London
+				type = air_base
+				level = 4
+				construction = 1
+				location = 196 # London
+			}
 		}
 
 	}
@@ -320,12 +417,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Establish_A_National_Economy
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 18
 		y = 4
 		prerequisite = { focus = WAL_The_King_And_His_people  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.37
+			}
 		}
 
 	}
@@ -333,12 +432,39 @@ focus_tree = {
 	focus = {
 		id = WAL_Expand_The_Economy
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 18
 		y = 5
 		prerequisite = { focus = WAL_Establish_A_National_Economy  }
 		completion_reward = {
-
+			add_political_power = 150
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = synthetic_refinery
+				level = 5
+				instant_build = yes
+			}
+		
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = dockyard
+				level = 5
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = radar_station
+				level = 5
+				instant_build = yes
+			}
+			add_ideas = expanding_The_Economy
 		}
 
 	}
@@ -347,12 +473,19 @@ focus_tree = {
 	focus = {
 		id = WAL_Industrial_Development
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 18
 		y = 6
 		prerequisite = { focus = WAL_Expand_The_Economy  }
 		completion_reward = {
-
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+			add_political_power = 100
+		add_stability = 0.02
+		add_war_support = 0.02
 		}
 
 	}
@@ -362,12 +495,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Gain_International_Recognition
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 20
 		y = 4
 		prerequisite = { focus = WAL_The_King_And_His_people  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.32
+			}
 		}
 
 	}
@@ -376,12 +511,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Threats_To_The_Totalist_English
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 22
 		y = 5
 		prerequisite = { focus = WAL_Gain_International_Recognition  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.33
+			}
 		}
 
 	}
@@ -390,11 +527,13 @@ focus_tree = {
 	focus = {
 		id = WAL_Adopt_The_Old_Ways
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 21
 		y = 6
 		prerequisite = { focus = WAL_Threats_To_The_Totalist_English  }
 		completion_reward = {
+
+			add_ideas = tribal_heritage
 
 		}
 
@@ -405,12 +544,22 @@ focus_tree = {
 	focus = {
 		id = WAL_Trade_With_The_Celtic_Lands
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 21
 		y = 7
 		prerequisite = { focus = WAL_Adopt_The_Old_Ways  }
 		completion_reward = {
-
+			create_import = {
+				resource = steel
+				amount = 100
+				exporter = IRE
+			}
+			create_import = {
+				resource = oil
+				amount = 100
+				exporter = SCO
+			}
+		
 		}
 
 	}
@@ -421,12 +570,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Maintain_Good_Relations_With_Germany
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 23
 		y = 6
 		prerequisite = { focus = WAL_Threats_To_The_Totalist_English  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.34
+			}
 		}
 
 	}
@@ -435,12 +586,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Can_A_Yank_And_Canadian_Help
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 23
 		y = 7
 		prerequisite = { focus = WAL_Maintain_Good_Relations_With_Germany  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.35
+			}
 		}
 
 	}
@@ -458,7 +611,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_Conduct_Military_Exercises  }
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.38
+			}
 		}
 
 	}
@@ -466,14 +621,26 @@ focus_tree = {
 	focus = {
 		id = WAL_Stockpile_arms
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 15
 		y = 9
 		prerequisite = { focus = WAL_Claim_Welsh_Territory  }
 
 
 		completion_reward = {
+			army_experience = 20
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_2
+				amount = 100
+				producer = USA
+			}
 
+			add_equipment_to_stockpile = {
+				type = CAN_support_weapons2
+				amount = 100
+				producer = CAN
+			}
+	
 		}
 
 	}
@@ -484,14 +651,15 @@ focus_tree = {
 	focus = {
 		id = WAL_Mobilise_reserves
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 18
 		y = 9
 		prerequisite = { focus = WAL_Claim_Welsh_Territory  }
 
 
 		completion_reward = {
-
+			add_manpower  = 500000
+			add_political_power = 100
 		}
 
 	}
@@ -501,14 +669,30 @@ focus_tree = {
 	focus = {
 		id = WAL_Build_Fortifications
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 21
 		y = 9
 		prerequisite = { focus = WAL_Claim_Welsh_Territory  }
 
 
 		completion_reward = {
-
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province  = 11361
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province  = 6301
+			}
+			add_building_construction = {
+				type = anti_air_building
+				level = 3
+				instant_build = yes
+			}
 		}
 
 	}
@@ -518,7 +702,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Reconnaissance
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 16
 		y = 10
 		prerequisite = { focus = WAL_Stockpile_arms  }
@@ -528,6 +712,8 @@ focus_tree = {
 
 		completion_reward = {
 
+			add_ideas = welsh_intelligence
+
 		}
 
 	}
@@ -536,7 +722,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Sabotage
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 20
 		y = 10
 		prerequisite = { focus = WAL_Stockpile_arms  }
@@ -545,7 +731,7 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			add_ideas = sabotage_england
 		}
 
 	}
@@ -563,7 +749,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.39
+			}
 		}
 
 	}
@@ -576,10 +764,22 @@ focus_tree = {
 		x = 18
 		y = 12
 		prerequisite = { focus = WAL_Invasion  }
-
+		available = {
+			owns_state = 128
+			owns_state = 132
+			owns_state = 131
+			owns_state = 130
+			owns_state = 129
+			owns_state = 125
+			owns_state = 126
+			owns_state = 127
+			owns_state = 123
+		}
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.40
+			}
 		}
 
 	}
@@ -594,6 +794,18 @@ focus_tree = {
 
 
 		completion_reward = {
+
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+
+			add_building_construction = {
+				type = infrastructure
+				level = 3
+				instant_build = yes
+			}
 
 		}
 
@@ -611,7 +823,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.41
+			}
 		}
 
 	}
@@ -627,7 +841,10 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			add_manpower = 10000
+			add_stability = 0.05
+			add_political_power = 50
+	
 		}
 
 	}
@@ -638,7 +855,7 @@ focus_tree = {
 	focus = {
 		id = WAL_International_Relations
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 17
 		y = 14
 		prerequisite = { focus = WAL_Rebuild_Infrastructure  }
@@ -647,7 +864,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.42
+			}
 		}
 
 	}
@@ -655,7 +874,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Economic_Development
 		icon = unknown
-		cost = 5
+		cost = 2
 		x = 19
 		y = 14
 		prerequisite = { focus = WAL_Rebuild_Infrastructure  }
@@ -664,7 +883,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.43
+			}
 		}
 
 	}
@@ -681,7 +902,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.44
+			}
 		}
 
 	}
@@ -694,7 +917,9 @@ focus_tree = {
 		x = 65
 		y = 0
 		completion_reward = {
-	
+			country_event = {
+				id = wales.49
+			}
 		}
 	}
 
@@ -707,73 +932,104 @@ focus_tree = {
 		prerequisite = { focus = WAL_Expand_The_Dragon_Empire  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.54
+			}
 		}
 	}
+	
 
 	
 	focus = {
 		id = WAL_Estabslishing_A_Naval_Base
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 60
 		y = 2
 		prerequisite = { focus = WAL_Expansion_To_The_Caribbean  }
 
 		completion_reward = {
-	
+			navy_experience = 20
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				instant_build = yes
+			}
 		}
 	}
 
 	focus = {
 		id = WAL_Caribbean_Plantations
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 61
 		y = 3
 		prerequisite = { focus = WAL_Estabslishing_A_Naval_Base  }
 
 		completion_reward = {
-	
+			add_ideas = plantation_economy
+
 		}
 	}
 
 	focus = {
 		id = WAL_Expand_the_Plantation_Economy
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 61
 		y = 4
 		prerequisite = { focus = WAL_Caribbean_Plantations  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.55
+			}
 		}
 	}
 
 	focus = {
 		id = WAL_Securing_A_Foothold
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 64
 		y = 2
 		prerequisite = { focus = WAL_Expansion_To_The_Caribbean  }
 
 		completion_reward = {
-	
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				instant_build = yes
+			}
+
+
 		}
 	}
 
 	focus = {
 		id = WAL_Fortifications
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 63
 		y = 3
 		prerequisite = { focus = WAL_Securing_A_Foothold  }
 
 		completion_reward = {
-	
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+			}
 		}
 	}
 
@@ -781,13 +1037,15 @@ focus_tree = {
 	focus = {
 		id = WAL_Establish_A_Caribbean_Defense_Force
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 63
 		y = 4
 		prerequisite = { focus = WAL_Fortifications  }
 
 		completion_reward = {
-	
+			army_experience = 50
+			add_ideas = caribbean_defense_force
+
 		}
 	}
 
@@ -795,14 +1053,16 @@ focus_tree = {
 	focus = {
 		id = WAL_Assert_Hegemony
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 62
 		y = 5
 		prerequisite = { focus = WAL_Establish_A_Caribbean_Defense_Force  }
 		prerequisite = { focus = WAL_Expand_the_Plantation_Economy  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.56
+			}
 		}
 	}
 
@@ -823,64 +1083,88 @@ focus_tree = {
 	focus = {
 		id = WAL_Establish_A_Colonial_Government
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 67
 		y = 2
 		prerequisite = { focus = WAL_The_African_Colony  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.59
+			}
 		}
 	}
 
 	focus = {
 		id = WAL_Establish_A_Local_Government
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 67
 		y = 3
 		prerequisite = { focus = WAL_Establish_A_Colonial_Government  }
 
 		completion_reward = {
-	
+			add_stability = 0.20
 		}
 	}
 
 	focus = {
 		id = WAL_Develop_Local_Industries
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 69
 		y = 2
 		prerequisite = { focus = WAL_The_African_Colony  }
 
 		completion_reward = {
 	
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+
 		}
 	}
 
 	focus = {
 		id = WAL_Train_Local_Workforce
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 69
 		y = 3
 		prerequisite = { focus = WAL_Develop_Local_Industries  }
 
 		completion_reward = {
-	
+					
+		add_political_power = 10
+		add_ideas = local_workforce
+
 		}
 	}
 
 	focus = {
 		id = WAL_The_African_Trade_Routes
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 71
 		y = 2
 		prerequisite = { focus = WAL_The_African_Colony  }
 
 		completion_reward = {
+
+			add_opinion_modifier = {
+				target = SAF
+				modifier = trade_influence_1  
+			}
+			add_opinion_modifier = {
+				target = LIB
+				modifier = trade_influence_1  
+			}
+			add_opinion_modifier = {
+				target = CAF
+				modifier = trade_influence_1  
+			}
 	
 		}
 	}
@@ -888,20 +1172,22 @@ focus_tree = {
 	focus = {
 		id = WAL_Improve_Healthcare_And_Sanitation
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 71
 		y = 3
 		prerequisite = { focus = WAL_The_African_Trade_Routes  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.58
+			}
 		}
 	}
 
 	focus = {
 		id = WAL_Develop_Tourist_Industry
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 70
 		y = 4
 		prerequisite = { focus = WAL_Improve_Healthcare_And_Sanitation  }
@@ -909,7 +1195,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_Establish_A_Local_Government  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.61
+			}
 		}
 	}
 
@@ -922,7 +1210,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_Expand_The_Dragon_Empire  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.57
+			}
 		}
 	}
 
@@ -935,33 +1225,41 @@ focus_tree = {
 		prerequisite = { focus = WAL_Expand_The_Dragon_Empire  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.62
+			}
 		}
 	}
 	
 	focus = {
 		id = WAL_Inspecting_The_Ground
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 75
 		y = 2
 		prerequisite = { focus = WAL_The_Otherside_of_The_World  }
 
 		completion_reward = {
 	
+			add_political_power = 100
+			add_ideas = Inspecting_the_ground
+
+
 		}
 	}
 
 	focus = {
 		id = WAL_Establish_A_Settlement
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 73
 		y = 2
 		prerequisite = { focus = WAL_The_Otherside_of_The_World  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.63
+			}
 		}
 	}
 
@@ -969,20 +1267,21 @@ focus_tree = {
 	focus = {
 		id = WAL_Laying_The_Foundations
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 77
 		y = 2
 		prerequisite = { focus = WAL_The_Otherside_of_The_World  }
 
 		completion_reward = {
-	
+			add_ideas = Imrpoved_Infrastructure
+
 		}
 	}
 
 	focus = {
 		id = WAL_Establish_The_Sheep_Industry
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 74
 		y = 3
 		prerequisite = { focus = WAL_Establish_A_Settlement  }
@@ -990,14 +1289,16 @@ focus_tree = {
 		prerequisite = { focus = WAL_Laying_The_Foundations  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.64
+			}
 		}
 	}
 
 	focus = {
 		id = WAL_Develop_Fisheries
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 76
 		y = 3
 		prerequisite = { focus = WAL_Establish_A_Settlement  }
@@ -1005,6 +1306,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_Laying_The_Foundations  }
 
 		completion_reward = {
+
+			add_political_power = 20
+			add_stability = 0.02
 	
 		}
 	}
@@ -1012,7 +1316,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Empowering_Our_People
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 75
 		y = 4
 		prerequisite = { focus = WAL_Develop_Fisheries  }
@@ -1020,7 +1324,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.65
+			}
 		}
 	}
 
@@ -1029,7 +1335,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Develop_Mining_Industry
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 68
 		y = 4
 		prerequisite = { focus = WAL_Improve_Healthcare_And_Sanitation  }
@@ -1037,7 +1343,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_Establish_A_Local_Government  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.60
+			}
 		}
 	}
 
@@ -1051,7 +1359,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_Expand_The_Dragon_Empire  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.50
+			}
 		}
 	}
 
@@ -1059,13 +1369,51 @@ focus_tree = {
 	focus = {
 		id = WAL_Establish_Diplomatic_Relations
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 52
 		y = 2
 		prerequisite = { focus = WAL_Looking_At_South_America  }
 
 		completion_reward = {
-	
+			add_opinion_modifier = {
+				target = ARG
+				modifier = recent_actions_positive 
+			}
+			
+			add_opinion_modifier = {
+				target = BRA
+				modifier = recent_actions_positive 
+			}
+			
+			add_opinion_modifier = {
+				target = CHL
+				modifier = recent_actions_positive 
+			}
+			
+			add_opinion_modifier = {
+				target = COL
+				modifier = recent_actions_positive
+			}
+			
+			add_opinion_modifier = {
+				target = MEX
+				modifier = recent_actions_positive
+			}
+			
+			add_opinion_modifier = {
+				target = PRU
+				modifier = recent_actions_positive
+			}
+			
+			add_opinion_modifier = {
+				target = URG
+				modifier = recent_actions_positive
+			}
+			
+			add_opinion_modifier = {
+				target = VEN
+				modifier = recent_actions_positive
+			}
 		}
 	}
 
@@ -1073,33 +1421,38 @@ focus_tree = {
 	focus = {
 		id = WAL_Cultural_Exchange_Program
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 55
 		y = 2
 		prerequisite = { focus = WAL_Looking_At_South_America  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.51
+			}
 		}
 	}
 
 	focus = {
 		id = WAL_Establish_A_Diplomatic_Mission_In_South_America
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 58
 		y = 2
 		prerequisite = { focus = WAL_Looking_At_South_America  }
 
 		completion_reward = {
-	
+			add_opinion_modifier = {
+				target = BRA
+				modifier = recent_actions_Are_positive 
+			}
 		}
 	}
 
 	focus = {
 		id = WAL_Support_South_American_Nationalist_Movements
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 53
 		y = 3
 		prerequisite = { focus = WAL_Establish_A_Diplomatic_Mission_In_South_America  }
@@ -1107,36 +1460,53 @@ focus_tree = {
 		prerequisite = { focus = WAL_Cultural_Exchange_Program  }
 
 		completion_reward = {
-	
+			add_political_power = 50
+			ARG = {
+				add_popularity = {
+					ideology = nationalist 
+					popularity = 0.03
+				}
+			}
+			BRA = {
+				add_popularity = {
+					ideology = nationalist 
+					popularity = 0.03
+				}
+			}
+
 		}
 	}
 
 	focus = {
 		id = WAL_Establish_A_Welsh_Colony
 		icon = unknown
-		cost = 5
-		x = 56
+		cost = 3
+		x = 57
 		y = 3
 		prerequisite = { focus = WAL_Establish_A_Diplomatic_Mission_In_South_America  }
 		prerequisite = { focus = WAL_Establish_Diplomatic_Relations  }
 		prerequisite = { focus = WAL_Cultural_Exchange_Program  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.52
+			}
 		}
 	}
 
 	focus = {
 		id = WAL_Establish_A_South_American_Military_Expeditionary_Force
 		icon = unknown
-		cost = 5
+		cost = 3
 		x = 55
 		y = 4
 		prerequisite = { focus = WAL_Establish_A_Welsh_Colony  }
 		prerequisite = { focus = WAL_Support_South_American_Nationalist_Movements  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = wales.53
+			}
 		}
 	}
 

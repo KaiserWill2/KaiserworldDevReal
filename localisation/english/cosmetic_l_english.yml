@@ -2211,6 +2211,11 @@ ENG_England_union_flag:0 "England"
 ENG_England_union_flag_DEF:0 "England"
 ENG_England_union_flag_ADJ:0 "England"
 
+  ENG_Centrist:0 "United Kingdom"
+ ENG_Centrist_DEF:0 "United Kingdom"
+ ENG_Centrist_ADJ:0 "United Kingdom"
+
+ 
 SCO_Totalist_state:0 "The Union Of Scotland"
 SCO_Totalist_state_DEF:0 "The Union Of Scotland"
 SCO_Totalist_state_ADJ:0 "The Union Of Scotland"
@@ -2219,6 +2224,10 @@ Sco_German_Scotland:0 "Reichskommissariat Occupied Scotland"
 Sco_German_Scotland_DEF:0 "Reichskommissariat Occupied Scotland"
 Sco_German_Scotland_ADJ:0 "Reichskommissariat Occupied Scotland"
 
+  sco_uob:0 "Union Of Britain"
+  sco_uob_DEF:0 "Union Of Britain"
+  sco_uob_ADJ:0 "Union Of Britain"
+
 ENG_GLA:0 "Greater London State"
 ENG_GLA_DEF:0 "Greater London State"
 ENG_GLA_ADJ:0 "Greater London State"
@@ -2226,6 +2235,22 @@ ENG_GLA_ADJ:0 "Greater London State"
 ENG_United_Republic_of_Britannia:0 "United Republic of Britannia"
 ENG_United_Republic_of_Britannia_DEF:0 "United Republic of Britannia"
 ENG_United_Republic_of_Britannia_ADJ:0 "United Republic of Britannia"
+
+  sco_German_Britain_II:0 "Dominion Of Britain"
+ sco_German_Britain_II_DEF:0 "Dominion Of Britain"
+ sco_German_Britain_II_ADJ:0 "Dominion Of Britain"
+ 
+ NBR_new_british_republic:0 "United Republic of Britannia"
+ NBR_new_british_republic_DEF:0 "United Republic of Britannia"
+ NBR_new_british_republic_ADJ:0 "United Republic of Britannia"
+
+ GBR:0 "Dominion Of Britain"
+ GBR_DEF:0 "Dominion Of Britain"
+ GBR_ADJ:0 "Dominion Of Britain"
+
+ GBR_dominon_of_britain:0 "Dominion Of Britain"
+ GBR_dominon_of_britain_DEF:0 "Dominion Of Britain"
+ GBR_dominon_of_britain_ADJ:0 "Dominion Of Britain"
 
 FRA_Commune_Of_France:0 "Commune Of France"
 FRA_Commune_Of_France_DEF:0 "Commune Of France"
@@ -2239,9 +2264,35 @@ WAL_fascist:0 "National State Of Wales"
 WAL_fascist_DEF:0 "National State Of Wales"
 WAL_fascist_ADJ:0 "National State Of Wales"
 
+
+NWA:0 "State Of Wales"
+NWA_DEF:0 "Northern Wales"
+NWA_ADJ:0 "Northern Wales"
+
+wal_kingdom_of_wales:0 "The Kingdom Of Wales"
+wal_kingdom_of_wales_DEF:0 "The Kingdom Of Wales"
+wal_kingdom_of_wales_ADJ:0 "The Kingdom Of Wales"
+
+wal_united_kingdom_of_wales:0 "United Kingdom Of Wales"
+wal_united_kingdom_of_wales_DEF:0 "United Kingdom Of Wales"
+wal_united_kingdom_of_wales_ADJ:0 "United Kingdom Of Wales"
+
+PAT_Patagonia:0 "Kingdom Of Patagonia"
+PAT_Patagonia_DEF:0 "Kingdom Of Patagonia"
+PAT_Patagonia_ADJ:0 "Kingdom Of Patagonia"
+
 WAL_Reichskommissariat_welsch:0 "Reichskommissariat Welsch"
 WAL_Reichskommissariat_welsch_DEF:0 "Reichskommissariat Welsch"
 WAL_Reichskommissariat_welsch_ADJ:0 "Reichskommissariat Welsch"
+
+WSL_Welsh_West_Africa:0 "Welsh West Africa"
+WSL_Welsh_West_Africa_DEF:0 "Welsh West Africa"
+WSL_Welsh_West_Africa_ADJ:0 "Welsh West Africa"
+
+ WTS_Tasmania:0 "Welsh Tasmania"
+ WTS_Tasmania_DEF:0 "Welsh Tasmania"
+ WTS_Tasmania_ADJ:0 "Welsh Tasmania"
+
 
  WAL_wales_communist:0 "Union Of Wales"
  WAL_wales_communist_DEF:0 "Union Of Wales"

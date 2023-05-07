@@ -1,28 +1,29 @@
 
-state={
-	id=581
-	name="STATE_581"
-	manpower = 55810
+state = {
+	id = 581
+	name = "STATE_581"
+	manpower = 48831
 	
 	state_category = pastoral
 	
-	resources={
-		chromium = 14
-		aluminium = 9
-		oil = 43
+	resources = {
+		chromium = 40 # was: 44
+		aluminium = 27 # was: 30
 	}
 
-	history={
+	history = {
 		owner = SOV
-add_core_of = RUS
 		buildings = {
 			infrastructure = 1
 
 		}
 		add_core_of = SOV
+		add_core_of = KOM
 	}
 
-	provinces={
-		4874 7824 10216 10551 10677 11098 12393 12502 12659 13076 
+	provinces = {
+		10551 10677 11098 12393 12502 
 	}
+
+	local_supplies = 0.0 
 }

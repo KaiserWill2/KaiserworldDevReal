@@ -6695,6 +6695,11 @@ ENG_Theresa_republic:0 "Republic Of England"
 ENG_Theresa_republic_DEF:0 "Republic Of England"
 ENG_Theresa_republic_ADJ:0 "Republic Of England"
 
+ ENG_Centrist:0 "United Kingdom"
+ ENG_Centrist_DEF:0 "United Kingdom"
+ ENG_Centrist_ADJ:0 "United Kingdom"
+
+
 
 ENG_Church_Of_England:0 "Kingdom Of England"
 ENG_Church_Of_England_DEF:0 "Kingdom Of England"
@@ -6720,9 +6725,39 @@ NOF_Kingdom_Of_Northumbria:0 "Kingdom Of Northumbria"
 NOF_Kingdom_Of_Northumbria_DEF:0 "Kingdom Of Northumbria"
 NOF_Kingdom_Of_Northumbria_ADJ:0 "Kingdom Of Northumbria"
 
+ sco_German_Britain_II:0 "Dominion Of Britain"
+ sco_German_Britain_II_DEF:0 "Dominion Of Britain"
+ sco_German_Britain_II_ADJ:0 "Dominion Of Britain"
+ 
+
+  sco_uob:0 "Union Of Britain"
+  sco_uob_DEF:0 "Union Of Britain"
+  sco_uob_ADJ:0 "Union Of Britain"
+
+
+  NBR_new_british_republic:0 "United Republic of Britannia"
+ NBR_new_british_republic_DEF:0 "United Republic of Britannia"
+ NBR_new_british_republic_ADJ:0 "United Republic of Britannia"
+
+ GBR:0 "Dominion Of Britain"
+ GBR_DEF:0 "Dominion Of Britain"
+ GBR_ADJ:0 "Dominion Of Britain"
+ 
+
+ GBR_dominon_of_britain:0 "Dominion Of Britain"
+ GBR_dominon_of_britain_DEF:0 "Dominion Of Britain"
+ GBR_dominon_of_britain_ADJ:0 "Dominion Of Britain"
 
 WAL_fascist_new:0 "National State Of Wales"
 WAL_fascist_new_DEF:0 "National State Of Wales"
+
+wal_kingdom_of_wales:0 "The Kingdom Of Wales"
+wal_kingdom_of_wales_DEF:0 "The Kingdom Of Wales"
+wal_kingdom_of_wales_ADJ:0 "The Kingdom Of Wales"
+
+wal_united_kingdom_of_wales:0 "United Kingdom Of Wales"
+wal_united_kingdom_of_wales_DEF:0 "United Kingdom Of Wales"
+wal_united_kingdom_of_wales_ADJ:0 "United Kingdom Of Wales"
 
 
 WAL_Reichskommissariat_welsch:0 "Reichskommissariat Welsch"
@@ -6731,7 +6766,21 @@ WAL_Celtic_State_Of_Wales:0 "Celtic State Of Wales"
 WAL_Celtic_State_Of_Wales_DEF:0 "Celtic State Of Wales"
 WAL_Celtic_State_Of_Wales_ADJ:0 "Celtic State Of Wales"
 
+PAT_Patagonia:0 "Kingdom Of Patagonia"
+PAT_Patagonia_DEF:0 "Kingdom Of Patagonia"
+PAT_Patagonia_ADJ:0 "Kingdom Of Patagonia"
 
+WSL_Welsh_West_Africa:0 "Welsh West Africa"
+WSL_Welsh_West_Africa_DEF:0 "Welsh West Africa"
+WSL_Welsh_West_Africa_ADJ:0 "Welsh West Africa"
+
+ WTS_Tasmania:0 "Welsh Tasmania"
+ WTS_Tasmania_DEF:0 "Welsh Tasmania"
+ WTS_Tasmania_ADJ:0 "Welsh Tasmania"
+
+NWA:0 "State Of Wales"
+NWA_DEF:0 "Northern Wales"
+NWA_ADJ:0 "Northern Wales"
 
 WAL_fascist:0 "National State Of Wales"
 WAL_fascist_DEF:0 "National State Of Wales"

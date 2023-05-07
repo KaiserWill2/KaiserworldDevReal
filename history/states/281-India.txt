@@ -2,22 +2,27 @@
 state={
 	id=281
 	name="STATE_281"
-	manpower=344300
+	manpower=79300
 	
-	state_category = small_island
+	state_category = enclave
 
 	history={
 		owner = GER
 		add_core_of = MLD
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			4967 = { naval_base = 1 }
+			infrastructure = 2
+			4967 = {
+				naval_base = 1
+			}
 		}
-		victory_points = { 4967 1 }
+		victory_points = {
+			4967 1
+		}
 	}
 
 	provinces={
 		4967 
 	}
+
+	local_supplies=0.0 
 }

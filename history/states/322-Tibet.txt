@@ -1,35 +1,27 @@
-
 state={
 	id=322
 	name="STATE_322"
-	manpower = 3505600
-	
-	state_category = rural
-	
 	resources={
-		tungsten=16
-		steel=24
-		chromium=4
-		aluminium=1
-		oil=1
+		tungsten=2.000
 	}
 
 	history={
-		owner = TIB
-add_core_of = TIB
-		add_core_of = PRC
-		add_core_of = CHI
+		owner = PRC
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 3
+			infrastructure = 1
+			industrial_complex = 1
+
 		}
-		victory_points = {
-			5033 5 
-		}
+		add_core_of = PRC
+
 	}
 
 	provinces={
-		1961 1991 2010 2014 2093 2098 4900 4994 5011 5033 5094 7926 8029 8068 8121 10755 10802 10918 12784 12801 12807 5080 8059 5018 10741 8041 5102 4407 10856
+		2010 2093 4994 5011 7926 8068 10755 10918 
 	}
+	manpower=1722000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=2.0 
 }

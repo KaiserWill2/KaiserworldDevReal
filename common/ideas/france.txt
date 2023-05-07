@@ -12,7 +12,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = 0.05
+				stability_factor =  -0.05
 			}
 		}
 
@@ -26,7 +26,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = 0.05
+				stability_factor = -0.05
 			}
 		}
 		

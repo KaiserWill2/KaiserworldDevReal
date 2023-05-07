@@ -15,16 +15,17 @@ focus_tree = {
 
     focus = {
         id = sco_Secure_The_Isle
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        icon = "Icon_Secure_the_Isle_KW"
         cost = 10
 
 		x = 7
 		y = 0
 
-        completion_reward = { political_power = 100 }
-  
-        ai_will_do = {
-            factor = 1
+        completion_reward = { 
+          
+            	country_event = {
+				id = scotland.76
+			}
         }
 
     }
@@ -32,8 +33,8 @@ focus_tree = {
 
 	focus = {
         id = sco_Suppress_The_Totalists
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Suppress_the_Totalists_KW"
+        cost = 7
       
 		x = 4
 		y = 1
@@ -41,15 +42,24 @@ focus_tree = {
             factor = 1
         }
         prerequisite = { focus = sco_Secure_The_Isle }
-        completion_reward = { political_power = 100 }
+       
+        completion_reward = { 
+            country_event = {
+				id = scotland.77
+			}
+        
+        }
+            
      
 
     }
 
+    
+
 	focus = {
         id = sco_Expand_The_Empire
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Expand_the_Empire_KW"
+        cost = 7
       
 		x = 4
 		y = 2
@@ -57,15 +67,18 @@ focus_tree = {
             factor = 1
         }
         prerequisite = { focus = sco_Suppress_The_Totalists }
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            country_event = {
+				id = scotland.80
+			}
+        
+        }
     }
 
 	focus = {
         id = sco_Strengthen_The_Military
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Strengthen_the_Military_KW"
+        cost = 5
       
 		x = 5
 		y = 3
@@ -77,31 +90,34 @@ focus_tree = {
 		prerequisite = { focus = sco_Promote_German_Culture }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+           army_experience = 20
+        }
 
     }
 
 	focus = {
         id = sco_Establish_German_Dominion
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
-      
+        icon = "Icon_Establish_a_German_Dominion_KW"
+        cost = 7
 		x = 7
 		y = 1
         ai_will_do = {
             factor = 1
         }
         prerequisite = { focus = sco_Secure_The_Isle }
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            country_event = {
+				id = scotland.78
+			}
+        
+        }
     }
 
 	focus = {
         id = sco_Invest_In_The_Economy
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Invest_in_the_Economy_KW"
+        cost = 7
       
 		x = 7
 		y = 2
@@ -109,15 +125,18 @@ focus_tree = {
             factor = 1
         }
         prerequisite = { focus = sco_Establish_German_Dominion }
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            country_event = {
+				id = scotland.81
+			}
+        
+        }
     }
 
 	focus = {
         id = sco_Consolidate_The_Isles
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Consolidate_the_Isles_KW"
+        cost = 7
       
 		x = 10
 		y = 1
@@ -125,16 +144,19 @@ focus_tree = {
             factor = 1
         }
         prerequisite = { focus = sco_Secure_The_Isle }
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            country_event = {
+				id = scotland.79
+			}
+        
+        }
     }
 
 
 	focus = {
         id = sco_Promote_German_Culture
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Promote_German_Culture_KW"
+        cost = 7
       
 		x = 10
 		y = 2
@@ -142,15 +164,19 @@ focus_tree = {
             factor = 1
         }
         prerequisite = { focus = sco_Consolidate_The_Isles }
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            country_event = {
+				id = scotland.82
+			}
+        
+        }
 
     }
 
 	focus = {
         id = sco_Crush_The_Rebels
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Crush_the_Rebels_KW"
+        cost = 5
       
 		x = 9
 		y = 3
@@ -161,15 +187,22 @@ focus_tree = {
 		prerequisite = { focus = sco_Invest_In_The_Economy }
 		prerequisite = { focus = sco_Expand_The_Empire }
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            add_stability = 0.10
+            add_political_power = 50
+            add_popularity = {
+                ideology = monarchist
+                popularity = 0.05
+                
+            }
+        
+        }
     }
 
 	focus = {
         id = sco_Create_A_German_Royal_House
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Create_a_German_Loyal_House_KW"
+        cost = 4
       
 		x = 7
 		y = 4
@@ -179,8 +212,11 @@ focus_tree = {
         prerequisite = { focus = sco_Crush_The_Rebels }
 		prerequisite = { focus = sco_Strengthen_The_Military }
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            country_event = {
+				id = scotland.83
+			}
+        }
 
     }
 
@@ -197,15 +233,16 @@ focus_tree = {
         prerequisite = { focus = sco_Create_A_German_Royal_House }
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            political_power = 100
+        
+        }
     }
 
 	focus = {
         id = sco_Claim_The_Throne_Of_Britain
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Claim_the_Throne_of_Britain_KW"
+        cost = 4
       
 		x = 7
 		y = 5
@@ -215,16 +252,20 @@ focus_tree = {
         prerequisite = { focus = sco_Create_A_German_Royal_House }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            country_event = {
+				id = scotland.84
+			}
+        
+        }
 
     }
 
 
 	focus = {
         id = sco_Establish_A_Royal_Court
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Establish_a_Royal_Court_KW"
+        cost = 7
       
 		x = 4
 		y = 6
@@ -234,15 +275,19 @@ focus_tree = {
         prerequisite = { focus = sco_Claim_The_Throne_Of_Britain }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_political_power = 100
+            add_stability = 0.05
+            add_war_support = 0.05
+        
+        }
 
     }
 
 	focus = {
         id = sco_Marriage_Alliance
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Marriage_Alliance_KW
+        cost = 6
       
 		x = 5
 		y = 7
@@ -252,15 +297,18 @@ focus_tree = {
         prerequisite = { focus = sco_Establish_A_Royal_Court }
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            country_event = {
+				id = scotland.85
+			}
+        
+        }
     }
 
 	focus = {
         id = sco_Secure_The_Support_Of_The_Nobility
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Secure_the_Support_of_the_Nobility_KW"
+        cost = 7
       
 		x = 7
 		y = 6
@@ -270,15 +318,17 @@ focus_tree = {
         prerequisite = { focus = sco_Claim_The_Throne_Of_Britain }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_political_power = 50
+        
+        }
 
     }
 
 	focus = {
         id = sco_Win_Over_The_People
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = "Icon_Win_Over_the_People_KW"
+        cost = 7
       
 		x = 10
 		y = 6
@@ -288,15 +338,21 @@ focus_tree = {
         prerequisite = { focus = sco_Claim_The_Throne_Of_Britain }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_political_power = 10
+            add_popularity = {
+                ideology = monarchist
+                popularity = 0.05
+            }
+        
+        }
 
     }
 
 	focus = {
         id = sco_Establish_A_New_Parliament
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Establish_a_New_Parliament_KW
+        cost = 6
       
 		x = 9
 		y = 7
@@ -306,15 +362,19 @@ focus_tree = {
         prerequisite = { focus = sco_Win_Over_The_People }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            country_event = {
+				id = scotland.86
+			}
+        
+        }
 
     }
 
 	focus = {
         id = sco_Coronation_Ceremony
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Coronation_Ceremony_KW
+        cost = 5
       
 		x = 7
 		y = 8
@@ -325,15 +385,21 @@ focus_tree = {
         prerequisite = { focus = sco_Marriage_Alliance }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            country_event = {
+				id = scotland.87
+			}
+      
+            
+        
+        }
 
     }
 
 	focus = {
         id = sco_Establish_A_Royal_Army
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Establish_a_Royal_Army_KW_copy
+        cost = 5
       
 		x = 5
 		y = 9
@@ -344,15 +410,25 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            army_experience = 10
+            create_field_marshal = {
+                name = "Jacob Smith"
+                picture = "Portrait_France_Maurice_Gamelin.dds"
+                traits = { defensive_doctrine }
+                skill = 2
+                attack_skill = 1
+                defense_skill = 3
+                planning_skill = 2
+                logistics_skill = 1
+            }
+        }
     }
 
 	focus = {
         id = sco_Expand_The_Royal_Navy
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Expand_the_Royal_Navy_KW
+        cost = 5
       
 		x = 7
 		y = 9
@@ -363,16 +439,23 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            navy_experience = 10
+            create_navy_leader = {
+                name = "David Brooks"
+                picture = "Portrait_France_Francois_Darlan.dds"
+                traits = { superior_tactician }
+                skill = 3
+            }
+        
+        }
     }
 
 	
 	focus = {
         id = sco_Create_A_Royal_Airforce
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Create_a_Royal_Air_Force_KW_copy
+        cost = 5
       
 		x = 9
 		y = 9
@@ -383,16 +466,26 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            air_experience  = 10
+			create_corps_commander = {
+				name = "Gordon Salmond"
+				traits = { trickster brilliant_strategist }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 3
+			}
+        
+        }
     }
 
 
 	focus = {
         id = sco_Colonial_Expansion
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Colonial_Expansion_KW_copy
+        cost = 5
       
 		x = 3
 		y = 10
@@ -405,15 +498,18 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            country_event = {
+				id = scotland.88
+			}
+        
+        }
     }
 
 	focus = {
         id = sco_Establishing_Overseas_Territories
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Establish_Overseas_Territories_KW_copy
+        cost = 3
       
 		x = 2
 		y = 11
@@ -425,16 +521,26 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            add_stability = -0.1
+            add_war_support = 0.05
+            add_political_power = 20
+            create_wargoal = {
+                type = puppet_wargoal_focus
+                target = CAF
+            }
+            create_wargoal = {
+                type = puppet_wargoal_focus
+                target = GUY
+            }
+        }
     }
 
 
 	focus = {
         id = sco_Encouraging_Immigration
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Encourage_Immigration_KW_copy
+        cost = 3
       
 		x = 1
 		y = 12
@@ -446,16 +552,17 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            add_political_power = 10
+            add_stability = 0.05
+        }
     }
 
 	
 	focus = {
         id = sco_Expanding_German_Influence
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Expand_German_Influence_KW_copy
+        cost = 3
       
 		x = 4
 		y = 11
@@ -464,18 +571,18 @@ focus_tree = {
         }
         prerequisite = { focus = sco_Colonial_Expansion }
    
-
-
-
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            add_political_power = 100
+            add_command_power = 10
+            
+        
+        }
     }
 
 	focus = {
         id = sco_Developing_New_Agricultural_Land
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Developing_New_Agricultural_Land_KW_copy
+        cost = 3
       
 		x = 5
 		y = 12
@@ -487,17 +594,25 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            add_political_power = 150
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+	
+		
+        
+        }
     }
 
 
 
 	focus = {
         id = sco_EEstablishing_New_Industries
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Establishing_New_Industries_KW_copy
+        cost = 3
       
 		x = 3
 		y = 12
@@ -509,16 +624,34 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_ideas = establishing_new_industries
+            add_building_construction = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = dockyard
+				level = 5
+				instant_build = yes
+			}
+		
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+			}
+        
+        }
 
     }
 
 
 	focus = {
         id = sco_Establish_A_New_Commonwealth
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Establish_a_New_Commonwealth_KW_copy
+        cost = 5
       
 		x = 11
 		y = 10
@@ -531,15 +664,19 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            country_event = {
+				id = scotland.89
+			}
+        
+        }
 
     }
 
 	focus = {
         id = sco_Establishing_The_New_Commonwealth
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Establishing_The_New_Commonwealth_KW_copy
+        cost = 5
       
 		x = 11
 		y = 11
@@ -548,16 +685,17 @@ focus_tree = {
         }
         prerequisite = { focus = sco_Establish_A_New_Commonwealth }
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_ideas = commonwealth_of_nations
+        }
 
     }
 
 
 	focus = {
         id = sco_Building_A_Global_Trading_Network
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Building_a_Global_Trading_Network_KW_copy
+        cost = 3
       
 		x = 10
 		y = 12
@@ -566,16 +704,18 @@ focus_tree = {
         }
         prerequisite = { focus = sco_Establishing_The_New_Commonwealth }
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_ideas = building_a_global_trading_network
+        
+        }
 
     }
 
 
 	focus = {
         id = sco_Protecting_The_New_Commonwealth
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Protecting_the_New_Commonwealth_KW_copy
+        cost = 3
       
 		x = 12
 		y = 12
@@ -584,8 +724,13 @@ focus_tree = {
         }
         prerequisite = { focus = sco_Establishing_The_New_Commonwealth }
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_political_power = -25
+            add_stability = 0.1
+            add_war_support = 0.05
+         
+        
+        }
 
     }
 
@@ -593,16 +738,23 @@ focus_tree = {
 
     focus = {
         id = sco_Underground_Resistance
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
+        icon = Icon_Underground_Resistance_KW
         cost = 10
 
 		x = 23
 		y = 0
-
-        completion_reward = { political_power = 100 }
-  
-        ai_will_do = {
-            factor = 1
+        trigger = {
+            has_country_flag = The_rebels_Rise
+        }
+        allow_branch = {
+            has_country_flag = The_rebels_Rise
+            sparking_the_uprise = yes
+        }
+        completion_reward = { 
+            country_event = {
+				id = scotland.94
+			}
+        
         }
 
     }
@@ -610,8 +762,8 @@ focus_tree = {
 
 	focus = {
         id = sco_Sabotage_And_Disruption
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Sabotage_and_Distruption_KW
+        cost = 4
       
 		x = 20
 		y = 1
@@ -619,15 +771,19 @@ focus_tree = {
             factor = 1
         }
         prerequisite = { focus = sco_Underground_Resistance }
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            add_ideas  = sabotage_and_disruption
+            damage_building = {
+                type = infrastructure
+                damage = 1
+            }
+        }
     }
 
 	focus = {
         id = sco_Coordinating_With_Allies
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Coordinating_with_Allies_KW_copy
+        cost = 4
       
 		x = 21
 		y = 2
@@ -638,15 +794,18 @@ focus_tree = {
 		prerequisite = { focus = sco_Recruitment_And_Training }
         prerequisite = { focus = sco_Establishing_Safe_Havens }
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_stability = 0.05
+            add_war_support = 0.1
+         
+        }
 
     }
 
 	focus = {
         id = sco_Propaganda_War
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Propaganda_War_KW_copy
+        cost = 4
       
 		x = 25
 		y = 2
@@ -657,15 +816,20 @@ focus_tree = {
 		prerequisite = { focus = sco_Recruitment_And_Training }
         prerequisite = { focus = sco_Establishing_Safe_Havens }
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_popularity = {
+                ideology = centrist
+                popularity = 0.05
+            }
+        add_political_power = 20
+        }
 
     }
 
 	focus = {
         id = sco_Unity_Talks
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Unity_Talks_KW_copy
+        cost = 5
       
 		x = 23
 		y = 3
@@ -676,15 +840,18 @@ focus_tree = {
         prerequisite = { focus = sco_Coordinating_With_Allies }
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            country_event = {
+				id = scotland.95
+			}
+        
+        }
     }
 
 	focus = {
         id = sco_Smuggle_Weapons_And_Supplies
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Smuggle_Weapons_and_Supplies_KW_copy
+        cost = 4
       
 		x = 21
 		y = 4
@@ -692,18 +859,25 @@ focus_tree = {
             factor = 1
         }
         prerequisite = { focus = sco_Unity_Talks }
+   
 
 
+        completion_reward = { 
 
-        completion_reward = { political_power = 100 }
-     
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -1000
+                producer = GER
+            }
+            
+        }
 
     }
 
 	focus = {
         id = sco_Assassination_And_Kidnapping
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Assassinations_and_Kidnappings_KW_copy
+        cost = 4
       
 		x = 25
 		y = 4
@@ -714,16 +888,21 @@ focus_tree = {
 
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            
+            add_war_support = -0.02
+            add_stability = -0.02
+            add_political_power = -50
+        
+        }
 
     }
 
 	focus = {
         id = sco_Spark_An_Uprising
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
-      
+        icon = Icon_Spark_an_Uprising_KW_copy
+        cost = 5
+       
 		x = 23
 		y = 5
         ai_will_do = {
@@ -732,18 +911,25 @@ focus_tree = {
         prerequisite = { focus = sco_Assassination_And_Kidnapping }
         prerequisite = { focus = sco_Smuggle_Weapons_And_Supplies }
 
-
-
-        completion_reward = { political_power = 100 }
      
+
+        completion_reward = { 
+            set_country_flag =  sparking_the_uprise
+            set_country_flag = sparking_the_uprise
+            mark_focus_tree_layout_dirty = yes
+            country_event = {
+				id = scotland.97
+			}
+        
+        }
 
     }
 
 
 	focus = {
         id = sco_Recruitment_And_Training
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Recruitment_and_Training_KW
+        cost = 4
       
 		x = 23
 		y = 1
@@ -751,16 +937,18 @@ focus_tree = {
             factor = 1
         }
         prerequisite = { focus = sco_Underground_Resistance }
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            add_ideas = recruitment_and_training_rebels
+          
+        }
 
     }
 
 
 	focus = {
         id = sco_Establishing_Safe_Havens
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Establish_Safe_Havens_KW_copy
+        cost = 4
       
 		x = 26
 		y = 1
@@ -768,36 +956,62 @@ focus_tree = {
             factor = 1
         }
         prerequisite = { focus = sco_Underground_Resistance }
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            add_building_construction = {
+                type = bunker
+                level = 3
+                instant_build = yes
+                province = 129
+            }
+        
+        }
     }
 
 
 
 	focus = {
         id = sco_Reunite_The_Country
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Reunite_the_Country_KW_copy
+        cost = 5
       
 		x = 23
 		y = 7
         ai_will_do = {
             factor = 1
         }
-
+        available = {
+            owns_state = 126
+            owns_state = 125
+            owns_state = 127
+            owns_state = 128
+            owns_state = 136
+            owns_state = 129
+ 
+        }
+        trigger = {
+            has_country_flag = sparking_the_uprise
+        }
+        allow_branch = {
+            has_country_flag = sparking_the_uprise
+            sparking_the_uprise = yes
+        }
+    
 			available = { has_completed_focus = sco_Spark_An_Uprising }
 
-        completion_reward = { political_power = 100 }
-     
+            completion_reward = { 
+                country_event = {
+                    id = scotland.118
+                } 
+            
+            }
 
     }
 
 
 	focus = {
         id = sco_Consolidate_Power
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Consolidate_Power_KW_copy
+        cost = 3
       
 		x = 20
 		y = 8
@@ -807,15 +1021,18 @@ focus_tree = {
 
 		prerequisite = { focus = sco_Reunite_The_Country }
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+           add_stability = 0.05
+           add_political_power = 10
+        
+        }
 
     }
 
 	focus = {
         id = sco_Draft_A_Constitution
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Draft_a_Constitution_KW_copy
+        cost = 3
       
 		x = 23
 		y = 8
@@ -824,17 +1041,18 @@ focus_tree = {
         }
 
 		prerequisite = { focus = sco_Reunite_The_Country }
-
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+           add_political_power = 100
+        
+        }
 
     }
 
 
 	focus = {
         id = sco_Pursue_Justice
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Pursue_Justice_KW_copy
+        cost = 3
       
 		x = 26
 		y = 8
@@ -844,15 +1062,18 @@ focus_tree = {
 
 		prerequisite = { focus = sco_Reunite_The_Country }
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            country_event = {
+				id = scotland.98
+			}
+        
+        }
     }
 
 	focus = {
         id = sco_National_Unity_Conference
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_National_Unity_Conference_KW_copy
+        cost = 4
       
 		x = 23
 		y = 9
@@ -864,17 +1085,20 @@ focus_tree = {
 		prerequisite = { focus = sco_Consolidate_Power }
 		prerequisite = { focus = sco_Draft_A_Constitution }
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            country_event = {
+				id = scotland.103
+			}
+        
+        }
     }
 
 
 	
 	focus = {
         id = sco_Building_Trust
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Build_Trust_KW_copy
+        cost = 3
       
 		x = 20
 		y = 10
@@ -884,17 +1108,18 @@ focus_tree = {
 
 		prerequisite = { focus = sco_National_Unity_Conference }
 
-
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+          add_political_power = 20
+          add_stability = 0.01
+       
+        }
     }
 
 
 	focus = {
         id = sco_National_Reconcillation_Program
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_National_Reconciliation_Program_KW_copy
+        cost = 3
       
 		x = 21
 		y = 11
@@ -905,17 +1130,20 @@ focus_tree = {
 		prerequisite = { focus = sco_Building_Trust }
 
 
-        completion_reward = { political_power = 100 }
-     
-
+        completion_reward = { 
+            add_political_power = 200
+        
+            
+      
+        }
     }
 
 
 
 	focus = {
         id = sco_Constitutional_Convention
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Constitutional_Convention_KW_copy
+        cost = 3
       
 		x = 26
 		y = 10
@@ -926,8 +1154,12 @@ focus_tree = {
 		prerequisite = { focus = sco_National_Unity_Conference }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            country_event = {
+				id = scotland.104
+			}
+        
+        }
 
     }
 
@@ -935,8 +1167,8 @@ focus_tree = {
 
 	focus = {
         id = sco_National_Unity_Cabinet
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_National_Unity_Cabinet_KW_copy
+        cost = 3
       
 		x = 25
 		y = 11
@@ -946,17 +1178,19 @@ focus_tree = {
 
 		prerequisite = { focus = sco_Constitutional_Convention }
 
-
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+          
+            add_ideas = unity_cabinet
+        
+        }
 
     }
 
 	
 	focus = {
         id = sco_Interim_Government
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Interim_Government_KW_copy
+        cost = 5
       
 		x = 23
 		y = 12
@@ -968,15 +1202,18 @@ focus_tree = {
 		prerequisite = { focus = sco_National_Reconcillation_Program }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = { 
+            country_event = {
+				id = scotland.105
+			}
+        }
 
     }
 
 	focus = {
         id = sco_Internal_Struggles
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Internal_Struggle_KW_copy
+        cost = 4
       
 		x = 18
 		y = 13
@@ -986,15 +1223,19 @@ focus_tree = {
 		prerequisite = { focus = sco_Interim_Government }
 		mutually_exclusive = { focus = sco_Building_United_Front }
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            country_event = {
+                id = scotland.111
+            } 
+         }
      
 
     }
 
 	focus = {
         id = sco_Economic_Collapse
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Economic_Collapse_KW_copy
+        cost = 3
       
 		x = 16
 		y = 14
@@ -1004,15 +1245,21 @@ focus_tree = {
 		prerequisite = { focus = sco_Internal_Struggles }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+
+            add_political_power = -200
+            add_stability = -0.2
+            add_war_support = -0.3
+            add_ideas = Economic_Collapse
+         }
      
 
     }
 
 	focus = {
         id = sco_Factionalism
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Factionalism_KW_copy
+        cost = 3
       
 		x = 20
 		y = 14
@@ -1022,15 +1269,19 @@ focus_tree = {
 		prerequisite = { focus = sco_Internal_Struggles }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            country_event = {
+                id = scotland.112
+            } 
+         }
      
 
     }
 
 	focus = {
-        id = sco_Civil_War
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        id = sco_Emergency_Elections
+        icon = Icon_Emergency_Elections_KW_copy
+        cost = 2
       
 		x = 18
 		y = 15
@@ -1040,15 +1291,126 @@ focus_tree = {
 		prerequisite = { focus = sco_Economic_Collapse }
 		prerequisite = { focus = sco_Factionalism }
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            country_event = {
+                id = scotland.113
+            } 
+         }
      
 
     }
 
+    focus = {
+        id = sco_A_Conservative_Britain
+        icon = Icon_Jeremy_Hunt_and_the_Conservatives_KW_copy
+        cost = 5
+        x = 15
+		y = 16
+		
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Emergency_Elections }
+        mutually_exclusive = {
+            focus = sco_A_Liberal_Britain
+            focus = sco_A_Social_Democratic_Britain
+            focus = sco_The_Totalist_Takeover
+        }
+
+        completion_reward = { 
+            country_event = {
+                id = scotland.114
+            } 
+         }
+     
+
+    }
+
+
+    focus = {
+        id = sco_A_Liberal_Britain
+        icon = Icon_Nick_Clegg_and_the_Liberals_KW_copy
+        cost = 5
+      
+		x = 17
+		y = 16
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Emergency_Elections }
+        mutually_exclusive = {
+            focus = sco_A_Conservative_Britain
+            focus = sco_A_Social_Democratic_Britain
+            focus = sco_The_Totalist_Takeover
+        }
+        completion_reward = { 
+            country_event = {
+                id = scotland.115
+            } 
+         }
+     
+
+    }
+
+
+    focus = {
+        id = sco_A_Social_Democratic_Britain
+        icon = Icon_Andy_Burnham_and_the_Social_Democrats_KW_copy
+        cost = 5
+      
+        x = 19
+		y = 16
+        ai_will_do = {
+            factor = 1
+        }
+		prerequisite = { focus = sco_Emergency_Elections }
+        mutually_exclusive = {
+            focus = sco_A_Conservative_Britain
+            focus = sco_A_Liberal_Britain
+            focus = sco_The_Totalist_Takeover
+        }
+
+        completion_reward = { 
+            country_event = {
+                id = scotland.116
+            } 
+         }
+     
+
+    }
+
+
+	focus = {
+        id = sco_The_Totalist_Takeover
+        icon = Icon_Jeremy_Corbyn_and_the_Totalist_Takeover_KW_copy
+        cost = 5
+      
+        x = 21
+		y = 16
+        ai_will_do = {
+            factor = 1
+        }
+        prerequisite = { focus = sco_Emergency_Elections }
+        mutually_exclusive = {
+            focus = sco_A_Conservative_Britain
+            focus = sco_A_Liberal_Britain
+            focus = sco_A_Social_Democratic_Britain
+        }
+        completion_reward = { 
+            country_event = {
+                id = scotland.117
+            } 
+         }
+     
+
+    }
+
+
+
 	focus = {
         id = sco_Building_United_Front
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Building_the_United_Front_KW_copy
+        cost = 4
       
 		x = 28
 		y = 13
@@ -1058,15 +1420,17 @@ focus_tree = {
 		prerequisite = { focus = sco_Interim_Government }
 		mutually_exclusive = { focus = sco_Internal_Struggles }
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            add_political_power = 10
+     }
      
 
     }
 
 	focus = {
         id = sco_Compromise_And_Cooperation
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Compromise_and_Cooperation_KW_copy
+        cost = 3
       
 		x = 25
 		y = 14
@@ -1076,15 +1440,19 @@ focus_tree = {
 		prerequisite = { focus = sco_Building_United_Front }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+         
+            add_stability = 0.05
+            add_political_power = 10
+    }
      
 
     }
 
 	focus = {
         id = sco_Negotiate_Power_Sharing
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Negociate_Power_Sharing_KW_copy
+        cost = 3
       
 		x = 25
 		y = 15
@@ -1094,15 +1462,28 @@ focus_tree = {
 		prerequisite = { focus = sco_Compromise_And_Cooperation }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = {
+            add_popularity = {
+                ideology = centrist
+                popularity = 0.05
+            }
+            add_popularity = {
+                ideology = national_conservative
+                popularity = 0.05
+            }
+            add_popularity = {
+                ideology = new_democrat
+                popularity = 0.05
+            }
+        }
      
 
     }
 
 	focus = {
         id = sco_Strengthening_The_Coalition
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Strenghtening_the_Coalition_KW_copy
+        cost = 3
       
 		x = 24
 		y = 16
@@ -1112,15 +1493,19 @@ focus_tree = {
 		prerequisite = { focus = sco_Negotiate_Power_Sharing }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = {  
+            country_event = {
+            id = scotland.106
+        } 
+    }
      
 
     }
 
 	focus = {
         id = sco_Building_A_Shared_Identity
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Building_a_Shared_Identity_KW_copy
+        cost = 3
       
 		x = 26
 		y = 16
@@ -1130,7 +1515,7 @@ focus_tree = {
 		prerequisite = { focus = sco_Negotiate_Power_Sharing }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { add_political_power = 30 }
      
 
     }
@@ -1138,8 +1523,8 @@ focus_tree = {
 
 	focus = {
         id = sco_Constitutional_Reform
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Constitutional_Reform_KW_copy
+        cost = 3
       
 		x = 25
 		y = 17
@@ -1150,7 +1535,11 @@ focus_tree = {
 		prerequisite = { focus = sco_Strengthening_The_Coalition }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            country_event = {
+                id = scotland.107
+            } 
+         }
      
 
     }
@@ -1158,8 +1547,8 @@ focus_tree = {
 
 	focus = {
         id = sco_Infrastructure_Development
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Infrastructure_Development_KW_copy
+        cost = 3
       
 		x = 28
 		y = 14
@@ -1169,7 +1558,18 @@ focus_tree = {
 		prerequisite = { focus = sco_Building_United_Front }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = {
+
+            add_building_construction = {
+                type = infrastructure
+                level = 3
+            }
+
+            add_building_construction = {
+                type = industrial_complex
+                level = 3
+            }
+    }
      
 
     }
@@ -1177,8 +1577,8 @@ focus_tree = {
 	
 	focus = {
         id = sco_Rebuild_Infrastructure
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Rebuild_Infrastructure_KW_copy
+        cost = 3
       
 		x = 28
 		y = 15
@@ -1188,16 +1588,31 @@ focus_tree = {
 		prerequisite = { focus = sco_Infrastructure_Development }
 
 
-        completion_reward = { political_power = 100 }
-     
+        completion_reward = {  
+            
+            set_building_level = {
+                type = infrastructure
+                level = 7
+                instant_build = yes
+            }
+
+            set_building_level = {
+                type = industrial_complex
+                level = 7
+                instant_build = yes
+            }
+        
+        
+       
+    }
 
     }
 
 		
 	focus = {
         id = sco_Economic_Recovery
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Economic_Recovery_KW_copy
+        cost = 3
       
 		x = 28
 		y = 16
@@ -1207,15 +1622,19 @@ focus_tree = {
 		prerequisite = { focus = sco_Rebuild_Infrastructure }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            
+            add_ideas = Economic_recovery
+
+         }
      
 
     }
 		
 	focus = {
         id = sco_Providing_For_The_Displaced
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Providing_for_the_Displaced_KW_copy
+        cost = 3
       
 		x = 28
 		y = 17
@@ -1225,15 +1644,19 @@ focus_tree = {
 		prerequisite = { focus = sco_Economic_Recovery }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            add_stability = 0.05
+            add_political_power = 10
+       
+    }
      
 
     }
 
 	focus = {
         id = sco_Rebuilding_The_Military
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Rebuilding_the_Military_KW_copy
+        cost = 3
       
 		x = 30
 		y = 14
@@ -1243,15 +1666,20 @@ focus_tree = {
 		prerequisite = { focus = sco_Building_United_Front }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            
+            add_command_power = 10
+            add_war_support = 0.10
+
+         }
      
 
     }
 
 	focus = {
         id = sco_Establish_A_National_Army
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Establish_A_National_Army_KW_copy
+        cost = 3
       
 		x = 31
 		y = 15
@@ -1261,7 +1689,11 @@ focus_tree = {
 		prerequisite = { focus = sco_Rebuilding_The_Military }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            
+            add_ideas = establishing_new_national_army
+
+         }
      
 
     }
@@ -1269,8 +1701,8 @@ focus_tree = {
 
 	focus = {
         id = sco_Establishing_A_New_National_Defense
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_Establishing_a_New_National_Defense_KW_copy
+        cost = 3
       
 		x = 31
 		y = 16
@@ -1280,15 +1712,22 @@ focus_tree = {
 		prerequisite = { focus = sco_Establish_A_National_Army }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+        
+            add_research_slot = 1
+        add_political_power = 100 
+        add_stability = 0.1
+		add_war_support = 0.1
+        
+    }
      
 
     }
 
 	focus = {
         id = sco_International_Engagement
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_International_Engagement_KW_copy
+        cost = 3
       
 		x = 31
 		y = 17
@@ -1298,15 +1737,20 @@ focus_tree = {
 		prerequisite = { focus = sco_Establishing_A_New_National_Defense }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            country_event = {
+                id = scotland.108
+            } 
+
+         }
      
 
     }
 
 	focus = {
         id = sco_A_New_Britain
-        icon = "GFX_goal_generic_civilian_nuclear_reactor"
-        cost = 10
+        icon = Icon_A_New_Britain_KW_copy
+        cost = 2
       
 		x = 28
 		y = 18
@@ -1318,7 +1762,11 @@ focus_tree = {
 		prerequisite = { focus = sco_Constitutional_Reform }
 
 
-        completion_reward = { political_power = 100 }
+        completion_reward = { 
+            country_event = {
+                id = scotland.109
+            } 
+         }
      
 
     }

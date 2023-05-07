@@ -2,6 +2,410 @@ ideas = {
 
 
     country = {	
+        
+        Imrpoved_Infrastructure = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = unknown
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                add_political_power = 100
+                add_building_construction_speed = 0.2
+                add_building_slots = 1
+
+            
+            }
+        }
+        
+        
+        Inspecting_the_ground = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = unknown
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                add_political_power = 100
+                add_building_construction_speed = 0.2
+                add_building_slots = 1
+
+            
+            }
+        }
+        
+        local_workforce = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = unknown
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                add_building_construction_speed = 0.05
+
+            
+            }
+        }
+        
+        
+        caribbean_defense_force = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = unknown
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                army_org = 0.1
+                recruitable_population = 0.05
+                division_attack = 0.05
+                division_defense = 0.05
+                planning_speed = 0.05
+                stability_factor = 0.05
+                war_support_factor = 0.05
+            
+            }
+        }
+        
+        
+        plantation_economy = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = unknown
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                
+                add_state_province_local_resources = {
+                    resources = { oil rubber }
+                    factor = 0.05
+                    has_building = plantation
+                }
+            
+            }
+        }
+        
+
+        sabotage_england = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = english_sabotage_icon
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                
+                operative_slot = 1
+				operation_make_resistance_contacts_outcome = 0.15
+				operation_boost_resistance_outcome = 0.15
+				target_sabotage_factor = 0.1
+            
+            }
+        }
+        
+        
+        sabotage_england = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = english_sabotage_icon
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                
+                operative_slot = 1
+				operation_make_resistance_contacts_outcome = 0.15
+				operation_boost_resistance_outcome = 0.15
+				target_sabotage_factor = 0.1
+            
+            }
+        }
+        
+        
+        
+        welsh_intelligence = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = welsh_intel_icon
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                
+                army_intelligence_factor = 0.2
+                navy_intelligence_factor = 0.2
+                air_intelligence_factor = 0.2
+                ideology_drift_defence = 0.2
+              
+            }
+        }
+        
+        tribal_heritage = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = wales_tribes_idea
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                
+                manpower_factor = 0.05
+                resistance_target = -0.1
+                recruitable_population_factor = 0.1
+            }
+          }
+    
+
+        expanding_The_Economy = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = expanding_the_market_pic
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+             
+            
+            modifier = {
+                
+                construction_speed_factor = 0.1
+                research_time_factor = -0.05
+                factory_output_factor = 0.05
+                civilian_factory_construction_speed_factor = 0.1
+                infrastructure_construction_speed_factor = 0.1
+
+              
+            }
+        }
+        
+
+        welsh_national_identity = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = national_identityWAL
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+       
+                research_bonus = {
+                    research_slot = 1
+                    bonus = 0.1
+                }
+            
+            modifier = {
+                
+           local_manpower_factor = 0.1
+
+              
+            }
+        
+        
+        New_automation_plan = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = 5_yea_auto
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                
+                global_manpower_factor = -0.05
+                add_building_construction_speed = 0.15
+                add_building_slots_factor = 0.10
+                add_building_construction_speed = 0.15
+              
+            }
+        }
+        
+        New_Tax = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+        
+            picture = welsh_new_tax
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                
+                add_consumer_goods_factor = -0.05
+                add_building_construction_speed = 0.15
+                add_factory_output = 0.05
+              
+            }
+        }
+        
+        
+        Welsh_Education = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+            
+            picture = welsh_educat
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                
+                welsh_nationalism_popularity = 0.05
+                national_unity = 0.02
+                education_efficiency_factor = 0.1
+            }
+        }
+        
+        loyalty_military_idea = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+            
+            picture = miltiary_loyalty
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                fascist_drift = 0.05
+                every_state = {
+                    limit = {
+                        has_garrison = yes
+                    }
+                    add_popularity = {
+                        ideology = fascist_drift
+                        amount = 0.02
+                    }
+                }
+                military_factory_construction_speed = 0.1
+                recruitable_population_factor = 0.05
+                army_experience_gain = 0.25
+                division_training_time = -0.1
+            }
+        }
+
+        
+        New_ideological_direction = {
+            allowed = {
+				original_tag = WAL
+                always = no
+            }
+            
+            picture = new_ideolo_direct
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+				political_power_gain = 0.1
+                justify_war_goal_time = 0.1
+                stability_factor = 0.05
+            }
+        }
+	
+
 
         idea_The_Dragon_Rises = {
             allowed = {
@@ -26,7 +430,7 @@ ideas = {
 
 
     
-    country = {	
+
 
         idea_expanding_coal_operations = {
             allowed = {
@@ -47,13 +451,9 @@ ideas = {
                 local_resources_factor = 0.3
             }
         }
-	}
+	
 
-
-
-
-
-
+    }
 
 
 }	

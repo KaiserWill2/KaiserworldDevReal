@@ -278,6 +278,35 @@
  idea_soviet_peaceful_foreign_policy:0 "Peaceful Foreign Policy"
  idea_admiral_winston:0 "Admiral Winston"
 
+
+#WALES#
+  New_ideological_direction:0 "New Ideological Direction"
+  loyalty_military_idea:0 "Military Loyalty"
+  Welsh_Education:0 "A New Type Of Welsh Education"
+  New_Tax:0 "New Welsh Tax"
+  New_automation_plan:0 "New Automation Plan"
+  welsh_national_identity:0 "Welsh National Identity"
+  expanding_The_Economy:0 "Expanding The Economy"
+  sabotage_england:0 "Sabotage England"
+ tribal_heritage:0 "Tribal Heritages"
+ plantation_economy:0 "Platation Economy"
+ caribbean_defense_force:0 "Caribbean Defense Force"
+ local_workforce:0 "Local African Workforce"
+ Inspecting_the_ground:0 "Inspecting The Ground"
+ Imrpoved_Infrastructure:0 "Improved Infrastructure"
+
+
+ #Scotland#
+ establishing_new_industries:0 "Establishing New Industries"
+ commonwealth_of_nations:0 "The Commonwealth Of Nations"
+ building_a_global_trading_network:0 "Building A Global Trading Network"
+ sabotage_and_disruption:0 "Sabotage And Disruption"
+ recruitment_and_training_rebels:0 "Recruitment And Trianing Rebels"
+ unity_cabinet:0 "National Unity Cabinet"
+ Economic_Collapse:0 "Economic Collapse"
+ Economic_recovery:0 "Economic Recovery"
+ establishing_new_national_army:0 "Establishing A National Army"
+
 #Falklands##
 Falkland_oil_boom:0 "The Falkland Oil Boom"
 Falkland_oil_boom_desc:0 "After the discovery of oil, the Falklands are now an economically rich nation who holds vast amounts of wealth and whose citizens live the lives of luxury."

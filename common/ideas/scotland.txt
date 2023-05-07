@@ -2,6 +2,203 @@ ideas = {
 
     country = {	
 
+        
+          
+        establishing_new_national_army = {
+            allowed = {
+                always = no
+            }
+            
+            picture = new_national_arm
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                army_morale = 10
+                army_org_factor = 0.3
+                coordination_bonus = 0.3
+                planning_speed = 0.2
+                army_attack_factor = 0.5
+            }
+        }
+
+        
+        Economic_recovery = {
+            allowed = {
+                always = no
+            }
+            
+            picture = economic_recovery
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                factory_construction_speed = 0.05
+                production_speed_buildings_factor = 0.5
+                production_speed_industrial_complex_factor = 0.5
+                industrial_capacity_factory = 0.3
+                research_speed_factor = 0.5
+
+            }
+        }
+        
+        Economic_Collapse = {
+            allowed = {
+                always = no
+            }
+            
+            picture = economic_collpase_idea
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                add_war_support = -0.3
+                add_consumer_goods_factor = 0.5
+                add_building_slots_factor = -0.5
+                add_equipment_factor = -0.5
+                add_national_unity = -0.3
+                add_war_exhaustion = 0.3
+                add_resource_factor = -0.5
+            }
+        }
+
+
+        unity_cabinet = {
+            allowed = {
+                always = no
+            }
+            
+            picture = unity_cabinet
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                civil_war_involvement_tension = 0.5
+                opinion_gain_monthly = 5
+                party_popularity_stability_factor = 0.3
+                political_power_gain = 0.3
+
+            }
+        }
+        
+        recruitment_and_training_rebels = {
+            allowed = {
+                always = no
+            }
+            
+            picture = training_recruitment
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                resistance_activity = 0.2
+                recruitable_population_factor = 0.3
+
+            }
+        }
+	
+
+        sabotage_and_disruption = {
+            allowed = {
+                always = no
+            }
+            
+            picture = sabotage_disrupt
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                coordination_bonus = 0.3
+                resistance_damage_to_garrison_on_our_occupied_states = 0.5
+                fortification_damage = 0.4
+
+            }
+        }
+	
+            
+        building_a_global_trading_network = {
+            allowed = {
+                always = no
+            }
+            
+            picture = global_trade_network
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                faction_trade_opinion_factor = 0.5
+                trade_opinion_factor = 0.3
+
+
+            }
+        }
+	
+        
+        commonwealth_of_nations = {
+            allowed = {
+                always = no
+            }
+            
+            picture = commonwealth_of_nations
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+                monthly_population = 0.5
+                research_sharing_per_country_bonus = 0.2
+                political_power_gain = 0.3
+
+            }
+        }
+	
+        
+        establishing_new_industries = {
+            allowed = {
+                always = no
+            }
+            
+            picture = new_factories_idea
+            removal_cost = -1
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            modifier = {
+				research_time_factor = -0.10
+			factory_output = 0.05
+			build_cost_factor = -0.05
+			industrial_capacity_factor = 0.10
+			industrial_efficiency_factor = 0.05
+			factory_input_factor = 0.05
+            }
+        }
+	
+
         idea_Scottish_Resources = {
             allowed = {
                 always = no
@@ -390,303 +587,270 @@ ideas = {
     }
 
 
-
-    
-
-
-
-
-
-
-    }
-
-    
-
-
-# TECHNOLOGY
-tank_manufacturer = { 
-	
-	designer = yes
-	
-	union_motors = {
-		
-		allowed = {
-			original_tag = SCO
-			NOT = {
-				has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
-			}
-		}
-		
-		cost = 150
-		removal_cost = 10
-		
-		research_bonus = {
-			armor = 0.10
-		}
-		
-		traits = { tank_manufacturer }
-	}
 }
 
-
-
-tank_manufacturer = { 
-
-designer = yes
-
-Thales = {
-
-    picture = scotland_Thales
     
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
+
+
+        # TECHNOLOGY
+        
+        tank_manufacturer = { 
+
+        designer = yes
+
+        raptor = {
+
+            picture = raptor
+            
+            allowed = {
+                original_tag = SCO
+                NOT = {
+                    has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
+                }
+            }
+            
+            cost = 150
+            removal_cost = 10
+            
+            research_bonus = {
+                armor = 0.10
+            }
+            
+            traits = { tank_manufacturer }
         }
     }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        armor = 0.10
-    }
-    
-    traits = { tank_manufacturer }
-}
-}
 
-naval_manufacturer = { 
+        naval_manufacturer = { 
 
-designer = yes
+        designer = yes
 
-Thales = {
-    
-    picture = scotland_Thales
+        Thales = {
+        
+        picture = scotland_Thales
 
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
+        allowed = {
+            original_tag = SCO
+            NOT = {
+                has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
+            }
+        }
+        
+        cost = 150
+        removal_cost = 10
+        
+        research_bonus = {
+            naval_equipment = 0.10
+        }
+        
+        traits = { naval_manufacturer }
         }
     }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        naval_equipment = 0.10
-    }
-    
-    traits = { naval_manufacturer }
-}
-}
 
-aircraft_manufacturer = { 
+        aircraft_manufacturer = { 
 
-designer = yes
+        designer = yes
 
-Thales = {
-    
-    picture = scotland_Thales
+        Thales = {
+            
+            picture = scotland_Thales
 
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
+            allowed = {
+                original_tag = SCO
+                NOT = {
+                    has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
+                }
+            }
+            
+            cost = 150
+            removal_cost = 10
+            
+            research_bonus = {
+                air_equipment = 0.10
+            }
+            
+            traits = { light_aircraft_manufacturer }
         }
-    }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        air_equipment = 0.10
-    }
-    
-    traits = { light_aircraft_manufacturer }
-}
 
-Thistle_Design = {
-    
-    picture = Thistle_design
+    Thistle_Design = {
+        
+        picture = Thistle_design
 
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
+        allowed = {
+            original_tag = SCO
+            NOT = {
+                has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
+            }
         }
-    }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        air_equipment = 0.10
-    }
-    
-    traits = { medium_aircraft_manufacturer }
-}
-
-Thales = {
-
-    picture = scotland_Thales
-    
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
+        
+        cost = 150
+        removal_cost = 10
+        
+        research_bonus = {
+            air_equipment = 0.10
         }
+        
+        traits = { medium_aircraft_manufacturer }
     }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        air_equipment = 0.10
-    }
-    
-    traits = { heavy_aircraft_manufacturer }
-}
 
-Thales = {
-    
-    picture = scotland_Thales
+    Thales = {
 
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
+        picture = scotland_Thales
+        
+        allowed = {
+            original_tag = SCO
+            NOT = {
+                has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
+            }
         }
-    }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        air_equipment = 0.10
-    }
-    
-    traits = { naval_aircraft_manufacturer }
-}
-}
-
-industrial_concern = {
-
-rio_tinto = {
-    
-    picture = scotland_Thales
-
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+        
+        cost = 150
+        removal_cost = 10
+        
+        research_bonus = {
+            air_equipment = 0.10
         }
+        
+        traits = { heavy_aircraft_manufacturer }
     }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        industry = 0.10
-    }
-    
-    traits = { industrial_concern }
-}
 
-marconi_electronic_systems = {
-    
-    picture = scotland_Thales
+    Thales = {
+        
+        picture = scotland_Thales
 
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+        allowed = {
+            original_tag = SCO
+            NOT = {
+                has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
+            }
         }
-    }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        electronics = 0.10
-    }
-    
-    traits = { electronics_concern }
-}
-}
-
-materiel_manufacturer = {
-
-designer = yes
-
-land_rover = {
-    
-    picture = scotland_Thales
-
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
+        
+        cost = 150
+        removal_cost = 10
+        
+        research_bonus = {
+            air_equipment = 0.10
         }
+        
+        traits = { naval_aircraft_manufacturer }
     }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        motorized_equipment = 0.10
     }
-    
-    traits = { motorized_equipment_manufacturer }
-}
 
-royal_ordnance = {
-    
-    picture = generic_infantry_equipment_manufacturer_2
+    industrial_concern = {
 
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
+    rio_tinto = {
+        
+        picture = scotland_Thales
+
+        allowed = {
+            original_tag = SCO
+            NOT = {
+                has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+            }
         }
-    }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        infantry_weapons = 0.10
-    }
-    
-    traits = { infantry_equipment_manufacturer }
-}
-
-thales_air_defence = {
-    
-    picture = scotland_Thales
-
-    allowed = {
-        original_tag = SCO
-        NOT = {
-            has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
+        
+        cost = 150
+        removal_cost = 10
+        
+        research_bonus = {
+            industry = 0.10
         }
+        
+        traits = { industrial_concern }
     }
-    
-    cost = 150
-    removal_cost = 10
-    
-    research_bonus = {
-        artillery = 0.10
+
+    marconi_electronic_systems = {
+        
+        picture = scotland_Thales
+
+        allowed = {
+            original_tag = SCO
+            NOT = {
+                has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+            }
+        }
+        
+        cost = 150
+        removal_cost = 10
+        
+        research_bonus = {
+            electronics = 0.10
+        }
+        
+        traits = { electronics_concern }
     }
-    
-    traits = { artillery_manufacturer }
-}
-}
+    }
+
+    materiel_manufacturer = {
+
+    designer = yes
+
+    land_rover = {
+        
+        picture = scotland_Thales
+
+        allowed = {
+            original_tag = SCO
+            NOT = {
+                has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
+            }
+        }
+        
+        cost = 150
+        removal_cost = 10
+        
+        research_bonus = {
+            motorized_equipment = 0.10
+        }
+        
+        traits = { motorized_equipment_manufacturer }
+    }
+
+    royal_ordnance = {
+        
+        picture = generic_infantry_equipment_manufacturer_2
+
+        allowed = {
+            original_tag = SCO
+            NOT = {
+                has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
+            }
+        }
+        
+        cost = 150
+        removal_cost = 10
+        
+        research_bonus = {
+            infantry_weapons = 0.10
+        }
+        
+        traits = { infantry_equipment_manufacturer }
+    }
+
+    thales_air_defence = {
+        
+        picture = scotland_Thales
+
+        allowed = {
+            original_tag = SCO
+            NOT = {
+                has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
+            }
+        }
+        
+        cost = 150
+        removal_cost = 10
+        
+        research_bonus = {
+            artillery = 0.10
+        }
+        
+        traits = { artillery_manufacturer }
+    }
+    }
 
 
 second_in_command = {
-    britain_liz_trust = {
+    scotland_Adam_Busby = {
     
         allowed = {
             original_tag = SCO
@@ -701,9 +865,9 @@ second_in_command = {
         traits = { power_hungry_demagogue }			
     }
     
-
     
-    britain_philip_hammond = {
+    
+    david_coburn = {
     
         allowed = {
             original_tag = SCO
@@ -718,7 +882,7 @@ second_in_command = {
         traits = { flamboyant_tough_guy }			
     }
     
-    britain_David_cameron = {
+    Scotland_David_McLetchie = {
     
         allowed = {
             original_tag = SCO
@@ -733,7 +897,7 @@ second_in_command = {
         traits = { autocratic_charmer }			
     }
     
-    britain_nick_clegg = {
+    Scotland_Douglas_Ross = {
     
         allowed = {
             original_tag = SCO
@@ -751,7 +915,7 @@ second_in_command = {
     
 
     
-    britain_ed_balls = {
+    scotland_Carol_Mochan = {
     
         allowed = {
             original_tag = SCO
@@ -766,7 +930,7 @@ second_in_command = {
         traits = { power_hungry_demagogue }			
     }
     
-    britain_michael_gove = {
+    scotland_Annie_Wells = {
     
         allowed = {
             original_tag = SCO
@@ -784,7 +948,7 @@ second_in_command = {
     }
 
     
-    britain_christopher_eccleston = {
+    scotland_gordon_ramsey = {
     
         allowed = {
             original_tag = SCO
@@ -803,7 +967,7 @@ second_in_command = {
     
 
     
-    britain_Charles_Kennedy = {
+    scotland_Angus_Robertson = {
     
         allowed = {
             original_tag = SCO
@@ -813,11 +977,12 @@ second_in_command = {
         available = {
             OR = {
                 has_government = communist
+                has_government = revolutionary_socialist
             }
         }
         NOT = {
             has_country_leader = {
-                name = "Charles Kennedy"
+                name = " "
                 ruling_only = yes
             }
         }
@@ -825,7 +990,7 @@ second_in_command = {
         traits = { power_hungry_demagogue }			
     }
     
-    britain_Boris_Johnson = {
+    scotland_Ian_Livingston = {
     
         allowed = {
             original_tag = SCO
@@ -846,7 +1011,7 @@ second_in_command = {
 
 foreign_minister = {
 
-    britain_russel_brand = {
+    scotland_Norman_Lamont = {
     
         allowed = {
             original_tag = SCO
@@ -862,7 +1027,7 @@ foreign_minister = {
     }
     
     
-    britain_katie_hopkins = {
+    scotland_Tavish_Scott = {
     
         allowed = {
             original_tag = SCO
@@ -877,7 +1042,7 @@ foreign_minister = {
         traits = { iron_fisted_brute }			
     }
     
-    britain_owen_jones = {
+    Scotland_Ruth_Davidson = {
     
         allowed = {
             original_tag = SCO
@@ -892,7 +1057,7 @@ foreign_minister = {
         traits = { ideological_crusader }			
     }
     
-    britain_alan_sugar = {
+    scotland_John_Alexander = {
     
         allowed = {
             original_tag = SCO
@@ -907,7 +1072,7 @@ foreign_minister = {
         traits = { apologetic_clerk }			
     }
     
-    britain_tim_farron = {
+    scotland_Daniel_Johnson = {
     
         allowed = {
             original_tag = SCO
@@ -922,7 +1087,7 @@ foreign_minister = {
         traits = { ideological_crusader }			
     }
     
-    britain_david_lammy = {
+    scotland_David_Linden = {
     
         allowed = {
             original_tag = SCO
@@ -937,7 +1102,7 @@ foreign_minister = {
         traits = { apologetic_clerk }			
     }
     
-    Britain_Angela_Rayner = {
+    scotland_Humza_Yousaf = {
     
         allowed = {
             original_tag = SCO
@@ -953,7 +1118,7 @@ foreign_minister = {
     }
 
     
-    britain_John_Prescott = {
+    scotland_Jo_Swinson = {
     
         allowed = {
             original_tag = SCO
@@ -969,7 +1134,7 @@ foreign_minister = {
         traits = { apologetic_clerk }			
     }
     
-    britain_Theresa_May = {
+    scotland_ewan_mcgregor = {
     
         allowed = {
             original_tag = SCO
@@ -985,7 +1150,7 @@ foreign_minister = {
         traits = { apologetic_clerk }			
     }
     
-    britain_kenneth_clarke = {
+    scotland_Keith_Brown = {
     
         allowed = {
             original_tag = SCO
@@ -1003,7 +1168,7 @@ foreign_minister = {
         traits = { great_compromiser }			
     }
     
-    britain_Jeremy_Corbyn = {
+    Scotland_Carol_Monaghan = {
     
         allowed = {
             original_tag = SCO
@@ -1020,7 +1185,7 @@ foreign_minister = {
         traits = { ideological_crusader }			
     }
     
-    britain_fom_dermot_hudson = {
+    scotland_Nicholas_Fairfax = {
     
         allowed = {
             original_tag = SCO
@@ -1031,12 +1196,7 @@ foreign_minister = {
                 has_government = communist
             } 
         }
-        NOT = {
-            has_country_leader = {
-                name = "Dermot Hudson"
-                ruling_only = yes
-            }
-        }
+
         
         traits = { biased_intellectual }			
     }
@@ -1044,7 +1204,7 @@ foreign_minister = {
 
 industry_minister = {
     
-    Britain_Kate_Hoey = {
+    scotland_Mhairi_Black = {
     
         allowed = {
             original_tag = SCO
@@ -1059,7 +1219,7 @@ industry_minister = {
         traits = { corrupt_kleptocrat }			
     }
 
-    Britain_Patrick_Stewart = {
+    scotland_Alyn_Smith = {
     
         allowed = {
             original_tag = SCO
@@ -1074,7 +1234,7 @@ industry_minister = {
         traits = { corrupt_kleptocrat }			
     }
     
-    Britain_Rupert_Murdoch = {
+    Scotland_Wendy_Chamberlain = {
     
         allowed = {
             original_tag = SCO
@@ -1089,7 +1249,7 @@ industry_minister = {
         traits = { administrative_genius }			
     }
     
-    Britain_rebecca_long_bailey = {
+    scotland_Sheila_Ritchie = {
     
         allowed = {
             original_tag = SCO
@@ -1104,7 +1264,7 @@ industry_minister = {
         traits = { extreme_regulator }			
     }
     
-    britain_Bill_Nighy = {
+    scotland_Paul_OKane = {
     
         allowed = {
             original_tag = SCO
@@ -1119,7 +1279,7 @@ industry_minister = {
         traits = { libertarian_capitalist }			
     }
     
-    Britain_Margaret_Beckett = {
+    Scotland_Jackson_Carlaw = {
     
         allowed = {
             original_tag = SCO
@@ -1134,7 +1294,7 @@ industry_minister = {
         traits = { administrative_genius }			
     }
     
-    britain_john_hurt = {
+    scotland_Anas_Sarwar = {
     
         allowed = {
             original_tag = SCO
@@ -1151,7 +1311,7 @@ industry_minister = {
     
 
     
-    britain_Chris_Whitty = {
+    scotland_Calum_Martin = {
     
         allowed = {
             original_tag = SCO
@@ -1166,7 +1326,7 @@ industry_minister = {
         traits = { former_scientist }			
     }
     
-    britain_Jacob_Rees_Mogg = {
+    Scotland_Hamish_Robertson = {
     
         allowed = {
             original_tag = SCO
@@ -1182,7 +1342,7 @@ industry_minister = {
         traits = { resource_industrialist }			
     }
     
-    britain_ind_ella_rule = {
+    Scotland_Cat_Boyd = {
     
         allowed = {
             original_tag = SCO
@@ -1202,7 +1362,7 @@ industry_minister = {
 
 national_security_minister = {
 
-    britain_rory_stewart = {
+    Lachlan_Campbell = {
     
         allowed = {
             original_tag = SCO
@@ -1217,22 +1377,8 @@ national_security_minister = {
         traits = { isolationist }			
     }
     
-    britain_ben_kingsley = {
-    
-        allowed = {
-            original_tag = SCO
-        }
-        
-        available = {
-            OR = {
-                has_government = fascist
-            } 
-        }
-        
-        traits = { efficient_sociopath }			
-    }
-    
-    britain_Amber_Rudd = {
+
+    scotland_Alistair_Macintyre = {
     
         allowed = {
             original_tag = SCO
@@ -1247,7 +1393,7 @@ national_security_minister = {
         traits = { prince_of_terror }			
     }
     
-    britain_michael_caine = {
+    scotland_Isla_Fraser = {
     
         allowed = {
             original_tag = SCO
@@ -1262,7 +1408,7 @@ national_security_minister = {
         traits = { compassionate_gentleman }			
     }
     
-    Britain_Nadine_Dorries = {
+    Scotland_Angus_MacDonald = {
     
         allowed = {
             original_tag = SCO
@@ -1277,7 +1423,7 @@ national_security_minister = {
         traits = { silent_lawyer }			
     }
     
-    britain_ian_duncan_smith = {
+    Scotland_Kirsty_McPherson = {
     
         allowed = {
             original_tag = SCO
@@ -1292,7 +1438,7 @@ national_security_minister = {
         traits = { compassionate_gentleman }			
     }
     
-    britain_john_bercow = {
+    Scotland_Morgan_Morrison = {
     
         allowed = {
             original_tag = SCO
@@ -1307,7 +1453,7 @@ national_security_minister = {
         traits = { compassionate_gentleman }			
     }
     
-    britain_rowan_atkinson = {
+    Scotland_Richard_Dugdale = {
     
         allowed = {
             original_tag = SCO
@@ -1323,41 +1469,7 @@ national_security_minister = {
     }
     
     
-    britain_Jeremy_Hunt = {
-    
-        allowed = {
-            original_tag = SCO
-        }
-        
-        available = {
-            OR = {
-                has_government = moderate_socialist
-                has_government = revolutionary_socialist
-                has_government = communist
-            } 
-        }
-        
-        traits = { silent_lawyer }			
-    }
-    
-    britain_Owen_Paterson = {
-    
-        allowed = {
-            original_tag = SCO
-        }
-        
-        available = {
-            OR = {
-                has_government = moderate_socialist
-                has_government = revolutionary_socialist
-                has_government = communist
-            } 
-        }
-        
-        traits = { efficient_sociopath }			
-    }
-    
-    britain_Piers_Corbyn = {
+    Scotland_Jackson_Ross = {
     
         allowed = {
             original_tag = SCO
@@ -1373,11 +1485,13 @@ national_security_minister = {
         
         traits = { prince_of_terror }			
     }
-}
+    	
+    }
+
 
 intelligence_minister = {
 
-    britain_george_osborne = {
+    Scotland_Harry_Glenn = {
     
         allowed = {
             original_tag = SCO
@@ -1392,7 +1506,7 @@ intelligence_minister = {
         traits = { novice_mastermind }			
     }
     
-    Britain_Esther_Mcvey = {
+    Scotland_Robert_Kennedy = {
     
         allowed = {
             original_tag = SCO
@@ -1407,7 +1521,7 @@ intelligence_minister = {
         traits = { novice_mastermind }			
     }
     
-    britain_Simon_Pegg = {
+    Scotland_Kirsty_MacLeod = {
     
         allowed = {
             original_tag = SCO
@@ -1428,7 +1542,7 @@ intelligence_minister = {
         traits = { intelligence_director }			
     }
     
-    britain_Matt_Hancock = {
+    Scotland_Jacob_Campbell = {
     
         allowed = {
             original_tag = SCO
@@ -1444,7 +1558,7 @@ intelligence_minister = {
         traits = { novice_mastermind }			
     }
     
-    britain_Jonathan_Ashworth = {
+    Scotland_Ethan_Short = {
     
         allowed = {
             original_tag = SCO

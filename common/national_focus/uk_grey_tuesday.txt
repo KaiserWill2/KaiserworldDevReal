@@ -109,6 +109,9 @@ focus = {
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
+	ai_will_do = {
+		factor = 1
+	}
 	available = {
 		has_country_flag = A_Leader_Has_Been_Chosen
 		}

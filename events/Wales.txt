@@ -195,5 +195,739 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = wales.17
+	title = wales.17.t
+	desc = wales.17.d
+	picture = wales_strike_event
+	is_triggered_only = yes
+	option = {
+		name = wales.17.o1
+		set_country_flag = WAL_The_Strikes
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+
+country_event = {
+	id = wales.18
+	title = wales.18.t
+	desc = wales.18.d
+	picture = wales_meeting_in_congress_event
+	is_triggered_only = yes
+	option = {
+		name = wales.18.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.19
+	title = wales.19.t
+	desc = wales.19.d
+	picture = wales_national_unity_conf_event
+	is_triggered_only = yes
+	option = {
+		name = wales.19.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.20
+	title = wales.20.t
+	desc = wales.20.d
+	picture = wales_crush_dissent_Event
+	is_triggered_only = yes
+	option = {
+		name = wales.20.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.21
+	title = wales.21.t
+	desc = wales.21.d
+	picture = wales_supress_con_event
+	is_triggered_only = yes
+	option = {
+		name = wales.21.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.22
+	title = wales.22.t
+	desc = wales.22.d
+	picture = wales_fake_elections_Event
+	is_triggered_only = yes
+	option = {
+		name = wales.22.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.23
+	title = wales.23.t
+	desc = wales.23.d
+	picture = refusal_to_stand_down_event
+	is_triggered_only = yes
+	option = {
+		name = wales.23.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.24
+	title = wales.24.t
+	desc = wales.24.d
+	picture = chamber_deadlock_event
+	is_triggered_only = yes
+	option = {
+		name = wales.24.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.25
+	title = wales.25.t
+	desc = wales.25.d
+	picture = Secessionist_moevemnts_event
+	is_triggered_only = yes
+	option = {
+		name = wales.25.o1
+		NWA = {
+		set_politics = {
+			ruling_party = nationalist
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = nationalist
+			popularity = 0.55
+		}
+		create_country_leader = {
+			name = "Rhys ap Gwyn"
+			picture = "Rhys_ap_Gwyn.dds"
+			ideology = nationalist_ideology
+					}
+
+		set_cosmetic_tag = NWA
+				}
+		NWA = {
+		
+			transfer_state = 1058
+		}
+	}
+}
+
+
+country_event = {
+	id = wales.26
+	title = wales.26.t
+	desc = wales.26.d
+	picture = final_ultimatium_event
+	is_triggered_only = yes
+	option = {
+		name = wales.26.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.27
+	title = wales.27.t
+	desc = wales.27.d
+	picture = wales_civil_war_event
+	is_triggered_only = yes
+	option = {
+		name = wales.27.o1
+		WAL = {
+			declare_war_on = { target = NWA type = annex_everything }
+		}
+	}
+}
+
+country_event = {
+	id = wales.28
+	title = wales.28.t
+	desc = wales.28.d
+	picture = wales_castle_event
+	is_triggered_only = yes
+	option = {
+		name = wales.28.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.29
+	title = wales.29.t
+	desc = wales.29.d
+	picture = kingdom_of_wales_event
+	is_triggered_only = yes
+	option = {
+		name = wales.29.o1
+			set_politics = {
+				ruling_party = monarchist
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.55
+			}
+			create_country_leader = {
+				name = "Gethin Gruffydd"
+				picture = "gethin_king.dds"
+				ideology = absolute_monarchist
+				}
+	set_party_name = { ideology = monarchist long_name = WAL_House_Of_Gruffydd name = WAL_House_Of_Gruffydd }
+
+			set_cosmetic_tag = wal_kingdom_of_wales
+	}
+}
+
+country_event = {
+	id = wales.30
+	title = wales.30.t
+	desc = wales.30.d
+	picture = gethin_new_system_event
+	is_triggered_only = yes
+	option = {
+		name = wales.30.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.31
+	title = wales.31.t
+	desc = wales.31.d
+	picture = king_and_people_Event
+	is_triggered_only = yes
+	option = {
+		name = wales.31.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.32
+	title = wales.32.t
+	desc = wales.32.d
+	picture = wales_and_un_event
+	is_triggered_only = yes
+	option = {
+		name = wales.32.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.33
+	title = wales.33.t
+	desc = wales.33.d
+	picture = threats_to_total_english_event
+	is_triggered_only = yes
+	option = {
+		name = wales.33.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.34
+	title = wales.34.t
+	desc = wales.34.d
+	picture = wwales_and_germany_event
+	is_triggered_only = yes
+	option = {
+		name = wales.34.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.35
+	title = wales.35.t
+	desc = wales.35.d
+	picture = wales_can_usa_event
+	is_triggered_only = yes
+	option = {
+		name = wales.35.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.36
+	title = wales.36.t
+	desc = wales.36.d
+	picture = wales_checkpoitns_Event
+	is_triggered_only = yes
+	option = {
+		name = wales.36.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.37
+	title = wales.37.t
+	desc = wales.37.d
+	picture = wales_new_economy_Event
+	is_triggered_only = yes
+	option = {
+		name = wales.37.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.38
+	title = wales.38.t
+	desc = wales.38.d
+	picture = wales_expands_event
+	is_triggered_only = yes
+	option = {
+		name = wales.38.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.39
+	title = wales.39.t
+	desc = wales.39.d
+	picture = wales_moving_to_war_event
+	is_triggered_only = yes
+	option = {
+		name = wales.39.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.40
+	title = wales.40.t
+	desc = wales.40.d
+	picture = wales_moving_to_war_event
+	is_triggered_only = yes
+	option = {
+		name = wales.40.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.41
+	title = wales.41.t
+	desc = wales.41.d
+	picture = wales_new_political_Reforms_event
+	is_triggered_only = yes
+	option = {
+		name = wales.41.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.42
+	title = wales.42.t
+	desc = wales.42.d
+	picture = wales_international_relations_event
+	is_triggered_only = yes
+	option = {
+		name = wales.42.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.43
+	title = wales.43.t
+	desc = wales.43.d
+	picture = new_economic_developments_event
+	is_triggered_only = yes
+	option = {
+		name = wales.43.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.44
+	title = wales.44.t
+	desc = wales.44.d
+	picture = united_kingdom_of_wales
+	is_triggered_only = yes
+	option = {
+		name = wales.44.o1
+	
+		set_cosmetic_tag = wal_united_kingdom_of_wales
+	}
+}
+
+country_event = {
+	id = wales.45
+	title = wales.45.t
+	desc = wales.45.d
+	picture = expanding_new_royal_power_evnet
+	is_triggered_only = yes
+	option = {
+		name = wales.45.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.46
+	title = wales.46.t
+	desc = wales.46.d
+	picture = creating_the_royal_palace_event
+	is_triggered_only = yes
+	option = {
+		name = wales.46.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.47
+	title = wales.47.t
+	desc = wales.47.d
+	picture = creating_the_royal_council_event
+	is_triggered_only = yes
+	option = {
+		name = wales.47.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.48
+	title = wales.48.t
+	desc = wales.48.d
+	picture = the_royal_charter_event
+	is_triggered_only = yes
+	option = {
+		name = wales.48.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.49
+	title = wales.49.t
+	desc = wales.49.d
+	picture = welsh_empire_event
+	is_triggered_only = yes
+	option = {
+		name = wales.49.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.50
+	title = wales.50.t
+	desc = wales.50.d
+	picture = wales_pantagonia_event
+	is_triggered_only = yes
+	option = {
+		name = wales.50.o1
+	
+	
+
+	}
+}
+
+country_event = {
+	id = wales.51
+	title = wales.51.t
+	desc = wales.51.d
+	picture = wales_culture_exchange_program_event
+	is_triggered_only = yes
+	option = {
+		name = wales.51.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.52
+	title = wales.52.t
+	desc = wales.52.d
+	picture = welsh_colony_in_south_america_event
+	is_triggered_only = yes
+	option = {
+		name = wales.52.o1
+		WAL = {
+			puppet = PAT
+		}
+		PAT = {
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.55
+			}
+			create_country_leader = {
+				name = "Morgan Hughes"
+				picture = "Morgan_Hughes.dds"
+				ideology = nationalist_ideology
+						}
+	
+			set_cosmetic_tag = PAT_Patagonia
+					}
+			PAT = {
+			
+				transfer_state = 512
+			}
+	}
+}
+
+country_event = {
+	id = wales.53
+	title = wales.53.t
+	desc = wales.53.d
+	picture = south_american_welsh_army_event
+	is_triggered_only = yes
+	option = {
+		name = wales.53.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.54
+	title = wales.54.t
+	desc = wales.54.d
+	picture = caribbean_wales_event
+	is_triggered_only = yes
+	option = {
+		name = wales.54.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.55
+	title = wales.55.t
+	desc = wales.55.d
+	picture = caribbean_crops_event
+	is_triggered_only = yes
+	option = {
+		name = wales.55.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.56
+	title = wales.56.t
+	desc = wales.56.d
+	picture = carribean_domanince_event
+	is_triggered_only = yes
+	option = {
+		name = wales.56.o1
+	
+	}
+}
+
+
+country_event = {
+	id = wales.57
+	title = wales.57.t
+	desc = wales.57.d
+	picture = wales_serria_leone_event
+	is_triggered_only = yes
+	option = {
+		name = wales.57.o1
+		WAL = {
+			puppet = WSL
+		}
+		WSL = {
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.55
+			}
+			create_country_leader = {
+				name = "Owain Williams"
+				picture = "Owain_Williams_wal.dds"
+				ideology = nationalist_ideology
+						}
+	
+			set_cosmetic_tag = WSL_Welsh_West_Africa
+					}
+			WSL = {
+			
+				transfer_state = 700
+			}
+	}
+}
+
+country_event = {
+	id = wales.58
+	title = wales.58.t
+	desc = wales.58.d
+	picture = wales_serria_leone_health_event
+	is_triggered_only = yes
+	option = {
+		name = wales.58.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.59
+	title = wales.59.t
+	desc = wales.59.d
+	picture = wales_serria_leone_governemnt_event
+	is_triggered_only = yes
+	option = {
+		name = wales.59.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.60
+	title = wales.60.t
+	desc = wales.60.d
+	picture = serria_leone_event
+	is_triggered_only = yes
+	option = {
+		name = wales.60.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.61
+	title = wales.61.t
+	desc = wales.61.d
+	picture = tourism_serria_leone_event
+	is_triggered_only = yes
+	option = {
+		name = wales.61.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.62
+	title = wales.62.t
+	desc = wales.62.d
+	picture = tasmania_event
+	is_triggered_only = yes
+	option = {
+		name = wales.62.o1
+
+	}
+}
+
+
+country_event = {
+	id = wales.63
+	title = wales.63.t
+	desc = wales.63.d
+	picture = tasmania_setupcolony_event
+	is_triggered_only = yes
+	option = {
+		name = wales.63.o1
+		WAL = {
+			puppet = WTS
+		}
+		WTS = {
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.55
+			}
+			create_country_leader = {
+				name = "Aled Owen"
+				picture = "Aled_Owen.dds"
+				ideology = nationalist_ideology
+						}
+	
+			set_cosmetic_tag = WTS_Tasmania
+					}
+			WTS = {
+			
+				transfer_state = 518
+			}
+	}
+}
+
+country_event = {
+	id = wales.64
+	title = wales.64.t
+	desc = wales.64.d
+	picture = tasmania_sheep_Event
+	is_triggered_only = yes
+	option = {
+		name = wales.64.o1
+	
+	}
+}
+
+country_event = {
+	id = wales.65
+	title = wales.65.t
+	desc = wales.65.d
+	picture = tasmania_colony_event
+	is_triggered_only = yes
+	option = {
+		name = wales.65.o1
+	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

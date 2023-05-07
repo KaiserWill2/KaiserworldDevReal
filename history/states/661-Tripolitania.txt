@@ -1,26 +1,21 @@
-
 state={
 	id=661
 	name="STATE_661"
-	resources={
-		oil=11.000
-	}
-
+	manpower = 17617
+	
+	state_category = wasteland
+	
 	history={
 		owner = LBA
 		buildings = {
-			air_base = 4
-			infrastructure = 2
-
+			infrastructure = 1
 		}
 		add_core_of = LBA
-
 	}
-
+	
 	provinces={
-		4117 4176 7194 12009 
+		1174 4051 4117 4176 7154 7194 10037 10067 11940 12009 
 	}
-	manpower=32000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+
+	local_supplies=0.0 
 }

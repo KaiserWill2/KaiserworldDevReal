@@ -2,19 +2,16 @@ state=
 {
 	id=124
 	name="STATE_124"
-	manpower = 57255
+	manpower = 56988
 	
-	state_category = rural
+	state_category = small_island
 	
 	history=
 	{
 		owner = SWE
 		add_core_of = SWE
-		victory_points = {
-			6258 1 
-		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3 #was: 6
 			408 = {
 				naval_base = 1
 			}
@@ -23,4 +20,6 @@ state=
 	provinces={
 		408 6258
 	}
+
+	local_supplies=0.0 
 }

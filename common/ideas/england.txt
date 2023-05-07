@@ -22,7 +22,7 @@ ideas = {
 	
 	
 				}
-		}
+			}
 		
 
 			Peoples_Defence_Academy_idea = {
@@ -1772,9 +1772,9 @@ ideas = {
 
 
 
-# TECHNOLOGY
-tank_manufacturer = { 
-	
+	# TECHNOLOGY
+	tank_manufacturer = { 
+		
 	designer = yes
 	
 	union_motors = {
@@ -1794,10 +1794,10 @@ tank_manufacturer = {
 		}
 		
 		traits = { tank_manufacturer }
+		}
 	}
-}
 
-naval_manufacturer = { 
+	naval_manufacturer = { 
 
 	designer = yes
 
@@ -1821,9 +1821,9 @@ naval_manufacturer = {
 		
 		traits = { naval_manufacturer }
 	}
-}
+	}
 
-aircraft_manufacturer = { 
+	aircraft_manufacturer = { 
 
 	designer = yes
 
@@ -1849,9 +1849,9 @@ aircraft_manufacturer = {
 		traits = { heavy_aircraft_manufacturer }
 	}
 
-}
+	}
 
-industrial_concern = {
+	industrial_concern = {
 
 	rio_tinto = {
 		
@@ -1894,9 +1894,9 @@ industrial_concern = {
 		
 		traits = { electronics_concern }
 	}
-}
+	}
 
-materiel_manufacturer = {
+	materiel_manufacturer = {
 
 	designer = yes
 

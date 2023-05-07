@@ -55,7 +55,7 @@
 #		cost = 3
 #		search_filters = {
 #			FOCUS_FILTER_POLITICAL
-#		}
+		}
 #		prerequisite = { focus = ENG_the_totalist_spirit  }
 #		completion_reward = {
 #			add_stability = 0.30
@@ -67,30 +67,30 @@
 #		x = 12
 #		y = 3
 #		cost = 3
-#		search_filters = {
+		search_filters = {
 ##			FOCUS_FILTER_POLITICAL
-#		}
+		}
 #		prerequisite = { focus = ENG_The_Orders_For_England  }
 #		completion_reward = {
 #			country_event = {
 #				id = england.22
 #			}
 #		}
-#	}
+	}
 #	focus = { 
 #		id = ENG_Freedom_Of_Thought_Council
 #		icon = freedom_of_thought
 #		x = 13
 #		y = 4
-#		cost = 3
+		cost = 3
 #		search_filters = {
 #			FOCUS_FILTER_POLITICAL
 #		}
 #		prerequisite = { focus = ENG_Branching_Out_The_Congress  }
-#		completion_reward = {
-#			add_political_power = 50
-#		}
-#	}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
 	focus = { 
 		id = ENG_The_Peoples_Ministry
 		icon = peoples_ministry

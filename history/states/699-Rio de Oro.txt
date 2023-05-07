@@ -1,29 +1,27 @@
-
 state={
 	id=699
 	name="STATE_699"
+	manpower = 21056
 	
-	resources = {
-		oil = 15
-		steel = 1
-	}
+	state_category = wasteland
 
 	history={
 		owner = MOR
+		add_core_of = MOR
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 1
 			8038 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = MOR
+		victory_points = {
+			8038 1
+		}
+	}
+	
+	provinces={
+		4920 5012 7979 8038 8111 10875
 	}
 
-	provinces={
-		5012 8038 8111 10875 
-	}
-	manpower=532000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+	local_supplies=0.0 
 }

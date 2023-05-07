@@ -6,11 +6,11 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3 #was: 6
 			industrial_complex = 2
-			arms_factory = 1
-			dockyard = 2
-			air_base = 10
+			dockyard = 4
+			air_base = 6
+			fuel_silo = 1
 			788 = {
 				naval_base = 10
 
@@ -22,15 +22,25 @@ state={
 			788 10 
 		}
 		victory_points = {
-			865 2
+			10412 15 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				dockyard = 5
+
+			}
+
 		}
 
 	}
 
 	provinces={
-		788 865 1506 3917 3925 9779 9931 10412 10439 11738 11841 7558
+		788 865 873 951 1506 3823 3917 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 
 	}
-	manpower=3873187
+
+	local_supplies=11.0
+	manpower=2249080
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

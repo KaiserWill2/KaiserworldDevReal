@@ -10,6 +10,13 @@
 
 opinion_modifiers = {
 
+	diplomatic_mission_opinion= {
+		value = 5
+		months = 1
+		decay = 1
+	}
+	
+
 	hostile_status = { #special used for civil wars that are on hold and blocks faction stuff
 		value = -100
 	}

@@ -1,32 +1,26 @@
-
-state={
+state=
+{
 	id=457
-	name="STATE_457"
-	resources={
-		oil=31.000
-	}
-
-	history={
+	name="STATE_457" # Arabian Desert
+	manpower = 2194
+	
+	state_category = wasteland
+	
+	history = {
 		owner = UAR
-		add_core_of = UAR
 		buildings = {
-			infrastructure = 2
-			dockyard = 1
-			air_base = 2
-
+			infrastructure = 1
 		}
+
 		victory_points = {
-			12002 2
+			12002 1
 		}
-		add_core_of = EGY
-		add_claim_by = GRE
 
+		add_core_of = UAR
 	}
-
 	provinces={
-		4068 4910 5069 7156 12002 12889 
+		1080 4068 4910 5069 7156 9957 10126 12002 12889 
 	}
-	manpower=1372194
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+
+	local_supplies=0.0 
 }

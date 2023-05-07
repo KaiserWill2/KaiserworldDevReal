@@ -2,20 +2,18 @@
 state={
 	id=33
 	name="STATE_33"
-	manpower = 1636400
+	manpower = 636400
 	
-	state_category = rural
+	state_category = town
 
 	history={
-		owner = FRA
-		buildings = {
-			infrastructure = 6
-		}
 		victory_points = {
 			651 1
 		}
-		victory_points = {
-			11869 1
+		owner = FRA
+		
+		buildings = {
+			infrastructure = 3
 		}
 		add_core_of = FRA
 	}
@@ -23,4 +21,6 @@ state={
 	provinces={
 		651 669 3621 3626 3655 6648 6651 9629 11869 
 	}
+
+	local_supplies=0.0 
 }

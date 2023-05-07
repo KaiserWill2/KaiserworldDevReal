@@ -295,7 +295,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_The_Irish_Partnership  }
 		completion_reward = {
 			add_opinion_modifier = { target = IRE modifier = declaration_of_friendship  }
-
+			set_country_flag =  taking_wales
+			set_country_flag = ENG_Go_For_Wales
+			mark_focus_tree_layout_dirty = yes
 			country_event = {
 				id = Scotland.14
 			}
@@ -644,6 +646,13 @@ focus_tree = {
 		cost = 10
 		x = 43
 		y = 0
+		trigger = {
+            has_country_flag = breaking_away_from_german_chains
+        }
+        allow_branch = {
+            has_country_flag = breaking_away_from_german_chains
+            breaking_away_from_german_chains = yes
+        }
 		completion_reward = {
 			add_political_power = 20
 			country_event = {
@@ -948,7 +957,13 @@ focus_tree = {
 			focus = SCO_Help_For_The_Unemployed
 			focus = SCO_Rule_Out_Joining_The_German_Economic_Zone
 		}
-
+		trigger = {
+            has_country_flag = an_independent_scotland
+        }
+        allow_branch = {
+            has_country_flag = an_independent_scotland
+            sparking_the_uprise = yes
+        }
 		completion_reward = {
 	
 			country_event = {
@@ -1206,9 +1221,7 @@ focus_tree = {
 		y = 18
 		
 		prerequisite = { focus = SCO_Order_England_To_Cease_All_Actions_Against_States  }
-		available = {
-			has_country_flag = SCO_rockets_away
-			}
+
 		completion_reward = {
 			country_event = {
 				id = Scotland.74
@@ -1423,6 +1436,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_A_True_Independent_Scotland  }
 		mutually_exclusive = {
 			focus = SCO_Germany_Removes_Francis
+		}
+		ai_will_do = {
+			factor = 1
 		}
 		completion_reward = {
 			country_event = {

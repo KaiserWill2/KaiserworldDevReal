@@ -2,29 +2,28 @@
 state={
 	id=573
 	name="STATE_573" # Zlatoust
-	manpower = 636234
+	manpower = 556677
 	
 	state_category = pastoral
-	
 	resources={
-		chromium = 12
-		oil = 47
+		chromium=23 # was: 32
 	}
 
 	history={
-		owner = SOV
-		add_core_of = RUS
 		victory_points = {
-			10329 2
+			10329 1
 		}
+		owner = SOV
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 		add_core_of = SOV
 	}
 
 	provinces={
-		237 278 361 3280 4758 7320 10136 10142 10329 11223 11307 12117 
+		237 278 361 3280 4758 7320 10136 10329 11223 11307 
 	}
+
+	local_supplies=7.0 
 }

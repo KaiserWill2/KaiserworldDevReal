@@ -2,29 +2,19 @@
 state={
 	id=572
 	name="STATE_572" # Chelyabinsk
-	manpower = 2371468
+	manpower = 2074932
 	
 	state_category = town
 
 	history={
 		owner = SOV
-add_core_of = RUS
 		victory_points = {
-			9292 11
-		}
-		victory_points = {
-			12106 2
-		}
-		victory_points = {
-			1292 3
-		}
-		victory_points = {
-			1233 2
+			9292 5
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3 #was: 6
 			industrial_complex = 1
-			air_base = 4
+
 		}
 		add_core_of = SOV
 	}
@@ -32,4 +22,6 @@ add_core_of = RUS
 	provinces={
 		1233 1292 1294 1327 1775 4242 7285 9292 10170 10213 10542 12106 12157 12287 12584 
 	}
+
+	local_supplies=0.0 
 }

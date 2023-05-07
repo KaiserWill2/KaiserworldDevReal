@@ -2,15 +2,20 @@
 state={
 	id=421
 	name="STATE_421"
-	manpower = 5180900
+	manpower = 780278
 	
 	state_category = rural
 
 	history={
-		owner = KUR
+		owner = PER
+		victory_points = {
+			4943 5
+		}
+		victory_points = {
+			5098 3
+		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
+			infrastructure = 2
 		}
 		add_core_of = PER
 		add_core_of = KUR
@@ -19,4 +24,6 @@ state={
 	provinces={
 		829 4943 5050 5098 9816 10774 12773 
 	}
+
+	local_supplies=0.0 
 }

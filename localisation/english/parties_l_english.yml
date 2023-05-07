@@ -273,8 +273,16 @@ eng_The_Conservative_Party:0 "The Conservative Party"
 eng_The_Conservative_Party_long:0 "The Conservative Party"
 eng_The_Labour_Party:0 "The Labour Party"
 eng_The_Labour_Party_long:0 "The Labour Party"
+ The_Liberal_Party:0 "The Liberal Party"
+ The_Liberal_Party_long:0 "The Liberals"
+ national_coalition:0 "The National Coalition"
+ national_coalition_long:0 "The National Coalition"
+ The_revolutionary_party:0 "The Revolutionary Party"
+ The_revolutionary_party_long:0 "The Revolutionary Party"
+ The_British_Totalist_Party:0 "The British Totalist Party"
+ The_British_Totalist_Party_long:0 "The British Totalist Party"
 
-
+ 
  IRE_fascist_party:0 "Lia Fail"
  IRE_nationalist_party:0 "Fine Gael(Paisleyites)"
  IRE_monarchist_party:0 "Óglaigh Na hÉireann"
@@ -320,9 +328,15 @@ eng_The_Labour_Party_long:0 "The Labour Party"
  SCO_revolutionary_socialist_party:0 "Scottish Peoples Party"
  SCO_communist_party:0 "Scottish Peoples Party (Hardliner)"
 
+ House_of_Hanover:0 "House Of Hanover"
+ House_of_Hanover_long:0 "The House Of Hanover"
+ 
 
 The_Scottish_Royal_Party:0 "The Scottish Royal Party"
 The_Scottish_Royal_Party_long:0 "The Scottish Royal Party"
+
+ Coalition_Of_British_Parties:0 "Coalition Of British Parties"
+  Coalition_Of_British_Parties_long:0 "Coalition Of British Parties"
 
 
  WAL_fascist_party:0 "Plaid Eryr Gwyn"
@@ -343,7 +357,8 @@ The_Scottish_Royal_Party_long:0 "The Scottish Royal Party"
  WAL_communist_party:0 "Plaid Cyfanswmyddol Cymru"
  WAL_communist_party_long:0 "Totalist Party - Wales Branch"
 
-
+WAL_House_Of_Gruffydd:0 "House Of Gruffydd"
+WAL_House_Of_GruffyddlLong:0 "House Of Gruffydd"
 
 NOF_fascist_party:0 "Radical Northern Movement"
 NOF_nationalist_party:0 "Northern Nationalist Party"

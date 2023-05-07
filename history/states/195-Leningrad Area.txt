@@ -2,20 +2,20 @@
 state={
 	id=195
 	name="STATE_195"
-	manpower = 8494278
+	manpower = 3750158
 	
 	state_category = metropolis
 
 	history={
 		owner = SOV
-		add_core_of = RUS
 		victory_points = {
-			3151 48
+			3151 30.0
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 4 #was: 7
+			arms_factory = 6
 			industrial_complex = 1
-			dockyard = 1
+			dockyard = 3
 			air_base = 10
 			3151 ={
 				naval_base = 10
@@ -23,9 +23,16 @@ state={
 			}
 		}
 		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 7
+			}
+		}
 	}
 
 	provinces={
 		79 149 3151 6174 11068 
 	}
+
+	local_supplies=11.0 
 }

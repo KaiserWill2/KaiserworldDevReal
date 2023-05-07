@@ -1,18 +1,16 @@
-
 state={
 	id=521
 	name="STATE_521"
 	resources={
-		tungsten=36.000
+		tungsten=24.000
 	}
 
 	history={
 		owner = AST
-add_core_of = QLD
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			industrial_complex = 1
-			air_base = 2
+			air_base = 1
 			7564 = {
 				naval_base = 2
 				coastal_bunker = 1
@@ -25,29 +23,20 @@ add_core_of = QLD
 
 		}
 		victory_points = {
-			7564 20
+			7564 15 
 		}
 		victory_points = {
-			7566 5 
+			7566 1 
 		}
-		victory_points = { 10445 5 }
-		victory_points = { 10430 2 }
-		victory_points = { 7522 1 }
-		victory_points = { 4481 1 }
-		victory_points = { 7651 2 }
-		victory_points = { 10460 1 }
-		victory_points = { 4520 2 }
-		victory_points = { 5206 1 }
-		victory_points = { 4517 1 }
-		victory_points = { 12949 1 }
 		add_core_of = AST
 
 	}
 
 	provinces={
-		1472 1501 1514 1557 1570 1644 2116 2166 2187 2221 4481 4502 4505 4517 4520 4530 4546 4560 4632 4648 5198 5206 5227 7506 7522 7525 7535 7538 7564 7566 7592 7610 7651 7666 8230 10336 10338 10350 10365 10378 10430 10445 10460 10475 10487 10936 10941 10955 11006 12308 12354 12367 12382 12411 12424 12451 12949 12957 
+		1472 1557 1570 4481 4502 4517 4530 4546 4560 4632 5227 7522 7535 7564 7566 7592 7610 7651 7666 10430 10445 10458 10460 10475 10487 11006 12308 12382 12411 12424 12451 
 	}
-	manpower=4510000
+	manpower=816800
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

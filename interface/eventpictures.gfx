@@ -1,5 +1,801 @@
 spriteTypes = {
 	
+
+	spriteType = {
+		name = "england_breaks_apart_event"
+		texturefile = "gfx/event_pictures/report_event/england_breaks_apart_event.dds"
+	}
+	
+
+
+	spriteType = {
+		name = "germans_fight_back_Event"
+		texturefile = "gfx/event_pictures/report_event/germans_fight_back_Event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "england_returns_fire_event"
+		texturefile = "gfx/event_pictures/report_event/england_returns_fire_event.dds"
+	}
+	
+	spriteType = {
+		name = "germany_orders_england_to_stop_event"
+		texturefile = "gfx/event_pictures/report_event/germany_orders_england_to_stop_event.dds"
+	}
+	
+	spriteType = {
+		name = "The_welsh_offer_event"
+		texturefile = "gfx/event_pictures/report_event/The_welsh_offer_event.dds"
+	}
+	
+	spriteType = {
+		name = "a_new_prussian_constitution_event"
+		texturefile = "gfx/event_pictures/report_event/a_new_prussian_constitution_event.dds"
+	}
+
+	spriteType = {
+		name = "old_scottish_ministers_gone_event"
+		texturefile = "gfx/event_pictures/report_event/old_scottish_ministers_gone_event.dds"
+	}
+		
+	spriteType = {
+		name = "moving_weapons_to_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/moving_weapons_to_scotland_event.dds"
+	}
+	
+	spriteType = {
+		name = "scotland_joins_europakt_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_joins_europakt_event.dds"
+	}
+
+	spriteType = {
+		name = "german_and_scottish_manufacturing_event"
+		texturefile = "gfx/event_pictures/report_event/german_and_scottish_manufacturing_event.dds"
+	}
+
+
+	spriteType = {
+		name = "direction_of_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/direction_of_scotland_event.dds"
+	}
+
+	spriteType = {
+		name = "electing_pro_german_party_event"
+		texturefile = "gfx/event_pictures/report_event/electing_pro_german_party_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_royal_party_unites_event"
+		texturefile = "gfx/event_pictures/report_event/the_royal_party_unites_event.dds"
+	}
+	
+	spriteType = {
+		name = "removing_the_radicals_event"
+		texturefile = "gfx/event_pictures/report_event/removing_the_radicals_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_german_puppet_event"
+		texturefile = "gfx/event_pictures/report_event/the_german_puppet_event.dds"
+	}
+	
+	spriteType = {
+		name = "germany_removes_francis_event"
+		texturefile = "gfx/event_pictures/report_event/germany_removes_francis_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "we_have_lift_off_event"
+		texturefile = "gfx/event_pictures/report_event/we_have_lift_off_event.dds"
+	}
+	
+	spriteType = {
+		name = "preparing_For_launch_event"
+		texturefile = "gfx/event_pictures/report_event/preparing_For_launch_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "spaceport_in_scotland_Event"
+		texturefile = "gfx/event_pictures/report_event/spaceport_in_scotland_Event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "branson_in_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/branson_in_scotland_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "dyson_comes_to_Scland_event"
+		texturefile = "gfx/event_pictures/report_event/dyson_comes_to_Scland_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "scotland_technology_powerhouse_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_technology_powerhouse_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "The_celtic_crossing_event"
+		texturefile = "gfx/event_pictures/report_event/The_celtic_crossing_event.dds"
+	}
+	
+	spriteType = {
+		name = "modern_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/modern_scotland_event.dds"
+	}
+
+	spriteType = {
+		name = "military_exercises_against_england_Event"
+		texturefile = "gfx/event_pictures/report_event/military_exercises_against_england_Event.dds"
+	}
+	
+	spriteType = {
+		name = "ireland_security_partnership_Event"
+		texturefile = "gfx/event_pictures/report_event/ireland_security_partnership_Event.dds"
+	}
+
+	spriteType = {
+		name = "expanding_scotlands_relations_event"
+		texturefile = "gfx/event_pictures/report_event/expanding_scotlands_relations_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "ballots_are_counted_Event"
+		texturefile = "gfx/event_pictures/report_event/ballots_are_counted_Event.dds"
+	}
+	
+	spriteType = {
+		name = "francis_announces_elections_Event"
+		texturefile = "gfx/event_pictures/report_event/francis_announces_elections_Event.dds"
+	}
+	
+	spriteType = {
+		name = "the_new_border_event"
+		texturefile = "gfx/event_pictures/report_event/the_new_border_event.dds"
+	}
+
+	spriteType = {
+		name = "germany_and_scotland_relations_event"
+		texturefile = "gfx/event_pictures/report_event/germany_and_scotland_relations_event.dds"
+	}
+	
+	spriteType = {
+		name = "investigate_far_left_event"
+		texturefile = "gfx/event_pictures/report_event/investigate_far_left_event.dds"
+	}
+	
+	spriteType = {
+		name = "removing_the_far_right_Event_sc"
+		texturefile = "gfx/event_pictures/report_event/removing_the_far_right_Event_sc.dds"
+	}
+
+	
+	spriteType = {
+		name = "meeting_scottish_parliament_event"
+		texturefile = "gfx/event_pictures/report_event/meeting_scottish_parliament_event.dds"
+	}
+
+
+	spriteType = {
+		name = "scotland_removes_german_ministers_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_removes_german_ministers_event.dds"
+	}
+	
+	spriteType = {
+		name = "scotland_removes_german_ministers_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_removes_german_ministers_event.dds"
+	}
+	
+	spriteType = {
+		name = "scottish_far_right_party_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_far_right_party_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "scotland_reduce_germna_influnence_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_reduce_germna_influnence_event.dds"
+	}
+	
+	spriteType = {
+		name = "scottish_job_training_Event"
+		texturefile = "gfx/event_pictures/report_event/scottish_job_training_Event.dds"
+	}
+	
+	spriteType = {
+		name = "scottish_welfare_system_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_welfare_system_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "the_SHS_event"
+		texturefile = "gfx/event_pictures/report_event/the_SHS_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "join_the_OSTA_event"
+		texturefile = "gfx/event_pictures/report_event/join_the_OSTA_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "rule_out_joining_GEZ_event"
+		texturefile = "gfx/event_pictures/report_event/rule_out_joining_GEZ_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "create_celtic_research_event"
+		texturefile = "gfx/event_pictures/report_event/create_celtic_research_event.dds"
+	}
+
+	spriteType = {
+		name = "ready_for_reforms_Event"
+		texturefile = "gfx/event_pictures/report_event/ready_for_reforms_Event.dds"
+	}
+
+
+	spriteType = {
+		name = "breaking_way_from_germany_event"
+		texturefile = "gfx/event_pictures/report_event/breaking_way_from_germany_event.dds"
+	}
+
+	spriteType = {
+		name = "scotland_protest_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_protest_event.dds"
+	}
+	
+	spriteType = {
+		name = "anti_missile_weapon_event"
+		texturefile = "gfx/event_pictures/report_event/anti_missile_weapon_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "welcome_to_Scotland_event"
+		texturefile = "gfx/event_pictures/report_event/welcome_to_Scotland_event.dds"
+	}
+	
+	spriteType = {
+		name = "scottish_armed_bordeR_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_armed_bordeR_event.dds"
+	}
+	
+	spriteType = {
+		name = "scottish_soldiers_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_soldiers_event.dds"
+	}
+	
+	spriteType = {
+		name = "uniting_britain_rebel_event"
+		texturefile = "gfx/event_pictures/report_event/uniting_britain_rebel_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "corbyn_takes_control_event"
+		texturefile = "gfx/event_pictures/report_event/corbyn_takes_control_event.dds"
+	}
+	
+	spriteType = {
+		name = "andy_burnham_event"
+		texturefile = "gfx/event_pictures/report_event/andy_burnham_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "clegg_event"
+		texturefile = "gfx/event_pictures/report_event/clegg_event.dds"
+	}
+	
+	spriteType = {
+		name = "jeremy_hunt_event"
+		texturefile = "gfx/event_pictures/report_event/jeremy_hunt_event.dds"
+	}
+	
+	spriteType = {
+		name = "emergency_elections_event"
+		texturefile = "gfx/event_pictures/report_event/emergency_elections_event.dds"
+	}
+	
+	spriteType = {
+		name = "factionalism_event"
+		texturefile = "gfx/event_pictures/report_event/factionalism_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "internal_Struggles_event"
+		texturefile = "gfx/event_pictures/report_event/internal_Struggles_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "a_new_britian_event"
+		texturefile = "gfx/event_pictures/report_event/a_new_britian_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "international_engagement_event"
+		texturefile = "gfx/event_pictures/report_event/international_engagement_event.dds"
+	}
+	
+	spriteType = {
+		name = "constitutional_reforms_event"
+		texturefile = "gfx/event_pictures/report_event/constitutional_reforms_event.dds"
+	}
+	
+	spriteType = {
+		name = "strengthening_the_coalition_event"
+		texturefile = "gfx/event_pictures/report_event/strengthening_the_coalition_event.dds"
+	}
+	
+	spriteType = {
+		name = "intrim_government_event"
+		texturefile = "gfx/event_pictures/report_event/intrim_government_event.dds"
+	}
+	
+	spriteType = {
+		name = "constitutional_convention_event"
+		texturefile = "gfx/event_pictures/report_event/constitutional_convention_event.dds"
+	}
+	
+	spriteType = {
+		name = "national_unity_conference_event"
+		texturefile = "gfx/event_pictures/report_event/national_unity_conference_event.dds"
+	}
+		
+	spriteType = {
+		name = "Sir_Jonathan_Mayhew_arrest_event"
+		texturefile = "gfx/event_pictures/report_event/Sir_Jonathan_Mayhew_arrest_event.dds"
+	}
+	
+	spriteType = {
+		name = "paul_dacre_arrest_event"
+		texturefile = "gfx/event_pictures/report_event/paul_dacre_arrest_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "arrest_of_jayda_fransan_Event"
+		texturefile = "gfx/event_pictures/report_event/arrest_of_jayda_fransan_Event.dds"
+	}
+
+	spriteType = {
+		name = "arrest_of_farage_event"
+		texturefile = "gfx/event_pictures/report_event/arrest_of_farage_event.dds"
+	}
+	
+	spriteType = {
+		name = "pursue_justice_event"
+		texturefile = "gfx/event_pictures/report_event/pursue_justice_event.dds"
+	}
+		
+	spriteType = {
+		name = "sparking_the_uprising_event"
+		texturefile = "gfx/event_pictures/report_event/sparking_the_uprising_event.dds"
+	}
+	
+	spriteType = {
+		name = "unity_talks_event"
+		texturefile = "gfx/event_pictures/report_event/unity_talks_event.dds"
+	}
+	
+	spriteType = {
+		name = "underground_resistance_evnet"
+		texturefile = "gfx/event_pictures/report_event/underground_resistance_evnet.dds"
+	}
+	
+	
+	spriteType = {
+		name = "secret_meeting_rebel_event"
+		texturefile = "gfx/event_pictures/report_event/secret_meeting_rebel_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "german_intelligence_rebel_event"
+		texturefile = "gfx/event_pictures/report_event/german_intelligence_rebel_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "soldiers_on_streets_event"
+		texturefile = "gfx/event_pictures/report_event/soldiers_on_streets_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "rebel_secret_meeting_Event"
+		texturefile = "gfx/event_pictures/report_event/rebel_secret_meeting_Event.dds"
+	}
+	
+	spriteType = {
+		name = "german_commonwealth_event"
+		texturefile = "gfx/event_pictures/report_event/german_commonwealth_event.dds"
+	}
+	
+	spriteType = {
+		name = "new_uk_parliament#_event"
+		texturefile = "gfx/event_pictures/report_event/new_uk_parliament#_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "the_new_royal_wedding_event"
+		texturefile = "gfx/event_pictures/report_event/the_new_royal_wedding_event.dds"
+	}
+
+	spriteType = {
+		name = "royalty_in_britain_Event2"
+		texturefile = "gfx/event_pictures/report_event/royalty_in_britain_Event2.dds"
+	}
+	
+	spriteType = {
+		name = "royalty_in_britain_Event"
+		texturefile = "gfx/event_pictures/report_event/royalty_in_britain_Event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "promoting_german_culture_event"
+		texturefile = "gfx/event_pictures/report_event/promoting_german_culture_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "investing_in_economy_event"
+		texturefile = "gfx/event_pictures/report_event/investing_in_economy_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "expanding_the_empire_event"
+		texturefile = "gfx/event_pictures/report_event/expanding_the_empire_event.dds"
+	}
+	
+	spriteType = {
+		name = "german_culture_event"
+		texturefile = "gfx/event_pictures/report_event/german_culture_event.dds"
+	}
+	
+	spriteType = {
+		name = "german_dominance_evnet"
+		texturefile = "gfx/event_pictures/report_event/german_dominance_evnet.dds"
+	}
+	
+	spriteType = {
+		name = "removing_english_rebels_event"
+		texturefile = "gfx/event_pictures/report_event/removing_english_rebels_event.dds"
+	}
+	
+	spriteType = {
+		name = "german_britian_event"
+		texturefile = "gfx/event_pictures/report_event/german_britian_event.dds"
+	}
+	
+	spriteType = {
+		name = "tasmania_setupcolony_event"
+		texturefile = "gfx/event_pictures/report_event/tasmania_setupcolony_event.dds"
+	}
+	
+	spriteType = {
+		name = "tasmania_colony_event"
+		texturefile = "gfx/event_pictures/report_event/tasmania_colony_event.dds"
+	}
+	
+	spriteType = {
+		name = "tasmania_sheep_Event"
+		texturefile = "gfx/event_pictures/report_event/tasmania_sheep_Event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "tasmania_event"
+		texturefile = "gfx/event_pictures/report_event/tasmania_event.dds"
+	}
+	
+	spriteType = {
+		name = "tourism_serria_leone_event"
+		texturefile = "gfx/event_pictures/report_event/tourism_serria_leone_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "serria_leone_event"
+		texturefile = "gfx/event_pictures/report_event/serria_leone_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_serria_leone_governemnt_event"
+		texturefile = "gfx/event_pictures/report_event/wales_serria_leone_governemnt_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "wales_serria_leone_health_event"
+		texturefile = "gfx/event_pictures/report_event/wales_serria_leone_health_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_serria_leone_event"
+		texturefile = "gfx/event_pictures/report_event/wales_serria_leone_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "caribbean_crops_event"
+		texturefile = "gfx/event_pictures/report_event/caribbean_crops_event.dds"
+	}
+
+	spriteType = {
+		name = "caribbean_wales_event"
+		texturefile = "gfx/event_pictures/report_event/caribbean_wales_event.dds"
+	}
+	
+	spriteType = {
+		name = "south_american_welsh_army_event"
+		texturefile = "gfx/event_pictures/report_event/south_american_welsh_army_event.dds"
+	}
+	
+	spriteType = {
+		name = "welsh_colony_in_south_america_event"
+		texturefile = "gfx/event_pictures/report_event/welsh_colony_in_south_america_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_culture_exchange_program_event"
+		texturefile = "gfx/event_pictures/report_event/wales_culture_exchange_program_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_pantagonia_event"
+		texturefile = "gfx/event_pictures/report_event/wales_pantagonia_event.dds"
+	}
+	
+	spriteType = {
+		name = "welsh_empire_event"
+		texturefile = "gfx/event_pictures/report_event/welsh_empire_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "the_royal_charter_event"
+		texturefile = "gfx/event_pictures/report_event/the_royal_charter_event.dds"
+	}
+	
+	spriteType = {
+		name = "creating_the_royal_council_event"
+		texturefile = "gfx/event_pictures/report_event/creating_the_royal_council_event.dds"
+	}
+	
+	spriteType = {
+		name = "creating_the_royal_palace_event"
+		texturefile = "gfx/event_pictures/report_event/creating_the_royal_palace_event.dds"
+	}
+	
+	spriteType = {
+		name = "expanding_new_royal_power_evnet"
+		texturefile = "gfx/event_pictures/report_event/expanding_new_royal_power_evnet.dds"
+	}
+	
+	spriteType = {
+		name = "united_kingdom_of_wales"
+		texturefile = "gfx/event_pictures/report_event/united_kingdom_of_wales.dds"
+	}
+		
+	spriteType = {
+		name = "new_economic_developments_event"
+		texturefile = "gfx/event_pictures/report_event/new_economic_developments_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_international_relations_event"
+		texturefile = "gfx/event_pictures/report_event/wales_international_relations_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_new_political_Reforms_event"
+		texturefile = "gfx/event_pictures/report_event/wales_new_political_Reforms_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "wales_moving_to_war_event"
+		texturefile = "gfx/event_pictures/report_event/wales_moving_to_war_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "wales_expands_event"
+		texturefile = "gfx/event_pictures/report_event/wales_expands_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "wales_new_economy_Event"
+		texturefile = "gfx/event_pictures/report_event/wales_new_economy_Event.dds"
+	}
+		
+	spriteType = {
+		name = "wales_checkpoitns_Event"
+		texturefile = "gfx/event_pictures/report_event/wales_checkpoitns_Event.dds"
+	}
+
+	
+	spriteType = {
+		name = "wales_can_usa_event"
+		texturefile = "gfx/event_pictures/report_event/wales_can_usa_event.dds"
+	}
+
+	spriteType = {
+		name = "wwales_and_germany_event"
+		texturefile = "gfx/event_pictures/report_event/wwales_and_germany_event.dds"
+	}
+
+	spriteType = {
+		name = "threats_to_total_english_event"
+		texturefile = "gfx/event_pictures/report_event/threats_to_total_english_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_and_un_event"
+		texturefile = "gfx/event_pictures/report_event/wales_and_un_event.dds"
+	}
+	
+	spriteType = {
+		name = "king_and_people_Event"
+		texturefile = "gfx/event_pictures/report_event/king_and_people_Event.dds"
+	}
+
+	spriteType = {
+		name = "gethin_new_system_event"
+		texturefile = "gfx/event_pictures/report_event/gethin_new_system_event.dds"
+	}
+
+	spriteType = {
+		name = "wales_castle_event"
+		texturefile = "gfx/event_pictures/report_event/wales_castle_event.dds"
+	}
+	
+	spriteType = {
+		name = "kingdom_of_wales_event"
+		texturefile = "gfx/event_pictures/report_event/kingdom_of_wales_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_civil_war_event"
+		texturefile = "gfx/event_pictures/report_event/wales_civil_war_event.dds"
+	}
+	
+	spriteType = {
+		name = "final_ultimatium_event"
+		texturefile = "gfx/event_pictures/report_event/final_ultimatium_event.dds"
+	}
+	
+	spriteType = {
+		name = "Secessionist_moevemnts_event"
+		texturefile = "gfx/event_pictures/report_event/Secessionist_moevemnts_event.dds"
+	}
+
+	spriteType = {
+		name = "chamber_deadlock_event"
+		texturefile = "gfx/event_pictures/report_event/chamber_deadlock_event.dds"
+	}
+	
+	spriteType = {
+		name = "refusal_to_stand_down_event"
+		texturefile = "gfx/event_pictures/report_event/refusal_to_stand_down_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_fake_elections_Event"
+		texturefile = "gfx/event_pictures/report_event/wales_fake_elections_Event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "wales_supress_con_event"
+		texturefile = "gfx/event_pictures/report_event/wales_supress_con_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_crush_dissent_Event"
+		texturefile = "gfx/event_pictures/report_event/wales_crush_dissent_Event.dds"
+	}
+	
+	spriteType = {
+		name = "celetic_congress_event"
+		texturefile = "gfx/event_pictures/report_event/celetic_congress_event.dds"
+	}
+
+	spriteType = {
+		name = "no_coal_for_blair_event"
+		texturefile = "gfx/event_pictures/report_event/no_coal_for_blair_event.dds"
+	}
+	
+	spriteType = {
+		name = "ban_tarde_with_england_event"
+		texturefile = "gfx/event_pictures/report_event/ban_tarde_with_england_event.dds"
+	}
+	
+	spriteType = {
+		name = "welsh_miltiary_budget_event"
+		texturefile = "gfx/event_pictures/report_event/welsh_miltiary_budget_event.dds"
+	}
+	
+	spriteType = {
+		name = "removing_left_event"
+		texturefile = "gfx/event_pictures/report_event/removing_left_event.dds"
+	}
+	
+	spriteType = {
+		name = "blinding_the_young_event"
+		texturefile = "gfx/event_pictures/report_event/blinding_the_young_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_poverty_help_event"
+		texturefile = "gfx/event_pictures/report_event/wales_poverty_help_event.dds"
+	}
+	
+	spriteType = {
+		name = "banning_strikes_event"
+		texturefile = "gfx/event_pictures/report_event/banning_strikes_event.dds"
+	}
+	
+	spriteType = {
+		name = "striking_for_safety_event"
+		texturefile = "gfx/event_pictures/report_event/striking_for_safety_event.dds"
+	}
+	
+	spriteType = {
+		name = "increasing_demand_event"
+		texturefile = "gfx/event_pictures/report_event/increasing_demand_event.dds"
+	}
+	
+	spriteType = {
+		name = "expanding_industry_event"
+		texturefile = "gfx/event_pictures/report_event/expanding_industry_event.dds"
+	}
+	
+	spriteType = {
+		name = "address_wales_event"
+		texturefile = "gfx/event_pictures/report_event/address_wales_event.dds"
+	}
+
+	spriteType = {
+		name = "dragon_rises_event"
+		texturefile = "gfx/event_pictures/report_event/dragon_rises_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "wales_national_unity_conf_event"
+		texturefile = "gfx/event_pictures/report_event/wales_national_unity_conf_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_meeting_in_congress_event"
+		texturefile = "gfx/event_pictures/report_event/wales_meeting_in_congress_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_strike_event"
+		texturefile = "gfx/event_pictures/report_event/wales_strike_event.dds"
+	}
+
 	spriteType = {
 		name = "KW_the_demo"
 		texturefile = "gfx/event_pictures/report_event/KW_the_demo.dds"

@@ -2,7 +2,7 @@
 state={
 	id=534
 	name="STATE_534" # Hokuriku
-	manpower = 3475813
+	manpower = 1933000
 	
 	state_category = city
 
@@ -10,16 +10,14 @@ state={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 7
+			infrastructure = 2
 			arms_factory = 2
-			industrial_complex = 7
+			industrial_complex = 2
+			fuel_silo = 1
 		}
 		
 		victory_points = {
 			1117 10
-		}
-		victory_points = {
-			11989 2
 		}
 
 
@@ -28,4 +26,6 @@ state={
 	provinces={
 		1117 9952 10128 11930 11989 12007 
 	}
+
+	local_supplies=0.0 
 }

@@ -2,22 +2,19 @@ state={
 	id=317
 	name="STATE_317"
 	resources={
-
-		chromium=1
-
+		chromium=1 # was: 1
 	}
 
 	state_category = town
 
 	history={
 		owner = CEA
-		add_core_of = NIC
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 1
-			13792 = {
+			12738 = {
 				naval_base = 1
 
 			}
@@ -25,14 +22,16 @@ state={
 		}
 		add_core_of = CEA
 		victory_points = {
-			13793 10
+			12738 3
 		}
 
 	}
 
 	provinces={
-		13139 13794 13797 13793 13178 13796 13792 13795 
+		1988 2075 10728 12738 13139 13178 
 	}
-	manpower=4310924
+	manpower=683000
 	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
 }

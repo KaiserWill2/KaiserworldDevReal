@@ -1,29 +1,27 @@
-
 state={
 	id=72
 	name="STATE_72"
-
+	manpower = 152000
+	
+	state_category = rural
+	
 	history={
-		owner = ITA
+		owner = AUS
 		buildings = {
-			infrastructure = 7
+			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = ITA
-		add_core_of = PIE
-		victory_points = {
-			9752 1 
-		}
-		victory_points = {
-			6790 1 
+		add_core_of = AUS
+
+		1939.3.14 = {
+			owner = AUS
+			controller = AUS
 		}
 	}
 
 	provinces={
-		3773 3976 6790 9752
+		9551 9567 
 	}
-	manpower=1919782
-	buildings_max_level_factor=1.000
-	state_category=city
-}
 
+	local_supplies=1.0 
+}

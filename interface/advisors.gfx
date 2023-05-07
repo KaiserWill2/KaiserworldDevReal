@@ -1834,6 +1834,243 @@ spriteType = {
 		name = "GFX_idea_usa_high_command_brett_p_giroir"
 		texturefile = "gfx/interface/ideas/advisors/usa/usa_high_command_brett_p_giroir.dds"
 	}
+
+
+	##### SCOTLAND ADVISORS #####
+
+	spriteType = {
+		name = "GFX_idea_raptor"
+		texturefile = "gfx/interface/ideas/companies/raptor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_david_coburn"
+		texturefile = "gfx/interface/ideas/advisors/scotland/david_coburn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_Adam_Busby"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Adam_Busby.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Scotland_David_McLetchie"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_David_McLetchie.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Scotland_Douglas_Ross"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Douglas_Ross.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Carol_Mochan"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Carol_Mochan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_Annie_Wells"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Annie_Wells.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_gordon_ramsey"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Annie_Wells.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Angus_Robertson"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Angus_Robertson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_Ian_Livingston"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Ian_Livingston.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Norman_Lamont"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Norman_Lamont.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Tavish_Scott"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Tavish_Scott.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Ruth_Davidson"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Ruth_Davidson.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_scotland_John_Alexander"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_John_Alexander.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_Daniel_Johnson"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Daniel_Johnson.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_idea_scotland_David_Linden"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_David_Linden.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Jo_Swinson"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Jo_Swinson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Humza_Yousaf"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Humza_Yousaf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_ewan_mcgregor"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_ewan_mcgregor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_Keith_Brown"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Keith_Brown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_Mhairi_Black"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Mhairi_Black.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Carol_Monaghan"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Carol_Monaghan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Nicholas_Fairfax"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Nicholas_Fairfax.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_Alyn_Smith"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Alyn_Smith.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Wendy_Chamberlain"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Wendy_Chamberlain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Sheila_Ritchie"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Sheila_Ritchie.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_Paul_OKane"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Paul_OKane.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Jackson_Carlaw"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Jackson_Carlaw.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Anas_Sarwar"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Anas_Sarwar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Calum_Martin"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Calum_Martin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Cat_Boyd"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Cat_Boyd.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Hamish_Robertson"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Hamish_Robertson.dds"
+	}
+	
+		
+	spriteType = {
+		name = "GFX_idea_Lachlan_Campbell"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Lachlan_Campbell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Alistair_Macintyre"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Alistair_Macintyre.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Isla_Fraser"
+		texturefile = "gfx/interface/ideas/advisors/scotland/scotland_Isla_Fraser.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Angus_MacDonald"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Angus_MacDonald.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_Scotland_Kirsty_McPherson"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Kirsty_McPherson.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_idea_Scotland_Morgan_Morrison"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Morgan_Morrison.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Richard_Dugdale"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Richard_Dugdale.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Jackson_Ross"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Jackson_Ross.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Kirsty_MacLeod"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Kirsty_MacLeod.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Harry_Glenn"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Harry_Glenn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Robert_Kennedy"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Robert_Kennedy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Scotland_Jacob_Campbell"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Jacob_Campbell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Scotland_Ethan_Short"
+		texturefile = "gfx/interface/ideas/advisors/scotland/Scotland_Ethan_Short.dds"
+	}
+
+	
+	
 	
 	###BRITAIN ADVISORS###
 	

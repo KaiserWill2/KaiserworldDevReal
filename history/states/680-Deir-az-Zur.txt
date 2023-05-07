@@ -1,31 +1,32 @@
-
 state={
 	id=680
 	name="STATE_680"
+	manpower = 324110
 	
-	resources = {
-		oil = 11
-		steel = 1
-	}
+	state_category = wasteland
 
 	history={
 		owner = UAR
-		add_core_of = UAR
-		victory_points = { 2013 2 }	#Deir-Az-Zur
-		victory_points = { 7513 1 }
+		victory_points = {
+			3942 1
+		}
+		victory_points = {
+			1549 1
+		}
+		victory_points = {
+			6883 1
+		}
 		buildings = {
 			infrastructure = 1
-			air_base = 6
 		}
-		add_core_of = SYR
-		add_claim_by = GRE
-		
+		add_core_of = UAR
+		add_core_of = UAR
 	}
 
+
 	provinces={
-		2013 3942 7513 10383 12316 12442 
+		901 1549 1578 1606 1634 2013 3942 6883 7513 10383 10882 12316 12442 
 	}
-	manpower=1324110
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+
+	local_supplies=4.0 
 }

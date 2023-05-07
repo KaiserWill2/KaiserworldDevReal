@@ -1,26 +1,23 @@
 
 state={
 	id=273
-	name="STATE_273"
-	resources={
-		oil=16.000
-	}
+	name="STATE_273" # Libyan Desert
+	manpower = 42633
+	
+	state_category = wasteland
+	impassable = yes
 
 	history={
 		owner = LBA
 		buildings = {
 			infrastructure = 0
-			air_base = 4
-
 		}
 		add_core_of = LBA
-
 	}
 
 	provinces={
-		10754 
+		1057 1060 1140 1994 4191 4962 5004 7985 10104 10754 10785 10884 11951 12022 12082 12866 
 	}
-	manpower=5
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+
+	local_supplies=0.0 
 }

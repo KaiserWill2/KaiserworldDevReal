@@ -11,6 +11,10 @@
 opinion_modifiers = {
 
 
+	diplomatic_mission_opinion= {
+		value = 5
+	
+	}
 	
 	declaration_of_friendship = {
 		value = 25
@@ -64,6 +68,11 @@ opinion_modifiers = {
 		value = -100
 	}
 	
+	threatened_by_wales = {
+		value = -100
+	}
+	
+
 	rival_trade = {
 		value = -100
 		trade = yes

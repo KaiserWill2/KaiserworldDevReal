@@ -81,12 +81,14 @@ focus_tree = {
 		cost = 5
 		x = 13
 		y = 5
+		
 		available ={
 			has_completed_focus = WAL_The_Planned_Strikes
 			}
 		prerequisite = { focus = WAL_Expand_Mining_Operations  }
 		completion_reward = {
 			add_stability = -0.05
+		
 		}
 
 	}
@@ -98,7 +100,11 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = WAL_The_Coal_Shortage  }
 		completion_reward = {
-
+			add_fuel = 400
+			add_opinion_modifier = {
+				target = SCO
+				modifier = trade_influence_2
+			}
 		}
 
 	}
@@ -110,7 +116,10 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = WAL_The_Coal_Shortage  }
 		completion_reward = {
-
+			add_opinion_modifier = {
+				target = IRE
+				modifier = recent_actions_negative
+			}
 		}
 
 	}
@@ -138,6 +147,9 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = WAL_The_New_Bill  }
 		completion_reward = {
+			add_political_power = -50
+			add_war_support = -0.1
+			add_stability = -0.05
 
 		}
 
@@ -150,7 +162,17 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_Expand_The_Industry  }
 		completion_reward = {
-
+			add_building_construction = {
+				type = steel_factory
+				level = 5
+				instant_build = yes
+			}
+			add_resource = {
+				type = steel
+				amount = 50
+				state = 122
+			}
+	
 		}
 
 	}
@@ -179,7 +201,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = WAL_The_Planned_Strikes  }
 		completion_reward = {
-
+			add_stability = 0.10
 		}
 
 	}
@@ -191,10 +213,15 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = WAL_Speak_With_The_Unions  }
 		completion_reward = {
-
+			hidden_effect = {
+				WAL = {
+					country_event = { days = 20 id = wales.17 } 
+				}
+		
 		}
 
 	}
+}
 	focus = {
 		id = WAL_The_Five_Year_Automation_Plan
 		icon = 5_year_automation_plan_icon
@@ -203,6 +230,8 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_Expand_The_Industry  }
 		completion_reward = {
+			add_ideas = New_automation_plan
+			add_political_power = 100
 
 		}
 
@@ -215,7 +244,10 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = WAL_Welsh_Freedom  }
 		completion_reward = {
-
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.05
+			}
 		}
 
 	}
@@ -228,6 +260,24 @@ focus_tree = {
 		prerequisite = { focus = WAL_Defend_Our_Nationalism  }
 		completion_reward = {
 
+			add_research_slot = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = dockyard
+				level = 5
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = steel_factory
+				level = 5
+				instant_build = yes
+			}
+		
+
 		}
 
 	}
@@ -239,7 +289,11 @@ focus_tree = {
 		y = 5
 		prerequisite = { focus = WAL_The_Welsh_Workers_Rights  }
 		completion_reward = {
-
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			}
 		}
 
 	}
@@ -251,7 +305,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_Defend_Our_Nationalism  }
 		completion_reward = {
-
+			add_ideas = Welsh_Education
 		}
 
 	}
@@ -277,7 +331,13 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = WAL_Blind_The_Young  }
 		completion_reward = {
-
+			add_building_construction = {
+				type = arms_factory
+				level = 5
+				instant_build = yes
+			}
+			
+			  add_political_power = 50
 		}
 
 	}
@@ -289,7 +349,8 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = WAL_Train_The_Teens  }
 		completion_reward = {
-
+			add_stability = 0.05
+			army_experience = 10
 		}
 
 	}
@@ -301,7 +362,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_Defend_Our_Nationalism  }
 		completion_reward = {
-
+			add_political_power = 10
 		}
 
 	}
@@ -327,7 +388,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = WAL_Reformed_Welfare  }
 		completion_reward = {
-		
+		add_ideas = New_Tax
 		}
 
 	}
@@ -353,7 +414,15 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = WAL_Welsh_Freedom  }
 		completion_reward = {
+		
+			add_political_power = 50
 
+			add_equipment = {
+				type = infantry_equipment
+				amount = 100
+				producer = USA
+			}
+	
 		}
 
 	}
@@ -379,7 +448,14 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_Awaken_The_Dragon  }
 		completion_reward = {
-
+			add_political_power = 50
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+	
+		
 		}
 
 	}
@@ -391,7 +467,14 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_Awaken_The_Dragon  }
 		completion_reward = {
-
+			add_political_power = 10
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_building_construction = {
+				type = fort
+				level = 3
+				instant_build = yes
+			}
 		}
 
 	}
@@ -405,7 +488,21 @@ focus_tree = {
 		prerequisite = { focus = WAL_The_Welsh_Militias  }
 		prerequisite = { focus = WAL_Protect_The_Wall  }
 		completion_reward = {
-
+			add_army_experience = 100
+	
+			add_building_construction = {
+				type = radar_station
+				level = 5
+				instant_build = yes
+			}
+			add_equipment_production = {
+				equipment = {
+					type = USA_support_weapons
+				}
+				requested_factories = 1
+				progress = 0.95
+				amount = 1
+			}
 		}
 
 	}
@@ -431,7 +528,26 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = WAL_Ban_Trade_With_USBR  }
 		completion_reward = {
-
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			}
+			add_political_power = 100
+			add_resources = {
+				steel = 100
+				aluminum = 50
+				oil = 50
+			}
+			add_tech_bonus = {
+				name = support_tech
+				bonus = 0.5
+					ahead_reduction = 1
+				uses = 1
+				category = support_tech
+			}
+		
+			add_to_tech_sharing_group = us_research
 		}
 
 	}
@@ -458,7 +574,14 @@ focus_tree = {
 		prerequisite = { focus = WAL_Reject_The_Blair_Project  }
 		prerequisite = { focus = WAL_The_New_Scottish_Route  }
 		completion_reward = {
-
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.05
+			set_country_flag = no_refugees_policy
+			every_owned_state = {
+				set_local_autonomy = 0
+				add_building_construction_speed = 0.1
+			}
 		}
 
 	}
@@ -471,8 +594,20 @@ focus_tree = {
 		cost = 5
 		x = 40
 		y = 0
+		trigger = {
+			has_country_flag = WAL_The_Strikes
+		}
+		allow_branch = {
+			has_country_flag = WAL_The_Strikes
+			ENG_rocket_man_flag = yes
+		}
+		available = {
+			has_completed_focus = WAL_The_Strikes
+		}
 		completion_reward = {
-
+			country_event = {
+				id = wales.18
+			}
 		}
 	}
 
@@ -485,7 +620,9 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = WAL_A_Meeting_In_Congress  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.19
+			}
 		}
 
 	}
@@ -499,38 +636,27 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = WAL_A_Meeting_In_Congress  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.20
+			}
 		}
 
 	}
 
-
-	focus = {
-		id = WAL_Suppress_The_Congress
-		icon = unknown
-		cost = 5
-		x = 40
-		y = 2
-		prerequisite = { focus = WAL_Crush_Dissent  }
-		prerequisite = { focus = WAL_National_Unity_Conference  }
-
-		completion_reward = {
-
-		}
-
-	}
 
 	focus = {
 		id = WAL_Suppress_The_Congress
 		icon = supress_congress_icon
-		cost = 5
+		cost = 4
 		x = 40
 		y = 2
 		prerequisite = { focus = WAL_Crush_Dissent  }
 		prerequisite = { focus = WAL_National_Unity_Conference  }
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.21
+			}
 		}
 
 	}
@@ -538,14 +664,17 @@ focus_tree = {
 	focus = {
 		id = WAL_Propaganada_Campaign
 		icon = propaganada_campaign_icon
-		cost = 5
+		cost = 2
 		x = 38
 		y = 3
 		prerequisite = { focus = WAL_Suppress_The_Congress  }
 
 
 		completion_reward = {
-
+			add_popularity = {
+				ideology = fascist 
+				popularity = 0.12
+			}
 		}
 
 	}
@@ -553,14 +682,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Increase_Police_Presence
 		icon = increased_police_pres_icon
-		cost = 5
+		cost = 2
 		x = 42
 		y = 3
 		prerequisite = { focus = WAL_Suppress_The_Congress  }
 
 
 		completion_reward = {
-
+			add_political_power = 20
 		}
 
 	}
@@ -568,7 +697,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Call_For_Chamber_Elections
 		icon = chamber_elections_iconn
-		cost = 5
+		cost = 3
 		x = 40
 		y = 4
 		prerequisite = { focus = WAL_Increase_Police_Presence  }
@@ -576,7 +705,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_Propaganada_Campaign  }
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.22
+			}
 		}
 
 	}
@@ -585,14 +716,16 @@ focus_tree = {
 	focus = {
 		id = WAL_Refusal_To_Step_Down
 		icon = refuse_to_stand_down_wales_icon
-		cost = 5
+		cost = 3
 		x = 40
 		y = 5
 		prerequisite = { focus = WAL_Call_For_Chamber_Elections  }
 
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.23
+			}
 		}
 
 	}
@@ -601,14 +734,15 @@ focus_tree = {
 	focus = {
 		id = WAL_Rally_The_Support
 		icon = rally_walesh_Support_icon
-		cost = 5
+		cost = 3
 		x = 40
 		y = 6
 		prerequisite = { focus = WAL_Refusal_To_Step_Down  }
 
 
 		completion_reward = {
-
+			add_stability = -0.025
+			add_political_power = 20
 		}
 
 	}
@@ -617,14 +751,18 @@ focus_tree = {
 	focus = {
 		id = WAL_Solidify_Support
 		icon = solidfy_wales_icons
-		cost = 5
+		cost = 3
 		x = 38
 		y = 7
 		prerequisite = { focus = WAL_Rally_The_Support  }
 
 
 		completion_reward = {
-
+			add_political_power = 10
+			add_popularity = {
+				ideology = fascist 
+				popularity = 0.05
+			}
 		}
 
 	}
@@ -632,14 +770,14 @@ focus_tree = {
 	focus = {
 		id = WAL_Repositioning_The_Party
 		icon = reposition_the_party_icon
-		cost = 5
+		cost = 3
 		x = 39
 		y = 8
 		prerequisite = { focus = WAL_Solidify_Support  }
 
 
 		completion_reward = {
-
+			add_ideas = New_ideological_direction
 		}
 
 	}
@@ -647,29 +785,47 @@ focus_tree = {
 	focus = {
 		id = WAL_Secure_External_Support
 		icon = wales_external_support_icon
-		cost = 5
+		cost = 2
 		x = 42
 		y = 7
 		prerequisite = { focus = WAL_Rally_The_Support  }
 
 
 		completion_reward = {
-
+			set_rule = {
+				desc = WAL_my_rule_description
+				can_boost_other_ideologies = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = external_support
+			}
+		
+	opinion_modifiers = {
+		external_support = {
+			value = 50
+			duration = 130 # Number of days the modifier lasts
+		}
+			
 		}
 
+		}
 	}
-
 	focus = {
 		id = WAL_Mobilise_The_Nationalist_Base
 		icon = mobiilise_nations_base_icon
-		cost = 5
+		cost = 2
 		x = 41
 		y = 8
 		prerequisite = { focus = WAL_Secure_External_Support  }
 
 
 		completion_reward = {
-
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.05
+			}
+			add_political_power = 100
 		}
 
 	}
@@ -678,7 +834,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Chamber_Deadlock
 		icon = chamber_deadlock_icon
-		cost = 5
+		cost = 3
 		x = 40
 		y = 9
 		prerequisite = { focus = WAL_Mobilise_The_Nationalist_Base  }
@@ -686,7 +842,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.24
+			}
 		}
 
 	}
@@ -696,7 +854,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Secessionist_Movements
 		icon = successionist_movements_icon
-		cost = 5
+		cost = 4
 		x = 40
 		y = 10
 		prerequisite = { focus = WAL_Chamber_Deadlock  }
@@ -704,7 +862,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.25
+			}
 		}
 
 	}
@@ -713,7 +873,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Military_Loyalty
 		icon = miltiary_loyalty_icon
-		cost = 5
+		cost = 4
 		x = 38
 		y = 11
 		prerequisite = { focus = WAL_Secessionist_Movements  }
@@ -721,7 +881,13 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			add_equipment_production = {
+				equipment_type = artillery_equipment
+				efficiency = 0.1
+			}
+			add_ideas = {
+				loyalty_military_idea = 0.1
+			}
 		}
 
 	}
@@ -729,7 +895,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Preparing_For_The_Worst
 		icon = preparing_the_worst_icon
-		cost = 5
+		cost = 4
 		x = 40
 		y = 11
 		prerequisite = { focus = WAL_Secessionist_Movements  }
@@ -738,6 +904,33 @@ focus_tree = {
 
 		completion_reward = {
 
+		add_popularity = {
+			ideology = nationalist
+			amount = 5
+		}
+
+		add_stability = 0.05
+
+		add_war_support = 0.05
+
+		add_political_power = 20
+		
+		add_building_construction = {
+			type = arms_factory
+			level = 5
+			instant_build = yes
+		}
+	
+
+	
+
+		reduce_consumer_goods = 5
+		add_research_slot = 1
+		add_army_experience = 0.1
+		add_air_experience = 0.1
+		add_navy_experience = 0.1
+
+
 		}
 
 	}
@@ -745,7 +938,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Mobilizing_Supporters
 		icon = mobilizing_supporters_icon
-		cost = 5
+		cost = 4
 		x = 42
 		y = 11
 		prerequisite = { focus = WAL_Secessionist_Movements  }
@@ -753,6 +946,17 @@ focus_tree = {
 
 
 		completion_reward = {
+			add_political_power = 50
+			add_military_power = 25
+			add_militia = 5
+			add_equipment = {
+				equipment = infantry_weapons_1
+				amount = 100
+			}
+			add_equipment = {
+				equipment = support_equipment_1
+				amount = 50
+			}
 
 		}
 
@@ -761,7 +965,7 @@ focus_tree = {
 	focus = {
 		id = WAL_Fianl_Ultimatum
 		icon = final_ultimatum_icon
-		cost = 5
+		cost = 3
 		x = 40
 		y = 12
 		prerequisite = { focus = WAL_Mobilizing_Supporters  }
@@ -771,7 +975,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			country_event = {
+				id = wales.26
+			}
 		}
 
 	}
@@ -779,16 +985,15 @@ focus_tree = {
 	focus = {
 		id = WAL_Call_To_Arms
 		icon = call_to_arms_icon
-		cost = 5
+		cost = 3
 		x = 40
 		y = 13
 		prerequisite = { focus = WAL_Fianl_Ultimatum  }
 
-
-
-
 		completion_reward = {
-
+			country_event = {
+				id = wales.27
+			}
 		}
 
 	}

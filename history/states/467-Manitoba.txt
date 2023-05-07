@@ -5,10 +5,9 @@ state={
 
 	history={
 		owner = CAN
-
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
+			infrastructure = 2
+			industrial_complex = 1
 
 		}
 		victory_points = {
@@ -19,9 +18,11 @@ state={
 	}
 
 	provinces={
-		1848 1873 3721 4218 4426 4790 4872 5119 5239 6728 7185 7782 9615 10585 10605 12145 12636 12688 13163 13182
+		1848 1873 3721 4218 4426 4790 4872 5119 12145 12636 12688 13163 
 	}
-	manpower=1537996
+	manpower=641071
 	buildings_max_level_factor=1.000
 	state_category=rural
+
+	local_supplies=9.0 
 }

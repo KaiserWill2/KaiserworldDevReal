@@ -1,23 +1,30 @@
 state={
 	id=701
 	name="STATE_701"
-	manpower = 1800200
-	
-	state_category = rural
-	
+
 	history={
-		owner = LIB
-		add_core_of = LIB
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			air_base = 1
-			4989 = { naval_base = 1 }
+		owner = ENG
+		add_core_of = GAM
+		victory_points = {
+			4989 1 
 		}
-		victory_points = { 4989 1 }
+		buildings = {
+			infrastructure = 2
+			4989 = {
+				naval_base = 1
+
+			}
+
+		}
+
 	}
-	
+
 	provinces={
-		4989 
+		4989 13213 
 	}
+	manpower=199520
+	buildings_max_level_factor=1.000
+	state_category=enclave
+
+	local_supplies=0.0 
 }

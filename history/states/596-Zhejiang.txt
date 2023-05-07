@@ -2,20 +2,12 @@ state=
 {
 	id=596
 	name="STATE_596"
-	manpower = 54890000
-	state_category = large_city
-	
-	resources = {
-		steel = 12
-		tungsten = 8
-		chromium = 3
-		oil = 22
-	}
-	
+	manpower = 21230700
+	state_category = city
 	history=
 	{
 		owner = PRC
-		add_core_of = CHI
+		add_core_of = PRC
 		add_core_of = PRC
 		
 		victory_points = { 
@@ -26,8 +18,8 @@ state=
 		}
 		
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
+			infrastructure = 2
+
 			7191 = {
 				naval_base = 1
 				coastal_bunker = 1
@@ -44,8 +36,24 @@ state=
 				bunker = 1
 			}
 		}
+
+		1938.10.25 = {		
+			PRC = {
+				set_province_controller = 1055
+				set_province_controller = 1096
+				set_province_controller = 4042
+				set_province_controller = 7058
+				set_province_controller = 7191
+				set_province_controller = 9974
+				set_province_controller = 10014
+				set_province_controller = 10101
+				set_province_controller = 11991
+			} 			
+		}
 	}
 	provinces={
 		1055 1096 1168 1195 4013 4042 4099 7058 7086 7146 7174 7191 9944 9972 9974 10014 10058 10086 10101 11920 11947 11991 12059 
 	}
+
+	local_supplies=0.0 
 }

@@ -2,47 +2,31 @@
 state={
 	id=387
 	name="STATE_387"
+	manpower = 445031
+	
+	state_category = rural
+	
 	resources={
-		steel=32.000
-		chromium=2.000
-		tungsten=34.000
+		steel=18 # was: 32
+		chromium=1 # was: 2
+		tungsten=18 # was: 34
 	}
 
 	history={
 		owner = USA
+		buildings = {
+			infrastructure = 2
+		}
 		add_core_of = USA
 		victory_points = {
-			10556 3
-		}
-					victory_points = {
-			7845 1
-		}
-					victory_points = {
 			9616 1
 		}
-					victory_points = {
-			10672 1
-		}
-					victory_points = {
-			1789 1
-		}
-					victory_points = {
-			12124 1
-		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			air_base = 4
-
-		}
-		add_core_of = USA
-
 	}
 
 	provinces={
-		1789 1832 3781 4778 7845 9616 10556 10602 10672 12124 12607
+		1789 1832 3781 4778 7845 9616 9695 10556 10602 10672 12124 12535 12607 
 	}
-	manpower=1159339
-	buildings_max_level_factor=1.000
-	state_category=rural
+	
+
+	local_supplies=7.0 
 }

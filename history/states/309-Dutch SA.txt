@@ -2,30 +2,32 @@
 state={
 	id=309
 	name="STATE_309"
-	manpower = 540000
+	manpower = 152000
 
 	resources={
-		aluminium=12
+		aluminium=60 # was: 104
 	}	
 	
-	state_category = town
+	state_category = rural
 
 	history={
-		owner = GUY
-add_core_of = SUR
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-			arms_factory = 1
-			12828 = { naval_base = 1 }
-		}
 		add_core_of = GUY
-		
-		victory_points = { 10906 2 } #Paramaribo
-		victory_points = { 12828 1 } #Nieuw-Nickerie
+		owner = GUY
+		victory_points = {
+			10906 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12828 = {
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces={
 		1928 10906 12828 
 	}
+
+	local_supplies=0.0 
 }

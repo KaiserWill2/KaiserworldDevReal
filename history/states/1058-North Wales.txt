@@ -1,0 +1,30 @@
+state= {
+	id=1058
+	name="North Wales"
+	manpower = 84653
+	
+	
+	state_category = large_city
+	
+	resources={
+		steel=8
+		aluminium=5
+	}
+
+	history=
+	{
+		owner = WAL
+		add_core_of = WAL
+		victory_points = { 311 15 }
+		victory_points = { 6363 2 }
+		victory_points = { 9364 1 }
+		buildings = {
+			infrastructure = 5
+		
+		}
+		add_core_of = ENG
+	}
+
+	provinces=
+	{ 311 6363 9364 }
+}

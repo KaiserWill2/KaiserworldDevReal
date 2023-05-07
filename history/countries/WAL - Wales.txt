@@ -1,5 +1,7 @@
 ﻿capital = 122
 
+load_focus_tree = "wal_wales_tree"
+
 oob = "WAL_1936"
 
 set_research_slots = 4

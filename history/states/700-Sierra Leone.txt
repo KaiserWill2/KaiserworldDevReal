@@ -1,9 +1,9 @@
 state={
 	id=700
 	name="STATE_700"
-	manpower = 6950200
+	manpower = 1768500
 	
-	state_category = rural
+	state_category = pastoral
 	
 	history=
 	{
@@ -13,9 +13,7 @@ state={
 			2038 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 1
+			infrastructure = 2
 			2038 = {
 				naval_base = 3
 			}
@@ -26,4 +24,6 @@ state={
 	provinces={
 		2038 2094 
 	}
+
+	local_supplies=0.0 
 }

@@ -1,38 +1,33 @@
-
 state={
 	id=430
 	name="STATE_430"
 
 	history={
+		add_core_of = BAN
 		owner = RAJ
-		add_core_of = BNG
-		add_core_of = RAJ
-		add_core_of = BGL
 		victory_points = {
-			11929 30 
+			11929 1 
 		}
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 5
-			arms_factory = 2
-			air_base = 5
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
 			11968 = {
 				naval_base = 3
 
 			}
-			11929 = {
-				naval_base = 6
-
-			}
 
 		}
+		add_core_of = PAK
+		add_core_of = RAJ
 
 	}
 
 	provinces={
-		9993 11929 11968 12423 13744 13745 13747 
+		2843 4162 4616 7078 7124 7179 7662 9935 9991 9993 10035 10389 10416 10443 11911 11929 11968 12010 12423 13208
 	}
-	manpower=55813724
+	manpower=31973300
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=town
+
+	local_supplies=0.0 
 }

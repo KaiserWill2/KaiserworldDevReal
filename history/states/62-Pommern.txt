@@ -2,36 +2,32 @@
 state={
 	id=62
 	name="STATE_62"
-	resources={
-		steel=3.000
-	}
+	manpower = 1006221
+	
+	
+	state_category = town
 
 	history={
+		victory_points = {
+			9388 1
+		}
 		owner = GER
-		victory_points = { 9388 1 }
-		victory_points = { 3340 1 }
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
-			air_base = 3
-			dockyard = 2
-
+			infrastructure = 3
+			fuel_silo = 1
 		}
 		add_core_of = GER
+
 		1939.1.1 = {
 			buildings = {
 				air_base = 8
-
 			}
-
 		}
-
 	}
 
 	provinces={
-		349 3340 9388 
+		349 3207 3258 3312 3340 9388 
 	}
-	manpower=606221
-	buildings_max_level_factor=1.000
-	state_category=rural
+
+	local_supplies=3.0 
 }

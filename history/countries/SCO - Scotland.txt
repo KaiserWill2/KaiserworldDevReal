@@ -1,5 +1,7 @@
 ﻿capital = 121
 
+
+
 oob = "SCO_2000"
 
 if = {

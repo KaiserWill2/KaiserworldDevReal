@@ -2,36 +2,35 @@
 state={
 	id=316
 	name="STATE_316"
-	manpower = 4577378
+	manpower = 503856
 	resources={
-		steel=4
-		tungsten=1
-		chromium=1
+		chromium=1 # was: 1
 	}
 	
-	state_category = city
+	state_category = town
 	
 
 	history={
 		owner = CEA
-add_core_of = COS
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 5
+			industrial_complex = 2 
 			air_base = 1
-			13813 = {
-				naval_base = 4
+			13087 = {
+				naval_base = 1
 			}
 		}
 		add_core_of = CEA
 		victory_points = {
-			13814 5
+			13087 3
 		}
 
 	}
 
 	provinces={
-		13817 13816 13815 13814 13813 13812
+		12878 13087 13092 
 	}
+
+	local_supplies=0.0 
 }

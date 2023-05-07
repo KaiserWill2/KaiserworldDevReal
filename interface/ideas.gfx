@@ -143,6 +143,56 @@ spriteTypes = {
 	
 	
 	###SCOTLAND##
+	
+		
+	spriteType = {
+		name = "GFX_idea_new_national_arm"
+		texturefile = "gfx/interface/ideas/SCO/new_national_arm.dds"
+	}
+		
+	
+	spriteType = {
+		name = "GFX_idea_economic_recovery"
+		texturefile = "gfx/interface/ideas/SCO/economic_recovery.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_economic_collpase_idea"
+		texturefile = "gfx/interface/ideas/SCO/economic_collpase_idea.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_unity_cabinet"
+		texturefile = "gfx/interface/ideas/SCO/unity_cabinet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_training_recruitment"
+		texturefile = "gfx/interface/ideas/SCO/training_recruitment.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sabotage_disrupt"
+		texturefile = "gfx/interface/ideas/SCO/sabotage_disrupt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_global_trade_network"
+		texturefile = "gfx/interface/ideas/SCO/global_trade_network.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_commonwealth_of_nations"
+		texturefile = "gfx/interface/ideas/SCO/commonwealth_of_nations.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_new_factories_idea"
+		texturefile = "gfx/interface/ideas/SCO/new_factories_idea.dds"
+	}
+
+
 	spriteType = {
 		name = "GFX_idea_scottish_resources"
 		texturefile = "gfx/interface/ideas/SCO/scottish_resources.dds"
@@ -216,6 +266,57 @@ spriteTypes = {
 	
 	
 	#WALES#
+	
+	spriteType = {
+		name = "GFX_idea_english_sabotage_icon"
+		texturefile = "gfx/interface/ideas/WAL/english_sabotage_icon.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_welsh_intel_icon"
+		texturefile = "gfx/interface/ideas/WAL/welsh_intel_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wales_tribes_idea"
+		texturefile = "gfx/interface/ideas/WAL/wales_tribes_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_expanding_the_market_pic"
+		texturefile = "gfx/interface/ideas/WAL/expanding_the_market_pic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_national_identityWAL"
+		texturefile = "gfx/interface/ideas/WAL/national_identityWAL.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_5_yea_auto"
+		texturefile = "gfx/interface/ideas/WAL/5_yea_auto.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_welsh_new_tax"
+		texturefile = "gfx/interface/ideas/WAL/welsh_new_tax.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_welsh_educat"
+		texturefile = "gfx/interface/ideas/WAL/welsh_educat.dds"
+	}
+	
+
+	spriteType = {
+		name = "GFX_idea_miltiary_loyalty"
+		texturefile = "gfx/interface/ideas/WAL/miltiary_loyalty.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_new_ideolo_direct"
+		texturefile = "gfx/interface/ideas/WAL/new_ideolo_direct.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_standing_up_against_england"
@@ -360,7 +461,10 @@ spriteType = {
 		texturefile = "gfx/interface/ideas/companies/Thistle_design.dds"
 	}
 
-	
+	spriteType = {
+		name = "GFX_idea_raptor"
+		texturefile = "gfx/interface/ideas/companies/raptor.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_union_motors"

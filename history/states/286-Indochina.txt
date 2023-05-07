@@ -1,50 +1,35 @@
-
 state={
 	id=286
 	name="STATE_286"
-	manpower = 15490243
-	
-	state_category = city
-	
 	resources={
-		rubber=71
-		steel=12
-		chromium=8
-		tungsten=2
+		rubber=55 # was: 94.000
 	}
 
 	history={
-		owner = SIA
-		add_core_of = SIA
 		add_core_of = VIN
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 4
-			dockyard = 2
-			arms_factory = 1
-			air_base = 2
+		owner = FRA
+		victory_points = {
+			4401 3 
 		}
-		victory_points = { 4639 5 }
-		victory_points = { 12260 1 }
-		victory_points = { 10317 1 }
-		victory_points = { 7432 2 }
-		victory_points = { 7376 1 }
-		victory_points = { 4359 2 }
-		victory_points = { 4302 3 }
-		victory_points = { 10177 2 }
-		victory_points = { 4251 1 }
-		victory_points = { 4330 1 }
-		victory_points = { 7319 1 }
-		victory_points = { 7645 1 }
-		victory_points = { 12150 1 }
-		victory_points = { 4596 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			4401 = {
+				naval_base = 4
+
+			}
+
+		}
+
 	}
 
 	provinces={
-		1324 1353 1620 4251 4302 
-		4330 4359 4596 4639 7319 
-		7376 7404 7432 7645 10134 10177 10204 10289 
-		10317 10467 12150 12167 12191 12260 
-		12447 12460 12475 5236
+		1285 1300 1328 1396 1400 1423 1605 4223 4284 4334 4341 4363 4401 4405 7238 7271 7303 7331 7347 7380 10162 10232 10261 12109 12133 12150 12176 12204 12232 
 	}
+	manpower=5245000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
 }

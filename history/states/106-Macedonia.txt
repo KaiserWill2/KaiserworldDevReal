@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = YUG
+		owner = GRE
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

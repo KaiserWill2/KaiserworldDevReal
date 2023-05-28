@@ -1825,9 +1825,56 @@ Ireland.18.o1:0 "This Will Not End Well"
 
 
 ##CANDA####
-Canada.1.t:0 "The “Chairmans” Broadcast"
-Canada.1.d:0 "People of the “Kingdom of Canada”, I..an actual native of this land greet you. I am Justin Trudeau of the Canadian Liberation Front and I claim responsibility for the killing of “Princess Diana”. These royalist scums have poisoned the nations spirit for too long I say!\n\nUnder my direct order, the man who you all know as Muhammed Yousef crashed his car into the royal motorcade of Diana killing her on impact I am told. This is only the first step in what is to come. Our revolution is only beginning and our vengeance will be swift. To the Royal Family and to their supporters  I promise that I will make the old revolution look a playdate at a childs playground.\n\nEither you run now or you can hang with your peers."
-Canada.1.o1:0 "The Revolution will be televised." 
+canada.1.t:0 "Crisis in the North"
+canada.1.d:0 "As the economic downturn casts its dark shadow over Canada, the nation finds itself grappling with the repercussions of a severe recession. Industries are struggling, businesses are downsizing, and unemployment rates are soaring. The government faces a daunting task to stabilize the economy and alleviate the hardships faced by its citizens.\n\nIn response to this crisis, the government is contemplating a series of measures aimed at reviving the economy and providing relief to those affected. These measures include increasing government spending to stimulate growth, initiating infrastructure projects to create new job opportunities, and implementing financial assistance programs to support struggling businesses. However, these actions require careful consideration, as they may have long-term implications for the nation's fiscal stability."
+canada.1.o1:0 "Acknowledge the Crisis." 
+canada.2.t:0 "Divided Loyalties"
+canada.2.d:0 "The deep-rooted tensions between Quebec and the rest of the kingdom have reached a critical juncture, as a surge in separatist sentiments threatens to plunge the nation into further instability. Protests, demonstrations, and demands for independence are echoing throughout Quebec, with the people fervently asserting their right to self-determination.\n\nThe challenge before the government is twofold: to address the concerns of Quebecois citizens and restore national stability. The Prime Minister must navigate the delicate balance between preserving the unity of the kingdom and addressing the legitimate aspirations of the Quebecois people.\n\nIt is clear that a comprehensive and inclusive strategy is required to resolve this longstanding issue. The government has the opportunity to engage in open dialogue, foster mutual understanding, and explore political solutions that can assuage the grievances of Quebec while upholding the integrity of the kingdom."
+canada.2.o1:0 "Address Quebec Separatism." 
+canada.3.t:0 "A Crisis of Confidence"
+canada.3.d:0 "The once-revered institution of the monarchy is facing unprecedented challenges, as the actions of King William have eroded public trust and confidence in the crown. The misuse of royal powers, a lack of transparency, and a perceived disconnect from the concerns of the people have left many questioning the relevance and legitimacy of the monarchy.\n\nTo address this crisis of confidence, the government has devised a plan to rejuvenate public support for the monarchy. A comprehensive royal tour is proposed, spanning various regions of the empire, with the objective of reconnecting the royal family with the people and showcasing the positive impact of the monarchy on the nation's heritage and culture.\n\nAdditionally, it is imperative to implement meaningful reforms to ensure greater accountability, transparency, and public participation within the monarchy. These reforms may include opening the royal finances for public scrutiny, establishing an independent oversight body, and fostering closer ties between the monarch and elected representatives. By embarking on this ambitious royal tour and enacting substantial reforms, the government aims to restore faith in the monarchy and secure its relevance for future generations. This endeavor represents a pivotal moment in the nation's history, as it determines the course of the monarchy and its relationship with the people."
+canada.3.o1:0 "Revitalize the Monarchy" 
+canada.4.t:0 "Empowering Quebec"
+canada.4.d:0 "The ongoing issue of Quebec separatism and demands for greater autonomy have intensified, posing a significant challenge to national unity and stability. In an effort to address these concerns and foster a spirit of cooperation, the government is considering a bold proposal to grant Quebec increased fiscal authority.\n\nThe ongoing issue of Quebec separatism and demands for greater autonomy have intensified, posing a significant challenge to national unity and stability. In an effort to address these concerns and foster a spirit of cooperation, the government is considering a bold proposal to grant Quebec increased fiscal authority.\n\nThe ongoing issue of Quebec separatism and demands for greater autonomy have intensified, posing a significant challenge to national unity and stability. In an effort to address these concerns and foster a spirit of cooperation, the government is considering a bold proposal to grant Quebec increased fiscal authority."
+canada.4.o1:0 "Empower Quebec's Autonomy" 
+canada.5.t:0 "Assessing Monarchy's Role"
+canada.5.d:0 "Recognizing the evolving dynamics and shifting public sentiment towards the monarchy, the government is proposing the establishment of a Constitutional Reform Commission. This commission's primary task will be to undertake a comprehensive review of the Canadian Constitution, with a particular focus on the role and powers of the monarchy.\n\nRecognizing the evolving dynamics and shifting public sentiment towards the monarchy, the government is proposing the establishment of a Constitutional Reform Commission. This commission's primary task will be to undertake a comprehensive review of the Canadian Constitution, with a particular focus on the role and powers of the monarchy.\n\nRecognizing the evolving dynamics and shifting public sentiment towards the monarchy, the government is proposing the establishment of a Constitutional Reform Commission. This commission's primary task will be to undertake a comprehensive review of the Canadian Constitution, with a particular focus on the role and powers of the monarchy."
+canada.5.o1:0 "Establish the Constitutional Reform Commission" 
+canada.6.t:0 "Assessing Monarchy's Role"
+canada.6.d:0 "As the sentiments surrounding the monarchy continue to shift, a bold initiative has emerged to reconnect the royal institution with the Canadian people. The proposal on the table is a comprehensive Royal Tour, wherein His Majesty King William V would embark on a journey across the nation, meeting citizens and promoting the virtues of the monarchy. However, important questions need to be addressed to ensure the tour's success.\n\nAs the sentiments surrounding the monarchy continue to shift, a bold initiative has emerged to reconnect the royal institution with the Canadian people. The proposal on the table is a comprehensive Royal Tour, wherein His Majesty King William V would embark on a journey across the nation, meeting citizens and promoting the virtues of the monarchy. However, important questions need to be addressed to ensure the tour's success.\n\nAs the sentiments surrounding the monarchy continue to shift, a bold initiative has emerged to reconnect the royal institution with the Canadian people. The proposal on the table is a comprehensive Royal Tour, wherein His Majesty King William V would embark on a journey across the nation, meeting citizens and promoting the virtues of the monarchy. However, important questions need to be addressed to ensure the tour's success."
+canada.6.o1:0 "Focused Tour: Address Specific Regions" 
+canada.6.o2:0 "Comprehensive Tour: Cover the Entire Nation" 
+canada.6.o3:0 "Government-Funded: Bear Larger Financial Burden" 
+canada.6.o4:0 "Monarchy Contribution: Share Financial Costs Equally" 
+canada.7.t:0 "The Passing of Jack Layton"
+canada.7.d:0 "The nation is plunged into mourning as news spreads of the untimely demise of Jack Layton, the beloved leader of the New Democratic Party (NDP). Layton's sudden death has sent shockwaves through the political landscape, leaving behind a legacy of progressive ideals and a void that will be deeply felt by the party and the country as a whole. The nation is plunged into mourning as news spreads of the untimely demise of Jack Layton, the beloved leader of the New Democratic Party (NDP). Layton's sudden death has sent shockwaves through the political landscape, leaving behind a legacy of progressive ideals and a void that will be deeply felt by the party and the country as a whole.\n\nMemorials and public gatherings spontaneously emerge in cities and towns across the country, as Canadians unite to pay their respects. Flowers, cards, and messages of gratitude accumulate at impromptu memorials, serving as a visible testament to Layton's profound influence on the nation.\n\nMemorials and public gatherings spontaneously emerge in cities and towns across the country, as Canadians unite to pay their respects. Flowers, cards, and messages of gratitude accumulate at impromptu memorials, serving as a visible testament to Layton's profound influence on the nation.Memorials and public gatherings spontaneously emerge in cities and towns across the country, as Canadians unite to pay their respects. Flowers, cards, and messages of gratitude accumulate at impromptu memorials, serving as a visible testament to Layton's profound influence on the nation."
+canada.7.o1:0 "Pay Tribute to Layton's Legacy" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#trud.1.t:0 "The “Chairmans” Broadcast"
+#trud.1.d:0 "People of the “Kingdom of Canada”, I..an actual native of this land greet you. I am Justin Trudeau of the Canadian Liberation Front and I claim responsibility for the killing of “Princess Diana”. These royalist scums have poisoned the nations spirit for too long I say!\n\nUnder my direct order, the man who you all know as Muhammed Yousef crashed his car into the royal motorcade of Diana killing her on impact I am told. This is only the first step in what is to come. Our revolution is only beginning and our vengeance will be swift. To the Royal Family and to their supporters  I promise that I will make the old revolution look a playdate at a childs playground.\n\nEither you run now or you can hang with your peers."
+#trud.1.o1:0 "The Revolution will be televised." 
+
 
 
 

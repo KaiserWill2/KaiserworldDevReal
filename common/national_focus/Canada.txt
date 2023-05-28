@@ -1,0 +1,1706 @@
+focus_tree = {
+	id = Canada
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = CAN
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1550 }
+
+	focus = {
+		id = CAN_A_Modern_Entente
+		icon = Icon_A_Modern_Entente_KW_copy
+		cost = 5
+		x = 5
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Intelligence_Sharing
+		icon = Icon_Intelligence_Sharing_KW_copy
+		cost = 5
+		x = 2
+		y = 1
+		prerequisite = { focus = CAN_A_Modern_Entente  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Maritime_Security
+		icon = Icon_Maritime_Security_KW_copy
+		cost = 5
+		x = 2
+		y = 2
+		prerequisite = { focus = CAN_Intelligence_Sharing  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Joint_Military_Exercises
+		icon = Icon_Joint_Military_Exercises_KW_copy
+		cost = 5
+		x = 5
+		y = 1
+		prerequisite = { focus = CAN_A_Modern_Entente  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Cybersecurity_Collaboration
+		icon = Icon_Cybersecurity_Collaboration_KW_copy
+		cost = 5
+		x = 5
+		y = 2
+		prerequisite = { focus = CAN_Joint_Military_Exercises  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Joint_Defense_Research_And_Development
+		icon = Icon_Joint_Defense_Research_and_Technology_KW_copy
+		cost = 5
+		x = 8
+		y = 1
+		prerequisite = { focus = CAN_A_Modern_Entente  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Peacekeeping_And_Humanitarian_Missions
+		icon = Icon_Peacekeeping_and_Humanitarian_Missions_KW_copy
+		cost = 5
+		x = 8
+		y = 2
+		prerequisite = { focus = CAN_Joint_Defense_Research_And_Development  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Enhancing_Diplomatic_Cooperation
+		icon = Icon_Enhancing_Diplomatic_Relations_KW_copy
+		cost = 5
+		x = 3
+		y = 3
+		prerequisite = { focus = CAN_Cybersecurity_Collaboration  }
+		prerequisite = { focus = CAN_Maritime_Security  }
+		prerequisite = { focus = CAN_Peacekeeping_And_Humanitarian_Missions  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Expanding_The_Entente
+		icon = Icon_Expanding_the_Entente_KW_copy
+		cost = 5
+		x = 7
+		y = 3
+		prerequisite = { focus = CAN_Cybersecurity_Collaboration  }
+		prerequisite = { focus = CAN_Maritime_Security  }
+		prerequisite = { focus = CAN_Peacekeeping_And_Humanitarian_Missions  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Addressing_The_Recession
+		icon = Icon_Addressing_the_Recession_KW_copy
+		cost = 5
+		x = 25
+		y = 0
+		completion_reward = {
+			country_event = {
+				id = Canada.1
+			}
+		}
+	}
+	focus = {
+		id = can_Increase_Government_Spending
+		icon = Icon_Increase_Government_Spending_KW_copy
+		cost = 5
+		x = 20
+		y = 1
+		prerequisite = { focus = CAN_Addressing_The_Recession  }
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_The_Quebec_Separatism
+		icon = Icon_Quebec_Seperatism_KW_copy
+		cost = 5
+		x = 21
+		y = 2
+		prerequisite = { focus = can_Increase_Government_Spending  }
+		prerequisite = { focus = can_Job_Creation_Program  }
+		prerequisite = { focus = can_Tax_Relief_For_Small_Businesses  }
+
+		completion_reward = {
+			country_event = {
+				id = Canada.2
+			}
+		}
+
+	}
+
+	focus = {
+		id = can_Quebec_Autonomy
+		icon = Icon_Quebec_Autonomy_KW_copy
+		cost = 5
+		x = 19
+		y = 3
+		prerequisite = { focus = can_The_Quebec_Separatism  }
+
+		completion_reward = {
+			country_event = {
+				id = Canada.4
+			}
+		}
+
+	}
+
+	focus = {
+		id = can_National_Unity_Fund
+		icon = Icon_National_Unity_Fund_KW_copy
+		cost = 5
+		x = 23
+		y = 3
+		prerequisite = { focus = can_The_Quebec_Separatism  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Investing_In_Indigenous_Communities
+		icon = Invest_in_Indian_Communities_KW_copy
+		cost = 5
+		x = 21
+		y = 4
+		prerequisite = { focus = can_National_Unity_Fund  }
+		prerequisite = { focus = can_Quebec_Autonomy  }
+
+		completion_reward = {
+			
+		}
+
+	}
+	
+	focus = {
+		id = can_Manage_The_Monarchy
+		icon = Icon_Manage_the_Monarchy_KW_copy
+		cost = 5
+		x = 28
+		y = 2
+		prerequisite = { focus = can_Increase_Government_Spending  }
+		prerequisite = { focus = can_Job_Creation_Program  }
+		prerequisite = { focus = can_Tax_Relief_For_Small_Businesses  }
+
+		completion_reward = {
+			country_event = {
+				id = Canada.3
+			}
+		}
+
+	}
+
+	
+	focus = {
+		id = can_Crown_Finances_Review
+		icon = Icon_Crown_Finances_Review_KW_copy
+		cost = 5
+		x = 26
+		y = 3
+		prerequisite = { focus = can_Manage_The_Monarchy  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Constitutional_Reform_Commission
+		icon = Icon_Constitutional_Reform_Commission_KW_copy
+		cost = 5
+		x = 30
+		y = 3
+		prerequisite = { focus = can_Manage_The_Monarchy  }
+
+		completion_reward = {
+			country_event = {
+				id = Canada.5
+			}
+		}
+
+	}
+
+	focus = {
+		id = can_Royal_Tour
+		icon = Icon_Royal_Tour_KW_copy
+		cost = 5
+		x = 28
+		y = 4
+		prerequisite = { focus = can_Crown_Finances_Review  }
+		prerequisite = { focus = can_Constitutional_Reform_Commission  }
+
+		completion_reward = {
+			country_event = {
+				id = Canada.6
+			}
+		}
+
+	}
+
+	focus = {
+		id = can_Job_Creation_Program
+		icon = Icon_Job_Creation_Programs_KW_copy
+		cost = 5
+		x = 25
+		y = 1
+		prerequisite = { focus = CAN_Addressing_The_Recession  }
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Tax_Relief_For_Small_Businesses
+		icon = Icon_Tax_Relief_for_Small_Businesses_KW_copy
+		cost = 5
+		x = 30
+		y = 1
+		prerequisite = { focus = CAN_Addressing_The_Recession  }
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Remembering_Jack_Layton
+		icon = Icon_Remembering_Jack_Layton_KW_copy
+		cost = 5
+		x = 25
+		y = 7
+
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Early_Election_Call
+		icon = Icon_Early_Election_Call_KW_copy
+		cost = 5
+		x = 25
+		y = 8
+
+		prerequisite = { focus = can_Remembering_Jack_Layton  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Campaign_Trial
+		icon = Icon_Campaign_Trail_KW_copy
+		cost = 5
+		x = 22
+		y = 9
+
+		prerequisite = { focus = can_Early_Election_Call  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Election_Promises
+		icon = Icon_Electoral_Promises_KW_copy
+		cost = 5
+		x = 25
+		y = 9
+
+		prerequisite = { focus = can_Early_Election_Call  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Final_Push
+		icon = Icon_Final_Push_KW_copy
+		cost = 5
+		x = 28
+		y = 9
+
+		prerequisite = { focus = can_Early_Election_Call  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+
+	focus = {
+		id = can_Election_Day
+		icon = Icon_Election_Day_KW_copy
+		cost = 5
+		x = 25
+		y = 10
+
+		prerequisite = { focus = can_Campaign_Trial  }
+		prerequisite = { focus = can_Election_Promises  }
+		prerequisite = { focus = can_Final_Push  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = CAN_New_Democrat_Party
+		icon = Icon_The_New_Democratic_Party_KW_copy
+		cost = 5
+		x = 45
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Dealing_with_the_Separatist_Movements
+		icon = Icon_Dealing_with_Seperatist_Movements_KW_copy
+		cost = 5
+		x = 39
+		y = 1
+
+		prerequisite = { focus = CAN_New_Democrat_Party  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Regional_Economic_Development
+		icon = Icon_Regional_Economic_Development_KW_copy
+		cost = 5
+		x = 36
+		y = 2
+
+		prerequisite = { focus = CAN_Dealing_with_the_Separatist_Movements  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Language_Rights
+		icon = Icon_Language_Rights_KW_copy
+		cost = 5
+		x = 39
+		y = 2
+
+		prerequisite = { focus = CAN_Dealing_with_the_Separatist_Movements  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Investing_In_Regional_Development
+		icon = Icon_Investing_in_Regional_Development_KW_copy
+		cost = 5
+		x = 42
+		y = 2
+
+		prerequisite = { focus = CAN_Dealing_with_the_Separatist_Movements  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Negotiating_With_Separatist_Leaders
+		icon = Icon_Negociating_with_Seperatist_Leaders_KW_copy
+		cost = 5
+		x = 37
+		y = 3
+
+		prerequisite = { focus = CAN_Investing_In_Regional_Development  }
+		prerequisite = { focus = CAN_Regional_Economic_Development  }
+		prerequisite = { focus = CAN_Language_Rights  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Negotiate_A_Peaceful_Separation
+		icon = Icon_Negociate_Peacefully_KW_copy
+		cost = 5
+		x = 41
+		y = 3
+
+		prerequisite = { focus = CAN_Investing_In_Regional_Development  }
+		prerequisite = { focus = CAN_Regional_Economic_Development  }
+		prerequisite = { focus = CAN_Language_Rights  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_A_Plan_To_Build_A_New_Nation
+		icon = Icon_A_Plan_to_Build_a_New_Nation_KW_copy
+		cost = 5
+		x = 39
+		y = 4
+
+		prerequisite = { focus = CAN_Negotiate_A_Peaceful_Separation  }
+		prerequisite = { focus = CAN_Negotiating_With_Separatist_Leaders  }
+
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Addressing_The_Economic_Recession
+		icon = Icon_Addressing_the_Economic_Recession_KW_copy
+		cost = 5
+		x = 50
+		y = 1
+
+		prerequisite = { focus = CAN_New_Democrat_Party  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Climate_Change_Action_Plan
+		icon = Icon_Climate_Change_Action_Plan_KW_copy
+		cost = 5
+		x = 47
+		y = 2
+
+		prerequisite = { focus = CAN_Addressing_The_Economic_Recession  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Investing_In_Infrastructure
+		icon = Icon_Invest_in_Infrastructure_KW_copy
+		cost = 5
+		x = 50
+		y = 2
+
+		prerequisite = { focus = CAN_Addressing_The_Economic_Recession  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Economic_Stimulus_Package
+		icon = Icon_Economic_Stimulus_Package_KW_copy
+		cost = 5
+		x = 53
+		y = 2
+
+		prerequisite = { focus = CAN_Addressing_The_Economic_Recession  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Expanding_Social_Programs
+		icon = Icon_Expanding_Healthcare_Program_KW_copy
+		cost = 5
+		x = 48
+		y = 3
+
+		prerequisite = { focus = CAN_Climate_Change_Action_Plan  }
+		prerequisite = { focus = CAN_Investing_In_Infrastructure  }
+		prerequisite = { focus = CAN_Economic_Stimulus_Package  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	
+	focus = {
+		id = CAN_Healthcare_Reform
+		icon = Icon_Healthcare_Reform_KW_copy
+		cost = 5
+		x = 52
+		y = 3
+
+		prerequisite = { focus = CAN_Climate_Change_Action_Plan  }
+		prerequisite = { focus = CAN_Investing_In_Infrastructure  }
+		prerequisite = { focus = CAN_Economic_Stimulus_Package  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Creating_Affordable_Housing
+		icon = Icon_Create_Affordable_Housing_KW_copy
+		cost = 5
+		x = 50
+		y = 4
+
+		prerequisite = { focus = CAN_Expanding_Social_Programs  }
+		prerequisite = { focus = CAN_Healthcare_Reform  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_The_Conservative_Party
+		icon = Icon_The_Conservative_Party_KW_copy
+		cost = 5
+		x = 68
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_National_Unity_Strategy
+		icon = Icon_National_Unity_Strategy_KW_copy
+		cost = 5
+		x = 63
+		y = 1
+
+		prerequisite = { focus = CAN_The_Conservative_Party  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Addressing_Economic_Grievances
+		icon = Icon_Addressing_Economic_Grievances_KW_copy
+		cost = 5
+		x = 61
+		y = 2
+
+		prerequisite = { focus = CAN_National_Unity_Strategy  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Showcasing_Albertas_Contributions_To_Canada
+		icon = Icon_Showcasing_Albertas_Contribution_to_Canada_KW_copy
+		cost = 5
+		x = 63
+		y = 2
+
+		prerequisite = { focus = CAN_National_Unity_Strategy  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Canadian_Values_Promotion
+		icon = Icon_Promote_Canadian_Values_KW_copy
+		cost = 5
+		x = 65
+		y = 2
+
+		prerequisite = { focus = CAN_National_Unity_Strategy  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Strengthening_Ties_Between_Alberta_And_The_Rest_Of_Canada
+		icon = Icon_Strenghtening_Ties_Between_Alberta_and_Canada_KW_copy
+		cost = 5
+		x = 62
+		y = 3
+
+		prerequisite = { focus = CAN_Addressing_Economic_Grievances  }
+		prerequisite = { focus = CAN_Showcasing_Albertas_Contributions_To_Canada  }
+		prerequisite = { focus = CAN_Canadian_Values_Promotion  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Engaging_With_Separatist_Leaders
+		icon = Icon_Engaging_with_Seperatist_Leaders_KW_copy
+		cost = 5
+		x = 64
+		y = 3
+
+		prerequisite = { focus = CAN_Addressing_Economic_Grievances  }
+		prerequisite = { focus = CAN_Showcasing_Albertas_Contributions_To_Canada  }
+		prerequisite = { focus = CAN_Canadian_Values_Promotion  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Promoting_Regional_Autonomy
+		icon = Icon_Promoting_Regional_Autonomy_KW_copy
+		cost = 5
+		x = 63
+		y = 4
+
+		prerequisite = { focus = CAN_Engaging_With_Separatist_Leaders  }
+		prerequisite = { focus = CAN_Strengthening_Ties_Between_Alberta_And_The_Rest_Of_Canada  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Economic_Recovery_Plan
+		icon = Icon_Economic_Recovery_Plan_KW_copy
+		cost = 5
+		x = 73
+		y = 1
+
+		prerequisite = { focus = CAN_The_Conservative_Party  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Supporting_Resource_Development
+		icon = Icon_Supporting_Ressource_Development_KW_copy
+		cost = 5
+		x = 71
+		y = 2
+
+		prerequisite = { focus = CAN_Economic_Recovery_Plan  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Strengthening_Trade_Relationsips
+		icon = Icon_Strengthening_Trade_Relations_KW_copy
+		cost = 5
+		x = 73
+		y = 2
+
+		prerequisite = { focus = CAN_Economic_Recovery_Plan  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_reduce_bureaucracy
+		icon = Icon_Reduce_Bureaucracy_KW_copy
+		cost = 5
+		x = 75
+		y = 2
+
+		prerequisite = { focus = CAN_Economic_Recovery_Plan  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+	focus = {
+		id = CAN_Encouraging_Small_Business_Growth
+		icon = Icon_Encourage_Small_Business_Growth_KW_copy
+		cost = 5
+		x = 72
+		y = 3
+
+		prerequisite = { focus = CAN_Supporting_Resource_Development  }
+		prerequisite = { focus = CAN_Strengthening_Trade_Relationsips  }
+		prerequisite = { focus = CAN_reduce_bureaucracy  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Supporting_Domestic_Industries
+		icon = unknown
+		cost = 5
+		x = 74
+		y = 3
+
+		prerequisite = { focus = CAN_Supporting_Resource_Development  }
+		prerequisite = { focus = CAN_Strengthening_Trade_Relationsips  }
+		prerequisite = { focus = CAN_reduce_bureaucracy  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Supporting_Domestic_Industries
+		icon = Icon_Support_Domestic_Industries_KW_copy
+		cost = 5
+		x = 74
+		y = 3
+
+		prerequisite = { focus = CAN_Supporting_Resource_Development  }
+		prerequisite = { focus = CAN_Strengthening_Trade_Relationsips  }
+		prerequisite = { focus = CAN_reduce_bureaucracy  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Investing_In_Innovation_And_Technology
+		icon = Icon_Investing_in_Innovation_and_Technology_KW_copy
+		cost = 5
+		x = 73
+		y = 4
+
+		prerequisite = { focus = CAN_Encouraging_Small_Business_Growth  }
+		prerequisite = { focus = CAN_Supporting_Domestic_Industries  }
+
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+
+	focus = {
+		id = can_Draft_A_Bill_To_Limit_The_Power_Of_King_William
+		icon = unknown
+		cost = 5
+		x = 56
+		y = 7
+
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+
+	focus = {
+		id = can_Approve_The_Bill
+		icon = unknown
+		cost = 5
+		x = 47
+		y = 8
+
+		prerequisite = { focus = can_Draft_A_Bill_To_Limit_The_Power_Of_King_William  }
+
+		mutually_exclusive = { focus = can_Kill_The_Bill  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_William_Refuses
+		icon = unknown
+		cost = 5
+		x = 50
+		y = 9
+
+		prerequisite = { focus = can_Approve_The_Bill  }
+
+		mutually_exclusive ={
+			focus = can_William_Agrees
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	
+	focus = {
+		id = can_Outrage_Across_Canada
+		icon = unknown
+		cost = 5
+		x = 51
+		y = 10
+
+		prerequisite = { focus = can_William_Refuses  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Parliaments_Response
+		icon = unknown
+		cost = 5
+		x = 52
+		y = 11
+
+		prerequisite = { focus = can_Outrage_Across_Canada  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	
+	focus = {
+		id = can_Williams_Resistance
+		icon = unknown
+		cost = 5
+		x = 50
+		y = 12
+
+		prerequisite = { focus = can_Parliaments_Response  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_The_Monarchys_Last_Stand
+		icon = unknown
+		cost = 5
+		x = 55
+		y = 12
+
+		prerequisite = { focus = can_Parliaments_Response  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_The_Monarchy_Decision
+		icon = unknown
+		cost = 5
+		x = 55
+		y = 13
+
+		prerequisite = { focus = can_The_Monarchys_Last_Stand  }
+
+		mutually_exclusive = {
+			focus = can_Williams_Absolute_Monarchy
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Elizabeth_Becomes_Queen
+		icon = unknown
+		cost = 5
+		x = 53
+		y = 14
+
+		prerequisite = { focus = can_The_Monarchy_Decision  }
+
+		mutually_exclusive ={
+			
+			focus = can_Abolishment_Of_The_Monarchy
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Abolishment_Of_The_Monarchy
+		icon = unknown
+		cost = 5
+		x = 57
+		y = 14
+
+		prerequisite = { focus = can_The_Monarchy_Decision  }
+
+		mutually_exclusive ={
+			
+			focus = can_Elizabeth_Becomes_Queen
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Williams_Absolute_Monarchy
+		icon = unknown
+		cost = 5
+		x = 50
+		y = 13
+
+		prerequisite = { focus = can_Williams_Resistance  }
+
+		mutually_exclusive = {
+			focus = can_The_Monarchy_Decision
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Securing_The_Kingdom
+		icon = unknown
+		cost = 5
+		x = 50
+		y = 14
+
+		prerequisite = { focus = can_Williams_Absolute_Monarchy  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_William_Agrees
+		icon = unknown
+		cost = 5
+		x = 44
+		y = 9
+
+		prerequisite = { focus = can_Approve_The_Bill  }
+		mutually_exclusive ={
+			focus = can_William_Refuses
+		}
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	
+
+	focus = {
+		id = can_A_Smooth_Transition
+		icon = unknown
+		cost = 5
+		x = 42
+		y = 10
+
+		prerequisite = { focus = can_William_Agrees  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Republicanism_on_The_Rise
+		icon = unknown
+		cost = 5
+		x = 41
+		y = 11
+
+		prerequisite = { focus = can_A_Smooth_Transition  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_A_New_Role_For_The_Monarchy
+		icon = unknown
+		cost = 5
+		x = 39
+		y = 12
+
+		prerequisite = { focus = can_Republicanism_on_The_Rise  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Reconciliation_And_Renewal
+		icon = unknown
+		cost = 5
+		x = 43
+		y = 12
+
+		prerequisite = { focus = can_Republicanism_on_The_Rise  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_The_Abdication_Of_King_William_V
+		icon = unknown
+		cost = 5
+		x = 41
+		y = 13
+
+		prerequisite = { focus = can_A_New_Role_For_The_Monarchy  }
+		prerequisite = { focus = can_Reconciliation_And_Renewal  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+
+
+
+
+
+
+	focus = {
+		id = can_Kill_The_Bill
+		icon = unknown
+		cost = 5
+		x = 65
+		y = 8
+
+		prerequisite = { focus = can_Draft_A_Bill_To_Limit_The_Power_Of_King_William  }
+
+		mutually_exclusive = { focus = can_Approve_The_Bill  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Political_Opposition
+		icon = unknown
+		cost = 5
+		x = 62
+		y = 9
+
+		prerequisite = { focus = can_Kill_The_Bill  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Calls_For_Greaters_Restrictions
+		icon = unknown
+		cost = 5
+		x = 65
+		y = 9
+
+		prerequisite = { focus = can_Kill_The_Bill  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Reassessing_Priorities
+		icon = unknown
+		cost = 5
+		x = 68
+		y = 9
+
+		prerequisite = { focus = can_Kill_The_Bill  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Renewed_Determination
+		icon = unknown
+		cost = 5
+		x = 65
+		y = 10
+
+		prerequisite = { focus = can_Reassessing_Priorities  }
+		prerequisite = { focus = can_Political_Opposition  }
+		prerequisite = { focus = can_Calls_For_Greaters_Restrictions  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Rethinking_Strategy
+		icon = unknown
+		cost = 5
+		x = 62
+		y = 11
+
+		prerequisite = { focus = can_Renewed_Determination  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Constitutional_Convention
+		icon = unknown
+		cost = 5
+		x = 64
+		y = 12
+
+		prerequisite = { focus = can_Rethinking_Strategy  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+
+	focus = {
+		id = can_National_Dialogue_And_Consultations
+		icon = unknown
+		cost = 5
+		x = 68
+		y = 11
+
+		prerequisite = { focus = can_Renewed_Determination  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Public_Opinion_Campaigns
+		icon = unknown
+		cost = 5
+		x = 66
+		y = 12
+
+		prerequisite = { focus = can_National_Dialogue_And_Consultations  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_International_Comparison_And_Research
+		icon = unknown
+		cost = 5
+		x = 65
+		y = 13
+
+		prerequisite = { focus = can_Public_Opinion_Campaigns  }
+		prerequisite = { focus = can_Constitutional_Convention  }
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Government_Proposal
+		icon = unknown
+		cost = 5
+		x = 66
+		y = 14
+
+		prerequisite = { focus = can_International_Comparison_And_Research  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Legislative_Process
+		icon = unknown
+		cost = 5
+		x = 64
+		y = 15
+
+		prerequisite = { focus = can_Government_Proposal  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Monarchy_Education_And_Awareness
+		icon = unknown
+		cost = 5
+		x = 64
+		y = 16
+
+		prerequisite = { focus = can_Legislative_Process  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	
+	focus = {
+		id = can_International_Comparison
+		icon = unknown
+		cost = 5
+		x = 64
+		y = 17
+
+		prerequisite = { focus = can_Monarchy_Education_And_Awareness  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Transition_Plan
+		icon = unknown
+		cost = 5
+		x = 68
+		y = 15
+
+		prerequisite = { focus = can_Government_Proposal  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Royal_Commission
+		icon = unknown
+		cost = 5
+		x = 68
+		y = 16
+
+		prerequisite = { focus = can_Transition_Plan  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Citizens_Assembly
+		icon = unknown
+		cost = 5
+		x = 68
+		y = 17
+
+		prerequisite = { focus = can_Royal_Commission  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Legal_Challenges
+		icon = unknown
+		cost = 5
+		x = 66
+		y = 18
+
+		prerequisite = { focus = can_Citizens_Assembly  }
+		prerequisite = { focus = can_International_Comparison  }
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Monarchy_In_The_Commonwealth
+		icon = unknown
+		cost = 5
+		x = 66
+		y = 19
+
+		prerequisite = { focus = can_Legal_Challenges  }
+
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Referendum_Outcome
+		icon = unknown
+		cost = 5
+		x = 66
+		y = 20
+
+		prerequisite = { focus = can_Monarchy_In_The_Commonwealth  }
+
+
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Monarchy_Reformed
+		icon = unknown
+		cost = 5
+		x = 63
+		y = 21
+
+		prerequisite = { focus = can_Referendum_Outcome  }
+
+		mutually_exclusive = {
+			focus = can_Monarchy_Abolished
+			focus = can_Monarchy_Sustained
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+	focus = {
+		id = can_Monarchy_Sustained
+		icon = unknown
+		cost = 5
+		x = 66
+		y = 21
+
+		prerequisite = { focus = can_Referendum_Outcome  }
+
+		mutually_exclusive = {
+			focus = can_Monarchy_Abolished
+			focus = can_Monarchy_Reformed
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = can_Monarchy_Abolished
+		icon = unknown
+		cost = 5
+		x = 69
+		y = 21
+
+		prerequisite = { focus = can_Referendum_Outcome  }
+
+		mutually_exclusive = {
+			focus = can_Monarchy_Sustained
+			focus = can_Monarchy_Reformed
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	
+	focus = {
+		id = CAN_Assuming_The_Throne
+		icon = Icon_Assuming_the_Throne_KW_copy
+		cost = 5
+		x = 90
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Restoring_Public_Trust
+		icon = Icon_Restoring_Public_Trust_KW_copy
+		cost = 5
+		x = 87
+		y = 1
+		prerequisite = { focus = CAN_Assuming_The_Throne  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Modernizing_The_Monarchy
+		icon = Icon_Modernizing_the_Monarchy_KW_copy
+		cost = 5
+		x = 90
+		y = 1
+		prerequisite = { focus = CAN_Assuming_The_Throne  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Engaging_In_State_Diplomacy
+		icon = Icon_Engaging_in_State_Diplomacy_KW_copy
+		cost = 5
+		x = 90
+		y = 2
+		prerequisite = { focus = CAN_Modernizing_The_Monarchy  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Preserving_Canadian_Heritage
+		icon = Icon_Preserving_Canadian_Heritage_KW_copy
+		cost = 5
+		x = 88
+		y = 2
+		prerequisite = { focus = CAN_Restoring_Public_Trust  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Promoting_Unity
+		icon = Icon_Promoting_Unity_KW_copy
+		cost = 5
+		x = 93
+		y = 1
+		prerequisite = { focus = CAN_Assuming_The_Throne  }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = CAN_Supporting_Charlitable_Causes
+		icon = Icon_Supporting_Charitable_Causes_KW_copy
+		cost = 5
+		x = 92
+		y = 2
+		prerequisite = { focus = CAN_Promoting_Unity  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = CAN_Securing_The_Monarchys_Future
+		icon = Icon_Securing_the_Monarchys_Future_KW_copy
+		cost = 5
+		x = 90
+		y = 3
+		prerequisite = { focus = CAN_Supporting_Charlitable_Causes  }
+		prerequisite = { focus = CAN_Preserving_Canadian_Heritage  }
+		prerequisite = { focus = CAN_Engaging_In_State_Diplomacy  }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+
+
+
+
+
+
+}

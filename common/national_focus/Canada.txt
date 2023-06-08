@@ -13,7 +13,7 @@ focus_tree = {
 	focus = {
 		id = CAN_A_Modern_Entente
 		icon = Icon_A_Modern_Entente_KW_copy
-		cost = 5
+		cost = 8
 		x = 5
 		y = 0
 		completion_reward = {
@@ -102,7 +102,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Enhancing_Diplomatic_Cooperation
 		icon = Icon_Enhancing_Diplomatic_Relations_KW_copy
-		cost = 5
+		cost = 3
 		x = 3
 		y = 3
 		prerequisite = { focus = CAN_Cybersecurity_Collaboration  }
@@ -117,7 +117,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Expanding_The_Entente
 		icon = Icon_Expanding_the_Entente_KW_copy
-		cost = 5
+		cost = 3
 		x = 7
 		y = 3
 		prerequisite = { focus = CAN_Cybersecurity_Collaboration  }
@@ -133,7 +133,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Addressing_The_Recession
 		icon = Icon_Addressing_the_Recession_KW_copy
-		cost = 5
+		cost = 7
 		x = 25
 		y = 0
 		completion_reward = {
@@ -158,7 +158,7 @@ focus_tree = {
 	focus = {
 		id = can_The_Quebec_Separatism
 		icon = Icon_Quebec_Seperatism_KW_copy
-		cost = 5
+		cost = 3
 		x = 21
 		y = 2
 		prerequisite = { focus = can_Increase_Government_Spending  }
@@ -176,7 +176,7 @@ focus_tree = {
 	focus = {
 		id = can_Quebec_Autonomy
 		icon = Icon_Quebec_Autonomy_KW_copy
-		cost = 5
+		cost = 2
 		x = 19
 		y = 3
 		prerequisite = { focus = can_The_Quebec_Separatism  }
@@ -192,7 +192,7 @@ focus_tree = {
 	focus = {
 		id = can_National_Unity_Fund
 		icon = Icon_National_Unity_Fund_KW_copy
-		cost = 5
+		cost = 2
 		x = 23
 		y = 3
 		prerequisite = { focus = can_The_Quebec_Separatism  }
@@ -206,7 +206,7 @@ focus_tree = {
 	focus = {
 		id = can_Investing_In_Indigenous_Communities
 		icon = Invest_in_Indian_Communities_KW_copy
-		cost = 5
+		cost = 2
 		x = 21
 		y = 4
 		prerequisite = { focus = can_National_Unity_Fund  }
@@ -221,7 +221,7 @@ focus_tree = {
 	focus = {
 		id = can_Manage_The_Monarchy
 		icon = Icon_Manage_the_Monarchy_KW_copy
-		cost = 5
+		cost = 3
 		x = 28
 		y = 2
 		prerequisite = { focus = can_Increase_Government_Spending  }
@@ -240,7 +240,7 @@ focus_tree = {
 	focus = {
 		id = can_Crown_Finances_Review
 		icon = Icon_Crown_Finances_Review_KW_copy
-		cost = 5
+		cost = 2
 		x = 26
 		y = 3
 		prerequisite = { focus = can_Manage_The_Monarchy  }
@@ -254,7 +254,7 @@ focus_tree = {
 	focus = {
 		id = can_Constitutional_Reform_Commission
 		icon = Icon_Constitutional_Reform_Commission_KW_copy
-		cost = 5
+		cost = 2
 		x = 30
 		y = 3
 		prerequisite = { focus = can_Manage_The_Monarchy  }
@@ -270,7 +270,7 @@ focus_tree = {
 	focus = {
 		id = can_Royal_Tour
 		icon = Icon_Royal_Tour_KW_copy
-		cost = 5
+		cost = 2
 		x = 28
 		y = 4
 		prerequisite = { focus = can_Crown_Finances_Review  }
@@ -317,11 +317,21 @@ focus_tree = {
 		cost = 5
 		x = 25
 		y = 7
-
-
+		available = {
+			has_country_flag = CAN_Death_Of_Jack
+		}
+		trigger = {
+			has_country_flag = Can_The_death_Of_Layton
+		}
+		allow_branch = {
+		has_country_flag = Can_The_death_Of_Layton
+		Can_The_death_Of_Layton = yes
+		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.8
+			}
 		}
 
 	}
@@ -329,7 +339,7 @@ focus_tree = {
 	focus = {
 		id = can_Early_Election_Call
 		icon = Icon_Early_Election_Call_KW_copy
-		cost = 5
+		cost = 3
 		x = 25
 		y = 8
 
@@ -337,7 +347,9 @@ focus_tree = {
 
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.9
+			}
 		}
 
 	}
@@ -345,7 +357,7 @@ focus_tree = {
 	focus = {
 		id = can_Campaign_Trial
 		icon = Icon_Campaign_Trail_KW_copy
-		cost = 5
+		cost = 3
 		x = 22
 		y = 9
 
@@ -361,7 +373,7 @@ focus_tree = {
 	focus = {
 		id = can_Election_Promises
 		icon = Icon_Electoral_Promises_KW_copy
-		cost = 5
+		cost = 3
 		x = 25
 		y = 9
 
@@ -377,7 +389,7 @@ focus_tree = {
 	focus = {
 		id = can_Final_Push
 		icon = Icon_Final_Push_KW_copy
-		cost = 5
+		cost = 3
 		x = 28
 		y = 9
 
@@ -395,7 +407,7 @@ focus_tree = {
 	focus = {
 		id = can_Election_Day
 		icon = Icon_Election_Day_KW_copy
-		cost = 5
+		cost = 2
 		x = 25
 		y = 10
 
@@ -405,7 +417,9 @@ focus_tree = {
 
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.10
+			}
 		}
 
 	}
@@ -414,11 +428,24 @@ focus_tree = {
 	focus = {
 		id = CAN_New_Democrat_Party
 		icon = Icon_The_New_Democratic_Party_KW_copy
-		cost = 5
+		cost = 8
 		x = 45
 		y = 0
+		available = {
+			has_country_flag = CAN_Death_Of_Jack
+		}
+		trigger = {
+			has_country_flag = The_Election
+		}
+		allow_branch = {
+		has_country_flag = The_Election
+		Can_The_death_Of_Layton = yes
+		}
+
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.11
+			}
 		}
 	}
 
@@ -432,7 +459,9 @@ focus_tree = {
 		prerequisite = { focus = CAN_New_Democrat_Party  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.13
+			}
 		}
 	}
 
@@ -440,7 +469,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Regional_Economic_Development
 		icon = Icon_Regional_Economic_Development_KW_copy
-		cost = 5
+		cost = 3
 		x = 36
 		y = 2
 
@@ -455,7 +484,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Language_Rights
 		icon = Icon_Language_Rights_KW_copy
-		cost = 5
+		cost = 3
 		x = 39
 		y = 2
 
@@ -470,7 +499,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Investing_In_Regional_Development
 		icon = Icon_Investing_in_Regional_Development_KW_copy
-		cost = 5
+		cost = 3
 		x = 42
 		y = 2
 
@@ -484,7 +513,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Negotiating_With_Separatist_Leaders
 		icon = Icon_Negociating_with_Seperatist_Leaders_KW_copy
-		cost = 5
+		cost = 2
 		x = 37
 		y = 3
 
@@ -493,14 +522,16 @@ focus_tree = {
 		prerequisite = { focus = CAN_Language_Rights  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.14
+			}
 		}
 	}
 
 	focus = {
 		id = CAN_Negotiate_A_Peaceful_Separation
 		icon = Icon_Negociate_Peacefully_KW_copy
-		cost = 5
+		cost = 2
 		x = 41
 		y = 3
 
@@ -509,14 +540,16 @@ focus_tree = {
 		prerequisite = { focus = CAN_Language_Rights  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.15
+			}
 		}
 	}
 
 	focus = {
 		id = CAN_A_Plan_To_Build_A_New_Nation
 		icon = Icon_A_Plan_to_Build_a_New_Nation_KW_copy
-		cost = 5
+		cost = 2
 		x = 39
 		y = 4
 
@@ -525,7 +558,9 @@ focus_tree = {
 
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.16
+			}
 		}
 	}
 
@@ -540,7 +575,9 @@ focus_tree = {
 		prerequisite = { focus = CAN_New_Democrat_Party  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.17
+			}	
 		}
 	}
 
@@ -548,7 +585,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Climate_Change_Action_Plan
 		icon = Icon_Climate_Change_Action_Plan_KW_copy
-		cost = 5
+		cost = 3
 		x = 47
 		y = 2
 
@@ -562,7 +599,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Investing_In_Infrastructure
 		icon = Icon_Invest_in_Infrastructure_KW_copy
-		cost = 5
+		cost = 3
 		x = 50
 		y = 2
 
@@ -577,7 +614,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Economic_Stimulus_Package
 		icon = Icon_Economic_Stimulus_Package_KW_copy
-		cost = 5
+		cost = 3
 		x = 53
 		y = 2
 
@@ -591,7 +628,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Expanding_Social_Programs
 		icon = Icon_Expanding_Healthcare_Program_KW_copy
-		cost = 5
+		cost = 2
 		x = 48
 		y = 3
 
@@ -600,7 +637,9 @@ focus_tree = {
 		prerequisite = { focus = CAN_Economic_Stimulus_Package  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.18
+			}	
 		}
 	}
 
@@ -608,7 +647,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Healthcare_Reform
 		icon = Icon_Healthcare_Reform_KW_copy
-		cost = 5
+		cost = 2
 		x = 52
 		y = 3
 
@@ -617,14 +656,16 @@ focus_tree = {
 		prerequisite = { focus = CAN_Economic_Stimulus_Package  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.19
+			}	
 		}
 	}
 
 	focus = {
 		id = CAN_Creating_Affordable_Housing
 		icon = Icon_Create_Affordable_Housing_KW_copy
-		cost = 5
+		cost = 2
 		x = 50
 		y = 4
 
@@ -632,7 +673,9 @@ focus_tree = {
 		prerequisite = { focus = CAN_Healthcare_Reform  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.20
+			}	
 		}
 	}
 
@@ -640,11 +683,20 @@ focus_tree = {
 	focus = {
 		id = CAN_The_Conservative_Party
 		icon = Icon_The_Conservative_Party_KW_copy
-		cost = 5
+		cost = 8
 		x = 68
 		y = 0
+		trigger = {
+			has_country_flag = The_Election
+		}
+		allow_branch = {
+		has_country_flag = The_Election
+		Can_The_death_Of_Layton = yes
+		}
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.12
+			}
 		}
 	}
 
@@ -658,14 +710,16 @@ focus_tree = {
 		prerequisite = { focus = CAN_The_Conservative_Party  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.21
+			}
 		}
 	}
 
 	focus = {
 		id = CAN_Addressing_Economic_Grievances
 		icon = Icon_Addressing_Economic_Grievances_KW_copy
-		cost = 5
+		cost = 4
 		x = 61
 		y = 2
 
@@ -679,7 +733,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Showcasing_Albertas_Contributions_To_Canada
 		icon = Icon_Showcasing_Albertas_Contribution_to_Canada_KW_copy
-		cost = 5
+		cost = 4
 		x = 63
 		y = 2
 
@@ -693,7 +747,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Canadian_Values_Promotion
 		icon = Icon_Promote_Canadian_Values_KW_copy
-		cost = 5
+		cost = 4
 		x = 65
 		y = 2
 
@@ -707,7 +761,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Strengthening_Ties_Between_Alberta_And_The_Rest_Of_Canada
 		icon = Icon_Strenghtening_Ties_Between_Alberta_and_Canada_KW_copy
-		cost = 5
+		cost = 3
 		x = 62
 		y = 3
 
@@ -723,7 +777,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Engaging_With_Separatist_Leaders
 		icon = Icon_Engaging_with_Seperatist_Leaders_KW_copy
-		cost = 5
+		cost = 3
 		x = 64
 		y = 3
 
@@ -732,14 +786,16 @@ focus_tree = {
 		prerequisite = { focus = CAN_Canadian_Values_Promotion  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.22
+			}
 		}
 	}
 
 	focus = {
 		id = CAN_Promoting_Regional_Autonomy
 		icon = Icon_Promoting_Regional_Autonomy_KW_copy
-		cost = 5
+		cost = 2
 		x = 63
 		y = 4
 
@@ -747,7 +803,9 @@ focus_tree = {
 		prerequisite = { focus = CAN_Strengthening_Ties_Between_Alberta_And_The_Rest_Of_Canada  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.23
+			}
 		}
 	}
 
@@ -761,14 +819,16 @@ focus_tree = {
 		prerequisite = { focus = CAN_The_Conservative_Party  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.24
+			}
 		}
 	}
 
 	focus = {
 		id = CAN_Supporting_Resource_Development
 		icon = Icon_Supporting_Ressource_Development_KW_copy
-		cost = 5
+		cost = 4
 		x = 71
 		y = 2
 
@@ -783,7 +843,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Strengthening_Trade_Relationsips
 		icon = Icon_Strengthening_Trade_Relations_KW_copy
-		cost = 5
+		cost = 4
 		x = 73
 		y = 2
 
@@ -797,7 +857,7 @@ focus_tree = {
 	focus = {
 		id = CAN_reduce_bureaucracy
 		icon = Icon_Reduce_Bureaucracy_KW_copy
-		cost = 5
+		cost = 4
 		x = 75
 		y = 2
 
@@ -813,7 +873,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Encouraging_Small_Business_Growth
 		icon = Icon_Encourage_Small_Business_Growth_KW_copy
-		cost = 5
+		cost = 3
 		x = 72
 		y = 3
 
@@ -846,7 +906,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Supporting_Domestic_Industries
 		icon = Icon_Support_Domestic_Industries_KW_copy
-		cost = 5
+		cost = 3
 		x = 74
 		y = 3
 
@@ -855,7 +915,9 @@ focus_tree = {
 		prerequisite = { focus = CAN_reduce_bureaucracy  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.25
+			}
 		}
 	}
 
@@ -863,7 +925,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Investing_In_Innovation_And_Technology
 		icon = Icon_Investing_in_Innovation_and_Technology_KW_copy
-		cost = 5
+		cost = 2
 		x = 73
 		y = 4
 
@@ -872,7 +934,9 @@ focus_tree = {
 
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.26
+			}
 		}
 	}
 
@@ -881,15 +945,17 @@ focus_tree = {
 
 	focus = {
 		id = can_Draft_A_Bill_To_Limit_The_Power_Of_King_William
-		icon = unknown
-		cost = 5
+		icon = Icon_Limit_King_Williams_Powers_KW_copy
+		cost = 10
 		x = 56
 		y = 7
 
-
+	
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.28
+			}
 		}
 
 	}
@@ -898,8 +964,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Approve_The_Bill
-		icon = unknown
-		cost = 5
+		icon = Icon_Approve_the_Bill_KW_copy
+		cost = 8
 		x = 47
 		y = 8
 
@@ -916,7 +982,7 @@ focus_tree = {
 
 	focus = {
 		id = can_William_Refuses
-		icon = unknown
+		icon = Icon_William_Refuses_KW_copy
 		cost = 5
 		x = 50
 		y = 9
@@ -928,7 +994,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.33
+			}
 		}
 
 	}
@@ -936,8 +1004,8 @@ focus_tree = {
 	
 	focus = {
 		id = can_Outrage_Across_Canada
-		icon = unknown
-		cost = 5
+		icon = Icon_Outrage_Across_Canada_KW_copy
+		cost = 4
 		x = 51
 		y = 10
 
@@ -945,7 +1013,9 @@ focus_tree = {
 
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.34
+			}
 		}
 
 	}
@@ -953,7 +1023,7 @@ focus_tree = {
 
 	focus = {
 		id = can_Parliaments_Response
-		icon = unknown
+		icon = Icon_Parliaments_Response_KW_copy
 		cost = 5
 		x = 52
 		y = 11
@@ -970,7 +1040,7 @@ focus_tree = {
 	
 	focus = {
 		id = can_Williams_Resistance
-		icon = unknown
+		icon = Icon_Williams_Resistance_KW_copy
 		cost = 5
 		x = 50
 		y = 12
@@ -986,7 +1056,7 @@ focus_tree = {
 
 	focus = {
 		id = can_The_Monarchys_Last_Stand
-		icon = unknown
+		icon = Icon_The_Monarchys_Last_Stand_KW_copy
 		cost = 5
 		x = 55
 		y = 12
@@ -1002,8 +1072,8 @@ focus_tree = {
 
 	focus = {
 		id = can_The_Monarchy_Decision
-		icon = unknown
-		cost = 5
+		icon = Icon_The_Monarchy_Decision_KW_copy
+		cost = 6
 		x = 55
 		y = 13
 
@@ -1014,55 +1084,65 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.36
+			}
 		}
 
 	}
 
 	focus = {
 		id = can_Elizabeth_Becomes_Queen
-		icon = unknown
+		icon = Icon_Elizabeth_becomes_Queen_of_Canada_KW_copy
 		cost = 5
 		x = 53
 		y = 14
 
 		prerequisite = { focus = can_The_Monarchy_Decision  }
-
+		available = {
+			has_country_flag = CAN_Queen_Liz
+		}
 		mutually_exclusive ={
 			
 			focus = can_Abolishment_Of_The_Monarchy
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.37
+			}
 		}
 
 	}
 
 	focus = {
 		id = can_Abolishment_Of_The_Monarchy
-		icon = unknown
+		icon = Icon_Abolishment_of_the_Monarchy_KW_copy
 		cost = 5
 		x = 57
 		y = 14
 
 		prerequisite = { focus = can_The_Monarchy_Decision  }
-
+		available = {
+			has_country_flag = CAN_Abolishing_The_Monarchy
+		}
 		mutually_exclusive ={
 			
 			focus = can_Elizabeth_Becomes_Queen
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.38
+			}
 		}
 
 	}
 
 	focus = {
 		id = can_Williams_Absolute_Monarchy
-		icon = unknown
-		cost = 5
+		icon = Icon_Williams_Absolute_Monarchy_KW_copy
+		cost = 6
 		x = 50
 		y = 13
 
@@ -1073,14 +1153,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.35
+			}
 		}
 
 	}
 
 	focus = {
 		id = can_Securing_The_Kingdom
-		icon = unknown
+		icon = Icon_Securing_the_Kingdom_KW_copy
 		cost = 5
 		x = 50
 		y = 14
@@ -1089,7 +1171,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			
+		
 		}
 
 	}
@@ -1097,7 +1179,7 @@ focus_tree = {
 
 	focus = {
 		id = can_William_Agrees
-		icon = unknown
+		icon = Icon_William_Agrees_KW_copy
 		cost = 5
 		x = 44
 		y = 9
@@ -1107,7 +1189,9 @@ focus_tree = {
 			focus = can_William_Refuses
 		}
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.29
+			}
 		}
 
 	}
@@ -1117,8 +1201,8 @@ focus_tree = {
 
 	focus = {
 		id = can_A_Smooth_Transition
-		icon = unknown
-		cost = 5
+		icon = Icon_Smooth_Transition_of_Power_KW_copy
+		cost = 4
 		x = 42
 		y = 10
 
@@ -1132,15 +1216,17 @@ focus_tree = {
 
 	focus = {
 		id = can_Republicanism_on_The_Rise
-		icon = unknown
-		cost = 5
+		icon = Icon_Republicanism_On_the_Rise_KW_copy
+		cost = 4
 		x = 41
 		y = 11
 
 		prerequisite = { focus = can_A_Smooth_Transition  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.30
+			}
 		}
 
 	}
@@ -1148,8 +1234,8 @@ focus_tree = {
 
 	focus = {
 		id = can_A_New_Role_For_The_Monarchy
-		icon = unknown
-		cost = 5
+		icon = Icon_A_New_Role_for_the_Monarchy_KW_copy
+		cost = 3
 		x = 39
 		y = 12
 
@@ -1163,22 +1249,24 @@ focus_tree = {
 
 	focus = {
 		id = can_Reconciliation_And_Renewal
-		icon = unknown
-		cost = 5
+		icon = Icon_Reconciliation_and_Renewal_KW_copy
+		cost = 3
 		x = 43
 		y = 12
 
 		prerequisite = { focus = can_Republicanism_on_The_Rise  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.31
+			}
 		}
 
 	}
 
 	focus = {
 		id = can_The_Abdication_Of_King_William_V
-		icon = unknown
+		icon = Icon_William_Vs_Abdication_KW_copy
 		cost = 5
 		x = 41
 		y = 13
@@ -1187,7 +1275,9 @@ focus_tree = {
 		prerequisite = { focus = can_Reconciliation_And_Renewal  }
 
 		completion_reward = {
-			
+			country_event = {
+				id = Canada.32
+			}
 		}
 
 	}
@@ -1201,8 +1291,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Kill_The_Bill
-		icon = unknown
-		cost = 5
+		icon = Icon_Kill_the_Bill_KW_copy
+		cost = 8
 		x = 65
 		y = 8
 
@@ -1219,7 +1309,7 @@ focus_tree = {
 
 	focus = {
 		id = can_Political_Opposition
-		icon = unknown
+		icon = Icon_Political_Opposition_KW_copy
 		cost = 5
 		x = 62
 		y = 9
@@ -1234,7 +1324,7 @@ focus_tree = {
 
 	focus = {
 		id = can_Calls_For_Greaters_Restrictions
-		icon = unknown
+		icon = Icon_Calls_for_Greater_Restrictions_KW_copy
 		cost = 5
 		x = 65
 		y = 9
@@ -1249,7 +1339,7 @@ focus_tree = {
 
 	focus = {
 		id = can_Reassessing_Priorities
-		icon = unknown
+		icon = Icon_Reassessing_Priorities_KW_copy
 		cost = 5
 		x = 68
 		y = 9
@@ -1265,8 +1355,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Renewed_Determination
-		icon = unknown
-		cost = 5
+		icon = Icon_Renewed_Determination_KW_copy
+		cost = 3
 		x = 65
 		y = 10
 
@@ -1282,8 +1372,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Rethinking_Strategy
-		icon = unknown
-		cost = 5
+		icon = Icon_Rethinking_Strategy_KW_copy
+		cost = 2
 		x = 62
 		y = 11
 
@@ -1297,8 +1387,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Constitutional_Convention
-		icon = unknown
-		cost = 5
+		icon = Icon_Constitutional_Convention_KW_copy
+		cost = 2
 		x = 64
 		y = 12
 
@@ -1314,8 +1404,8 @@ focus_tree = {
 
 	focus = {
 		id = can_National_Dialogue_And_Consultations
-		icon = unknown
-		cost = 5
+		icon = Icon_National_Dialogues_and_Consultations_KW_copy
+		cost = 2
 		x = 68
 		y = 11
 
@@ -1329,8 +1419,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Public_Opinion_Campaigns
-		icon = unknown
-		cost = 5
+		icon = Icon_Public_Opinion_Campaigns_KW_copy
+		cost = 2
 		x = 66
 		y = 12
 
@@ -1344,7 +1434,7 @@ focus_tree = {
 
 	focus = {
 		id = can_International_Comparison_And_Research
-		icon = unknown
+		icon = Icon_International_Comparison_and_Research_KW_copy
 		cost = 5
 		x = 65
 		y = 13
@@ -1360,8 +1450,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Government_Proposal
-		icon = unknown
-		cost = 5
+		icon = Icon_Government_Proposal_KW_copy
+		cost = 6
 		x = 66
 		y = 14
 
@@ -1377,8 +1467,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Legislative_Process
-		icon = unknown
-		cost = 5
+		icon = Icon_Legislative_Process_KW_copy
+		cost = 3
 		x = 64
 		y = 15
 
@@ -1393,8 +1483,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Monarchy_Education_And_Awareness
-		icon = unknown
-		cost = 5
+		icon = Icon_Monarchy_Education_and_Awarness_KW_copy
+		cost = 3
 		x = 64
 		y = 16
 
@@ -1410,8 +1500,8 @@ focus_tree = {
 	
 	focus = {
 		id = can_International_Comparison
-		icon = unknown
-		cost = 5
+		icon = Icon_International_Comparison_KW_copy
+		cost = 3
 		x = 64
 		y = 17
 
@@ -1427,8 +1517,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Transition_Plan
-		icon = unknown
-		cost = 5
+		icon = Icon_Transition_Plan_KW_copy
+		cost = 3
 		x = 68
 		y = 15
 
@@ -1444,8 +1534,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Royal_Commission
-		icon = unknown
-		cost = 5
+		icon = Icon_Royal_Commission_KW_copy
+		cost = 3
 		x = 68
 		y = 16
 
@@ -1460,8 +1550,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Citizens_Assembly
-		icon = unknown
-		cost = 5
+		icon = Icon_Citizens_Assembly_KW_copy
+		cost = 3
 		x = 68
 		y = 17
 
@@ -1477,8 +1567,8 @@ focus_tree = {
 
 	focus = {
 		id = can_Legal_Challenges
-		icon = unknown
-		cost = 5
+		icon = Icon_Legal_Consequences_KW_copy
+		cost = 2
 		x = 66
 		y = 18
 
@@ -1494,7 +1584,7 @@ focus_tree = {
 
 	focus = {
 		id = can_Monarchy_In_The_Commonwealth
-		icon = unknown
+		icon = Icon_The_Monarchy_in_the_Commonwealth_KW_copy
 		cost = 5
 		x = 66
 		y = 19
@@ -1512,7 +1602,7 @@ focus_tree = {
 
 	focus = {
 		id = can_Referendum_Outcome
-		icon = unknown
+		icon = Icon_Referendum_Outcome_KW_copy
 		cost = 5
 		x = 66
 		y = 20
@@ -1531,7 +1621,7 @@ focus_tree = {
 	focus = {
 		id = can_Monarchy_Reformed
 		icon = unknown
-		cost = 5
+		cost = 8
 		x = 63
 		y = 21
 
@@ -1552,7 +1642,7 @@ focus_tree = {
 	focus = {
 		id = can_Monarchy_Sustained
 		icon = unknown
-		cost = 5
+		cost = 8
 		x = 66
 		y = 21
 
@@ -1572,7 +1662,7 @@ focus_tree = {
 	focus = {
 		id = can_Monarchy_Abolished
 		icon = unknown
-		cost = 5
+		cost = 8
 		x = 69
 		y = 21
 
@@ -1593,7 +1683,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Assuming_The_Throne
 		icon = Icon_Assuming_the_Throne_KW_copy
-		cost = 5
+		cost = 10
 		x = 90
 		y = 0
 		completion_reward = {
@@ -1683,7 +1773,7 @@ focus_tree = {
 	focus = {
 		id = CAN_Securing_The_Monarchys_Future
 		icon = Icon_Securing_the_Monarchys_Future_KW_copy
-		cost = 5
+		cost = 3
 		x = 90
 		y = 3
 		prerequisite = { focus = CAN_Supporting_Charlitable_Causes  }

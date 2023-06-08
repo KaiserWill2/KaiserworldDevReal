@@ -1,5 +1,203 @@
 spriteTypes = {
 	
+	spriteType = {
+		name = "abolishing_the_monarchy_event"
+		texturefile = "gfx/event_pictures/report_event/abolishing_the_monarchy_event.dds"
+	}
+
+	spriteType = {
+		name = "liz_takes_over_event"
+		texturefile = "gfx/event_pictures/report_event/liz_takes_over_event.dds"
+	}
+	
+	spriteType = {
+		name = "monarchy_decision_event"
+		texturefile = "gfx/event_pictures/report_event/monarchy_decision_event.dds"
+	}
+	
+	spriteType = {
+		name = "williams_absolute_monarchy_Event"
+		texturefile = "gfx/event_pictures/report_event/williams_absolute_monarchy_Event.dds"
+	}  
+	
+	spriteType = {
+		name = "outrage_across_canada_event"
+		texturefile = "gfx/event_pictures/report_event/outrage_across_canada_event.dds"
+	}  
+
+	spriteType = {
+		name = "william_Refuses_event"
+		texturefile = "gfx/event_pictures/report_event/william_Refuses_event.dds"
+	}  
+	
+	spriteType = {
+		name = "abdiation_of_William_event"
+		texturefile = "gfx/event_pictures/report_event/abdiation_of_William_event.dds"
+	}  
+	
+	spriteType = {
+		name = "new_role_for_monarchy_event"
+		texturefile = "gfx/event_pictures/report_event/new_role_for_monarchy_event.dds"
+	}  
+	
+	spriteType = {
+		name = "republicanism_on_rise_event"
+		texturefile = "gfx/event_pictures/report_event/republicanism_on_rise_event.dds"
+	}  
+
+	spriteType = {
+		name = "william_agrees_event"
+		texturefile = "gfx/event_pictures/report_event/william_agrees_event.dds"
+	}  
+
+	spriteType = {
+		name = "drafting_the_bill_Event"
+		texturefile = "gfx/event_pictures/report_event/drafting_the_bill_Event.dds"
+	}  
+	
+	spriteType = {
+		name = "limiting_the_bill_draft_event"
+		texturefile = "gfx/event_pictures/report_event/limiting_the_bill_draft_event.dds"
+	}  
+	
+	spriteType = {
+		name = "canadian_innovation_event"
+		texturefile = "gfx/event_pictures/report_event/canadian_innovation_event.dds"
+	}  
+	
+	spriteType = {
+		name = "canadian_demoestic_events"
+		texturefile = "gfx/event_pictures/report_event/canadian_demoestic_events.dds"
+	}  
+	
+	spriteType = {
+		name = "canada_recovery_plan_event"
+		texturefile = "gfx/event_pictures/report_event/canada_recovery_plan_event.dds"
+	}  
+	
+	spriteType = {
+		name = "devloution_canada_event"
+		texturefile = "gfx/event_pictures/report_event/devloution_canada_event.dds"
+	}  
+
+	spriteType = {
+		name = "negoitating_with_sep_leaders_Event"
+		texturefile = "gfx/event_pictures/report_event/negoitating_with_sep_leaders_Event.dds"
+	}  
+	
+	
+	spriteType = {
+		name = "national_unity_strategy_event"
+		texturefile = "gfx/event_pictures/report_event/national_unity_strategy_event.dds"
+	}  
+	
+		
+	spriteType = {
+		name = "creating_Afforable_housing_event"
+		texturefile = "gfx/event_pictures/report_event/creating_Afforable_housing_event.dds"
+	}  
+	
+	
+	spriteType = {
+		name = "heatlhcare_reform_event"
+		texturefile = "gfx/event_pictures/report_event/heatlhcare_reform_event.dds"
+	}  
+	
+	
+	spriteType = {
+		name = "expanding_social_programs_event"
+		texturefile = "gfx/event_pictures/report_event/expanding_social_programs_event.dds"
+	}  
+	
+	spriteType = {
+		name = "addressing_economic_recession_event"
+		texturefile = "gfx/event_pictures/report_event/addressing_economic_recession_event.dds"
+	}  
+	
+	spriteType = {
+		name = "peceful_transition_event"
+		texturefile = "gfx/event_pictures/report_event/peceful_transition_event.dds"
+	}  
+	
+	spriteType = {
+		name = "plan_to_build_new_nation_event"
+		texturefile = "gfx/event_pictures/report_event/plan_to_build_new_nation_event.dds"
+	}  
+
+	
+	spriteType = {
+		name = "peaceful_separation_event"
+		texturefile = "gfx/event_pictures/report_event/peaceful_separation_event.dds"
+	}  
+
+	
+	spriteType = {
+		name = "negoiating_with_sep_leaders_event"
+		texturefile = "gfx/event_pictures/report_event/negoiating_with_sep_leaders_event.dds"
+	}  
+
+	
+	spriteType = {
+		name = "dealing_with_separatist_movements_Event"
+		texturefile = "gfx/event_pictures/report_event/dealing_with_separatist_movements_Event.dds"
+	}  
+
+	spriteType = {
+		name = "con_elecT_victory"
+		texturefile = "gfx/event_pictures/report_event/con_elecT_victory.dds"
+	}  
+
+	spriteType = {
+		name = "NDP_victory_event"
+		texturefile = "gfx/event_pictures/report_event/NDP_victory_event.dds"
+	}   
+	
+	spriteType = {
+		name = "calling_the_election_event"
+		texturefile = "gfx/event_pictures/report_event/calling_the_election_event.dds"
+	}   
+
+	spriteType = {
+		name = "remembering_jack_event"
+		texturefile = "gfx/event_pictures/report_event/remembering_jack_event.dds"
+	}   
+
+	spriteType = {
+		name = "jack_layton_death_event"
+		texturefile = "gfx/event_pictures/report_event/jack_layton_death_event.dds"
+	}   
+	
+	spriteType = {
+		name = "royal_tour_event"
+		texturefile = "gfx/event_pictures/report_event/royal_tour_event.dds"
+	}   
+	
+	spriteType = {
+		name = "constitutional_reform_commison_event"
+		texturefile = "gfx/event_pictures/report_event/constitutional_reform_commison_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "quebec_automny_event"
+		texturefile = "gfx/event_pictures/report_event/quebec_automny_event.dds"
+	}
+
+	spriteType = {
+		name = "manage_monarchy_event"
+		texturefile = "gfx/event_pictures/report_event/manage_monarchy_event.dds"
+	}
+	
+	spriteType = {
+		name = "quebec_independence_event"
+		texturefile = "gfx/event_pictures/report_event/quebec_independence_event.dds"
+	}
+	
+	spriteType = {
+		name = "addressing_the_recession_event"
+		texturefile = "gfx/event_pictures/report_event/addressing_the_recession_event.dds"
+	}
+	
 
 	spriteType = {
 		name = "england_breaks_apart_event"

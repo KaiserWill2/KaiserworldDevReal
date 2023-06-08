@@ -1,0 +1,123 @@
+on_actions = {
+	on_startup = {
+		effect = { # just a barebones setup
+			CAN = {
+				add_ideas = PB_Free_Press
+				add_ideas = PB_Universal_Citizenship
+				add_ideas = PB_Total_Gender_Equality
+				add_ideas = PB_8_Hour_Workday
+				add_ideas = standard_restrictions
+				add_ideas = PB_Universal_Healthcare
+				add_ideas = PB_Limited_Welfare
+				add_ideas = PB_Fully_Westernized
+				add_ideas = trade_unions_anticommie
+				add_ideas = rehabilitation
+				add_ideas = tariffs_average
+				add_ideas = extensive_training
+				add_ideas = equal_service
+			}
+			GER = {
+				add_ideas = limited_supervision
+				add_ideas = segregated_regiments
+				add_ideas = non_combat_roles
+				add_ideas = basic_training
+				add_ideas = standard_restrictions
+				add_ideas = religious_exemptions # only country i can think of that has this
+			}
+	
+			ENG = {
+				add_ideas = encouraged_brutality
+				add_ideas = recruitment_prohibited
+				add_ideas = female_service_prohibited
+				add_ideas = basic_training
+				add_ideas = strict_restrictions
+				add_ideas = penal_slavery
+				add_ideas = fdi_banned
+				add_ideas = PB_State_Press
+				add_ideas = PB_Managed_Democracy
+				
+			}
+			USA = {
+				add_ideas = PB_Free_Press
+				add_ideas = PB_Universal_Citizenship
+				add_ideas = PB_Total_Gender_Equality
+				add_ideas = PB_8_Hour_Workday
+				add_ideas = standard_restrictions
+				add_ideas = PB_Universal_Healthcare
+				add_ideas = PB_Limited_Welfare
+				add_ideas = PB_Fully_Westernized
+				add_ideas = trade_unions_anticommie
+				add_ideas = rehabilitation
+				add_ideas = tariffs_average
+				add_ideas = advanced_training
+				add_ideas = equal_service
+			}
+			KOR = {
+				add_ideas = encouraged_brutality
+				add_ideas = recruitment_prohibited
+				add_ideas = female_service_prohibited
+				add_ideas = extensive_training
+				add_ideas = standard_restrictions
+			}
+			SOV = {
+				add_ideas = dedicated_surveillance
+				add_ideas = segregated_regiments
+				add_ideas = female_combat_roles
+				add_ideas = minimal_training
+				add_ideas = standard_restrictions
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						tag = FRA
+						tag = USA
+						tag = ENG
+						tag = ITA
+						tag = JAP
+						tag = SOV
+						tag = CAN
+					}
+				}
+				if = {
+					limit = { has_government = national_conservative
+					has_government = liberal
+					has_government = centrist
+					has_government = new_democrat
+					has_government = moderate_socialist }
+					add_ideas = limited_supervision
+					add_ideas = segregated_regiments
+					add_ideas = non_combat_roles
+					add_ideas = basic_training
+					add_ideas = standard_restrictions
+				}
+				if = {
+					limit = { has_government = nationalist }
+					add_ideas = limited_supervision
+					add_ideas = recruitment_prohibited
+					add_ideas = female_service_prohibited
+					add_ideas = basic_training
+					add_ideas = standard_restrictions
+				}
+				if = {
+					limit = { has_government = fascist
+					has_government = national_bolshevik
+					has_government = monarchist }
+					add_ideas = no_supervision
+					add_ideas = recruitment_prohibited
+					add_ideas = female_service_prohibited
+					add_ideas = basic_training
+					add_ideas = strict_restrictions
+				}
+				if = {
+					limit = { has_government = revolutionary_socialist
+					has_government = communist }
+					add_ideas = limited_supervision
+					add_ideas = segregated_regiments
+					add_ideas = female_combat_roles
+					add_ideas = basic_training
+					add_ideas = standard_restrictions
+				}
+			}
+		}
+	}
+}

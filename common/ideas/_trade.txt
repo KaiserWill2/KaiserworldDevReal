@@ -49,7 +49,11 @@ ideas = {
 				NOT = { has_idea = libertarian_trade }
 				OR = {
 					AND = {
-						has_government = democratic
+						has_government = national_conservative
+						has_government = liberal
+						has_government = centrist
+						has_government = new_democrat
+						has_government = moderate_socialist
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = { 
@@ -59,7 +63,11 @@ ideas = {
 						}
 					}
 					AND = {
-						NOT = { has_government = democratic }
+						NOT = { 	has_government = national_conservative
+						has_government = liberal
+						has_government = centrist
+						has_government = new_democrat
+						has_government = moderate_socialist }
 						OR = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
@@ -100,8 +108,11 @@ ideas = {
 				NOT = { has_idea = libertarian_trade }
 				has_war = yes
 				OR = { 
-					has_government = fascism
-					has_government = communism
+					has_government = fascist
+					has_government = national_bolshevik
+					has_government = monarchist
+					has_government = revolutionary_socialist
+					has_government = communist
 				}
 				OR = {
 					has_idea = war_economy

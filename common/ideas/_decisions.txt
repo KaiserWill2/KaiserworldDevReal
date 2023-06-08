@@ -18,23 +18,15 @@ ideas = {
 					has_government = moderate_socialist
 				}
 				NOT = {
-					tag = USA
+					
 					tag = ENG
-					tag = GAU
-					tag = AMC
-					tag = PCA
-					tag = MWA
-					tag = RAJ
+					tag = GER
+					tag = SOV
+					tag = FRA
+					tag = AUS
+					tag = SCO
 				}
-				NOT = {
-				    AND = {
-					    tag = ITA 
-						OR = {
-						    has_completed_focus = ITA_the_merchant_republic_plan
-							has_completed_focus = ITA_solidarity_front_government
-						}
-					}
-				}
+				
 				NOT = {
 				    has_country_flag = called_general_election
 				}

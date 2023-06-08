@@ -82,8 +82,11 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
-					has_government = fascism
-					has_government = communism
+					has_government = fascist
+					has_government = national_bolshevik
+					has_government = monarchist
+					has_government = revolutionary_socialist
+					has_government = communist
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.5
@@ -135,7 +138,10 @@ ideas = {
 				OR = {
 					AND = {
 						OR = {
-							has_government = fascism has_government = communism
+							has_government = fascist
+					has_government = national_bolshevik
+					has_government = monarchist has_government = revolutionary_socialist
+							has_government = communist
 						}
 						OR = {
 							has_war = yes threat > 0.25

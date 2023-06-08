@@ -1,0 +1,130 @@
+ideas = {
+
+	womens_rights = { 
+		law = yes
+		use_list_view = yes
+
+		PB_Total_Gender_Equality = {
+						
+			
+			available = {
+				OR = {
+					
+					has_government = national_conservative
+					has_government = liberal
+					has_government = centrist
+					has_government = new_democrat
+					has_government = moderate_socialist
+				}
+			}
+			
+            picture = PB_Total_Gender_Equality
+                  	level = 5
+			modifier = {
+				conscription_factor = 0.05
+				stability_factor = -0.015
+				monthly_population = -0.5
+				conscription_factor = 0.15
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+			}
+			
+			cancel_if_invalid = yes
+		}
+
+		PB_Full_Womens_Equality = {
+						
+			
+
+			available = {
+				NOT = { 
+					has_government = fascist
+					has_government = national_bolshevik
+					has_government = monarchist
+				}
+			}
+			
+            picture = PB_Full_Womens_Equality
+                  	level = 4
+			modifier = {
+				conscription_factor = 0.01
+				stability_factor = 0.05
+				monthly_population = -0.25
+				conscription_factor = 0.10
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+			}
+			
+			cancel_if_invalid = yes
+		}
+
+		PB_Limited_Womens_Rights = {
+						
+
+			available = { 
+				
+			}
+			
+            picture = PB_Limited_Womens_Rights
+                  	level = 3
+			modifier = {
+				conscription_factor = 0.05
+				stability_factor = 0.02
+			}
+			
+			cancel_if_invalid = yes
+		}
+
+		PB_No_Womens_Legal_Protections = {
+						
+			
+
+			available = {
+				NOT = { 
+					has_government = revolutionary_socialist
+					has_government = communist
+				}
+			}
+			
+            picture = PB_No_Womens_Legal_Protections
+                  	level = 2
+			modifier = {
+				conscription_factor = -0.01
+				stability_factor = -0.02
+				political_power_gain = 0.05
+				monthly_population = 0.25
+				conscription_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+			
+			cancel_if_invalid = yes
+		}
+
+		PB_Patriarchal_Society = {
+						
+			
+
+			available = {
+				NOT = { 
+					has_government = revolutionary_socialist
+					has_government = communist
+				}
+			}
+			
+            picture = PB_Patriarchal_Society
+                  	level = 1
+			modifier = {
+				conscription_factor = -0.01
+				stability_factor = -0.1
+				political_power_gain = 0.1
+				monthly_population = 0.5
+				conscription_factor = -0.15
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+			
+			cancel_if_invalid = yes
+		}
+	}
+}

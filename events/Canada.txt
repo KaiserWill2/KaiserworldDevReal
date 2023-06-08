@@ -58,7 +58,11 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = canada.5.o1
-	
+		hidden_effect = {
+			CAN = {
+				country_event = { days = 50 id = canada.7 } 
+			}
+		}
 	}
 }
 
@@ -110,7 +114,7 @@ country_event = {
 	id = canada.7
 	title = canada.7.t
 	desc = canada.7.d
-	picture = constitutional_reform_commison_event
+	picture = jack_layton_death_event
 	is_triggered_only = yes
 	option = {
 		name = canada.7.o1
@@ -124,24 +128,468 @@ country_event = {
 			picture = "tom_mulclair.dds"
 			ideology = new_democrat_ideology
 		}
+		set_country_flag = Can_The_death_Of_Layton
+
 	}
 }
 
 
 
+country_event = {
+	id = canada.8
+	title = canada.8.t
+	desc = canada.8.d
+	picture = remembering_jack_event
+	is_triggered_only = yes
+	option = {
+		name = canada.8.o1
+		hidden_effect = {
+			CAN = {
+				country_event = { days = 30 id = canada.9 } 
+			}
+		}
+	}
+}
+
+country_event = {
+	id = canada.9
+	title = canada.9.t
+	desc = canada.9.d
+	picture = calling_the_election_event
+	is_triggered_only = yes
+	option = {
+		name = canada.9.o1
+
+	}
+}
+
+
+country_event = {
+	id = canada.10
+	title = canada.10.t
+	desc = canada.10.d
+	picture = calling_the_election_event
+	is_triggered_only = yes
+	option = {
+		name = canada.10.o1
+		set_political_party = {
+			ideology = national_conservative
+			popularity = 0.20
+		}
+		set_politics = {
+			ruling_party = national_conservative
+			elections_allowed = no
+			}
+			set_country_flag = The_Election
+			mark_focus_tree_layout_dirty = yes	}
+	option = {
+		name = canada.10.o1
+		add_popularity = {
+			ideology = new_democrat
+			popularity = 0.10
+		}
+		set_country_flag = The_Election
+		mark_focus_tree_layout_dirty = yes	
+	}
+}
+
+
+country_event = {
+	id = canada.11
+	title = canada.11.t
+	desc = canada.11.d
+	picture = NDP_victory_event
+	is_triggered_only = yes
+	option = {
+		name = canada.11.o1
+
+	}
+}
+
+
+country_event = {
+	id = canada.12
+	title = canada.12.t
+	desc = canada.12.d
+	picture = con_elecT_victory
+	is_triggered_only = yes
+	option = {
+		name = canada.12.o1
+
+	}
+}
+
+country_event = {
+	id = canada.13
+	title = canada.13.t
+	desc = canada.13.d
+	picture = dealing_with_separatist_movements_Event
+	is_triggered_only = yes
+	option = {
+		name = canada.13.o1
+
+	}
+}
+
+country_event = {
+	id = canada.14
+	title = canada.14.t
+	desc = canada.14.d
+	picture = negoiating_with_sep_leaders_event
+	is_triggered_only = yes
+	option = {
+		name = canada.14.o1
+
+	}
+}
+
+country_event = {
+	id = canada.15
+	title = canada.15.t
+	desc = canada.15.d
+	picture = plan_to_build_new_nation_event
+	is_triggered_only = yes
+	option = {
+		name = canada.15.o1
+
+	}
+}
+
+
+country_event = {
+	id = canada.16
+	title = canada.16.t
+	desc = canada.16.d
+	picture = peceful_transition_event
+	is_triggered_only = yes
+	option = {
+		name = canada.16.o1
+
+	}
+}
+
+
+country_event = {
+	id = canada.17
+	title = canada.17.t
+	desc = canada.17.d
+	picture = addressing_economic_recession_event
+	is_triggered_only = yes
+	option = {
+		name = canada.17.o1
+
+	}
+}
+
+country_event = {
+	id = canada.18
+	title = canada.18.t
+	desc = canada.18.d
+	picture = expanding_social_programs_event
+	is_triggered_only = yes
+	option = {
+		name = canada.18.o1
+
+	}
+}
+
+country_event = {
+	id = canada.19
+	title = canada.19.t
+	desc = canada.19.d
+	picture = heatlhcare_reform_event
+	is_triggered_only = yes
+	option = {
+		name = canada.19.o1
+
+	}
+}
+
+country_event = {
+	id = canada.20
+	title = canada.20.t
+	desc = canada.20.d
+	picture = creating_Afforable_housing_event
+	is_triggered_only = yes
+	option = {
+		name = canada.20.o1
+		hidden_effect = {
+			CAN = {
+				country_event = { days = 50 id = canada.27 } 
+			}
+		}
+	}
+}
+
+country_event = {
+	id = canada.21
+	title = canada.21.t
+	desc = canada.21.d
+	picture = national_unity_strategy_event
+	is_triggered_only = yes
+	option = {
+		name = canada.21.o1
+
+	}
+}
+
+country_event = {
+	id = canada.22
+	title = canada.22.t
+	desc = canada.22.d
+	picture = negoitating_with_sep_leaders_Event
+	is_triggered_only = yes
+	option = {
+		name = canada.22.o1
+
+	}
+}
+
+country_event = {
+	id = canada.23
+	title = canada.23.t
+	desc = canada.23.d
+	picture = devloution_canada_event
+	is_triggered_only = yes
+	option = {
+		name = canada.23.o1
+
+	}
+}
+
+
+country_event = {
+	id = canada.24
+	title = canada.24.t
+	desc = canada.24.d
+	picture = canada_recovery_plan_event
+	is_triggered_only = yes
+	option = {
+		name = canada.24.o1
+
+	}
+}
+
+country_event = {
+	id = canada.25
+	title = canada.25.t
+	desc = canada.25.d
+	picture = canadian_demoestic_events
+	is_triggered_only = yes
+	option = {
+		name = canada.25.o1
+
+	}
+}
+
+country_event = {
+	id = canada.26
+	title = canada.26.t
+	desc = canada.26.d
+	picture = canadian_innovation_event
+	is_triggered_only = yes
+	option = {
+		name = canada.26.o1
+		hidden_effect = {
+			CAN = {
+				country_event = { days = 50 id = canada.27 } 
+			}
+		}
+	}
+}
 
 
 
+country_event = {
+	id = canada.27
+	title = canada.27.t
+	desc = canada.27.d
+	picture = limiting_the_bill_draft_event
+	is_triggered_only = yes
+	option = {
+		name = canada.27.o1
+
+	}
+}
+
+country_event = {
+	id = canada.28
+	title = canada.28.t
+	desc = canada.28.d
+	picture = drafting_the_bill_Event
+	is_triggered_only = yes
+	option = {
+		name = canada.28.o1
+
+	}
+}
 
 
+country_event = {
+	id = canada.29
+	title = canada.29.t
+	desc = canada.29.d
+	picture = william_agrees_event
+	is_triggered_only = yes
+	option = {
+		name = canada.29.o1
+
+	}
+}
+
+country_event = {
+	id = canada.30
+	title = canada.30.t
+	desc = canada.30.d
+	picture = republicanism_on_rise_event
+	is_triggered_only = yes
+	option = {
+		name = canada.30.o1
+
+	}
+}
 
 
+country_event = {
+	id = canada.31
+	title = canada.31.t
+	desc = canada.31.d
+	picture = new_role_for_monarchy_event
+	is_triggered_only = yes
+	option = {
+		name = canada.31.o1
+
+	}
+}
 
 
+country_event = {
+	id = canada.32
+	title = canada.32.t
+	desc = canada.32.d
+	picture = abdiation_of_William_event
+	is_triggered_only = yes
+	option = {
+		name = canada.32.o1
+
+	}
+}
 
 
+country_event = {
+	id = canada.33
+	title = canada.33.t
+	desc = canada.33.d
+	picture = william_Refuses_event
+	is_triggered_only = yes
+	option = {
+		name = canada.33.o1
+
+	}
+}
+
+country_event = {
+	id = canada.34
+	title = canada.34.t
+	desc = canada.34.d
+	picture = outrage_across_canada_event
+	is_triggered_only = yes
+	option = {
+		name = canada.34.o1
+
+	}
+}
+
+country_event = {
+	id = canada.35
+	title = canada.35.t
+	desc = canada.35.d
+	picture = williams_absolute_monarchy_Event
+	is_triggered_only = yes
+	option = {
+		name = canada.35.o1
+		add_popularity = {
+			ideology = monarchist
+			popularity = 0.20
+		}
+		set_political_party = {
+			ideology = monarchist
+			popularity = 0.20
+		}
+		create_country_leader = {
+			name = "King William V"
+			picture = "king_william.dds"
+			ideology = absolute_monarchist
+		}
+	}
+}
+
+country_event = {
+	id = canada.36
+	title = canada.36.t
+	desc = canada.36.d
+	picture = monarchy_decision_event
+	is_triggered_only = yes
+	option = {
+		name = canada.36.o1
+		set_country_flag = CAN_Abolishing_The_Monarchy
+
+	}
+	option = {
+		name = canada.36.o2
+		add_popularity = {
+			ideology = monarchist
+			popularity = 0.20
+		}
+		set_political_party = {
+			ideology = monarchist
+			popularity = 0.20
+		}
+		create_country_leader = {
+			name = "Queen Elizabeth II"
+			picture = "queen_liz.dds"
+			ideology = Constitutional_monarchist
+		}
+
+		set_country_flag = CAN_Queen_Liz
+	}
+}
 
 
+country_event = {
+	id = canada.37
+	title = canada.37.t
+	desc = canada.37.d
+	picture = liz_takes_over_event
+	is_triggered_only = yes
+	option = {
+		name = canada.37.o1
 
+	}
+}
+
+
+country_event = {
+	id = canada.38
+	title = canada.38.t
+	desc = canada.38.d
+	picture = abolishing_the_monarchy_event
+	is_triggered_only = yes
+	option = {
+		name = canada.38.o1
+		set_cosmetic_tag = CAN_Republic_Of_Canada
+
+	}
+	option = {
+		name = canada.38.o2
+		set_cosmetic_tag = CAN_Republic_Of_Canada
+
+	}
+	option = {
+		name = canada.38.o3
+		set_cosmetic_tag = CAN_Republic_Of_Canada
+
+	}
+}
 
 
